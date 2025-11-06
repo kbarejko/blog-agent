@@ -49,18 +49,30 @@ class ClaudeProvider(BaseAIProvider):
         Returns:
             Generated text
         """
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=max_tokens or self.default_max_tokens,
-            temperature=temperature if temperature is not None else self.default_temperature,
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            **kwargs
-        )
+        import anthropic
+        
+        try:
+            response = self.client.messages.create(
+                model=self.model,
+                max_tokens=max_tokens or self.default_max_tokens,
+                temperature=temperature if temperature is not None else self.default_temperature,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                **kwargs
+            )
 
-        # Extract text from response
-        return response.content[0].text
+            # Extract text from response
+            return response.content[0].text
+        except anthropic.APIError as e:
+            # Re-raise with more context
+            error_msg = f"Anthropic API error: {e.message}"
+            if hasattr(e, 'status_code'):
+                error_msg += f" (status: {e.status_code})"
+            raise RuntimeError(error_msg) from e
+        except Exception as e:
+            # Wrap other exceptions
+            raise RuntimeError(f"Error generating text: {str(e)}") from e
 
     def get_provider_name(self) -> str:
         """Get provider name"""
