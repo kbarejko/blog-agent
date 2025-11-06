@@ -41,6 +41,7 @@ def write_section_with_review(
     common_prompt = prompts.get_common_prompt()
 
     # Build context from previous sections
+    # POPRZEDNIE_SEKCJE = all previous sections for better consistency
     previous_context = ""
     if section_index > 0:
         previous_sections = article.sections[:section_index]
@@ -48,7 +49,7 @@ def write_section_with_review(
 
     # Render prompt
     variables = {
-        'TEMAT_ARTYKULU': article.config.title,
+        'TYTUL_ARTYKULU': article.config.title,
         'KONSPEKT_TRESC': article.outline.to_markdown(),
         'WYTYCZNE_WSPOLNE': common_prompt,
         'TARGET_AUDIENCE': article.config.target_audience,
