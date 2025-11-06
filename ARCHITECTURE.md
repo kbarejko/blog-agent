@@ -31,7 +31,7 @@
 │  • AI Providers (Claude, OpenAI)            │
 │  • Git Operations                           │
 │  • File Storage                             │
-│  • Excel Reader (categories)                │
+│  • YAML Reader (categories)                 │
 │  • Payload CMS API                          │
 └─────────────────────────────────────────────┘
 ```
@@ -95,7 +95,7 @@ blog_agent/
 │       ├── __init__.py
 │       ├── prompt_loader.py        # Load & render prompts
 │       ├── review_service.py       # AI review logic
-│       └── category_matcher.py     # Match categories from Excel
+│       └── category_matcher.py     # Match categories from YAML
 │
 ├── infrastructure/                 # Concrete implementations
 │   ├── __init__.py
@@ -110,9 +110,9 @@ blog_agent/
 │   ├── git/
 │   │   ├── __init__.py
 │   │   └── git_ops.py              # Git wrapper
-│   ├── excel/
+│   ├── yaml/
 │   │   ├── __init__.py
-│   │   └── category_reader.py      # Read kategoria-artykulow.xlsx
+│   │   └── category_reader.py      # Read categories.yaml
 │   └── cms/
 │       ├── __init__.py
 │       └── payload_adapter.py      # Payload CMS v3 API
@@ -1594,7 +1594,7 @@ python cli.py create \
 ✅ Completed schema
 
 🔄 Executing categories...
-  ├─ Loading kategoria-artykulow.xlsx (147 categories)
+  ├─ Loading categories.yaml (146 categories)
   ├─ AI selecting best matches
   ├─ Selected: E-commerce, Bezpieczeństwo IT, RODO, Strategia IT
   └─ Git commit: [ecommerce/operacje/bezpieczenstwo-rodo] Assign categories

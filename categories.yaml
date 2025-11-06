@@ -1,0 +1,921 @@
+# Categories for Digital Vantage Blog
+# Auto-generated from kategoria-artykulow.xlsx
+# Edit this file to add descriptions and keywords
+
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  description: 'Kategoria: Strony Internetowe'
+  article_count: 58
+  url: strony-internetowe
+  keywords: []
+  children:
+  - slug: projektowanie-ux-ui
+    title: Projektowanie UX/UI
+    description: 'Kategoria: Projektowanie UX/UI'
+    article_count: 24
+    url: strony-internetowe/projektowanie-ux-ui
+    keywords: []
+    children:
+    - slug: najlepsze-praktyki-ux
+      title: Najlepsze Praktyki UX
+      description: 'Kategoria: Najlepsze Praktyki UX'
+      article_count: 6
+      url: strony-internetowe/projektowanie-ux-ui/najlepsze-praktyki-ux
+      keywords: []
+    - slug: design-systemy
+      title: Design Systemy
+      description: 'Kategoria: Design Systemy'
+      article_count: 4
+      url: strony-internetowe/projektowanie-ux-ui/design-systemy
+      keywords: []
+    - slug: ux-aplikacji-webowych
+      title: UX aplikacji webowych
+      description: 'Kategoria: UX aplikacji webowych'
+      article_count: 2
+      url: strony-internetowe/projektowanie-ux-ui/ux-aplikacji-webowych
+      keywords: []
+    - slug: testy-uzytecznosci
+      title: Testy Użyteczności
+      description: 'Kategoria: Testy Użyteczności'
+      article_count: 0
+      url: strony-internetowe/projektowanie-ux-ui/testy-uzytecznosci
+      keywords: []
+  - slug: content-management-systems-cms
+    title: Content Management Systems (CMS)
+    description: 'Kategoria: Content Management Systems (CMS)'
+    article_count: 22
+    url: strony-internetowe/content-management-systems-cms
+    keywords: []
+    children:
+    - slug: e-commerce
+      title: E-commerce
+      description: 'Kategoria: E-commerce'
+      article_count: 14
+      url: strony-internetowe/content-management-systems-cms/e-commerce
+      keywords: []
+      children:
+      - slug: sklepy-internetowe
+        title: Sklepy Internetowe
+        description: 'Kategoria: Sklepy Internetowe'
+        article_count: 11
+        url: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+        keywords: []
+    - slug: payload
+      title: Payload
+      description: 'Kategoria: Payload'
+      article_count: 0
+      url: strony-internetowe/content-management-systems-cms/payload
+      keywords: []
+    - slug: wordpress
+      title: Wordpress
+      description: 'Kategoria: Wordpress'
+      article_count: 0
+      url: strony-internetowe/content-management-systems-cms/wordpress
+      keywords: []
+  - slug: hosting-i-infrastruktura
+    title: Hosting i Infrastruktura
+    description: 'Kategoria: Hosting i Infrastruktura'
+    article_count: 20
+    url: strony-internetowe/hosting-i-infrastruktura
+    keywords: []
+    children:
+    - slug: cloud-hosting
+      title: Cloud Hosting
+      description: 'Kategoria: Cloud Hosting'
+      article_count: 10
+      url: strony-internetowe/hosting-i-infrastruktura/cloud-hosting
+      keywords: []
+    - slug: serwery-vps
+      title: Serwery VPS
+      description: 'Kategoria: Serwery VPS'
+      article_count: 7
+      url: strony-internetowe/hosting-i-infrastruktura/serwery-vps
+      keywords: []
+    - slug: zarzadzanie-domenami
+      title: Zarządzanie Domenami
+      description: 'Kategoria: Zarządzanie Domenami'
+      article_count: 4
+      url: strony-internetowe/hosting-i-infrastruktura/zarzadzanie-domenami
+      keywords: []
+    - slug: cdn
+      title: CDN
+      description: 'Kategoria: CDN'
+      article_count: 0
+      url: strony-internetowe/hosting-i-infrastruktura/cdn
+      keywords: []
+  - slug: frontend-development
+    title: Frontend Development
+    description: 'Kategoria: Frontend Development'
+    article_count: 12
+    url: strony-internetowe/frontend-development
+    keywords: []
+    children:
+    - slug: frameworki-frontendowe-next-react-angular-vue-js
+      title: Frameworki Frontendowe (Next, React, Angular, Vue.js)
+      description: 'Kategoria: Frameworki Frontendowe (Next, React, Angular, Vue.js)'
+      article_count: 5
+      url: strony-internetowe/frontend-development/frameworki-frontendowe-next-react-angular-vue-js
+      keywords: []
+    - slug: javascript
+      title: JavaScript
+      description: 'Kategoria: JavaScript'
+      article_count: 0
+      url: strony-internetowe/frontend-development/javascript
+      keywords: []
+    - slug: html
+      title: HTML
+      description: 'Kategoria: HTML'
+      article_count: 4
+      url: strony-internetowe/frontend-development/html
+      keywords: []
+    - slug: css
+      title: CSS
+      description: 'Kategoria: CSS'
+      article_count: 3
+      url: strony-internetowe/frontend-development/css
+      keywords: []
+  - slug: koszt-stron-internetowych
+    title: Koszt stron internetowych
+    description: 'Kategoria: Koszt stron internetowych'
+    article_count: 10
+    url: strony-internetowe/koszt-stron-internetowych
+    keywords: []
+  - slug: backend-development
+    title: Backend Development
+    description: 'Kategoria: Backend Development'
+    article_count: 5
+    url: strony-internetowe/backend-development
+    keywords: []
+    children:
+    - slug: node-js
+      title: Node.js
+      description: 'Kategoria: Node.js'
+      article_count: 1
+      url: strony-internetowe/backend-development/node-js
+      keywords: []
+    - slug: bazy-danych-sql-nosql
+      title: Bazy Danych (SQL, NoSQL)
+      description: 'Kategoria: Bazy Danych (SQL, NoSQL)'
+      article_count: 0
+      url: strony-internetowe/backend-development/bazy-danych-sql-nosql
+      keywords: []
+    - slug: api
+      title: API
+      description: 'Kategoria: API'
+      article_count: 0
+      url: strony-internetowe/backend-development/api
+      keywords: []
+  - slug: jamstack
+    title: Jamstack
+    description: 'Kategoria: Jamstack'
+    article_count: 0
+    url: strony-internetowe/jamstack
+    keywords: []
+  - slug: headless-cms
+    title: Headless CMS
+    description: 'Kategoria: Headless CMS'
+    article_count: 0
+    url: strony-internetowe/headless-cms
+    keywords: []
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  description: 'Kategoria: Marketing w Internecie'
+  article_count: 39
+  url: marketing-w-internecie
+  keywords: []
+  children:
+  - slug: seo-i-optymalizacja-stron
+    title: SEO i Optymalizacja Stron
+    description: 'Kategoria: SEO i Optymalizacja Stron'
+    article_count: 30
+    url: marketing-w-internecie/seo-i-optymalizacja-stron
+    keywords: []
+    children:
+    - slug: audyty-seo
+      title: Audyty SEO
+      description: 'Kategoria: Audyty SEO'
+      article_count: 6
+      url: marketing-w-internecie/seo-i-optymalizacja-stron/audyty-seo
+      keywords: []
+    - slug: link-building
+      title: Link Building
+      description: 'Kategoria: Link Building'
+      article_count: 1
+      url: marketing-w-internecie/seo-i-optymalizacja-stron/link-building
+      keywords: []
+    - slug: optymalizacja-techniczna
+      title: Optymalizacja Techniczna
+      description: 'Kategoria: Optymalizacja Techniczna'
+      article_count: 0
+      url: marketing-w-internecie/seo-i-optymalizacja-stron/optymalizacja-techniczna
+      keywords: []
+  - slug: content-marketing
+    title: Content Marketing
+    description: 'Kategoria: Content Marketing'
+    article_count: 8
+    url: marketing-w-internecie/content-marketing
+    keywords: []
+    children:
+    - slug: infografiki
+      title: Infografiki
+      description: 'Kategoria: Infografiki'
+      article_count: 0
+      url: marketing-w-internecie/content-marketing/infografiki
+      keywords: []
+    - slug: tworzenie-tresci-wideo
+      title: Tworzenie Treści Wideo
+      description: 'Kategoria: Tworzenie Treści Wideo'
+      article_count: 0
+      url: marketing-w-internecie/content-marketing/tworzenie-tresci-wideo
+      keywords: []
+    - slug: blogowanie
+      title: Blogowanie
+      description: 'Kategoria: Blogowanie'
+      article_count: 0
+      url: marketing-w-internecie/content-marketing/blogowanie
+      keywords: []
+  - slug: seo-lokalne
+    title: SEO lokalne
+    description: 'Kategoria: SEO lokalne'
+    article_count: 3
+    url: marketing-w-internecie/seo-lokalne
+    keywords: []
+  - slug: kampanie-ppc
+    title: Kampanie PPC
+    description: 'Kategoria: Kampanie PPC'
+    article_count: 2
+    url: marketing-w-internecie/kampanie-ppc
+    keywords: []
+    children:
+    - slug: automatyzacja-marketingu
+      title: Automatyzacja Marketingu
+      description: 'Kategoria: Automatyzacja Marketingu'
+      article_count: 1
+      url: marketing-w-internecie/kampanie-ppc/automatyzacja-marketingu
+      keywords: []
+    - slug: google-ads
+      title: Google Ads
+      description: 'Kategoria: Google Ads'
+      article_count: 1
+      url: marketing-w-internecie/kampanie-ppc/google-ads
+      keywords: []
+    - slug: retargeting
+      title: Retargeting
+      description: 'Kategoria: Retargeting'
+      article_count: 0
+      url: marketing-w-internecie/kampanie-ppc/retargeting
+      keywords: []
+  - slug: social-media
+    title: Social Media
+    description: 'Kategoria: Social Media'
+    article_count: 1
+    url: marketing-w-internecie/social-media
+    keywords: []
+    children:
+    - slug: instagram
+      title: Instagram
+      description: 'Kategoria: Instagram'
+      article_count: 0
+      url: marketing-w-internecie/social-media/instagram
+      keywords: []
+    - slug: linkedin-marketing
+      title: LinkedIn Marketing
+      description: 'Kategoria: LinkedIn Marketing'
+      article_count: 0
+      url: marketing-w-internecie/social-media/linkedin-marketing
+      keywords: []
+    - slug: facebook-ads
+      title: Facebook Ads
+      description: 'Kategoria: Facebook Ads'
+      article_count: 0
+      url: marketing-w-internecie/social-media/facebook-ads
+      keywords: []
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  description: 'Kategoria: Rozwój Oprogramowania'
+  article_count: 30
+  url: rozwoj-oprogramowania
+  keywords: []
+  children:
+  - slug: aplikacje-webowe
+    title: Aplikacje Webowe
+    description: 'Kategoria: Aplikacje Webowe'
+    article_count: 16
+    url: rozwoj-oprogramowania/aplikacje-webowe
+    keywords: []
+  - slug: dedykowane-oprogramowanie
+    title: Dedykowane oprogramowanie
+    description: 'Kategoria: Dedykowane oprogramowanie'
+    article_count: 12
+    url: rozwoj-oprogramowania/dedykowane-oprogramowanie
+    keywords: []
+  - slug: automatyzacja-procesow
+    title: Automatyzacja procesów
+    description: 'Kategoria: Automatyzacja procesów'
+    article_count: 7
+    url: rozwoj-oprogramowania/automatyzacja-procesow
+    keywords: []
+  - slug: metodyki-tworzenia-oprogramowania
+    title: Metodyki Tworzenia Oprogramowania
+    description: 'Kategoria: Metodyki Tworzenia Oprogramowania'
+    article_count: 7
+    url: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania
+    keywords: []
+    children:
+    - slug: waterfall
+      title: Waterfall
+      description: 'Kategoria: Waterfall'
+      article_count: 0
+      url: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania/waterfall
+      keywords: []
+    - slug: kanban
+      title: Kanban
+      description: 'Kategoria: Kanban'
+      article_count: 0
+      url: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania/kanban
+      keywords: []
+    - slug: scrum
+      title: Scrum
+      description: 'Kategoria: Scrum'
+      article_count: 0
+      url: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania/scrum
+      keywords: []
+    - slug: agile
+      title: Agile
+      description: 'Kategoria: Agile'
+      article_count: 0
+      url: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania/agile
+      keywords: []
+  - slug: planowanie-aplikacji-webowych
+    title: Planowanie aplikacji webowych
+    description: 'Kategoria: Planowanie aplikacji webowych'
+    article_count: 6
+    url: rozwoj-oprogramowania/planowanie-aplikacji-webowych
+    keywords: []
+  - slug: jezyki-programowania
+    title: Języki Programowania
+    description: 'Kategoria: Języki Programowania'
+    article_count: 5
+    url: rozwoj-oprogramowania/jezyki-programowania
+    keywords: []
+    children:
+    - slug: php
+      title: PHP
+      description: 'Kategoria: PHP'
+      article_count: 3
+      url: rozwoj-oprogramowania/jezyki-programowania/php
+      keywords: []
+    - slug: c-plus-plus
+      title: C++ (plus plus)
+      description: 'Kategoria: C++ (plus plus)'
+      article_count: 1
+      url: rozwoj-oprogramowania/jezyki-programowania/c-plus-plus
+      keywords: []
+    - slug: c
+      title: C#
+      description: 'Kategoria: C#'
+      article_count: 0
+      url: rozwoj-oprogramowania/jezyki-programowania/c
+      keywords: []
+    - slug: java
+      title: Java
+      description: 'Kategoria: Java'
+      article_count: 0
+      url: rozwoj-oprogramowania/jezyki-programowania/java
+      keywords: []
+    - slug: python
+      title: Python
+      description: 'Kategoria: Python'
+      article_count: 0
+      url: rozwoj-oprogramowania/jezyki-programowania/python
+      keywords: []
+  - slug: frameworki
+    title: Frameworki
+    description: 'Kategoria: Frameworki'
+    article_count: 3
+    url: rozwoj-oprogramowania/frameworki
+    keywords: []
+    children:
+    - slug: react
+      title: React
+      description: 'Kategoria: React'
+      article_count: 1
+      url: rozwoj-oprogramowania/frameworki/react
+      keywords: []
+    - slug: spring-boot
+      title: Spring Boot
+      description: 'Kategoria: Spring Boot'
+      article_count: 0
+      url: rozwoj-oprogramowania/frameworki/spring-boot
+      keywords: []
+    - slug: laravel
+      title: Laravel
+      description: 'Kategoria: Laravel'
+      article_count: 0
+      url: rozwoj-oprogramowania/frameworki/laravel
+      keywords: []
+    - slug: angular
+      title: Angular
+      description: 'Kategoria: Angular'
+      article_count: 0
+      url: rozwoj-oprogramowania/frameworki/angular
+      keywords: []
+    - slug: django
+      title: Django
+      description: 'Kategoria: Django'
+      article_count: 0
+      url: rozwoj-oprogramowania/frameworki/django
+      keywords: []
+  - slug: technologie-aplikacji-webowych
+    title: Technologie aplikacji webowych
+    description: 'Kategoria: Technologie aplikacji webowych'
+    article_count: 2
+    url: rozwoj-oprogramowania/technologie-aplikacji-webowych
+    keywords: []
+  - slug: testowanie-automatyczne
+    title: Testowanie Automatyczne
+    description: 'Kategoria: Testowanie Automatyczne'
+    article_count: 1
+    url: rozwoj-oprogramowania/testowanie-automatyczne
+    keywords: []
+  - slug: ci-cd
+    title: CI/CD
+    description: 'Kategoria: CI/CD'
+    article_count: 1
+    url: rozwoj-oprogramowania/ci-cd
+    keywords: []
+  - slug: narzedzia-programistyczne
+    title: Narzędzia Programistyczne
+    description: 'Kategoria: Narzędzia Programistyczne'
+    article_count: 1
+    url: rozwoj-oprogramowania/narzedzia-programistyczne
+    keywords: []
+    children:
+    - slug: jenkins
+      title: Jenkins
+      description: 'Kategoria: Jenkins'
+      article_count: 0
+      url: rozwoj-oprogramowania/narzedzia-programistyczne/jenkins
+      keywords: []
+    - slug: kubernetes
+      title: Kubernetes
+      description: 'Kategoria: Kubernetes'
+      article_count: 0
+      url: rozwoj-oprogramowania/narzedzia-programistyczne/kubernetes
+      keywords: []
+    - slug: docker
+      title: Docker
+      description: 'Kategoria: Docker'
+      article_count: 0
+      url: rozwoj-oprogramowania/narzedzia-programistyczne/docker
+      keywords: []
+    - slug: git
+      title: Git
+      description: 'Kategoria: Git'
+      article_count: 0
+      url: rozwoj-oprogramowania/narzedzia-programistyczne/git
+      keywords: []
+- slug: it-i-technologia
+  title: IT i Technologia
+  description: 'Kategoria: IT i Technologia'
+  article_count: 27
+  url: it-i-technologia
+  keywords: []
+  children:
+  - slug: mobilne-technologie
+    title: Mobilne Technologie
+    description: 'Kategoria: Mobilne Technologie'
+    article_count: 24
+    url: it-i-technologia/mobilne-technologie
+    keywords: []
+    children:
+    - slug: responsywne-strony
+      title: Responsywne Strony
+      description: 'Kategoria: Responsywne Strony'
+      article_count: 16
+      url: it-i-technologia/mobilne-technologie/responsywne-strony
+      keywords: []
+    - slug: aplikacje-mobilne
+      title: Aplikacje Mobilne
+      description: 'Kategoria: Aplikacje Mobilne'
+      article_count: 7
+      url: it-i-technologia/mobilne-technologie/aplikacje-mobilne
+      keywords: []
+    - slug: systemy-operacyjne-android-ios
+      title: Systemy Operacyjne (Android, iOS)
+      description: 'Kategoria: Systemy Operacyjne (Android, iOS)'
+      article_count: 0
+      url: it-i-technologia/mobilne-technologie/systemy-operacyjne-android-ios
+      keywords: []
+  - slug: zarzadzanie-it
+    title: Zarządzanie IT
+    description: 'Kategoria: Zarządzanie IT'
+    article_count: 2
+    url: it-i-technologia/zarzadzanie-it
+    keywords: []
+    children:
+    - slug: infrastruktura-it
+      title: Infrastruktura IT
+      description: 'Kategoria: Infrastruktura IT'
+      article_count: 2
+      url: it-i-technologia/zarzadzanie-it/infrastruktura-it
+      keywords: []
+    - slug: devops
+      title: DevOps
+      description: 'Kategoria: DevOps'
+      article_count: 0
+      url: it-i-technologia/zarzadzanie-it/devops
+      keywords: []
+    - slug: itil
+      title: ITIL
+      description: 'Kategoria: ITIL'
+      article_count: 0
+      url: it-i-technologia/zarzadzanie-it/itil
+      keywords: []
+  - slug: nowe-technologie
+    title: Nowe Technologie
+    description: 'Kategoria: Nowe Technologie'
+    article_count: 1
+    url: it-i-technologia/nowe-technologie
+    keywords: []
+    children:
+    - slug: big-data
+      title: Big Data
+      description: 'Kategoria: Big Data'
+      article_count: 0
+      url: it-i-technologia/nowe-technologie/big-data
+      keywords: []
+    - slug: iot-internet-of-things
+      title: IoT (Internet of Things)
+      description: 'Kategoria: IoT (Internet of Things)'
+      article_count: 0
+      url: it-i-technologia/nowe-technologie/iot-internet-of-things
+      keywords: []
+    - slug: blockchain
+      title: Blockchain
+      description: 'Kategoria: Blockchain'
+      article_count: 0
+      url: it-i-technologia/nowe-technologie/blockchain
+      keywords: []
+    - slug: ai-i-machine-learning
+      title: AI i Machine Learning
+      description: 'Kategoria: AI i Machine Learning'
+      article_count: 0
+      url: it-i-technologia/nowe-technologie/ai-i-machine-learning
+      keywords: []
+  - slug: komputery-i-sprzet
+    title: Komputery i Sprzęt
+    description: 'Kategoria: Komputery i Sprzęt'
+    article_count: 0
+    url: it-i-technologia/komputery-i-sprzet
+    keywords: []
+    children:
+    - slug: sprzet-serwerowy
+      title: Sprzęt Serwerowy
+      description: 'Kategoria: Sprzęt Serwerowy'
+      article_count: 0
+      url: it-i-technologia/komputery-i-sprzet/sprzet-serwerowy
+      keywords: []
+    - slug: karty-graficzne
+      title: Karty Graficzne
+      description: 'Kategoria: Karty Graficzne'
+      article_count: 0
+      url: it-i-technologia/komputery-i-sprzet/karty-graficzne
+      keywords: []
+    - slug: procesory-i-pamieci
+      title: Procesory i Pamięci
+      description: 'Kategoria: Procesory i Pamięci'
+      article_count: 0
+      url: it-i-technologia/komputery-i-sprzet/procesory-i-pamieci
+      keywords: []
+- slug: firma
+  title: Firma
+  description: 'Kategoria: Firma'
+  article_count: 19
+  url: firma
+  keywords: []
+  children:
+  - slug: technologie-dla-firm
+    title: Technologie dla firm
+    description: 'Kategoria: Technologie dla firm'
+    article_count: 9
+    url: firma/technologie-dla-firm
+    keywords: []
+  - slug: narzedzia-biznesowe
+    title: Narzędzia biznesowe
+    description: 'Kategoria: Narzędzia biznesowe'
+    article_count: 7
+    url: firma/narzedzia-biznesowe
+    keywords: []
+    children:
+    - slug: saas
+      title: Saas
+      description: 'Kategoria: Saas'
+      article_count: 6
+      url: firma/narzedzia-biznesowe/saas
+      keywords: []
+  - slug: google-profil-firmy
+    title: Google Profil Firmy
+    description: 'Kategoria: Google Profil Firmy'
+    article_count: 6
+    url: firma/google-profil-firmy
+    keywords: []
+  - slug: google-maps
+    title: Google Maps
+    description: 'Kategoria: Google Maps'
+    article_count: 5
+    url: firma/google-maps
+    keywords: []
+  - slug: startup
+    title: Startup
+    description: 'Kategoria: Startup'
+    article_count: 2
+    url: firma/startup
+    keywords: []
+  - slug: praca-zdalna
+    title: Praca Zdalna
+    description: 'Kategoria: Praca Zdalna'
+    article_count: 1
+    url: firma/praca-zdalna
+    keywords: []
+    children:
+    - slug: zoom
+      title: Zoom
+      description: 'Kategoria: Zoom'
+      article_count: 0
+      url: firma/praca-zdalna/zoom
+      keywords: []
+    - slug: microsoft-teams
+      title: Microsoft Teams
+      description: 'Kategoria: Microsoft Teams'
+      article_count: 0
+      url: firma/praca-zdalna/microsoft-teams
+      keywords: []
+    - slug: slack
+      title: Slack
+      description: 'Kategoria: Slack'
+      article_count: 0
+      url: firma/praca-zdalna/slack
+      keywords: []
+  - slug: case-studies-studia-przypadkow
+    title: Case studies (Studia przypadków)
+    description: 'Kategoria: Case studies (Studia przypadków)'
+    article_count: 0
+    url: firma/case-studies-studia-przypadkow
+    keywords: []
+- slug: strategia-it
+  title: Strategia IT
+  description: 'Kategoria: Strategia IT'
+  article_count: 17
+  url: strategia-it
+  keywords: []
+  children:
+  - slug: koszty-i-budzetowanie-it
+    title: Koszty i budżetowanie IT
+    description: 'Kategoria: Koszty i budżetowanie IT'
+    article_count: 8
+    url: strategia-it/koszty-i-budzetowanie-it
+    keywords: []
+  - slug: decyzje-strategiczne-it
+    title: Decyzje strategiczne IT
+    description: 'Kategoria: Decyzje strategiczne IT'
+    article_count: 7
+    url: strategia-it/decyzje-strategiczne-it
+    keywords: []
+  - slug: utrzymanie-i-rozwoj-systemow
+    title: Utrzymanie i rozwój systemów
+    description: 'Kategoria: Utrzymanie i rozwój systemów'
+    article_count: 3
+    url: strategia-it/utrzymanie-i-rozwoj-systemow
+    keywords: []
+  - slug: bezpieczenstwo-i-ryzyka-it
+    title: Bezpieczeństwo i ryzyka IT
+    description: 'Kategoria: Bezpieczeństwo i ryzyka IT'
+    article_count: 1
+    url: strategia-it/bezpieczenstwo-i-ryzyka-it
+    keywords: []
+  - slug: wybor-wykonawcy-i-modelu-wspolpracy
+    title: Wybór wykonawcy i modelu współpracy
+    description: 'Kategoria: Wybór wykonawcy i modelu współpracy'
+    article_count: 0
+    url: strategia-it/wybor-wykonawcy-i-modelu-wspolpracy
+    keywords: []
+  - slug: planowanie-rozwoju-technologicznego
+    title: Planowanie rozwoju technologicznego
+    description: 'Kategoria: Planowanie rozwoju technologicznego'
+    article_count: 0
+    url: strategia-it/planowanie-rozwoju-technologicznego
+    keywords: []
+- slug: oprogramowanie-i-narzedzia
+  title: Oprogramowanie i Narzędzia
+  description: 'Kategoria: Oprogramowanie i Narzędzia'
+  article_count: 5
+  url: oprogramowanie-i-narzedzia
+  keywords: []
+  children:
+  - slug: narzedzia-do-analityki
+    title: Narzędzia do Analityki
+    description: 'Kategoria: Narzędzia do Analityki'
+    article_count: 3
+    url: oprogramowanie-i-narzedzia/narzedzia-do-analityki
+    keywords: []
+    children:
+    - slug: google-analytics
+      title: Google Analytics
+      description: 'Kategoria: Google Analytics'
+      article_count: 2
+      url: oprogramowanie-i-narzedzia/narzedzia-do-analityki/google-analytics
+      keywords: []
+    - slug: ahrefs
+      title: Ahrefs
+      description: 'Kategoria: Ahrefs'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-do-analityki/ahrefs
+      keywords: []
+    - slug: hotjar
+      title: Hotjar
+      description: 'Kategoria: Hotjar'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-do-analityki/hotjar
+      keywords: []
+  - slug: oprogramowanie-do-projektowania
+    title: Oprogramowanie do Projektowania
+    description: 'Kategoria: Oprogramowanie do Projektowania'
+    article_count: 1
+    url: oprogramowanie-i-narzedzia/oprogramowanie-do-projektowania
+    keywords: []
+    children:
+    - slug: sketch
+      title: Sketch
+      description: 'Kategoria: Sketch'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/oprogramowanie-do-projektowania/sketch
+      keywords: []
+    - slug: adobe-xd
+      title: Adobe XD
+      description: 'Kategoria: Adobe XD'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/oprogramowanie-do-projektowania/adobe-xd
+      keywords: []
+    - slug: figma
+      title: Figma
+      description: 'Kategoria: Figma'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/oprogramowanie-do-projektowania/figma
+      keywords: []
+  - slug: narzedzia-do-zarzadzania-projektem
+    title: Narzędzia do Zarządzania Projektem
+    description: 'Kategoria: Narzędzia do Zarządzania Projektem'
+    article_count: 1
+    url: oprogramowanie-i-narzedzia/narzedzia-do-zarzadzania-projektem
+    keywords: []
+    children:
+    - slug: asana
+      title: Asana
+      description: 'Kategoria: Asana'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-do-zarzadzania-projektem/asana
+      keywords: []
+    - slug: jira
+      title: Jira
+      description: 'Kategoria: Jira'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-do-zarzadzania-projektem/jira
+      keywords: []
+    - slug: trello
+      title: Trello
+      description: 'Kategoria: Trello'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-do-zarzadzania-projektem/trello
+      keywords: []
+  - slug: narzedzia-dla-programistow
+    title: Narzędzia dla Programistów
+    description: 'Kategoria: Narzędzia dla Programistów'
+    article_count: 0
+    url: oprogramowanie-i-narzedzia/narzedzia-dla-programistow
+    keywords: []
+    children:
+    - slug: sublime-text
+      title: Sublime Text
+      description: 'Kategoria: Sublime Text'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-dla-programistow/sublime-text
+      keywords: []
+    - slug: intellij-idea
+      title: IntelliJ IDEA
+      description: 'Kategoria: IntelliJ IDEA'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-dla-programistow/intellij-idea
+      keywords: []
+    - slug: visual-studio-code
+      title: Visual Studio Code
+      description: 'Kategoria: Visual Studio Code'
+      article_count: 0
+      url: oprogramowanie-i-narzedzia/narzedzia-dla-programistow/visual-studio-code
+      keywords: []
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  description: 'Kategoria: Bezpieczeństwo'
+  article_count: 1
+  url: bezpieczenstwo
+  keywords: []
+  children:
+  - slug: backup-i-odzyskiwanie-danych
+    title: Backup i Odzyskiwanie Danych
+    description: 'Kategoria: Backup i Odzyskiwanie Danych'
+    article_count: 1
+    url: bezpieczenstwo/backup-i-odzyskiwanie-danych
+    keywords: []
+    children:
+    - slug: oprogramowanie-backupowe
+      title: Oprogramowanie Backupowe
+      description: 'Kategoria: Oprogramowanie Backupowe'
+      article_count: 1
+      url: bezpieczenstwo/backup-i-odzyskiwanie-danych/oprogramowanie-backupowe
+      keywords: []
+    - slug: strategia-backupow
+      title: Strategia Backupów
+      description: 'Kategoria: Strategia Backupów'
+      article_count: 1
+      url: bezpieczenstwo/backup-i-odzyskiwanie-danych/strategia-backupow
+      keywords: []
+    - slug: chmura-vs-lokalne-kopie
+      title: Chmura vs Lokalne Kopie
+      description: 'Kategoria: Chmura vs Lokalne Kopie'
+      article_count: 0
+      url: bezpieczenstwo/backup-i-odzyskiwanie-danych/chmura-vs-lokalne-kopie
+      keywords: []
+  - slug: narzedzia-bezpieczenstwa
+    title: Narzędzia Bezpieczeństwa
+    description: 'Kategoria: Narzędzia Bezpieczeństwa'
+    article_count: 1
+    url: bezpieczenstwo/narzedzia-bezpieczenstwa
+    keywords: []
+    children:
+    - slug: antywirusy
+      title: Antywirusy
+      description: 'Kategoria: Antywirusy'
+      article_count: 1
+      url: bezpieczenstwo/narzedzia-bezpieczenstwa/antywirusy
+      keywords: []
+    - slug: zapory-sieciowe
+      title: Zapory Sieciowe
+      description: 'Kategoria: Zapory Sieciowe'
+      article_count: 0
+      url: bezpieczenstwo/narzedzia-bezpieczenstwa/zapory-sieciowe
+      keywords: []
+  - slug: cyberbezpieczenstwo
+    title: Cyberbezpieczeństwo
+    description: 'Kategoria: Cyberbezpieczeństwo'
+    article_count: 1
+    url: bezpieczenstwo/cyberbezpieczenstwo
+    keywords: []
+    children:
+    - slug: zabezpieczenia-sieci
+      title: Zabezpieczenia Sieci
+      description: 'Kategoria: Zabezpieczenia Sieci'
+      article_count: 1
+      url: bezpieczenstwo/cyberbezpieczenstwo/zabezpieczenia-sieci
+      keywords: []
+    - slug: ochrona-danych-osobowych
+      title: Ochrona Danych Osobowych
+      description: 'Kategoria: Ochrona Danych Osobowych'
+      article_count: 1
+      url: bezpieczenstwo/cyberbezpieczenstwo/ochrona-danych-osobowych
+      keywords: []
+    - slug: testy-penetracyjne
+      title: Testy Penetracyjne
+      description: 'Kategoria: Testy Penetracyjne'
+      article_count: 0
+      url: bezpieczenstwo/cyberbezpieczenstwo/testy-penetracyjne
+      keywords: []
+  - slug: bezpieczenstwo-danych
+    title: Bezpieczeństwo danych
+    description: 'Kategoria: Bezpieczeństwo danych'
+    article_count: 0
+    url: bezpieczenstwo/bezpieczenstwo-danych
+    keywords: []
+  - slug: ochrona-prywatnosci
+    title: Ochrona Prywatności
+    description: 'Kategoria: Ochrona Prywatności'
+    article_count: 0
+    url: bezpieczenstwo/ochrona-prywatnosci
+    keywords: []
+    children:
+    - slug: zarzadzanie-zgodnoscia
+      title: Zarządzanie Zgodnością
+      description: 'Kategoria: Zarządzanie Zgodnością'
+      article_count: 0
+      url: bezpieczenstwo/ochrona-prywatnosci/zarzadzanie-zgodnoscia
+      keywords: []
+    - slug: rodo
+      title: RODO
+      description: 'Kategoria: RODO'
+      article_count: 0
+      url: bezpieczenstwo/ochrona-prywatnosci/rodo
+      keywords: []
+metadata:
+  total_count: 146
+  version: '1.0'
+  source: Converted from kategoria-artykulow.xlsx

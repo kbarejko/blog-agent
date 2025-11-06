@@ -64,7 +64,7 @@ blog-agent/
 │       ├── prompt_business_metadata.md
 │       └── prompt_schema_markup.md
 │
-├── kategoria-artykulow.xlsx            # 147 kategorii hierarchicznych
+├── categories.yaml                     # 147 kategorii hierarchicznych (git-friendly)
 ├── blog_agent.py                       # główny skrypt (do przebudowy)
 └── requirements.txt                    # zależności Python
 ```
@@ -299,7 +299,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 ┌─────────────────────────────────────────────────────────────┐
 │  KROK 14: KATEGORIE                                         │
 │  • AI analizuje gotowy artykuł (article.md)                 │
-│  • Wybiera 1-5 kategorii z kategoria-artykulow.xlsx        │
+│  • Wybiera 1-5 kategorii z categories.yaml (147 kat.)      │
 │  • Sugeruje nowe jeśli brak odpowiednich                    │
 │  • Output: categories.yaml (lub sekcja w outline.md)       │
 │  • Git commit: "[series/silo/slug] Assign categories"      │
@@ -938,8 +938,8 @@ Każda sekcja musi spełniać:
 
 ### 7.1 Źródło kategorii
 
-**Plik:** `kategoria-artykulow.xlsx`
-**Format:** Excel z kolumnami:
+**Plik:** `categories.yaml`
+**Format:** YAML hierarchiczny (git-friendly):
 - Tytuł (nazwa kategorii)
 - Slug (URL-friendly)
 - Element nadrzędny (hierarchia)
@@ -974,13 +974,13 @@ Strony Internetowe
 
 **Input:**
 - Gotowy artykuł (article.md)
-- Lista kategorii z Excel (147 kategorii)
+- Lista kategorii z categories.yaml (147 kategorii)
 
 **Proces:**
 1. AI analizuje treść artykułu
-2. Wybiera 1-5 najbardziej pasujących kategorii z Excel
+2. Wybiera 1-5 najbardziej pasujących kategorii z categories.yaml
 3. Jeśli brak odpowiednich → sugeruje nowe kategorie
-4. Zapisuje do `categories.yaml`
+4. Zapisuje do `categories.yaml` w folderze artykułu
 
 **Format output (categories.yaml):**
 ```yaml
@@ -1313,7 +1313,7 @@ python blog_agent.py create \
 
 ### 12.1 Faza 1 (teraz)
 - ✅ Konspekt → Pisanie → Review → Publikacja
-- ✅ Kategorie z Excel
+- ✅ Kategorie z categories.yaml (git-friendly)
 - ✅ Git commits
 - ✅ CLI interface
 - ✅ Claude (Sonnet 4)
@@ -1480,7 +1480,7 @@ Agent powinien logować:
 2. ✓ Pisanie sekcji po kolei z review
 3. ✓ SEO optimization (nagłówki)
 4. ✓ Humanizacja treści
-5. ✓ Przypisywanie kategorii z Excel
+5. ✓ Przypisywanie kategorii z categories.yaml (YAML hierarchiczny)
 6. ✓ Git commits w kluczowych momentach
 7. ✓ CLI interface (init, create, list, status)
 8. ✓ Support dla Claude Sonnet 4

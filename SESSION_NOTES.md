@@ -165,10 +165,17 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
   - Config hybrid (YAML + Python)
   - Dependency injection (deps dict)
 - **Update SESSION_NOTES.md v3** - dodano Architecture Completed section
+- **Migracja Excel → YAML** - zmiana formatu kategorii
+  - Utworzenie scripts/convert_excel_to_yaml.py (konwersja z two-pass parent mapping)
+  - Generacja categories.yaml (146 kategorii hierarchicznych, 8 root, 29.6 KB)
+  - Update requirements.txt (usunięto openpyxl, dodano click/requests)
+  - Update REQUIREMENTS.md (wszystkie referencje Excel → YAML)
+  - Update ARCHITECTURE.md (infrastructure/excel/ → infrastructure/yaml/)
+  - Powód: git-friendly, human-readable, brak binary dependency
 
 ### Important Decisions
 1. **Struktura URL = Struktura folderów** (1:1, bez wyjątków)
-2. **Kategorie niezależne** od URL (many-to-many z Excel)
+2. **Kategorie niezależne** od URL (many-to-many z categories.yaml)
 3. **Przypisywanie kategorii PO napisaniu** artykułu (nie przed)
 4. **Review AI automatyczny** z auto-fix (max 2 próby)
 5. **Git commits w kluczowych momentach** (4 commity per artykuł)
