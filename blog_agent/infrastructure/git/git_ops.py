@@ -64,7 +64,17 @@ class GitOperations:
             True if successful
         """
         # Convert paths to relative paths from repo root
-        relative_paths = [str(p.relative_to(self.repo_path)) for p in paths]
+        # Ensure all paths are absolute before using relative_to()
+        repo_path_abs = self.repo_path.resolve()
+        relative_paths = []
+        for p in paths:
+            # Make path absolute if it's relative
+            if not p.is_absolute():
+                p_abs = (repo_path_abs / p).resolve()
+            else:
+                p_abs = p.resolve()
+            relative_paths.append(str(p_abs.relative_to(repo_path_abs)))
+        
         command = ['git', 'add'] + relative_paths
         returncode, stdout, stderr = self._run_command(command)
         return returncode == 0
@@ -149,6 +159,13 @@ class GitOperations:
         Returns:
             True if successful
         """
+        # Ensure article_path is absolute
+        repo_path_abs = self.repo_path.resolve()
+        if not article_path.is_absolute():
+            article_path = (repo_path_abs / article_path).resolve()
+        else:
+            article_path = article_path.resolve()
+
         # Get series/silo/slug from path
         parts = article_path.parts
         if len(parts) >= 4 and parts[-4] == "artykuly":
