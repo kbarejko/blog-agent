@@ -35,14 +35,16 @@ def execute_outline(
     git = deps['git']
 
     # Load and render prompt
+    series, silo, slug = article.get_series_silo_slug()
     prompt = prompts.load_and_render(
         "konspekt/prompt_konspekt_artykulu.md",
         {
             'TEMAT_ARTYKULU': article.config.title,
             'TARGET_AUDIENCE': article.config.target_audience,
+            'URL_ARTYKULU': f"/artykuly/{series}/{silo}/{slug}",
+            'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
         }
     )
-
     print("🔄 Generating outline...")
 
     # Generate outline with AI
