@@ -6,6 +6,8 @@ Creates and wires up all dependencies for workflow execution.
 from typing import Dict, Any
 from pathlib import Path
 import yaml
+import os
+import re
 
 from .services.prompt_loader import PromptLoader
 from .services.review_service import ReviewService
@@ -97,7 +99,6 @@ class DependencyFactory:
 
         if not config_path.exists():
             # Return default config (will need API key from env)
-            import os
             return {
                 'api_key': os.getenv('ANTHROPIC_API_KEY', ''),
                 'model': 'claude-sonnet-4-20250514',
@@ -112,7 +113,9 @@ class DependencyFactory:
         if provider_name not in providers:
             raise ValueError(f"Provider '{provider_name}' not configured")
 
-        return providers[provider_name]
+        provider_config = providers[provider_name]
+        # Replace environment variables in config
+        return self._replace_env_vars(provider_config)
 
     def _load_payload_config(self) -> Dict[str, Any]:
         """
@@ -124,7 +127,48 @@ class DependencyFactory:
         config_path = self.config_dir / "payload.yaml"
 
         with open(config_path, 'r', encoding='utf-8') as f:
-            return yaml.safe_load(f)
+            config = yaml.safe_load(f)
+        
+        # Replace environment variables in config
+        return self._replace_env_vars(config)
+
+    def _replace_env_vars(self, config: Any) -> Any:
+        """
+        Replace environment variables in config values
+        
+        Replaces ${VARIABLE_NAME} with values from os.getenv().
+        Works recursively for nested dicts and lists.
+        
+        Args:
+            config: Configuration dict, list, or value
+            
+        Returns:
+            Config with environment variables replaced
+        """
+        if isinstance(config, dict):
+            return {key: self._replace_env_vars(value) for key, value in config.items()}
+        elif isinstance(config, list):
+            return [self._replace_env_vars(item) for item in config]
+        elif isinstance(config, str):
+            # Check if string matches ${VARIABLE_NAME} pattern
+            pattern = r'\$\{([A-Z_][A-Z0-9_]*)\}'
+            match = re.fullmatch(pattern, config)
+            if match:
+                var_name = match.group(1)
+                env_value = os.getenv(var_name)
+                if env_value is None:
+                    raise ValueError(f"Environment variable '{var_name}' not set")
+                return env_value
+            # Replace inline variables like "prefix ${VAR} suffix"
+            def replace_var(m):
+                var_name = m.group(1)
+                env_value = os.getenv(var_name)
+                if env_value is None:
+                    raise ValueError(f"Environment variable '{var_name}' not set")
+                return env_value
+            return re.sub(pattern, replace_var, config)
+        else:
+            return config
 
     def get_workflow_config_path(self) -> Path:
         """Get path to workflow.yaml"""
