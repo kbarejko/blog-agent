@@ -53,6 +53,16 @@ def execute_outline(
     # Parse outline from response
     outline = _parse_outline_from_response(response)
 
+    # If no sections found, save raw response for debugging
+    if len(outline.sections) == 0:
+        print("⚠️  Warning: No sections parsed from AI response")
+        print(f"   Response length: {len(response)} chars")
+        print(f"   First 500 chars: {response[:500]}")
+        # Save raw response to outline.md as fallback
+        outline_path = article.get_outline_path()
+        storage.write_file(outline_path, f"# Konspekt artykułu\n\n{response}")
+        raise ValueError("Could not parse outline sections from AI response. Raw response saved to outline.md for debugging.")
+
     # Set outline on article
     article.set_outline(outline)
 
@@ -106,35 +116,92 @@ def _parse_outline_from_response(response: str) -> Outline:
     current_section = None
 
     for line in lines:
+        original_line = line
         line = line.strip()
 
-        # Check for section heading (## N. Title)
-        section_match = re.match(r'^##\s+(\d+)\.\s+(.+)$', line)
-        if section_match:
+        # Check for H2 section heading - multiple formats:
+        # 1. ## N. Title (numbered with dot)
+        # 2. ## N Title (numbered without dot)
+        # 3. ## Title (no number)
+        section_match = None
+        section_title = None
+        
+        # Try numbered with dot: ## 1. Title
+        match = re.match(r'^##\s+(\d+)\.\s+(.+)$', line)
+        if match:
+            section_match = match
+            section_title = match.group(2).strip()
+        else:
+            # Try numbered without dot: ## 1 Title
+            match = re.match(r'^##\s+(\d+)\s+(.+)$', line)
+            if match:
+                section_match = match
+                section_title = match.group(2).strip()
+            else:
+                # Try unnumbered H2: ## Title (but skip if it's FAQ/Checklist)
+                match = re.match(r'^##\s+(.+)$', line)
+                if match:
+                    title_candidate = match.group(1).strip()
+                    title_lower = title_candidate.lower()
+                    # Skip meta sections
+                    if not any(keyword in title_lower for keyword in ['checklist', 'faq', 'opcjonalne', 'optional', 'zawiera', 'contains', 'najczęściej zadawane']):
+                        section_match = match
+                        section_title = title_candidate
+        
+        if section_match and section_title:
             # Save previous section
             if current_section:
                 sections.append(current_section)
 
             # Start new section
-            section_num = section_match.group(1)
-            section_title = section_match.group(2).strip()
             current_section = {
                 'title': section_title,
                 'description': ''
             }
             continue
 
-        # Check for optional sections markers
+        # H3 and H4 are part of the description, not new sections
+        # Check if line is H3 or H4 and add to current section description
+        if current_section:
+            if line.startswith('###') or line.startswith('####'):
+                # H3/H4 as part of description - keep formatting
+                if current_section['description']:
+                    current_section['description'] += '\n\n'
+                current_section['description'] += original_line.rstrip()
+                continue
+
+        # Check for checklist items (lines starting with [ ] or - [ ])
+        if current_section and (line.startswith('[ ]') or line.startswith('- [ ]')):
+            has_checklist = True
+            # Add to description with proper formatting
+            if current_section['description']:
+                current_section['description'] += '\n'
+            current_section['description'] += original_line.rstrip()
+            continue
+
+        # Check for FAQ markers (sections with question format or FAQ keyword)
+        if 'FAQ' in line.upper() or re.match(r'^\d+\.\s+.*\?', line):
+            has_faq = True
+
+        # Check for optional sections markers in text
         if 'Checklist:' in line and ('TAK' in line.upper() or 'YES' in line.upper()):
             has_checklist = True
         if 'FAQ:' in line and ('TAK' in line.upper() or 'YES' in line.upper()):
             has_faq = True
 
         # Add to current section description
+        # Preserve line breaks for lists and formatting
         if current_section and line and not line.startswith('#'):
-            if current_section['description']:
-                current_section['description'] += ' '
-            current_section['description'] += line
+            # If line starts with - or * (list item), preserve newline
+            if line.startswith('- ') or line.startswith('* ') or line.startswith('1.') or line.startswith('1)'):
+                if current_section['description']:
+                    current_section['description'] += '\n'
+                current_section['description'] += original_line.rstrip()
+            else:
+                # Regular text - add space if description exists
+                if current_section['description'] and not current_section['description'].endswith('\n'):
+                    current_section['description'] += ' '
+                current_section['description'] += line
 
     # Save last section
     if current_section:

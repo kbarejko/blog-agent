@@ -40,7 +40,7 @@ def execute_summary(
     prompt = prompts.load_and_render(
         "articles/prompt_streszczenie_artykulu.md",
         {
-            'TEMAT_ARTYKULU': article.config.title,
+            'TYTUL_ARTYKULU': article.config.title,
             'KONSPEKT_TRESC': article.outline.to_markdown(),
             'TARGET_AUDIENCE': article.config.target_audience,
         }
