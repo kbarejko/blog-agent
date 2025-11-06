@@ -143,6 +143,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 │  • Input: title, target_audience, tone z config            │
 │  • Output: outline.md (struktura H2-H4, kluczowe punkty)   │
 │  • AI generuje: meta_title, meta_description                │
+│  • AI decyduje: czy dodać Checklist i/lub FAQ (opcjonalne) │
 │  • Git commit: "[series/silo/slug] Create outline"         │
 └─────────────────┬───────────────────────────────────────────┘
                   │
@@ -158,12 +159,14 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 3: PISANIE - Sekcje 2, 3, 4...N                      │
+│  KROK 3: PISANIE - Sekcje 2, 3, 4...N + Opcjonalne         │
 │  • Prompt: prompt_artykul_kontynuacja.md + common          │
 │  • Input: outline, poprzednia sekcja                        │
 │  • Output: sections/02-xxx.md, 03-xxx.md...                │
 │  • Review AI po każdej sekcji                               │
 │  • Loop: dla każdej sekcji z outline                        │
+│  • Opcjonalnie: Checklist (jeśli w outline)                │
+│  • Opcjonalnie: FAQ (do 10 pytań, jeśli w outline)         │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
@@ -221,6 +224,113 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 | Kategorie | ~20s | 7% |
 | Git commits | ~10s | 3% |
 | **RAZEM** | **~5min** | **100%** |
+
+### 4.3 Opcjonalne sekcje (AI decision)
+
+AI podczas tworzenia konspektu (Krok 1) decyduje, czy artykuł będzie zawierał opcjonalne sekcje:
+
+#### 4.3.1 Checklist (Lista kontrolna)
+
+**Kiedy stosować:**
+- Artykuły typu "jak zrobić", "przewodnik", "implementacja"
+- Tematy wymagające kroków do wykonania
+- Audyty, przeglądy, procesy wdrożeniowe
+
+**Format:**
+```markdown
+## Checklist - [Tytuł Checklisty]
+
+Użyj tej listy, aby upewnić się, że niczego nie pominąłeś:
+
+- [ ] Krok 1: Opis co zrobić
+- [ ] Krok 2: Kolejny krok
+- [ ] Krok 3: Jeszcze jeden krok
+- [ ] ...
+
+💡 **Tip:** Możesz zapisać tę listę i wykorzystać ją podczas wdrożenia.
+```
+
+**Przykłady tematów z Checklist:**
+- "Bezpieczeństwo i RODO w e-commerce" → Checklist audytu bezpieczeństwa
+- "Migracja sklepu e-commerce" → Checklist migracji
+- "Wdrożenie nowej platformy" → Checklist wdrożenia
+
+**Kiedy NIE stosować:**
+- Artykuły teoretyczne/koncepcyjne
+- Porównania, analizy, opinie
+- Historie, case studies
+
+#### 4.3.2 FAQ (Najczęściej zadawane pytania)
+
+**Kiedy stosować:**
+- Tematy budzące wiele wątpliwości
+- Złożone zagadnienia wymagające wyjaśnień
+- Popularne pytania od czytelników/klientów
+- Tematy SEO (FAQ dobre dla long-tail keywords)
+
+**Format:**
+```markdown
+## Najczęściej zadawane pytania (FAQ)
+
+### 1. Pytanie pierwsze?
+
+Odpowiedź na pytanie pierwsze. Konkretna, merytoryczna, 2-4 zdania.
+
+### 2. Pytanie drugie?
+
+Odpowiedź na pytanie drugie...
+
+### 3. Pytanie trzecie?
+
+Odpowiedź...
+
+[...do 10 pytań maksymalnie]
+```
+
+**Zasady dla FAQ:**
+- Maksymalnie 10 pytań (optimum: 5-7)
+- Pytania konkretne, naturalne (jak by zadał użytkownik)
+- Odpowiedzi zwięzłe ale merytoryczne (2-4 zdania)
+- Pytania uporządkowane od podstawowych do zaawansowanych
+- Odpowiedzi w spójnym tonie z resztą artykułu
+
+**Przykłady tematów z FAQ:**
+- "Bezpieczeństwo i RODO w e-commerce" → FAQ o certyfikatach, zgodności, karach
+- "Wybór platformy e-commerce" → FAQ o kosztach, integracji, skalowaniu
+- "Płatności online w Polsce" → FAQ o prowizjach, bezpieczeństwie, integracji
+
+**Kiedy NIE stosować:**
+- Artykuł krótki/prosty (FAQ byłby dłuższy niż treść główna)
+- Temat bardzo niszowy bez popularnych pytań
+- Listy typu "10 narzędzi" (FAQ nie ma sensu)
+
+#### 4.3.3 Kombinacje
+
+AI może zdecydować o:
+- **Tylko Checklist** - artykuły implementacyjne
+- **Tylko FAQ** - artykuły wyjaśniające
+- **Oba** - kompleksowe przewodniki
+- **Żadne** - artykuły teoretyczne, opinie, case studies
+
+**Przykład kombinacji OBA:**
+"Wdrożenie RODO w sklepie e-commerce"
+- Główne sekcje: wymagania, implementacja, dokumentacja
+- Checklist: 15 punktów kontrolnych do sprawdzenia
+- FAQ: 7 pytań o kary, terminy, zgody użytkowników
+
+#### 4.3.4 Umiejscowienie w artykule
+
+**Kolejność sekcji:**
+1. Wprowadzenie
+2. Sekcje główne (z konspektu)
+3. **Checklist** (jeśli jest)
+4. **FAQ** (jeśli jest)
+5. Podsumowanie (opcjonalne)
+
+**Nie ma:**
+- Nagłówków typu "Podsumowanie" lub "Wnioski" (nudne, sztuczne)
+- Wezwań do działania (CTA) - to blog, nie landing page
+- Autopromoacji
 
 ---
 

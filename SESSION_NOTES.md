@@ -57,11 +57,14 @@ meta_title: "SEO title (≠ H1)"
 meta_description: "SEO description (160 chars)"
 ```
 
-#### 4. Proces (8 kroków)
+#### 4. Proces (8 kroków + opcjonalne sekcje)
 1. **Init** - tworzenie struktury (opcjonalne)
 2. **Konspekt** - outline.md (prompt_konspekt_artykulu.md) → git commit
+   - AI decyduje: czy dodać Checklist i/lub FAQ (opcjonalne sekcje)
 3. **Pisanie sekcji 1** - intro + pierwsza (prompt_artykul_start.md) → review AI
 4. **Pisanie sekcji 2-N** - kolejne sekcje (prompt_artykul_kontynuacja.md) → review AI każdej
+   - Opcjonalnie: Checklist (jeśli w konspekcie)
+   - Opcjonalnie: FAQ do 10 pytań (jeśli w konspekcie)
 5. **Draft** - połączenie sekcji → draft.md → git commit
 6. **SEO review** - nagłówki (prompt_sprawdz_naglowki.md) → auto-fix
 7. **Humanizacja** - naturalny język (prompt_sprawdz_styl.md) → article.md → git commit
@@ -123,6 +126,9 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, etc
 - Analiza struktury strony (digitalvantage.pl)
 - Przeczytanie kategorii z Excel (147 kategorii)
 - **Utworzenie REQUIREMENTS.md** - kompletna specyfikacja (15 sekcji, 3000+ linii)
+- Cleanup projektu - archiwizacja starych plików
+- **Update REQUIREMENTS.md** - dodano opcjonalne sekcje (Checklist, FAQ)
+- **Update prompt_konspekt_artykulu.md** - instrukcje dla AI o decydowaniu o opcjonalnych sekcjach
 
 ### Important Decisions
 1. **Struktura URL = Struktura folderów** (1:1, bez wyjątków)
@@ -133,6 +139,7 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, etc
 6. **Claude Sonnet 4** jako główny provider (możliwość rozbudowy o OpenAI)
 7. **Wykorzystanie istniejących promptów** z folderu prompts/
 8. **Dowolna inicjalizacja** (user lub agent może stworzyć folder+config)
+9. **Opcjonalne sekcje** - AI decyduje czy dodać Checklist i/lub FAQ (max 10 pytań)
 
 ### Next Steps
 1. **Zapoznanie z REQUIREMENTS.md** (pełna specyfikacja)
