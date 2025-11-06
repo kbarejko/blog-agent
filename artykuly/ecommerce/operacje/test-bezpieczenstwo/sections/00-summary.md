@@ -1,6 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **SSL to minimum, ale nie wszystko** - certyfikat chroni transmisję, ale 60% włamań to słabe hasła adminów i niezaktualizowane wtyczki
-- **RODO to kary do 4% rocznego obrotu** - UOKiK sprawdza szczególnie politykę cookies, backup danych i procedury reagowania na wycieki
-- **PCI DSS dla każdego** - nawet jeśli płatności obsługuje Stripe, musisz zabezpieczyć dane karty w formularzu i logach systemu
-- **Checklist 12 punktów** - gotowy audyt bezpieczeństwa który przeprowadzisz w 30 minut bez znajomości technicznej
+- **Podstawowe zabezpieczenia to koszt 200-800 zł miesięcznie** - certyfikat SSL, bezpieczny hosting i bramka płatnicza wystarczą 80% sklepów, a brak SSL obniża ranking w Google
+- **Naruszenie RODO kosztuje do 4% rocznego obrotu** - procedury ochrony danych osobowych klientów nie są opcjonalne, a UOKiK kontroluje coraz częściej
+- **Ataki DDoS mogą zatrzymać sklep na dni** - 73% właścicieli nie ma planu działania w kryzysie, co oznacza utratę całej sprzedaży w szczycie sezonu
+- **Gotowa checklist 15 punktów** - audyt bezpieczeństwa który możesz przeprowadzić samodzielnie w 45 minut, bez angażowania specjalistów IT
+- **Małe sklepy są atakowane 3x częściej** - cyberprzestępcy celują w słabsze zabezpieczenia, ale proste środki ostrożności eliminują 90% zagrożeń

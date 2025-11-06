@@ -1,78 +1,137 @@
 # Konspekt artykułu
 
-## 1. Wstęp
-Wprowadzenie do tematu z podkreśleniem, że bezpieczeństwo to nie koszt, ale inwestycja w zaufanie klientów i stabilność biznesu. Statystyki dotyczące cyberataków na sklepy online i ich konsekwencji finansowych.
+## 1. Wprowadzenie
+**Kontekst i problem:**
+- Statystyki dotyczące ataków na sklepy online (wzrost o 300% w ciągu ostatnich 3 lat)
+- Koszt naruszenia bezpieczeństwa dla sklepu internetowego (średnio 150 tys. zł strat + utrata zaufania klientów)
+- Dlaczego właściciele sklepów często lekceważą kwestie bezpieczeństwa do momentu, gdy jest już za późno **Hook dla czytelnika:**
+- Przykład: "Czy wiesz, że 60% małych sklepów online, które doświadczyły poważnego naruszenia bezpieczeństwa, kończy działalność w ciągu 6 miesięcy?"
 
-## 2. Dlaczego bezpieczeństwo e-commerce jest kluczowe dla Twojego biznesu
-## 3. Konsekwencje zaniedbań w zabezpieczeniach
-- Utrata danych klientów i konsekwencje prawne (RODO) - Spadek zaufania i reputacji marki - Koszty finansowe związane z incydentami bezpieczeństwa - Wpływ na pozycjonowanie w wyszukiwarkach
+## 2. Dlaczego bezpieczeństwo e-commerce to priorytet numer jeden
+### Rosnące zagrożenia dla sklepów internetowych
+- Najczęstsze typy ataków: SQL injection, XSS, ataki na płatności, kradzież danych klientów
+- Branże szczególnie narażone na ataki
+- Sezonowość ataków (Black Friday, okres świąteczny)
 
-## 4. Korzyści z odpowiednich zabezpieczeń
-- Zwiększenie konwersji dzięki zaufaniu klientów - Ochrona przed stratami finansowymi - Compliance z przepisami prawa
+### Konsekwencje braku odpowiednich zabezpieczeń
+- Straty finansowe bezpośrednie i pośrednie
+- Utrata zaufania klientów i reputacji marki
+- Konsekwencje prawne (RODO, odpowiedzialność za dane klientów)
+- Wpływ na pozycjonowanie w Google (oznaczenia "niezabezpieczona witryna")
 
-## 5. Główne zagrożenia dla sklepów internetowych
-## 6. Ataki na dane płatnicze
-- Skimming kart kredytowych - Ataki man-in-the-middle podczas płatności
+## 3. Fundamenty bezpieczeństwa sklepu online
+### Bezpieczny hosting i infrastruktura
+- Wybór hostingu z certyfikatami bezpieczeństwa
+- Regularne aktualizacje serwera
+- Kopie zapasowe - automatyzacja i częstotliwość
+- Monitorowanie ruchu i wykrywanie anomalii
 
-## 7. Włamania do systemu sklepu
-- Wstrzykiwanie kodu SQL - Ataki cross-site scripting (XSS) - Wykorzystanie luk w systemach CMS
+### Certyfikat SSL i szyfrowanie danych
+- Różnice między typami certyfikatów SSL
+- Jak sprawdzić, czy certyfikat działa prawidłowo
+- Szyfrowanie danych w bazie - najlepsze praktyki
+- Zabezpieczenie transmisji danych między serwerem a przeglądarką
 
-## 8. Oszustwa ze strony "klientów"
-- Chargeback fraud - Kradzież tożsamości przy zakupach - Testowanie kart kredytowych
+### Aktualizacje platformy e-commerce i wtyczek
+- Dlaczego aktualizacje to podstawa bezpieczeństwa
+- Jak bezpiecznie przeprowadzać aktualizacje (środowisko testowe)
+- Monitorowanie podatności w używanych rozwiązaniach
+- Usuwanie nieużywanych wtyczek i modułów
 
-## 9. Ataki DDoS i przeciążenia serwera
-- Wpływ na dostępność sklepu - Koszty związane z przestojami
+## 4. Ochrona danych klientów i płatności
+### Zgodność z standardami PCI DSS
+- Co to jest PCI DSS i dlaczego jest obowiązkowe
+- Poziomy zgodności w zależności od wielkości sklepu
+- Praktyczne kroki do osiągnięcia zgodności
+- Częste błędy prowadzące do naruszenia standardów
 
-## 10. Podstawowe zabezpieczenia techniczne
-## 11. Certyfikat SSL/TLS - fundament bezpiecznego sklepu
-- Różnice między typami certyfikatów - Wpływ na SEO i zaufanie klientów - Jak sprawdzić poprawność implementacji
+### Bezpieczne bramki płatności
+- Wybór zaufanych dostawców płatności
+- Tokenizacja danych kartowych
+- 3D Secure i dodatkowe warstwy uwierzytelniania
+- Co robić, gdy nie chcesz przechowywać danych płatności
 
-## 12. Zabezpieczenie serwera i hostingu
-- Wybór niezawodnego dostawcy hostingu - Regularne aktualizacje systemu - Konfiguracja firewall'a - Strategia tworzenia kopii zapasowych - Testowanie procedur odzyskiwania - Przechowywanie backupów w bezpiecznych lokalizacjach
+### Ochrona danych osobowych zgodnie z RODO
+- Minimalizacja zbieranych danych
+- Szyfrowanie danych wrażliwych w bazie
+- Procedury w przypadku naruszenia danych
+- Prawo do usunięcia danych - jak technicznie to zrealizować
 
-## 13. Bezpieczne płatności online
-- Wymagania compliance dla sklepów - Delegowanie odpowiedzialności na bramki płatnicze - Audyty bezpieczeństwa - Kryteria wyboru zaufanego partnera - Porównanie poziomów bezpieczeństwa - Koszty vs. bezpieczeństwo
+## 5. Zarządzanie dostępem i uwierzytelnianiem
+### Silne hasła i uwierzytelnianie dwuskładnikowe
+- Polityka haseł dla zespołu
+- Implementacja 2FA dla panelu administracyjnego
+- Narzędzia do zarządzania hasłami zespołowymi
+- Ograniczanie liczby prób logowania
 
-## 14. Zabezpieczenia na poziomie aplikacji
-## 15. Aktualizacje platformy e-commerce
-- Znaczenie regularnych update'ów - Testowanie aktualizacji przed wdrożeniem - Monitorowanie luk bezpieczeństwa
+### Kontrola uprawnień użytkowników
+- Zasada najmniejszych uprawnień
+- Różne poziomy dostępu dla różnych ról
+- Regularna weryfikacja kont użytkowników
+- Procedury odłączania dostępu dla byłych pracowników
 
-## 16. Bezpieczne zarządzanie kontami użytkowników
-- Silne hasła i polityki bezpieczeństwa - Dwuetapowa weryfikacja (2FA) - Ograniczanie uprawnień administratorów - Implementacja CAPTCHA - Rate limiting dla formularzy - Blokowanie podejrzanego ruchu
+### Zabezpieczenia panelu administracyjnego
+- Zmiana domyślnych adresów URL panelu admin
+- Ograniczenie dostępu po adresie IP
+- Logi aktywności administracyjnej
+- Ochrona przed atakami brute force
 
-## 17. Monitoring i wykrywanie zagrożeń
-- Narzędzia do monitorowania bezpieczeństwa - Logi i analiza nietypowych zachowań - Systemy wczesnego ostrzegania
+## 6. Monitoring i wykrywanie zagrożeń
+### Systemy monitorowania bezpieczeństwa
+- Web Application Firewall (WAF) - co daje i jak wybrać
+- Systemy IDS/IPS dla e-commerce
+- Monitorowanie integralności plików
+- Alerty w czasie rzeczywistym
 
-## 18. Ochrona danych osobowych klientów
-## 19. Compliance z RODO
-- Minimalizacja zbieranych danych - Szyfrowanie danych wrażliwych - Procedury w przypadku naruszenia danych
+### Analiza logów i nietypowej aktywności
+- Jakie logi są najważniejsze dla bezpieczeństwa
+- Automatyzacja analizy logów
+- Rozpoznawanie wzorców ataków
+- Reakcja na podejrzaną aktywność
 
-## 20. Bezpieczne przechowywanie informacji
-- Szyfrowanie baz danych - Segmentacja sieci i dostępu do danych - Polityki retencji danych - Jasne polityki prywatności - Informowanie o środkach bezpieczeństwa - Komunikacja w przypadku incydentów
+### Testy penetracyjne i audyty bezpieczeństwa
+- Kiedy warto zlecić profesjonalny audit
+- Narzędzia do samodzielnego testowania podstawowych zabezpieczeń
+- Jak interpretować wyniki testów bezpieczeństwa
+- Częstotliwość przeprowadzania audytów
 
-## 21. Edukacja zespołu i budowanie kultury bezpieczeństwa
-## 22. Szkolenia dla pracowników
-- Rozpoznawanie zagrożeń phishingowych - Procedury reagowania na incydenty - Bezpieczne praktyki codziennej pracy
+## 7. Plan reagowania na incydenty bezpieczeństwa
+### Przygotowanie procedur awaryjnych
+- Identyfikacja i klasyfikacja incydentów
+- Team reagowania kryzysowego - role i odpowiedzialności
+- Kanały komunikacji w sytuacji kryzysowej
+- Kontakty do specjalistów zewnętrznych
 
-## 23. Tworzenie procedur bezpieczeństwa
-- Dokumentowanie procesów - Regularne przeglądy i aktualizacje - Testy penetracyjne i audyty
+### Pierwsza pomoc po wykryciu naruszenia
+- Natychmiastowe kroki zabezpieczające
+- Dokumentowanie incydentu
+- Komunikacja z klientami - jak i kiedy informować
+- Współpraca z organami ścigania i UODO
 
-## 24. Reagowanie na incydenty bezpieczeństwa
-## 25. Plan działania w przypadku naruszenia
-- Procedura zgłaszania incydentów - Komunikacja z klientami i organami - Minimalizowanie szkód i odbudowa
+### Odbudowa po incydencie
+- Przywracanie systemu z bezpiecznych kopii
+- Weryfikacja integralności danych
+- Wprowadzanie dodatkowych zabezpieczeń
+- Monitoring po-incydentalny
 
-## 26. Analiza po incydencie
-- Wyciąganie wniosków z zaistniałych sytuacji - Usprawnianie zabezpieczeń - Aktualizacja procedur
+## 8. Edukacja zespołu i budowanie kultury bezpieczeństwa
+### Szkolenia dla zespołu e-commerce
+- Rozpoznawanie zagrożeń (phishing, social engineering)
+- Bezpieczne praktyki codziennej pracy
+- Procedury zgłaszania podejrzanych sytuacji
+- Regularne odświeżanie wiedzy
 
-## 27. Koszty zabezpieczeń vs. potencjalne straty
-## 28. Budżetowanie na bezpieczeństwo
-- Ile realnie kosztują podstawowe zabezpieczenia - ROI z inwestycji w bezpieczeństwo - Koszty vs. ryzyko dla różnych wielkości biznesów
+### Bezpieczne praktyki operacyjne
+- Zasady pracy zdalnej z systemami sklepu
+- Bezpieczeństwo urządzeń służbowych
+- Procedury backup-u i przywracania danych
+- Testowanie procedur awaryjnych **Infrastruktura i podstawy:**
+- [ ] Aktualny certyfikat SSL zainstalowany i działający poprawnie
+- [ ] Platforma e-commerce zaktualizowana do najnowszej wersji
+- [ ] Wszystkie wtyczki/moduły zaktualizowane lub usunięte jeśli nieużywane
+- [ ] Automatyczne kopie zapasowe skonfigurowane i testowane
+- [ ] Hosting z odpowiednimi certyfikatami bezpieczeństwa **Ochrona danych i płatności:**
+- [ ] Zgodność z PCI DSS sprawdzona i potwier
 
-## 29. Ubezpieczenia cyber
-- Kiedy warto rozważyć ubezpieczenie - Co pokrywają polisy cyber - Jak wybrać odpowiedni zakres ochrony - [ ] Sprawdzenie aktualności certyfikatu SSL i jego poprawnej konfiguracji - [ ] Aktualizacja platformy e-commerce do najnowszej wersji - [ ] Przegląd i aktualizacja wszystkich wtyczek i rozszerzeń - [ ] Konfiguracja silnych haseł dla wszystkich kont administratorów - [ ] Implementacja dwuetapowej weryfikacji (2FA) - [ ] Sprawdzenie konfiguracji firewall'a serwera - [ ] Testowanie procedury tworzenia i odzyskiwania kopii zapasowych - [ ] Audyt uprawnień użytkowników i administratorów - [ ] Weryfikacja compliance z PCI DSS (jeśli dotyczy) - [ ] Przegląd polityk prywatności i zgodności z RODO - [ ] Test działania monitoringu bezpieczeństwa - [ ] Sprawdzenie aktualności procedur reagowania na incydenty - [ ] Przegląd umów z dostawcami usług (hosting, bramka płatnicza) - [ ] Analiza logów pod kątem podejrzanej aktywności - [ ] Planowanie kolejnego audytu bezpieczeństwa
 
-## 30. 1. Czy mały sklep internetowy również potrzebuje zaawansowanych zabezpieczeń?
-Tak, małe sklepy często są bardziej narażone na ataki, ponieważ cyberprzestępcy zakładają słabsze zabezpieczenia. Podstawowe środki ostrożności są konieczne niezależnie od wielkości biznesu.
-
-## 31. 2. Ile kosztują podstawowe zabezpieczenia dla sklepu online?
-Koszt podstawowych zabezpieczeń (
+**Zawiera:** Checklist
