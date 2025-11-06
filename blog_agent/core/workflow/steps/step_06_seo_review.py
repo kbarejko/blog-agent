@@ -61,34 +61,55 @@ def execute_seo_review(
     else:
         print("   ✅ Heading structure valid")
 
-    # Generate meta title and description
+    # Generate meta title and description with retry logic
     # Limit content length to avoid API errors - use first 30000 chars for context
     content_for_seo = article.draft_content[:30000] if len(article.draft_content) > 30000 else article.draft_content
     
-    try:
-        prompt = prompts.load_and_render(
-            "audyt/prompt_sprawdz_naglowki.md",
-            {
-                'ARTICLE_CONTENT': content_for_seo,
-                'TYTUL_ARTYKULU': article.config.title,
-            }
-        )
+    seo_data = None
+    max_retries = 3
+    
+    for attempt in range(max_retries):
+        try:
+            prompt = prompts.load_and_render(
+                "audyt/prompt_sprawdz_naglowki.md",
+                {
+                    'ARTICLE_CONTENT': content_for_seo,
+                    'TYTUL_ARTYKULU': article.config.title,
+                }
+            )
+            
+            # Add explicit instructions for retry
+            if attempt > 0:
+                prompt += f"\n\nUWAGA: Meta description musi mieć MINIMUM 120 znaków i MAKSIMUM 160 znaków. Poprzednia próba zwróciła za krótki opis."
 
-        response = ai.generate(prompt, max_tokens=300)
-    except Exception as e:
-        print(f"   ⚠️  Could not generate SEO data: {str(e)}")
-        print("   Using fallback SEO data")
-        # Use fallback SEO data
-        seo_data = SEOData(
-            meta_title=article.config.title[:60],
-            meta_description=f"Dowiedz się więcej o: {article.config.title}"[:160]
-        )
-        article.set_seo_data(seo_data)
-        article.config.save(article.get_config_path())
-        return article
-
-    # Parse SEO data from response
-    seo_data = _parse_seo_data(response, article.config.title)
+            response = ai.generate(prompt, max_tokens=300)
+            
+            # Parse SEO data from response
+            seo_data = _parse_seo_data(response, article.config.title)
+            
+            # Validate SEO data
+            issues = seo_data.validate()
+            if not issues:
+                # Valid SEO data
+                break
+            else:
+                if attempt < max_retries - 1:
+                    print(f"   ⚠️  SEO data validation failed (attempt {attempt + 1}/{max_retries}): {', '.join(issues)}")
+                    print("   Retrying with improved prompt...")
+                else:
+                    print(f"   ⚠️  Max retries reached. SEO data has issues: {', '.join(issues)}")
+                    # Use fallback if last attempt
+                    seo_data = _create_fallback_seo_data(article.config.title, content_for_seo)
+                    
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"   ⚠️  Error generating SEO data (attempt {attempt + 1}/{max_retries}): {str(e)}")
+                print("   Retrying...")
+            else:
+                print(f"   ⚠️  Could not generate SEO data after {max_retries} attempts: {str(e)}")
+                print("   Using fallback SEO data")
+                seo_data = _create_fallback_seo_data(article.config.title, content_for_seo)
+                break
 
     # Set SEO data on article
     article.set_seo_data(seo_data)
@@ -180,24 +201,92 @@ def _parse_seo_data(response: str, fallback_title: str) -> SEOData:
 
     meta_title = None
     meta_description = None
+    collecting_description = False
+    description_lines = []
 
     for line in lines:
-        line = line.strip()
+        line_stripped = line.strip()
 
-        if line.lower().startswith('meta title:') or line.lower().startswith('meta-title:'):
-            meta_title = line.split(':', 1)[1].strip()
+        # Check for meta title
+        if line_stripped.lower().startswith('meta title:') or line_stripped.lower().startswith('meta-title:'):
+            meta_title = line_stripped.split(':', 1)[1].strip()
+            collecting_description = False
+            continue
 
-        if line.lower().startswith('meta description:') or line.lower().startswith('meta-description:'):
-            meta_description = line.split(':', 1)[1].strip()
+        # Check for meta description start
+        if line_stripped.lower().startswith('meta description:') or line_stripped.lower().startswith('meta-description:'):
+            # Get text after colon
+            desc_part = line_stripped.split(':', 1)[1].strip()
+            if desc_part:
+                description_lines = [desc_part]
+            collecting_description = True
+            continue
+
+        # Collect multi-line description
+        if collecting_description:
+            if line_stripped and not line_stripped.lower().startswith('meta'):
+                description_lines.append(line_stripped)
+            else:
+                collecting_description = False
+
+    # Join description lines
+    if description_lines:
+        meta_description = ' '.join(description_lines).strip()
 
     # Fallbacks
     if not meta_title:
         meta_title = fallback_title[:60]  # Truncate to 60 chars
 
-    if not meta_description:
-        meta_description = f"Dowiedz się więcej o: {fallback_title}"[:160]
+    if not meta_description or len(meta_description) < 120:
+        # Generate longer fallback description
+        meta_description = _create_fallback_seo_data(fallback_title, "").meta_description
 
     return SEOData(
         meta_title=meta_title,
+        meta_description=meta_description
+    )
+
+
+def _create_fallback_seo_data(title: str, content: str) -> SEOData:
+    """
+    Create fallback SEO data with proper length
+    
+    Args:
+        title: Article title
+        content: Article content (optional, for better description)
+    
+    Returns:
+        SEOData with valid meta description (120-160 chars)
+    """
+    # Create a longer, more descriptive fallback
+    base_desc = f"Dowiedz się więcej o {title}. Praktyczny przewodnik z konkretnymi wskazówkami i przykładami."
+    
+    # If content available, try to extract first sentence or key phrase
+    if content:
+        # Try to find first meaningful sentence (skip headers)
+        lines = content.split('\n')
+        for line in lines[:20]:  # Check first 20 lines
+            line = line.strip()
+            if line and not line.startswith('#') and len(line) > 50:
+                # Use first sentence or first 100 chars
+                sentence = line.split('.')[0] if '.' in line else line[:100]
+                if len(sentence) > 50:
+                    base_desc = f"{sentence}. {title} - praktyczny przewodnik."
+                    break
+    
+    # Ensure proper length (120-160 chars)
+    if len(base_desc) < 120:
+        # Pad with more descriptive text
+        base_desc = f"{base_desc} Poznaj najlepsze praktyki i unikaj typowych błędów."
+    
+    # Truncate to max 160
+    meta_description = base_desc[:160]
+    
+    # If still too short, add more
+    if len(meta_description) < 120:
+        meta_description = f"{meta_description} Sprawdź nasz kompleksowy przewodnik."[:160]
+    
+    return SEOData(
+        meta_title=title[:60],
         meta_description=meta_description
     )
