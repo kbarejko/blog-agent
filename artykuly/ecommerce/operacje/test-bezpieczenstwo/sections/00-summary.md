@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Ataki kosztują średnio 4,45 mln dolarów** - naruszenie danych w e-commerce to nie tylko utrata klientów, ale konkretne straty finansowe i prawne
-- **PCI DSS w 6 krokach** - praktyczny plan wdrożenia standardu płatności bez kosztownych audytów zewnętrznych dla małych sklepów
-- **WAF chroni przed 99% ataków** - firewall aplikacji webowych blokuje SQL injection i DDoS już od 20$/miesiąc
-- **Plan reagowania na włamanie** - gotowa procedura pierwszych 24 godzin po ataku, która może uratować Twój biznes i zaufanie klientów
-- **Checklist 15 zabezpieczeń** - kompletna lista od SSL po kopie zapasowe, którą wdrożysz samodzielnie w weekend
+- **Cyberataki kosztują sklepy średnio 4,5 mln zł** - straty finansowe, utrata klientów i kary RODO potrafią zamknąć biznes w ciągu miesięcy
+- **PCI DSS to nie opcja, to obowiązek** - brak zgodności ze standardem płatności może skutkować utratą możliwości przyjmowania kart kredytowych
+- **SSL, 2FA, WAF - trzy filary obrony** - podstawowy zestaw zabezpieczeń który można wdrożyć w weekend i zablokować 80% ataków
+- **Checklist 25 punktów bezpieczeństwa** - gotowa lista kontrolna do samodzielnego audytu sklepu z konkretnymi krokami do realizacji
+- **Plan reagowania na kryzys** - procedury awaryjne gdy dojdzie do ataku, komunikacja z klientami i organami, odbudowa reputacji

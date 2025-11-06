@@ -1,27 +1,17 @@
-## Zaawansowane metody ochrony sklepu online
+### Zagrożenia związane z kontem użytkownika
 
-Podstawowe zabezpieczenia to fundament, ale prawdziwa ochrona zaczyna się dopiero na wyższych poziomach.
+Sklepy internetowe to prawdziwe eldorado danych logowania. Średni użytkownik ma konta w kilkunastu serwisach i często używa tego samego hasła wszędzie. Cyberprzestępcy doskonale to wykorzystują.
 
-**Firewall aplikacji webowych (WAF) działa jak inteligentny bramkarz.** Analizuje każde zapytanie do twojego sklepu w czasie rzeczywistym. Rozpoznaje wzorce ataków SQL Injection, próby włamania do panelu administracyjnego czy podejrzane skrypty.
+Credential stuffing to automatyczny atak wykorzystujący wyciekłe bazy haseł z innych serwisów. LinkedIn, Yahoo, Facebook – każdy większy wyciek trafia na czarny rynek. Boty pobierają te listy i testują kombinacje login-hasło w tysiącach e-sklepów jednocześnie.
 
-Cloudflare oferuje podstawowy WAF za 20 dolarów miesięcznie. Dla większych sklepów warto rozważyć Sucuri (200+ dolarów rocznie) lub AWS WAF (płatność za użycie).
+Statystyki są przerażające. Nawet 2-3% prób logowania kończy się sukcesem. To oznacza, że z miliona skradzionych haseł hakerzy mogą przejąć 20-30 tysięcy kont w różnych sklepach.
 
-WAF blokuje ataki automatycznie, zanim dotrą do serwera. Właściciel sklepu widzi raporty: 847 zablokowanych ataków w tym tygodniu, najczęściej z IP w Rumunii i Rosji.
+Brute force to starszy brat credential stuffing. System próbuje popularne hasła – 123456, password, qwerty – dla każdego konta osobno. Większość właścicieli sklepów nie ogranicza liczby prób logowania. Efekt? Bot może testować tysiące kombinacji bez żadnych przeszkód.
 
-**Filtrowanie ruchu eliminuje zagrożenia u źródła.** Niektóre adresy IP słyną z generowania ataków. WAF może blokować całe kraje lub regiony, jeśli nie prowadzisz tam sprzedaży.
+Prawdziwym koszmarem jest account takeover – przejęcie kontroli nad kontem klienta. Haker loguje się na konto, zmienia dane kontaktowe i hasło. Następnie składa zamówienia na adres współpracowników lub sprzedaje konto dalej.
 
-Geoblokowanie ma swoje pułapki. Zablokujesz potencjalnych klientów używających VPN-ów. Ale jeśli sprzedajesz tylko lokalnie, ruch z egzotycznych lokalizacji rzadko oznacza prawdziwych kupujących.
+Proces resetowania hasła też bywa podatny. Pytania bezpieczeństwa typu "imię matki" można odgadnąć z mediów społecznościowych. Niektóre sklepy wysyłają nowe hasła mailem bez dodatkowej weryfikacji tożsamości.
 
-**Ochrona przed botami chroni przed automatyzacją ataków.** Nie wszystkie boty są złe - Google potrzebuje dostępu do indeksowania, a narzędzia analityczne do zbierania danych.
+Najbardziej narażone są konta VIP-ów i stałych klientów. Mają zapisane karty płatnicze, historię zamówień, punkty lojalnościowe. Dla przestępcy to gotowy profil do kradzieży tożsamości.
 
-Złe boty próbują masowo tworzyć konta, testować hasła czy przechwytywać ceny konkurencji. Mogą generować dziesiątki tysięcy zapytań dziennie, spowalniając sklep dla prawdziwych klientów.
-
-CAPTCHA to popularne rozwiązanie, ale frustruje użytkowników. Nowsze systemy jak reCAPTCHA v3 działają niewidocznie, analizując zachowanie. Prawdziwy człowiek porusza myszą inaczej niż automat.
-
-**Monitoring integralności plików wykrywa nieautoryzowane zmiany.** System porównuje checksumę plików z wzorcem. Jeśli haker doda złośliwy kod, właściciel otrzyma alert w ciągu minut.
-
-AIDE (Advanced Intrusion Detection Environment) to bezpłatne narzędzie dla serwerów Linux. Dla platform jak WordPress sprawdzi się Wordfence, który monitoruje zmiany w plikach core'a.
-
-Fałszywe alarmy zdarzają się często - szczególnie po aktualizacjach. Kluczowe jest nauczenie się rozróżniania normalnych zmian od podejrzanych modyfikacji.
-
-**Automatyczne powiadomienia pozwalają szybko reagować.** E-mail o 3 w nocy to mała cena za uratowanie sklepu przed zniszczeniem. SMS-y działają jeszcze skuteczniej - trudno je zignorować.
+Administratorzy sklepów stanowią szczególny cel. Jedno przejęte konto administratora może oznaczać kontrolę nad całym sklepem. Dostęp do bazy klientów, możliwość modyfikacji cen, instalacja backdoorów – wszystko w jednym pakiecie.

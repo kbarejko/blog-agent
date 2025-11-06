@@ -1,29 +1,31 @@
-Prawo do usunięcia danych - "prawo do bycia zapomnianym" - to praktyczny kłopot dla e-commerce. Klient może zażądać skasowania wszystkich swoich danych. Ale jak to zrobić, zachowując historię sprzedaży dla księgowości?
+## Zabezpieczenie płatności online
 
-Rozwiązanie to anonimizacja zamiast kasowania. Usuwasz dane osobowe, zostawiasz tylko niezbędne informacje biznesowe. "Jan Kowalski z Warszawy" staje się "Klient #47291 z województwa mazowieckiego".
+Płatności to serce każdego e-sklepu. To tutaj spotykają się pieniądze klientów z ambicjami przestępców. Dobre zabezpieczenie tego procesu może uratować biznes. Złe – zniszczyć go w jeden dzień.
 
-#### Zgody i transparentność
+### Zgodność z standardem PCI DSS
 
-Checkbox "Akceptuję regulamin" to za mało. RODO wymaga świadomych, konkretnych zgód. Klient musi wiedzieć, na co się zgadza i dlaczego potrzebujesz jego danych.
+PCI DSS brzmi jak skrót z kosmosu. W praktyce to zbiór 12 zasad zabezpieczania danych kart płatniczych. Każdy sklep, który przetwarza karty, musi je spełniać. Bez wyjątków.
 
-Dobre formularze zgód rozdzielają cel zbierania danych. Osobna zgoda na newsletter, osobna na personalizację reklam, osobna na analizy. Każdą można wycofać niezależnie.
+Małe sklepy wypełniają SAQ – ankietę samooceny. To nie formalność. Każde pytanie dotyczy konkretnego zagrożenia. "Czy zmieniasz domyślne hasła?" - proste pytanie, które eliminuje 80% amatorskich ataków.
 
-Polityka prywatności napisana językiem prawniczym nikogo nie chroni. Klient powinien zrozumieć, jak wykorzystujesz jego dane, bez studiowania prawa przez trzy lata.
+Tokenizacja to najprostszy sposób na zgodność z PCI. Zamiast przechowywać prawdziwe numery kart, system używa losowych tokenów. Haker może ukraść wszystko. Bez prawdziwych numerów kart jego łup jest bezwartościowy.
 
-"Przekazujemy dane zaufanym partnerom w celu optymalizacji procesu" brzmi ładnie, ale nic nie znaczy. Lepiej napisać wprost: "Twój adres email trafia do systemu Mailchimp, żeby wysłać potwierdzenie zamówienia".
+Większość właścicieli sklepów robi to źle. Próbują spełnić wymagania PCI we własnym zakresie. Tymczasem wystarczy przerzucić przetwarzanie płatności na zewnętrznego dostawcę. PayPal, Stripe, Przelewy24 – wszyscy mają pełną certyfikację.
 
-## Zarządzanie dostępami i kontami użytkowników
+### Bezpieczne bramki płatności
 
-### Silne uwierzytelnianie administratorów
+Wybór bramki płatności to decyzja strategiczna. Tania opcja może kosztować fortunę po pierwszym ataku. Droższa zwraca się już przy pierwszej próbie oszustwa.
 
-Admin to kluczyk do królestwa. Jedno skompromitowane konto wystarcza, żeby przejąć kontrolę nad całym sklepem.
+Licencje mają znaczenie. KNF w Polsce, FCA w Wielkiej Brytanii, PCI DSS na całym świecie. Każdy certyfikat to gwarancja określonych standardów bezpieczeństwa.
 
-#### Dwuskładnikowe uwierzytelnianie (2FA)
+3D Secure 2.0 zmienia zasady gry. Pierwsza wersja była uciążliwa. Każda płatność wymagała dodatkowego hasła. Klienci porzucali zakupy. Nowa wersja analizuje kontekst. Stały klient, znane urządzenie, typowa kwota – płatność przechodzi bez dodatkowych kroków.
 
-Hasło to już nie wystarcza. Nawet najsilniejsze można wykraść przez phishing czy keylogger. 2FA dodaje drugi barierę - coś, co masz tylko ty.
+Ryzykowne transakcje nadal wymagają weryfikacji. Ale teraz to biometria zamiast hasła. Odcisk palca, rozpoznanie twarzy, PIN w aplikacji bankowej. Szybko, wygodnie, bezpiecznie.
 
-SMS-y to najsłabsza forma 2FA. Numer można przejąć przez SIM swapping - technikę, gdzie haker przekonuje operatora do przeniesienia numeru na swoją kartę. Aplikacje jak Google Authenticator czy Authy są znacznie bezpieczniejsze.
+### Systemy wykrywania oszustw
 
-Backup codes to niedoceniany element 2FA. Co się stanie, jak zgubisz telefon z aplikacją? Kody zapasowe pozwalają odzyskać dostęp bez wzywania pomocy technicznej. Wydrukuj je i schowaj w sejfie.
+Sztuczna inteligencja zrewolucjonizowała walkę z oszustwami. System analizuje tysiące parametrów w czasie rzeczywistym. Lokalizacja, urządzenie, historia zakupów, pora dnia. Każda transakcja otrzymuje ocenę ryzyka.
 
-Hardware keys typu YubiKey to najwyższy poziom ochrony. Fizyczny klucz podłączany do USB jest praktycznie niemożliwy do zhakowania zdalnie. Banki i korporacje stawiają na takie rozwiązania, ale cena i wygoda to nadal bariera dla mniejszych sklepów.
+Automatyka eliminuje oczywiste próby oszustw. Karta wydana w Polsce, płatność z Nigerii, kwota przekraczająca limit. System blokuje bez namysłu.
+
+Szara strefa wymaga ludzkiego osądu. Nowy klient, nietypowa kwota, rzadko używana karta. Doświadczony operator może zadzwonić i wyjaśnić wątpliwości. Trzy pytania wystarczą, żeby odróżnić prawdziwego klienta od oszusta.

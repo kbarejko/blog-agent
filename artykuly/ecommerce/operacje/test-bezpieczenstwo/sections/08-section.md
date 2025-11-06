@@ -1,23 +1,25 @@
-Najpopularniejsze ataki na sklepy internetowe to SQL injection i Cross-Site Scripting (XSS). WAF rozpoznaje te wzorce i blokuje je automatycznie. Próba wstrzyknięcia kodu `'; DROP TABLE users; --` do formularza zostanie zatrzymana na poziomie firewalla, zanim dotrze do bazy danych.
+## Edukacja zespołu i klientów
 
-Konfiguracja wymaga znajomości swojego sklepu. Jeśli sprzedajesz tylko w Polsce, możesz zablokować ruch z krajów wysokiego ryzyka. Ale uwaga na VPN-y i proxy - legitymni klienci też ich używają. Lepiej monitorować niż ślepo blokować.
+Najdroższe zabezpieczenia świata nie zastąpią świadomego zespołu. 95% udanych cyberataków rozpoczyna się od błędu człowieka. Kliknięty link, pobrane załącznik, podane hasło na fałszywej stronie. Technologia może zatrzymać większość zagrożeń, ale zawsze znajdzie się luka wymagająca ludzkiej czujności.
 
-CloudFlare oferuje WAF w przystępnej cenie. Podstawowa ochrona kosztuje 20 dolarów miesięcznie i obejmuje większość sklepów. AWS WAF jest potężniejszy, ale wymaga więcej konfiguracji. Wybór zależy od budżetu i kompetencji zespołu.
+### Szkolenia dla pracowników
 
-## Kopie zapasowe i plan odzyskiwania
+Pracownicy sklepów internetowych to pierwsza linia obrony. Obsługa klienta, która rozpozna próbę wyłudzenia danych. Administrator, który nie kliknie w podejrzany link. Księgowa, która zweryfikuje nietypowe polecenie przelewu.
 
-Najlepsze zabezpieczenia czasem zawodzą. Hakerzy wymyślają nowe techniki, zero-day exploity omijają wszystkie filtry, ludzie popełniają błędy. Kiedy wszystko inne zawiedzie, kopie zapasowe są ostatnią deską ratunku.
+Phishing ewoluuje szybciej niż filtry antyspamowe. Współczesne próby oszustw to perfekcyjne imitacje. Logo banku skopiowane piksel w piksel. Adres e-mail różniący się jedną literą od oryginału. Presja czasowa – "konto zostanie zablokowane za godzinę".
 
-### Strategia backupów dla e-commerce
+Regularne symulacje phishingowe sprawdzają czujność zespołu. Firma wysyła pracownikom testowe wiadomości oszukańcze. Kto kliknie, dostaje dodatkowe szkolenie. Brzmi surowo, ale skutecznie. Lepiej uczyć się na kontrolowanych błędach niż prawdziwych atakach.
 
-#### Rodzaje kopii zapasowych
+Procedury weryfikacji tożsamości muszą być jasne dla każdego pracownika. Klient dzwoni i prosi o zmianę hasła? Zawsze oddzwonić na numer z bazy. Przełożony pisze maila z prośbą o pilny przelew? Potwierdzić telefonicznie. Dodatkowe dwie minuty mogą uratować tysiące złotych.
 
-Pełne backup-y to kompletna kopia wszystkich danych. Bezpieczne, ale czasochłonne i zajmują dużo miejsca. Sklep z 50 GB danych potrzebuje 50 GB na każdą kopię. Tygodniowe pełne backupy to rozsądny kompromis dla większości biznesów.
+### Edukacja klientów o bezpieczeństwie
 
-Kopie przyrostowe zapisują tylko zmiany od ostatniego backup-u. Znacznie szybsze i mniejsze, ale przywracanie wymaga całego łańcucha kopii. Jedna uszkodzona kopia może zepsuć cały proces.
+Świadomi klienci to najlepsi partnerzy w walce z oszustami. Wiedzą, jak rozpoznać fałszywe strony. Nie dają się nabrać na telefony o "problemach z kartą". Zgłaszają podejrzane wiadomości zamiast je ignorować.
 
-Kopie różnicowe to środek między pełnymi a przyrostowymi. Zapisują wszystkie zmiany od ostatniej pełnej kopii. Przywracanie wymaga tylko dwóch plików: ostatniego pełnego backup-u i najnowszej kopii różnicowej.
+Newsletter o cyberbezpieczeństwie może wydawać się nudny. W praktyce klienci chętnie go czytają. Wszyscy słyszeli o oszustwach internetowych. Konkretne wskazówki od zaufanego sklepu mają wartość praktyczną.
 
-Częstotliwość zależy od dynamiki sklepu. Dziesiątki zamówień dziennie oznaczają, że strata nawet kilku godzin danych to poważny problem. Automatyczne kopie co 6 godzin to minimum. Bazy danych można backup-ować częściej niż pliki - zmieniają się rzadziej.
+Proste zasady działają najlepiej. Sprawdź adres w przeglądarce przed wpisaniem hasła. Nie loguj się przez linki w mailach. Nie podawaj danych przez telefon osobom, które same zadzwoniły. Używaj różnych haseł w różnych serwisach.
 
-Geograficzne rozproszenie chroni przed katastrofami. Pożar w serwerowni, powódź, awaria dysku - kopie w tym samym miejscu też przepadną. Cloud storage jak AWS S3 czy Google Drive automatycznie replikuje dane między kontynentami.
+System powiadomień o logowaniach buduje zaufanie i zwiększa bezpieczeństwo. Klient widzi, że sklep dba o jego konto. Jednocześnie może szybko zareagować na nieautoryzowany dostęp.
+
+Transparentność w komunikacji o bezpieczeństwie paradoksalnie zwiększa zaufanie. Sklep, który otwarcie mówi o zagrożeniach i sposobach ochrony, wydaje się bardziej wiarygodny niż ten, który udaje, że problemów nie ma.

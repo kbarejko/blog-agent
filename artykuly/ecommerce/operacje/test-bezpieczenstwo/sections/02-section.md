@@ -1,25 +1,21 @@
-## Podstawowe zabezpieczenia - minimum bezpieczeństwa
+## Najczęstsze zagrożenia bezpieczeństwa w e-commerce
 
-Większość ataków można zatrzymać już na poziomie podstawowych zabezpieczeń. Problem w tym, że właściciele sklepów często nie wiedzą, od czego zacząć.
+### Ataki na dane płatnicze
 
-**Certyfikat SSL to fundament bezpiecznego sklepu.** Bez niego dane klientów podróżują internetem jak otwarte kartki pocztowe. Każdy może je przeczytać w czasie rzeczywistym.
+Karty kredytowe to święty graal cyberprzestępców. Każdego dnia automatyczne boty testują tysiące skradzionych numerów kart w sklepach internetowych. Proces nazywa się "card testing" i działa jak fabryka – system próbuje małe kwoty, sprawdza, które karty są aktywne, a następnie sprzedaje zweryfikowane dane dalej.
 
-Nie wszystkie certyfikaty SSL są identyczne. Domain Validated (DV) kosztuje 10-50 dolarów rocznie i wystarcza większości małych sklepów. Extended Validation (EV) to wydatek 150-500 dolarów, ale pokazuje zieloną kłódkę w przeglądarce - sygnał zaufania dla klientów.
+Rozpoznać taki atak można po charakterystycznych wzorcach. Dziesiątki transakcji na niewielkie sumy, często z różnych krajów, w krótkim czasie. Jedna karta testowana w kilkunastu sklepach jednocześnie. Większość zostanie odrzucona, ale te udane kosztują właścicieli realne pieniądze.
 
-Google traktuje SSL jako czynnik rankingowy. Sklepy bez szyfrowania mogą stracić pozycje w wyszukiwarkach. Chrome oznacza niezabezpieczone strony jako "niebezpieczne" już przy pierwszej wizycie.
+Jeszcze bardziej wyrafinowane są ataki man-in-the-middle. Haker umieszcza się między klientem a sklepem, przechwytując dane w czasie rzeczywistym. Klient myśli, że płaci w bezpiecznym sklepie. Sklep otrzymuje płatność. A przestępca kopie kompletne dane karty.
 
-**Słabe hasła administratorów otwierają drzwi cyberprzestępcom.** "admin123" to zaproszenie do włamania. Bezpieczne hasło zawiera minimum 12 znaków, łączy litery, cyfry i symbole specjalne.
+Najłatwiej to robić w publicznych sieciach WiFi, ale zaawansowane techniki działają nawet przy szyfrowanym połączeniu. Dlatego właściciele e-sklepów muszą weryfikować autentyczność certyfikatów SSL i regularnie sprawdzać, czy nikt nie ingeruje w proces płatności.
 
-Uwierzytelnianie dwuskładnikowe (2FA) dodaje kolejną warstwę ochrony. Nawet jeśli haker pozna hasło, potrzebuje jeszcze dostępu do twojego telefonu. Google Authenticator lub Authy to bezpłatne aplikacje, które generują jednorazowe kody.
+### Ataki na infrastrukturę sklepu
 
-Niektórzy administratorzy traktują to jako utrudnienie. Ale 30 sekund na wprowadzenie kodu to nic w porównaniu z tygodniami odbudowy sklepu po ataku.
+Ataki DDoS to cyfrowy odpowiednik blokady dróg dojazdowych do sklepu stacjonarnego. Tysiące sfałszowanych zapytań bombarduje serwer, aż ten przestaje odpowiadać prawdziwym klientom. Sklep formalnie działa, ale nikt nie może do niego wejść.
 
-**Aktualizacje systemu brzmią nudno, ale ratują biznesy.** Platforma e-commerce bez najnowszych łatek bezpieczeństwa to dom z otwartymi oknami.
+Niektóre ataki DDoS to dzieło konkurencji, inne – pokaz siły przed żądaniem okupu. Większość jednak to efekt uboczny testowania narzędzi hakerskich. Właściciel sklepu budzi się rano i odkrywa, że przez osiem godzin nocą jego serwis był niedostępny.
 
-WordPress, Magento czy Shopify regularnie publikują poprawki. Przestępcy analizują te aktualizacje, żeby znaleźć luki w nieoaktualizowanych sklepach. Masz kilka dni przewagi, zanim hakerzy opracują masowe ataki.
+Równie niebezpieczne są ataki na kod aplikacji. SQL Injection polega na wstrzyknięciu złośliwego kodu przez formularze kontaktowe lub wyszukiwarki. System myśli, że wykonuje normalne zapytanie do bazy danych, a w rzeczywistości oddaje hakerom kontrolę nad całym sklepem.
 
-Pluginy i rozszerzenia też wymagają aktualizacji. Nieużywane dodatki najlepiej usunąć całkowicie - każdy to potencjalna furtka.
-
-**Kopie zapasowe to ostatnia deska ratunku.** Dziennie wykonywany backup może uratować miesiące pracy. Przechowuj kopie w trzech miejscach: serwer, chmura i lokalne urządzenie.
-
-Testuj odtwarzanie co kwartał. Backup, którego nie można przywrócić, to złudzenie bezpieczeństwa.
+Cross-Site Scripting działa podobnie, ale zamiast bazy danych atakuje przeglądarki klientów. Złośliwy kod uruchamia się w momencie, gdy użytkownik odwiedza zainfekowaną stronę. Może ukraść ciasteczka sesji, przekierować na fałszywe strony płatności lub zainstalować malware.

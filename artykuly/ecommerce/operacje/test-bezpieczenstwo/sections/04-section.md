@@ -1,35 +1,31 @@
-## Ochrona danych klientów i transakcji
+## Podstawowe zabezpieczenia techniczne – fundament bezpieczeństwa
 
-### Standardy płatności PCI DSS
+Właściciele e-sklepów często szukają zaawansowanych rozwiązań cyberbezpieczeństwa. Tymczasem większość ataków można zatrzymać na poziomie podstawowych zabezpieczeń technicznych. To jak założenie solidnych zamków przed instalowaniem systemu alarmowego.
 
-Jeśli przetwarzasz płatności kartami, PCI DSS to nie opcja - to wymóg prawny. Payment Card Industry Data Security Standard określa, jak chronić dane kart płatniczych. Ignorowanie go kończy się karami od wydawców kart i banków.
+### Certyfikaty SSL i szyfrowanie
 
-#### Co to jest PCI DSS i dlaczego jest ważny
+Certyfikat SSL to pierwsza linia obrony każdego sklepu internetowego. Szyfruje dane przesyłane między przeglądarką klienta a serwerem. Bez niego wszystkie informacje – hasła, numery kart, adresy – lecą przez internet jak pocztówki.
 
-Standard opiera się na 12 podstawowych wymaganiach. Brzmi skomplikowanie, ale sprowadza się do zdrowego rozsądku: chroń dane kart, ogranicz dostęp, monitoruj system.
+Wybór odpowiedniego certyfikatu ma znaczenie. Domain Validated (DV) to podstawowa opcja – szybka weryfikacja, niski koszt. Organization Validated (OV) wymaga sprawdzenia firmy. Extended Validation (EV) to najwyższy poziom, ale dla większości e-sklepów przesada.
 
-Poziom zgodności zależy od liczby transakcji rocznie. Małe sklepy (poniżej 20 000 transakcji Visa) wypełniają tylko kwestionariusz samooceny. Większe biznes przechodzą audyt zewnętrzny.
+Kluczowa jest implementacja HTTPS na całej stronie. Nie wystarczy zabezpieczyć tylko stronę płatności. Formularze kontaktowe, logowanie, panel administratora – wszystko musi działać przez szyfrowane połączenie. Mixed content, gdzie część treści ładuje się przez HTTP, to otwarta furtka dla ataków.
 
-Konsekwencje braku zgodności bywają brutalne. Kary od 5 do 100 tysięcy dolarów miesięcznie. Plus koszty wymiany kart klientów po wycieku - nawet 5 dolarów za kartę. Dla sklepu z bazą 50 tysięcy klientów to ćwierć miliona strat.
+HSTS (HTTP Strict Transport Security) to dodatkowa warstwa ochrony. Wymusza na przeglądarce używanie wyłącznie HTTPS. Nawet jeśli klient wpisze adres z HTTP, system automatycznie przekieruje na bezpieczną wersję.
 
-#### Praktyczne wdrożenie PCI DSS
+### Aktualizacje systemu i wtyczek
 
-Tokenizacja to najlepszy sposób na uniknięcie problemów. System zastępuje prawdziwe numery kart bezużytecznymi tokenami. Dane kart trafiają prosto do procesora płatności, omijając twoje serwery.
+Każde oprogramowanie ma błędy. Różnica między bezpiecznym a podatnym systemem to regularność aktualizacji. Hakerzy monitorują publikacje nowych luk w zabezpieczeniach. Pierwsza doba po ujawnieniu to wyścig – kto szybciej zareaguje.
 
-Stripe, PayPal czy Przelewy24 oferują gotowe rozwiązania tokenizacyjne. Integracja trwa kilka godzin, a ryzyko spada do zera. Nie masz danych kart na serwerze - nie musisz ich chronić.
+Środowisko testowe to inwestycja, która się zwraca. Kopie produkcyjnego sklepu pozwalają sprawdzić aktualizacje bez ryzyka awarii. Test zajmuje kilka minut. Odbudowa sklepu po nieudanej aktualizacji – kilka dni.
 
-Szyfrowanie to drugi filar ochrony. Dane w ruchu zabezpiecza HTTPS. Ale co z bazą danych? Hasła, adresy, historia zamówień - wszystko powinno być zaszyfrowane AES-256.
+Wtyczki i rozszerzenia to najczęściej atakowany element sklepów internetowych. Plugin do SEO, widget mediów społecznościowych, dodatek do obsługi płatności – każdy może zawierać lukę. Audyt zainstalowanych dodatków powinien być standardową praktyką. Nieużywane wtyczki lepiej usunąć niż wyłączać.
 
-Monitoring transakcji wykrywa podejrzane wzorce. Nagle zamówienia z dziwnych krajów? Setki transakcji z tego samego IP? Automatyczne alerty pozwalają zareagować przed szkodą.
+### Konfiguracja serwera i hosting
 
-### Ochrona danych osobowych zgodnie z RODO
+Wybór hostingu wpływa bezpośrednio na bezpieczeństwo sklepu. Tani hosting współdzielony oznacza sąsiedztwo z dziesiątkami innych stron. Kompromitacja jednej może zagrozić wszystkim.
 
-RODO to nie tylko papierkowa robota. To fundamentalna zmiana podejścia do prywatności klientów.
+Firewall aplikacyjny (WAF) działa jak ochroniarz przed wejściem do sklepu. Analizuje każde zapytanie zanim dotrze do serwera. Blokuje znane wzorce ataków, podejrzaną aktywność, automatyczne boty. Nowoczesne WAF-y uczą się zachowań typowych dla konkretnego sklepu i reagują na odstępstwa.
 
-#### Minimalizacja zbieranych danych
+Monitoring logów serwera dostarcza wczesnych sygnałów ostrzegawczych. Setki prób logowania z różnych adresów IP, masowe skanowanie katalogów, nietypowe wzorce ruchu – wszystko to poprzedza właściwy atak. Automatyczne alerty pozwalają zareagować zanim będzie za późno.
 
-Zasada adequacy brzmi prosto: zbieraj tylko to, co potrzebujesz. Ale w praktyce większość sklepów gromadzi górę niepotrzebnych informacji.
-
-Czy naprawdę musisz znać datę urodzenia klienta? Jego płeć? Numer telefonu do każdego zamówienia? Każde dodatkowe pole to większe ryzyko i odpowiedzialność.
-
-Czas przechowywania danych to kolejna pułapka. Nie możesz trzymać informacji w nieskończoność "na wszelki wypadek". Stare konta nieaktywnych klientów powinny być czyszczone regularnie.
+System backupów to ostatnia deska ratunku. Automatyczne kopie zapasowe, przechowywane w różnych lokalizacjach, z możliwością szybkiego przywrócenia. Nie zastąpią właściwych zabezpieczeń, ale mogą uratować biznes po udanym ataku.

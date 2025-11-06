@@ -1,23 +1,27 @@
-#### Zasady tworzenia haseł
+## Ochrona danych osobowych klientów
 
-"Admin123!" to nie hasło - to zaproszenie dla hakera. Słabe hasła to najczęstsza przyczyna włamań. Lista najpopularniejszych haseł w 2024 roku wygląda żałośnie: "password", "123456", "admin". Każde z nich można złamać w kilka sekund.
+Każdy sklep internetowy to kopalnia wrażliwych informacji. Imiona, nazwiska, adresy, telefony, historia zakupów – wszystko, co potrzebne do kradzieży tożsamości. RODO nie powstało przypadkowo. To odpowiedź na epidemię nadużyć, która szalała w internecie przez lata.
 
-Generatory haseł tworzą prawdziwie losowe kombinacje. "K7$mP9#xQ2wE" to przykład silnego hasła - długie, nieprzewidywalne, niemożliwe do odgadnięcia. Problem w tym, że również niemożliwe do zapamiętania.
+### Minimalizacja zbieranych danych
 
-Menedżery haseł rozwiązują ten dylemat. Bitwarden, 1Password czy LastPass pamiętają wszystkie hasła za ciebie. Ty musisz znać tylko jedno - master password do menedżera. Wszystkie pozostałe mogą być tak skomplikowane, jak to możliwe.
+Sklepy często gromadzą dane "na wszelki wypadek". Druga linia adresu, gdy większość klientów jej nie potrzebuje. Numer telefonu do konta, które służy tylko do newslettera. Data urodzenia do profilu, gdy sklep nie oferuje rabatów urodzinowych.
 
-Polityka rotacji haseł to kontrowersyjny temat. Dawniej zalecano zmianę co 90 dni. Teraz eksperci mówią: lepsze długie, stałe hasło niż częsta zmiana na słabe. Ludzie zmuszeni do rotacji tworzą przewidywalne wzorce: "Hasło1", "Hasło2", "Hasło3".
+Każda dodatkowa informacja to dodatkowe ryzyko. Więcej danych do ochrony, większa odpowiedzialność prawna, wyższe kary w razie wycieku. RODO wprowadza zasadę minimalizacji nie bez powodu.
 
-Hasła jednorazowe dla kontrahentów to praktyczna kwestia. Deweloper kończy projekt - natychmiast zmieniasz wszystkie hasła. Freelancer robi audyt SEO - dostaję tymczasowy dostęp z datą ważności. Po terminie konto blokuje się automatycznie.
+Anonimizacja statystyk to kolejny krok. Google Analytics potrafi pokazać trendy zakupowe bez ujawniania, kto konkretnie kupił co i kiedy. Systemy CRM mogą analizować zachowania segmentów klientów bez przechowywania pełnych profili.
 
-### Kontrola uprawnień zespołu
+Regularne usuwanie starych danych brzmi prosto, ale wymaga przemyślanej strategii. Niektóre informacje muszą być przechowywane przez lata – wymogi podatkowe, gwarancje, reklamacje. Inne można skasować po zakończeniu transakcji.
 
-Każdy pracownik potrzebuje dostępu, ale nie każdy do wszystkiego. Junior od social mediów nie musi widzieć raportów finansowych. Magazynier nie potrzebuje dostępu do ustawień płatności.
+### Zarządzenie dostępem
 
-Role-based access control (RBAC) organizuje uprawnienia w logiczne grupy. Administrator ma pełny dostęp. Redaktor zarządza treścią, ale nie może zmieniać ustawień. Sprzedawca widzi zamówienia, ale nie dane finansowe.
+Kto w sklepie ma dostęp do danych klientów? Właściciel, kierownik, pracownik obsługi, księgowa, programista? Lista rośnie niezauważalnie. Każda dodatkowa osoba to potencjalne źródło wycieku.
 
-Zasada minimalnych uprawnień brzmi prosto: każdy dostaje minimum potrzebne do pracy. W praktyce oznacza to regularne przeglądy i zadawanie niewygodnych pytań. Dlaczego praktykant ma uprawnienia admina? Czy kierownik marketingu naprawdę musi widzieć bazę klientów?
+Uwierzytelnianie wieloskładnikowe dla administratorów to absolutne minimum. Hasło plus kod z telefonu albo aplikacja Google Authenticator. Zajmuje dodatkowe 10 sekund przy logowaniu. Może uratować cały biznes.
 
-Audyt uprawnień powinien być miesięczną rutyną. Kto ma dostęp do panelu administracyjnego? Kiedy ostatnio logowali się poszczególni użytkownicy? Nieaktywne konta to potencjalne backdoory dla byłych pracowników.
+Klienci też potrzebują opcji 2FA. Nie wszyscy skorzystają, ale ci najbardziej świadomi docenią dodatkową ochronę. Szczególnie VIP-owie z wysokimi limitami lub zapisanymi kartami.
 
-Procedury przy zmianie personelu to test prawdziwej kultury bezpieczeństwa. Pracownik odchodzi w złej atmosferze? Zmiana haseł musi nastąpić przed jego ostatnim dniem pracy. Zwolnienie dyscyplinarne? Dostępy blokujesz natychmiast, nie czekasz do końca wypowiedzenia.
+Zasada najmniejszych uprawnień oznacza, że pracownik obsługi nie potrzebuuje dostępu do statystyk sprzedaży. Księgowa nie musi widzieć haseł administratorów. Freelancer od SEO nie powinien mieć dostępu do bazy klientów.
+
+Audyt uprawnień co sześć miesięcy eliminuje "martwe konta". Były pracownik, współpracownik po zakończeniu projektu, testowe konta utworzone miesiące temu. Każde nieaktywne konto to potencjalny backdoor dla przestępców.
+
+Czasowe konta dla zewnętrznych współpracowników to standard w większych firmach. Dostęp na tydzień, miesiąc, czas trwania projektu. Automatyczne wylogowanie po określonym okresie. Bez konieczności pamiętania o manualnym usuwaniu dostępów.
