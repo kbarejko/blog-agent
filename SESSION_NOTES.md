@@ -57,7 +57,7 @@ meta_title: "SEO title (≠ H1)"
 meta_description: "SEO description (160 chars)"
 ```
 
-#### 4. Proces (11 kroków + opcjonalne sekcje + internal linking + multimedia)
+#### 4. Proces (14 kroków + opcjonalne sekcje + internal linking + multimedia + business metadata + CTA + schema)
 1. **Init** - tworzenie struktury (opcjonalne)
 2. **Konspekt** - outline.md (prompt_konspekt_artykulu.md) → git commit
    - AI decyduje: czy dodać Checklist i/lub FAQ (opcjonalne sekcje)
@@ -70,15 +70,19 @@ meta_description: "SEO description (160 chars)"
    - Opcjonalnie: FAQ do 10 pytań (jeśli w konspekcie)
 6. **Draft** - połączenie: streszczenie + sekcje → draft.md → git commit
 7. **SEO review** - nagłówki (prompt_sprawdz_naglowki.md) → auto-fix
-8. **Humanizacja** - naturalny język (prompt_sprawdz_styl.md) → article.md → git commit
-9. **Kategorie** - AI analizuje artykuł, wybiera z Excel (147 kat.) → categories.yaml → git commit
+8. **Humanizacja** - naturalny język (prompt_sprawdz_styl.md) → article.md
+9. **Multimedia** - AI sugeruje 4-9 multimediów (prompt_multimedia_suggestions.md) → multimedia.json
+10. **Business Metadata** - metadane dla przedsiębiorców (prompt_business_metadata.md) → business_metadata.yaml
+    - Investment, timeline, complexity, team, ROI
+11. **CTA/Next Steps** - sekcja "Co dalej?" (prompt_cta_next_steps.md) → dodana do article.md
+    - Pierwsze kroki, narzędzia, self-assessment, CTA
+12. **Publikacja** - finalna wersja article.md → git commit
+13. **Schema.org Markup** - structured data (prompt_schema_markup.md) → schema.json
+    - Article, FAQPage, HowTo, BreadcrumbList schemas
+14. **Kategorie** - AI analizuje artykuł, wybiera z Excel (147 kat.) → categories.yaml → git commit
 
-**Czas:** ~5min 40s na artykuł (5 sekcji, 3000 słów)
-**Koszt:** ~$0.08 per artykuł (Claude Sonnet 4)
-
-**Nowe kroki:**
-- Krok 3: Internal linking (auto-select 5-8 powiązanych artykułów)
-- Krok 9: Multimedia suggestions (4-9 sugestii z image prompts)
+**Czas:** ~6min 25s na artykuł (5 sekcji, 3000 słów)
+**Koszt:** ~$0.09 per artykuł (Claude Sonnet 4)
 
 #### 5. Review AI (automatyczny)
 Po każdej sekcji sprawdza:
@@ -115,7 +119,7 @@ python blog_agent.py status --path artykuly/.../
 
 Format: `[series/silo/slug] Action`
 
-#### 9. Prompty (9 plików)
+#### 9. Prompty (12 plików)
 - `prompts/konspekt/prompt_konspekt_artykulu.md` - konspekt + decyzja o opcjonalnych sekcjach
 - `prompts/articles/prompt_streszczenie_artykulu.md` - **NOWY** - sekcja "Co znajdziesz w artykule?"
 - `prompts/articles/prompt_artykul_common.md` - wytyczne wspólne
@@ -125,8 +129,11 @@ Format: `[series/silo/slug] Action`
 - `prompts/audyt/prompt_sprawdz_styl.md` - humanizacja
 - `prompts/articles/prompt_linkowanie_wewnetrzne.md` - **NOWY** - internal linking strategy
 - `prompts/articles/prompt_multimedia_suggestions.md` - **NOWY** - sugestie multimediów
+- `prompts/metadata/prompt_business_metadata.md` - **NOWY** - metadane biznesowe dla przedsiębiorców
+- `prompts/articles/prompt_cta_next_steps.md` - **NOWY** - sekcja "Co dalej?" z konkretnymi akcjami
+- `prompts/metadata/prompt_schema_markup.md` - **NOWY** - Schema.org structured data (JSON-LD)
 
-Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{TARGET_AUDIENCE}}`, `{{ARTICLE_CONTENT}}`, etc.
+Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{TARGET_AUDIENCE}}`, `{{ARTICLE_CONTENT}}`, `{{BUSINESS_METADATA}}`, etc.
 
 ### Changes Made
 - Git initialized (initial commit)
@@ -145,6 +152,11 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 - **Utworzenie prompt_multimedia_suggestions.md** - sugestie multimediów (hero + 3-8 w sekcjach)
 - **Update REQUIREMENTS.md** - dodano Krok 3 (internal linking) i Krok 9 (multimedia), workflow 9→11 kroków
 - **Update SESSION_NOTES.md** - zaktualizowano proces z nowymi krokami
+- **Utworzenie prompt_business_metadata.md** - metadane biznesowe (investment, timeline, complexity, team, ROI)
+- **Utworzenie prompt_cta_next_steps.md** - sekcja "Co dalej?" (3 warianty: practical/theoretical/optimization)
+- **Utworzenie prompt_schema_markup.md** - Schema.org structured data (Article, FAQPage, HowTo, BreadcrumbList)
+- **Update REQUIREMENTS.md v2** - dodano Krok 10-13, workflow 11→14 kroków, ~6min 25s per artykuł
+- **Update SESSION_NOTES.md v2** - finalna wersja z 14-krokowym procesem i 12 promptami
 
 ### Important Decisions
 1. **Struktura URL = Struktura folderów** (1:1, bez wyjątków)
@@ -159,6 +171,9 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 10. **Sekcja "Co znajdziesz w artykule?"** - ZAWSZE generowana (Krok 2), 3-5 konkretnych punktów wartości (NIE spis treści)
 11. **Internal linking** - AI auto-select 5-8 powiązanych artykułów (60% ten sam silos), 2-4 contextual + 3-5 end section
 12. **Multimedia suggestions** - AI sugeruje 4-9 multimediów (hero + obrazy/wykresy/infografiki), image prompts dla DALL-E/MJ
+13. **Business metadata** - AI generuje metadane dla przedsiębiorców (investment, timeline, complexity, team, ROI) → filtrowanie/SEO/rekomendacje
+14. **CTA/Next Steps** - Sekcja "Co dalej?" dopasowana do typu artykułu (practical/theoretical/optimization) → konkretne akcje dla czytelnika
+15. **Schema.org markup** - AI generuje structured data (Article, FAQPage, HowTo, BreadcrumbList) → rich snippets w Google, +20-30% CTR
 
 ### Next Steps
 1. **Zapoznanie z REQUIREMENTS.md** (pełna specyfikacja)
@@ -175,17 +190,18 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 
 ### Session Summary
 
-**Status:** ✅ Requirements gathering and design phase COMPLETE
+**Status:** ✅ Requirements gathering and design phase COMPLETE + Business features added
 
 **What was accomplished:**
-- 🎯 Complete requirements specification (REQUIREMENTS.md - 15 sections)
-- 📝 9 prompt templates created/updated
-- 🔄 Workflow designed: 11-step automated article generation
-- 🏗️ Architecture decisions: 12 key decisions documented
-- 📊 Feature set finalized: optional sections, summary, internal linking, multimedia
+- 🎯 Complete requirements specification (REQUIREMENTS.md - 15 sections, updated twice)
+- 📝 12 prompt templates created/updated (dodano 3 nowe dla przedsiębiorców)
+- 🔄 Workflow designed: 14-step automated article generation (było 11 → teraz 14)
+- 🏗️ Architecture decisions: 15 key decisions documented (było 12 → teraz 15)
+- 📊 Feature set finalized: optional sections, summary, internal linking, multimedia, business metadata, CTA, schema.org
 - 📂 Project organized: old files archived, git initialized, documentation in place
-- ⏱️ Performance estimated: ~5min 40s per article, ~$0.08 cost
-- 💾 All work committed to git (8 commits)
+- ⏱️ Performance estimated: ~6min 25s per article, ~$0.09 cost (było 5m40s)
+- 💾 All work committed to git (9 commits)
+- 💼 Business-focused features: metadata dla decyzji inwestycyjnych, CTA dla conversion, rich snippets dla SEO
 
 **Ready for next phase:**
 The system is fully specified and documented. All prompts are ready. Architecture design and implementation can begin when user confirms.

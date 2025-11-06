@@ -52,10 +52,17 @@ blog-agent/
 │   ├── articles/
 │   │   ├── prompt_artykul_common.md    # wspólne wytyczne
 │   │   ├── prompt_artykul_start.md
-│   │   └── prompt_artykul_kontynuacja.md
-│   └── audyt/
-│       ├── prompt_sprawdz_naglowki.md
-│       └── prompt_sprawdz_styl.md
+│   │   ├── prompt_artykul_kontynuacja.md
+│   │   ├── prompt_streszczenie_artykulu.md
+│   │   ├── prompt_linkowanie_wewnetrzne.md
+│   │   ├── prompt_multimedia_suggestions.md
+│   │   └── prompt_cta_next_steps.md
+│   ├── audyt/
+│   │   ├── prompt_sprawdz_naglowki.md
+│   │   └── prompt_sprawdz_styl.md
+│   └── metadata/
+│       ├── prompt_business_metadata.md
+│       └── prompt_schema_markup.md
 │
 ├── kategoria-artykulow.xlsx            # 147 kategorii hierarchicznych
 ├── blog_agent.py                       # główny skrypt (do przebudowy)
@@ -127,7 +134,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 ## 4. Proces tworzenia artykułu
 
-### 4.1 Workflow (11 kroków)
+### 4.1 Workflow (14 kroków)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -237,15 +244,60 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 10: PUBLIKACJA                                        │
+│  KROK 10: BUSINESS METADATA                                 │
+│  • Prompt: prompt_business_metadata.md                      │
+│  • Input: article.md (po humanizacji), konspekt             │
+│  • AI generuje metadane biznesowe dla przedsiębiorców:      │
+│    - target_business (startup/scale-up/enterprise)          │
+│    - investment (level + range + breakdown)                 │
+│    - timeline (estimate + phases)                           │
+│    - complexity (technical + organizational)                │
+│    - team_requirements (size + roles)                       │
+│    - ROI (jeśli applicable)                                 │
+│  • Output: business_metadata.yaml                           │
+│  • Użycie: filtrowanie, SEO, rekomendacje                   │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 11: CTA / NEXT STEPS - "Co dalej?"                   │
+│  • Prompt: prompt_cta_next_steps.md                         │
+│  • Input: article.md, business_metadata, related_articles   │
+│  • AI generuje sekcję końcową z konkretnymi akcjami:       │
+│    - Pierwsze kroki (dla gotowych do działania)            │
+│    - Self-assessment (pytania do oceny gotowości)          │
+│    - Narzędzia i resources                                  │
+│    - CTA (konsultacje, narzędzia, resources)               │
+│  • Dopasowana do typu artykułu (practical/theoretical/opt.) │
+│  • Output: sekcja "Co dalej?" w article.md                 │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 12: PUBLIKACJA                                        │
 │  • Finalna wersja zapisana jako article.md                  │
 │  • Multimedia suggestions w multimedia.json                 │
+│  • Business metadata w business_metadata.yaml               │
 │  • Git commit: "[series/silo/slug] Publish article"        │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 11: KATEGORIE                                         │
+│  KROK 13: SCHEMA.ORG MARKUP                                 │
+│  • Prompt: prompt_schema_markup.md                          │
+│  • Input: article.md, metadata, FAQ, Checklist, images      │
+│  • AI generuje structured data (JSON-LD):                   │
+│    - Article schema (zawsze)                                │
+│    - FAQPage schema (jeśli artykuł ma FAQ)                 │
+│    - HowTo schema (jeśli artykuł ma Checklist)             │
+│    - BreadcrumbList schema (zawsze)                         │
+│  • Output: schema.json → wklejenie w <head>                │
+│  • Użycie: rich snippets w Google, lepsze SEO, wyższe CTR │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 14: KATEGORIE                                         │
 │  • AI analizuje gotowy artykuł (article.md)                 │
 │  • Wybiera 1-5 kategorii z kategoria-artykulow.xlsx        │
 │  • Sugeruje nowe jeśli brak odpowiednich                    │
@@ -258,17 +310,20 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 | Krok | Czas | % |
 |------|------|---|
-| Konspekt | ~30s | 9% |
+| Konspekt | ~30s | 8% |
 | Streszczenie "Co znajdziesz" | ~15s | 4% |
-| Internal linking | ~20s | 6% |
-| Pisanie sekcji (x5) | ~2m | 35% |
-| Review sekcji (x5) | ~1m | 18% |
-| SEO Review | ~20s | 6% |
-| Humanizacja | ~40s | 12% |
-| Multimedia suggestions | ~20s | 6% |
-| Kategorie | ~20s | 6% |
-| Git commits | ~15s | 4% |
-| **RAZEM** | **~5min 40s** | **100%** |
+| Internal linking | ~20s | 5% |
+| Pisanie sekcji (x5) | ~2m | 32% |
+| Review sekcji (x5) | ~1m | 16% |
+| SEO Review | ~20s | 5% |
+| Humanizacja | ~40s | 11% |
+| Multimedia suggestions | ~20s | 5% |
+| Business metadata | ~25s | 7% |
+| CTA/Next Steps | ~20s | 5% |
+| Schema.org markup | ~15s | 4% |
+| Kategorie | ~20s | 5% |
+| Git commits | ~20s | 5% |
+| **RAZEM** | **~6min 25s** | **100%** |
 
 ### 4.3 Opcjonalne sekcje (AI decision)
 
@@ -531,6 +586,257 @@ curl -X POST "https://api.openai.com/v1/images/generations" \
 python blog_agent.py publish --skip-multimedia
 ```
 
+### 4.6 Business Metadata (Krok 10)
+
+**Cel:** Wygenerować metadane biznesowe które pomogą przedsiębiorcom ocenić czy artykuł jest dla nich relevantny i wspomogą w podejmowaniu decyzji inwestycyjnych.
+
+**Dla kogo:**
+Przedsiębiorcy podejmujący decyzje inwestycyjne w IT, oprogramowanie, strony internetowe, rozwój biznesu.
+
+**Co generuje AI:**
+
+1. **Target Business** - dla kogo artykuł (startup, scale-up, enterprise)
+2. **Industry** - branża (ecommerce, saas, fintech, universal, etc.)
+3. **Project Phase** - faza projektu (planowanie, wdrożenie, optymalizacja, migracja)
+4. **Investment** - inwestycja:
+   - Level (low, medium, high, very_high, variable, none)
+   - Range ("50-150k PLN")
+   - Breakdown (jeśli applicable): software, development, integration, infrastructure, consulting
+5. **Timeline** - czas realizacji:
+   - Estimate ("2-3 miesiące")
+   - Phases (planning, design, development, testing, deployment)
+6. **Complexity** - złożoność:
+   - Technical (low, medium, high)
+   - Organizational (low, medium, high)
+7. **Team Requirements** - wymagania zespołowe:
+   - Size ("3-5 osób")
+   - Roles (lista ról/kompetencji)
+8. **ROI** - zwrot z inwestycji (opcjonalnie):
+   - Breakeven ("6-12 miesięcy")
+   - Annual savings/revenue increase
+   - Key factors (co wpływa na ROI)
+
+**Użycie metadanych:**
+- Filtrowanie artykułów ("pokaż artykuły dla startupów z budżetem <50k PLN")
+- SEO (structured data dla business content)
+- Rekomendacje ("podobne projekty o tej złożoności")
+- Personalizacja (dopasowanie treści do fazy projektu użytkownika)
+
+**Prompt:** `prompts/metadata/prompt_business_metadata.md`
+
+**Input:** article.md (po humanizacji), konspekt, seria, silos
+
+**Output:** `business_metadata.yaml`
+
+**Przykład output:**
+```yaml
+business_metadata:
+  target_business:
+    - "startup"
+    - "scale-up"
+  industry:
+    - "ecommerce"
+    - "retail"
+  project_phase:
+    - "planowanie"
+    - "wdrożenie"
+  investment:
+    level: "medium"
+    range: "50-150k PLN"
+    breakdown:
+      software_licenses: "20-40k PLN"
+      development: "50-80k PLN"
+      integration: "30-50k PLN"
+      infrastructure: "10-15k PLN"
+  timeline:
+    estimate: "2-3 miesiące"
+    phases:
+      planning: "2-3 tygodnie"
+      development: "6-8 tygodni"
+      testing: "2-3 tygodnie"
+      deployment: "1-2 tygodnie"
+  complexity:
+    technical: "medium"
+    organizational: "low"
+  team_requirements:
+    size: "3-5 osób"
+    roles:
+      - "Project Manager"
+      - "Backend Developer"
+      - "Frontend Developer"
+      - "UX Designer (opcjonalnie)"
+  roi:
+    breakeven: "8-12 miesięcy"
+    annual_savings: "100-150k PLN"
+    key_factors:
+      - "Automatyzacja obsługi zamówień (60% mniej czasu)"
+      - "Integracja z ERP (eliminacja podwójnego wprowadzania)"
+```
+
+### 4.7 CTA / Next Steps - "Co dalej?" (Krok 11)
+
+**Cel:** Sekcja końcowa artykułu która pomaga przedsiębiorcy podjąć konkretne akcje po przeczytaniu.
+
+**Dla kogo:**
+Przedsiębiorcy którzy przeczytali artykuł i zastanawiają się "ok, to co teraz?".
+
+**Co generuje AI:**
+
+Sekcja dopasowana do typu artykułu:
+
+**A) Artykuł praktyczny/wdrożeniowy:**
+- ✅ Pierwsze kroki (3-5 akcji do wykonania)
+- ✅ Przydatne narzędzia (templates, calculators, checklists)
+- ✅ CTA wsparcia (konsultacje, RFP templates)
+- ✅ Polecane artykuły (2-3 z related articles)
+- ⚠️ Optional warning (jeśli high complexity/investment)
+
+**B) Artykuł teoretyczny/strategiczny:**
+- 🎯 Self-assessment (3-5 pytań yes/no)
+- 🎯 Rekomendacja (na podstawie odpowiedzi)
+- 📖 Następne kroki lektury (2-3 artykuły)
+- 📖 Praktyczne zasoby
+- 💬 CTA konsultacji/ankiety potrzeb
+
+**C) Artykuł optymalizacyjny/compliance:**
+- 🔍 Narzędzia do audytu (darmowe checkers)
+- ⚡ Quick wins (3 akcje, impact + czas)
+- 🚀 Pełne wdrożenie (CTA audyt/wdrożenie)
+- 📚 Powiązane artykuły (2-3)
+
+**Elementy wypełniane z kontekstu:**
+- Timeframes z business_metadata.timeline
+- Actions z checklist lub głównych sekcji
+- Tools wspomniane w artykule + rekomendacje
+- Questions do self-assessment (3-5 pytań)
+- Related articles z internal linking (2-3 najbardziej pasujące)
+
+**Prompt:** `prompts/articles/prompt_cta_next_steps.md`
+
+**Input:** article.md, business_metadata, related_articles, seria/silos
+
+**Output:** Sekcja "Co dalej?" wstawiona na koniec article.md (przed "Powiązane artykuły")
+
+**Przykład output (artykuł wdrożeniowy):**
+```markdown
+## Co dalej?
+
+### ✅ Jeśli planujesz wdrożenie w najbliższych 3-6 miesięcy:
+
+**Pierwsze kroki:**
+1. **Zdefiniuj wymagania biznesowe** - zrób listę funkcji must-have vs nice-to-have
+2. **Ustal realny budżet** - orientacyjny koszt 50-150k PLN, uwzględnij bufór 20%
+3. **Wybierz 3-5 platform do porównania** - skup się na tych pasujących do B2B/B2C
+
+**Przydatne narzędzia:**
+- [Platform comparison spreadsheet](#) - gotowy Excel (30+ kryteriów)
+- [RFP template](#) - wyślij do agencji i dostań porównywalne oferty
+
+**Potrzebujesz pomocy?**
+- [Umów bezpłatną konsultację](#) - omówimy case i pomożemy wybrać (30 min)
+- [Zapytaj o wdrożenie](#) - wycena + plan projektu w 2-3 dni
+
+### 📚 Jeśli jeszcze zbierasz wiedzę:
+
+**Polecane artykuły:**
+- [Integracje ERP, WMS i CRM](link) - dowiesz się jak połączyć z systemami backend
+- [Koszty utrzymania e-commerce](link) - ukryte koszty których nie widzisz
+
+⚠️ **Ważne:** Wybór platformy to decyzja na 3-5 lat. Źle dobrana może kosztować 2-3x więcej w maintenance. Warto poświęcić czas na research.
+```
+
+### 4.8 Schema.org Markup (Krok 13)
+
+**Cel:** Wygenerować structured data (JSON-LD) dla artykułu aby poprawić SEO i wyświetlanie w wynikach wyszukiwania Google (rich snippets).
+
+**Dlaczego to ważne:**
+- **Rich snippets w Google** - FAQ, HowTo, ratings wyświetlane bezpośrednio w wynikach
+- **Wyższe CTR** - rich snippets zwiększają klikalność o 20-30%
+- **Lepsze SEO** - Google lepiej rozumie strukturę i treść artykułu
+- **Przewaga konkurencyjna** - większość polskich blogów nie używa structured data
+
+**Co generuje AI:**
+
+**1. Article Schema (ZAWSZE)**
+- headline, description, image, datePublished, author, publisher, keywords
+
+**2. FAQPage Schema (jeśli artykuł ma FAQ)**
+- Lista pytań i odpowiedzi w formacie Schema.org
+- Google wyświetla je jako rich snippets w wynikach
+
+**3. HowTo Schema (jeśli artykuł ma Checklist)**
+- Kroki z checklisty jako HowTo steps
+- Google wyświetla jako step-by-step guide
+
+**4. BreadcrumbList Schema (ZAWSZE)**
+- Nawigacja: Home → Artykuły → Seria → Silos → Artykuł
+- Wyświetlana jako breadcrumbs w Google
+
+**Format output:**
+Osobne bloki `<script type="application/ld+json">` dla każdego typu schema (nie łączyć w jeden obiekt).
+
+**Prompt:** `prompts/metadata/prompt_schema_markup.md`
+
+**Input:** article.md, meta_title, meta_description, FAQ, Checklist, images, article_url, dates
+
+**Output:** `schema.json` → bloki HTML gotowe do wklejenia w `<head>`
+
+**Przykład output:**
+```html
+<!-- Article Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Bezpieczeństwo e-commerce: praktyczny przewodnik RODO 2025",
+  "description": "Dowiedz się jak zabezpieczyć sklep online i spełnić wymogi RODO...",
+  "image": ["https://www.digitalvantage.pl/images/hero.jpg"],
+  "datePublished": "2025-01-06T10:00:00+01:00",
+  "author": {
+    "@type": "Organization",
+    "name": "Digital Vantage"
+  },
+  "keywords": ["RODO", "e-commerce", "bezpieczeństwo"]
+}
+</script>
+
+<!-- FAQPage Schema (jeśli artykuł ma FAQ) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Czy każdy sklep musi mieć politykę prywatności?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "<p>Tak, polityka prywatności jest obowiązkowa...</p>"
+      }
+    }
+  ]
+}
+</script>
+
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Strona główna", "item": "https://..."},
+    {"@type": "ListItem", "position": 2, "name": "Artykuły", "item": "https://..."},
+    {"@type": "ListItem", "position": 3, "name": "E-commerce", "item": "https://..."}
+  ]
+}
+</script>
+```
+
+**Testing:**
+User powinien przetestować output w:
+- Google Rich Results Test: https://search.google.com/test/rich-results
+- Schema.org Validator: https://validator.schema.org/
+
 ---
 
 ## 5. Prompty i szablony
@@ -555,11 +861,16 @@ Prompty używają placeholder'ów, które system wypełnia:
 |------|---------------|---------|
 | `prompt_konspekt_artykulu.md` | Krok 1: Konspekt | TEMAT_ARTYKULU, URL_ARTYKULU, KONTEKST_TEMATU |
 | `prompt_streszczenie_artykulu.md` | Krok 2: Streszczenie "Co znajdziesz" | KONSPEKT_TRESC, TYTUL_ARTYKULU, TARGET_AUDIENCE |
-| `prompt_artykul_common.md` | Kroki 3-4: Wytyczne | (wklejane jako WYTYCZNE_WSPOLNE) |
-| `prompt_artykul_start.md` | Krok 3: Pierwsza sekcja | KONSPEKT_TRESC, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU |
-| `prompt_artykul_kontynuacja.md` | Krok 4: Kolejne sekcje | KONSPEKT_TRESC, OSTATNIA_SEKCJA, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU |
-| `prompt_sprawdz_naglowki.md` | Krok 6: SEO review | (treść draft) |
-| `prompt_sprawdz_styl.md` | Krok 7: Humanizacja | (treść draft) |
+| `prompt_linkowanie_wewnetrzne.md` | Krok 3: Internal linking | TYTUL_ARTYKULU, KONSPEKT_TRESC, ARTICLE_PATH, SERIA, SILOS, AVAILABLE_ARTICLES |
+| `prompt_artykul_common.md` | Kroki 4-5: Wytyczne | (wklejane jako WYTYCZNE_WSPOLNE) |
+| `prompt_artykul_start.md` | Krok 4: Pierwsza sekcja | KONSPEKT_TRESC, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU, RELATED_ARTICLES |
+| `prompt_artykul_kontynuacja.md` | Krok 5: Kolejne sekcje | KONSPEKT_TRESC, OSTATNIA_SEKCJA, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU, RELATED_ARTICLES |
+| `prompt_sprawdz_naglowki.md` | Krok 7: SEO review | (treść draft) |
+| `prompt_sprawdz_styl.md` | Krok 8: Humanizacja | (treść draft) |
+| `prompt_multimedia_suggestions.md` | Krok 9: Multimedia | TYTUL_ARTYKULU, ARTICLE_CONTENT, KONSPEKT_TRESC, TARGET_AUDIENCE |
+| `prompt_business_metadata.md` | Krok 10: Business metadata | TYTUL_ARTYKULU, ARTICLE_CONTENT, KONSPEKT_TRESC, SERIA, SILOS |
+| `prompt_cta_next_steps.md` | Krok 11: CTA / Next Steps | TYTUL_ARTYKULU, ARTICLE_CONTENT, BUSINESS_METADATA, RELATED_ARTICLES, SERIA, SILOS |
+| `prompt_schema_markup.md` | Krok 13: Schema.org markup | TYTUL_ARTYKULU, META_TITLE, META_DESCRIPTION, ARTICLE_CONTENT, ARTICLE_URL, PUBLISH_DATE, MODIFIED_DATE, IMAGES, FAQ_CONTENT, CHECKLIST_CONTENT |
 
 ### 5.3 Wytyczne wspólne (prompt_artykul_common.md)
 
