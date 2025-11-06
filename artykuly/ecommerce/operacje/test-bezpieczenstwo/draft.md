@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Ataki kosztują średnio 4,45 mln dolarów** - naruszenie danych w e-commerce to nie tylko utrata klientów, ale konkretne straty finansowe i prawne
 - **PCI DSS w 6 krokach** - praktyczny plan wdrożenia standardu płatności bez kosztownych audytów zewnętrznych dla małych sklepów

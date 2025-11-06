@@ -1,153 +1,188 @@
 # Konspekt artykułu
 
-## 1. Cel i założenia artykułu
-Artykuł ma przygotować właścicieli sklepów internetowych do skutecznego zabezpieczenia swojego biznesu przed zagrożeniami cybernetycznymi. Praktyczne wskazówki, narzędzia i strategie przedstawione będą w sposób ekspercki, ale przystępny - bez zbędnego żargonu technicznego.
+## 1. Cel artykułu
+Kompleksowy przewodnik dla właścicieli sklepów online po zabezpieczeniu ich biznesu przed najczęstszymi zagrożeniami cyberbezpieczeństwa. Artykuł łączy wiedzę ekspercką z praktycznymi wskazówkami, które można wdrożyć od zaraz.
 
-## 2. Główne pytania czytelników:
-- Jakie są najważniejsze zagrożenia dla mojego sklepu online?
-- Jak zabezpieczyć dane klientów i płatności?
-- Ile kosztuje odpowiednie zabezpieczenie sklepu?
-- Które narzędzia bezpieczeństwa są niezbędne, a które opcjonalne?
-- Jak rozpoznać, że mój sklep został zaatakowany?
-- Co robić po wykryciu naruszenia bezpieczeństwa?
+## 2. Struktura artykułu
+### Wprowadzenie Rozpoczęcie od alarmujących statystyk dotyczących cyberataków na sklepy online w 2024 roku. Przedstawienie kosztów braku odpowiednich zabezpieczeń - zarówno finansowych, jak i reputacyjnych. Zapowiedź praktycznych rozwiązań, które może wdrożyć każdy właściciel e-sklepu.
 
-## 3. Struktura artykułu
-### Wstęp Wprowadzenie w problem - statystyki dotyczące cyberataków na sklepy online, koszty naruszenia bezpieczeństwa dla biznesu e-commerce. Zapowiedź praktycznych rozwiązań.
+## 3. Dlaczego sklepy online są szczególnie narażone na ataki
+### Atrakcyjny cel dla cyberprzestępców
+- Duże wolumeny transakcji i wrażliwych danych
+- Często niedostateczne zabezpieczenia w porównaniu do banków
+- Możliwość kradzieży tożsamości i danych płatniczych
 
-### Najczęstsze zagrożenia w sklepach internetowych **Pytanie czytelnika:** *Na jakie konkretnie zagrożenia powinienem się przygotować?*
+### Najczęstsze konsekwencje udanych ataków
+- Straty finansowe bezpośrednie i pośrednie
+- Utrata zaufania klientów
+- Kary regulacyjne (RODO, PCI DSS)
+- Koszt odbudowy systemu i reputacji
 
-#### Ataki na dane płatnicze klientów
-- Skimming kart kredytowych
-- Przechwytywanie danych podczas transakcji
-- Konsekwencje finansowe i wizerunkowe
+## 4. Najczęstsze zagrożenia bezpieczeństwa w e-commerce
+### Ataki na dane płatnicze
 
-#### Włamania do panelu administracyjnego
-- Słabe hasła i brute force
-- Exploity w systemach CMS
-- Skutki przejęcia kontroli nad sklepem
+#### Skimming i card testing
+- Jak działają automatyczne testy kart kredytowych
+- Rozpoznawanie podejrzanych wzorców transakcji
+- Zabezpieczenia przed testowaniem kart
 
-#### Ataki DDoS i przeciążenie serwera
-- Mechanizm działania ataków DDoS
-- Wpływ na dostępność sklepu i sprzedaż
-- Koszty przestojów
+#### Ataki man-in-the-middle
+- Przechwytywanie danych podczas transmisji
+- Znaczenie szyfrowania SSL/TLS
+- Weryfikacja autentyczności certyfikatów
 
-#### Malware i złośliwy kod
-- Backdoory w pluginach i szablonach
-- Skrypty przechwytujące dane
-- Ukryte przekierowania
+### Ataki na infrastrukturę sklepu
 
-### Podstawowe zabezpieczenia - minimum bezpieczeństwa **Pytanie czytelnika:** *Od czego zacząć zabezpieczanie mojego sklepu?*
+#### Ataki DDoS i przeciążenia
+- Jak ataki DDoS paraliżują sklepy online
+- Rozpoznawanie symptomów ataku
+- Systemy ochrony przed przeciążeniem
 
-#### Certyfikaty SSL i szyfrowanie
-- Różnice między typami certyfikatów SSL
-- Wpływ na SEO i zaufanie klientów
-- Koszty i proces implementacji
+#### Wstrzykiwanie kodu (SQL Injection, XSS)
+- Mechanizmy ataków na bazy danych
+- Podatności w formularzach kontaktowych
+- Cross-Site Scripting i jego konsekwencje
 
-#### Silne uwierzytelnianie administratorów
-- Zasady tworzenia bezpiecznych haseł
-- Uwierzytelnianie dwuskładnikowe (2FA)
-- Zarządzanie kontami administratorów
+### Zagrożenia związane z kontem użytkownika
 
-#### Regularne aktualizacje systemu
-- Aktualizacje platformy e-commerce
-- Patche bezpieczeństwa dla pluginów
-- Harmonogram i automatyzacja aktualizacji
+#### Credential stuffing i brute force
+- Wykorzystywanie wycieków haseł z innych serwisów
+- Automatyczne próby łamania haseł
+- Ochrona kont administratorów
 
-#### Kopie zapasowe danych
-- Częstotliwość wykonywania backupów
-- Przechowywanie kopii w chmurze vs lokalnie
-- Testowanie odtwarzania z kopii
+#### Account takeover
+- Przejmowanie kont klientów
+- Wykorzystanie danych osobowych do oszustw
+- Zabezpieczenie procesu resetowania haseł
 
-### Zaawansowane metody ochrony sklepu online **Pytanie czytelnika:** *Jakie dodatkowe zabezpieczenia warto wdrożyć w moim sklepie?*
+## 5. Podstawowe zabezpieczenia techniczne - fundament bezpieczeństwa
+### Certyfikaty SSL i szyfrowanie
 
-#### Firewall aplikacji webowych (WAF)
-- Jak działa WAF w praktyce
-- Popularne rozwiązania i ich koszty
-- Konfiguracja dla sklepów e-commerce
+#### Wybór odpowiedniego certyfikatu SSL
+- Różnice między DV, OV i EV
+- Certyfikaty wildcard vs. pojedyncze domeny
+- Automatyczne odnawianie certyfikatów
 
-##### Filtrowanie ruchu w czasie rzeczywistym
-- Blokowanie podejrzanych IP
-- Ochrona przed atakami SQL Injection
-- Analiza wzorców ruchu
+#### Implementacja HTTPS wszędzie
+- Przekierowania z HTTP na HTTPS
+- Mixed content i jego eliminacja
+- HSTS i zwiększenie bezpieczeństwa
 
-##### Ochrona przed botami i automatyzacją
-- Rozróżnienie między dobrymi a złymi botami
-- CAPTCHA i alternatywne rozwiązania
-- Ochrona formularzy kontaktowych
+### Aktualizacje systemu i wtyczek
 
-#### Monitoring i systemy wykrywania włamań
-- Narzędzia do monitorowania integralności plików
-- Alerty o podejrzanych działaniach
-- Logi bezpieczeństwa i ich analiza
+#### Strategia aktualizacji
+- Tworzenie środowiska testowego
+- Harmonogram regularnych aktualizacji
+- Monitoring alertów bezpieczeństwa
 
-##### Automatyczne powiadomienia o zagrożeniach
-- Konfiguracja alertów e-mail/SMS
-- Integracja z systemami zarządzania
-- Eskalacja incydentów
+#### Zarządzanie wtyczkami i rozszerzeniami
+- Audyt zainstalowanych dodatków
+- Usuwanie nieużywanych wtyczek
+- Weryfikacja źródeł oprogramowania
 
-##### Analiza logów serwera
-- Identyfikacja wzorców ataków
-- Narzędzia do analizy logów
-- Przechowywanie i archiwizacja
+### Konfiguracja serwera i hosting
 
-### Bezpieczne płatności i ochrona danych klientów **Pytanie czytelnika:** *Jak zapewnić bezpieczeństwo płatności w moim sklepie?*
+#### Wybór bezpiecznego hostingu
+- Kryteria wyboru dostawcy hostingu
+- Dedykowane vs. współdzielone serwery
+- Backup i disaster recovery
 
-#### Standard PCI DSS - wymagania i implementacja
-- Podstawowe zasady PCI DSS
-- Koszty certyfikacji i audytu
-- Uproszczone ścieżki compliance dla małych sklepów
+#### Firewall aplikacyjny (WAF)
+- Konfiguracja podstawowych reguł
+- Monitorowanie i analiza logów
+- Dostosowanie do specyfiki sklepu
+
+## 6. Zabezpieczenie płatności online
+### Zgodność z standardem PCI DSS
+
+#### Podstawowe wymagania PCI DSS
+- 12 głównych wymagań standardu
+- Proces certyfikacji dla małych sklepów
+- SAQ (Self-Assessment Questionnaire) - jak wypełnić
 
 #### Tokenizacja danych płatniczych
-- Czym jest tokenizacja i jak działa
-- Korzyści dla bezpieczeństwa i compliance
-- Popularne dostawcy rozwiązań
+- Zastąpienie prawdziwych numerów kart tokenami
+- Korzyści z outsourcingu przetwarzania płatności
+- Wybór providera płatności z tokenizacją
 
-#### Bramki płatności i outsourcing bezpieczeństwa
-- Wybór bezpiecznych operatorów płatności
-- Redirect vs iframe vs API
-- Podział odpowiedzialności za bezpieczeństwo
+### Bezpieczne bramki płatności
 
-### Procedury reagowania na incydenty **Pytanie czytelnika:** *Co mam robić, gdy podejrzewam, że mój sklep został zhakowany?*
+#### Kryteria wyboru bramki
+- Licencje i certyfikaty bezpieczeństwa
+- Funkcje antyfraudowe
+- Wsparcie dla 3D Secure
 
-#### Plan działania w przypadku naruszenia bezpieczeństwa
-- Pierwsze kroki po wykryciu ataku
-- Komunikacja z klientami i partnerami
-- Współpraca z organami ścigania
+#### Implementacja 3D Secure 2.0
+- Różnice między 3DS 1.0 a 2.0
+- Wpływ na conversion rate
+- Optymalizacja user experience
 
-#### Odzyskiwanie po ataku
-- Oczyszczanie sklepу z malware
-- Przywracanie danych z kopii zapasowych
-- Analiza przyczyn naruszenia
+### Systemy wykrywania oszustw
 
-#### Wdrażanie dodatkowych zabezpieczeń
-- Lessons learned z incydentu
-- Dodatkowe warstwy ochrony
-- Szkolenia zespołu
+#### Machine learning w detekcji fraudu
+- Analiza wzorców zachowań klientów
+- Scoring ryzyka transakcji
+- Automatyczne blokowanie podejrzanych płatności
 
-### Budowanie kultury bezpieczeństwa w zespole **Pytanie czytelnika:** *Jak przygotować mój zespół do świadomej pracy z bezpieczeństwem?*
+#### Manualna weryfikacja transakcji
+- Kryteria kwalifikujące do weryfikacji
+- Proces kontaktu z klientem
+- Dokumentacja decyzji
 
-#### Szkolenia pracowników
-- Podstawy cyberbezpieczeństwa dla zespołu
-- Rozpoznawanie zagrożeń phishingowych
+## 7. Ochrona danych osobowych klientów
+### Minimalizacja zbieranych danych
+
+#### Zasada minimalizacji RODO
+- Zbieranie tylko niezbędnych informacji
+- Regularne usuwanie starych danych
+- Anonimizacja danych analitycznych
+
+#### Bezpieczne przechowywanie danych
+- Szyfrowanie baz danych
+- Kontrola dostępu do danych
+- Segmentacja sieci i izolacja
+
+### Zarządzanie dostępem
+
+#### Uwierzytelnianie wieloskładnikowe (2FA)
+- Implementacja 2FA dla administratorów
+- Opcje 2FA dla klientów
+- Aplikacje uwierzytelniające vs SMS
+
+#### Zarządzanie uprawnieniami
+- Zasada najmniejszych uprawnień
+- Regularne audyty uprawnień
+- Czasowe konta dla freelancerów
+
+## 8. Monitoring i reagowanie na incydenty
+### Systemy monitoringu bezpieczeństwa
+
+#### SIEM i analiza logów
+- Centralizacja logów z różnych źródeł
+- Automatyczne alerty bezpieczeństwa
+- Korelacja zdarzeń i wykrywanie wzorców
+
+#### Monitoring integralności plików
+- Wykrywanie nieautoryzowanych zmian
+- Ochrona krytycznych plików systemu
+- Alerty o modyfikacjach
+
+### Plan reagowania na incydenty
+
+#### Procedury awaryjne
+- Identyfikacja i klasyfikacja incydentów
+- Zespół reagowania kryzysowego
+- Komunikacja z klientami i organami
+
+#### Forensyka cyfrowa
+- Zabezpieczenie dowodów
+- Analiza sposobu ataku
+- Wnioski na przyszłość
+
+## 9. Edukacja zespołu i klientów
+### Szkolenia dla pracowników
+
+#### Świadomość zagrożeń
+- Rozpoznawanie prób phishingu
 - Bezpieczne praktyki pracy
-
-#### Polityki bezpieczeństwa
-- Zasady dostępu do systemów
-- Procedury zmiany haseł
-- Protokoły komunikacji w przypadku zagrożeń
-
-### Koszty bezpieczeństwa vs ryzyko biznesowe **Pytanie czytelnika:** *Ile powinienem wydać na bezpieczeństwo swojego sklepu?*
-
-#### Analiza ROI inwestycji w bezpieczeństwo
-- Kalkulacja potencjalnych strat
-- Koszt vs skuteczność różnych rozwiązań
-- Budżetowanie zabezpieczeń
-
-#### Rozwiązania dla różnych budżetów
-- Darmowe narzędzia bezpieczeństwa
-- Rozwiązania dla małych, średnich i dużych sklepów
-- Etapowe wdrażanie zabezpieczeń
-- [ ] Certyfikat SSL zains
-
-
-**Zawiera:** Checklist
+- Procedury

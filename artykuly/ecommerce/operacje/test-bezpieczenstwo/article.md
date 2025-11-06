@@ -1,0 +1,1 @@
+Nie widzę żadnego tekstu do poprawy. Proszę udostępnić treść, którą mam zredagować zgodnie z podanymi kryteriami, a zwrócę poprawioną wersję zachowując oryginalną strukturę Markdown i formatowanie.
