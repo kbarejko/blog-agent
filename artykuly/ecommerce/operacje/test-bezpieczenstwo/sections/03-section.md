@@ -1,35 +1,27 @@
-**Podstawowe zabezpieczenia techniczne**
+## Zaawansowane metody ochrony sklepu online
 
-Teraz czas na konkretne działania. Cyberprzestępcy poznali swoje metody – najwyższy czas poznać skuteczne sposoby obrony.
+Podstawowe zabezpieczenia to fundament, ale prawdziwa ochrona zaczyna się dopiero na wyższych poziomach.
 
-**Certyfikaty SSL i szyfrowanie danych**
+**Firewall aplikacji webowych (WAF) działa jak inteligentny bramkarz.** Analizuje każde zapytanie do twojego sklepu w czasie rzeczywistym. Rozpoznaje wzorce ataków SQL Injection, próby włamania do panelu administracyjnego czy podejrzane skrypty.
 
-Jeśli widzisz zieloną kłódkę w pasku adresu, działa certyfikat SSL. To pierwsza linia obrony każdego sklepu internetowego. Bez niego dane przesyłane między klientem a serwerem wędrują otwartym tekstem.
+Cloudflare oferuje podstawowy WAF za 20 dolarów miesięcznie. Dla większych sklepów warto rozważyć Sucuri (200+ dolarów rocznie) lub AWS WAF (płatność za użycie).
 
-Cyberprzestępcy uwielbiają niezaszyfrowane połączenia. Wystarczy jeden publiczny hotspot i mogą przechwycić wszystko – od danych logowania po numery kart płatniczych.
+WAF blokuje ataki automatycznie, zanim dotrą do serwera. Właściciel sklepu widzi raporty: 847 zablokowanych ataków w tym tygodniu, najczęściej z IP w Rumunii i Rosji.
 
-Wybór certyfikatu ma znaczenie. Domain Validated (DV) to minimum – sprawdza tylko domenę. Organization Validated (OV) weryfikuje również firmę. Extended Validation (EV) to najwyższy poziom, pokazujący zieloną kłódkę z nazwą firmy.
+**Filtrowanie ruchu eliminuje zagrożenia u źródła.** Niektóre adresy IP słyną z generowania ataków. WAF może blokować całe kraje lub regiony, jeśli nie prowadzisz tam sprzedaży.
 
-Cena? Od 50 złotych rocznie za podstawowy DV do kilku tysięcy za certyfikat EV. Ale porównaj to z kosztem jednego wycieku danych.
+Geoblokowanie ma swoje pułapki. Zablokujesz potencjalnych klientów używających VPN-ów. Ale jeśli sprzedajesz tylko lokalnie, ruch z egzotycznych lokalizacji rzadko oznacza prawdziwych kupujących.
 
-Pamiętaj o automatycznym odnawianiu. Wygasły certyfikat to sklep niedostępny dla klientów. Nowoczesne rozwiązania jak Let's Encrypt oferują darmowe certyfikaty z automatycznym odnawianiem.
+**Ochrona przed botami chroni przed automatyzacją ataków.** Nie wszystkie boty są złe - Google potrzebuje dostępu do indeksowania, a narzędzia analityczne do zbierania danych.
 
-**Bezpieczne systemy płatności**
+Złe boty próbują masowo tworzyć konta, testować hasła czy przechwytywać ceny konkurencji. Mogą generować dziesiątki tysięcy zapytań dziennie, spowalniając sklep dla prawdziwych klientów.
 
-Tu nie ma miejsca na kompromisy. Każdy sklep obsługujący płatności kartą musi spełniać standardy PCI DSS. To nie sugestia – to wymóg prawny.
+CAPTCHA to popularne rozwiązanie, ale frustruje użytkowników. Nowsze systemy jak reCAPTCHA v3 działają niewidocznie, analizując zachowanie. Prawdziwy człowiek porusza myszą inaczej niż automat.
 
-Złota zasada: nigdy nie przechowuj pełnych danych karty na swoich serwerach. Używaj tokenizacji – zamień prawdziwe numery na bezpieczne tokeny.
+**Monitoring integralności plików wykrywa nieautoryzowane zmiany.** System porównuje checksumę plików z wzorcem. Jeśli haker doda złośliwy kod, właściciel otrzyma alert w ciągu minut.
 
-Najlepszym rozwiązaniem są zewnętrzne bramki płatności. PayU, Przelewy24, Stripe – wszystkie obsługują sklepy zgodnie z PCI DSS. Przekierowują klienta na swoje bezpieczne strony, a ty dostajesz tylko potwierdzenie płatności.
+AIDE (Advanced Intrusion Detection Environment) to bezpłatne narzędzie dla serwerów Linux. Dla platform jak WordPress sprawdzi się Wordfence, który monitoruje zmiany w plikach core'a.
 
-Weryfikacja 3D Secure to dodatkowa warstwa ochrony. Klient musi potwierdzić transakcję w aplikacji banku. To może obniżyć konwersje o 10-15%, ale eliminuje większość fraudów.
+Fałszywe alarmy zdarzają się często - szczególnie po aktualizacjach. Kluczowe jest nauczenie się rozróżniania normalnych zmian od podejrzanych modyfikacji.
 
-**Regularne aktualizacje platformy e-commerce**
-
-Przestarzałe oprogramowanie to otwarte drzwi dla hakerów. Każda nowa wersja WooCommerce, Magento czy PrestaShop łata dziesiątki luk bezpieczeństwa.
-
-Dostawcy publikują aktualizacje bezpieczeństwa często bez ostrzeżenia. Znana luka może być wykorzystana w ciągu godzin. Dlatego automatyczne aktualizacje krytycznych poprawek to konieczność.
-
-Ale uwaga – nigdy nie aktualizuj wersji produkcyjnej bez testów. Stwórz kopię sklepu na środowisku testowym. Sprawdź wszystkie funkcje, przetestuj płatności, upewnij się, że motywy działają poprawnie.
-
-Plan aktualizacji to podstawa. Małe poprawki bezpieczeństwa – natychmiast. Większe aktualizacje – w zaplanowanych oknach serwisowych, najlepiej poza godzinami szczytu.
+**Automatyczne powiadomienia pozwalają szybko reagować.** E-mail o 3 w nocy to mała cena za uratowanie sklepu przed zniszczeniem. SMS-y działają jeszcze skuteczniej - trudno je zignorować.
