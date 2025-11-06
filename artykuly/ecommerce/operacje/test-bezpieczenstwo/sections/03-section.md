@@ -1,29 +1,35 @@
-### Bezpieczeństwo platformy e-commerce
+**Podstawowe zabezpieczenia techniczne**
 
-Serwer to tylko fundament. Prawdziwa walka toczy się na poziomie aplikacji - tam, gdzie działa twój sklep.
+Teraz czas na konkretne działania. Cyberprzestępcy poznali swoje metody – najwyższy czas poznać skuteczne sposoby obrony.
 
-#### Aktualizacje i patche bezpieczeństwa
+**Certyfikaty SSL i szyfrowanie danych**
 
-WooCommerce, Magento, PrestaShop - każda platforma regularnie łata dziury w zabezpieczeniach. Problem w tym, że hakerzy czytają changelogi równie uważnie jak programiści. Wiedzą dokładnie, co zostało naprawione i gdzie szukać luk w nieaktualizowanych sklepach.
+Jeśli widzisz zieloną kłódkę w pasku adresu, działa certyfikat SSL. To pierwsza linia obrony każdego sklepu internetowego. Bez niego dane przesyłane między klientem a serwerem wędrują otwartym tekstem.
 
-Automatyczne aktualizacje to pułapka dla nieświadomych. Brzmi wygodnie, ale może zepsuć sklep w najgorszym momencie. Lepiej testować zmiany na kopii staging przed wdrożeniem na produkcję.
+Cyberprzestępcy uwielbiają niezaszyfrowane połączenia. Wystarczy jeden publiczny hotspot i mogą przechwycić wszystko – od danych logowania po numery kart płatniczych.
 
-Mój klient dowiedział się o tym boleśnie. Automatyczna aktualizacja WooCommerce w piątek wieczorem zepsuła integrację z systemem magazynowym. Weekend Black Friday bez możliwości składania zamówień. Strata? Ponad 200 tysięcy złotych.
+Wybór certyfikatu ma znaczenie. Domain Validated (DV) to minimum – sprawdza tylko domenę. Organization Validated (OV) weryfikuje również firmę. Extended Validation (EV) to najwyższy poziom, pokazujący zieloną kłódkę z nazwą firmy.
 
-Rozsądny kompromis to automatyczne aktualizacje bezpieczeństwa plus manualny testing większych zmian. WordPress ma to elegancko rozwiązane - krytyczne łatki instalują się same, reszta czeka na twoją decyzję.
+Cena? Od 50 złotych rocznie za podstawowy DV do kilku tysięcy za certyfikat EV. Ale porównaj to z kosztem jednego wycieku danych.
 
-Kopie zapasowe przed każdą aktualizacją to święta zasada. Nie "na wszelki wypadek", ale zawsze. Jeden klik może przywrócić działanie sklepu w kilka minut.
+Pamiętaj o automatycznym odnawianiu. Wygasły certyfikat to sklep niedostępny dla klientów. Nowoczesne rozwiązania jak Let's Encrypt oferują darmowe certyfikaty z automatycznym odnawianiem.
 
-#### Zarządzanie wtyczkami i rozszerzeniami
+**Bezpieczne systemy płatności**
 
-Średni sklep ma zainstalowanych 30-40 wtyczek. Każda to potencjalna furtka dla hakera. Im więcej dodatków, tym większa powierzchnia ataku.
+Tu nie ma miejsca na kompromisy. Każdy sklep obsługujący płatności kartą musi spełniać standardy PCI DSS. To nie sugestia – to wymóg prawny.
 
-Audit istniejących rozszerzeń powinien być częścią miesięcznej rutyny. Kiedy ostatnio była aktualizowana wtyczka do recenzji? Czy developer nadal ją wspiera? Ile ma aktywnych instalacji?
+Złota zasada: nigdy nie przechowuj pełnych danych karty na swoich serwerach. Używaj tokenizacji – zamień prawdziwe numery na bezpieczne tokeny.
 
-Wtyczki z małą liczbą pobrań lub dawno nieaktualizowane to czerwone flagi. Lepiej znaleźć alternatywę niż ryzykować bezpieczeństwo całego sklepu.
+Najlepszym rozwiązaniem są zewnętrzne bramki płatności. PayU, Przelewy24, Stripe – wszystkie obsługują sklepy zgodnie z PCI DSS. Przekierowują klienta na swoje bezpieczne strony, a ty dostajesz tylko potwierdzenie płatności.
 
-Usuwanie nieużywanych wtyczek to oczywistość, którą wielu ignoruje. Wyłączona wtyczka to nie to samo co usunięta. Pliki nadal siedzą na serwerze i mogą być wykorzystane do ataku.
+Weryfikacja 3D Secure to dodatkowa warstwa ochrony. Klient musi potwierdzić transakcję w aplikacji banku. To może obniżyć konwersje o 10-15%, ale eliminuje większość fraudów.
 
-Źródła pobierania mają znaczenie. Oficjalne repozytoria platform są względnie bezpieczne. Nulled themes i warez to prosta droga do problemów. "Darmowy" motyw premium często kosztuje więcej niż oryginalny.
+**Regularne aktualizacje platformy e-commerce**
 
-Jeden z moich klientów pobrał "darmowy" motyw za 200 dolarów z wątpliwej strony. Backdoor w kodzie działał miesiącami, wysyłając kopie każdej transakcji na serwer w Rosji. Naprawa kosztowała dziesięć razy więcej niż oryginalny motyw.
+Przestarzałe oprogramowanie to otwarte drzwi dla hakerów. Każda nowa wersja WooCommerce, Magento czy PrestaShop łata dziesiątki luk bezpieczeństwa.
+
+Dostawcy publikują aktualizacje bezpieczeństwa często bez ostrzeżenia. Znana luka może być wykorzystana w ciągu godzin. Dlatego automatyczne aktualizacje krytycznych poprawek to konieczność.
+
+Ale uwaga – nigdy nie aktualizuj wersji produkcyjnej bez testów. Stwórz kopię sklepu na środowisku testowym. Sprawdź wszystkie funkcje, przetestuj płatności, upewnij się, że motywy działają poprawnie.
+
+Plan aktualizacji to podstawa. Małe poprawki bezpieczeństwa – natychmiast. Większe aktualizacje – w zaplanowanych oknach serwisowych, najlepiej poza godzinami szczytu.

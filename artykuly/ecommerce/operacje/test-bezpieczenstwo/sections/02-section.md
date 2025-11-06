@@ -1,29 +1,31 @@
-## Podstawowe warstwy ochrony sklepu online
+**Najczęstsze zagrożenia dla sklepów internetowych**
 
-### Zabezpieczenie infrastruktury technicznej
+Cyberprzestępcy nie śpią. Każdego dnia skanują tysiące sklepów online, szukając słabych punktów. Ich metody stają się coraz bardziej wyrafinowane, a cele – precyzyjnie dobrane.
 
-Fundamenty bezpieczeństwa buduje się od podstaw. To znaczy od serwera, na którym stoi twój sklep.
+**Ataki na dane klientów i płatności**
 
-#### Certyfikat SSL/TLS - fundament bezpieczeństwa
+To król wszystkich zagrożeń. Dane kart płatniczych na czarnym rynku mogą być warte nawet 100 złotych za komplet. Wystarczy jedna luka w systemie płatności, a hakerzy mogą wykraść tysiące numerów kart.
 
-SSL to absolutne minimum. Bez niego Google oznacza twoją stronę jako niebezpieczną, a klienci uciekają przed dokończeniem zakupu.
+Najczęstsze metody? Przechwytywanie danych podczas transmisji, instalowanie skimmerów płatniczych w kodzie strony lub ataki na bazy danych. Jeden z polskich sklepów stracił dane 15 tysięcy klientów przez niezabezpieczoną wtyczkę płatności.
 
-Ale nie każdy SSL jest równy. Certyfikaty domenowe (DV) zapewniają podstawowe szyfrowanie. Kosztują grosze i są gotowe w kilka minut. To wystarczy dla małego sklepu.
+Symptomy ataku: nietypowe transakcje, skargi klientów na nieautoryzowane obciążenia, alerty od banków partnerskich.
 
-Certyfikaty organizacyjne (OV) wymagają weryfikacji firmy. Dają więcej wiarygodności, ale procedura trwa dni. Extended Validation (EV) to najwyższy poziom - pokazuje nazwę firmy w pasku adresu. Banki i wielkie sklepy często go wybierają.
+**Włamania do panelu administracyjnego**
 
-Sprawdź swój certyfikat już dziś. W przeglądarce kliknij kłódkę przy adresie. Data ważności, algorytm szyfrowania, wystawca - wszystko powinno być aktualne.
+Słabe hasło administratora to jak pozostawienie kluczy w drzwiach. Hakerzy wykorzystują ataki brute force, próbując tysięcy kombinacji haseł w ciągu sekund.
 
-Automatyczne odnawianie to must-have. Wygasły certyfikat blokuje dostęp do sklepu natychmiast. Let's Encrypt oferuje darmowe certyfikaty z auto-renewal. Większość hostingów ma to już wbudowane.
+Po uzyskaniu dostępu mają pełną kontrolę. Mogą zmieniać ceny, przekierowywać płatności na własne konta, instalować backdoory lub całkowicie usunąć sklep.
 
-#### Hosting i serwer - wybór ma znaczenie
+Przykład z życia: sklep odzieżowy stracił 200 tysięcy złotych, gdy haker przejął panel administratora i przekierował wszystkie płatności na swoje konto przez trzy dni.
 
-Tani hosting to fałszywa ekonomia. Serwery współdzielone oznaczają, że los twojego sklepu zależy od sąsiadów. Jeden zhakowany sklep może zagrozić całemu serwerowi.
+**Ataki DDoS i ich wpływ na sprzedaż**
 
-VPS lub serwer dedykowany daje kontrolę. Możesz skonfigurować firewall dokładnie pod swoje potrzeby. Zablokować niepotrzebne porty. Ograniczyć dostęp do panelu administracyjnego tylko dla swojego IP.
+Wyobraź sobie Black Friday. Ruch w sklepie osiąga szczyt. Nagle strona przestaje działać. Klienci nie mogą finalizować zakupów.
 
-Firewall to pierwszy strażnik. Podstawowe reguły: zablokuj wszystko, otwórz tylko to, co niezbędne. Port 80 i 443 dla ruchu WWW. Port 22 dla SSH, ale tylko z określonych adresów IP. Port 25 dla emaili - często niepotrzebny.
+To właśnie robi atak DDoS. Tysiące sfałszowanych żądań bombarduje serwer, doprowadzając go do załamania. Jeden taki atak w szczycie sprzedażowym może kosztować nawet kilkaset tysięcy złotych utraconych przychodów.
 
-Aktualizacje systemu operacyjnego to rutyna, którą musisz wdrożyć. Ubuntu, CentOS czy Debian wypuszczają łatki bezpieczeństwa regularnie. Automatyczne aktualizacje bezpieczeństwa to rozsądny kompromis między stabilnością a ochroną.
+**Malware i szkodliwy kod**
 
-Nie wszystkie aktualizacje można automatyzować. Duże zmiany wersji kernela czy Apache wymagają testowania. Ale łatki bezpieczeństwa? Te instaluj od razu.
+Najbardziej podstępne zagrożenie. Złośliwy kod może działać miesiącami, niepostrzeżenie zbierając dane. Keyloggery rejestrują każde naciśnięcie klawisza. Trojany bankowe przechwytują dane logowania. Ransomware blokuje dostęp do całego systemu, żądając okupu.
+
+Często malware dostaje się przez niebezpieczne wtyczki, przestarzałe motywy lub zainfekowane pliki przesłane przez pracowników.
