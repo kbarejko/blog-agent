@@ -127,7 +127,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 ## 4. Proces tworzenia artykułu
 
-### 4.1 Workflow (9 kroków)
+### 4.1 Workflow (11 kroków)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -159,20 +159,34 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 3: PISANIE - Wprowadzenie + Sekcja 1                 │
+│  KROK 3: INTERNAL LINKING - Wybór powiązanych artykułów    │
+│  • Prompt: prompt_linkowanie_wewnetrzne.md                  │
+│  • Input: outline, article_path, seria, silos              │
+│  • Skanuje: folder artykuly/[seria]/* dla dostępnych art.  │
+│  • AI wybiera: 5-8 najbardziej powiązanych artykułów       │
+│  • Podział: 2-4 contextual (w treści), 3-5 end section     │
+│  • Output: related_articles.json (lista + anchor text)     │
+│  • Strategia: 60% z tego silosu, 40% cross-silo            │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 4: PISANIE - Wprowadzenie + Sekcja 1                 │
 │  • Prompt: prompt_artykul_start.md + prompt_artykul_common │
-│  • Input: outline, wytyczne wspólne                         │
+│  • Input: outline, wytyczne wspólne, related_articles.json │
 │  • Output: sections/01-intro.md (300-400 słów)             │
+│  • AI wstawia 0-1 contextual link (gdzie naturalnie pasuje)│
 │  • Review AI: długość, styl, czytelność                     │
 │  • Auto-fix jeśli nie spełnia kryteriów                     │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 4: PISANIE - Sekcje 2, 3, 4...N + Opcjonalne         │
+│  KROK 5: PISANIE - Sekcje 2, 3, 4...N + Opcjonalne         │
 │  • Prompt: prompt_artykul_kontynuacja.md + common          │
-│  • Input: outline, poprzednia sekcja                        │
+│  • Input: outline, poprzednia sekcja, related_articles.json│
 │  • Output: sections/02-xxx.md, 03-xxx.md...                │
+│  • AI wstawia contextual links (2-4 total w całym art.)    │
 │  • Review AI po każdej sekcji                               │
 │  • Loop: dla każdej sekcji z outline                        │
 │  • Opcjonalnie: Checklist (jeśli w outline)                │
@@ -181,14 +195,17 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 5: DRAFT                                              │
+│  KROK 6: DRAFT + SEKCJA "Powiązane artykuły"               │
 │  • Połączenie: streszczenie + sekcje → draft.md            │
+│  • Dodaj sekcję końcową: pozostałe linki (3-5) z           │
+│    related_articles.json (te które nie użyte w treści)     │
+│  • Format: grupowanie po silosach                           │
 │  • Git commit: "[series/silo/slug] Complete draft"         │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 6: SEO REVIEW - Nagłówki                             │
+│  KROK 7: SEO REVIEW - Nagłówki                             │
 │  • Prompt: prompt_sprawdz_naglowki.md                       │
 │  • Input: draft.md                                          │
 │  • Check: struktura H1-H4, słowa kluczowe, hierarchia      │
@@ -197,7 +214,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 7: HUMANIZACJA                                        │
+│  KROK 8: HUMANIZACJA                                        │
 │  • Prompt: prompt_sprawdz_styl.md                           │
 │  • Input: draft.md (po SEO review)                          │
 │  • Output: article.md (finalna wersja)                      │
@@ -206,14 +223,29 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 8: PUBLIKACJA                                         │
+│  KROK 9: MULTIMEDIA SUGGESTIONS                             │
+│  • Prompt: prompt_multimedia_suggestions.md                 │
+│  • Input: article.md (po humanizacji), konspekt             │
+│  • AI analizuje treść i sugeruje multimedia                 │
+│  • Output: multimedia.json (4-9 sugestii)                   │
+│  • Sugestie:                                                 │
+│    - 1 hero image (zawsze)                                  │
+│    - 3-8 w sekcjach (zdjęcia, wykresy, infografiki, screens)│
+│  • Dla każdego: opis + image prompt (DALL-E/MJ) + alt text │
+│  • User może: wygenerować/pobrać/zlecić/pominąć            │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 10: PUBLIKACJA                                        │
 │  • Finalna wersja zapisana jako article.md                  │
+│  • Multimedia suggestions w multimedia.json                 │
 │  • Git commit: "[series/silo/slug] Publish article"        │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 9: KATEGORIE                                          │
+│  KROK 11: KATEGORIE                                         │
 │  • AI analizuje gotowy artykuł (article.md)                 │
 │  • Wybiera 1-5 kategorii z kategoria-artykulow.xlsx        │
 │  • Sugeruje nowe jeśli brak odpowiednich                    │
@@ -227,14 +259,16 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 | Krok | Czas | % |
 |------|------|---|
 | Konspekt | ~30s | 9% |
-| Streszczenie "Co znajdziesz" | ~15s | 5% |
-| Pisanie sekcji (x5) | ~2m | 38% |
-| Review sekcji (x5) | ~1m | 19% |
+| Streszczenie "Co znajdziesz" | ~15s | 4% |
+| Internal linking | ~20s | 6% |
+| Pisanie sekcji (x5) | ~2m | 35% |
+| Review sekcji (x5) | ~1m | 18% |
 | SEO Review | ~20s | 6% |
-| Humanizacja | ~40s | 13% |
+| Humanizacja | ~40s | 12% |
+| Multimedia suggestions | ~20s | 6% |
 | Kategorie | ~20s | 6% |
 | Git commits | ~15s | 4% |
-| **RAZEM** | **~5min 20s** | **100%** |
+| **RAZEM** | **~5min 40s** | **100%** |
 
 ### 4.3 Opcjonalne sekcje (AI decision)
 
@@ -397,6 +431,105 @@ AI może zdecydować o:
 **Input:** outline, title, target_audience
 
 **Output:** `sections/00-summary.md`
+
+### 4.5 Multimedia Suggestions (automatyczne przed publikacją)
+
+**Cel:** Sugestie obrazów, grafik, wykresów i screenshotów które wzbogacą artykuł wizualnie i poprawią UX oraz SEO.
+
+**Charakterystyka:**
+- **ZAWSZE generowane** (automatycznie przed publikacją)
+- Generowane w **Kroku 9** (po humanizacji, przed publikacją)
+- **4-9 sugestii** (1 hero + 3-8 w sekcjach)
+- **Dla każdego:** opis + image prompt (DALL-E/Midjourney) + alt text + placement
+
+**Typy multimediów:**
+1. **📷 Zdjęcia** - hero image (zawsze), zdjęcia kontekstowe
+2. **📊 Wykresy/diagramy** - dane, procesy, porównania, trendy
+3. **🎨 Grafiki/ilustracje** - infografiki, schematy, ikony
+4. **📸 Screenshoty** - interfejsy, dashboardy, konfiguracje
+
+**Format sugestii:**
+```json
+{
+  "id": 1,
+  "type": "photo",
+  "subtype": "hero",
+  "priority": "high",
+  "section": "Top of article",
+  "title": "Hero image - Bezpieczeństwo e-commerce",
+  "description": "Profesjonalne zdjęcie właściciela sklepu przy dashboardzie",
+  "alt_text": "Właściciel sklepu e-commerce analizuje dashboard bezpieczeństwa RODO",
+  "placement": "after_title",
+  "image_prompt": "Professional photo of an e-commerce business owner working on laptop showing security dashboard, modern office environment, natural lighting, authentic workspace, stock photo style",
+  "dimensions": "1920x1080 (16:9)",
+  "keywords": ["e-commerce", "bezpieczeństwo", "RODO"],
+  "reason": "Hero image wprowadza w tematykę i buduje profesjonalny wizerunek",
+  "alternatives": [
+    "Stock photo: Unsplash query 'e-commerce security'",
+    "Custom: Zlecić designerowi"
+  ]
+}
+```
+
+**Image prompts (dla DALL-E/Midjourney):**
+- Język: angielski
+- Długość: 30-60 słów
+- Zawartość: główny obiekt, styl wizualny, kolory, format, jakość
+- Przykład: *"Modern e-commerce dashboard showing security metrics and RODO compliance indicators, clean UI design, blue and white color scheme, professional software interface, detailed but readable, high quality screenshot style"*
+
+**Alt text (SEO i accessibility):**
+- Długość: 100-125 znaków (optimum dla SEO)
+- Język: polski
+- Keywords: 1-2 naturalne wplecione
+- Bez: "obraz przedstawia", "zdjęcie pokazuje"
+- Przykład: *"Dashboard analytics e-commerce z metrykami bezpieczeństwa RODO i wskaźnikami compliance"*
+
+**Zasady:**
+1. ✅ Hero image ZAWSZE (każdy artykuł)
+2. ✅ 4-9 sugestii total (nie mniej, nie więcej)
+3. ✅ Image prompts konkretne (30-60 słów)
+4. ✅ Alt text SEO-friendly (100-125 znaków)
+5. ✅ Placement logiczny (min 2 akapity między)
+6. ✅ Alternatives (stock photos, tools, custom design)
+7. ❌ NIE więcej niż 9 multimediów (przesada)
+8. ❌ NIE umieszczaj zbyt blisko siebie
+
+**Rozkład typowy (artykuł 5-sekcyjny):**
+- 1 hero image
+- 2-3 wykresy/diagramy (dla danych)
+- 1-2 infografiki (dla list/procesów)
+- 1-2 screenshoty (dla sekcji praktycznych)
+- 0-1 zdjęć kontekstowych
+
+**User może:**
+- Wygenerować obrazy (DALL-E, Midjourney z podanego promptu)
+- Pobrać z stock (Unsplash, Pexels - queries podane)
+- Zlecić designerowi (opis i prompt jako brief)
+- Pominąć (opublikować artykuł bez obrazów)
+
+**Prompt:** `prompts/articles/prompt_multimedia_suggestions.md`
+
+**Input:** article.md (po humanizacji), konspekt
+
+**Output:** `multimedia.json`
+
+**Przykład usage:**
+```bash
+# User po otrzymaniu multimedia.json może:
+
+# 1. Wygenerować przez DALL-E
+curl -X POST "https://api.openai.com/v1/images/generations" \
+  -d '{"prompt": "[image_prompt z JSON]", "size": "1792x1024"}'
+
+# 2. Pobrać z Unsplash
+# Query: "e-commerce security" (z alternatives)
+
+# 3. Zlecić designerowi
+# Brief: description + image_prompt
+
+# 4. Pominąć
+python blog_agent.py publish --skip-multimedia
+```
 
 ---
 
