@@ -57,7 +57,7 @@ meta_title: "SEO title (≠ H1)"
 meta_description: "SEO description (160 chars)"
 ```
 
-#### 4. Proces (9 kroków + opcjonalne sekcje)
+#### 4. Proces (11 kroków + opcjonalne sekcje + internal linking + multimedia)
 1. **Init** - tworzenie struktury (opcjonalne)
 2. **Konspekt** - outline.md (prompt_konspekt_artykulu.md) → git commit
    - AI decyduje: czy dodać Checklist i/lub FAQ (opcjonalne sekcje)
@@ -73,8 +73,12 @@ meta_description: "SEO description (160 chars)"
 8. **Humanizacja** - naturalny język (prompt_sprawdz_styl.md) → article.md → git commit
 9. **Kategorie** - AI analizuje artykuł, wybiera z Excel (147 kat.) → categories.yaml → git commit
 
-**Czas:** ~5min 20s na artykuł (5 sekcji, 3000 słów)
+**Czas:** ~5min 40s na artykuł (5 sekcji, 3000 słów)
 **Koszt:** ~$0.08 per artykuł (Claude Sonnet 4)
+
+**Nowe kroki:**
+- Krok 3: Internal linking (auto-select 5-8 powiązanych artykułów)
+- Krok 9: Multimedia suggestions (4-9 sugestii z image prompts)
 
 #### 5. Review AI (automatyczny)
 Po każdej sekcji sprawdza:
@@ -111,7 +115,7 @@ python blog_agent.py status --path artykuly/.../
 
 Format: `[series/silo/slug] Action`
 
-#### 9. Prompty (7 plików)
+#### 9. Prompty (9 plików)
 - `prompts/konspekt/prompt_konspekt_artykulu.md` - konspekt + decyzja o opcjonalnych sekcjach
 - `prompts/articles/prompt_streszczenie_artykulu.md` - **NOWY** - sekcja "Co znajdziesz w artykule?"
 - `prompts/articles/prompt_artykul_common.md` - wytyczne wspólne
@@ -119,8 +123,10 @@ Format: `[series/silo/slug] Action`
 - `prompts/articles/prompt_artykul_kontynuacja.md` - kolejne sekcje
 - `prompts/audyt/prompt_sprawdz_naglowki.md` - SEO review nagłówków
 - `prompts/audyt/prompt_sprawdz_styl.md` - humanizacja
+- `prompts/articles/prompt_linkowanie_wewnetrzne.md` - **NOWY** - internal linking strategy
+- `prompts/articles/prompt_multimedia_suggestions.md` - **NOWY** - sugestie multimediów
 
-Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{TARGET_AUDIENCE}}`, etc.
+Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{TARGET_AUDIENCE}}`, `{{ARTICLE_CONTENT}}`, etc.
 
 ### Changes Made
 - Git initialized (initial commit)
@@ -135,7 +141,10 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 - **Update prompt_konspekt_artykulu.md** - instrukcje dla AI o opcjonalnych sekcjach
 - **Utworzenie prompt_streszczenie_artykulu.md** - nowy prompt dla sekcji "Co znajdziesz w artykule?"
 - **Update REQUIREMENTS.md** - dodano Krok 2 (streszczenie), workflow 8→9 kroków
-- **Update SESSION_NOTES.md** - zaktualizowano proces z nowym krokiem
+- **Utworzenie prompt_linkowanie_wewnetrzne.md** - internal linking (hybrid: contextual + end section)
+- **Utworzenie prompt_multimedia_suggestions.md** - sugestie multimediów (hero + 3-8 w sekcjach)
+- **Update REQUIREMENTS.md** - dodano Krok 3 (internal linking) i Krok 9 (multimedia), workflow 9→11 kroków
+- **Update SESSION_NOTES.md** - zaktualizowano proces z nowymi krokami
 
 ### Important Decisions
 1. **Struktura URL = Struktura folderów** (1:1, bez wyjątków)
@@ -148,6 +157,8 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 8. **Dowolna inicjalizacja** (user lub agent może stworzyć folder+config)
 9. **Opcjonalne sekcje** - AI decyduje czy dodać Checklist i/lub FAQ (max 10 pytań)
 10. **Sekcja "Co znajdziesz w artykule?"** - ZAWSZE generowana (Krok 2), 3-5 konkretnych punktów wartości (NIE spis treści)
+11. **Internal linking** - AI auto-select 5-8 powiązanych artykułów (60% ten sam silos), 2-4 contextual + 3-5 end section
+12. **Multimedia suggestions** - AI sugeruje 4-9 multimediów (hero + obrazy/wykresy/infografiki), image prompts dla DALL-E/MJ
 
 ### Next Steps
 1. **Zapoznanie z REQUIREMENTS.md** (pełna specyfikacja)
