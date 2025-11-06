@@ -46,6 +46,9 @@ Thumbs.db
 outputs/*.html
 outputs/*.pdf
 
+# Archive (old files kept for reference)
+# archive/
+
 # Logs
 *.log
 
