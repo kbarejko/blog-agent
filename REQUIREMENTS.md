@@ -127,7 +127,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 ## 4. Proces tworzenia artykułu
 
-### 4.1 Workflow (8 kroków)
+### 4.1 Workflow (9 kroków)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -149,7 +149,17 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 2: PISANIE - Wprowadzenie + Sekcja 1                 │
+│  KROK 2: STRESZCZENIE - "Co znajdziesz w artykule?"        │
+│  • Prompt: prompt_streszczenie_artykulu.md                  │
+│  • Input: outline, title, target_audience                   │
+│  • Output: sections/00-summary.md (3-5 punktów)            │
+│  • Konkretne wnioski i wartość (NIE spis treści!)          │
+│  • Umiejscowienie: PO tytule, PRZED wprowadzeniem          │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 3: PISANIE - Wprowadzenie + Sekcja 1                 │
 │  • Prompt: prompt_artykul_start.md + prompt_artykul_common │
 │  • Input: outline, wytyczne wspólne                         │
 │  • Output: sections/01-intro.md (300-400 słów)             │
@@ -159,7 +169,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 3: PISANIE - Sekcje 2, 3, 4...N + Opcjonalne         │
+│  KROK 4: PISANIE - Sekcje 2, 3, 4...N + Opcjonalne         │
 │  • Prompt: prompt_artykul_kontynuacja.md + common          │
 │  • Input: outline, poprzednia sekcja                        │
 │  • Output: sections/02-xxx.md, 03-xxx.md...                │
@@ -171,14 +181,14 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 4: DRAFT                                              │
-│  • Połączenie wszystkich sekcji → draft.md                  │
+│  KROK 5: DRAFT                                              │
+│  • Połączenie: streszczenie + sekcje → draft.md            │
 │  • Git commit: "[series/silo/slug] Complete draft"         │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 5: SEO REVIEW - Nagłówki                             │
+│  KROK 6: SEO REVIEW - Nagłówki                             │
 │  • Prompt: prompt_sprawdz_naglowki.md                       │
 │  • Input: draft.md                                          │
 │  • Check: struktura H1-H4, słowa kluczowe, hierarchia      │
@@ -187,7 +197,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 6: HUMANIZACJA                                        │
+│  KROK 7: HUMANIZACJA                                        │
 │  • Prompt: prompt_sprawdz_styl.md                           │
 │  • Input: draft.md (po SEO review)                          │
 │  • Output: article.md (finalna wersja)                      │
@@ -196,14 +206,14 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 7: PUBLIKACJA                                         │
+│  KROK 8: PUBLIKACJA                                         │
 │  • Finalna wersja zapisana jako article.md                  │
 │  • Git commit: "[series/silo/slug] Publish article"        │
 └─────────────────┬───────────────────────────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 8: KATEGORIE                                          │
+│  KROK 9: KATEGORIE                                          │
 │  • AI analizuje gotowy artykuł (article.md)                 │
 │  • Wybiera 1-5 kategorii z kategoria-artykulow.xlsx        │
 │  • Sugeruje nowe jeśli brak odpowiednich                    │
@@ -216,14 +226,15 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 | Krok | Czas | % |
 |------|------|---|
-| Konspekt | ~30s | 10% |
-| Pisanie sekcji (x5) | ~2m | 40% |
-| Review sekcji (x5) | ~1m | 20% |
-| SEO Review | ~20s | 7% |
+| Konspekt | ~30s | 9% |
+| Streszczenie "Co znajdziesz" | ~15s | 5% |
+| Pisanie sekcji (x5) | ~2m | 38% |
+| Review sekcji (x5) | ~1m | 19% |
+| SEO Review | ~20s | 6% |
 | Humanizacja | ~40s | 13% |
-| Kategorie | ~20s | 7% |
-| Git commits | ~10s | 3% |
-| **RAZEM** | **~5min** | **100%** |
+| Kategorie | ~20s | 6% |
+| Git commits | ~15s | 4% |
+| **RAZEM** | **~5min 20s** | **100%** |
 
 ### 4.3 Opcjonalne sekcje (AI decision)
 
@@ -321,16 +332,71 @@ AI może zdecydować o:
 #### 4.3.4 Umiejscowienie w artykule
 
 **Kolejność sekcji:**
-1. Wprowadzenie
-2. Sekcje główne (z konspektu)
-3. **Checklist** (jeśli jest)
-4. **FAQ** (jeśli jest)
-5. Podsumowanie (opcjonalne)
+1. **"Co znajdziesz w artykule?"** (zawsze, Krok 2)
+2. Wprowadzenie
+3. Sekcje główne (z konspektu)
+4. **Checklist** (jeśli jest)
+5. **FAQ** (jeśli jest)
+6. Podsumowanie (opcjonalne)
 
 **Nie ma:**
 - Nagłówków typu "Podsumowanie" lub "Wnioski" (nudne, sztuczne)
 - Wezwań do działania (CTA) - to blog, nie landing page
 - Autopromoacji
+
+### 4.4 Sekcja "Co znajdziesz w artykule?" (obowiązkowa)
+
+**Cel:** Krótkie streszczenie najważniejszych wniosków/wartości z artykułu, które pomaga czytelnikowi szybko zdecydować, czy warto czytać dalej.
+
+**Charakterystyka:**
+- **ZAWSZE generowana** (w przeciwieństwie do Checklist/FAQ które są opcjonalne)
+- Generowana w **Kroku 2** (po konspekcie, przed pisaniem sekcji)
+- Umiejscowiona **na początku** artykułu (po tytule H1, przed wprowadzeniem)
+- **3-5 punktów** (nie mniej, nie więcej)
+- **Konkretne wnioski** i praktyczne wartości (NIE spis treści!)
+
+**Format:**
+```markdown
+## Co znajdziesz w artykule?
+
+- **Pogrubiona fraza kluczowa** - Rozwinięcie konkretnej wartości (1 zdanie)
+- **Kolejna fraza** - Następny konkretny wniosek lub wskazówka
+- **Trzecia fraza** - Kolejna wartość
+```
+
+**Zasady:**
+1. ❌ **NIE jest spisem treści** - nie wymieniaj tytułów sekcji
+2. ✅ **Jest streszczeniem wartości** - konkretne wnioski, liczby, rozwiązania
+3. ❌ **Unikaj fraz** typu "Dowiesz się...", "Poznasz...", "Artykuł omawia..."
+4. ✅ **Używaj konkretów** - nazwy narzędzi, liczby, fakty, rozwiązania
+5. ✅ **Pogrubiona fraza na początku** - 2-4 słowa kluczowe
+6. ✅ **1 zdanie na punkt** (maksymalnie 2 zdania jeśli konieczne)
+
+**Przykład DOBRY:**
+```markdown
+## Co znajdziesz w artykule?
+
+- **Certyfikat SSL to podstawa** - bez niego Google obniża ranking, a klienci widzą ostrzeżenia
+- **RODO wymaga 5 konkretnych działań** - polityka prywatności, zgody, szyfrowanie, backup i prawo do usunięcia
+- **Kary do 4% przychodu** - UOKiK nie żartuje, brak zabezpieczeń to najczęstszy powód kontroli
+- **Gotowa checklist 15 punktów** - audyt bezpieczeństwa możesz przeprowadzić samodzielnie w 30 minut
+```
+
+**Przykład ZŁY (spis treści):**
+```markdown
+## Co znajdziesz w artykule?
+
+- Wprowadzenie do bezpieczeństwa e-commerce
+- Wymagania RODO dla sklepów online
+- Implementacja certyfikatów SSL
+- Polityka prywatności i cookies
+```
+
+**Prompt:** `prompts/articles/prompt_streszczenie_artykulu.md`
+
+**Input:** outline, title, target_audience
+
+**Output:** `sections/00-summary.md`
 
 ---
 
@@ -355,11 +421,12 @@ Prompty używają placeholder'ów, które system wypełnia:
 | Plik | Kiedy używany | Zmienne |
 |------|---------------|---------|
 | `prompt_konspekt_artykulu.md` | Krok 1: Konspekt | TEMAT_ARTYKULU, URL_ARTYKULU, KONTEKST_TEMATU |
-| `prompt_artykul_common.md` | Kroki 2-3: Wytyczne | (wklejane jako WYTYCZNE_WSPOLNE) |
-| `prompt_artykul_start.md` | Krok 2: Pierwsza sekcja | KONSPEKT_TRESC, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU |
-| `prompt_artykul_kontynuacja.md` | Krok 3: Kolejne sekcje | KONSPEKT_TRESC, OSTATNIA_SEKCJA, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU |
-| `prompt_sprawdz_naglowki.md` | Krok 5: SEO review | (treść draft) |
-| `prompt_sprawdz_styl.md` | Krok 6: Humanizacja | (treść draft) |
+| `prompt_streszczenie_artykulu.md` | Krok 2: Streszczenie "Co znajdziesz" | KONSPEKT_TRESC, TYTUL_ARTYKULU, TARGET_AUDIENCE |
+| `prompt_artykul_common.md` | Kroki 3-4: Wytyczne | (wklejane jako WYTYCZNE_WSPOLNE) |
+| `prompt_artykul_start.md` | Krok 3: Pierwsza sekcja | KONSPEKT_TRESC, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU |
+| `prompt_artykul_kontynuacja.md` | Krok 4: Kolejne sekcje | KONSPEKT_TRESC, OSTATNIA_SEKCJA, WYTYCZNE_WSPOLNE, TYTUL_ARTYKULU |
+| `prompt_sprawdz_naglowki.md` | Krok 6: SEO review | (treść draft) |
+| `prompt_sprawdz_styl.md` | Krok 7: Humanizacja | (treść draft) |
 
 ### 5.3 Wytyczne wspólne (prompt_artykul_common.md)
 

@@ -57,20 +57,23 @@ meta_title: "SEO title (≠ H1)"
 meta_description: "SEO description (160 chars)"
 ```
 
-#### 4. Proces (8 kroków + opcjonalne sekcje)
+#### 4. Proces (9 kroków + opcjonalne sekcje)
 1. **Init** - tworzenie struktury (opcjonalne)
 2. **Konspekt** - outline.md (prompt_konspekt_artykulu.md) → git commit
    - AI decyduje: czy dodać Checklist i/lub FAQ (opcjonalne sekcje)
-3. **Pisanie sekcji 1** - intro + pierwsza (prompt_artykul_start.md) → review AI
-4. **Pisanie sekcji 2-N** - kolejne sekcje (prompt_artykul_kontynuacja.md) → review AI każdej
+3. **Streszczenie "Co znajdziesz w artykule?"** - sections/00-summary.md (prompt_streszczenie_artykulu.md)
+   - 3-5 punktów z konkretnymi wnioskami/wartościami (NIE spis treści!)
+   - Zawsze generowane, na początku artykułu
+4. **Pisanie sekcji 1** - intro + pierwsza (prompt_artykul_start.md) → review AI
+5. **Pisanie sekcji 2-N** - kolejne sekcje (prompt_artykul_kontynuacja.md) → review AI każdej
    - Opcjonalnie: Checklist (jeśli w konspekcie)
    - Opcjonalnie: FAQ do 10 pytań (jeśli w konspekcie)
-5. **Draft** - połączenie sekcji → draft.md → git commit
-6. **SEO review** - nagłówki (prompt_sprawdz_naglowki.md) → auto-fix
-7. **Humanizacja** - naturalny język (prompt_sprawdz_styl.md) → article.md → git commit
-8. **Kategorie** - AI analizuje artykuł, wybiera z Excel (147 kat.) → categories.yaml → git commit
+6. **Draft** - połączenie: streszczenie + sekcje → draft.md → git commit
+7. **SEO review** - nagłówki (prompt_sprawdz_naglowki.md) → auto-fix
+8. **Humanizacja** - naturalny język (prompt_sprawdz_styl.md) → article.md → git commit
+9. **Kategorie** - AI analizuje artykuł, wybiera z Excel (147 kat.) → categories.yaml → git commit
 
-**Czas:** ~5 min na artykuł (5 sekcji, 3000 słów)
+**Czas:** ~5min 20s na artykuł (5 sekcji, 3000 słów)
 **Koszt:** ~$0.08 per artykuł (Claude Sonnet 4)
 
 #### 5. Review AI (automatyczny)
@@ -108,15 +111,16 @@ python blog_agent.py status --path artykuly/.../
 
 Format: `[series/silo/slug] Action`
 
-#### 9. Prompty (wykorzystanie istniejących)
-- `prompts/konspekt/prompt_konspekt_artykulu.md`
-- `prompts/articles/prompt_artykul_common.md` (wytyczne wspólne)
-- `prompts/articles/prompt_artykul_start.md`
-- `prompts/articles/prompt_artykul_kontynuacja.md`
-- `prompts/audyt/prompt_sprawdz_naglowki.md`
-- `prompts/audyt/prompt_sprawdz_styl.md`
+#### 9. Prompty (7 plików)
+- `prompts/konspekt/prompt_konspekt_artykulu.md` - konspekt + decyzja o opcjonalnych sekcjach
+- `prompts/articles/prompt_streszczenie_artykulu.md` - **NOWY** - sekcja "Co znajdziesz w artykule?"
+- `prompts/articles/prompt_artykul_common.md` - wytyczne wspólne
+- `prompts/articles/prompt_artykul_start.md` - intro + pierwsza sekcja
+- `prompts/articles/prompt_artykul_kontynuacja.md` - kolejne sekcje
+- `prompts/audyt/prompt_sprawdz_naglowki.md` - SEO review nagłówków
+- `prompts/audyt/prompt_sprawdz_styl.md` - humanizacja
 
-Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, etc.
+Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{TARGET_AUDIENCE}}`, etc.
 
 ### Changes Made
 - Git initialized (initial commit)
@@ -128,7 +132,10 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, etc
 - **Utworzenie REQUIREMENTS.md** - kompletna specyfikacja (15 sekcji, 3000+ linii)
 - Cleanup projektu - archiwizacja starych plików
 - **Update REQUIREMENTS.md** - dodano opcjonalne sekcje (Checklist, FAQ)
-- **Update prompt_konspekt_artykulu.md** - instrukcje dla AI o decydowaniu o opcjonalnych sekcjach
+- **Update prompt_konspekt_artykulu.md** - instrukcje dla AI o opcjonalnych sekcjach
+- **Utworzenie prompt_streszczenie_artykulu.md** - nowy prompt dla sekcji "Co znajdziesz w artykule?"
+- **Update REQUIREMENTS.md** - dodano Krok 2 (streszczenie), workflow 8→9 kroków
+- **Update SESSION_NOTES.md** - zaktualizowano proces z nowym krokiem
 
 ### Important Decisions
 1. **Struktura URL = Struktura folderów** (1:1, bez wyjątków)
@@ -140,6 +147,7 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, etc
 7. **Wykorzystanie istniejących promptów** z folderu prompts/
 8. **Dowolna inicjalizacja** (user lub agent może stworzyć folder+config)
 9. **Opcjonalne sekcje** - AI decyduje czy dodać Checklist i/lub FAQ (max 10 pytań)
+10. **Sekcja "Co znajdziesz w artykule?"** - ZAWSZE generowana (Krok 2), 3-5 konkretnych punktów wartości (NIE spis treści)
 
 ### Next Steps
 1. **Zapoznanie z REQUIREMENTS.md** (pełna specyfikacja)
