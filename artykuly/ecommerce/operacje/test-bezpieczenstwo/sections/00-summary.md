@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **60% małych sklepów online upada w 6 miesięcy** - po poważnym naruszeniu bezpieczeństwa, a średnie straty wynoszą 150 tys. zł plus utrata zaufania klientów
-- **PCI DSS nie jest opcjonalne** - standard obowiązuje każdy sklep przyjmujący płatności kartą, a jego brak grozi karami i utratą możliwości przyjmowania płatności
-- **WAF i 2FA to minimum** - Web Application Firewall blokuje 90% ataków automatycznych, a uwierzytelnianie dwuskładnikowe chroni panel administratora
-- **Gotowa checklist bezpieczeństwa** - praktyczny spis 15 punktów do samodzielnego audytu sklepu, który przeprowadzisz w 30 minut
-- **Plan reagowania na incydent** - konkretne kroki co robić w pierwszych minutach po wykryciu włamania, włącznie z kontaktami do specjalistów
+- **Cyberatak kosztuje średnio 4,5 mln zł** - straty finansowe, utrata klientów i kary RODO mogą zamknąć sklep w ciągu miesięcy
+- **PCI DSS to nie opcja, to obowiązek** - konkretne kroki do certyfikacji dla sklepów różnej wielkości, plus lista operatorów płatności którzy pomogą
+- **15-punktowa checklist bezpieczeństwa** - praktyczny audyt który przeprowadzisz samodzielnie w 45 minut, od SSL po backup
+- **WAF blokuje 99% ataków automatycznych** - jak skonfigurować Web Application Firewall bez wpływu na szybkość sklepu
+- **RODO compliance w 7 krokach** - procedury ochrony danych klientów które przejdą każdą kontrolę UOKiK
