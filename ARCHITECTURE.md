@@ -633,6 +633,116 @@ def execute_write_sections(
     return article
 ```
 
+**Example: Step 6 - SEO Review (with Retry Logic)**
+
+```python
+# core/steps/step_06_seo_review.py
+
+def execute_seo_review(
+    article: Article,
+    deps: Dict[str, Any],
+    config: Dict[str, Any]
+) -> Article:
+    """
+    SEO review with retry logic and intelligent fallback
+
+    Features:
+    - Max 3 retry attempts with improved prompts
+    - Validation of meta description length (120-160 chars)
+    - Multi-line description parsing support
+    - Intelligent fallback generation using article content
+    """
+    ai = deps['ai']
+    prompts = deps['prompts']
+
+    # Limit content to avoid API errors
+    content_for_seo = article.draft_content[:30000]
+
+    seo_data = None
+    max_retries = config.get('max_retries', 3)
+
+    for attempt in range(max_retries):
+        try:
+            prompt = prompts.load_and_render(
+                "audyt/prompt_sprawdz_naglowki.md",
+                {
+                    'ARTICLE_CONTENT': content_for_seo,
+                    'TYTUL_ARTYKULU': article.config.title,
+                }
+            )
+
+            # Add explicit retry instructions
+            if attempt > 0:
+                prompt += "\n\nUWAGA: Meta description musi mieć MINIMUM 120 znaków i MAKSIMUM 160 znaków."
+
+            response = ai.generate(prompt, max_tokens=300)
+
+            # Parse and validate
+            seo_data = _parse_seo_data(response, article.config.title)
+            issues = seo_data.validate()
+
+            if not issues:
+                # Valid SEO data - break retry loop
+                break
+            else:
+                if attempt < max_retries - 1:
+                    print(f"   ⚠️  SEO validation failed (attempt {attempt + 1}/{max_retries}): {', '.join(issues)}")
+                    print("   Retrying with improved prompt...")
+                else:
+                    # Use intelligent fallback on last attempt
+                    print(f"   ⚠️  Max retries reached. Using fallback.")
+                    seo_data = _create_fallback_seo_data(article.config.title, content_for_seo)
+
+        except Exception as e:
+            if attempt < max_retries - 1:
+                print(f"   ⚠️  Error (attempt {attempt + 1}/{max_retries}): {str(e)}")
+                print("   Retrying...")
+            else:
+                print(f"   ⚠️  Failed after {max_retries} attempts. Using fallback.")
+                seo_data = _create_fallback_seo_data(article.config.title, content_for_seo)
+                break
+
+    # Set SEO data on article
+    article.set_seo_data(seo_data)
+    article.config.save(article.get_config_path())
+
+    return article
+
+
+def _create_fallback_seo_data(title: str, content: str) -> SEOData:
+    """
+    Create intelligent fallback SEO data with proper length
+
+    Features:
+    - Extracts meaningful content from article
+    - Ensures 120-160 character requirement
+    - Contextual and descriptive
+    """
+    base_desc = f"Dowiedz się więcej o {title}. Praktyczny przewodnik z konkretnymi wskazówkami i przykładami."
+
+    # Try to extract first meaningful sentence from content
+    if content:
+        lines = content.split('\n')
+        for line in lines[:20]:
+            line = line.strip()
+            if line and not line.startswith('#') and len(line) > 50:
+                sentence = line.split('.')[0] if '.' in line else line[:100]
+                if len(sentence) > 50:
+                    base_desc = f"{sentence}. {title} - praktyczny przewodnik."
+                    break
+
+    # Ensure proper length (120-160 chars)
+    if len(base_desc) < 120:
+        base_desc = f"{base_desc} Poznaj najlepsze praktyki i unikaj typowych błędów."
+
+    meta_description = base_desc[:160]
+
+    return SEOData(
+        meta_title=title[:60],
+        meta_description=meta_description
+    )
+```
+
 ---
 
 ## 5. Infrastructure Layer
@@ -1088,6 +1198,10 @@ workflow:
       function: core.steps.step_07_seo_review.execute_seo_review
       prompt: audyt/prompt_sprawdz_naglowki.md
       git_commit: false
+      config:
+        max_retries: 3
+        min_description_length: 120
+        max_description_length: 160
 
     - name: humanize
       function: core.steps.step_08_humanize.execute_humanize

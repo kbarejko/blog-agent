@@ -45,8 +45,30 @@ def execute_humanize(
         }
     )
 
+    # Calculate appropriate max_tokens based on draft length
+    # Estimate: 1 token ≈ 0.75 words (Polish text)
+    # Add 20% buffer for safety
+    draft_words = len(article.draft_content.split())
+    estimated_tokens = int((draft_words / 0.75) * 1.2)
+
+    # Ensure minimum and maximum bounds
+    max_tokens = max(4000, min(estimated_tokens, 16000))
+
+    print(f"   Draft: ~{draft_words} words, using max_tokens={max_tokens}")
+
     # Generate humanized version
-    humanized_content = ai.generate(prompt, max_tokens=4000)
+    humanized_content = ai.generate(prompt, max_tokens=max_tokens)
+
+    # Validate that content wasn't truncated
+    humanized_words = len(humanized_content.split())
+    word_ratio = humanized_words / draft_words if draft_words > 0 else 1.0
+
+    if word_ratio < 0.85:
+        print(f"   ⚠️  Warning: Humanized content may be truncated!")
+        print(f"   Draft: {draft_words} words → Humanized: {humanized_words} words ({word_ratio:.1%})")
+        print(f"   Consider increasing max_tokens or splitting into chunks.")
+    else:
+        print(f"   ✓ Content preserved: {humanized_words} words ({word_ratio:.1%} of draft)")
 
     # Set final content
     article.set_final_content(humanized_content)
