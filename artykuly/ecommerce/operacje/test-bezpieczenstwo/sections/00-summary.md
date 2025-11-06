@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Podstawowe zabezpieczenia to koszt 200-800 zł miesięcznie** - certyfikat SSL, bezpieczny hosting i bramka płatnicza wystarczą 80% sklepów, a brak SSL obniża ranking w Google
-- **Naruszenie RODO kosztuje do 4% rocznego obrotu** - procedury ochrony danych osobowych klientów nie są opcjonalne, a UOKiK kontroluje coraz częściej
-- **Ataki DDoS mogą zatrzymać sklep na dni** - 73% właścicieli nie ma planu działania w kryzysie, co oznacza utratę całej sprzedaży w szczycie sezonu
-- **Gotowa checklist 15 punktów** - audyt bezpieczeństwa który możesz przeprowadzić samodzielnie w 45 minut, bez angażowania specjalistów IT
-- **Małe sklepy są atakowane 3x częściej** - cyberprzestępcy celują w słabsze zabezpieczenia, ale proste środki ostrożności eliminują 90% zagrożeń
+- **60% małych sklepów online upada w 6 miesięcy** - po poważnym naruszeniu bezpieczeństwa, a średnie straty wynoszą 150 tys. zł plus utrata zaufania klientów
+- **PCI DSS nie jest opcjonalne** - standard obowiązuje każdy sklep przyjmujący płatności kartą, a jego brak grozi karami i utratą możliwości przyjmowania płatności
+- **WAF i 2FA to minimum** - Web Application Firewall blokuje 90% ataków automatycznych, a uwierzytelnianie dwuskładnikowe chroni panel administratora
+- **Gotowa checklist bezpieczeństwa** - praktyczny spis 15 punktów do samodzielnego audytu sklepu, który przeprowadzisz w 30 minut
+- **Plan reagowania na incydent** - konkretne kroki co robić w pierwszych minutach po wykryciu włamania, włącznie z kontaktami do specjalistów
