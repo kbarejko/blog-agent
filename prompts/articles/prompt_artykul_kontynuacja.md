@@ -5,8 +5,8 @@ Konspekt artykułu, którego należy się trzymać:
 
 ---
 
-Poprzednia sekcja artykułu:
-{{OSTATNIA_SEKCJA}}
+Poprzednie sekcje artykułu:
+{{POPRZEDNIE_SEKCJE}}
 
 ---
 
