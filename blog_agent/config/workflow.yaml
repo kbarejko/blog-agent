@@ -1,0 +1,75 @@
+# Workflow Configuration
+# Defines the 14-step article generation process
+
+steps:
+  - name: init
+    module: blog_agent.core.workflow.steps.step_01_init
+    description: "Initialize article structure"
+    enabled: true
+
+  - name: outline
+    module: blog_agent.core.workflow.steps.step_02_outline
+    description: "Generate article outline"
+    enabled: true
+
+  - name: summary
+    module: blog_agent.core.workflow.steps.step_03_summary
+    description: "Generate article summary (Co znajdziesz w artykule?)"
+    enabled: true
+
+  - name: write_sections
+    module: blog_agent.core.workflow.steps.step_04_write_sections
+    description: "Write all article sections with AI review"
+    enabled: true
+
+  - name: create_draft
+    module: blog_agent.core.workflow.steps.step_05_create_draft
+    description: "Create draft by combining summary + sections"
+    enabled: true
+
+  - name: seo_review
+    module: blog_agent.core.workflow.steps.step_06_seo_review
+    description: "SEO review and heading fixes"
+    enabled: true
+
+  - name: humanize
+    module: blog_agent.core.workflow.steps.step_07_humanize
+    description: "Humanize content (natural language)"
+    enabled: true
+
+  - name: multimedia
+    module: blog_agent.core.workflow.steps.step_08_multimedia
+    description: "Generate multimedia suggestions"
+    enabled: true
+
+  - name: business_metadata
+    module: blog_agent.core.workflow.steps.step_09_business_metadata
+    description: "Generate business metadata"
+    enabled: true
+
+  - name: cta
+    module: blog_agent.core.workflow.steps.step_10_cta
+    description: "Generate CTA/Next Steps section"
+    enabled: true
+
+  - name: publish
+    module: blog_agent.core.workflow.steps.step_11_publish
+    description: "Publish article"
+    enabled: true
+
+  - name: schema
+    module: blog_agent.core.workflow.steps.step_12_schema
+    description: "Generate Schema.org markup"
+    enabled: true
+
+  - name: categories
+    module: blog_agent.core.workflow.steps.step_13_categories
+    description: "Assign categories from categories.yaml"
+    enabled: true
+
+# Metadata
+metadata:
+  version: "1.0"
+  total_steps: 14
+  estimated_time: "6-7 minutes"
+  estimated_cost: "$0.09 (Claude Sonnet 4)"

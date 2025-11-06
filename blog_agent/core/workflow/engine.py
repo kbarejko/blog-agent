@@ -1,0 +1,194 @@
+"""
+Workflow Engine
+
+Orchestrates article generation workflow by executing step functions.
+"""
+from typing import Dict, Any, Callable, List
+from pathlib import Path
+import importlib
+import yaml
+
+from ..domain.article import Article
+
+
+class WorkflowEngine:
+    """
+    Workflow execution engine
+
+    Loads workflow configuration and executes steps in sequence.
+    """
+
+    def __init__(self, workflow_config_path: Path):
+        """
+        Initialize workflow engine
+
+        Args:
+            workflow_config_path: Path to workflow.yaml
+        """
+        self.workflow_config_path = workflow_config_path
+        self.workflow_config = self._load_workflow_config()
+        self.step_registry: Dict[str, Callable] = {}
+
+    def _load_workflow_config(self) -> Dict[str, Any]:
+        """Load workflow configuration from YAML"""
+        with open(self.workflow_config_path, 'r', encoding='utf-8') as f:
+            return yaml.safe_load(f)
+
+    def register_step(self, step_name: str, step_func: Callable) -> None:
+        """
+        Register a step function
+
+        Args:
+            step_name: Step name (e.g., "init", "outline")
+            step_func: Step function callable(article, deps, config) -> article
+        """
+        self.step_registry[step_name] = step_func
+
+    def _load_step_function(self, step_name: str, module_path: str) -> Callable:
+        """
+        Dynamically load step function from module
+
+        Args:
+            step_name: Step name
+            module_path: Python module path (e.g., "blog_agent.core.workflow.steps.step_01_init")
+
+        Returns:
+            Step function
+        """
+        if step_name in self.step_registry:
+            return self.step_registry[step_name]
+
+        # Import module
+        module = importlib.import_module(module_path)
+
+        # Get execute function (e.g., execute_init, execute_outline)
+        func_name = f"execute_{step_name}"
+        if not hasattr(module, func_name):
+            raise ValueError(f"Module {module_path} missing function {func_name}")
+
+        step_func = getattr(module, func_name)
+        self.step_registry[step_name] = step_func
+
+        return step_func
+
+    def execute_workflow(
+        self,
+        article: Article,
+        deps: Dict[str, Any],
+        skip_steps: List[str] = None,
+        only_steps: List[str] = None
+    ) -> Article:
+        """
+        Execute complete workflow
+
+        Args:
+            article: Article to process
+            deps: Dependencies dict (ai, prompts, storage, git, etc.)
+            skip_steps: Optional list of step names to skip
+            only_steps: Optional list of step names to execute (skips all others)
+
+        Returns:
+            Processed article
+        """
+        skip_steps = skip_steps or []
+        steps = self.workflow_config.get('steps', [])
+
+        print(f"\n{'='*60}")
+        print(f"🚀 Starting workflow: {len(steps)} steps")
+        print(f"{'='*60}\n")
+
+        for step_config in steps:
+            step_name = step_config['name']
+            step_module = step_config['module']
+            step_description = step_config.get('description', step_name)
+            step_enabled = step_config.get('enabled', True)
+
+            # Check if step should be executed
+            if not step_enabled:
+                print(f"⏭️  Skipping {step_name} (disabled in config)")
+                continue
+
+            if skip_steps and step_name in skip_steps:
+                print(f"⏭️  Skipping {step_name} (explicitly skipped)")
+                continue
+
+            if only_steps and step_name not in only_steps:
+                print(f"⏭️  Skipping {step_name} (not in only_steps)")
+                continue
+
+            # Execute step
+            print(f"\n{'─'*60}")
+            print(f"🔄 Step: {step_description}")
+            print(f"{'─'*60}")
+
+            try:
+                # Load step function
+                step_func = self._load_step_function(step_name, step_module)
+
+                # Execute step
+                article = step_func(article, deps, step_config)
+
+                print(f"✅ Step completed: {step_name}\n")
+
+            except Exception as e:
+                print(f"❌ Step failed: {step_name}")
+                print(f"   Error: {str(e)}\n")
+                raise
+
+        print(f"\n{'='*60}")
+        print(f"✅ Workflow completed successfully!")
+        print(f"{'='*60}\n")
+
+        return article
+
+    def execute_single_step(
+        self,
+        step_name: str,
+        article: Article,
+        deps: Dict[str, Any]
+    ) -> Article:
+        """
+        Execute a single step
+
+        Args:
+            step_name: Name of step to execute
+            article: Article to process
+            deps: Dependencies
+
+        Returns:
+            Processed article
+        """
+        # Find step config
+        steps = self.workflow_config.get('steps', [])
+        step_config = None
+
+        for config in steps:
+            if config['name'] == step_name:
+                step_config = config
+                break
+
+        if not step_config:
+            raise ValueError(f"Step '{step_name}' not found in workflow config")
+
+        # Load and execute
+        step_module = step_config['module']
+        step_func = self._load_step_function(step_name, step_module)
+
+        print(f"🔄 Executing step: {step_name}")
+        article = step_func(article, deps, step_config)
+        print(f"✅ Step completed: {step_name}")
+
+        return article
+
+    def list_steps(self) -> List[Dict[str, Any]]:
+        """
+        List all steps in workflow
+
+        Returns:
+            List of step configurations
+        """
+        return self.workflow_config.get('steps', [])
+
+    def get_step_count(self) -> int:
+        """Get total number of steps"""
+        return len(self.workflow_config.get('steps', []))

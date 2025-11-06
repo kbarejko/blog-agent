@@ -1,0 +1,13 @@
+# Payload CMS Configuration
+# Configure Payload CMS v3 integration (optional)
+
+# API settings
+api_url: https://cms.digitalvantage.pl
+api_key: ${PAYLOAD_API_KEY}  # Set via environment variable
+
+# Collection settings
+collection: articles
+
+# Publishing options
+auto_publish: false  # Set to true to auto-publish to CMS
+publish_status: draft  # or 'published'
