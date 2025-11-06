@@ -157,6 +157,14 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 - **Utworzenie prompt_schema_markup.md** - Schema.org structured data (Article, FAQPage, HowTo, BreadcrumbList)
 - **Update REQUIREMENTS.md v2** - dodano Krok 10-13, workflow 11→14 kroków, ~6min 25s per artykuł
 - **Update SESSION_NOTES.md v2** - finalna wersja z 14-krokowym procesem i 12 promptami
+- **Utworzenie ARCHITECTURE.md** - kompletna dokumentacja architektury (13 sekcji, 1200+ linii)
+  - 3-layer architecture (Core/Infrastructure/Adapters)
+  - Article as Aggregate Root + Value Objects
+  - Step functions (callables, nie klasy)
+  - Payload CMS integration (Markdown-based)
+  - Config hybrid (YAML + Python)
+  - Dependency injection (deps dict)
+- **Update SESSION_NOTES.md v3** - dodano Architecture Completed section
 
 ### Important Decisions
 1. **Struktura URL = Struktura folderów** (1:1, bez wyjątków)
@@ -175,36 +183,65 @@ Zmienne: `{{TEMAT_ARTYKULU}}`, `{{KONSPEKT_TRESC}}`, `{{WYTYCZNE_WSPOLNE}}`, `{{
 14. **CTA/Next Steps** - Sekcja "Co dalej?" dopasowana do typu artykułu (practical/theoretical/optimization) → konkretne akcje dla czytelnika
 15. **Schema.org markup** - AI generuje structured data (Article, FAQPage, HowTo, BreadcrumbList) → rich snippets w Google, +20-30% CTR
 
+### Architecture Completed
+**Status:** ✅ Architecture designed and documented in ARCHITECTURE.md
+
+**Key decisions:**
+- **3-layer architecture** - Core (domain + orchestration) / Infrastructure / Adapters
+- **Article as Aggregate Root** + Value Objects (Outline, SEOData, Summary, BusinessMetadata)
+- **Step functions (callables)** - nie klasy, tylko funkcje z sygnaturą: `(article, deps, config) -> article`
+- **Config hybrid** - YAML definiuje kroki, Python implementuje funkcje
+- **Dependency injection** - deps dict przekazywany do step functions
+- **Payload CMS integration** - Markdown-based (nie Lexical JSON), blocks definiowane w zależności od potrzeb
+- **Git wrapper** - GitOperations dla consistency
+- **Provider registry** - łatwe dodawanie nowych AI providers bez zmiany kodu
+
+**Pliki:**
+- `ARCHITECTURE.md` - kompletna dokumentacja (13 sekcji, ~1200 linii kodu examples)
+
 ### Next Steps
-1. **Zapoznanie z REQUIREMENTS.md** (pełna specyfikacja)
-2. **Planowanie architektury** systemu
-3. **Implementacja** (nowy blog_agent.py)
-4. **Testing** na przykładowym artykule
-5. **Dokumentacja** API i usage examples
+1. ✅ **Zapoznanie z REQUIREMENTS.md** (pełna specyfikacja)
+2. ✅ **Planowanie architektury** systemu (ARCHITECTURE.md)
+3. ⏳ **Setup project structure** (folders, __init__.py)
+4. ⏳ **Implementacja core domain** (Article, Value Objects)
+5. ⏳ **Implementacja infrastructure** (AI providers, Git, Payload)
+6. ⏳ **Implementacja step functions** (14 steps)
+7. ⏳ **Implementacja workflow engine + CLI**
+8. ⏳ **Testing** na przykładowym artykule
+9. ⏳ **Dokumentacja** API i usage examples
 
 ### Files Created
 - `.gitignore` - Python project
 - `SESSION_NOTES.md` - dokumentacja sesji
 - `TODO.md` - task management
-- **`REQUIREMENTS.md` - KOMPLETNA SPECYFIKACJA SYSTEMU (KLUCZOWY PLIK)**
+- **`REQUIREMENTS.md` - KOMPLETNA SPECYFIKACJA SYSTEMU (wymagania, workflow, prompty)**
+- **`ARCHITECTURE.md` - KOMPLETNA DOKUMENTACJA ARCHITEKTURY (DDD, SOLID, Payload CMS)**
 
 ### Session Summary
 
-**Status:** ✅ Requirements gathering and design phase COMPLETE + Business features added
+**Status:** ✅ Requirements + Design + Architecture COMPLETE - Ready for implementation
 
 **What was accomplished:**
-- 🎯 Complete requirements specification (REQUIREMENTS.md - 15 sections, updated twice)
-- 📝 12 prompt templates created/updated (dodano 3 nowe dla przedsiębiorców)
-- 🔄 Workflow designed: 14-step automated article generation (było 11 → teraz 14)
-- 🏗️ Architecture decisions: 15 key decisions documented (było 12 → teraz 15)
+- 🎯 Complete requirements specification (REQUIREMENTS.md - 15 sections, 14-step workflow)
+- 📝 12 prompt templates created/updated (konspekt, artykuły, audyt, metadata)
+- 🏗️ Complete architecture design (ARCHITECTURE.md - 13 sections, 1200+ lines of examples)
+- 🔄 Workflow designed: 14-step automated article generation (~6min 25s, ~$0.09)
 - 📊 Feature set finalized: optional sections, summary, internal linking, multimedia, business metadata, CTA, schema.org
-- 📂 Project organized: old files archived, git initialized, documentation in place
-- ⏱️ Performance estimated: ~6min 25s per article, ~$0.09 cost (było 5m40s)
-- 💾 All work committed to git (9 commits)
-- 💼 Business-focused features: metadata dla decyzji inwestycyjnych, CTA dla conversion, rich snippets dla SEO
+- 💼 Business-focused: investment metadata, CTA dla conversion, rich snippets (+20-30% CTR)
+- 🎨 Payload CMS v3 integration: Markdown-based, blocks (FAQ, Checklist, CTA, Related)
+- 📂 Project organized: old files archived, git initialized, full documentation
+- 💾 All work committed to git (10 commits)
+- ✅ SOLID principles applied: DDD (Aggregate Root + VOs), callables, dependency injection
+
+**Architecture highlights:**
+- 3-layer architecture (Core/Infrastructure/Adapters)
+- Article as Aggregate Root + Value Objects (Outline, SEOData, Summary, BusinessMetadata)
+- Step functions (callables) - prostsze od klas
+- Config hybrid (YAML + Python) - extensible bez code changes
+- Payload CMS: Markdown (nie Lexical), blocks definiowane w YAML
 
 **Ready for next phase:**
-The system is fully specified and documented. All prompts are ready. Architecture design and implementation can begin when user confirms.
+The system is fully designed and documented. Requirements + Architecture complete. Implementation can begin.
 
 **Token usage:** Session consumed ~122k tokens (design phase with extensive documentation)
 
