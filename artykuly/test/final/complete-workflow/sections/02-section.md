@@ -1,23 +1,25 @@
-# Complete Workflow Test
+## Planowanie i projektowanie testów workflow
 
-## Projektowanie i Przygotowanie Testów
+### Identyfikacja krytycznych ścieżek użytkownika
 
-Po dokładnym zaplanowaniu strategii testowej, nadchodzi czas na przełożenie założeń na konkretne scenariusze i przypadki testowe. Ten etap jest niezwykle istotny, ponieważ od niego zależy, czy uda nam się kompleksowo zweryfikować wszystkie kluczowe funkcjonalności i aspekty naszej aplikacji.
+Skuteczny workflow test zaczyna się od zrozumienia, które ścieżki użytkownika są naprawdę krytyczne dla biznesu. Nie każda funkcjonalność wymaga testowania end-to-end.
 
-Pierwszym krokiem jest stworzenie szczegółowych scenariuszy testowych, które w logiczny sposób poprowadzą nas przez poszczególne użycia systemu. Warto zadbać, aby scenariusze te były zrozumiałe i czytelne - nie tylko dla samego zespołu testowego, ale również dla deweloperów czy innych zainteresowanych stron. Dobrze napisany scenariusz powinien jasno określać warunki wstępne, kroki do wykonania oraz oczekiwane rezultaty.
+Analiza procesów biznesowych to pierwszy krok. Siedź z Product Ownerem i przejdź przez aplikację jego oczami. Które funkcje generują przychód? Które procesy, gdyby przestały działać, sparaliżowałyby biznes?
 
-Równolegle z przygotowaniem scenariuszy, należy zdefiniować dane testowe, które posłużą do przeprowadzenia testów. W zależności od specyfiki projektu, mogą to być zarówno fikcyjne informacje, jak i rzeczywiste dane pozyskane z produkcji. Ważne, aby były one reprezentatywne i pokrywały różne przypadki użycia.
+W aplikacji bankowej priorytetem będą przelewy i płatności. W e-commerce - ścieżka zakupowa od wyszukiwania do finalizacji zamówienia. W systemie HR - proces rekrutacji od publikacji ogłoszenia do podpisania umowy.
 
-Nie mniej istotnym elementem jest zapewnienie odpowiedniego środowiska testowego. Musi ono wiernie odzwierciedlać docelową infrastrukturę, na której będzie działać aplikacja. Tylko w takich warunkach będziemy w stanie uzyskać wiarygodne wyniki testów i zidentyfikować potencjalne problemy. Jeśli to możliwe, warto także zadbać o automatyzację procesu wdrażania i konfiguracji środowiska, co znacznie usprawni i przyspieszy całą operację.
+Współpraca z analitykami biznesowymi otwiera dodatkową perspektywę. Oni widzą dane - które procesy mają najwyższy drop-off rate, gdzie użytkownicy najczęściej rezygnują. Te miejsca to naturalni kandydaci na workflow testy.
 
-Na tym etapie warto również przemyśleć, które testy można zautomatyzować. Automatyzacja jest kluczowa w kontekście ciągłej integracji i wdrażania, ponieważ pozwala na szybkie i powtarzalne uruchamianie testów, a tym samym wczesne wychwytywanie regresji. Dotyczy to zarówno testów jednostkowych, integracyjnych, jak i funkcjonalnych UI.
+Mapowanie user journey wymaga precyzji. Zacznij od entry point - czy to landing page, ekran logowania, czy deeplink z emaila. Przejdź przez każdy krok, notując nie tylko happy path, ale także alternatywne ścieżki.
 
-## Wykonywanie Testów
+Przykład z systemu rezerwacji hotelowych: główna ścieżka to wyszukanie → wybór hotelu → rezerwacja → płatność. Ale użytkownik może też porównywać oferty, zmieniać daty, anulować rezerwację. Każda z tych ścieżek może zasługiwać na osobny workflow test.
 
-Po starannym przygotowaniu, nadchodzi czas na uruchomienie procesu testowego. W tym momencie musimy zadbać, aby testy - zarówno manualne, jak i zautomatyzowane - były wykonywane regularnie i w sposób skoordynowany.
+### Definiowanie scope'u i granic testów
 
-Kluczowe jest, aby na bieżąco zbierać i analizować wyniki testów. Pozwoli to na szybką identyfikację defektów i podjęcie natychmiastowych działań naprawczych. Warto zadbać o centralne raportowanie i śledzenie defektów, np. z wykorzystaniem narzędzi takich jak Jira czy TestRail.
+Największym wyzwaniem w projektowaniu workflow testów jest znalezienie balansu. Za mało - i przegapisz krytyczne błędy. Za dużo - i utoniesz w maintenance hell.
 
-Oprócz samego wykonywania testów, istotnym elementem jest także bieżąca komunikacja i współpraca pomiędzy zespołem testowym, deweloperskim oraz innymi zainteresowanymi stronami. Tylko taka synchronizacja zapewni, że wszyscy mają aktualny obraz stanu projektu i mogą podejmować właściwe decyzje.
+Dobra zasada: jeden workflow test powinien weryfikować jeden kompletny proces biznesowy. Jeśli twój test sprawdza zarówno rejestrację użytkownika, jak i składanie zamówienia, prawdopodobnie jest za szeroki.
 
-Sekcja poświęcona wykonywaniu testów stanowi kluczowy element kompletnego procesu testowania. To tutaj następuje weryfikacja założeń i hipotez, a zespół ma możliwość oceny jakości dostarczanego oprogramowania. Dlatego też warto poświęcić temu etapowi odpowiednią uwagę i zadbać o jego solidne przygotowanie.
+Ustal jasne kryteria sukcesu dla każdej ścieżki. W teście e-commerce sukcesem nie jest tylko dotarcie do strony "dziękujemy za zamówienie". To także otrzymanie emaila z potwierdzeniem, pojawienie się zamówienia w panelu użytkownika i aktualizacja stanu magazynowego.
+
+Określ także, czego nie testujesz w workflow. Jeśli masz osobne testy API dla walidacji danych, nie duplikuj ich w teście workflow. Skupiaj się na przepływie, nie na szczegółach implementacji.

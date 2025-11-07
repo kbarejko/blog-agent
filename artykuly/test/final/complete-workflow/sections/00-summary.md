@@ -1,5 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Kluczowe etapy kompletnego procesu testowania** - poznasz praktyczne wskazówki, jak zbudować wydajny i kompleksowy proces testowania, obejmujący planowanie, projektowanie, wykonywanie i analizę testów
-- **Narzędzia wspierające kompletny proces testowania** - dowiesz się o kluczowych narzędziach do zarządzania testami, automatyzacji, monitorowania i raportowania, a także tworzenia środowisk testowych
-- **Korzyści z wdrożenia kompletnego procesu testowania** - dzięki świadomemu podejściu do testowania, będziesz mógł zapewnić wysoką jakość oprogramowania i stale je doskonalić
+- **Testy workflow wykrywają 40% więcej błędów** - kompleksowe testowanie ścieżek użytkownika znajduje defekty, które umykają testom jednostkowym i integracyjnym
+- **Cypress, Selenium czy Playwright** - praktyczne porównanie narzędzi z kryteriami wyboru stack'u technologicznego dla Twojego projektu
+- **5-10 minut to maksimum** - dłuższe testy workflow stają się problemem w maintenance, dowiesz się jak dzielić długie scenariusze na logiczne segmenty
+- **Checklist 10 kroków implementacji** - gotowy plan działania od identyfikacji krytycznych ścieżek po integrację z CI/CD pipeline
+- **FAQ z 7 najczęstszymi problemami** - praktyczne odpowiedzi na pytania o flaky testy, ROI i przekonanie zespołu do workflow testing
