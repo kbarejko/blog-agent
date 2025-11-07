@@ -1,35 +1,25 @@
-Analiza mean time to resolution (MTTR) dla workflow issues ujawnia prawdziwy koszt defektów. Błąd w izolowanym komponencie można naprawić w godzinę. Problem w workflow wymaga często całego zespołu i może trwać dni.
+## Wzorce projektowe dla workflow testów
 
-Dlaczego? Bo musisz zidentyfikować wszystkie dotknięte komponenty. Sprawdzić, czy fix nie psuje innych procesów. Przetestować całą ścieżkę od nowa.
+Page Object Model to fundament, ale nie jedyne rozwiązanie. W workflow testach sprawdzają się też inne podejścia, często lepiej dopasowane do charakteru długich scenariuszy.
 
-User satisfaction correlation to metryka, którą często pomijamy. A szkoda. Użytkownicy nie widzą twojej architektury. Widzą tylko to, czy mogą zrobić to, po co przyszli.
+Action-Based Testing dzieli workflow na logiczne akcje. Zamiast `loginPage.enterUsername()` masz `userActions.login()`. Jedna akcja może obejmować kilka kroków: sprawdzenie stanu, wprowadzenie danych, walidację rezultatu. To naturalniejsze dla workflow testów, gdzie liczy się cały proces, nie poszczególne elementy UI.
 
-Zestawienie NPS score z coverage workflow testów pokazuje jasną korelację. Im więcej krytycznych ścieżek przetestujesz end-to-end, tym wyższa satysfakcja użytkowników.
+Step Objects idą jeszcze dalej. Każdy krok workflow to osobny obiekt z jasno określonymi warunkami wstępnymi i rezultatami. `CheckoutStep` wie, że potrzebuje produktów w koszyku i zwraca potwierdzenie zamówienia. Takie podejście ułatwia komponowanie różnych ścieżek z tych samych elementów.
 
-### Metryki efektywności
+### Obsługa błędów i recovery
 
-Test execution time optimization to wyzwanie samo w sobie. Pierwszy workflow test może trwać godzinę. To normalne. Ale jeśli po miesiącu nadal czekasz godzinę na wyniki, coś robisz źle.
+Workflow testy są długie. Statystycznie więcej może pójść nie tak. Dlatego potrzebujesz strategii recovery, nie tylko error reporting.
 
-Równoległe wykonywanie oszczędza czas. Ale wymaga smart data management. Każdy test potrzebuje własnego sandbox'a z danymi.
+Checkpoint pattern sprawdza się w praktyce. Na kluczowych momentach workflow zapisujesz stan systemu. Gdy coś pójdzie nie tak w późniejszych krokach, możesz wrócić do ostatniego checkpointu zamiast zaczynać całość od nowa.
 
-Mock'owanie zewnętrznych systemów przyspiesza testy o 70%. Zamiast czekać na API banku, używasz mock'a zwracającego odpowiedź w 100ms.
+Retry logic należy projektować selektywnie. Błąd walidacji danych nie ma sensu retryować. Ale timeout na loading czy temporary network issue - jak najbardziej. Różne błędy wymagają różnych strategii.
 
-Resource utilization pokazuje, czy inwestycja się opłaca. Porównaj koszt infrastruktury testowej z kosztami bugów wykrytych w produkcji.
+### Parametryzacja i konfiguracja
 
-ROI calculation dla workflow testing nie jest trudny. Zsumuj koszty: czas zespołu, infrastruktura, narzędzia. Porównaj z oszczędnościami: mniej bugów na produkcji, szybszy time-to-market, wyższa konwersja.
+Workflow testy muszą działać w różnych środowiskach. Development, staging, production-like. Każde ma inne URL-e, inne czasy odpowiedzi, inne dostępne funkcje.
 
-Firmy raportują średni ROI 300% w pierwszym roku. Jeden wykryty błąd w krytycznym procesie płatności zwraca koszty całego projektu.
+Environment configs rozwiązują problem elegancko. Jeden plik per środowisko z wszystkimi parametrami: endpoints, timeouts, feature flags, test users. Test pozostaje ten sam, zmienia się tylko konfiguracja.
 
----
+Data-driven approach pozwala testować różne warianty tego samego workflow. Ten sam test procesu zakupowego może sprawdzić płatność kartą, PayPal-em i przelewem. Zmienia się tylko zestaw danych wejściowych.
 
-## Integracja z procesami Agile i DevOps
-
-### Włączenie workflow testów w sprinty
-
-Definition of Done bez workflow validation to pół gwizdka. Nie wystarczy, że feature działa w izolacji. Musi działać w kontekście całego procesu.
-
-Rozszerz DoD o punkty: "Krytyczne ścieżki użytkownika przechodzą end-to-end testy". "Integracja z istniejącymi workflow'ami została zwalidowana".
-
-Backlog grooming z perspektywą end-to-end zmienia sposób myślenia o user story. Zamiast "jako user mogę dodać produkt do koszyka" myślisz "jako user mogę znaleźć, porównać i kupić produkt".
-
-Sprint review z demonstracją pełnych procesów robi wrażenie na stakeholderach. Pokazujesz nie tylko nową funkcję, ale kompletną user journey.
+Feature toggles dodają kolejny wymiar. Możesz włączać i wyłączać części workflow w zależności od tego, co jest dostępne w danym środowisku. Nowa funkcja jeszcze nie gotowa na production? Test ją pominie.

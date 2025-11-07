@@ -1,37 +1,37 @@
-## Anatomia skutecznego Complete Workflow Test
+### Przygotowanie środowiska testowego
 
-### Identyfikacja krytycznych ścieżek użytkownika
+Masz plan, wiesz co testować. Teraz potrzebujesz miejsca, gdzie te testy będą działać niezawodnie. Tu zaczyna się prawdziwa zabawa.
 
-Zanim napiszesz pierwszy test, musisz wiedzieć, które procesy są kluczowe dla twojego biznesu. To nie jest oczywiste, jak mogłoby się wydawać.
+Środowisko testowe to nie kopia produkcji. To specjalnie zaprojektowana przestrzeń, która musi spełniać inne wymagania. Produkcja optymalizuje wydajność. Środowisko testowe optymalizuje przewidywalność.
 
-W e-commerce każdy pomyśli o procesie zakupowym. Ale czy uwzględnisz scenariusz zwrotu produktu? A co z odzyskiwaniem porzuconego koszyka? Albo z procesem reklamacji?
+Największy błąd? Założenie, że wystarczy sklonować prod i gotowe. W produkcji dane się zmieniają. Użytkownicy zachowują się nieprzewidywalnie. Systemy zewnętrzne czasem nie odpowiadają. W testach potrzebujesz kontroli nad każdym z tych elementów.
 
-Zacznij od mapowania procesów biznesowych. Usiądź z product ownerami i analitykami. Zadawaj pytania: jakie działania użytkowników generują największy revenue? Które procesy, jeśli się zepsują, sparaliżują biznes?
+### Wymagania infrastrukturalne
 
-W bankowości to może być przelew. W SaaS - onboarding nowych użytkowników. W mediach społecznościowych - publikowanie treści.
+Workflow testy są żarłoczne. Potrzebują więcej mocy obliczeniowej niż testy jednostkowe, ale inaczej niż myślisz.
 
-Priorytetyzuj według dwóch kryteriów: ryzyko i częstotliwość użycia. Przelew na milion złotych wykonuje się rzadko, ale błąd ma ogromne konsekwencje. Logowanie dziennie robi milion użytkowników - nawet drobny problem dotknie wielu ludzi.
+Ważniejsza od surowej wydajności jest stabilność. Lepiej wolniejszy serwer, który zawsze odpowiada w tym samym czasie, niż szybki ale nieprzewidywalny.
 
-Stwórz matrycę ryzyka. Na osi X umieść częstotliwość, na osi Y - wpływ biznesowy. Procesy w prawym górnym rogu to twoje gwiazdy - testuj je w pierwszej kolejności.
+Izolacja to klucz. Jeden test nie może wpływać na drugi. Oznacza to osobne bazy danych, oddzielne przestrzenie na plikach, niezależne instancje usług.
 
-### Projektowanie scenariuszy testowych
+Rozważ konteneryzację. Docker pozwala szybko stawiać i burzyć środowiska. Kubernetes daje kontrolę nad zasobami. To inwestycja, która zwraca się przy pierwszym większym refactoringu testów.
 
-Mając listę krytycznych workflow'ów, czas na szczegóły. Tu przydaje się end-to-end story mapping.
+### Konfiguracja danych testowych
 
-Zamiast myśleć o funkcjach, myśl o historiach. Nie "test formularza rejestracji", ale "nowy użytkownik chce założyć konto i zacząć korzystać z aplikacji".
+Tu większość projektów popełnia kardynalny błąd. Używają tych samych danych do wszystkich testów.
 
-Uwzględnij różne persony. Manager IT będzie inaczej korzystał z CRM-a niż sales rep. Doświadczony trader ma inne potrzeby niż ktoś, kto pierwszy raz kupuje akcje.
+Workflow test dla procesu zakupowego potrzebuje: użytkownika z kontem, produktów w magazynie, działającej metody płatności, aktualnej tabeli cen i poprawnie skonfigurowanej dostawy. Jeden niepoprawny rekord i test pada.
 
-Każda persona ma inne ścieżki, inne punkty bólu, inne cele. Zaprojektuj scenariusze dla każdej z nich.
+Najlepsza strategia to generowanie świeżych danych na początku każdego testu. Tak, to trwa dłużej. Ale eliminuje 90% problemów z niestabilnymi testami.
 
-Zdefiniuj punkty weryfikacji - checkpointy, gdzie sprawdzisz, czy proces przebiega prawidłowo. To nie tylko końcowy rezultat. W procesie zakupowym sprawdź: czy produkt trafił do koszyka, czy cena się przeliczała, czy rabat się zastosował, czy e-mail z potwierdzeniem został wysłany.
+Jeśli generowanie trwa za długo, przygotuj zestawy seedów. Osobne dla każdego scenariusza. Pamiętaj o cleanup - dane po skończonym teście powinny zniknąć bez śladu.
 
-### Zarządzanie danymi testowymi
+### Zarządzanie zależnościami zewnętrznymi
 
-Długie procesy biznesowe oznaczają złożone dane testowe. Nie wystarczy jeden rekord użytkownika. Potrzebujesz całego ekosystemu.
+Płatności, powiadomienia email, API pogodowe - workflow testy uwielbiają systemy zewnętrzne. Te systemy nie zawsze odwzajemniają tę miłość.
 
-W e-commerce to oznacza: użytkowników w różnych statusach (nowi, VIP, zablokowani), produkty o różnej dostępności, aktywne promocje, różne metody płatności i opcje dostawy.
+Mock to oczywiste rozwiązanie, ale nie jedyne. Czasem potrzebujesz prawdziwej integracji żeby złapać edge case'y. Wtedy przydają się sandboxi i środowiska developerskie zewnętrznych dostawców.
 
-Przygotuj environment izolowany od produkcji, ale realistyczny. Dane testowe muszą odzwierciedlać prawdziwe scenariusze - różne kombinacje, edge case'y, błędne stany.
+Service virtualization pozwala symulować różne odpowiedzi systemów zewnętrznych. Możesz testować scenariusze, które w prawdziwym świecie zdarzają się raz na miesiąc.
 
-Plan rollback to must-have. Jeśli test się wysypie w połowie, musisz móc wrócić do punktu wyjścia i zacząć od nowa.
+Najgorsze co możesz zrobić to uzależnić testy od produkcyjnych API. Testy mają być przewidywalne, nie losowe.

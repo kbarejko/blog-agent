@@ -1,27 +1,31 @@
-### Faza wykonania
+### Zarządzanie danymi testowymi
 
-Moment truth arrives gdy odpalasz pierwszy complete workflow test. Strategia wykonywania ma kluczowe znaczenie dla sukcesu całego przedsięwzięcia.
+Dane to fundament każdego workflow testu. Bez poprawnych danych nawet najlepiej napisany test zawiedzie. Problem w tym, że większość zespołów traktuje dane jako dodatek, nie jako kluczowy element strategii.
 
-Równoległy vs. sekwencyjny execution to pierwsza decyzja. Testy równoległe oszczędzają czas, ale mogą się nawzajem sabotażować przez współdzielone zasoby. Wyobraź sobie dwóch użytkowników testowych próbujących jednocześnie kupić ostatni egzemplarz produktu - jeden test przejdzie, drugi failnie, chociaż oba scenariusze są poprawne.
+Typowy błąd? Używanie tych samych danych do wszystkich testów. Jeden test modyfikuje użytkownika, drugi próbuje go utworzyć ponownie - i masz konflikt. Albo gorszy scenariusz: dane "przypadkowo" znikają z bazy i połowa testów pada.
 
-Sekwencyjne wykonywanie jest bezpieczniejsze, szczególnie gdy testujesz procesy modyfikujące stan globalny aplikacji. Płatności, zarządzanie zapasami, workflow'y approval - lepiej testować je po kolei.
+### Strategie generowania danych testowych
 
-Real-time monitoring długotrwałych procesów to game changer. Gdy test trwa 45 minut, nie możesz czekać do końca, żeby dowiedzieć się o problemie. Dashboard z live updates pokazuje aktualny krok, response times, błędy. Widzisz od razu, czy test utknął na integracji z systemem płatności, czy może problem jest w wysyłaniu e-maili.
+Świeże dane na początku każdego testu to złoty standard. Tak, trwa to dłużej. Ale eliminuje 90% problemów z niestabilnymi testami.
 
-Custom alerts ustawiasz na krytyczne punkty. Jeśli płatność nie przejdzie w ciągu 30 sekund albo e-mail nie dotrze w 2 minuty, dostajesz powiadomienie. Nie musisz patrzeć w ekran przez całą godzinę.
+Factory pattern sprawdzi się idealnie. Tworzysz UserFactory, ProductFactory, OrderFactory. Każdy generuje obiekt z losowymi, ale poprawnymi danymi. Potrzebujesz użytkownika premium? `UserFactory.createPremium()`. Produkt w promocji? `ProductFactory.createDiscounted()`.
 
-Debugging workflow'ów wymaga systematycznego podejścia. Loguj każdy krok z timestampami, request/response payloadami, stanem bazy danych. Gdy coś pójdzie nie tak, potrzebujesz forensic trail pokazujący dokładnie, co się wydarzyło i kiedy.
+Dla złożonych scenariuszy przydają się scenariusze danych. Test procesu zwrotu potrzebuje: użytkownika z historią zamówień, produktu z polityką zwrotów i aktywnej metody płatności. Jeden zestaw danych, jedno wywołanie setup.
 
-Dokumentowanie defektów workflow'owych to art form. Nie wystarczy napisać "płatność nie działa". Opisz cały kontekst: jakimi krokami użytkownik dotarł do tego momentu, jaki był stan koszyka, które promocje były aktywne, jakie dane użył. QA team i developerzy muszą móc odtworzyć sytuację.
+### Cleanup i izolacja
 
-Kategoryzacja defektów pomaga ustalić priorytety. Czy problem blokuje cały proces, czy tylko jeden scenariusz edge case? Czy dotyczy wszystkich użytkowników, czy konkretnej persony? Te informacje decydują o kolejności fixów.
+Każdy test powinien zostawić środowisko w stanie początkowym. To znaczy usunąć wszystkie dane, które utworzył. Transaction rollback działa dla baz danych. Ale workflow testy często modyfikują pliki, cache, systemy zewnętrzne.
 
-### Faza analizy i raportowania
+Najlepsza praktyka: lista cleanup actions w każdym teście. Po zakończeniu wykonaj je wszystkie, niezależnie od wyniku testu. Failed assertions nie mogą blokować sprzątania.
 
-Raw data z workflow testów to dopiero początek. Prawdziwa wartość tkwi w analizie, która przekuwa cyfry w actionable insights.
+Izolacja namespace również pomaga. Każdy test dostaje unikalny prefiks - timestamp plus random string. Wszystkie obiekty tworzone z tym prefiksem można łatwo wyczyścić po zakończeniu.
 
-Metryki skuteczności zaczynają się od podstawowych: ile testów przeszło, ile failowało, na którym kroku. Ale to tylko wierzchołek góry lodowej. Ważniejsze pytanie brzmi: dlaczego test failował i co to oznacza dla business'u?
+### Projektowanie stabilnych testów workflow
 
-Pass rate 80% brzmi nieźle, ale jeśli wszystkie faile dotyczą krytycznego procesu płatności, masz poważny problem. Z drugiej strony, 60% pass rate może być akceptowalne, jeśli faile dotyczą edge case'ów używanych przez 2% użytkowników.
+Stabilność to największe wyzwanie workflow testów. Dziś przechodzi, jutro pada - bez żadnej zmiany w kodzie. Frustrujące, ale możliwe do opanowania.
 
-Impact analysis każdego defektu pokazuje business consequences. Błąd w procesie checkout'u może kosztować tysiące złotych dziennie w lost revenue. Problem z wysyłaniem e-maili promocyjnych wpływa na customer engagement, ale nie zatrzymuje sprzedaży.
+Główny winowajca? Timing issues. Aplikacja jeszcze ładuje dane, a test już próbuje kliknąć przycisk. Albo async operacja trwa dłużej niż zwykle i test timeout'uje.
+
+Smart wait strategies rozwiązują większość problemów. Zamiast `sleep(5000)` użyj `waitForElementVisible()`. Zamiast fixed timeout zastosuj exponential backoff. Test poczeka tyle, ile potrzeba - nie więcej, nie mniej.
+
+Dynamic elements wymagają szczególnej uwagi. ID generowane po stronie serwera, listy ładowane asynchronicznie, modalne okna z animacjami. Każdy element musi mieć niezawodny selektor i odpowiednią strategię oczekiwania.
