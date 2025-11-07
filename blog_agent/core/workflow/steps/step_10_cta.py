@@ -52,6 +52,12 @@ def execute_cta(
 Timeline: {article.business_metadata.timeline_estimate}
 Team: {article.business_metadata.team_size}"""
 
+    # Extract series and silo from article path
+    # Path structure: artykuly/[series]/[silo]/[slug]/
+    path_parts = article.path.parts
+    series = path_parts[1] if len(path_parts) > 1 else "unknown"
+    silo = path_parts[2] if len(path_parts) > 2 else "unknown"
+
     # Load and render prompt
     prompt = prompts.load_and_render(
         "articles/prompt_cta_next_steps.md",
@@ -59,6 +65,8 @@ Team: {article.business_metadata.team_size}"""
             'TYTUL_ARTYKULU': article.config.title,
             'ARTICLE_CONTENT': article.final_content,
             'BUSINESS_METADATA': business_context,
+            'SERIA': series,
+            'SILOS': silo,
         }
     )
 

@@ -5,7 +5,7 @@ providers:
   # Claude (Anthropic) - Primary provider
   claude:
     api_key: ${ANTHROPIC_API_KEY}  # Set via environment variable
-    model: claude-sonnet-4-20250514
+    model: claude-3-haiku-20240307  # Using Haiku for cost-effective testing
     max_tokens: 4000
     temperature: 1.0
 
