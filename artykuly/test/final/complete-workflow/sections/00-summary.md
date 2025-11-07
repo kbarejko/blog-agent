@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **70% krytycznych bugów to problemy integracyjne** - większość awarii produkcyjnych pochodzi z interakcji między komponentami, nie z pojedynczych funkcji
-- **Selenium vs Playwright vs Cypress** - praktyczne porównanie narzędzi do workflow testów z konkretnymi przypadkami użycia i ograniczeniami
-- **5-15 minut to optymalny czas testu** - dłuższe workflow testy spowalniają feedback loop, krótsze nie pokrywają wystarczającego zakresu funkcjonalności
-- **Parallel execution i smart ordering** - sprawdzone techniki optymalizacji które skracają czas wykonywania testów workflow o 60-80%
-- **Checklist 12 kroków** - gotowa lista kontrolna do wdrożenia Complete Workflow Test w Twoim projekcie, od planowania po maintenance
+- **Workflow testy redukują koszty o 80%** - błędy wykryte przed produkcją kosztują 100x mniej niż te znalezione przez użytkowników końcowych
+- **Metodologia Complete Workflow Test** - holistyczne podejście łączące user journey mapping z testowaniem end-to-end dla pełnego pokrycia ścieżek biznesowych
+- **Implementacja krok po kroku** - praktyczny przewodnik od workshop'u z zespołem przez setup środowiska po integrację z CI/CD pipeline
+- **Stack narzędzi dla workflow testing** - Cypress, Playwright, Postman Collections i APM tools z konkretnymi konfiguracjami dla długotrwałych procesów
+- **Checklist 14 punktów + FAQ** - gotowa lista kontrolna do wdrożenia oraz odpowiedzi na pytania o czas trwania testów, automatyzację i handling systemów zewnętrznych

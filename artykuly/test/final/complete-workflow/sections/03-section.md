@@ -1,23 +1,37 @@
-## Planowanie strategii testowej dla pełnego przepływu
+## Anatomia skutecznego Complete Workflow Test
 
-Skuteczny workflow test zaczyna się na długo przed napisaniem pierwszej linii kodu. Potrzebujesz mapy terenu – zrozumienia, które ścieżki są krytyczne dla biznesu, gdzie mogą się pojawić problemy i jak zmierzyć sukces.
+### Identyfikacja krytycznych ścieżek użytkownika
 
-### Identyfikacja krytycznych ścieżek biznesowych
+Zanim napiszesz pierwszy test, musisz wiedzieć, które procesy są kluczowe dla twojego biznesu. To nie jest oczywiste, jak mogłoby się wydawać.
 
-Nie wszystkie workflow są równie ważne. W aplikacji e-commerce proces płatności ma priorytet nad dodawaniem produktów do wishlist. W aplikacji bankowej transfer środków jest krytyczny, a zmiana hasła – ważna, ale nie vitalna.
+W e-commerce każdy pomyśli o procesie zakupowym. Ale czy uwzględnisz scenariusz zwrotu produktu? A co z odzyskiwaniem porzuconego koszyka? Albo z procesem reklamacji?
 
-Zacznij od rozmowy z Product Ownerem i Business Analystami. Zapytaj o revenue-critical flows. Które procesy, gdy nie działają, bezpośrednio wpływają na przychody? W SaaS może to być onboarding nowych użytkowników. W fintech – weryfikacja transakcji. W platformie edukacyjnej – dostęp do zakupionych kursów.
+Zacznij od mapowania procesów biznesowych. Usiądź z product ownerami i analitykami. Zadawaj pytania: jakie działania użytkowników generują największy revenue? Które procesy, jeśli się zepsują, sparaliżują biznes?
 
-Mapuj user journey od początku do końca. Ale nie poprzestaj na idealnym scenariuszu. Prawdziwi użytkownicy cofają się, przerywają procesy, wracają po godzinach. Każda taka ścieżka może ujawnić problemy niewidoczne w liniowym testowaniu.
+W bankowości to może być przelew. W SaaS - onboarding nowych użytkowników. W mediach społecznościowych - publikowanie treści.
 
-Priorytetyzuj według ryzyka biznesowego. Użyj prostej matrycy: prawdopodobieństwo wystąpienia problemu vs. wpływ na biznes. Wysokie prawdopodobieństwo i wysoki wpływ to twoi kandydaci numer jeden.
+Priorytetyzuj według dwóch kryteriów: ryzyko i częstotliwość użycia. Przelew na milion złotych wykonuje się rzadko, ale błąd ma ogromne konsekwencje. Logowanie dziennie robi milion użytkowników - nawet drobny problem dotknie wielu ludzi.
 
-### Definiowanie punktów kontrolnych
+Stwórz matrycę ryzyka. Na osi X umieść częstotliwość, na osi Y - wpływ biznesowy. Procesy w prawym górnym rogu to twoje gwiazdy - testuj je w pierwszej kolejności.
 
-Każdy krok w workflow powinien mieć jasne kryteria sukcesu. Nie wystarczy sprawdzić, czy użytkownik dotarł do końca. Musisz wiedzieć, czy dotarł tam w akceptowalnym czasie, z prawidłowymi danymi i dobrym doświadczeniem.
+### Projektowanie scenariuszy testowych
 
-Ustal kluczowe metryki. Czas response dla każdego kroku, accuracy danych przekazywanych między komponentami, user feedback w kluczowych momentach. W procesie płatności możesz monitorować czas od kliknięcia "Zapłać" do wyświetlenia potwierdzenia. W rejestracji – czy wszystkie dane trafiły poprawnie do bazy.
+Mając listę krytycznych workflow'ów, czas na szczegóły. Tu przydaje się end-to-end story mapping.
 
-Określ poziomy tolerancji. Płatność trwająca 30 sekund może być akceptowalna w niektórych kontekstach, nieakceptowalna w innych. Strata 1% użytkowników w długim workflow może być normalna, ale 10% już nie.
+Zamiast myśleć o funkcjach, myśl o historiach. Nie "test formularza rejestracji", ale "nowy użytkownik chce założyć konto i zacząć korzystać z aplikacji".
 
-Performance to nie wszystko. User experience też się liczy. Czy komunikaty błędów są zrozumiałe? Czy użytkownik ma feedback o postępie? Czy może bezpiecznie wrócić do poprzedniego kroku?
+Uwzględnij różne persony. Manager IT będzie inaczej korzystał z CRM-a niż sales rep. Doświadczony trader ma inne potrzeby niż ktoś, kto pierwszy raz kupuje akcje.
+
+Każda persona ma inne ścieżki, inne punkty bólu, inne cele. Zaprojektuj scenariusze dla każdej z nich.
+
+Zdefiniuj punkty weryfikacji - checkpointy, gdzie sprawdzisz, czy proces przebiega prawidłowo. To nie tylko końcowy rezultat. W procesie zakupowym sprawdź: czy produkt trafił do koszyka, czy cena się przeliczała, czy rabat się zastosował, czy e-mail z potwierdzeniem został wysłany.
+
+### Zarządzanie danymi testowymi
+
+Długie procesy biznesowe oznaczają złożone dane testowe. Nie wystarczy jeden rekord użytkownika. Potrzebujesz całego ekosystemu.
+
+W e-commerce to oznacza: użytkowników w różnych statusach (nowi, VIP, zablokowani), produkty o różnej dostępności, aktywne promocje, różne metody płatności i opcje dostawy.
+
+Przygotuj environment izolowany od produkcji, ale realistyczny. Dane testowe muszą odzwierciedlać prawdziwe scenariusze - różne kombinacje, edge case'y, błędne stany.
+
+Plan rollback to must-have. Jeśli test się wysypie w połowie, musisz móc wrócić do punktu wyjścia i zacząć od nowa.

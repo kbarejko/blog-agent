@@ -1,17 +1,23 @@
-### Projektowanie scenariuszy testowych
+## Praktyczna implementacja krok po kroku
 
-Realistic test data to fundament niezawodnych workflow testów. Nie wystarczy użyć "John Doe" i "test@example.com" w każdym scenariuszu. Prawdziwi użytkownicy mają różne profile, zachowania i konteksty. Twoje dane testowe powinny to odzwierciedlać.
+### Faza planowania
 
-Stwórz zróżnicowane persony testowe. W e-commerce możesz przygotować dane dla nowego użytkownika bez historii zamówień, stałego klienta z premium account i użytkownika z częściowo wypełnionym profilem. Każda grupa może ujawnić inne problemy w workflow.
+Implementacja complete workflow testing zaczyna się od warsztatów z zespołem. Nie rób tego w pojedynkę - potrzebujesz perspektywy różnych ról. Zaproś developera, który zna architekturę systemu, QA, który rozumie obecne scenariusze testowe, UX designera znającego user journey oraz business analityka, który wie, które procesy są krytyczne.
 
-Uwzględnij edge cases w danych. Długie nazwy firm, adresy z nietypowymi znakami, numery telefonów w różnych formatach. System może działać idealnie z "Warszawa", ale jak poradzi sobie z "Bielsko-Biała" lub międzynarodowymi adresami?
+W trakcie trzygodzinnego warsztatu powstanie workflow map - wizualna reprezentacja procesów biznesowych z zaznaczonymi punktami integracji między systemami. To nie teoretyczny diagram, ale praktyczna mapa pokazująca, gdzie rzeczy mogą się popsuć.
 
-Planowanie kombinacji różnych ścieżek użytkownika wymaga strategicznego myślenia. Użytkownik może rozpocząć proces jako guest, a w połowie zdecydować się na rejestrację. Może dodać kilka produktów do koszyka, usunąć część, wrócić do przeglądania i wreszcie sfinalizować zakup.
+Kluczowe pytanie brzmi: gdzie kończy się odpowiedzialność jednego komponentu, a zaczyna drugiego? Te miejsca to naturalne kandydaci na defekty workflow'owe.
 
-Te nietypowe ścieżki często ujawniają problemy z session management i state consistency. System przechowuje dane w cookies, local storage, sesji serwera. Gdy użytkownik zmienia ścieżkę, wszystkie te warstwy muszą pozostać zsynchronizowane.
+Zdefiniujcie kryteria akceptacji dla całego procesu, nie tylko pojedynczych kroków. "Użytkownik może się zarejestrować" to za mało. Precyzyjniej: "Użytkownik może się zarejestrować, otrzymuje e-mail aktywacyjny w ciągu 2 minut, po kliknięciu linku uzyskuje dostęp do dashboardu z predefiniowanymi ustawieniami zgodnie z wybranym planem".
 
-Integracje z systemami zewnętrznymi dodają kolejną warstwę złożoności. Płatność przez PayPal, weryfikacja adresu przez API pocztowe, wysyłka SMS-ów przez bramkę. Każda integracja może zawieść w nieprzewidywalny sposób.
+### Faza przygotowania
 
-Przygotuj mock scenarios dla różnych response czasów i błędów. API płatności może odpowiedzieć po 5 sekundach zamiast 2. Może zwrócić error 503. Twój workflow test powinien sprawdzić, jak system radzi sobie z takimi sytuacjami.
+Setup środowiska to krytyczny element. Potrzebujesz izolacji danych, która nie wpłynie na środowisko deweloperskie ani produkcyjne. W praktyce oznacza to często osobną bazę danych, oddzielne kolejki wiadomości i mock'owane systemy zewnętrzne.
 
-Dokumentuj dependency każdego scenariusza. Które zewnętrzne serwisy są potrzebne? Jakie dane muszą istnieć w bazie? Które feature flags powinny być włączone? Przyszły ty będzie wdzięczny za tę dokumentację.
+Przygotowanie zestawów danych to prawdziwa sztuka. Happy path to oczywistość - użytkownik przechodzi przez proces bez problemów. Ale edge case'y są równie ważne: co się dzieje, gdy promocja kończy się podczas finalizowania zamówienia? Albo gdy użytkownik próbuje kupić produkt, którego ostatni egzemplarz ktoś właśnie dodał do koszyka?
+
+Error scenarios wymagają szczególnej uwagi. Symuluj awarie zewnętrznych API, timeouty, problemy z płatnościami. System musi gracefully degradować, a użytkownik powinien otrzymać sensowne komunikaty.
+
+Konfiguracja narzędzi monitorowania pozwoli śledzić wykonanie testu w czasie rzeczywistym. Gdy workflow test trwa 30 minut, musisz wiedzieć, na którym kroku się zatrzymał i dlaczego.
+
+Nie zapomnij o mechanizmach cleanup - po każdym teście środowisko musi wrócić do stanu wyjściowego.

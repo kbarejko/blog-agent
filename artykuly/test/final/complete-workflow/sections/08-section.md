@@ -1,31 +1,53 @@
-## Obsługa błędów i scenariuszy awaryjnych
+## Narzędzia i technologie wspierające workflow testing
 
-Idealny workflow test to mit. W rzeczywistości użytkownicy klikają nie tam gdzie trzeba, internet się zacina, a zewnętrzne API odpowiadają błędem. Właśnie te scenariusze odróżniają dobry system od przeciętnego.
+### Platformy automatyzacji
 
-### Negative scenarios – serce workflow testingu
+Wybór odpowiedniego narzędzia decyduje o sukcesie całego przedsięwzięcia. Selenium Grid to sprawdzony weteran dla aplikacji webowych. Obsługuje testy cross-browser workflow bez problemów. Możesz odpalić ten sam scenariusz na Chrome, Firefox i Safari jednocześnie.
 
-Większość zespołów testuje tylko happy path. Użytkownik wchodzi, kupuje, wychodzi zadowolony. Real world jest bezlitosny. Karta płatnicza odrzucona, timeout podczas płatności, server error w trakcie checkout.
+Ale ma swoje wady. Setup jest skomplikowany. Flaky tests to bolączka. Debugging sprawia ból głowy.
 
-Zacznij od symulacji network issues. Dodaj delay w API calls – 5 sekund zamiast 500 milisekund. Sprawdź czy loading indicator się pojawia. Czy user dostaje feedback o tym, co się dzieje? A może siedzi przed pustym ekranem?
+Cypress zyskuje popularność w świecie nowoczesnych aplikacji. Szybki, stabilny, z genialnym interfejsem do debugowania. Live reload pokazuje każdy krok testu w czasie rzeczywistym. Widzisz dokładnie, co się dzieje.
 
-Timeout scenarios ujawniają prawdę o aplikacji. Payment gateway nie odpowiada przez 30 sekund. Czy system gracefully wraca do poprzedniego kroku? Czy pokazuje zrozumiały komunikat? Czy użytkownik może spróbować ponownie bez tracenia danych?
+Ograniczenie? Tylko Chrome-based browsers. Dla wielu projektów to wystarczy.
 
-### Błędy serwera w środku procesu
+Playwright to emerging star. Łączy zalety Selenium z prostotą Cypress. Obsługuje wszystkie główne przeglądarki. Auto-wait eliminuje większość problemów z timing. API jest intuicyjne.
 
-Server error 500 podczas kroku 3 z 7-krokarowego workflow to koszmarz. Użytkownik już zainwestował czas, może wprowadził dane karty. Co teraz?
+Przykład workflow testu w Playwright wygląda czysto:
 
-Test powinien sprawdzić recovery path. Czy dane zostały zapisane? Czy po powrocie użytkownik może kontynuować od tego miejsca? Czy musi zaczynać od nowa? Te detale decydują o user experience.
+```javascript
+await page.goto('/shop');
+await page.fill('[data-testid="search"]', 'laptop');
+await page.click('[data-testid="search-btn"]');
+await page.click('[data-testid="add-to-cart"]');
+await page.click('[data-testid="checkout"]');
+```
 
-Database connection issues zdarzają się częściej niż chcielibyśmy. W środku transakcji połączenie się zrywa. Proper error handling oznacza rollback zmian i jasny komunikat. Poor handling to corrupted data i confused users.
+### API testing w kontekście workflow
 
-### Resilience mechanisms w praktyce
+Frontend to tylko wierzchołek góry lodowej. Prawdziwa magia dzieje się w API calls między krokami workflow.
 
-Retry logic to standard w modern applications. Ale czy działa poprawnie? Test powinien sprawdzić ile razy system próbuje ponownie. Czy implementuje exponential backoff? Czy eventually gives up?
+Postman collections dla sekwencyjnych wywołań to game changer. Tworzysz chain request'ów odzwierciedlający user journey. Jeden request loguje użytkownika. Następny dodaje produkt do koszyka. Kolejny finalizuje zamówienie.
 
-Circuit breaker pattern chroni przed cascade failures. Gdy payment service nie odpowiada, system powinien szybko zwrócić error zamiast czekać na timeout. To lepsze user experience niż długie loading.
+Variables w Postman pozwalają przekazywać dane między request'ami. Token z logowania trafia do kolejnych wywołań automatycznie.
 
-Fallback strategies ratują sytuację. Primary payment provider down? Przełącz na backup. Email service unavailable? Pokaż potwierdzenie na stronie i wyślij email później. Test powinien weryfikować te alternate paths.
+REST Assured integruje się pięknie z pipeline'em CI/CD. Workflow testy API odpalają się przed deployment. Sprawdzają czy nowa wersja nie psuje krytycznych procesów.
 
-Graceful degradation oznacza, że core functionality działa nawet gdy auxiliary services failują. Rekomendacje produktów nie działają? Pokaż popular items. Personalization down? Use defaults. System should degrade gracefully, not crash completely.
+Contract testing z Pact to następny level. Definiujesz kontrakt między frontend i backend. Testy sprawdzają czy obie strony trzymają się umowy. Zmiany breaking contract są wyłapywane od razu.
 
-Human-readable error messages to podstawa. "Error 500" nic nie mówi użytkownikowi. "Payment temporary unavailable, please try again in a few minutes" już tak. Test powinien sprawdzać quality komunikatów błędów w każdym kroku workflow.
+### Monitoring i observability
+
+Workflow test bez monitoringu to lot w ciemno. Application Performance Monitoring tools jak New Relic czy DataDog pokazują bottlenecki w czasie rzeczywistym.
+
+Custom dashboards dla workflow metrics są must-have. Widzisz pass rate dla każdego procesu. Response times poszczególnych kroków. Error rates w krytycznych punktach.
+
+Log aggregation tools jak ELK Stack korelują logi z różnych systemów. Gdy workflow test failuje, widzisz całą historię. Co działo się w bazie danych. Jakie błędy rzucało API. Gdzie nastąpił timeout.
+
+To forensic toolkit dla workflow debugging.
+
+### Test data management tools
+
+Synthetic data generation rozwiązuje problem prywatności. Zamiast kopiować dane z produkcji, generujesz realistyczne dataset'y. Faker.js tworzy użytkowników, produkty, zamówienia. Wyglądają prawdziwie, ale nie zawierają wrażliwych informacji.
+
+Database state management to sztuka sama w sobie. Każdy test potrzebuje clean slate. Narzędzia jak Flyway czy Liquibase zarządzają schematami. Docker containers dają izolowane środowiska.
+
+Environment provisioning automation oszczędza godziny manual setup. Terraform spinuje infrastrukturę. Ansible konfiguruje aplikacje. Jeden command i masz gotowe środowisko testowe.
