@@ -47,10 +47,14 @@ def execute_cta(
 
     # Prepare business metadata context
     business_context = ""
+    investment_range = ""
+    timeframe = ""
     if article.business_metadata:
         business_context = f"""Investment: {article.business_metadata.investment_level} ({article.business_metadata.investment_range})
 Timeline: {article.business_metadata.timeline_estimate}
 Team: {article.business_metadata.team_size}"""
+        investment_range = article.business_metadata.investment_range
+        timeframe = article.business_metadata.timeline_estimate
 
     # Extract series and silo from article path
     # Path structure: artykuly/[series]/[silo]/[slug]/
@@ -72,6 +76,8 @@ Team: {article.business_metadata.team_size}"""
             'SILOS': silo,
             'CHECKLIST_NAME': checklist_name,
             'RELATED_ARTICLES': '',  # Placeholder - will be populated by internal linking step
+            'INVESTMENT_RANGE': investment_range,
+            'TIMEFRAME': timeframe,
         }
     )
 
