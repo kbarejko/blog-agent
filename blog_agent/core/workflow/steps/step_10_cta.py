@@ -49,12 +49,23 @@ def execute_cta(
     business_context = ""
     investment_range = ""
     timeframe = ""
+    optional_warning = ""
+    optional_note = ""
+
     if article.business_metadata:
         business_context = f"""Investment: {article.business_metadata.investment_level} ({article.business_metadata.investment_range})
 Timeline: {article.business_metadata.timeline_estimate}
 Team: {article.business_metadata.team_size}"""
         investment_range = article.business_metadata.investment_range
         timeframe = article.business_metadata.timeline_estimate
+
+        # Generate optional warning for high complexity
+        if article.business_metadata.complexity_technical == "high" or article.business_metadata.investment_level == "high":
+            optional_warning = f"⚠️ **Ważne:** {article.config.title} to złożone wdrożenie wymagające doświadczonego zespołu. Zalecamy konsultację z ekspertem przed podjęciem decyzji."
+
+        # Generate optional note for high organizational complexity
+        if article.business_metadata.complexity_organizational == "high":
+            optional_note = f"💡 **Wskazówka:** Sukces wdrożenia to w 70% change management, a w 30% technologia. Zadbaj o komunikację i szkolenia od pierwszego dnia."
 
     # Extract series and silo from article path
     # Path structure: artykuly/[series]/[silo]/[slug]/
@@ -64,6 +75,9 @@ Team: {article.business_metadata.team_size}"""
 
     # Generate checklist name from article title
     checklist_name = f"{article.config.title} - Checklist"
+
+    # Topic is the article title
+    topic = article.config.title
 
     # Load and render prompt
     prompt = prompts.load_and_render(
@@ -78,6 +92,9 @@ Team: {article.business_metadata.team_size}"""
             'RELATED_ARTICLES': '',  # Placeholder - will be populated by internal linking step
             'INVESTMENT_RANGE': investment_range,
             'TIMEFRAME': timeframe,
+            'TOPIC': topic,
+            'OPTIONAL_WARNING': optional_warning,
+            'OPTIONAL_NOTE': optional_note,
         }
     )
 
