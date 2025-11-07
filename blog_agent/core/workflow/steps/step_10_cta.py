@@ -58,6 +58,9 @@ Team: {article.business_metadata.team_size}"""
     series = path_parts[1] if len(path_parts) > 1 else "unknown"
     silo = path_parts[2] if len(path_parts) > 2 else "unknown"
 
+    # Generate checklist name from article title
+    checklist_name = f"{article.config.title} - Checklist"
+
     # Load and render prompt
     prompt = prompts.load_and_render(
         "articles/prompt_cta_next_steps.md",
@@ -67,6 +70,8 @@ Team: {article.business_metadata.team_size}"""
             'BUSINESS_METADATA': business_context,
             'SERIA': series,
             'SILOS': silo,
+            'CHECKLIST_NAME': checklist_name,
+            'RELATED_ARTICLES': '',  # Placeholder - will be populated by internal linking step
         }
     )
 

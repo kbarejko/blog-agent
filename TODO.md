@@ -11,7 +11,7 @@
 - [x] Update documentation (README, ARCHITECTURE, SESSION_NOTES)
 
 ## Next Steps (Testing & Validation)
-- [ ] Fix CTA step CHECKLIST_NAME variable
+- [x] Fix CTA step CHECKLIST_NAME variable (added CHECKLIST_NAME and RELATED_ARTICLES)
 - [ ] Test remaining steps: CTA, publish, schema, categories
 - [ ] Validate complete 14-step workflow
 - [ ] Test error resilience (workflow should continue on non-critical errors)
@@ -67,6 +67,8 @@
 - Multimedia JSON parsing implementation (graceful fallback)
 - Documentation updates (README, ARCHITECTURE, SESSION_NOTES)
 - Steps 1-9 validated through end-to-end testing
+- Model configuration moved to per-article config.yaml
+- CTA step variable fix (CHECKLIST_NAME, RELATED_ARTICLES)
 
 ---
 
