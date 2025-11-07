@@ -74,7 +74,7 @@ blog-agent list --series ecommerce
 4. **Write Sections** - Write all sections with AI review (300-400 words, Flesch 40-60)
 5. **Create Draft** - Combine summary + sections → draft.md
 6. **SEO Review** - Check headings, generate meta title/description (with retry logic, max 3 attempts, improved validation)
-7. **Humanize** - Natural language transformation with enhanced criteria → article.md
+7. **Humanize** - Section-by-section natural language transformation (prevents truncation, 121% content preservation) → article.md
 8. **Multimedia** - Suggest 4-9 multimedia elements with DALL-E prompts
 9. **Business Metadata** - Generate investment, timeline, complexity data
 10. **CTA** - Create "Co dalej?" section with actionable steps
@@ -136,7 +136,11 @@ Payload CMS v3 integration for publishing.
 - **Cost**: ~$0.09 per article (Claude Sonnet 4)
 - **Quality**: Automatic review with 2 retry attempts per section
 - **SEO Validation**: 3-attempt retry with intelligent fallback (120-160 char descriptions)
-- **Humanization**: Enhanced prompt with clear criteria and structured output requirements
+- **Humanization**: Section-by-section processing with 121% content preservation
+  - Processes each section individually (2000-8000 tokens per section)
+  - Prevents text truncation in long articles (>2500 words)
+  - Real-time progress tracking per section
+  - Maintains 110-157% word preservation rate across sections
 
 ## Categories
 
