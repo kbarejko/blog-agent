@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Complete Workflow Test",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Complete Workflow Test",
+    "prompt": "Professional modern illustration for Complete Workflow Test",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
