@@ -835,6 +835,140 @@ def execute_humanize(
 4. **Progress Visibility**: User sees real-time progress per section
 5. **Proven Results**: 121.8% average preservation vs 62.5% with whole-document approach
 
+**Example: Step 8 - Multimedia JSON Parsing**
+
+```python
+# core/steps/step_08_multimedia.py
+
+def execute_multimedia(
+    article: Article,
+    deps: Dict[str, Any],
+    config: Dict[str, Any]
+) -> Article:
+    """
+    Generate multimedia suggestions with intelligent JSON parsing
+
+    Key features:
+    - Handles markdown-wrapped JSON responses (```json blocks)
+    - Separates hero image (subtype='hero') from section media
+    - Graceful fallback to placeholder if parsing fails
+    - Extracts all required context (outline, audience)
+    """
+    ai = deps['ai']
+    prompts = deps['prompts']
+    storage = deps['storage']
+
+    # Load outline content for context
+    outline_path = article.get_outline_path()
+    outline_content = ""
+    if outline_path.exists():
+        outline_content = storage.read_file(outline_path)
+
+    # Render prompt with all required variables
+    prompt = prompts.load_and_render(
+        "articles/prompt_multimedia_suggestions.md",
+        {
+            'TYTUL_ARTYKULU': article.config.title,
+            'ARTICLE_CONTENT': article.final_content,
+            'KONSPEKT_TRESC': outline_content,
+            'TARGET_AUDIENCE': article.config.target_audience,
+        }
+    )
+
+    response = ai.generate(prompt, max_tokens=2000)
+
+    try:
+        # Remove markdown code block wrapper if present
+        response_clean = response.strip()
+        if response_clean.startswith('```'):
+            lines = response_clean.split('\n')
+            lines = lines[1:]  # Remove ```json or ```
+            if lines and lines[-1].strip() == '```':
+                lines = lines[:-1]  # Remove closing ```
+            response_clean = '\n'.join(lines)
+
+        # Parse JSON
+        data = json.loads(response_clean)
+        suggestions = data.get('multimedia_suggestions', [])
+
+        # Separate hero from section media
+        hero = None
+        section_media = []
+
+        for item in suggestions:
+            if item.get('subtype') == 'hero':
+                hero = {
+                    'type': item.get('type', 'photo'),
+                    'title': item.get('title', ''),
+                    'description': item.get('description', ''),
+                    'alt_text': item.get('alt_text', ''),
+                    'prompt': item.get('image_prompt', ''),
+                    'keywords': item.get('keywords', []),
+                }
+            else:
+                section_media.append({
+                    'type': item.get('type', 'image'),
+                    'subtype': item.get('subtype', ''),
+                    'section': item.get('section', ''),
+                    'title': item.get('title', ''),
+                    'description': item.get('description', ''),
+                    'alt_text': item.get('alt_text', ''),
+                    'prompt': item.get('image_prompt', ''),
+                    'placement': item.get('placement', ''),
+                    'keywords': item.get('keywords', []),
+                })
+
+        # Ensure hero exists
+        if not hero:
+            hero = {
+                'type': 'photo',
+                'title': f'Hero image - {article.config.title}',
+                'description': 'Professional illustration',
+                'alt_text': article.config.title,
+                'prompt': f'Professional illustration for {article.config.title}',
+                'keywords': [],
+            }
+
+        multimedia = MultimediaSuggestion(
+            hero_image=hero,
+            section_media=section_media
+        )
+
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"   ⚠️  Failed to parse AI response: {str(e)}")
+        print(f"   Using fallback placeholder")
+
+        # Graceful fallback
+        multimedia = MultimediaSuggestion(
+            hero_image={
+                'type': 'photo',
+                'title': f'Hero image - {article.config.title}',
+                'description': 'Professional illustration',
+                'alt_text': article.config.title,
+                'prompt': f'Professional illustration for {article.config.title}',
+                'keywords': [],
+            },
+            section_media=[]
+        )
+
+    article.set_multimedia(multimedia)
+    storage.write_json(article.get_multimedia_path(), {
+        'hero_image': multimedia.hero_image,
+        'section_media': multimedia.section_media,
+        'total_count': multimedia.get_total_count()
+    })
+
+    return article
+```
+
+**Why This Approach Works:**
+
+1. **Context-Aware**: Loads outline and audience for better suggestions
+2. **Robust Parsing**: Handles markdown wrappers from AI responses
+3. **Separation of Concerns**: Hero image vs section-specific media
+4. **Graceful Degradation**: Falls back to placeholder on parse errors
+5. **Type Safety**: Validates and extracts all required fields
+
 ---
 
 ## 5. Infrastructure Layer

@@ -262,9 +262,10 @@ The system is fully designed and documented. Requirements + Architecture complet
 
 **What was accomplished:**
 - 🧪 End-to-end workflow testing (2 complete test runs)
-- 🐛 Identified and fixed 3 critical bugs
+- 🐛 Identified and fixed 5 critical bugs
 - 📝 Section-by-section humanization implementation
 - 📊 Validated 121.8% content preservation (vs 62.5% before)
+- 🎨 Multimedia JSON parsing implementation
 - 📚 Complete documentation updates
 
 **Changes Made:**
@@ -284,9 +285,20 @@ The system is fully designed and documented. Requirements + Architecture complet
    - Real-time progress tracking per section
    - Test results: 2497 words → 3440 words (121.8% preserved)
 
-4. **Documentation updates** (commit: pending)
-   - README.md: Added section-by-section humanization details
-   - ARCHITECTURE.md: Added implementation example with test results
+4. **Fix business metadata step** (commit: 320a2d1)
+   - Added missing `KONSPEKT_TRESC` variable
+   - Extract `SERIA` and `SILOS` from article path structure
+   - Load outline content for context
+
+5. **Implement multimedia JSON parsing** (commit: ff884ac)
+   - Replace hardcoded placeholder with actual parsing
+   - Handle markdown-wrapped JSON responses (```json blocks)
+   - Separate hero image (subtype='hero') from section media
+   - Graceful fallback to placeholder if parsing fails
+
+6. **Documentation updates** (commits: dabc4d1, current)
+   - README.md: Added section-by-section humanization + multimedia parsing details
+   - ARCHITECTURE.md: Added Step 7 and Step 8 implementation examples
    - SESSION_NOTES.md: This session summary
 
 **Test Results:**
@@ -306,9 +318,11 @@ Draft: 2497 words → Article: 3440 words (121.8%)
 ```
 
 **Issues Found (not yet fixed):**
-- Business metadata step: Missing `SILOS` variable
+- ~~Business metadata step: Missing `SILOS` variable~~ ✅ FIXED
+- ~~Multimedia step: Using placeholder instead of parsing~~ ✅ FIXED
 - Workflow stops on first error (should be resilient)
 - Python output buffering prevents real-time logs
+- Remaining steps need testing: CTA, publish, schema, categories
 
 **Performance:**
 - Test 1: ~12 minutes (with errors)
@@ -316,12 +330,14 @@ Draft: 2497 words → Article: 3440 words (121.8%)
 - Expected: 6-7 minutes for complete workflow
 
 **Architecture Validated:**
-- ✅ 13-step workflow working (steps 1-8 tested)
+- ✅ 14-step workflow working (steps 1-9 tested)
 - ✅ CLI interface functional
 - ✅ Domain model (Article, Value Objects)
 - ✅ Dependency injection working
 - ✅ SEO review with retry logic
 - ✅ Section-by-section humanization
+- ✅ Multimedia JSON parsing with error handling
+- ✅ Business metadata with path extraction
 
 **Token usage:** Session consumed ~100k tokens (testing + fixes + documentation)
 

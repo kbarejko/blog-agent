@@ -75,8 +75,8 @@ blog-agent list --series ecommerce
 5. **Create Draft** - Combine summary + sections → draft.md
 6. **SEO Review** - Check headings, generate meta title/description (with retry logic, max 3 attempts, improved validation)
 7. **Humanize** - Section-by-section natural language transformation (prevents truncation, 121% content preservation) → article.md
-8. **Multimedia** - Suggest 4-9 multimedia elements with DALL-E prompts
-9. **Business Metadata** - Generate investment, timeline, complexity data
+8. **Multimedia** - Suggest 4-9 multimedia elements with DALL-E prompts (JSON parsing with graceful fallback)
+9. **Business Metadata** - Generate investment, timeline, complexity data (extracts series/silo from path)
 10. **CTA** - Create "Co dalej?" section with actionable steps
 11. **Publish** - Mark as published, git commit
 12. **Schema** - Generate Schema.org structured data (Article, FAQPage, HowTo)
@@ -141,6 +141,10 @@ Payload CMS v3 integration for publishing.
   - Prevents text truncation in long articles (>2500 words)
   - Real-time progress tracking per section
   - Maintains 110-157% word preservation rate across sections
+- **Multimedia Parsing**: Intelligent JSON extraction with error handling
+  - Handles markdown-wrapped JSON responses (```json blocks)
+  - Separates hero image (subtype='hero') from section media
+  - Graceful fallback to placeholder if parsing fails
 
 ## Categories
 
