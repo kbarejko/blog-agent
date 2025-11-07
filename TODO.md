@@ -11,14 +11,27 @@
 - [x] Update documentation (README, ARCHITECTURE, SESSION_NOTES)
 
 ## Next Steps (Testing & Validation)
-- [ ] Run end-to-end test #3 (validate all 5 fixes)
+- [ ] Fix CTA step CHECKLIST_NAME variable
 - [ ] Test remaining steps: CTA, publish, schema, categories
 - [ ] Validate complete 14-step workflow
 - [ ] Test error resilience (workflow should continue on non-critical errors)
 - [ ] Fix Python output buffering for real-time logs
 - [ ] Performance benchmarking (target: 6-7 minutes per article)
 
-## Future Enhancements
+## Future Enhancements - Multi-Model Support
+- [ ] Add OpenAI provider support (gpt-4, gpt-4-turbo, gpt-3.5-turbo)
+  - Implement OpenAI provider class
+  - Add to ProviderRegistry
+  - Test with article generation
+- [ ] Add Ollama local model support (llama2, mistral, etc.)
+  - Implement Ollama provider class
+  - Add to ProviderRegistry
+  - Test with article generation
+- [ ] Model selection per article (already implemented in config)
+  - Document model options in README
+  - Add CLI option for model selection
+
+## Future Enhancements - Other
 - [ ] Add internal linking step (automatic article cross-references)
 - [ ] Improve error handling and rollback mechanism
 - [ ] Add resume capability (restart from failed step)
