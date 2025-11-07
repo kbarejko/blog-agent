@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Testy workflow wykrywają 40% więcej błędów** - kompleksowe testowanie ścieżek użytkownika znajduje defekty, które umykają testom jednostkowym i integracyjnym
-- **Cypress, Selenium czy Playwright** - praktyczne porównanie narzędzi z kryteriami wyboru stack'u technologicznego dla Twojego projektu
-- **5-10 minut to maksimum** - dłuższe testy workflow stają się problemem w maintenance, dowiesz się jak dzielić długie scenariusze na logiczne segmenty
-- **Checklist 10 kroków implementacji** - gotowy plan działania od identyfikacji krytycznych ścieżek po integrację z CI/CD pipeline
-- **FAQ z 7 najczęstszymi problemami** - praktyczne odpowiedzi na pytania o flaky testy, ROI i przekonanie zespołu do workflow testing
+- **70% krytycznych bugów to problemy integracyjne** - większość awarii produkcyjnych pochodzi z interakcji między komponentami, nie z pojedynczych funkcji
+- **Selenium vs Playwright vs Cypress** - praktyczne porównanie narzędzi do workflow testów z konkretnymi przypadkami użycia i ograniczeniami
+- **5-15 minut to optymalny czas testu** - dłuższe workflow testy spowalniają feedback loop, krótsze nie pokrywają wystarczającego zakresu funkcjonalności
+- **Parallel execution i smart ordering** - sprawdzone techniki optymalizacji które skracają czas wykonywania testów workflow o 60-80%
+- **Checklist 12 kroków** - gotowa lista kontrolna do wdrożenia Complete Workflow Test w Twoim projekcie, od planowania po maintenance

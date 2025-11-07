@@ -1,25 +1,25 @@
-## Planowanie i projektowanie testów workflow
+## Czym jest Complete Workflow Test i kiedy go stosować?
 
-### Identyfikacja krytycznych ścieżek użytkownika
+Complete Workflow Test to metodyka testowania, która weryfikuje pełne ścieżki biznesowe w aplikacji – od momentu gdy użytkownik rozpoczyna działanie do jego zakończenia. Różni się fundamentalnie od tradycyjnych testów funkcjonalnych.
 
-Skuteczny workflow test zaczyna się od zrozumienia, które ścieżki użytkownika są naprawdę krytyczne dla biznesu. Nie każda funkcjonalność wymaga testowania end-to-end.
+Test funkcjonalny sprawdza, czy przycisk "Dodaj do koszyka" działa. Workflow test sprawdza, czy użytkownik może przejść przez cały proces: przeglądanie produktów, dodanie do koszyka, logowanie, wybór płatności, finalizację zamówienia i otrzymanie potwierdzenia. To różnica między sprawdzeniem pojedynczego koła a testem jazdy całym samochodem.
 
-Analiza procesów biznesowych to pierwszy krok. Siedź z Product Ownerem i przejdź przez aplikację jego oczami. Które funkcje generują przychód? Które procesy, gdyby przestały działać, sparaliżowałyby biznes?
+### Mapowanie prawdziwych ścieżek użytkownika
 
-W aplikacji bankowej priorytetem będą przelewy i płatności. W e-commerce - ścieżka zakupowa od wyszukiwania do finalizacji zamówienia. W systemie HR - proces rekrutacji od publikacji ogłoszenia do podpisania umowy.
+W e-commerce typowy workflow to: przeglądanie → dodanie do koszyka → checkout → płatność → potwierdzenie. W aplikacji bankowej: logowanie → wybór operacji → autoryzacja → wykonanie transakcji → potwierdzenie w email. W SaaS: rejestracja → onboarding → pierwsze użycie → upgrade planu.
 
-Współpraca z analitykami biznesowymi otwiera dodatkową perspektywę. Oni widzą dane - które procesy mają najwyższy drop-off rate, gdzie użytkownicy najczęściej rezygnują. Te miejsca to naturalni kandydaci na workflow testy.
+Każda domena ma swoje krytyczne przepływy. W fintech najważniejsze mogą być transfery pieniędzy i weryfikacja tożsamości. W platformie edukacyjnej – proces od zakupu kursu po dostęp do materiałów. Kluczowe jest zidentyfikowanie tych ścieżek, które bezpośrednio wpływają na business value.
 
-Mapowanie user journey wymaga precyzji. Zacznij od entry point - czy to landing page, ekran logowania, czy deeplink z emaila. Przejdź przez każdy krok, notując nie tylko happy path, ale także alternatywne ścieżki.
+### Kiedy workflow testing staje się niezbędny
 
-Przykład z systemu rezerwacji hotelowych: główna ścieżka to wyszukanie → wybór hotelu → rezerwacja → płatność. Ale użytkownik może też porównywać oferty, zmieniać daty, anulować rezerwację. Każda z tych ścieżek może zasługiwać na osobny workflow test.
+Każdy major release powinien przechodzić przez workflow testing. To moment, gdy wszystkie zmiany spotykają się w jednym miejscu. Nowa funkcja płatności może działać w izolacji, ale czy nie zepsuje procesu checkout?
 
-### Definiowanie scope'u i granic testów
+Zmiany architektoniczne to drugi krytyczny moment. Migracja z monolitu na mikroservisy może wpłynąć na komunikację między komponentami. Integracje z zewnętrznymi API wprowadzają nową warstwę niepewności – ich dostępność i performance nie są pod naszą kontrolą.
 
-Największym wyzwaniem w projektowaniu workflow testów jest znalezienie balansu. Za mało - i przegapisz krytyczne błędy. Za dużo - i utoniesz w maintenance hell.
+Aktualizacje baz danych zasługują na szczególną uwagę. Zmiana struktury tabeli może wpłynąć na przepływy używające tych danych. Workflow test wykryje takie problemy, zanim dotkną użytkowników.
 
-Dobra zasada: jeden workflow test powinien weryfikować jeden kompletny proces biznesowy. Jeśli twój test sprawdza zarówno rejestrację użytkownika, jak i składanie zamówienia, prawdopodobnie jest za szeroki.
+### Pułapki w podejściu do workflow
 
-Ustal jasne kryteria sukcesu dla każdej ścieżki. W teście e-commerce sukcesem nie jest tylko dotarcie do strony "dziękujemy za zamówienie". To także otrzymanie emaila z potwierdzeniem, pojawienie się zamówienia w panelu użytkownika i aktualizacja stanu magazynowego.
+Największy błąd? Testowanie tylko "happy path". Użytkownicy nie zawsze zachowują się przewidywalnie. Mogą wrócić do poprzedniego kroku, odświeżyć stronę w połowie procesu lub spróbować obejść niektóre etapy.
 
-Określ także, czego nie testujesz w workflow. Jeśli masz osobne testy API dla walidacji danych, nie duplikuj ich w teście workflow. Skupiaj się na przepływie, nie na szczegółach implementacji.
+Edge cases w workflow są równie ważne jak główne ścieżki. Co gdy użytkownik próbuje płacić kartą, która ma niewystarczające środki? Czy system gracefully wraca do wyboru płatności? Takie scenariusze często decydują o user experience.
