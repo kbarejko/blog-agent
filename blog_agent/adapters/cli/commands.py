@@ -131,7 +131,7 @@ def create(config_path: str, provider: str, skip: tuple, only: tuple):
 
 
 @cli.command()
-@click.option('--path', 'article_path', required=True, type=click.Path(exists=True), help='Path to article directory')
+@click.option('--path', 'article_path', required=True, help='Path to article directory')
 def status(article_path: str):
     """
     Show article status
@@ -142,6 +142,10 @@ def status(article_path: str):
         blog-agent status --path artykuly/ecommerce/operacje/bezpieczenstwo-rodo/
     """
     article_path = Path(article_path)
+
+    if not article_path.exists():
+        click.echo(f"❌ Article directory not found: {article_path}")
+        sys.exit(1)
 
     # Load config
     config_path = article_path / "config.yaml"
@@ -154,7 +158,7 @@ def status(article_path: str):
 
     # Check what exists
     has_outline = article.get_outline_path().exists()
-    has_sections = len(list(article.get_sections_dir().glob("*.md"))) > 0
+    has_sections = len([p for p in article.get_sections_dir().glob("*.md")]) > 0
     has_draft = article.get_draft_path().exists()
     has_article = article.get_article_path().exists()
     has_categories = article.get_categories_path().exists()

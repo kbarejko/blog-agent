@@ -40,12 +40,20 @@ def execute_multimedia(
 
     print("🔄 Generating multimedia suggestions...")
 
+    # Load outline content
+    outline_path = article.get_outline_path()
+    outline_content = ""
+    if outline_path.exists():
+        outline_content = storage.read_file(outline_path)
+
     # Load and render prompt
     prompt = prompts.load_and_render(
         "articles/prompt_multimedia_suggestions.md",
         {
             'TYTUL_ARTYKULU': article.config.title,
             'ARTICLE_CONTENT': article.final_content,
+            'KONSPEKT_TRESC': outline_content,
+            'TARGET_AUDIENCE': article.config.target_audience,
         }
     )
 
