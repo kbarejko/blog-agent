@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **70% krytycznych bugów to problemy integracyjne** - większość awarii produkcyjnych pochodzi z interakcji między komponentami, nie z pojedynczych funkcji
 - **Selenium vs Playwright vs Cypress** - praktyczne porównanie narzędzi do workflow testów z konkretnymi przypadkami użycia i ograniczeniami
@@ -7,7 +7,7 @@
 - **Checklist 12 kroków** - gotowa lista kontrolna do wdrożenia Complete Workflow Test w Twoim projekcie, od planowania po maintenance
 
 
-# Complete Workflow Test
+## Complete Workflow Test
 
 Wyobraź sobie sytuację: wszystkie unit testy przechodzą, integration testy są zielone, a mimo to użytkownicy nie mogą dokończyć zakupu w e-commerce. Problem? Płatność działa, koszyk też, ale komunikacja między nimi zawodzi w rzeczywistym scenariuszu. To klasyczny przykład, dlaczego 70% krytycznych bugów to problemy integracyjne wykryte dopiero przez klientów.
 
@@ -225,18 +225,4 @@ Timeout scenarios ujawniają prawdę o aplikacji. Payment gateway nie odpowiada 
 
 Server error 500 podczas kroku 3 z 7-krokarowego workflow to koszmarz. Użytkownik już zainwestował czas, może wprowadził dane karty. Co teraz?
 
-Test powinien sprawdzić recovery path. Czy dane zostały zapisane? Czy po powrocie użytkownik może kontynuować od tego miejsca? Czy musi zaczynać od nowa? Te detale decydują o user experience.
-
-Database connection issues zdarzają się częściej niż chcielibyśmy. W środku transakcji połączenie się zrywa. Proper error handling oznacza rollback zmian i jasny komunikat. Poor handling to corrupted data i confused users.
-
-### Resilience mechanisms w praktyce
-
-Retry logic to standard w modern applications. Ale czy działa poprawnie? Test powinien sprawdzić ile razy system próbuje ponownie. Czy implementuje exponential backoff? Czy eventually gives up?
-
-Circuit breaker pattern chroni przed cascade failures. Gdy payment service nie odpowiada, system powinien szybko zwrócić error zamiast czekać na timeout. To lepsze user experience niż długie loading.
-
-Fallback strategies ratują sytuację. Primary payment provider down? Przełącz na backup. Email service unavailable? Pokaż potwierdzenie na stronie i wyślij email później. Test powinien weryfikować te alternate paths.
-
-Graceful degradation oznacza, że core functionality działa nawet gdy auxiliary services failują. Rekomendacje produktów nie działają? Pokaż popular items. Personalization down? Use defaults. System should degrade gracefully, not crash completely.
-
-Human-readable error messages to podstawa. "Error 500" nic nie mówi użytkownikowi. "Payment temporary unavailable, please try again in a few minutes" już tak. Test powinien sprawdzać quality komunikatów błędów w każdym kroku workflow.
+Test powinien sprawdzić recovery path. Czy dane zostały zapisane? Czy po powrocie użytkownik może kontynuować od tego miejsca? Czy musi zaczyn
