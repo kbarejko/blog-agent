@@ -41,12 +41,27 @@ def execute_business_metadata(
 
     print("🔄 Generating business metadata...")
 
+    # Load outline content
+    outline_path = article.get_outline_path()
+    outline_content = ""
+    if outline_path.exists():
+        outline_content = storage.read_file(outline_path)
+
+    # Extract series and silo from article path
+    # Path structure: artykuly/[series]/[silo]/[slug]/
+    path_parts = article.path.parts
+    series = path_parts[1] if len(path_parts) > 1 else "unknown"
+    silo = path_parts[2] if len(path_parts) > 2 else "unknown"
+
     # Load and render prompt
     prompt = prompts.load_and_render(
         "metadata/prompt_business_metadata.md",
         {
             'TYTUL_ARTYKULU': article.config.title,
             'ARTICLE_CONTENT': article.final_content,
+            'KONSPEKT_TRESC': outline_content,
+            'SERIA': series,
+            'SILOS': silo,
         }
     )
 
