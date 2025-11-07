@@ -60,16 +60,95 @@ def execute_multimedia(
     # Generate suggestions
     response = ai.generate(prompt, max_tokens=2000)
 
-    # Parse multimedia suggestions (would need proper JSON parsing)
-    # For now, create placeholder
-    multimedia = MultimediaSuggestion(
-        hero_image={
-            'type': 'photo',
-            'description': 'Hero image',
-            'prompt': 'Professional business setting'
-        },
-        section_media=[]
-    )
+    # Parse multimedia suggestions from JSON response
+    try:
+        # Extract JSON from response (may have markdown or text wrapper)
+        response_clean = response.strip()
+
+        # Remove markdown code blocks if present
+        if response_clean.startswith('```'):
+            lines = response_clean.split('\n')
+            # Remove first line (```json or ```)
+            lines = lines[1:]
+            # Remove last line if it's ```
+            if lines and lines[-1].strip() == '```':
+                lines = lines[:-1]
+            response_clean = '\n'.join(lines)
+
+        # Parse JSON
+        data = json.loads(response_clean)
+
+        # Extract multimedia_suggestions array
+        suggestions = data.get('multimedia_suggestions', [])
+
+        if not suggestions:
+            print("   ⚠️  No suggestions in AI response, using fallback")
+            raise ValueError("Empty suggestions")
+
+        # Find hero image (subtype='hero')
+        hero = None
+        section_media = []
+
+        for item in suggestions:
+            if item.get('subtype') == 'hero':
+                hero = {
+                    'type': item.get('type', 'photo'),
+                    'title': item.get('title', ''),
+                    'description': item.get('description', ''),
+                    'alt_text': item.get('alt_text', ''),
+                    'prompt': item.get('image_prompt', ''),
+                    'keywords': item.get('keywords', []),
+                }
+            else:
+                section_media.append({
+                    'type': item.get('type', 'image'),
+                    'subtype': item.get('subtype', ''),
+                    'section': item.get('section', ''),
+                    'title': item.get('title', ''),
+                    'description': item.get('description', ''),
+                    'alt_text': item.get('alt_text', ''),
+                    'prompt': item.get('image_prompt', ''),
+                    'placement': item.get('placement', ''),
+                    'keywords': item.get('keywords', []),
+                })
+
+        # Fallback hero if not found
+        if not hero:
+            print("   ⚠️  No hero image found, creating fallback")
+            hero = {
+                'type': 'photo',
+                'title': f'Hero image - {article.config.title}',
+                'description': 'Professional illustration related to article topic',
+                'alt_text': article.config.title,
+                'prompt': f'Professional illustration for article about {article.config.title}',
+                'keywords': [],
+            }
+
+        multimedia = MultimediaSuggestion(
+            hero_image=hero,
+            section_media=section_media
+        )
+
+        print(f"   ✓ Parsed {len(suggestions)} multimedia suggestions")
+        print(f"   - Hero image: {hero.get('title', 'Untitled')}")
+        print(f"   - Section media: {len(section_media)} items")
+
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"   ⚠️  Failed to parse AI response: {str(e)}")
+        print(f"   Using fallback placeholder")
+
+        # Fallback to placeholder
+        multimedia = MultimediaSuggestion(
+            hero_image={
+                'type': 'photo',
+                'title': f'Hero image - {article.config.title}',
+                'description': 'Professional illustration related to article topic',
+                'alt_text': article.config.title,
+                'prompt': f'Professional modern illustration for {article.config.title}',
+                'keywords': [],
+            },
+            section_media=[]
+        )
 
     article.set_multimedia(multimedia)
 
