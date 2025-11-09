@@ -44,15 +44,42 @@ def execute_schema(
     include_faq = article.outline and article.outline.has_faq
     include_howto = article.outline and article.outline.has_checklist
 
+    # Extract series and silo from article path
+    path_parts = article.path.parts
+    series = path_parts[1] if len(path_parts) > 1 else "unknown"
+    silo = path_parts[2] if len(path_parts) > 2 else "unknown"
+
+    # Get word count from final content
+    word_count = len(article.final_content.split())
+
     # Load and render prompt
     prompt = prompts.load_and_render(
         "metadata/prompt_schema_markup.md",
         {
             'TYTUL_ARTYKULU': article.config.title,
+            'ARTICLE_TITLE': article.config.title,
+            'META_TITLE': article.config.title,  # Could be enhanced with SEO data
             'ARTICLE_CONTENT': article.final_content,
             'META_DESCRIPTION': article.config.meta_description or '',
             'INCLUDE_FAQ': 'TAK' if include_faq else 'NIE',
             'INCLUDE_HOWTO': 'TAK' if include_howto else 'NIE',
+            'ARTICLE_URL': '{{ARTICLE_URL}}',  # Placeholder - will be filled later
+            'PUBLISH_DATE': '{{PUBLISH_DATE}}',  # Placeholder
+            'MODIFIED_DATE': '{{MODIFIED_DATE}}',  # Placeholder
+            'IMAGES': '',  # Placeholder
+            'HERO_IMAGE_URL': '{{HERO_IMAGE_URL}}',  # Placeholder
+            'FAQ_CONTENT': '',
+            'CHECKLIST_CONTENT': '',
+            'CHECKLIST_TITLE': '',
+            'CHECKLIST_DESCRIPTION': '',
+            'BUSINESS_METADATA': '',
+            'SERIA': series,
+            'SERIA_NAME': series,
+            'SILOS': silo,
+            'SILOS_NAME': silo,
+            'WORD_COUNT': str(word_count),
+            'ESTIMATED_TIME': '',  # Empty for now
+            'ESTIMATED_COST': '',  # Empty for now
         }
     )
 

@@ -116,7 +116,7 @@ Team: {article.business_metadata.team_size}"""
     )
 
     # Generate CTA
-    response = ai.generate(prompt, max_tokens=1000)
+    response = ai.generate(prompt, max_tokens=3000)
 
     # Determine variant (simplified - AI should specify in response)
     variant = 'practical'  # Default
