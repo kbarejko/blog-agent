@@ -1,0 +1,9 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "description": "Hero image",
+    "prompt": "Professional business setting"
+  },
+  "section_media": [],
+  "total_count": 1
+}

@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Complete workflow test to więcej niż E2E** - testuje kompletne procesy biznesowe przez wiele komponentów, nie tylko pojedyncze funkcjonalności od UI do bazy
 - **Selenium, Playwright czy Cypress** - konkretne kryteria wyboru narzędzia w zależności od typu aplikacji i wymagań infrastruktury
@@ -98,7 +98,7 @@ Masz plan, wiesz co testować. Teraz potrzebujesz miejsca, gdzie te testy będą
 
 Największy błąd? Założenie, że wystarczy sklonować prod i gotowe. W produkcji dane się zmieniają. Użytkownicy zachowują się nieprzewidywalnie. Systemy zewnętrzne czasem nie odpowiadają. W testach potrzebujesz kontroli nad każdym z tych elementów.
 
-### Wymagania infrastrukturalne
+#### Wymagania infrastrukturalne
 
 Workflow testy są żarłoczne. Potrzebują więcej mocy obliczeniowej niż testy jednostkowe, ale inaczej niż myślisz.
 
@@ -108,7 +108,7 @@ Izolacja to klucz. Jeden test nie może wpływać na drugi. Oznacza to osobne ba
 
 Rozważ konteneryzację. Docker pozwala szybko stawiać i burzyć środowiska. Kubernetes daje kontrolę nad zasobami. To inwestycja, która zwraca się przy pierwszym większym refactoringu testów.
 
-### Konfiguracja danych testowych
+#### Konfiguracja danych testowych
 
 Tu większość projektów popełnia kardynalny błąd. Używają tych samych danych do wszystkich testów.
 
@@ -118,7 +118,7 @@ Najlepsza strategia to generowanie świeżych danych na początku każdego testu
 
 Jeśli generowanie trwa za długo, przygotuj zestawy seedów. Osobne dla każdego scenariusza. Pamiętaj o cleanup - dane po skończonym teście powinny zniknąć bez śladu.
 
-### Zarządzanie zależnościami zewnętrznymi
+#### Zarządzanie zależnościami zewnętrznymi
 
 Płatności, powiadomienia email, API pogodowe - workflow testy uwielbiają systemy zewnętrzne. Te systemy nie zawsze odwzajemniają tę miłość.
 
@@ -166,7 +166,7 @@ Dane to fundament każdego workflow testu. Bez poprawnych danych nawet najlepiej
 
 Typowy błąd? Używanie tych samych danych do wszystkich testów. Jeden test modyfikuje użytkownika, drugi próbuje go utworzyć ponownie - i masz konflikt. Albo gorszy scenariusz: dane "przypadkowo" znikają z bazy i połowa testów pada.
 
-### Strategie generowania danych testowych
+#### Strategie generowania danych testowych
 
 Świeże dane na początku każdego testu to złoty standard. Tak, trwa to dłużej. Ale eliminuje 90% problemów z niestabilnymi testami.
 
@@ -174,7 +174,7 @@ Factory pattern sprawdzi się idealnie. Tworzysz UserFactory, ProductFactory, Or
 
 Dla złożonych scenariuszy przydają się scenariusze danych. Test procesu zwrotu potrzebuje: użytkownika z historią zamówień, produktu z polityką zwrotów i aktywnej metody płatności. Jeden zestaw danych, jedno wywołanie setup.
 
-### Cleanup i izolacja
+#### Cleanup i izolacja
 
 Każdy test powinien zostawić środowisko w stanie początkowym. To znaczy usunąć wszystkie dane, które utworzył. Transaction rollback działa dla baz danych. Ale workflow testy często modyfikują pliki, cache, systemy zewnętrzne.
 
@@ -254,7 +254,7 @@ Data isolation brzmi prosto w teorii. W praktyce workflow test e-commerce potrze
 
 Najgorszy pomysł to shared test data. "Mamy 10 użytkowników testowych i każdy test bierze pierwszego wolnego." Problem w tym, że workflow testy modyfikują dane. Dodają produkty do koszyka, zmieniają adresy, aktualizują preferencje. Po godzinie twoje "czyste" dane testowe wyglądają jak po przejściu tornada.
 
-### Strategie izolacji danych
+#### Strategie izolacji danych
 
 Database snapshots działają świetnie dla małych projektów. Każdy test przywraca bazę do znanego stanu. Szybko, pewnie, ale nie skaluje się powyżej 20 testów. Restore 2GB bazy danych przed każdym testem? Możesz sobie zrobić kawę. I drugie śniadanie.
 
@@ -274,26 +274,4 @@ Centralized locators pomagają, ale nie wystarczą. Potrzebujesz abstrakcji wyż
 
 Wiedza o tym, jak pisać workflow testy to jedno. Umiejętność pisania testów, które działają szybko i niezawodnie przez lata to zupełnie inna liga.
 
-Większość zespołów popełnia ten sam błąd. Skupia się na tym, żeby testy przeszły, ale ignoruje to, jak będą działać za pół roku. Rezultat? Suite, który zaczął jako 10 elegankckich testów, po roku to 200 skryptów działających 6 godzin i padających z powodu każdej drobnej zmiany w UI.
-
-### Optymalizacja wydajności
-
-Równoległe uruchamianie brzmi jak oczywista optymalizacja. W praktyce to mina-pułapka. Trzy testy próbujące jednocześnie zarejestrować użytkownika o tym samym emailu to recepta na chaos.
-
-Smart grouping rozwiązuje problem elegancko. Grupujesz testy według zasobów, których używają. Wszystkie testy płatności w jednej grupie, testy user management w drugiej. Grupy działają równolegle, testy w grupie sekwencyjnie.
-
-Test sharding idzie o krok dalej. Dzielisz testy na podstawie ich charakterystyki: szybkie vs wolne, stable vs flaky, critical vs nice-to-have. Krytyczne testy uruchamiasz przy każdym pushu. Wolne overnight. Flaky w weekendy z dodatkowym retry logic.
-
-Resource pooling oszczędza czas setup. Zamiast stawiać świeże środowisko dla każdego testu, utrzymujesz pulę gotowych instancji. Test bierze czystą instancję, używa jej i zwraca do puli. Czas inicjalizacji spada z minut do sekund.
-
-### Monitoring i observability
-
-Najgorsze co może się stać z workflow testem to sytuacja, gdy pada, ale nikt nie wie dlaczego. "Wczoraj działało" to nie jest debugging strategy.
-
-Metrics collection na każdym kroku workflow daje ci pełen obraz. Response times, memory usage, database queries, API calls. Gdy test zaczyna padać, widzisz dokładnie gdzie system zwalnia.
-
-Trend analysis pokazuje problemy zanim staną się krytyczne. Test trwa coraz dłużej? Prawdopodobnie performance regression. Success rate spada stopniowo? Flaky test wymaga attention.
-
-Alert thresholds powinny być inteligentne. Jeden failed test to nie problem. Dziesięć testów padających na tym samym kroku to sygnał, że coś się zmieniło w aplikacji. Smart alerting redukuje notification fatigue o 80%.
-
----
+Większość zespołów popełnia ten sam błąd. Skupia się na tym, ż

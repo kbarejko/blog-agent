@@ -83,6 +83,7 @@ Team: {article.business_metadata.team_size}"""
     prompt = prompts.load_and_render(
         "articles/prompt_cta_next_steps.md",
         {
+            # INPUT variables (provided by system)
             'TYTUL_ARTYKULU': article.config.title,
             'ARTICLE_CONTENT': article.final_content,
             'BUSINESS_METADATA': business_context,
@@ -95,6 +96,22 @@ Team: {article.business_metadata.team_size}"""
             'TOPIC': topic,
             'OPTIONAL_WARNING': optional_warning,
             'OPTIONAL_NOTE': optional_note,
+
+            # OUTPUT variables (placeholders for AI to fill in response)
+            'AUDIT_LINK': '{{LINK}}',
+            'AUDIT_PRICE': '{{PRICE}}',
+            'AUDIT_TOOL_LINK': '{{LINK}}',
+            'AUDIT_TOOL_NAME': '',
+            'CHECKLIST_LINK': '{{LINK}}',
+            'CONSULTATION_LINK': '{{LINK}}',
+            'IMPLEMENTATION_LINK': '{{LINK}}',
+            'LINK': '{{LINK}}',
+            'NEWSLETTER_LINK': '{{LINK}}',
+            'RECOMMENDATION': '',
+            'RELATED_ARTICLES_LIST': '',
+            'RFP_TEMPLATE_LINK': '{{LINK}}',
+            'SURVEY_LINK': '{{LINK}}',
+            'WEBINAR_LINK': '{{LINK}}',
         }
     )
 

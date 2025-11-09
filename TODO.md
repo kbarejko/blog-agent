@@ -12,7 +12,9 @@
 
 ## Next Steps (Testing & Validation)
 - [x] Fix CTA step CHECKLIST_NAME variable (added CHECKLIST_NAME and RELATED_ARTICLES)
-- [ ] Test remaining steps: CTA, publish, schema, categories
+- [x] Fix CTA step additional variables (INVESTMENT_RANGE, TIMEFRAME)
+- [ ] Test CTA step with all fixes (in progress)
+- [ ] Test remaining steps: publish, schema, categories
 - [ ] Validate complete 14-step workflow
 - [ ] Test error resilience (workflow should continue on non-critical errors)
 - [ ] Fix Python output buffering for real-time logs
@@ -68,7 +70,7 @@
 - Documentation updates (README, ARCHITECTURE, SESSION_NOTES)
 - Steps 1-9 validated through end-to-end testing
 - Model configuration moved to per-article config.yaml
-- CTA step variable fix (CHECKLIST_NAME, RELATED_ARTICLES)
+- CTA step variable fixes (CHECKLIST_NAME, RELATED_ARTICLES, INVESTMENT_RANGE, TIMEFRAME)
 
 ---
 

@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Haiku Model Test",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Haiku Model Test",
+    "prompt": "Professional modern illustration for Haiku Model Test",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
