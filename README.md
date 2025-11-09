@@ -77,9 +77,9 @@ blog-agent list --series ecommerce
 7. **Humanize** - Section-by-section natural language transformation (prevents truncation, 121% content preservation) → article.md
 8. **Multimedia** - Suggest 4-9 multimedia elements with DALL-E prompts (JSON parsing with graceful fallback)
 9. **Business Metadata** - Generate investment, timeline, complexity data (extracts series/silo from path)
-10. **CTA** - Create "Co dalej?" section with actionable steps
+10. **CTA** - Create "Co dalej?" section with actionable steps (all template variables, 3000 max_tokens)
 11. **Publish** - Mark as published, git commit
-12. **Schema** - Generate Schema.org structured data (Article, FAQPage, HowTo)
+12. **Schema** - Generate Schema.org structured data with 22 template variables (Article, FAQPage, HowTo)
 13. **Categories** - AI selects 1-5 categories from 146 available
 
 ## Article Structure
@@ -201,13 +201,42 @@ Format: `[series/silo/slug] Action`
 
 ## Testing
 
+### Full Workflow Test
+
 ```bash
-# Run with example article
+# Initialize test article
 blog-agent init --series test --silo example --slug test-article \
   --title "Test Article" --audience "Developers"
 
+# Run complete workflow
 blog-agent create --config artykuly/test/example/test-article/config.yaml
 ```
+
+### Individual Step Testing
+
+```bash
+# Test CTA step (step 10)
+python test_cta.py
+
+# Test Schema step (step 12)
+python test_schema.py
+
+# Test steps 11-13 (publish, schema, categories)
+python test_remaining_steps.py
+```
+
+### Validation Status
+
+- ✅ **Steps 1-9**: Validated (outline, summary, sections, draft, SEO, humanize, multimedia, business metadata)
+- ✅ **Step 10 (CTA)**: Validated with all template variables
+- ✅ **Step 11 (Publish)**: Validated
+- ✅ **Step 12 (Schema)**: Validated with 22 template variables
+- ✅ **Step 13 (Categories)**: Validated
+- ⏳ **E2E Workflow**: Pending complete 1-13 test
+
+### Known Issues
+
+- CLI `--only` option requires debugging (not critical - use test scripts as workaround)
 
 ## Documentation
 

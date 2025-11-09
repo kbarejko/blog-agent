@@ -343,6 +343,86 @@ Draft: 2497 words → Article: 3440 words (121.8%)
 
 ---
 
+## Session: 2025-11-09
+
+### Context
+Continuation of workflow validation and bug fixes for steps 10-13.
+
+### Tasks Completed
+
+**1. Step 10 (CTA) Testing & Fixes**
+- Created `test_cta.py` script for isolated testing
+- Fixed missing template variables in `step_10_cta.py`:
+  - Added TOPIC, OPTIONAL_WARNING, OPTIONAL_NOTE
+  - Added CHECKLIST_NAME, INVESTMENT_RANGE, TIMEFRAME
+  - All variables extracted from article metadata and business_metadata
+- Increased `max_tokens` from 1000 to 3000 (prevented AI response truncation)
+- Validated CTA section generation - working correctly
+- Output: Complete "Co dalej?" section with quick wins, full implementation, and resources
+
+**2. Step 11 (Publish) Testing**
+- Created `test_remaining_steps.py` for steps 11-13
+- Validated publish functionality:
+  - Article validation before publish
+  - Review generation (word count, Flesch score)
+  - Status update to "published"
+  - Git commit creation
+- Status: ✅ Working correctly
+
+**3. Step 12 (Schema) Testing & Fixes**
+- Fixed missing template variables in `step_12_schema.py`:
+  - Added 22 missing variables: ARTICLE_URL, PUBLISH_DATE, MODIFIED_DATE, IMAGES
+  - Added META_TITLE, HERO_IMAGE_URL, FAQ_CONTENT, CHECKLIST_CONTENT
+  - Added SERIA, SILOS, WORD_COUNT, ESTIMATED_TIME, ESTIMATED_COST
+  - Extracted series/silo from article path
+  - Calculated word count from final_content
+- Created `test_schema.py` for isolated testing
+- Validated Schema.org markup generation
+- Output: `schema.json` with Article type structured data
+- Status: ✅ Working correctly
+
+**4. Step 13 (Categories) Testing**
+- Validated category assignment functionality:
+  - AI analyzes article content
+  - Selects 1-5 best matching categories from categories.yaml
+  - Validates selections through category_matcher
+  - Creates categories.yaml with category details
+  - Creates git commit
+- Output: `categories.yaml` with 5 categories assigned
+- Status: ✅ Working correctly
+
+### Test Scripts Created
+- `test_cta.py` - Isolated test for CTA step
+- `test_schema.py` - Isolated test for Schema step
+- `test_remaining_steps.py` - Batch test for steps 11-13
+
+### Files Modified
+- `blog_agent/core/workflow/steps/step_10_cta.py` - Added template variables, increased max_tokens
+- `blog_agent/core/workflow/steps/step_12_schema.py` - Added all 22 missing template variables
+- `TODO.md` - Updated with completed tasks
+
+### Known Issues
+- CLI `--only` option not working (Click parsing issue) - not critical, can use test scripts
+
+### Validation Status
+- ✅ Steps 1-9: Previously validated
+- ✅ Step 10 (CTA): Fully validated with all template variables
+- ✅ Step 11 (Publish): Validated
+- ✅ Step 12 (Schema): Validated with all variables
+- ✅ Step 13 (Categories): Validated
+- ⏳ Complete 14-step workflow E2E: Pending
+
+### Next Steps
+1. Update documentation (README, ARCHITECTURE)
+2. Create git commits for all changes
+3. Run complete end-to-end test (steps 1-13)
+4. Performance benchmarking
+5. Test error resilience
+
+**Token usage:** Session consumed ~80k tokens (testing + fixes + documentation)
+
+---
+
 ## Instructions for Next Session
 1. Read this file first to understand previous context
 2. Check TODO.md for pending tasks

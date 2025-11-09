@@ -13,9 +13,13 @@
 ## Next Steps (Testing & Validation)
 - [x] Fix CTA step CHECKLIST_NAME variable (added CHECKLIST_NAME and RELATED_ARTICLES)
 - [x] Fix CTA step additional variables (INVESTMENT_RANGE, TIMEFRAME)
-- [ ] Test CTA step with all fixes (in progress)
-- [ ] Test remaining steps: publish, schema, categories
-- [ ] Validate complete 14-step workflow
+- [x] Add final missing template variables to CTA step (TOPIC, OPTIONAL_WARNING, OPTIONAL_NOTE)
+- [x] Fix CTA step max_tokens (increased from 1000 to 3000)
+- [x] Test CTA step with all fixes (COMPLETED - all variables working correctly)
+- [x] Fix schema step missing variables (added all 22 template variables)
+- [x] Test remaining steps: publish, schema, categories (ALL PASSED)
+- [ ] Fix CLI --only option (Click parsing issue - not critical)
+- [ ] Validate complete 14-step workflow end-to-end
 - [ ] Test error resilience (workflow should continue on non-critical errors)
 - [ ] Fix Python output buffering for real-time logs
 - [ ] Performance benchmarking (target: 6-7 minutes per article)
@@ -70,7 +74,17 @@
 - Documentation updates (README, ARCHITECTURE, SESSION_NOTES)
 - Steps 1-9 validated through end-to-end testing
 - Model configuration moved to per-article config.yaml
-- CTA step variable fixes (CHECKLIST_NAME, RELATED_ARTICLES, INVESTMENT_RANGE, TIMEFRAME)
+- **Step 10 (CTA) complete fix:**
+  - Added all template variables: TOPIC, OPTIONAL_WARNING, OPTIONAL_NOTE, CHECKLIST_NAME, RELATED_ARTICLES, INVESTMENT_RANGE, TIMEFRAME
+  - Increased max_tokens from 1000 to 3000 (prevents AI response truncation)
+  - Validated through isolated testing (test_cta.py)
+- **Step 12 (Schema) complete fix:**
+  - Added all 22 missing template variables (ARTICLE_URL, PUBLISH_DATE, MODIFIED_DATE, IMAGES, etc.)
+  - Validated through isolated testing (test_schema.py)
+- **Steps 11-13 validated:**
+  - Step 11: Publish (marks article as published, creates git commit)
+  - Step 12: Schema (generates schema.json with Schema.org markup)
+  - Step 13: Categories (AI selects 1-5 categories, creates categories.yaml)
 
 ---
 
