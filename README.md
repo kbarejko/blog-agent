@@ -4,7 +4,8 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 14-step workflow from outline to publication
+- **Automated Article Generation**: 13-step workflow from outline to publication
+- **Multi-Model Support**: Claude (Anthropic), Ollama (local models), OpenAI (planned)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
 - **Git Versioning**: Commits at key milestones
 - **Hierarchical Categories**: 146 categories from YAML
@@ -12,6 +13,7 @@ AI-powered blog article generation system for Digital Vantage.
 - **SEO Optimization**: Meta tags, heading structure, Schema.org markup
 - **CTA Generation**: Contextual "Co dalej?" sections
 - **Multimedia Suggestions**: AI-generated image prompts
+- **Local Models**: Ollama support for offline generation (llama3, mistral, codellama)
 
 ## Architecture
 
@@ -50,7 +52,12 @@ blog-agent init \
 ### Generate Article
 
 ```bash
+# Using default provider (Claude)
 blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/config.yaml
+
+# Using specific provider
+blog-agent create --config path/to/config.yaml --provider claude
+blog-agent create --config path/to/config.yaml --provider ollama
 ```
 
 ### Check Status
@@ -112,19 +119,39 @@ artykuly/
 
 ### workflow.yaml
 
-Defines 14-step workflow with module paths and descriptions.
+Defines 13-step workflow with module paths and descriptions.
 
 ### providers.yaml
 
-Configure AI providers (Claude, OpenAI).
+Configure AI providers (Claude, Ollama, OpenAI).
 
 ```yaml
 providers:
+  # Cloud API (Claude)
   claude:
     api_key: ${ANTHROPIC_API_KEY}
     model: claude-sonnet-4-20250514
     max_tokens: 4000
+    temperature: 1.0
+
+  # Local models (Ollama)
+  ollama:
+    model: llama3:latest
+    host: http://192.168.0.136:11434
+    max_tokens: 4000
+    temperature: 0.7
 ```
+
+### Ollama Setup
+
+For local model generation with Ollama, see [OLLAMA_SETUP.md](OLLAMA_SETUP.md) for WSL configuration.
+
+Available Ollama models:
+- `llama3:latest` (4.7 GB) - Meta Llama 3
+- `mistral:latest` (4.1 GB) - Mistral 7B
+- `codellama:13b` (7.4 GB) - Code Llama 13B
+- `phi3:mini` (2.2 GB) - Microsoft Phi-3 (fastest)
+- And more (see `ollama list`)
 
 ### payload.yaml (Optional)
 
@@ -132,19 +159,26 @@ Payload CMS v3 integration for publishing.
 
 ## Performance
 
-- **Time**: ~6-7 minutes per article (5 sections, 3000 words)
-- **Cost**: ~$0.09 per article (Claude Sonnet 4)
+- **Time**: ~6-7 minutes per article (Claude Sonnet 4), ~15 minutes (Haiku)
+- **Cost**:
+  - Claude Sonnet 4: ~$0.09 per article
+  - Claude Haiku: ~$0.02 per article
+  - Ollama (local): Free (uses local compute)
 - **Quality**: Automatic review with 2 retry attempts per section
 - **SEO Validation**: 3-attempt retry with intelligent fallback (120-160 char descriptions)
-- **Humanization**: Section-by-section processing with 121% content preservation
+- **Humanization**: Section-by-section processing with 121-134% content preservation
   - Processes each section individually (2000-8000 tokens per section)
   - Prevents text truncation in long articles (>2500 words)
   - Real-time progress tracking per section
-  - Maintains 110-157% word preservation rate across sections
+  - Maintains 110-182% word preservation rate across sections
 - **Multimedia Parsing**: Intelligent JSON extraction with error handling
   - Handles markdown-wrapped JSON responses (```json blocks)
   - Separates hero image (subtype='hero') from section media
   - Graceful fallback to placeholder if parsing fails
+- **Multi-Model Support**:
+  - Claude: Best quality, faster generation
+  - Ollama: Free, offline, good for testing
+  - Note: Local models may produce different output formats
 
 ## Categories
 
@@ -189,6 +223,11 @@ blog_agent/
 3. Register in `ProviderRegistry`
 4. Add config to `providers.yaml`
 
+Example providers:
+- `claude_provider.py` - Anthropic Claude API
+- `ollama_provider.py` - Local Ollama models
+- `openai_provider.py` - OpenAI API (stub)
+
 ## Git Commits
 
 Automatic commits at 4 key milestones:
@@ -223,6 +262,9 @@ python test_schema.py
 
 # Test steps 11-13 (publish, schema, categories)
 python test_remaining_steps.py
+
+# Test Ollama integration
+python test_ollama.py
 ```
 
 ### Validation Status
@@ -232,7 +274,14 @@ python test_remaining_steps.py
 - ✅ **Step 11 (Publish)**: Validated
 - ✅ **Step 12 (Schema)**: Validated with 22 template variables
 - ✅ **Step 13 (Categories)**: Validated
-- ⏳ **E2E Workflow**: Pending complete 1-13 test
+- ✅ **E2E Workflow**: Complete 1-13 workflow validated
+  - Tested with claude-3-haiku-20240307 (cheap model)
+  - Generated article: 4410 words, Flesch 39.1, 3 categories
+  - All 13 steps completed successfully (~15 minutes)
+- ✅ **Ollama Integration**: Tested with llama3:latest
+  - Provider connection working
+  - Text generation working
+  - Note: Output format may differ from Claude
 
 ### Known Issues
 
