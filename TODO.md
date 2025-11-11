@@ -19,7 +19,10 @@
 - [x] Fix schema step missing variables (added all 22 template variables)
 - [x] Test remaining steps: publish, schema, categories (ALL PASSED)
 - [x] Validate complete 13-step workflow end-to-end (Haiku test passed)
-- [ ] Fix CLI --only option (Click parsing issue - not critical)
+- [x] Fix CLI --only and --skip options (Click parsing issue)
+  - ✅ Changed from multiple=True to comma-separated format
+  - ✅ Works: --only outline,summary or --skip init,outline
+  - ✅ Updated help with examples
 - [ ] Test error resilience (workflow should continue on non-critical errors)
 - [ ] Fix Python output buffering for real-time logs
 - [ ] Performance benchmarking (target: 6-7 minutes per article)
@@ -147,6 +150,13 @@
   - Created test_internal_linking.py for validation
   - Updated README.md and TODO.md documentation
   - Fixed bug: was searching parent.parent (series) instead of parent (silo)
+- **CLI --only and --skip options fixed:**
+  - Changed from multiple=True to comma-separated format
+  - Before: --only step1 --only step2 (not working)
+  - After: --only step1,step2 (works!)
+  - Same for --skip option
+  - Updated help text with clear examples
+  - Tested with single and multiple steps
 
 ---
 
