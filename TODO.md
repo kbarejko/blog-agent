@@ -46,7 +46,13 @@
   - ✅ 4 providers, 15+ models available
 
 ## Future Enhancements - Other
-- [ ] Add internal linking step (automatic article cross-references)
+- [x] Add internal linking step (automatic article cross-references)
+  - ✅ Implemented step_14_internal_linking.py
+  - ✅ Finds related articles in same silo
+  - ✅ AI suggests 3-5 contextual links with anchor text
+  - ✅ Graceful handling when no good links exist
+  - ✅ Added to workflow.yaml as step 14
+  - ✅ Test script created (test_internal_linking.py)
 - [ ] Improve error handling and rollback mechanism
 - [ ] Add resume capability (restart from failed step)
 - [ ] Add batch processing mode
@@ -130,6 +136,17 @@
   - Cost range: Free (Ollama) to $0.30/article (GPT-4)
   - Best value: Gemini 1.5 Flash ($0.01/article)
   - Best quality: Claude Sonnet 4 ($0.09/article)
+- **Internal Linking (Step 14):**
+  - Implemented step_14_internal_linking.py
+  - Automatically finds related articles in same silo
+  - Uses AI to suggest 3-5 contextual internal links
+  - AI selects anchor text from existing article content
+  - Validates anchor text exists before insertion
+  - Graceful handling when articles aren't thematically related
+  - Added to workflow.yaml as step 14
+  - Created test_internal_linking.py for validation
+  - Updated README.md and TODO.md documentation
+  - Fixed bug: was searching parent.parent (series) instead of parent (silo)
 
 ---
 

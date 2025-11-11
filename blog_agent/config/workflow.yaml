@@ -67,6 +67,11 @@ steps:
     description: "Assign categories from categories.yaml"
     enabled: true
 
+  - name: internal_linking
+    module: blog_agent.core.workflow.steps.step_14_internal_linking
+    description: "Add internal links to related articles in the same silo"
+    enabled: true
+
 # Metadata
 metadata:
   version: "1.0"

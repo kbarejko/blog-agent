@@ -4,7 +4,7 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 13-step workflow from outline to publication
+- **Automated Article Generation**: 14-step workflow from outline to publication
 - **Multi-Model Support**: Claude, OpenAI (GPT-4), Google Gemini, Ollama (local)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
 - **Git Versioning**: Commits at key milestones
@@ -13,6 +13,7 @@ AI-powered blog article generation system for Digital Vantage.
 - **SEO Optimization**: Meta tags, heading structure, Schema.org markup
 - **CTA Generation**: Contextual "Co dalej?" sections
 - **Multimedia Suggestions**: AI-generated image prompts
+- **Internal Linking**: Automatic cross-references between related articles in silos
 - **Local Models**: Ollama support for offline generation (llama3, mistral, codellama)
 - **Multiple Providers**: 4 AI providers with 15+ model options
 
@@ -91,6 +92,7 @@ blog-agent list --series ecommerce
 11. **Publish** - Mark as published, git commit
 12. **Schema** - Generate Schema.org structured data with 22 template variables (Article, FAQPage, HowTo)
 13. **Categories** - AI selects 1-5 categories from 146 available
+14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
 
 ## Article Structure
 
@@ -298,6 +300,9 @@ python test_schema.py
 # Test steps 11-13 (publish, schema, categories)
 python test_remaining_steps.py
 
+# Test Internal Linking step (step 14)
+python test_internal_linking.py
+
 # Test Ollama integration
 python test_ollama.py
 
@@ -315,10 +320,15 @@ python test_gemini.py
 - ✅ **Step 11 (Publish)**: Validated
 - ✅ **Step 12 (Schema)**: Validated with 22 template variables
 - ✅ **Step 13 (Categories)**: Validated
-- ✅ **E2E Workflow**: Complete 1-13 workflow validated
+- ✅ **Step 14 (Internal Linking)**: Validated
+  - Finds related articles in same silo
+  - Uses AI to suggest anchor text from existing content
+  - Gracefully handles cases where no good links exist
+  - Works best with thematically related articles
+- ✅ **E2E Workflow**: Complete 1-14 workflow validated
   - Tested with claude-3-haiku-20240307 (cheap model)
   - Generated article: 4410 words, Flesch 39.1, 3 categories
-  - All 13 steps completed successfully (~15 minutes)
+  - All 14 steps completed successfully (~15 minutes)
 - ✅ **Ollama Integration**: Tested with llama3:latest
   - Provider connection working
   - Text generation working
