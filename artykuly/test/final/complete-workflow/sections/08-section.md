@@ -1,23 +1,41 @@
-### Zarządzanie złożonymi danymi testowymi
+## Narzędzia i technologie
 
-Prawdziwy koszmar workflow testów zaczyna się, gdy masz 50 testów używających tego samego użytkownika "testuser123". Dziś rano wszystko działało. Po obiedzie połowa testów pada, bo ktoś zmienił hasło w innym teście.
+### Porównanie popularnych frameworków
 
-Data isolation brzmi prosto w teorii. W praktyce workflow test e-commerce potrzebuje: użytkownika z adresem i kartą, produktów w magazynie, aktywnych promocji, skonfigurowanych metod dostawy i działających integracji z systemem płatności. To nie są pojedyncze rekordy - to całe ekosystemy danych.
+Selenium to weteran rynku. Ma lata doświadczenia. Wspiera wszystkie przeglądarki. Społeczność oferuje gotowe rozwiązania niemal każdego problemu. 
 
-Najgorszy pomysł to shared test data. "Mamy 10 użytkowników testowych i każdy test bierze pierwszego wolnego." Problem w tym, że workflow testy modyfikują dane. Dodają produkty do koszyka, zmieniają adresy, aktualizują preferencje. Po godzinie twoje "czyste" dane testowe wyglądają jak po przejściu tornada.
+Ale czy to nadal najlepszy wybór? Selenium ma swoje wady. Konfiguracja bywa skomplikowana. Testy działają wolno. Debugowanie frustruje.
 
-### Strategie izolacji danych
+Cypress zmienił podejście do testowania. Działa szybciej niż Selenium. Interface jest przyjazny. Real-time reload podczas pisania testów. Screenshoty automatyczne przy błędach.
 
-Database snapshots działają świetnie dla małych projektów. Każdy test przywraca bazę do znanego stanu. Szybko, pewnie, ale nie skaluje się powyżej 20 testów. Restore 2GB bazy danych przed każdym testem? Możesz sobie zrobić kawę. I drugie śniadanie.
+Ma jednak ograniczenia. Tylko Chrome i Firefox. Brak wsparcia dla Safari. Multi-tab testing? Zapomnij.
 
-Data factories z unikalными identyfikatorami to lepsze rozwiązanie. Każdy test generuje swoje dane z timestampem i random stringiem. UserFactory.create() nie tworzy "john.doe@test.com", ale "john.doe.20241201.x7k9m@test.com". Kolizje praktycznie niemożliwe.
+Playwright to najnowszy gracz. Microsoft stworzył narzędzie, które łączy zalety poprzedników. Szybkość Cypress. Wsparcie dla przeglądarek jak Selenium. Plus dodatkowe bonusy.
 
-Tenant separation sprawdzi się w systemach multi-tenant. Każdy test dostaje własną przestrzeń - organizację, account, workspace. Może sobie robić co chce, nie wpływa na inne testy. Po zakończeniu cała przestrzeń leci do kosza.
+Auto-wait dla elementów. Network interception out-of-the-box. Mobile testing bez dodatkowych konfiguracji. Test isolation na poziomie kontekstów przeglądarki.
 
-### Maintenance i skalowanie
+### API workflow testing
 
-Kod workflow testów starzeje się szybciej niż wino. Po trzech miesiącach okazuje się, że aplikacja zmieniła UI, dodała nowe kroki w procesie i przemodelowała API. Połowa testów nie przechodzi, ale nikt nie wie czy to bug czy przestarzały test.
+Postman z Newman to klasyczna para do testowania API. Postman do tworzenia kolekcji. Newman do uruchamiania w CI/CD.
 
-Version coupling to główny zabójca maintenance. Test sprawdza konkretny tekst na przycisku, określoną kolejność kroków, dokładne timing animacji. Każda drobna zmiana UI rozbija dziesiątki testów. Lepiej testować intencje, nie implementację.
+Proste w użyciu. Product managerowie mogą tworzyć podstawowe testy. Developerzy rozwijają zaawansowane scenariusze. Automatyzacja przez jedną komendę.
 
-Centralized locators pomagają, ale nie wystarczą. Potrzebujesz abstrakcji wyższego poziomu - business actions zamiast UI interactions. Zamiast "kliknij przycisk o ID submit-payment" masz "complete payment process". Jeden business action może ukrywać 10 kroków UI i automatycznie adaptować się do zmian.
+REST Assured dla zespołów Java. Fluent API przypomina naturalny język. Walidacja JSON przez JsonPath. Integration z TestNG i JUnit.
+
+### Wsparcie infrastrukturalne
+
+Docker revolutionized test environments. Container z aplikacją. Container z bazą danych. Container z mock services. Jeden docker-compose file uruchamia cały ecosystem.
+
+Kubernetes dla większych środowisk. Namespace per team. Auto-scaling pod wysokim obciążeniem. Service mesh dla complex integrations.
+
+GitHub Actions, GitLab CI, Jenkins - każde narzędzie CI/CD wspiera workflow testing. Key to proper configuration. Parallel execution. Smart caching. Fail-fast strategies.
+
+Cloud testing platforms jak BrowserStack czy Sauce Labs oferują browser farms. Testing na różnych devices bez local setup. Mobile testing bez physical phones.
+
+Test data management tools jak DbUnit czy Testcontainers handle database setup. Fresh data per test. Rollback po execution. Consistent state między runs.
+
+### Wybór dopasowany do zespołu
+
+Najlepsze narzędzie to które zespół používá effectively. TypeScript team? Playwright natural choice. Java backend? REST Assured fits perfectly. 
+
+Mixed skillset? Postman enables collaboration między technical i non-technical members. Everyone can contribute to test scenarios.

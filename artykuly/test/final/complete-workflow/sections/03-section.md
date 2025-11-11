@@ -1,37 +1,36 @@
-### Przygotowanie środowiska testowego
+## Projektowanie strategii Complete Workflow Test
 
-Masz plan, wiesz co testować. Teraz potrzebujesz miejsca, gdzie te testy będą działać niezawodnie. Tu zaczyna się prawdziwa zabawa.
+### Analiza wymagań biznesowych
 
-Środowisko testowe to nie kopia produkcji. To specjalnie zaprojektowana przestrzeń, która musi spełniać inne wymagania. Produkcja optymalizuje wydajność. Środowisko testowe optymalizuje przewidywalność.
+Każda skuteczna strategia workflow testingu zaczyna się od rozmowy z biznesem. To nie programiści czy testerzy decydują, które przepływy są krytyczne. Decydują o tym użytkownicy i ich potrzeby.
 
-Największy błąd? Założenie, że wystarczy sklonować prod i gotowe. W produkcji dane się zmieniają. Użytkownicy zachowują się nieprzewidywalnie. Systemy zewnętrzne czasem nie odpowiadają. W testach potrzebujesz kontroli nad każdym z tych elementów.
+Wyobraź sobie aplikację bankową. Dla zespołu technicznego najważniejsze mogą być testy wydajności API. Dla biznesu priorytetem będzie sprawdzenie, czy klient może szybko przelać pieniądze rodzinie. To różnica perspektyw, która decyduje o sukcesie testowania.
 
-### Wymagania infrastrukturalne
+### Identyfikacja krytycznych ścieżek użytkownika
 
-Workflow testy są żarłoczne. Potrzebują więcej mocy obliczeniowej niż testy jednostkowe, ale inaczej niż myślisz.
+Nie wszystkie przepływy są równie ważne. Zasada 80/20 działa też w testowaniu. Większość użytkowników korzysta z kilku podstawowych funkcji. Te właśnie ścieżki zasługują na najlepsze workflow testy.
 
-Ważniejsza od surowej wydajności jest stabilność. Lepiej wolniejszy serwer, który zawsze odpowiada w tym samym czasie, niż szybki ale nieprzewidywalny.
+Jak je znaleźć? Analityka aplikacji to złoto. Dane pokazują, którymi ścieżkami użytkownicy poruszają się najczęściej. Gdzie spędzają czas? Gdzie porzucają proces? Te informacje budują mapę priorytetów testowych.
 
-Izolacja to klucz. Jeden test nie może wpływać na drugi. Oznacza to osobne bazy danych, oddzielne przestrzenie na plikach, niezależne instancje usług.
+### Współpraca z zespołami produktowymi
 
-Rozważ konteneryzację. Docker pozwala szybko stawiać i burzyć środowiska. Kubernetes daje kontrolę nad zasobami. To inwestycja, która zwraca się przy pierwszym większym refactoringu testów.
+Produktowcy znają użytkowników. Wiedzą, które funkcje przynoszą największą wartość biznesową. Ich perspektywa pomaga testerom zrozumieć kontekst każdego workflow.
 
-### Konfiguracja danych testowych
+Ta współpraca ma praktyczny wymiar. Produktowcy pomagają testerom zdefiniować kryteria sukcesu. Kiedy workflow można uznać za działający? Kiedy wystąpi problem wymagający natychmiastowej reakcji?
 
-Tu większość projektów popełnia kardynalny błąd. Używają tych samych danych do wszystkich testów.
+### Priorytetyzacja scenariuszy testowych
 
-Workflow test dla procesu zakupowego potrzebuje: użytkownika z kontem, produktów w magazynie, działającej metody płatności, aktualnej tabeli cen i poprawnie skonfigurowanej dostawy. Jeden niepoprawny rekord i test pada.
+Nie da się przetestować wszystkiego. Budżet czasu i zasobów jest ograniczony. Dlatego priorytetyzacja to klucz do sukcesu. Wysoką pozycję na liście zajmują procesy, które:
 
-Najlepsza strategia to generowanie świeżych danych na początku każdego testu. Tak, to trwa dłużej. Ale eliminuje 90% problemów z niestabilnymi testami.
+- Generują największy ruch użytkowników
+- Mają bezpośredni wpływ na przychody
+- Są najbardziej skomplikowane technicznie
+- Zmieniają się najczęściej
 
-Jeśli generowanie trwa za długo, przygotuj zestawy seedów. Osobne dla każdego scenariusza. Pamiętaj o cleanup - dane po skończonym teście powinny zniknąć bez śladu.
+### Mapowanie business value
 
-### Zarządzanie zależnościami zewnętrznymi
+Każdy workflow test powinien mieć jasno określoną wartość biznesową. To nie tylko „sprawdzenie, czy działa". To odpowiedź na pytanie: jak ten test chroni firmę przed stratami?
 
-Płatności, powiadomienia email, API pogodowe - workflow testy uwielbiają systemy zewnętrzne. Te systemy nie zawsze odwzajemniają tę miłość.
+Test procesu płatności chroni przed utratą sprzedaży. Test rejestracji użytkownika zapobiega spadkowi konwersji. Workflow logowania gwarantuje dostępność usługi dla istniejących klientów.
 
-Mock to oczywiste rozwiązanie, ale nie jedyne. Czasem potrzebujesz prawdziwej integracji żeby złapać edge case'y. Wtedy przydają się sandboxi i środowiska developerskie zewnętrznych dostawców.
-
-Service virtualization pozwala symulować różne odpowiedzi systemów zewnętrznych. Możesz testować scenariusze, które w prawdziwym świecie zdarzają się raz na miesiąc.
-
-Najgorsze co możesz zrobić to uzależnić testy od produkcyjnych API. Testy mają być przewidywalne, nie losowe.
+Ta mapa wartości pomaga uzasadnić inwestycję w testowanie. Pokazuje, dlaczego workflow testy to nie koszt, lecz inwestycja w stabilność biznesu.
