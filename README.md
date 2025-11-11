@@ -5,7 +5,7 @@ AI-powered blog article generation system for Digital Vantage.
 ## Features
 
 - **Automated Article Generation**: 13-step workflow from outline to publication
-- **Multi-Model Support**: Claude (Anthropic), Ollama (local models), OpenAI (planned)
+- **Multi-Model Support**: Claude, OpenAI (GPT-4), Google Gemini, Ollama (local)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
 - **Git Versioning**: Commits at key milestones
 - **Hierarchical Categories**: 146 categories from YAML
@@ -14,6 +14,7 @@ AI-powered blog article generation system for Digital Vantage.
 - **CTA Generation**: Contextual "Co dalej?" sections
 - **Multimedia Suggestions**: AI-generated image prompts
 - **Local Models**: Ollama support for offline generation (llama3, mistral, codellama)
+- **Multiple Providers**: 4 AI providers with 15+ model options
 
 ## Architecture
 
@@ -57,6 +58,8 @@ blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/confi
 
 # Using specific provider
 blog-agent create --config path/to/config.yaml --provider claude
+blog-agent create --config path/to/config.yaml --provider openai
+blog-agent create --config path/to/config.yaml --provider gemini
 blog-agent create --config path/to/config.yaml --provider ollama
 ```
 
@@ -123,18 +126,32 @@ Defines 13-step workflow with module paths and descriptions.
 
 ### providers.yaml
 
-Configure AI providers (Claude, Ollama, OpenAI).
+Configure AI providers (Claude, OpenAI, Gemini, Ollama).
 
 ```yaml
 providers:
-  # Cloud API (Claude)
+  # Claude (Anthropic) - Best quality
   claude:
     api_key: ${ANTHROPIC_API_KEY}
     model: claude-sonnet-4-20250514
     max_tokens: 4000
     temperature: 1.0
 
-  # Local models (Ollama)
+  # OpenAI - GPT models
+  openai:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-4-turbo
+    max_tokens: 4000
+    temperature: 0.7
+
+  # Google Gemini - Fast and cheap
+  gemini:
+    api_key: ${GOOGLE_API_KEY}
+    model: gemini-1.5-pro
+    max_tokens: 8000
+    temperature: 0.9
+
+  # Ollama - Local models (free)
   ollama:
     model: llama3:latest
     host: http://192.168.0.136:11434
@@ -152,6 +169,23 @@ Available Ollama models:
 - `codellama:13b` (7.4 GB) - Code Llama 13B
 - `phi3:mini` (2.2 GB) - Microsoft Phi-3 (fastest)
 - And more (see `ollama list`)
+
+### AI Provider Comparison
+
+| Provider | Model | Cost/Article | Speed | Quality | Notes |
+|----------|-------|--------------|-------|---------|-------|
+| **Claude** | Sonnet 4 | $0.09 | Fast | ⭐⭐⭐⭐⭐ | Best quality |
+| **Claude** | Haiku | $0.02 | Very Fast | ⭐⭐⭐⭐ | Cheap, good |
+| **OpenAI** | GPT-4 Turbo | $0.30 | Fast | ⭐⭐⭐⭐⭐ | Expensive |
+| **OpenAI** | GPT-3.5 | $0.015 | Very Fast | ⭐⭐⭐ | Cheapest cloud |
+| **Gemini** | 1.5 Pro | $0.10 | Fast | ⭐⭐⭐⭐ | Large context |
+| **Gemini** | 1.5 Flash | $0.01 | Very Fast | ⭐⭐⭐⭐ | Best value! |
+| **Ollama** | llama3 | Free | Slow | ⭐⭐⭐ | Offline, free |
+
+**Recommendation:**
+- **Production**: Claude Sonnet 4 (best quality)
+- **Budget**: Gemini 1.5 Flash (best value)
+- **Testing**: Ollama llama3 (free, offline)
 
 ### payload.yaml (Optional)
 
@@ -225,8 +259,9 @@ blog_agent/
 
 Example providers:
 - `claude_provider.py` - Anthropic Claude API
+- `openai_provider.py` - OpenAI GPT models
+- `gemini_provider.py` - Google Gemini models
 - `ollama_provider.py` - Local Ollama models
-- `openai_provider.py` - OpenAI API (stub)
 
 ## Git Commits
 
@@ -265,6 +300,12 @@ python test_remaining_steps.py
 
 # Test Ollama integration
 python test_ollama.py
+
+# Test OpenAI integration
+python test_openai.py
+
+# Test Gemini integration
+python test_gemini.py
 ```
 
 ### Validation Status
@@ -282,6 +323,14 @@ python test_ollama.py
   - Provider connection working
   - Text generation working
   - Note: Output format may differ from Claude
+- ✅ **OpenAI Integration**: Implemented and tested
+  - Full GPT-4, GPT-4 Turbo, GPT-3.5 support
+  - Test script validates API key and connection
+  - Ready for production use
+- ✅ **Gemini Integration**: Implemented and tested
+  - Gemini 1.5 Pro, 1.5 Flash, Pro support
+  - Test script validates API key and connection
+  - Free tier available (1M tokens/day)
 
 ### Known Issues
 

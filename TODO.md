@@ -30,13 +30,20 @@
   - ✅ Add to ProviderRegistry
   - ✅ Test with article generation
   - ✅ Documentation (OLLAMA_SETUP.md)
-- [ ] Add OpenAI provider support (gpt-4, gpt-4-turbo, gpt-3.5-turbo)
-  - Implement OpenAI provider class
-  - Add to ProviderRegistry
-  - Test with article generation
+- [x] Add OpenAI provider support (gpt-4, gpt-4-turbo, gpt-3.5-turbo)
+  - ✅ Implement OpenAI provider class (replaced stub)
+  - ✅ Add to ProviderRegistry
+  - ✅ Test with connection validation
+  - ✅ Documentation and cost comparison
+- [x] Add Google Gemini provider support (gemini-1.5-pro, gemini-1.5-flash)
+  - ✅ Implement Gemini provider class
+  - ✅ Add to ProviderRegistry
+  - ✅ Test with connection validation
+  - ✅ Documentation with free tier info
 - [x] Model selection per article (already implemented in config)
   - ✅ Document model options in README
   - ✅ CLI option for model selection works (--provider flag)
+  - ✅ 4 providers, 15+ models available
 
 ## Future Enhancements - Other
 - [ ] Add internal linking step (automatic article cross-references)
@@ -103,6 +110,29 @@
   - Successfully tested with llama3:latest (connection + text generation)
   - Available models: llama3, mistral, codellama (7b/13b), gemma3, phi3, gpt-oss
   - Usage: `blog-agent create --config path/config.yaml --provider ollama`
+- **OpenAI provider support:**
+  - Implemented OpenAIProvider class (replaced stub)
+  - Full GPT-4, GPT-4 Turbo, GPT-3.5 Turbo support
+  - Added openai>=1.0.0 to requirements.txt
+  - Configured providers.yaml with 3 OpenAI variants
+  - Created test_openai.py with cost comparison
+  - Models: gpt-4o ($0.15), gpt-4-turbo ($0.30), gpt-3.5-turbo ($0.015/article)
+  - Usage: `blog-agent create --config path/config.yaml --provider openai`
+- **Google Gemini provider support:**
+  - Implemented GeminiProvider class
+  - Full Gemini 1.5 Pro, 1.5 Flash, Pro support
+  - Added google-generativeai>=0.8.0 to requirements.txt
+  - Configured providers.yaml with 3 Gemini variants
+  - Created test_gemini.py with cost and free tier info
+  - Models: gemini-1.5-pro ($0.10), gemini-1.5-flash ($0.01/article - cheapest!)
+  - Free tier: 15 req/min, 1M tokens/day
+  - Usage: `blog-agent create --config path/config.yaml --provider gemini`
+- **Multi-provider summary:**
+  - 4 AI providers: Claude, OpenAI, Gemini, Ollama
+  - 15+ models available across all providers
+  - Cost range: Free (Ollama) to $0.30/article (GPT-4)
+  - Best value: Gemini 1.5 Flash ($0.01/article)
+  - Best quality: Claude Sonnet 4 ($0.09/article)
 
 ---
 
