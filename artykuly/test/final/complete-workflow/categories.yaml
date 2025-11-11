@@ -2,16 +2,10 @@ categories:
 - slug: testowanie-automatyczne
   title: Testowanie Automatyczne
   path: rozwoj-oprogramowania/testowanie-automatyczne
-- slug: rozwoj-oprogramowania
-  title: Rozwój Oprogramowania
-  path: rozwoj-oprogramowania
 - slug: metodyki-tworzenia-oprogramowania
   title: Metodyki Tworzenia Oprogramowania
   path: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania
 - slug: narzedzia-programistyczne
   title: Narzędzia Programistyczne
   path: rozwoj-oprogramowania/narzedzia-programistyczne
-- slug: ci-cd
-  title: CI/CD
-  path: rozwoj-oprogramowania/ci-cd
-count: 5
+count: 3
