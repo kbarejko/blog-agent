@@ -13,7 +13,7 @@ from ...core.workflow.engine import WorkflowEngine
 from ...core.factory import DependencyFactory
 
 
-@click.group()
+@click.group(context_settings={'help_option_names': ['-h', '--help']})
 @click.version_option(version='1.0.0')
 def cli():
     """
@@ -75,16 +75,18 @@ def init(series: str, silo: str, slug: str, title: str, audience: str, tone: str
 @cli.command()
 @click.option('--config', 'config_path', required=True, type=click.Path(exists=True), help='Path to config.yaml')
 @click.option('--provider', default='claude', help='AI provider (default: claude)')
-@click.option('--skip', multiple=True, help='Steps to skip (can be repeated)')
-@click.option('--only', multiple=True, help='Only run these steps (can be repeated)')
-def create(config_path: str, provider: str, skip: tuple, only: tuple):
+@click.option('--skip', help='Steps to skip (comma-separated, e.g., init,outline)')
+@click.option('--only', help='Only run these steps (comma-separated, e.g., outline,summary)')
+def create(config_path: str, provider: str, skip: str, only: str):
     """
     Generate complete article
 
     Runs full workflow from outline to publication.
 
-    Example:
+    Examples:
         blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/config.yaml
+        blog-agent create --config path/config.yaml --only outline,summary
+        blog-agent create --config path/config.yaml --skip init
     """
     config_path = Path(config_path)
     project_root = Path.cwd()
@@ -102,6 +104,10 @@ def create(config_path: str, provider: str, skip: tuple, only: tuple):
     click.echo(f"   Path: {article_path}")
     click.echo(f"   Provider: {provider}\n")
 
+    # Parse skip/only lists
+    skip_list = [s.strip() for s in skip.split(',')] if skip else None
+    only_list = [s.strip() for s in only.split(',')] if only else None
+
     # Create factory and deps
     factory = DependencyFactory(project_root)
     deps = factory.create_deps(provider)
@@ -115,8 +121,8 @@ def create(config_path: str, provider: str, skip: tuple, only: tuple):
         article = engine.execute_workflow(
             article,
             deps,
-            skip_steps=list(skip) if skip else None,
-            only_steps=list(only) if only else None
+            skip_steps=skip_list,
+            only_steps=only_list
         )
 
         click.echo(f"\n✅ Article generated successfully!")
