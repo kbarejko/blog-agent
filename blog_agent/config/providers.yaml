@@ -16,5 +16,26 @@ providers:
     max_tokens: 4000
     temperature: 0.7
 
+  # Ollama - Local models
+  ollama:
+    model: llama3:latest  # Change to any installed model (llama3, mistral, codellama, etc.)
+    host: http://192.168.0.136:11434  # Ollama server URL (Windows host)
+    max_tokens: 4000
+    temperature: 0.7
+
+  # Ollama - Mistral variant
+  ollama-mistral:
+    model: mistral:latest
+    host: http://192.168.0.136:11434
+    max_tokens: 4000
+    temperature: 0.7
+
+  # Ollama - CodeLlama variant
+  ollama-codellama:
+    model: codellama:13b
+    host: http://192.168.0.136:11434
+    max_tokens: 4000
+    temperature: 0.7
+
 # Default provider
 default: claude
