@@ -50,13 +50,10 @@
 - [ ] Improve error handling and rollback mechanism
 - [ ] Add resume capability (restart from failed step)
 - [ ] Add batch processing mode
-- [ ] Add WordPress/CMS integration
 - [ ] Add image generation integration (DALL-E/Midjourney)
 
 ## Backlog
-- OpenAI provider implementation (Phase 2)
 - Image generation integration (Phase 2)
-- WordPress API integration (Phase 2)
 - Multi-language support (Phase 3)
 - Batch processing (Phase 3)
 
