@@ -1,13 +1,10 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Complete workflow test to nie E2E** - testuje konkretny proces biznesowy od początku do końca, a nie całą funkcjonalność aplikacji
 - **15-30 minut to maksymalny czas testu** - dłuższe testy stają się niestabilne i trudne do debugowania, lepiej podzielić na mniejsze części
 - **5-15 workflow testów wystarczy** - pokrywają najważniejsze ścieżki biznesowe, więcej prowadzi do problemów z utrzymaniem
 - **Smart waits i retry mechanisms** - rozwiązują 80% problemów z niestabilnymi testami i false positives
 - **Gotowa checklist 12 kroków** - praktyczny przewodnik implementacji od identyfikacji ścieżek po integrację z CI/CD
-
-
-# Complete Workflow Test: Kompleksowy Przewodnik dla QA Testerów - Strategia, Implementacja i Najlepsze Praktyki
 
 Wyobraź sobie sytuację: testy jednostkowe przechodzą, testy integracyjne też. A mimo to, w produkcji pojawiają się błędy, które rujnują doświadczenie użytkowników. Brzmi znajomo?
 
@@ -242,24 +239,4 @@ Auto-wait dla elementów. Network interception out-of-the-box. Mobile testing be
 
 Postman z Newman to klasyczna para do testowania API. Postman do tworzenia kolekcji. Newman do uruchamiania w CI/CD.
 
-Proste w użyciu. Product managerowie mogą tworzyć podstawowe testy. Developerzy rozwijają zaawansowane scenariusze. Automatyzacja przez jedną komendę.
-
-REST Assured dla zespołów Java. Fluent API przypomina naturalny język. Walidacja JSON przez JsonPath. Integration z TestNG i JUnit.
-
-### Wsparcie infrastrukturalne
-
-Docker revolutionized test environments. Container z aplikacją. Container z bazą danych. Container z mock services. Jeden docker-compose file uruchamia cały ecosystem.
-
-Kubernetes dla większych środowisk. Namespace per team. Auto-scaling pod wysokim obciążeniem. Service mesh dla complex integrations.
-
-GitHub Actions, GitLab CI, Jenkins - każde narzędzie CI/CD wspiera workflow testing. Key to proper configuration. Parallel execution. Smart caching. Fail-fast strategies.
-
-Cloud testing platforms jak BrowserStack czy Sauce Labs oferują browser farms. Testing na różnych devices bez local setup. Mobile testing bez physical phones.
-
-Test data management tools jak DbUnit czy Testcontainers handle database setup. Fresh data per test. Rollback po execution. Consistent state między runs.
-
-### Wybór dopasowany do zespołu
-
-Najlepsze narzędzie to które zespół používá effectively. TypeScript team? Playwright natural choice. Java backend? REST Assured fits perfectly. 
-
-Mixed skillset? Postman enables collaboration między technical i non-technical members. Everyone can contribute to test scenarios.
+Proste w użyciu. Product managerowie mogą tworzyć podstawowe testy. Developerzy rozwijają zaawansowane scenariusze.
