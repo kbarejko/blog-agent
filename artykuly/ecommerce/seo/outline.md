@@ -1,120 +1,92 @@
 # Konspekt artykułu
 
-## 1. Wprowadzenie - dlaczego SEO w e-commerce to nie tylko ruch, ale strategia biznesowa
-- **Hook:** Statystyki pokazujące wpływ SEO na wyniki finansowe sklepów internetowych
-- **Problem:** Większość właścicieli sklepów traktuje SEO jako "nice to have", nie jako fundament rozwoju
-- **Rozwiązanie:** Holistyczne podejście do SEO w e-commerce - od architektury po konwersję
-- **Zapowiedź:** Omówienie kluczowych obszarów SEO, które bezpośrednio wpływają na sprzedaż
-- **Value proposition:** Czym ten przewodnik różni się od ogólnych poradników SEO
+## 1. 🎯 Tytuł H1
+**"SEO w e-commerce – jak zwiększyć ruch i konwersje w sklepie internetowym"** ---
 
-## 2. Fundament SEO w e-commerce - architektura i struktura sklepu
-### Hierarchia kategorii i nawigacja
-- Znaczenie płaskiej architektury dla crawlingu
-- Breadcrumbs jako wsparcie dla użytkownika i botów
-- Kategorie vs. tagi - kiedy używać którego
+## 2. 📋 Szczegółowy konspekt
+### **Wprowadzenie**
+- Dlaczego SEO w e-commerce różni się od SEO klasycznego
+- Specyfika sklepów online: tysiące produktów, konkurencja cenowa, customer journey
+- Główne korzyści: organiczny ruch = wyższa konwersja i ROI
+- Mapa artykułu: techniczne fundamenty, treści produktowe, architektura linkowania
 
-### URL-e przyjazne użytkownikom i wyszukiwarkom
-- Struktura URL-i w sklepach internetowych
-- Parametry vs. statyczne ścieżki
-- Obsługa wariantów produktów w URL-ach **[Link naturalny: "Więcej o budowaniu skutecznej struktury linkowej znajdziesz w naszym przewodniku o linkowanie wewnętrzne w e-commerce (/linkowanie-wewnetrzne)"]**
+### **H2: Fundamenty techniczne – baza pod skuteczne SEO** **H3: Core Web Vitals i szybkość ładowania**
+- Wpływ CWV na ranking i UX w sklepach
+- Krytyczne aspekty: obrazy produktów, lazy loading, optymalizacja serwerów
+- Związek między szybkością a współczynnikiem konwersji **H3: Architektura techniczna dla e-commerce**
+- Crawlability dla tysięcy produktów
+- Struktura URL i canonical tags
+- Schema markup dla produktów i ofert *[Link do artykułu: "SEO techniczne + CWV w kontekście indeksacji (/seo-sklepu-cwv)"]* *"Szczegółowy przewodnik po optymalizacji technicznej znajdziesz w naszym artykule o SEO technicznym i Core Web Vitals"*
 
-## 3. SEO techniczne - fundament wysokiej wydajności
-### Core Web Vitals w kontekście e-commerce
-- Wpływ szybkości ładowania na conversion rate
-- Largest Contentful Paint w kontekście stron produktowych
-- Cumulative Layout Shift i stabilność layoutu podczas ładowania zdjęć
+### **H2: Treści produktowe – serce SEO w e-commerce** **H3: Optymalizacja kart produktów**
+- Tytuły produktów: balans między SEO a użytecznością
+- Opisy produktowe: unikanie duplicate content
+- Znaczenie reviews i UGC dla SEO **H3: Kategorie i filtry – wyzwania i możliwości**
+- SEO-friendly struktura kategorii
+- Obsługa filtrów bez cannibalizacji
+- Landing pages dla long-tail keywords *[Link do artykułu: "Treści produktowe SEO w e-commerce (/tresci-produktowe-seo)"]* *"Dowiedz się więcej o tworzeniu treści produktowych, które sprzedają i pozycjonują się w wyszukiwarkach"*
 
-### Crawling i indeksowanie w sklepach internetowych
-- Zarządzanie budżetem crawlingu przy tysiącach produktów
-- Robots.txt i sitemap.xml dla e-commerce
-- Canonical tags w kontekście duplikujących się produktów **[Link naturalny: "Szczegółowy przewodnik po optymalizacji technicznej sklepów internetowych, w tym zaawansowane techniki Core Web Vitals, znajdziesz w artykule SEO techniczne + CWV w kontekście indeksacji (/seo-sklepu-cwv)"]**
+### **H2: Architektura linkowania – jak prowadzić klientów przez sklep** **H3: Link juice distribution w sklepach**
+- Hierarchia ważności: bestsellery vs. niszowe produkty
+- Linkowanie między powiązanymi produktami
+- Breadcrumbs i navigacja faceted **H3: Strategia linkowania wewnętrznego**
+- Cross-selling przez linki wewnętrzne
+- Budowanie tematycznych klastrów produktowych
+- Znaczenie anchor texts w kontekście e-commerce *[Link do artykułu: "Linkowanie wewnętrzne w e-commerce – jak zwiększyć sprzedaż i SEO (/linkowanie-wewnetrzne)"]* *"Kompleksowy przewodnik po linkrowaniu wewnętrznym, które zwiększa zarówno SEO jak i sprzedaż, znajdziesz tutaj"*
 
-## 4. Treści produktowe - jak sprzedawać słowami
-### Karty produktów zoptymalizowane pod SEO
-- Tytuły produktów: balans między SEO a user experience
-- Opisy produktów: unikalne treści vs. dane producenta
-- Structured data i schema markup dla produktów
+### **H2: Content marketing dla sklepów internetowych** *(sekcja na przyszły artykuł)* **H3: Blog jako generator ruchu**
+- Typy treści: poradniki, porównania, case studies
+- Linkowanie blog → produkty bez over-optymalizacji **H3: Przewodniki zakupowe i landing pages**
+- SEO dla komercyjnych zapytań typu "najlepsze [produkt] 2024"
+- Seasonal content i jego wpływ na sprzedaż
 
-### Kategorie i kolekcje jako landing page'y
-- Teksty kategorii - długość i pozycjonowanie
-- Filtry a SEO - jak nie stracić link juice
-- Seasonal content i produkty sezonowe **[Link naturalny: "Kompletny przewodnik po tworzeniu treści produktowych, które sprzedają i pozycjonują się w Google, znajdziesz w artykule Treści Produktowe SEO w e-commerce (/tresci-produktowe-seo)"]**
+### **H2: Local SEO dla e-commerce** *(sekcja na przyszły artykuł)* **H3: Lokalne zapytania w sklepach online**
+- "Sklep z [produktem] w [miasto]"
+- Google Business Profile dla e-commerce z showroomami **H3: Geo-targeting w treściach**
+- Lokalne landing pages
+- Regionalne różnice w ofercie
 
-## 5. Content marketing w e-commerce - ruch poza katalog produktów
-### Blog vs. centrum wiedzy - który format wybrać
-- Artykuły problemowo-rozwiązaniowe
-- Porównania produktów jako content SEO
-- Przewodniki zakupowe i ich wpływ na customer journey
+### **H2: Jak zacząć? Plan działania na pierwsze 90 dni** **H3: Audit obecnego stanu (dni 1-30)**
+- Analiza techniczna: szybkość, indeksacja, błędy crawlingu
+- Content audit: duplicate content, brakujące opisy
+- Analiza konkurencji i gap analysis **H3: Quick wins (dni 31-60)**
+- Optymalizacja title tags i meta descriptions bestsellery
+- Naprawa krytycznych błędów technicznych
+- Implementacja podstawowego schema markup **H3: Długoterminowa strategia (dni 61-90+)**
+- Plan content marketingu
+- Strategia linkbuilding dla e-commerce
+- Monitoring i KPI tracking
 
-### User Generated Content jako broń SEO
-- Opinie klientów i ich znaczenie dla pozycjonowania
-- Q&A sekcje przy produktach
-- Zdjęcia i wideo od użytkowników **[Miejsce na przyszły artykuł o content marketingu w e-commerce]**
+### **H2: Najczęstsze błędy SEO w e-commerce** **H3: Błędy techniczne**
+- Ignorowanie paginacji i infinite scroll
+- Brak obsługi wariantów produktów (rozmiary, kolory)
+- Problemy z out-of-stock products **H3: Błędy treściowe**
+- Kopiowanie opisów od producentów
+- Za krótkie opisy kategorii
+- Brak treści wspierających (FAQ, specyfikacje) **H3: Błędy strategiczne**
+- Skupienie tylko na branded keywords
+- Ignorowanie long-tail opportunities
+- Brak integracji SEO z UX
 
-## 6. Local SEO dla sklepów internetowych
-### Multi-location SEO dla sieci sklepów
-- Google Business Profile dla każdej lokalizacji
-- Lokalne landing page'y
-- Zarządzanie opiniami w skali
+### **H2: Narzędzia i monitoring skuteczności** **H3: Niezbędne narzędzia SEO dla e-commerce**
+- Google Search Console: specyficzne raporty dla sklepów
+- Narzędzia do monitoringu pozycji produktów
+- Analytics: organic traffic vs. conversion rate **H3: KPI i metryki**
+- Organic visibility vs. revenue
+- Click-through rate dla produktów
+- Czas do pierwszej sprzedaży z organic traffic
 
-### Click & Collect i lokalna widoczność
-- Optymalizacja pod zapytania "w pobliżu"
-- Inventory ads i local inventory ads
-- Schema markup dla dostępności lokalnej **[Miejsce na przyszły artykuł o local SEO w e-commerce]**
+### **H2: Podsumowanie – SEO jako długoterminowa inwestycja**
+- ROI z SEO vs. płatna reklama
+- Budowanie competitive advantage przez organic traffic
+- Zachęta do zgłębienia szczegółowych aspektów przez dedykowane artykuły ---
 
-## 7. Mobile-first w e-commerce SEO
-### Optymalizacja mobilnego customer journey
-- Mobile usability w kontekście konwersji
-- AMP dla stron produktowych - czy warto?
-- Progressive Web Apps jako przewaga konkurencyjna
+### 1. Od czego zacząć SEO w nowym sklepie internetowym? Rozpocznij od audytu technicznego - szybkości ładowania, struktury URL i podstawowej indeksacji. Następnie przeczytaj nasz przewodnik po SEO technicznym i Core Web Vitals.
 
-### Voice search i zakupy głosowe
-- Optymalizacja pod zapytania głosowe w e-commerce
-- Featured snippets dla produktów
-- Przygotowanie na przyszłość commerce **[Miejsce na przyszły artykuł o mobile SEO w e-commerce]**
+### 2. Ile czasu zajmuje osiągnięcie rezultatów SEO w e-commerce? Pierwsze efekty (quick wins) możesz zobaczyć po 2-3 miesiącach, znaczące wzrosty ruchu po 6-12 miesiącach. E-commerce ma specifične wyzwania, ale też większy potencjał niż zwykłe strony.
 
-## 8. Analityka i pomiar sukcesu SEO w e-commerce
-### Metryki, które rzeczywiście się liczą
-- Organic revenue vs. organic traffic
-- Assisted conversions z ruchu organicznego
-- Customer lifetime value z kanału SEO
+### 3. Czy warto inwestować w content marketing przy ograniczonym budżecie? Tak, ale zacznij od optymalizacji treści produktowych - to fundament. Więcej o strategii treściowej znajdziesz w naszym artykule o treściach produktowych.
 
-### Narzędzia i dashboardy dla e-commerce SEO
-- Google Analytics 4 dla sklepów internetowych
-- Search Console dla dużych katalogów
-- Monitoring pozycji produktów vs. kategorii **[Miejsce na przyszły artykuł o analityce SEO w e-commerce]**
-
-## 9. Najczęstsze błędy SEO w e-commerce - czego unikać
-### Problemy techniczne, które niszczą pozycje
-- Duplikujące się treści w wariantach produktów
-- Błędna implementacja structured data
-- Ignorowanie produktów "out of stock"
-
-### Błędy strategiczne w planowaniu SEO
-- Skupienie tylko na "product keywords"
-- Zaniedbywanie long-tail keywords
-- Brak planowania na sezonowość
-
-## 10. Jak zacząć SEO w swoim sklepie - plan na pierwsze 90 dni
-### Audit techniczny - co sprawdzić w pierwszej kolejności
-- Szybkość ładowania i Core Web Vitals
-- Crawlowanie i indeksowanie
-- Mobile usability
-
-### Quick wins - zmiany o wysokim ROI
-- Optymalizacja title tags i meta descriptions
-- Dodanie schema markup
-- Naprawa błędów 404 i przekierowań
-
-### Długoterminowa strategia SEO
-- Keyword research dla e-commerce
-- Plan tworzenia treści na rok
-- Budowanie autorytetu domeny
-
-### 1. Od czego zacząć SEO w sklepie internetowym? Zawsze zacznij od audytu technicznego - sprawdź szybkość ładowania, błędy crawlingu i podstawowe problemy z indeksowaniem. Bez solidnego fundamentu technicznego, inne działania SEO będą mniej skuteczne. Szczegółowy plan znajdziesz w sekcji dotyczącej SEO technicznego.
-
-### 2. Jak długo trzeba czekać na efekty SEO w e-commerce? Pierwsze pozytywne zmiany możesz zobaczyć już po 3-6 miesiącach, ale pełne efekty SEO w e-commerce zazwyczaj widać po 6-12 miesiącach. Wiele zależy od konkurencji w branży i aktualnego stanu technicznego sklepu.
-
-### 3. Czy warto inwestować w treści produktowe, skoro mam tysiące produktów? Absolutnie tak, ale strategicznie. Skup się najpierw na best-sellerach i produktach o wysokiej marży. Unikalne opisy produktów mogą
+### 4. Jak radzić sobie z duplicate content przy podobnych produktach? Kluczowe są unikalne opisy, canonical tags i przemyślana architektura kategorii. Szczegółowe roz
 
 **Zawiera:** FAQ
