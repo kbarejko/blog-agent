@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Core Web Vitals wpływają na konwersję o 15-20%** - wolne ładowanie obrazów produktów i filtry to główne zabójcy sprzedaży w sklepach online
 - **Architektura silosowa zwiększa ruch o 40%** - przemyślane linkowanie między kategoriami i produktami prowadzi Google'a przez najważniejsze strony sklepu
@@ -7,7 +7,7 @@
 - **ROI z SEO vs. Google Ads** - organiczny ruch konwertuje 2x lepiej niż płatna reklama, ale wymaga cierpliwości i właściwej strategii
 
 
-# SEO w e-commerce – jak zwiększyć ruch i konwersje w sklepie internetowym
+## SEO w e-commerce – jak zwiększyć ruch i konwersje w sklepie internetowym
 
 Jeden sklep ma 50 000 produktów i ledwo widoczny w Google. Drugi sprzedaje podobny asortyment, ale generuje 300% więcej organicznego ruchu. Różnica? Przemyślane SEO dostosowane do specyfiki e-commerce.
 
