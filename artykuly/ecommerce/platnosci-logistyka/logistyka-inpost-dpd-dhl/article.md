@@ -3,7 +3,7 @@
 - **InPost prowadzi dla mniejszych sklepów do 500 przesyłek miesięcznie** - gdy przekroczysz tę granicę, warto rozejrzeć się za DPD czy DHL. Ich stawki hurtowe mogą być nawet o 30-40% korzystniejsze, choć początkowo wydają się droższe
 - **Pozorne oszczędności szybko się rozpływają** - zwroty od klientów, przekierowania na inne adresy czy dostawy do trudnych stref potrafią podnieść faktyczne koszty nawet o 2-3 zł za każdą paczkę
 - **API InPost działa jak szwajcarski zegarek** - stabilność na poziomie 99,8% vs około 97% u pozostałych graczy. Do tego gotowe wtyczki praktycznie pod każdą popularną platformę e-commerce
-- **DHL to wybór dla wymagających i globalnych** - kosztuje trzykrotnie więcej niż InPost, ale gdy potrzebujesz dostarczyć przesyłkę overnight do Tokio czy Nowego Jorku, nie ma alternatywy
+- **DHL to wybór dla wymagających i globalnych** - kosztuje trzykrotnie więcej niż InPost, ale gdy potrzebujesz [dostarczyć przesyłkę overnight do Tokio czy Nowego Jorku](/ecommerce/platnosci-logistyka/cross-border-ue/), nie ma alternatywy
 - **Współpraca z kilkoma kurierami zmniejsza ryzyko o 60%** - strajk w jednej firmie czy awaria systemu nie sparaliżuje całego sklepu. Dywersyfikacja operatorów to prawdopodobnie najlepsze zabezpieczenie
 
 # Logistyka Inpost Dpd Dhl
@@ -16,7 +16,7 @@ Na polskim rynku logistycznym dominują trzej gracze. Każdy z nich oferuje komp
 
 ## InPost - pionier rewolucji paczkomatowej
 
-Kiedy w 2006 roku Rafał Brzoska zakładał InPost, niewiele osób wierzyło w sukces automatów do przesyłek. Dziś firma, która przeszła przez przejęcie przez Allegro i spektakularny powrót na giełdę, całkowicie zmieniła nawyki zakupowe pokolenia Polaków.
+Kiedy w 2006 roku Rafał Brzoska zakładał InPost, niewiele osób wierzyło w sukces automatów do przesyłek. Dziś firma, która przeszła przez [przejęcie przez Allegro](/ecommerce/platnosci-logistyka/allegro-integracja/) i spektakularny powrót na giełdę, całkowicie zmieniła nawyki zakupowe pokolenia Polaków.
 
 Model biznesowy InPost wydaje się opierać na prostej, ale genialnej zasadzie: klient załatwia wszystko sam, a firma oszczędza na kurierach. Paczkomat dostępny przez całą dobę, brak konieczności czekania na dostawcę, odbiór w drodze do pracy. Ta filozofia idealnie trafiła w potrzeby miejskich konsumentów.
 
