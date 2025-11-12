@@ -78,6 +78,15 @@ def execute_internal_linking(article: Any, deps: Dict[str, Any], config: Dict[st
 
     if inserted_count > 0:
         print(f"✅ Added {inserted_count} internal links")
+
+        # Git commit
+        git = deps.get('git')
+        if git:
+            git.commit_article_stage(
+                article.path,
+                "internal_linking",
+                f"Add internal links ({inserted_count} links)"
+            )
     else:
         print(f"ℹ️  No internal links were added")
 
