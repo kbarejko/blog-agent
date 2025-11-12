@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **SEO techniczne to fundament konwersji** - Core Web Vitals wpływają bezpośrednio na ranking Google i współczynnik zakupów, wolny sklep traci 20% sprzedaży
 - **Unikalne treści produktowe zwiększają ruch o 300%** - kopiowanie opisów od dostawców to strzał w stopę, własne treści to goldmine dla long-tail keywords
