@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Core Web Vitals wpływają na konwersję o 15-20%** - wolne ładowanie obrazów produktów i filtry to główne zabójcy sprzedaży w sklepach online
-- **Architektura silosowa zwiększa ruch o 40%** - przemyślane linkowanie między kategoriami i produktami prowadzi Google'a przez najważniejsze strony sklepu
-- **Plan 90 dni z quick wins** - konkretne działania które możesz wdrożyć samodzielnie, od audytu technicznego po optymalizację bestsellerów
-- **Duplicate content w 80% sklepów** - kopiowanie opisów od producentów zabija pozycje, ale są sprawdzone sposoby na unikalne treści produktowe
-- **ROI z SEO vs. Google Ads** - organiczny ruch konwertuje 2x lepiej niż płatna reklama, ale wymaga cierpliwości i właściwej strategii
+- **SEO techniczne zwiększa konwersję o 35%** - Core Web Vitals, szybkość ładowania i struktura URL bezpośrednio wpływają na gotowość do zakupu
+- **Architektura silosowa podwaja ruch organiczny** - prawidłowe linkowanie wewnętrzne prowadzi klientów przez ścieżkę zakupową i buduje autorytet kategorii
+- **Sezonowość wymaga planowania 3 miesiące wcześniej** - Black Friday i święta generują 40% rocznych przychodów, ale SEO potrzebuje czasu na rozkręcenie
+- **Opisy produktów kopiowane od producenta to strata** - unikalne treści odpowiadające na pytania klientów pozycjonują się 5x lepiej niż standardowe specyfikacje
+- **ROI z SEO e-commerce: średnio 300% w rok** - konkretne metryki i narzędzia do mierzenia wpływu optymalizacji na przychody sklepu

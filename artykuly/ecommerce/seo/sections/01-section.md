@@ -1,35 +1,29 @@
-# SEO w e-commerce – jak zwiększyć ruch i konwersje w sklepie internetowym
+# SEO w e-commerce: szybki ruch i konwersja. Silos dla SEO w e-commerce
 
-Jeden sklep ma 50 000 produktów i ledwo widoczny w Google. Drugi sprzedaje podobny asortyment, ale generuje 300% więcej organicznego ruchu. Różnica? Przemyślane SEO dostosowane do specyfiki e-commerce.
+Właściciel sklepu internetowego wysyła towar wart 2 miliony złotych rocznie, ale w Google jest praktycznie niewidoczny. Potencjalni klienci szukają jego produktów dziesiątki tysięcy razy miesięcznie, lecz trafiają do konkurencji.
 
-SEO w sklepach internetowych to zupełnie inna dyscyplina niż pozycjonowanie zwykłych stron. Masz do czynienia z tysiącami produktów, dynamiczną strukturą, filtrami, wariantami i nieustanną konkurencją cenową. Każda karta produktu to potencjalne źródło ruchu, ale też ryzyko cannibalizacji.
+Brzmi znajomo? To częstsza sytuacja niż myślisz.
 
-W przeciwieństwie do corporate'owych stron, w e-commerce customer journey jest krótszy i bardziej transakcyjny. Użytkownicy szukają konkretnych produktów, porównują ceny, czytają opinie. To oznacza, że Twoje SEO musi pracować na każdym etapie tej ścieżki.
+E-commerce to arena, gdzie walczy się o każdy klik, każdego klienta i każdą sprzedaż. W świecie, gdzie 68% doświadczeń online zaczyna się od wyszukiwarki, a 53% całego ruchu w internecie pochodzi z wyszukiwania organicznego, SEO przestaje być opcją - staje się koniecznością biznesową.
 
-Organiczny ruch ma w sklepach internetowych jedną kluczową zaletę – wyższą konwersję niż płatna reklama. Użytkownicy, którzy trafiają przez Google, częściej finalizują zakup. To efekt większego zaufania do wyników organicznych.
+SEO w e-commerce różni się znacząco od standardowego SEO. Tutaj nie chodzi tylko o ruch - chodzi o ruch, który kupuje. Właściciele sklepów internetowych muszą żonglować tysiącami produktów, sezonowością, konkurencją cenową i jednocześnie budować długoterminową widoczność w Google.
 
-W tym artykule przejdziemy przez kompletną strategię SEO dla e-commerce. Zaczniemy od fundamentów technicznych, przejdziemy przez optymalizację treści produktowych, architekturę linkowania, aż po praktyczny plan na pierwsze 90 dni.
+Niektórzy myślą, że wystarczy dodać kilka słów kluczowych do opisów produktów. Inni wierzą, że Google automatycznie doceni ich świetną obsługę klienta. Rzeczywistość jest bardziej złożona i - co może zaskakujące - bardziej przewidywalna niż się wydaje.
 
-## Fundamenty techniczne – baza pod skuteczne SEO
+Ten przewodnik pokaże Ci kompleksową mapę SEO w e-commerce. Od fundamentów technicznych, przez optymalizację treści produktowych, aż po zaawansowane strategie linkowania wewnętrznego, które przekształcają odwiedzających w kupujących.
 
-### Core Web Vitals i szybkość ładowania
+## Fundament: SEO techniczne i Core Web Vitals w sklepach internetowych
 
-Core Web Vitals w e-commerce to nie tylko ranking factor – to bezpośredni wpływ na portfel. Badania pokazują, że każda sekunda opóźnienia kosztuje średnio 7% konwersji. W sklepie z obrotem 100 000 zł miesięcznie to 7000 zł strat.
+Sklep internetowy z czasem ładowania 5 sekund traci 90% potencjalnych klientów zanim zdążą zobaczyć pierwszy produkt. Google to wie i bezlitośnie degraduje wolne strony w wynikach wyszukiwania.
 
-Largest Contentful Paint (LCP) jest szczególnie krytyczny. W sklepach często oznacza główny obraz produktu. Jeśli ładuje się ponad 2,5 sekundy, tracisz klientów zanim zdążą zobaczyć ofertę.
+Zanim zaczniesz marzyć o pierwszych pozycjach w Google, musisz zadbać o solidne fundamenty techniczne. W e-commerce to szczególnie krytyczne - sklepy mają często dziesiątki tysięcy podstron, skomplikowane struktury kategorii i wymagają błyskawicznej szybkości ładowania.
 
-Lazy loading obrazów to standard, ale implementuj go mądrze. Obrazy "above the fold" – główne zdjęcie produktu, logo, kluczowe elementy kategorii – muszą ładować się natychmiast. Opóźniaj tylko te poniżej pierwszego ekranu.
+Core Web Vitals to trzy metryki, które Google oficjalnie uznał za czynniki rankingowe. Largest Contentful Paint (LCP) mierzy, jak szybko ładuje się główna treść strony. W sklepach internetowych oznacza to zwykle zdjęcia produktów lub kluczowe elementy kategorii. Ideał to poniżej 2,5 sekundy.
 
-First Input Delay (FID) w sklepach często psują przesadnie rozbudowane kalkulatory cen, konfigurator produktów czy chatboty. Optymalizuj JavaScript – ciężkie skrypty ładuj asynchronicznie.
+Cumulative Layout Shift (CLS) sprawdza, czy elementy strony "skaczą" podczas ładowania. Wyobraź sobie klienta, który chce kliknąć "Dodaj do koszyka", ale przycisk nagle przesuwa się przez ładujący się baner. Frustrujące i kosztowne.
 
-### Architektura techniczna dla e-commerce
+First Input Delay (FID) mierzy responsywność strony. Klient klika na produkt, ale nic się nie dzieje przez pół sekundy. W e-commerce każda sekunda zwlekania to stracone zamówienia.
 
-Z tysiącami produktów crawlability to podstawa. Google musi dotrzeć do każdej karty produktu, ale nie może gubić się w nieskończonych filtrach i sortowaniach.
+Optymalizacja zaczyna się od wyboru odpowiedniego hostingu. Tanie rozwiązania często oznaczają dzielone zasoby serwera z innymi stronami. Gdy jeden z "sąsiadów" dostanie nagły napływ ruchu, Twój sklep zwalnia.
 
-Struktura URL powinna być logiczna i spójna. `/kategoria/podkategoria/produkt` działa lepiej niż `/p?id=12345`. Łatwiej o linki, użytkownicy rozumieją hierarchię, a Ty kontrolujesz przepływ link juice.
-
-Canonical tags są kluczowe przy wariantach. Niebieski sweter rozmiar M i czerwony sweter rozmiar L to często osobne URL-e. Bez canoniców Google widzi duplicate content tam, gdzie Ty widzisz różne opcje.
-
-Schema markup dla produktów to już nie opcja – to konieczność. Product schema z cenami, dostępnością i opiniami może dać Ci rich snippets, które zwiększają CTR nawet o 30%.
-
-Szczegółowy przewodnik po optymalizacji technicznej znajdziesz w naszym artykule o [SEO technicznym i Core Web Vitals](/seo-sklepu-cwv).
+Kompresja obrazów w sklepach internetowych to sztuka balansowania między jakością a rozmiarem pliku. Narzędzia jak WebP potrafią zmniejszyć rozmiar zdjęć produktów o 30-50% bez widocznej utraty jakości.
