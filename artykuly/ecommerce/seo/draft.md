@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **SEO w e-commerce to 35% więcej konwersji** - prawidłowa optymalizacja kategorii i produktów przekłada się bezpośrednio na sprzedaż, nie tylko ruch
 - **Core Web Vitals mogą kosztować 20% przychodów** - wolny sklep traci klientów już po 3 sekundach, a Google dodatkowo obniża pozycje
@@ -165,7 +165,7 @@ Tradycyjne metryki SEO – pozycje w wyszukiwarce czy ogólny ruch organiczny �
 
 ### KPI dla SEO w e-commerce
 
-Najbardziej wartościowa metryką jest organic revenue per product page. Pokazuje, które produkty nie tylko przyciągają ruch, ale rzeczywiście się sprzedają. Laptop generujący 1000 wizyt miesięcznie, ale zero sprzedaży, potrzebuje optymalizacji treści lub ceny.
+Najbardziej wartościową metryką jest organic revenue per product page. Pokazuje, które produkty nie tylko przyciągają ruch, ale rzeczywiście się sprzedają. Laptop generujący 1000 wizyt miesięcznie, ale zero sprzedaży, potrzebuje optymalizacji treści lub ceny.
 
 Pozycje dla długoogonkowych fraz produktowych mówią więcej niż ranking dla ogólnych kategorii. "Laptop Dell XPS 13 cena" konwertuje lepiej niż "laptopy". Śledź pozycje dla konkretnych modeli i wariantów – tu kryje się prawdziwy potencjał sprzedażowy.
 
@@ -247,66 +247,4 @@ Tak, znacznie. E-commerce ma unikalne wyzwania.
 
 Zarządzanie tysiącami produktów to pierwszy problem. Seasonal fluctuations to drugi. Duplicate content z wariantami produktów to trzeci.
 
-Musisz balansować między SEO a conversion rate. To wymaga zupełnie innych strategii.
-
-### 3. Które elementy techniczne są najważniejsze?
-
-Szybkość ładowania stoi na pierwszym miejscu. Responsywność mobilna to drugi must-have. 
-
-Proper URL structure i Core Web Vitals zamykają listę fundamentów. Bez tych podstaw inne optymalizacje nie zadziałają.
-
-**Szczegóły techniczne znajdziesz w naszym przewodniku: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)**
-
-### 4. Jak pisać opisy produktów SEO-friendly?
-
-Połącz naturalne słowa kluczowe z korzyściami produktu. Dodaj unique selling points.
-
-Struktura ma znaczenie. Podziel opis na sekcje: korzyści, parametry, zastosowanie. To pomaga Google i użytkownikom.
-
-**Kompletny przewodnik znajdziesz w artykule: [Treści produktowe SEO w e-commerce](/tresci-produktowe-seo)**
-
-### 5. Czy linkowanie wewnętrzne zwiększa sprzedaż?
-
-Absolutnie! Strategiczne linkowanie może zwiększyć wartość koszyka o 15-25%.
-
-Linkuj produkty komplementarne. Pokazuj powiązane kategorie. Twórz ścieżki zakupowe między produktami.
-
-**Sprawdź nasze case studies: [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne)**
-
-### 6. Jak długo czekać na efekty SEO?
-
-Pierwsze efekty widać po 3-6 miesiącach. Pełne rezultaty to 6-12 miesięcy.
-
-E-commerce często ma szybsze efekty niż inne branże. Commercial intent użytkowników jest wyższa. To przyspiesza konwersję.
-
-### 7. Czy warto inwestować w content marketing?
-
-Tak, ale strategicznie. Treści muszą wspierać sprzedaż produktów.
-
-Blog z przewodnikami zakupowymi działa świetnie. Porównania produktów przyciągają cenny long-tail traffic. Każdy artykuł powinien prowadzić do konkretnych produktów.
-
-### 8. Jakie są najważniejsze metryki?
-
-Organic revenue to królowa metryk. Revenue per organic session też się liczy.
-
-Pozycje dla produktowych keywords to podstawa. Organic traffic do kategorii pokazuje trendy. Conversion rate z ruchu organicznego mierzy skuteczność.
-
-## Podsumowanie - SEO jako długoterminowa inwestycja w rozwój sklepu
-
-SEO w e-commerce to maraton, nie sprint. Właściciele sklepów, którzy oczekują rezultatów po miesiącu, skazują się na rozczarowanie. Ci, którzy myślą strategicznie i budują systematycznie, po roku cieszą się 40-60% ruchu organicznego i znacznie niższymi kosztami pozyskania klienta.
-
-Holistyczne podejście daje najlepsze rezultaty. Nie możesz mieć genialnych opisów produktów przy sklepie ładującym się 8 sekund. Nie zbudujesz authority z świetnymi treściami, jeśli struktura linkowania przypomina labirynt. Wszystkie elementy muszą współgrać jak orkiestra.
-
-Inwestycja w SEO różni się od wydatków na reklamy. Google Ads przestaje generować ruch w momencie wyłączenia kampanii. Dobrze zoptymalizowana strona produktu będzie przyciągać klientów przez lata, nawet gdy śpisz. To różnica między wynajmem a kupnem nieruchomości.
-
-**Każdy dzień bez optymalizacji to stracone okazje sprzedażowe.** Podczas gdy Ty zastanawiasz się nad strategią, konkurencja buduje pozycje dla kluczowych produktów. Sezonowość e-commerce nie czeka – świąteczny ruch planuje się od września, letnie trendy od marca.
-
-Nie musisz robić wszystkiego na raz. Zacznij od biggest impact areas w zależności od aktualnych problemów:
-
-**Masz problemy techniczne?** Strona ładuje się wolno, Google źle indeksuje kategorie, mobile sprawia kłopoty? Szczegółowy plan naprawczy znajdziesz w artykule: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
-
-**Produkty się nie sprzedają mimo ruchu?** Opisy są słabe, brakuje przekonujących argumentów sprzedażowych, konkurencja wygrywa na treściach? Sprawdź przewodnik: [Treści produktowe SEO w e-commerce](/tresci-produktowe-seo)
-
-**Niska średnia wartość koszyka?** Klienci kupują jeden produkt i wychodzą, słaba nawigacja między kategoriami, brak cross-sellingu? Rozwiązanie czeka w: [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne)
-
-ROI z SEO rośnie z czasem. Pierwszy rok to budowanie fundamentów. Drugi to zbieranie plonów. Trzeci to dominacja w wynikach wyszukiwania. Sklepy, które zaczynają dziś, za dwa lata będą w zupełnie innej lidze konkurencyjnej.
+Musisz balansować między SEO a conversion rate. To wymaga zupełnie
