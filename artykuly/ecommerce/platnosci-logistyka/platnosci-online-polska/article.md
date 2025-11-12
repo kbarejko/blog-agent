@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **BLIK z rekordowym udziałem 45% rynku** - to zjawisko czysto polskie, które może zaskakiwać, ale systematycznie wypiera tradycyjne karty płatnicze i zmusza właścicieli sklepów internetowych do przewartościowania swoich strategii
-- **Prowizje wahają się od 1,2% do 3,5%** - sprawdziliśmy aktualne stawki u największych graczy: PayU, Przelewy24, Paynow czy Tpay, plus praktyczne wskazówki, jak wynegocjować lepsze warunki gdy wolumen sprzedaży rośnie
+- **[Prowizje wahają się od 1,2% do 3,5%](/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci/)** - sprawdziliśmy aktualne stawki u największych graczy: PayU, Przelewy24, Paynow czy Tpay, plus praktyczne wskazówki, jak wynegocjować lepsze warunki gdy wolumen sprzedaży rośnie
 - **Porzucanie koszyków spada nawet o 23%** - kluczem wydaje się być optymalizacja całego procesu, szczególnie funkcje one-click i inteligentne ustawianie kolejności metod płatności według lokalnych preferencji
 - **Compliance z PCI DSS przestaje być Twoim zmartwieniem** - prawda jest taka, że przy współpracy z zewnętrznymi operatorami to oni biorą odpowiedzialność za zgodność, choć pewne podstawowe zasady (ich jest 5) nadal musisz zachować
 - **Praktyczna checklist 11 konkretnych kroków** - przeprowadzimy Cię przez cały proces: od wstępnej analizy potrzeb, przez wybór odpowiedniego dostawcy, aż po monitoring konwersji, plus sekcja FAQ z najczęstszymi pułapkami podczas wdrożenia
@@ -10,9 +10,9 @@
 
 Polacy wykonali ponad 2,3 miliarda płatności bezgotówkowych w 2023 roku. Wartość transakcji e-commerce przekroczyła jednocześnie 100 miliardów złotych. Te liczby prawdopodobnie mówią więcej niż długie analizy rynku. Sposób płacenia klientów może bowiem przesądzić o tym, czy sklep internetowy odniesie sukces.
 
-Typowy scenariusz wygląda tak: klient wypełnia koszyk za 400 złotych, przechodzi przez proces wyboru produktów, dociera na koniec... i nie znajduje swojej metody płatności. Porzuca zakup. Idzie do konkurencji. Podobne sytuacje powtarzają się miliony razy każdego dnia w polskim e-commerce.
+Typowy scenariusz wygląda tak: klient wypełnia koszyk za 400 złotych, przechodzi przez proces wyboru produktów, dociera na koniec... i nie znajduje swojej metody płatności. Porzuca zakup. Idzie do konkurencji. Podobne sytuacje powtarzają się [miliony razy każdego dnia w polskim e-commerce](/ecommerce/platnosci-logistyka/allegro-integracja/).
 
-System płatności to dużo więcej niż techniczna formalność. To strategiczna decyzja wpływająca na konwersję, zadowolenie klientów i zyski biznesu. Różnica między dobrym a złym wyborem? Nawet 20% więcej lub mniej sfinalizowanych transakcji.
+System płatności to dużo więcej niż techniczna formalność. To [strategiczna decyzja wpływająca na konwersję](/ecommerce/platnosci-logistyka/cross-border-ue/), zadowolenie klientów i zyski biznesu. Różnica między dobrym a złym wyborem? Nawet 20% więcej lub mniej sfinalizowanych transakcji.
 
 ## Krajobraz płatności online w Polsce - co musisz wiedzieć
 
