@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **SEO techniczne to fundament konwersji** - Core Web Vitals wpływają bezpośrednio na ranking Google i współczynnik zakupów, wolny sklep traci 20% sprzedaży
-- **Unikalne treści produktowe zwiększają ruch o 300%** - kopiowanie opisów od dostawców to strzał w stopę, własne treści to goldmine dla long-tail keywords
-- **Architektura silosów linkuje kategorie strategicznie** - prawidłowa struktura wewnętrznego linkowania przenosi "SEO juice" między produktami i buduje autorytet kategorii
-- **ROI z SEO vs Google Ads w liczbach** - organiczny ruch kosztuje 10x mniej niż płatne kampanie, ale efekty widać po 6 miesiącach, nie po 6 dniach
-- **Roadmap wdrożenia krok po kroku** - konkretny plan działania od audytu technicznego po monitoring KPI, z linkami do szczegółowych przewodników
+- **Core Web Vitals wpływają na konwersję o 15-20%** - wolne ładowanie obrazów produktów i filtry to główne zabójcy sprzedaży w sklepach online
+- **Architektura silosowa zwiększa ruch o 40%** - przemyślane linkowanie między kategoriami i produktami prowadzi Google'a przez najważniejsze strony sklepu
+- **Plan 90 dni z quick wins** - konkretne działania które możesz wdrożyć samodzielnie, od audytu technicznego po optymalizację bestsellerów
+- **Duplicate content w 80% sklepów** - kopiowanie opisów od producentów zabija pozycje, ale są sprawdzone sposoby na unikalne treści produktowe
+- **ROI z SEO vs. Google Ads** - organiczny ruch konwertuje 2x lepiej niż płatna reklama, ale wymaga cierpliwości i właściwej strategii

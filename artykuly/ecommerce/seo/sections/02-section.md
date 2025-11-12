@@ -1,15 +1,27 @@
-## Fundament: SEO techniczne i Core Web Vitals
+## Treści produktowe – serce SEO w e-commerce
 
-Sklep internetowy bez solidnych fundamentów technicznych to jak dom na piasku. Możesz mieć najlepsze produkty i opisy na świecie, ale jeśli strona ładuje się 8 sekund, klienci odejdą wcześniej niż Google zdąży ją zindeksować.
+### Optymalizacja kart produktów
 
-Core Web Vitals to nie techniczny kaprys. To bezpośredni wpływ na twój portfel. Badanie Google pokazuje, że poprawa Largest Contentful Paint o 0,1 sekundy może zwiększyć współczynnik konwersji nawet o 8%. W sklepie robiącym milion złotych rocznie to 80 tysięcy różnicy.
+Karta produktu to Twój sales rep pracujący 24/7. Musi sprzedawać i pozycjonować się jednocześnie. Problem? Te dwa cele często się wykluczają.
 
-Największym wrogiem e-commerce jest powolne ładowanie zdjęć produktów. Katalog z 500 produktami na stronie kategorii może ważyć więcej niż cała strona firmowa. Roboty Google przeglądają takie strony jak strudzony turysta z ciężkim plecakiem.
+Tytuły produktów to klasyczny przykład. SEO-wiec chce „Buty trekkingowe damskie wodoodporne Salomon X Ultra 3 GTX", klient szuka „wygodnych butów na góry". Prawda leży pośrodku – tytuł musi zawierać kluczowe cechy, ale brzmieć naturalnie.
 
-Crawling i indeksowanie w sklepach to osobna sztuka. Google musi zrozumieć twoją strukturę kategorii, znaleźć wszystkie produkty i nie pogubić się w filterach. Złożona nawigacja faceted może wygenerować miliony bezwartościowych URL-i. Każdy z nich "kradnie" budżet crawlingu od ważnych stron.
+Zacznij od głównej korzyści lub zastosowania, dodaj markę i model, skończ kluczową cechą. „Buty trekkingowe Salomon X Ultra 3 GTX – wodoodporne i ultralekkie" brzmi lepiej niż techniczny katalog cech.
 
-Architektura URL w e-commerce przypomina system dróg w mieście. Prostsze znaczy lepsze. `sklep.pl/obuwie/meskie/sportowe/nike` mówi wszystko Google i klientom. `sklep.pl/p?cat=123&br=456&t=789` to zagadka, którą nikt nie lubi rozwiązywać.
+Opisy produktowe to największy problem e-commerce. 80% sklepów kopiuje teksty od producentów. Rezultat? Dziesiątki identycznych opisów walczących o te same frazy. Google rankuje oryginały, nie kopie.
 
-Mobile-first indexing w e-commerce to już nie przyszłość. To teraz. Ponad 60% zakupów online zaczyna się na telefonie. Twoja mobilna wersja musi być nie tylko szybka, ale funkcjonalna. Każdy filtr, każde zdjęcie produktu, cały proces płatności.
+Własny opis to inwestycja, która się zwraca. 200-300 słów o korzyściach, zastosowaniach i rozwiązywanych problemach. Użyj języka klientów – analizuj komentarze, pytania w social mediach, frazy z czatów.
 
-Szczegółowy przewodnik po SEO technicznym i optymalizacji Core Web Vitals znajdziesz w artykule [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv).
+Reviews to SEO-gold mine. User-generated content naturalnie zawiera long-tail keywords, których nie wymyślisz w biurze. „Super wygodne do biegania po asfalcie" to fraza warta rankingu, której nie znajdziesz w żadnym keyword plannerze.
+
+### Kategorie i filtry – wyzwania i możliwości
+
+Strony kategorii to Twoje najważniejsze landing pages. Tu ląduje większość ruchu z konkurencyjnych fraz jak „laptopy do gier" czy „sukienki na wesele".
+
+Nie popełniaj błędu millon stron – samych produktów bez treści. 300-500 słów opisu kategorii to minimum. Wyjaśnij różnice między podkategoriami, podaj kryteria wyboru, odpowiedz na podstawowe pytania.
+
+Filtry to SEO-pułapka numer jeden. Każda kombinacja tworzy nowy URL: `/laptopy?cena=1000-2000&marka=dell&procesor=intel`. Bez kontroli masz miliony stron śmieci.
+
+Rozwiązanie? Canonical tags dla mniej popularne kombinacje, noindex dla filtry niszowe, oddzielne landing pages dla wartościowych long-tail queries. „Laptopy Dell do 2000 zł" może być dedykowaną stroną, nie tylko wynikiem filtra.
+
+Dowiedz się więcej o tworzeniu treści produktowych, które sprzedają i pozycjonują się w wyszukiwarkach w naszym artykule o [treściach produktowych SEO](/tresci-produktowe-seo).
