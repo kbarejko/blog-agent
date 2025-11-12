@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Allegro Integracja",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Allegro Integracja",
+    "prompt": "Professional modern illustration for Allegro Integracja",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
