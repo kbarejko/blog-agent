@@ -1,0 +1,4 @@
+title: Ollama Integration Test
+target_audience: Developers
+tone: ekspercki, ale naturalny i rozmowny
+model: llama3:latest

@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Complete workflow test to nie E2E** - testuje konkretny proces biznesowy od początku do końca, a nie całą funkcjonalność aplikacji
-- **15-30 minut to maksymalny czas testu** - dłuższe testy stają się niestabilne i trudne do debugowania, lepiej podzielić na mniejsze części
-- **5-15 workflow testów wystarczy** - pokrywają najważniejsze ścieżki biznesowe, więcej prowadzi do problemów z utrzymaniem
-- **Smart waits i retry mechanisms** - rozwiązują 80% problemów z niestabilnymi testami i false positives
-- **Gotowa checklist 12 kroków** - praktyczny przewodnik implementacji od identyfikacji ścieżek po integrację z CI/CD
+- **Complete workflow test to gwarancja stabilności biznesu** - testuje całe procesy end-to-end zamiast pojedynczych funkcji, wyłapując 70% więcej błędów krytycznych dla użytkowników
+- **Strategia top-down vs bottom-up** - konkretne kryteria wyboru podejścia w zależności od złożoności systemu i dostępnych zasobów zespołu
+- **Selenium, Cypress, Playwright + CI/CD** - gotowy stack narzędzi z praktycznymi przykładami integracji dla workflow'ów trwających do 30 minut
+- **Flaky tests to największy wróg** - sprawdzone techniki eliminacji niestabilności testów i debugowania złożonych scenariuszy z wieloma integracjami
+- **Checklist 13 kroków + FAQ** - kompletny przewodnik implementacji od mapowania procesów po integrację z pipeline'ami deployment

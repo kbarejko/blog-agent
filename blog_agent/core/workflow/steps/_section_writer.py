@@ -64,7 +64,7 @@ def write_section_with_review(
 
     # Generate and review with retries
     for attempt in range(max_retries + 1):
-        print(f"   Generating section {section_index + 1}: {section['title']} (attempt {attempt + 1})")
+        print(f"   Generating section {section_index + 1}: {section['title']} (attempt {attempt + 1})", flush=True)
 
         # Generate content
         content = ai.generate(prompt, max_tokens=1500)

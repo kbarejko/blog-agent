@@ -46,7 +46,7 @@ def execute_summary(
         }
     )
 
-    print("🔄 Generating summary...")
+    print("🔄 Generating summary...", flush=True)
 
     # Generate summary with AI
     response = ai.generate(prompt, max_tokens=800)

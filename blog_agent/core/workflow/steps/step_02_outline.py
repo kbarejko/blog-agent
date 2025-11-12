@@ -45,7 +45,7 @@ def execute_outline(
             'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
         }
     )
-    print("🔄 Generating outline...")
+    print("🔄 Generating outline...", flush=True)
 
     # Generate outline with AI
     response = ai.generate(prompt, max_tokens=2000)

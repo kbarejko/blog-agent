@@ -259,6 +259,9 @@ def list(series: str):
 
 def main():
     """Main CLI entry point"""
+    # Enable unbuffered output for real-time logs
+    sys.stdout.reconfigure(line_buffering=True)
+    sys.stderr.reconfigure(line_buffering=True)
     cli()
 
 
