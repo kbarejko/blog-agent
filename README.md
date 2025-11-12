@@ -7,6 +7,7 @@ AI-powered blog article generation system for Digital Vantage.
 - **Automated Article Generation**: 15-step workflow from outline to publication
 - **Silo Article Support**: Special handling for category hub pages with automatic sub-article detection and FAQ
 - **Flexible Workflow Control**: Skip steps or step groups (writing, metadata, post-processing)
+- **Target Word Count**: Per-article length control (e.g., 2000, 3500, 5000 words) - automatically adjusts sections
 - **Auto-Load Existing Files**: Skipped steps automatically load existing content (outline.md, draft.md, etc.)
 - **Multi-Model Support**: Claude, OpenAI (GPT-4), Google Gemini, Ollama (local)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
@@ -162,6 +163,7 @@ model: "claude-sonnet-4-20250514"
 
 **Optional Fields:**
 ```yaml
+target_word_count: 2500  # Target article length (e.g., 2000, 3500, 5000)
 meta_title: "SEO meta title (auto-generated if empty)"
 meta_description: "SEO meta description (auto-generated if empty)"
 ```

@@ -236,6 +236,66 @@ model: "claude-sonnet-4-20250514"
 
 Controls step behavior, quality thresholds, and default settings.
 
+## 📏 Article Length Control
+
+You can control article length at three levels:
+
+### 1. Global Settings (workflow.yaml)
+
+Controls default section length for all articles:
+
+```yaml
+# blog_agent/config/workflow.yaml
+review:
+  min_words: 300      # Minimum words per section
+  max_words: 400      # Maximum words per section
+  tolerance_percent: 10
+```
+
+### 2. Per-Article Target (config.yaml) ⭐ Recommended
+
+Set target word count for individual articles:
+
+```yaml
+# artykuly/ecommerce/seo/config.yaml
+title: "SEO w e-commerce"
+target_audience: "Właściciele sklepów"
+tone: "ekspercki, ale naturalny"
+target_word_count: 2500  # Target total article length
+```
+
+**How it works:**
+- System calculates optimal number of sections (e.g., 2500 words → 6-7 sections)
+- Calculates words per section (~350-400 words/section)
+- AI receives guidance: "Target length: ~380 words for this section"
+
+**Example output:**
+```bash
+📏 Target: 2500 words → 7 sections × 357 words/section
+```
+
+**Common targets:**
+- Short article: 1500-2000 words
+- Standard article: 2500-3500 words
+- Long article: 4000-5000 words
+- Silo article (hub): 1500-2500 words
+
+### 3. Manual Control
+
+Edit `outline.md` to control sections:
+
+```bash
+# Generate outline only
+python -m blog_agent create --config path/config.yaml --only outline
+
+# Edit outline.md - add/remove sections
+
+# Continue with edited outline
+python -m blog_agent create --config path/config.yaml --skip outline
+```
+
+**📖 See [ARTICLE_LENGTH.md](ARTICLE_LENGTH.md) for detailed length configuration guide.**
+
 ## 🚨 Error Handling
 
 If a step fails:
@@ -253,13 +313,15 @@ python -m blog_agent create --config path/config.yaml --skip outline
 ## 💡 Tips
 
 1. **Always review outline first**: Run `--only outline` and review before full generation
-2. **Iterative refinement**: Run with `--skip` to regenerate specific parts
-3. **Group shortcuts**: Use groups like `writing`, `metadata` for bulk operations
-4. **Silo articles**: Create silo articles before sub-articles for better context
-5. **Manual edits**: Feel free to edit generated files - skip those steps on next run
+2. **Set target_word_count**: Add `target_word_count: 2500` to config.yaml for length control
+3. **Iterative refinement**: Run with `--skip` to regenerate specific parts
+4. **Group shortcuts**: Use groups like `writing`, `metadata` for bulk operations
+5. **Silo articles**: Create silo articles before sub-articles for better context
+6. **Manual edits**: Feel free to edit generated files - skip those steps on next run
 
 ## 📚 Related Documentation
 
 - [README.md](README.md) - Project overview and setup
+- [ARTICLE_LENGTH.md](ARTICLE_LENGTH.md) - Article length configuration guide
 - [ARCHITECTURE.md](ARCHITECTURE.md) - Technical architecture
 - [OLLAMA_SETUP.md](OLLAMA_SETUP.md) - Local AI setup
