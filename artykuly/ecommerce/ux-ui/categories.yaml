@@ -1,0 +1,17 @@
+categories:
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
+- slug: responsywne-strony
+  title: Responsywne Strony
+  path: it-i-technologia/mobilne-technologie/responsywne-strony
+- slug: sklepy-internetowe
+  title: Sklepy Internetowe
+  path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+- slug: najlepsze-praktyki-ux
+  title: Najlepsze Praktyki UX
+  path: strony-internetowe/projektowanie-ux-ui/najlepsze-praktyki-ux
+count: 5
