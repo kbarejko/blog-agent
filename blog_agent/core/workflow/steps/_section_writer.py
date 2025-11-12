@@ -47,11 +47,21 @@ def write_section_with_review(
         previous_sections = article.sections[:section_index]
         previous_context = "\n\n---\n\n".join(previous_sections)
 
+    # Calculate target words per section if target_word_count is specified
+    words_per_section_guidance = ""
+    if article.config.target_word_count:
+        # Calculate words per section based on total target
+        num_sections = len(article.outline.sections)
+        overhead = 700  # FAQ, checklist, intro overhead
+        content_words = max(article.config.target_word_count - overhead, num_sections * 200)
+        words_per_section = round(content_words / num_sections)
+        words_per_section_guidance = f" Docelowa długość tej sekcji: ~{words_per_section} słów."
+
     # Render prompt
     variables = {
         'TYTUL_ARTYKULU': article.config.title,
         'KONSPEKT_TRESC': article.outline.to_markdown(),
-        'WYTYCZNE_WSPOLNE': common_prompt,
+        'WYTYCZNE_WSPOLNE': common_prompt + words_per_section_guidance,
         'TARGET_AUDIENCE': article.config.target_audience,
         'SECTION_TITLE': section['title'],
         'SECTION_DESCRIPTION': section.get('description', ''),

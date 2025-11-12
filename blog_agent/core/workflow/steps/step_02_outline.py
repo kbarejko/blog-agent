@@ -46,6 +46,23 @@ def execute_outline(
     # Check if this is a silo article (no slug) to use appropriate prompt
     is_silo_article = not slug
 
+    # Calculate suggested article structure based on target_word_count
+    target_info = ""
+    if article.config.target_word_count:
+        # Calculate number of sections and words per section
+        # Account for FAQ (~500 words) and Checklist (~200 words) if applicable
+        overhead = 500 if is_silo_article else 300  # FAQ/Checklist overhead
+        content_words = article.config.target_word_count - overhead
+
+        # Optimal section length: 300-400 words
+        optimal_section_length = 350
+        suggested_sections = max(3, round(content_words / optimal_section_length))
+        words_per_section = round(content_words / suggested_sections)
+
+        target_info = f"\n\n**DŁUGOŚĆ ARTYKUŁU:** Docelowa długość całkowita: {article.config.target_word_count} słów. Sugerowana struktura: {suggested_sections} sekcji × ~{words_per_section} słów/sekcję (+ FAQ/podsumowanie ~{overhead} słów)."
+
+        print(f"📏 Target: {article.config.target_word_count} words → {suggested_sections} sections × {words_per_section} words/section")
+
     if is_silo_article:
         # Use silo-specific prompt
         # Get list of existing articles in this silo for context
@@ -58,7 +75,7 @@ def execute_outline(
                 'TEMAT_ARTYKULU': article.config.title,
                 'TARGET_AUDIENCE': article.config.target_audience,
                 'URL_ARTYKULU': article_url,
-                'KONTEKST_TEMATU': f"Artykuł SILO dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
+                'KONTEKST_TEMATU': f"Artykuł SILO dla {article.config.target_audience.lower()}. Ton: {article.config.tone}{target_info}",
                 'SILO_ARTICLES': silo_articles_text,
             }
         )
@@ -70,7 +87,7 @@ def execute_outline(
                 'TEMAT_ARTYKULU': article.config.title,
                 'TARGET_AUDIENCE': article.config.target_audience,
                 'URL_ARTYKULU': article_url,
-                'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
+                'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}{target_info}",
             }
         )
     print("🔄 Generating outline...", flush=True)
