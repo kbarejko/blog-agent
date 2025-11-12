@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **300-800 słów to sweet spot** - optymalna długość opisu produktu zależy od kategorii, ale zawsze powyżej 150 słów dla lepszej widoczności w Google
 - **Unikalne opisy zwiększają sprzedaż o 40%** - kopiowanie opisów od producenta zabija SEO i konwersję, własne treści to inwestycja która się zwraca
@@ -7,7 +7,7 @@
 - **Checklist 12 działań SEO** - gotowa lista do wdrożenia w sklepie, od research słów kluczowych po pomiar skuteczności opisów
 
 
-# Treści produktowe SEO w e-commerce: Jak pisać opisy, które sprzedają i pozycjonują
+## Treści produktowe SEO w e-commerce: Jak pisać opisy, które sprzedają i pozycjonują
 
 Większość sklepów internetowych popełnia ten sam błąd: kopiuje opisy od producenta lub ogranicza się do suchej listy cech produktu. Efekt? Identyczne treści jak u konkurencji, zerowa widoczność w Google i klienci, którzy odchodzą po 10 sekundach.
 
@@ -15,7 +15,7 @@ Właściwie napisane opisy produktów to nie koszt, lecz inwestycja. Mogą zwię
 
 W tym artykule pokażę, jak tworzyć treści produktowe, które działają podwójnie – przekonują do zakupu i budują organiczny ruch. Bez teoretyzowania, z konkretnymi przykładami i sprawdzonymi technikami.
 
-## Dlaczego treści produktowe to fundament sukcesu e-commerce
+### Dlaczego treści produktowe to fundament sukcesu e-commerce
 
 Wyobraź sobie dwie sytuacje. Pierwsza: klient wchodzi na stronę produktu i widzi trzy zdania o "wysokiej jakości" i "nowoczesnym designie". Druga: czyta konkretną historię o tym, jak produkt rozwiązuje jego problem, wraz z detalami, które budują zaufanie.
 
@@ -31,7 +31,7 @@ Pamiętam sklep z narzędziami, który zainwestował w przepisanie opisów 200 n
 
 Rzecz w tym, że treści produktowe pracują 24/7. Raz napisane, przyciągają klientów przez lata, w przeciwieństwie do reklam, które przestają działać z chwilą wyłączenia budżetu.
 
-## Anatomia opisu produktu, który sprzedaje i pozycjonuje
+### Anatomia opisu produktu, który sprzedaje i pozycjonuje
 
 Każdy opis produktu potrzebuje solidnych fundamentów. Zacznijmy od nagłówka H1 – to pierwsza rzecz, którą widzą zarówno klienci, jak i Google. Zamiast nudnego "Laptop ASUS X540" spróbuj "Laptop ASUS X540 – wydajny komputer do pracy i rozrywki". Naturalnie wplecione słowo kluczowe plus korzyść w jednym zdaniu.
 
@@ -41,7 +41,7 @@ Najważniejsza zasada: korzyści przed cechami. Klient nie kupuje "8 GB RAM", ty
 
 Specyfikacja techniczna pozostaje konieczna, ale umieść ją w osobnej sekcji. Część klientów potrzebuje konkretów, żeby porównać z konkurencją lub sprawdzić kompatybilność. Organizuj dane w przejrzystej tabeli lub punktach.
 
-### Długość opisu - mit "krótko = lepiej"
+#### Długość opisu - mit "krótko = lepiej"
 
 Słyszałeś pewnie, że "ludzie nie czytają długich tekstów online". To półprawda, która kosztuje sklepy fortunę. Rzeczywistość jest bardziej skomplikowana.
 
