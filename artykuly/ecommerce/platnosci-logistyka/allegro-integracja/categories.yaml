@@ -1,0 +1,17 @@
+categories:
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
+- slug: sklepy-internetowe
+  title: Sklepy Internetowe
+  path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+- slug: api
+  title: API
+  path: strony-internetowe/backend-development/api
+- slug: automatyzacja-procesow
+  title: Automatyzacja procesów
+  path: rozwoj-oprogramowania/automatyzacja-procesow
+- slug: narzedzia-biznesowe
+  title: Narzędzia biznesowe
+  path: firma/narzedzia-biznesowe
+count: 5
