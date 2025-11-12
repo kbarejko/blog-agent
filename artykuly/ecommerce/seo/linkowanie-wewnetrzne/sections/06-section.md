@@ -1,25 +1,21 @@
-## Najczęstsze błędy w linkowaniu wewnętrznym sklepów
+### A/B testing strategii linkowania
+
+Intuicja w e-commerce to droga donikąd. To, co wydaje się oczywiste, często okazuje się błędne w konfrontacji z danymi. Jeden z moich klientów był przekonany, że linki do „Premium Collection" zwiększą sprzedaż. Test A/B pokazał spadek konwersji o 15% - klienci postrzegali to jako sygnał wysokich cen.
+
+Testowanie różnych formatów rekomendacji przynosi zaskakujące wyniki. „Podobne produkty" vs „Inni klienci oglądali" vs „Uzupełnij swój look" - te same produkty, różne opakowania. W sklepie z modą damską ostatni wariant generował 40% więcej kliknięć. Kobiety kupują zestawy, nie pojedyncze rzeczy.
+
+Pozycja linków ma znaczenie równie krytyczne co ich treść. Sidebar z rekomendacjami działa świetnie na desktopie, ale na mobile jest praktycznie niewidoczny. Jeden prosty test pokazał, że przesunięcie sekcji „Często kupowane razem" pod opis produktu zwiększyło kliki o 60%.
+
+Heat mapy ujawniają brutalne prawdy o zachowaniach użytkowników. Pięknie zaprojektowane linki w stopce? Praktycznie ignorowane. Dyskretny tekst „zobacz więcej kolorów" w opisie? Klika go 30% odwiedzających. Klienci mają własne wzorce skanowania strony, które rzadko pokrywają się z wizją designerów.
+
+Czas trwania testów ma kluczowe znaczenie. Tydzień to za mało - zachowania różnią się w weekendy i dni robocze. Miesiąc to minimum, szczególnie w branżach sezonowych. Sklep z artykułami sportowymi musi uwzględnić cykle treningowe i wydarzenia sportowe.
+
+Segmentacja wyników odkrywa ukryte insights. Nowi klienci klikają inne linki niż powracający. Użytkownicy mobile zachowują się inaczej niż ci z desktopa. Klienci z kampanii płatnych mają odmienne wzorce nawigacji od organicznych. Jedna strategia linkowania dla wszystkich to recepta na przeciętne wyniki.
+
+## Częste błędy w linkowanie wewnętrznym sklepów internetowych
 
 ### Błędy techniczne
 
-Linki do produktów wyprzedanych to plaga większości sklepów internetowych. System automatycznie generuje rekomendacje "Klienci kupili również", ale nie sprawdza, czy produkty są dostępne. Klient klika w butki polecane przy kurtce zimowej, a trafia na komunikat "produkt niedostępny". 
+Broken internal links to plaga e-commerce. Zmieniasz URL produktu, zapominasz o linkach z innych stron. Google napotyka błąd 404, klient widzi pustą stronę. W sklepie z 10 000 produktami miesięcznie pojawia się średnio 50-100 złamanych linków. Bez regularnego audytu szybko tracisz kontrolę.
 
-Przekierowania 301 i 302 w strukturze produktowej tworzą labirynt frustracji. Stary link produktu przekierowuje do kategorii, kategoria do strony głównej. Google gubi nici PageRank, użytkownicy gubią cierpliwość.
-
-Wersja mobilna często nie nadąża za desktop'ową. Menu działa perfekcyjnie na komputerze, ale na telefonie linki nakładają się na siebie. Touch'e nie trafiają w odpowiednie miejsca. Ponad 60% ruchu e-commerce to urządzenia mobilne – te problemy kosztują fortunę.
-
-### Błędy strategiczne
-
-Brak logiki w rekomendacjach zabija zaufanie klientów. System poleca drogi zegarek przy tanich słuchawkach albo kombinezon motocyklowy przy książkach. Algoritmy wychwytują statystyczne korelacje, ale ignorują zdrowy rozsądek.
-
-Ignorowanie danych o zachowaniach klientów to marnowanie goldmine'a informacji. Google Analytics pokazuje, które produkty przeglądają razem. Heat mapy ujawniają, gdzie klikają użytkownicy. Te dane powinny sterować strategią linkową, nie losowe domysły.
-
-Skupienie tylko na SEO, pomijając sprzedaż, prowadzi donikąd. Linkowanie "butów męskich" do każdego produktu w kategorii może poprawić pozycje w Google, ale nie zwiększy konwersji. SEO bez biznesowej logiki to strzał w stopę.
-
-### Problemy z user experience
-
-Zbyt agresywne linki sprzedażowe odstraszają klientów. Pop-up'y z rekomendacjami co pięć sekund, migające banery "KUP TERAZ", linki w każdym zdaniu opisu produktu. Klient czuje się jak w natrętnym sklepie z natarczywym sprzedawcą.
-
-Chaos w nawigacji powstaje przez brak spójnej strategii. Menu główne pokazuje 30 kategorii, sidebar kolejne 20, stopka następne 40. Użytkownik nie wie, gdzie szukać tego, co potrzebuje.
-
-Brak spójności w prezentacji produktów tworzy wrażenie chaosu. Niektóre kategorie mają piękne zdjęcia i obszerne opisy, inne – pixelowe foto i dwa zdania tekstu. Ta niekonsekwencja psuje całe wrażenie z zakupów i obniża zaufanie do marki.
+Zbyt głęboka struktura to częsty błąd sklepów rozrastających się organicznie. „Strona główna > Moda > Damska > Sukienki > Letnie > Maxi > Wzorzyste" - siedem kliknięć do produktu to garantowany spadek ruchu organicznego. Google rzadko zagłębia się tak daleko, klienci tym bardziej.
