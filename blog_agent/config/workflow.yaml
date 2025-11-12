@@ -89,6 +89,13 @@ steps:
     # cfg_scale: 7.0  # guidance scale
     skip_existing: true
 
+# Quality Review Configuration
+review:
+  min_words: 300      # Minimum words per section
+  max_words: 400      # Maximum words per section
+  min_flesch: 40      # Minimum Flesch Reading Ease (40 = college level)
+  max_flesch: 60      # Maximum Flesch Reading Ease (60 = 8th-9th grade)
+
 # Metadata
 metadata:
   version: "1.0"

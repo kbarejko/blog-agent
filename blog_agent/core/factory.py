@@ -65,7 +65,8 @@ class DependencyFactory:
 
         # Create services
         prompts = PromptLoader(self.prompts_dir)
-        review = ReviewService()
+        review_config = self._load_review_config()
+        review = ReviewService(review_config)
         category_matcher = CategoryMatcher(category_reader)
 
         # Optional: Payload CMS (if configured)
@@ -127,6 +128,36 @@ class DependencyFactory:
         # Replace environment variables in config
         return self._replace_env_vars(provider_config)
 
+    def _load_review_config(self) -> Dict[str, Any]:
+        """
+        Load review service configuration from workflow.yaml
+
+        Returns:
+            Review config dict with min_words, max_words, min_flesch, max_flesch
+        """
+        workflow_path = self.config_dir / "workflow.yaml"
+
+        if not workflow_path.exists():
+            # Return default config
+            return {
+                'min_words': 300,
+                'max_words': 400,
+                'min_flesch': 40,
+                'max_flesch': 60
+            }
+
+        with open(workflow_path, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f)
+
+        # Get review section, fallback to defaults
+        review_config = config.get('review', {})
+        return {
+            'min_words': review_config.get('min_words', 300),
+            'max_words': review_config.get('max_words', 400),
+            'min_flesch': review_config.get('min_flesch', 40),
+            'max_flesch': review_config.get('max_flesch', 60)
+        }
+
     def _load_payload_config(self) -> Dict[str, Any]:
         """
         Load Payload CMS configuration
@@ -138,7 +169,7 @@ class DependencyFactory:
 
         with open(config_path, 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f)
-        
+
         # Replace environment variables in config
         return self._replace_env_vars(config)
 

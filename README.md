@@ -185,6 +185,29 @@ When using `./create_articles_tree.sh -c`, config.yaml is created with:
 
 Defines 15-step workflow with module paths and descriptions.
 
+**Quality Review Configuration:**
+
+The `review` section controls section quality validation during article generation:
+
+```yaml
+review:
+  min_words: 300      # Minimum words per section
+  max_words: 400      # Maximum words per section
+  min_flesch: 40      # Minimum Flesch Reading Ease (40 = college level)
+  max_flesch: 60      # Maximum Flesch Reading Ease (60 = 8th-9th grade)
+```
+
+**Flesch Reading Ease Scale:**
+- 90-100: Very Easy (5th grade)
+- 60-70: Easy (8th-9th grade)
+- 30-50: Difficult (College level)
+- 0-30: Very Difficult (University graduate)
+
+**Defaults work well for most business articles. Adjust if:**
+- Writing technical docs → lower min_flesch (30-40)
+- Writing beginner content → raise min_flesch (50-60)
+- Need longer sections → raise max_words (500-600)
+
 ### providers.yaml
 
 Configure AI providers (Claude, OpenAI, Gemini, Ollama).
