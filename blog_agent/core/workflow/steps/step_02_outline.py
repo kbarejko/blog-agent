@@ -36,12 +36,19 @@ def execute_outline(
 
     # Load and render prompt
     series, silo, slug = article.get_series_silo_slug()
+
+    # Build URL (handle silo articles without slug)
+    if slug:
+        article_url = f"/artykuly/{series}/{silo}/{slug}"
+    else:
+        article_url = f"/artykuly/{series}/{silo}"
+
     prompt = prompts.load_and_render(
         "konspekt/prompt_konspekt_artykulu.md",
         {
             'TEMAT_ARTYKULU': article.config.title,
             'TARGET_AUDIENCE': article.config.target_audience,
-            'URL_ARTYKULU': f"/artykuly/{series}/{silo}/{slug}",
+            'URL_ARTYKULU': article_url,
             'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
         }
     )

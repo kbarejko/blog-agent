@@ -277,13 +277,34 @@ class Article:
         Extract series, silo, and slug from path
 
         Returns: (series, silo, slug)
-        Example: ('ecommerce', 'operacje', 'bezpieczenstwo-rodo')
+
+        Supports two structures:
+        - Regular article: artykuly/[series]/[silo]/[slug] → ('series', 'silo', 'slug')
+        - Silo article: artykuly/[series]/[silo] → ('series', 'silo', '')
+
+        Examples:
+        - 'artykuly/ecommerce/operacje/bezpieczenstwo-rodo' → ('ecommerce', 'operacje', 'bezpieczenstwo-rodo')
+        - 'artykuly/ecommerce/seo' → ('ecommerce', 'seo', '')
         """
         parts = self.path.parts
-        # Assume structure: artykuly/[series]/[silo]/[slug]
-        if len(parts) >= 4 and parts[-4] == "artykuly":
-            return parts[-3], parts[-2], parts[-1]
-        raise ValueError(f"Invalid article path structure: {self.path}")
+
+        # Find 'artykuly' in path
+        try:
+            artykuly_idx = parts.index('artykuly')
+        except ValueError:
+            raise ValueError(f"Invalid article path structure: {self.path} (missing 'artykuly')")
+
+        # Check remaining parts after 'artykuly'
+        remaining = parts[artykuly_idx + 1:]
+
+        if len(remaining) == 3:
+            # Regular article: artykuly/series/silo/slug
+            return remaining[0], remaining[1], remaining[2]
+        elif len(remaining) == 2:
+            # Silo article: artykuly/series/silo
+            return remaining[0], remaining[1], ''
+        else:
+            raise ValueError(f"Invalid article path structure: {self.path} (expected 2 or 3 levels after 'artykuly', got {len(remaining)})")
 
     # === Validation ===
 
