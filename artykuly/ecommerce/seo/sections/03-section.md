@@ -1,19 +1,27 @@
-## Treści produktowe jako silnik SEO
+## SEO techniczne - szybkość i Core Web Vitals
 
-Opisy produktów to najbardziej niedoceniana goldmine w e-commerce SEO. Większość sklepów kopiuje standardowe opisy od producenta. To jak otwieranie restauracji z tym samym menu co wszyscy w okolicy.
+Twój sklep może mieć najlepsze produkty na świecie, ale jeśli strona ładuje się dłużej niż 3 sekundy, tracisz 40% potencjalnych klientów. Google wie o tym doskonale i od 2021 roku traktuje szybkość jako oficjalny czynnik rankingowy w e-commerce.
 
-Google nagradza unikalność. Sklep z autorskimi opisami ma ogromną przewagę nad konkurencją używającą szablonowych treści. Każdy unikalny opis to szansa na ranking w długich frazach, które są mniej konkurencyjne, ale często bardziej konwertujące.
+Core Web Vitals to nie tylko techniczne wskaźniki – to bezpośrednie mierniki frustracji użytkowników. Largest Contentful Paint pokazuje, jak długo czeka klient na główny element strony. W przypadku produktów to zazwyczaj zdjęcie główne.
 
-"Kurtka zimowa" to fraza za którą walczą tysiące sklepów. "Kurtka zimowa wodoodporna dla biegaczy" ma mniejszą konkurencję, ale wyższą intencję zakupową. Właśnie takie frazy łapiesz dobrymi opisami produktów.
+Cumulative Layout Shift mierzy, ile razy strona "skacze" podczas ładowania. Wyobraź sobie klienta, który chce kliknąć "Dodaj do koszyka", a przycisk nagle przesuwa się o 50 pikseli w dół. To recepta na frustrację i utratę sprzedaży.
 
-Struktura opisu produktu ma znaczenie dla SEO i konwersji. Najważniejsze informacje na górze - rozmiary, kolory, materiał. Potem korzyści dla klienta, nie tylko cechy techniczne. Na końcu szczegóły, które interesują pasjonatów lub profesjonalistów.
+### Optymalizacja szybkości ładowania
 
-Zdjęcia produktów to również treść dla Google. Alt teksty, nazwy plików, podpisy - wszystko może pracować na twoje SEO. Zamiast "IMG_1234.jpg" użyj "czerwone-buty-do-biegania-nike-air-zoom.jpg". Google Images to potężne źródło ruchu w e-commerce.
+Największe problemy tkwią w obrazach produktów. Sklepy internetowe ładują zdjęcia w rozdzielczości 4K, gdy użytkownik na telefonie potrzebuje maksymalnie 800px szerokości. WebP zamiast JPEG może zmniejszyć wagę plików o 30-40%.
 
-Warianty produktów tworzą problem duplikacji treści. Biała i czarna koszulka nie mogą mieć identycznych opisów. Różnice w kolorach, stylizacjach, pielęgnacji - każdy wariant może mieć swoje unikalne elementy treści.
+Lazy loading to kolejny must-have. Po co ładować 50 produktów na raz, skoro klient widzi tylko pierwsze 8? Nowoczesne przeglądarki wspierają natywne `loading="lazy"` – wystarczy jeden atrybut w HTML.
 
-Treści generowane przez użytkowników to SEO bonus. Opinie klientów, pytania i odpowiedzi, zdjęcia użytkowników - to wszystko tworzy unikalną wartość, której nie da się skopiować. Google widzi takie strony jako żywe i wartościowe dla użytkowników.
+Jednak szybkość to nie tylko frontend. Baza danych z 100 000 produktów potrzebuje optymalizacji zapytań. Cache'owanie stron kategorii może przyspieszyć ładowanie o 70-80%.
 
-Sezonowość produktów wymaga planowania treści z wyprzedzeniem. Opisy kurtek zimowych aktualizujesz we wrześniu, nie w grudniu. Letnie sukienki przygotowujesz w marcu. Google potrzebuje czasu, żeby zrozumieć i docenić nowe treści.
+### Core Web Vitals w kontekście sklepów
 
-Kompletny przewodnik po tworzeniu treści produktowych znajdziesz w artykule [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo).
+E-commerce ma unikalne wyzwania techniczne. Koszyki, filtry, galerie zdjęć – wszystko musi działać błyskawicznie. JavaScript odpowiedzialny za warianty produktów często blokuje główny wątek przeglądarki.
+
+Dokładne wytyczne dotyczące optymalizacji technicznej i Core Web Vitals dla sklepów internetowych opisaliśmy w artykule: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
+
+### Mobile-first i responsywność
+
+73% zakupów online odbywa się na urządzeniach mobilnych. Nie chodzi tylko o to, żeby strona się zmieściła na ekranie. Przyciski muszą być wystarczająco duże, formularze proste, a checkout możliwie najkrótszy.
+
+Google indeksuje strony w wersji mobilnej. Jeśli Twój sklep świetnie wygląda na desktopie, ale kuleje na telefonie, algorytm oceni go na podstawie słabszej wersji mobilnej.

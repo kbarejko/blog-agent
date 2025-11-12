@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **SEO techniczne zwiększa konwersję o 35%** - Core Web Vitals, szybkość ładowania i struktura URL bezpośrednio wpływają na gotowość do zakupu
-- **Architektura silosowa podwaja ruch organiczny** - prawidłowe linkowanie wewnętrzne prowadzi klientów przez ścieżkę zakupową i buduje autorytet kategorii
-- **Sezonowość wymaga planowania 3 miesiące wcześniej** - Black Friday i święta generują 40% rocznych przychodów, ale SEO potrzebuje czasu na rozkręcenie
-- **Opisy produktów kopiowane od producenta to strata** - unikalne treści odpowiadające na pytania klientów pozycjonują się 5x lepiej niż standardowe specyfikacje
-- **ROI z SEO e-commerce: średnio 300% w rok** - konkretne metryki i narzędzia do mierzenia wpływu optymalizacji na przychody sklepu
+- **SEO w e-commerce to 35% więcej konwersji** - prawidłowa optymalizacja kategorii i produktów przekłada się bezpośrednio na sprzedaż, nie tylko ruch
+- **Core Web Vitals mogą kosztować 20% przychodów** - wolny sklep traci klientów już po 3 sekundach, a Google dodatkowo obniża pozycje
+- **Linkowanie wewnętrzne zwiększa AOV o 15%** - strategiczne powiązania między produktami prowadzą klientów do droższych zakupów
+- **Gotowy roadmap na pierwsze 90 dni** - konkretna lista działań od audytu technicznego po optymalizację najważniejszych kategorii
+- **8 kluczowych metryk e-commerce SEO** - organic revenue, pozycje produktowe i współczynniki konwersji które pokazują realny wpływ na biznes
