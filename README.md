@@ -124,9 +124,66 @@ artykuly/
 
 ## Configuration
 
+### Article Configuration (config.yaml)
+
+Each article has its own `config.yaml` file that controls content generation.
+
+**Location:** `artykuly/{series}/{silo}/{slug}/config.yaml`
+
+**Required Fields:**
+```yaml
+title: "Your Article Title"
+target_audience: "Who this article is for"
+tone: "ekspercki, ale naturalny i rozmowny"
+model: "claude-sonnet-4-20250514"
+```
+
+**Optional Fields:**
+```yaml
+meta_title: "SEO meta title (auto-generated if empty)"
+meta_description: "SEO meta description (auto-generated if empty)"
+```
+
+**Example:**
+```yaml
+title: Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO
+target_audience: Właściciele sklepów internetowych i specjaliści e-commerce
+tone: ekspercki, ale naturalny i rozmowny
+model: claude-sonnet-4-20250514
+meta_title: ""
+meta_description: ""
+```
+
+**Model Options:**
+- `claude-sonnet-4-20250514` - Best quality (recommended)
+- `claude-3-haiku-20240307` - Faster, cheaper
+- `gpt-4-turbo` - OpenAI alternative
+- `gemini-1.5-pro` - Google alternative
+- `llama3:latest` - Local Ollama (requires setup)
+
+**Tone Guidelines:**
+- `ekspercki, ale naturalny i rozmowny` - Expert but conversational (default)
+- `techniczny i szczegółowy` - Technical and detailed
+- `przyjazny dla początkujących` - Beginner-friendly
+- Custom tone - describe your preferred style
+
+**Target Audience Examples:**
+- `Właściciele sklepów internetowych i specjaliści e-commerce`
+- `Przedsiębiorcy i właściciele firm`
+- `Programiści i zespoły techniczne`
+- `Startup founders i product managers`
+
+**Auto-Generation:**
+When using `./create_articles_tree.sh -c`, config.yaml is created with:
+- Title auto-generated from article slug
+- Default target audience: "Przedsiębiorcy i właściciele firm"
+- Default tone: "ekspercki, ale naturalny i rozmowny"
+- Default model: "claude-sonnet-4-20250514"
+- Empty meta fields (filled during SEO step)
+
 ### workflow.yaml
 
-Defines 13-step workflow with module paths and descriptions.
+Defines 15-step workflow with module paths and descriptions.
 
 ### providers.yaml
 
