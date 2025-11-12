@@ -1,0 +1,144 @@
+# Struktura katalogów dla artykułów
+# Format: series -> silo -> [artykuły]
+
+structure:
+  aplikacje-dla-firm:
+    - aplikacje-mobilne-czym-sa-i-jak-moga-pomoc-twojej-firmie
+    - aplikacje-webowe-czym-sa-i-jak-moga-pomoc-twojej-firmie
+    - automatyzacja-procesow-biznesowych-praktyczne-przyklady
+    - dedykowane-oprogramowanie-dla-firm-czy-warto-inwestowac
+    - ile-kosztuje-stworzenie-aplikacji-na-co-zwrocic-uwage
+    - jak-wyglada-proces-tworzenia-aplikacji-krok-po-kroku
+    - kupowac-czy-budowac-jak-wybrac-najlepsze-oprogramowanie-dla-swojego-biznesu
+    - tworzenie-aplikacji-dla-firm-jak-podejsc-do-projektu
+    - tworzenie-aplikacji-mobilnych-od-pomyslu-do-realizacji
+
+  aplikacje-webowe:
+    - aplikacja-mobilna-czy-webowa-co-wybrac-dla-twojej-firmy
+    - czym-jest-mvp-aplikacji-webowej-i-jak-zaplanowac-go-madrze
+    - dlaczego-firmy-inwestuja-w-aplikacje-webowe-statystyki
+    - gotowe-oprogramowanie-vs-aplikacja-na-zamowienie
+    - ile-kosztuje-stworzenie-aplikacji-webowej-przewodnik-dla-przedsiebiorcy
+    - jak-zaczac-tworzenie-aplikacji-webowej-checklist-dla-wlasciciela-firmy
+    - proces-tworzenia-aplikacji-webowej-krok-po-kroku-dla-firm
+    - ux-i-ui-w-aplikacjach-webowych-jak-zaplanowac-wygodna-aplikacje-dla-uzytkownika
+    - wordpress-vs-react-next-js-co-wybrac-do-aplikacji-webowej
+
+  ecommerce:
+    operacje:
+      - automatyzacja-ecommerce-roi
+      - bezpieczenstwo-i-rodo
+      - import-produktow-csv-erp
+      - integracje-erp-wms-crm
+      - kpi-ecommerce-gmv-aov-ltv
+      - obsluga-klienta-automaty
+    platformy:
+      - b2b-ecommerce-platformy
+      - case-wybor-platformy
+      - headless-vs-klasyczny
+      - koszty-miesieczne-sklepu
+      - migracja-sklepu-seo
+      - porownanie-platform-ecommerce
+    platnosci-logistyka:
+      - allegro-integracja
+      - cross-border-ue
+      - logistyka-inpost-dpd-dhl
+      - obnizenie-kosztow-platnosci
+      - platnosci-online-polska
+      - zwroty-i-reklamacje
+    seo:
+      - linkowanie-wewnetrzne
+      - seo-sklepu-cwv
+      - tresci-produktowe-seo
+    ux-ui:
+      - checkout-ux-konwersja
+      - performance-media
+      - search-analytics
+
+  google-profil-firmy:
+    - darmowa-strona-internetowa-google-czy-to-dobre-rozwiazanie-dla-twojej-firmy
+    - google-moja-firma-nie-dziala
+    - jak-poprawic-widocznosc-twojej-firmy-w-google
+    - jak-zalozyc-konto-w-google-moja-firma-krok-po-kroku-2025
+    - kompletny-przewodnik-jak-zalozyc-i-prowadzic-wizytowke-google-moja-firma-w-2025-roku
+
+  jak-zrobic-strone-internetowa:
+    - darmowa-strona-internetowa-kompletny-przewodnik-dla-przedsiebiorcy
+    - html-podstawy-tworzenia-stron-internetowych-przewodnik-dla-przedsiebiorcow
+    - html-wzory-stron-kompletny-przewodnik-dla-przedsiebiorcow
+    - jak-opublikowac-strone-w-internecie-kompletny-przewodnik-dla-przedsiebiorcow
+    - jak-stworzyc-strone-internetowa-w-html-pelny-przewodnik-dla-przedsiebiorcow
+    - wskaz-program-do-tworzenia-stron-internetowych-jak-wybrac-najlepsze-narzedzie-dla-twojej-firmy
+
+  koszty-strony-internetowej:
+    - ile-kosztuje-strona-internetowa-w-2025-pelny-przewodnik-po-cenach-i-opcjach
+    - ile-kosztuje-stworzenie-strony-internetowej-glowne-czynniki-cenowe
+    - jak-zoptymalizowac-koszty-i-nie-przeplacic-za-strone-internetowa
+    - jak-zrobic-strone-internetowa-za-darmo
+    - jakie-sa-ukryte-koszty-strony-internetowej
+    - koszt-domeny-i-hostingu-ile-naprawde-trzeba-zaplacic
+    - tania-strona-internetowa-czy-to-dobry-pomysl
+
+  mapy-google:
+    - google-maps-i-twoja-firma-jak-dziala-lokalne-pozycjonowanie
+    - nowe-funkcje-i-trendowe-rozwiazania-google-maps
+
+  saas:
+    - 5-przykladow-zastosowania-saas-w-branzach-niezwiazanych-z-it
+    - jak-bezpieczny-jest-saas-zaufanie-do-chmury-i-ochrona-danych
+    - najlepsze-strategie-marketingowe-dla-produktow-saas-w-2025-roku
+    - pomysly-na-micro-saas
+    - wykorzystaj-saas-w-swojej-branzy-praktyczny-przewodnik-do-sukcesu
+
+  start-firmy:
+    - bezpieczenstwo-na-start
+    - budzet-technologiczny
+    - case-study-start
+    - domena-email-technologie
+    - google-dla-firmy
+    - identyfikacja-wizualna
+    - logo-i-sociale
+    - narzedzia-na-start
+    - seo-na-start
+    - srodowisko-pracy
+    - strategia-i-klient
+    - strona-na-start
+
+  strony-internetowe:
+    - czy-twoja-strona-internetowa-przyciaga-klientow-czy-ich-odstrasza
+    - dlaczego-twoja-firma-potrzebuje-nowoczesnej-strony-internetowej
+    - odblokuj-potencjal-swojej-firmy-odkryj-7-zaskakujacych-sposobow-jak-strona-internetowa-przyczyni-sie-do-twojego-sukcesu
+
+  single-articles:
+    - bitwa-aplikacji-wybrac-mobilna-czy-pozostac-przy-aplikacji-webowej
+    - budowanie-obecnosci-w-internecie-porady-dla-malych-i-srednich-przedsiebiorcow
+    - chron-swoj-biznes-bezpieczenstwo-danych-w-prosty-sposob-dla-przedsiebiorcow
+    - czy-darmowy-hosting-to-dobre-rozwiazanie-dla-twojej-firmy
+    - darmowy-sklep-internetowy-czy-to-mozliwe-i-jak-go-zalozyc
+    - dlaczego-praca-zdalna-nie-sprawdza-sie-w-twoim-zespole-i-jak-temu-zaradzic
+    - globalne-i-polskie-statystyki-i-trendy-e-commerce-najnowsze-dane-i-analiza-rynku
+    - ile-kosztuje-stworzenie-i-utrzymanie-sklepu-internetowego-w-2025-roku
+    - jak-wybrac-najlepsza-platforme-e-commerce-dla-sklepu-internetowego-z-platnosciami-online
+    - jak-zalozyc-sklep-internetowy-pelny-przewodnik-krok-po-kroku
+    - jaka-platforme-wybrac-do-sklepu-internetowego-pelny-przewodnik-dla-przedsiebiorcow
+    - nowoczesne-technologie-webowe-headless-cms-jamstack-i-webassembly-kompleksowy-przewodnik-po-opcjach-i-kosztach
+    - odblokuj-wzrost-sprzedazy-sekrety-zwiekszajace-wspolczynnik-konwersji-twojej-witryny-internetowej
+    - php-vs-javascript-ostateczne-starcie-jak-wybrac-technologie-do-budowy-twojej-strony-biznesowej
+    - php-vs-javascript-ostateczne-starcie-kto-jest-krolem-w-tworzeniu-stron-internetowych
+    - poza-lajkami-ukryte-ryzyko-polegania-wylacznie-na-mediach-spolecznosciowych-w-rozwoju-firmy
+    - pozycjonowanie-sklepu-internetowego-kompletny-przewodnik-dla-przedsiebiorcow
+    - profesjonalna-strona-firmowa-klucz-do-sukcesu-twojego-biznesu
+    - przyszlosc-rozwoju-w-tworzeniu-stron-internetowych-wyprzedz-swoja-konkurencje
+    - razem-stworzymy-strone-ktora-bedzie-twoim-najlepszym-narzedziem-biznesowym
+    - seo-dla-przedsiebiorcow-jak-twoja-strona-moze-generowac-klientow-z-google
+    - sprzedaz-przez-internet-kompleksowy-przewodnik-dla-przedsiebiorcow
+    - strona-internetowa-sklepu-pelny-przewodnik-dla-przedsiebiorcow
+    - sukces-start-upu-niezbedne-narzedzia-it-bez-ktorych-nie-obejdziesz-sie
+    - twoja-strona-uciekla-z-pierwszej-strony-google-oto-jak-ja-odzyskac
+    - tworzenie-aplikacji-dla-firm-jak-podejsc-do-projektu
+    - zdobadz-nowy-rynek-wdrazanie-e-commerce-w-twojej-firmie
+
+# Opcjonalne: domyślne pliki do utworzenia w każdym artykule
+default_files:
+  - config.yaml
+  - outline.md
