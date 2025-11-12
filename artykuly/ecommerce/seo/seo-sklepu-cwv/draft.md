@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Core Web Vitals wpływają bezpośrednio na indeksację** - Google traktuje LCP, FID i CLS jako czynnik rankingowy, więc wolny sklep = niższe pozycje w wyszukiwarce
 - **Najczęstsze problemy e-commerce to nieoptymalizowane obrazy produktów** - stanowią 60-80% problemów z szybkością ładowania, ale da się je naprawić własnymi siłami
@@ -7,7 +7,7 @@
 - **Konkretne koszty optymalizacji** - od darmowych działań własnych po outsourcing za 5-15 tys. zł, żebyś mógł zaplanować budżet
 
 
-# Core Web Vitals i SEO techniczne sklepu - praktyczny przewodnik po indeksacji e-commerce
+## Core Web Vitals i SEO techniczne sklepu - praktyczny przewodnik po indeksacji e-commerce
 
 Sklep internetowy może mieć najlepsze produkty i konkurencyjne ceny, ale jeśli Google ma problemy z jego indeksacją, klienci go po prostu nie znajdą. Właściciele e-commerce często skupiają się na treściach i linkach, zapominając o fundamencie – technicznej sprawności witryny.
 
