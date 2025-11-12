@@ -74,11 +74,19 @@ steps:
 
   - name: generate_images
     module: blog_agent.core.workflow.steps.step_15_generate_images
-    description: "Generate images using DALL-E from multimedia prompts"
-    enabled: false  # Disabled by default (requires OPENAI_API_KEY and costs money)
-    model: "dall-e-3"
-    size: "1792x1024"
-    quality: "standard"
+    description: "Generate images using DALL-E or Stability AI from multimedia prompts"
+    enabled: false  # Disabled by default (requires API key and costs money)
+    # Provider auto-detected from env vars (OPENAI_API_KEY or STABILITY_API_KEY)
+    # DALL-E settings (if using OPENAI_API_KEY):
+    model: "dall-e-3"  # dall-e-2, dall-e-3
+    size: "1792x1024"  # 1024x1024, 1792x1024, 1024x1792
+    quality: "standard"  # standard, hd
+    # Stability AI settings (if using STABILITY_API_KEY):
+    # model: "sdxl"  # sdxl ($0.011), sd3 ($0.037), sd3-medium, sd3-large-turbo
+    # width: 1024  # multiple of 64
+    # height: 1024  # multiple of 64
+    # steps: 40  # diffusion steps
+    # cfg_scale: 7.0  # guidance scale
     skip_existing: true
 
 # Metadata

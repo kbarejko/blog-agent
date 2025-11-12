@@ -13,10 +13,10 @@ AI-powered blog article generation system for Digital Vantage.
 - **SEO Optimization**: Meta tags, heading structure, Schema.org markup
 - **CTA Generation**: Contextual "Co dalej?" sections
 - **Multimedia Suggestions**: AI-generated image prompts
-- **Image Generation**: DALL-E 3 integration for automatic image creation (optional)
+- **Image Generation**: DALL-E 3 & Stability AI integration for automatic image creation (optional)
 - **Internal Linking**: Automatic cross-references between related articles in silos
 - **Local Models**: Ollama support for offline generation (llama3, mistral, codellama)
-- **Multiple Providers**: 4 AI providers with 15+ model options
+- **Multiple Providers**: 4 text AI providers + 2 image providers with 20+ model options
 
 ## Architecture
 
@@ -176,39 +176,81 @@ Available Ollama models:
 
 ### Image Generation Setup
 
-Step 15 generates images using OpenAI DALL-E API (disabled by default).
+Step 15 generates images using AI providers (disabled by default). Supports **DALL-E** and **Stability AI**.
+
+#### Option 1: DALL-E (OpenAI)
 
 **Setup:**
 ```bash
 # 1. Get OpenAI API key from https://platform.openai.com/api-keys
 export OPENAI_API_KEY='sk-...'
 
-# 2. Enable step in workflow.yaml
-# Change: enabled: false → enabled: true
+# 2. Enable step in workflow.yaml (set enabled: true)
 
 # 3. Run workflow with image generation
 blog-agent create --config path/config.yaml
-# Or run image generation only
-blog-agent create --config path/config.yaml --only generate_images
 ```
 
 **Cost:**
 - DALL-E 3 Standard (1792x1024): $0.08 per image
 - DALL-E 3 HD (1792x1024): $0.12 per image
-- DALL-E 2 (1024x1024): $0.02 per image (cheaper alternative)
+- DALL-E 2 (1024x1024): $0.02 per image
 
-For typical article (hero + 5 section images):
+For typical article (6 images):
 - **DALL-E 3 Standard: ~$0.48 per article**
 - **DALL-E 2: ~$0.12 per article**
+
+#### Option 2: Stability AI (Recommended for cost)
+
+**Setup:**
+```bash
+# 1. Get API key from https://platform.stability.ai/
+export STABILITY_API_KEY='sk-...'
+
+# 2. Enable step in workflow.yaml (set enabled: true)
+# 3. Uncomment Stability AI settings in workflow.yaml
+
+# 4. Run workflow with image generation
+blog-agent create --config path/config.yaml
+```
+
+**Cost:**
+- SDXL: $0.011 per image **(Best value!)**
+- SD3: $0.037 per image
+- SD3.5 Large: $0.065 per image
+
+For typical article (6 images):
+- **SDXL: ~$0.07 per article** (55% cheaper than DALL-E 2!)
+- **SD3: ~$0.22 per article**
 
 **Configuration in workflow.yaml:**
 ```yaml
 - name: generate_images
   enabled: true  # Enable image generation
-  model: "dall-e-3"  # or "dall-e-2" for cheaper
-  size: "1792x1024"  # or "1024x1024"
-  quality: "standard"  # or "hd"
-  skip_existing: true  # Skip if image already exists
+  # Provider auto-detected from OPENAI_API_KEY or STABILITY_API_KEY
+
+  # For DALL-E:
+  model: "dall-e-3"  # dall-e-2, dall-e-3
+  size: "1792x1024"  # 1024x1024, 1792x1024, 1024x1792
+  quality: "standard"  # standard, hd
+
+  # For Stability AI (uncomment to use):
+  # model: "sdxl"  # sdxl, sd3, sd3-medium
+  # width: 1024
+  # height: 1024
+  # steps: 40
+  # cfg_scale: 7.0
+
+  skip_existing: true
+```
+
+**Testing:**
+```bash
+# Test DALL-E
+python test_image_generation.py
+
+# Test Stability AI
+python test_stability_ai.py
 ```
 
 ### AI Provider Comparison
@@ -223,10 +265,26 @@ For typical article (hero + 5 section images):
 | **Gemini** | 1.5 Flash | $0.01 | Very Fast | ⭐⭐⭐⭐ | Best value! |
 | **Ollama** | llama3 | Free | Slow | ⭐⭐⭐ | Offline, free |
 
-**Recommendation:**
+**Recommendation (Text):**
 - **Production**: Claude Sonnet 4 (best quality)
 - **Budget**: Gemini 1.5 Flash (best value)
 - **Testing**: Ollama llama3 (free, offline)
+
+### Image Provider Comparison
+
+| Provider | Model | Cost/Image | Cost/Article (6 imgs) | Quality | Notes |
+|----------|-------|------------|----------------------|---------|-------|
+| **Stability AI** | SDXL | $0.011 | **$0.07** | ⭐⭐⭐⭐ | **Best value!** |
+| **Stability AI** | SD3 | $0.037 | $0.22 | ⭐⭐⭐⭐⭐ | High quality |
+| **Stability AI** | SD3.5 Large | $0.065 | $0.39 | ⭐⭐⭐⭐⭐ | Premium |
+| **OpenAI** | DALL-E 2 | $0.020 | $0.12 | ⭐⭐⭐⭐ | Good value |
+| **OpenAI** | DALL-E 3 Std | $0.040-0.080 | $0.48 | ⭐⭐⭐⭐⭐ | Best quality |
+| **OpenAI** | DALL-E 3 HD | $0.080-0.120 | $0.72 | ⭐⭐⭐⭐⭐ | Premium |
+
+**Recommendation (Images):**
+- **Production**: Stability AI SDXL (best value, great quality)
+- **Premium**: DALL-E 3 or Stability AI SD3 (highest quality)
+- **Budget**: Stability AI SDXL (cheapest option)
 
 ### payload.yaml (Optional)
 
@@ -343,7 +401,8 @@ python test_remaining_steps.py
 python test_internal_linking.py
 
 # Test Image Generation step (step 15)
-python test_image_generation.py
+python test_image_generation.py  # DALL-E
+python test_stability_ai.py      # Stability AI
 
 # Test Ollama integration
 python test_ollama.py
@@ -391,10 +450,36 @@ python test_gemini.py
   - Gemini 1.5 Pro, 1.5 Flash, Pro support
   - Test script validates API key and connection
   - Free tier available (1M tokens/day)
+- ✅ **Stability AI Integration**: Implemented (not yet tested)
+  - SDXL, SD3, SD3-Medium, SD3-Large-Turbo support
+  - Test script created: test_stability_ai.py
+  - Auto-detection based on STABILITY_API_KEY
+  - 55% cheaper than DALL-E for images
 
 ### Known Issues
 
-- CLI `--only` option requires debugging (not critical - use test scripts as workaround)
+- None currently (all previous issues resolved)
+
+### Future Enhancements
+
+**Image Generation:**
+- **Midjourney Integration** - Waiting for official API release
+  - Currently no public API available (Discord-only access)
+  - Unofficial APIs exist but violate Terms of Service
+  - Will integrate when Midjourney releases official API
+  - Expected to provide industry-leading image quality
+
+**Workflow Improvements:**
+- Error resilience testing (workflow should continue on non-critical errors)
+- Resume capability (restart from failed step)
+- Batch processing mode (generate multiple articles in one run)
+- Performance benchmarking (optimize for 6-7 minute target)
+
+**Content Features:**
+- Video generation integration (when APIs become available)
+- Audio/podcast generation from articles
+- Multi-language support (automatic translation)
+- A/B testing for headlines and CTAs
 
 ## Documentation
 

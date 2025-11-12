@@ -17,7 +17,7 @@ from ..infrastructure.storage.file_storage import FileStorage
 from ..infrastructure.git.git_ops import GitOperations
 from ..infrastructure.yaml.category_reader import CategoryReader
 from ..infrastructure.cms.payload_adapter import PayloadAdapter
-from ..infrastructure.images.image_generator import ImageGenerator
+from ..infrastructure.images.image_generator import ImageGenerator, ImageProviderFactory
 
 
 class DependencyFactory:
@@ -76,13 +76,13 @@ class DependencyFactory:
         except:
             pass  # Payload not configured
 
-        # Optional: Image generator (if OPENAI_API_KEY is set)
+        # Optional: Image generator (auto-detect based on API keys)
+        # Checks for OPENAI_API_KEY or STABILITY_API_KEY
         image_generator = None
-        if os.getenv('OPENAI_API_KEY'):
-            try:
-                image_generator = ImageGenerator()
-            except:
-                pass  # Image generator not available
+        try:
+            image_generator = ImageProviderFactory.auto_detect()
+        except:
+            pass  # Image generator not available
 
         return {
             'ai': ai_provider,
