@@ -26,9 +26,9 @@ Większość właścicieli sklepów zna jedynie prowizję podstawową – te sł
 
 Każda płatność kartą generuje trzy główne składniki kosztów. **Interchange fees** – opłata dla banku wydającego kartę, zwykle między 0,2% a 1,8%, w zależności od rodzaju karty i profilu klienta. **Scheme fees** – prowizja dla Visa lub Mastercard, około 0,1-0,2% od transakcji. **Acquiring fees** – marża twojego operatora płatności, często ta najbardziej widoczna część równania.
 
-Koszty stałe potrafią jednak zaskoczyć najbardziej. Miesięczne opłaty za bramkę płatniczą, certyfikaty PCI DSS, integracje z systemami księgowymi. W mniejszych sklepach mogą stanowić nawet 40% wszystkich wydatków na płatności. To może sugerować, że większe obroty nie zawsze oznaczają proporcjonalnie wyższe koszty.
+Koszty stałe potrafią jednak zaskoczyć najbardziej. Miesięczne opłaty za bramkę płatniczą, certyfikaty PCI DSS, [integracje z systemami księgowymi](/ecommerce/platnosci-logistyka/allegro-integracja/). W mniejszych sklepach mogą stanowić nawet 40% wszystkich wydatków na płatności. To może sugerować, że większe obroty nie zawsze oznaczają proporcjonalnie wyższe koszty.
 
-Prawdziwy ból przynoszą ukryte opłaty. Każdy chargeback kosztuje 15-50 zł za przypadek, niezależnie od kwoty transakcji. Wymiana walut? Standardowy narzut 2-4% ponad kurs międzybankowy, który często jest słabo widoczny w zestawieniach. Zwroty środków generują dodatkowe prowizje, które rzadko są transparentnie prezentowane w umowach.
+Prawdziwy ból przynoszą ukryte opłaty. [Każdy chargeback kosztuje 15-50 zł za przypadek](/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl/), niezależnie od kwoty transakcji. [Wymiana walut? Standardowy narzut 2-4%](/ecommerce/platnosci-logistyka/cross-border-ue/) ponad kurs międzybankowy, który często jest słabo widoczny w zestawieniach. Zwroty środków generują dodatkowe prowizje, które rzadko są transparentnie prezentowane w umowach.
 
 ### Czy wiesz, ile faktycznie płacisz za każdą transakcję?
 
