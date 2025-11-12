@@ -23,8 +23,12 @@
   - ✅ Changed from multiple=True to comma-separated format
   - ✅ Works: --only outline,summary or --skip init,outline
   - ✅ Updated help with examples
+- [x] Fix Python output buffering for real-time logs
+  - ✅ Added sys.stdout.reconfigure(line_buffering=True) in entry points
+  - ✅ Added flush=True to key progress indicators
+  - ✅ Real-time visibility during long AI operations
+  - ✅ Works for both "python -m blog_agent" and "blog-agent" commands
 - [ ] Test error resilience (workflow should continue on non-critical errors)
-- [ ] Fix Python output buffering for real-time logs
 - [ ] Performance benchmarking (target: 6-7 minutes per article)
 
 ## Future Enhancements - Multi-Model Support
@@ -157,6 +161,12 @@
   - Same for --skip option
   - Updated help text with clear examples
   - Tested with single and multiple steps
+- **Python output buffering fixed:**
+  - Added sys.stdout.reconfigure(line_buffering=True) in both entry points
+  - Added flush=True to key progress indicators (outline, summary, sections)
+  - Real-time logs now visible immediately during long AI operations
+  - Works for both "python -m blog_agent" and "blog-agent" console script
+  - Improved UX - user sees progress in real-time
 
 ---
 
