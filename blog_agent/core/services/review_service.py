@@ -19,12 +19,22 @@ class ReviewService:
             max_words: Maximum words per section (default: 400)
             min_flesch: Minimum Flesch score (default: 40)
             max_flesch: Maximum Flesch score (default: 60)
+            tolerance_percent: Tolerance margin in percent (default: 0)
+                              e.g., 10 = +/-10% flexibility on limits
         """
         config = config or {}
         self.min_words = config.get('min_words', 300)
         self.max_words = config.get('max_words', 400)
         self.min_flesch = config.get('min_flesch', 40)
         self.max_flesch = config.get('max_flesch', 60)
+        self.tolerance_percent = config.get('tolerance_percent', 0)
+
+        # Calculate effective limits with tolerance
+        tolerance_factor = self.tolerance_percent / 100.0
+        self.effective_min_words = int(self.min_words * (1 - tolerance_factor))
+        self.effective_max_words = int(self.max_words * (1 + tolerance_factor))
+        self.effective_min_flesch = self.min_flesch - (self.min_flesch * tolerance_factor)
+        self.effective_max_flesch = self.max_flesch + (self.max_flesch * tolerance_factor)
 
     def count_words(self, text: str) -> int:
         """Count words in text"""
@@ -63,19 +73,31 @@ class ReviewService:
         word_count = self.count_words(content)
         metrics['word_count'] = word_count
 
-        if word_count < self.min_words:
-            issues.append(f"Too short: {word_count} words (min {self.min_words})")
-        elif word_count > self.max_words:
-            issues.append(f"Too long: {word_count} words (max {self.max_words})")
+        if word_count < self.effective_min_words:
+            if self.tolerance_percent > 0:
+                issues.append(f"Too short: {word_count} words (target {self.min_words}, min {self.effective_min_words} with {self.tolerance_percent}% tolerance)")
+            else:
+                issues.append(f"Too short: {word_count} words (min {self.min_words})")
+        elif word_count > self.effective_max_words:
+            if self.tolerance_percent > 0:
+                issues.append(f"Too long: {word_count} words (target {self.max_words}, max {self.effective_max_words} with {self.tolerance_percent}% tolerance)")
+            else:
+                issues.append(f"Too long: {word_count} words (max {self.max_words})")
 
         # Flesch Reading Ease
         flesch = self.calculate_flesch_reading_ease(content)
         metrics['flesch_score'] = flesch
 
-        if flesch < self.min_flesch:
-            issues.append(f"Too complex: Flesch {flesch:.1f} (min {self.min_flesch})")
-        elif flesch > self.max_flesch:
-            issues.append(f"Too simple: Flesch {flesch:.1f} (max {self.max_flesch})")
+        if flesch < self.effective_min_flesch:
+            if self.tolerance_percent > 0:
+                issues.append(f"Too complex: Flesch {flesch:.1f} (target {self.min_flesch:.1f}, min {self.effective_min_flesch:.1f} with {self.tolerance_percent}% tolerance)")
+            else:
+                issues.append(f"Too complex: Flesch {flesch:.1f} (min {self.min_flesch})")
+        elif flesch > self.effective_max_flesch:
+            if self.tolerance_percent > 0:
+                issues.append(f"Too simple: Flesch {flesch:.1f} (target {self.max_flesch:.1f}, max {self.effective_max_flesch:.1f} with {self.tolerance_percent}% tolerance)")
+            else:
+                issues.append(f"Too simple: Flesch {flesch:.1f} (max {self.max_flesch})")
 
         # Check for empty paragraphs
         paragraphs = [p.strip() for p in content.split('\n\n') if p.strip()]

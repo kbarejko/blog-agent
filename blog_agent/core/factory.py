@@ -155,7 +155,8 @@ class DependencyFactory:
             'min_words': review_config.get('min_words', 300),
             'max_words': review_config.get('max_words', 400),
             'min_flesch': review_config.get('min_flesch', 40),
-            'max_flesch': review_config.get('max_flesch', 60)
+            'max_flesch': review_config.get('max_flesch', 60),
+            'tolerance_percent': review_config.get('tolerance_percent', 0)
         }
 
     def _load_payload_config(self) -> Dict[str, Any]:

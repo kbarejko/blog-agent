@@ -195,7 +195,20 @@ review:
   max_words: 400      # Maximum words per section
   min_flesch: 40      # Minimum Flesch Reading Ease (40 = college level)
   max_flesch: 60      # Maximum Flesch Reading Ease (60 = 8th-9th grade)
+  tolerance_percent: 0  # Tolerance margin (0-20%, adds flexibility to limits)
 ```
+
+**Tolerance Parameter:**
+The `tolerance_percent` adds flexibility to all limits. For example, with `tolerance_percent: 10`:
+- `min_words: 300` → accepts 270+ words (300 - 10%)
+- `max_words: 400` → accepts up to 440 words (400 + 10%)
+- `min_flesch: 40` → accepts 36+ (40 - 10%)
+- `max_flesch: 60` → accepts up to 66 (60 + 10%)
+
+**Recommended values:**
+- `0%` - Strict validation (default)
+- `5-10%` - Balanced (recommended for most use cases)
+- `15-20%` - Lenient (more AI freedom)
 
 **Flesch Reading Ease Scale:**
 - 90-100: Very Easy (5th grade)
@@ -207,6 +220,7 @@ review:
 - Writing technical docs → lower min_flesch (30-40)
 - Writing beginner content → raise min_flesch (50-60)
 - Need longer sections → raise max_words (500-600)
+- Content often "almost passes" → add tolerance (5-10%)
 
 ### providers.yaml
 
