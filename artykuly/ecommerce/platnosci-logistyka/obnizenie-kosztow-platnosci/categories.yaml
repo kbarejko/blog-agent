@@ -1,0 +1,11 @@
+categories:
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
+- slug: sklepy-internetowe
+  title: Sklepy Internetowe
+  path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+- slug: koszty-i-budzetowanie-it
+  title: Koszty i budżetowanie IT
+  path: strategia-it/koszty-i-budzetowanie-it
+count: 3
