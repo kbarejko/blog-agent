@@ -95,7 +95,7 @@ review:
   max_words: 400      # Maximum words per section
   min_flesch: 40      # Minimum Flesch Reading Ease (40 = college level)
   max_flesch: 60      # Maximum Flesch Reading Ease (60 = 8th-9th grade)
-  tolerance_percent: 0  # Tolerance margin (e.g., 10 = +/-10% flexibility on limits)
+  tolerance_percent: 10  # Tolerance margin (e.g., 10 = +/-10% flexibility on limits)
 
 # Metadata
 metadata:
