@@ -5,6 +5,9 @@ AI-powered blog article generation system for Digital Vantage.
 ## Features
 
 - **Automated Article Generation**: 15-step workflow from outline to publication
+- **Silo Article Support**: Special handling for category hub pages with automatic sub-article detection and FAQ
+- **Flexible Workflow Control**: Skip steps or step groups (writing, metadata, post-processing)
+- **Auto-Load Existing Files**: Skipped steps automatically load existing content (outline.md, draft.md, etc.)
 - **Multi-Model Support**: Claude, OpenAI (GPT-4), Google Gemini, Ollama (local)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
 - **Git Versioning**: Commits at key milestones
@@ -95,6 +98,25 @@ blog-agent list --series ecommerce
 13. **Categories** - AI selects 1-5 categories from 146 available
 14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
 15. **Generate Images** - Generate images with DALL-E 3 from multimedia prompts (optional, disabled by default)
+
+### Advanced Workflow Control
+
+**Skip steps** to use existing content:
+```bash
+# Skip outline (use existing outline.md)
+blog-agent create --config path/config.yaml --skip outline
+
+# Skip multiple steps with groups
+blog-agent create --config path/config.yaml --skip writing,metadata
+```
+
+**Available step groups:**
+- `writing` - outline, summary, write_sections, create_draft
+- `post-processing` - seo_review, humanize
+- `metadata` - multimedia, business_metadata, schema, categories, internal_linking
+- `all-except-outline` - Everything except outline (keeps existing outline.md)
+
+**📖 See [WORKFLOW.md](WORKFLOW.md) for complete workflow documentation, examples, and tips.**
 
 ## Article Structure
 

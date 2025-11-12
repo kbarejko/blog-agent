@@ -110,10 +110,14 @@ class WorkflowEngine:
 
             if skip_steps and step_name in skip_steps:
                 print(f"⏭️  Skipping {step_name} (explicitly skipped)")
+                # Try to load existing data when skipping steps
+                self._load_existing_data_for_step(article, step_name, deps)
                 continue
 
             if only_steps and step_name not in only_steps:
                 print(f"⏭️  Skipping {step_name} (not in only_steps)")
+                # Try to load existing data when skipping steps
+                self._load_existing_data_for_step(article, step_name, deps)
                 continue
 
             # Execute step
@@ -140,6 +144,93 @@ class WorkflowEngine:
         print(f"{'='*60}\n")
 
         return article
+
+    def _load_existing_data_for_step(
+        self,
+        article: Article,
+        step_name: str,
+        deps: Dict[str, Any]
+    ) -> None:
+        """
+        Load existing data from files when a step is skipped
+
+        Args:
+            article: Article object to load data into
+            step_name: Name of the skipped step
+            deps: Dependencies (storage, etc.)
+        """
+        storage = deps.get('storage')
+        if not storage:
+            return
+
+        try:
+            # Load data based on step name
+            if step_name == 'outline':
+                # Load outline.md if it exists
+                outline_path = article.get_outline_path()
+                if outline_path.exists():
+                    from ..domain.value_objects import Outline
+                    import re
+
+                    content = storage.read_file(outline_path)
+                    # Parse outline from file (simplified parsing)
+                    sections = []
+                    lines = content.split('\n')
+                    current_section = None
+
+                    for line in lines:
+                        line = line.strip()
+                        # Look for H2 headings (## Title)
+                        match = re.match(r'^##\s+(?:\d+\.\s+)?(.+)$', line)
+                        if match:
+                            if current_section:
+                                sections.append(current_section)
+                            current_section = {
+                                'title': match.group(1).strip(),
+                                'description': ''
+                            }
+                        elif current_section and line and not line.startswith('#'):
+                            if current_section['description']:
+                                current_section['description'] += ' '
+                            current_section['description'] += line
+
+                    if current_section:
+                        sections.append(current_section)
+
+                    # Check for FAQ and Checklist markers
+                    has_faq = 'FAQ' in content.upper() or 'najczęściej zadawane pytania' in content.lower()
+                    has_checklist = '- [ ]' in content or '[ ]' in content
+
+                    outline = Outline(
+                        sections=sections,
+                        has_checklist=has_checklist,
+                        has_faq=has_faq,
+                        estimated_word_count=len(sections) * 350
+                    )
+                    article.set_outline(outline)
+                    print(f"   📄 Loaded existing outline ({len(sections)} sections)")
+
+            elif step_name == 'create_draft':
+                # Load draft.md if it exists
+                draft_path = article.get_draft_path()
+                if draft_path.exists():
+                    content = storage.read_file(draft_path)
+                    article.draft_content = content
+                    article.status = "draft_ready"
+                    print(f"   📄 Loaded existing draft ({len(content)} chars)")
+
+            elif step_name == 'humanize':
+                # Load article.md if it exists
+                article_path = article.get_article_path()
+                if article_path.exists():
+                    content = storage.read_file(article_path)
+                    article.final_content = content
+                    article.status = "humanized"
+                    print(f"   📄 Loaded existing article ({len(content)} chars)")
+
+        except Exception as e:
+            # Don't fail if loading doesn't work - just skip silently
+            pass
 
     def execute_single_step(
         self,

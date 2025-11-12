@@ -43,19 +43,42 @@ def execute_outline(
     else:
         article_url = f"/artykuly/{series}/{silo}"
 
-    prompt = prompts.load_and_render(
-        "konspekt/prompt_konspekt_artykulu.md",
-        {
-            'TEMAT_ARTYKULU': article.config.title,
-            'TARGET_AUDIENCE': article.config.target_audience,
-            'URL_ARTYKULU': article_url,
-            'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
-        }
-    )
+    # Check if this is a silo article (no slug) to use appropriate prompt
+    is_silo_article = not slug
+
+    if is_silo_article:
+        # Use silo-specific prompt
+        # Get list of existing articles in this silo for context
+        silo_articles = _get_silo_articles(article.path)
+        silo_articles_text = "\n".join([f"- {art}" for art in silo_articles]) if silo_articles else "Brak istniejących artykułów w silosie."
+
+        prompt = prompts.load_and_render(
+            "konspekt/prompt_konspekt_artykulu_silo.md",
+            {
+                'TEMAT_ARTYKULU': article.config.title,
+                'TARGET_AUDIENCE': article.config.target_audience,
+                'URL_ARTYKULU': article_url,
+                'KONTEKST_TEMATU': f"Artykuł SILO dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
+                'SILO_ARTICLES': silo_articles_text,
+            }
+        )
+    else:
+        # Use standard article prompt
+        prompt = prompts.load_and_render(
+            "konspekt/prompt_konspekt_artykulu.md",
+            {
+                'TEMAT_ARTYKULU': article.config.title,
+                'TARGET_AUDIENCE': article.config.target_audience,
+                'URL_ARTYKULU': article_url,
+                'KONTEKST_TEMATU': f"Artykuł dla {article.config.target_audience.lower()}. Ton: {article.config.tone}",
+            }
+        )
     print("🔄 Generating outline...", flush=True)
 
     # Generate outline with AI
-    response = ai.generate(prompt, max_tokens=2000)
+    # Silo articles need more tokens (more sections, FAQ required, links to articles)
+    max_tokens = 3500 if is_silo_article else 2000
+    response = ai.generate(prompt, max_tokens=max_tokens)
 
     # Parse outline from response
     outline = _parse_outline_from_response(response)
@@ -92,6 +115,73 @@ def execute_outline(
     )
 
     return article
+
+
+def _get_silo_articles(silo_path) -> list[str]:
+    """
+    Get list of existing articles in the silo
+
+    Args:
+        silo_path: Path to the silo directory
+
+    Returns:
+        List of article titles with their slugs
+    """
+    from pathlib import Path
+    import yaml
+
+    articles = []
+
+    # Iterate through subdirectories in the silo
+    for subdir in silo_path.iterdir():
+        if not subdir.is_dir():
+            continue
+
+        # Skip special directories
+        if subdir.name in ['sections', '__pycache__', '.git']:
+            continue
+
+        # Check if this is an article directory
+        # An article should have at least one of: config.yaml, article.md, outline.md
+        config_path = subdir / 'config.yaml'
+        article_path = subdir / 'article.md'
+        outline_path = subdir / 'outline.md'
+
+        is_article = config_path.exists() or article_path.exists() or outline_path.exists()
+
+        if not is_article:
+            continue
+
+        # Try to get title from config.yaml first
+        title = None
+        if config_path.exists():
+            try:
+                with open(config_path, 'r', encoding='utf-8') as f:
+                    config = yaml.safe_load(f)
+                    title = config.get('title')
+            except Exception:
+                pass
+
+        # If no title from config, try to extract from article.md H1
+        if not title and article_path.exists():
+            try:
+                with open(article_path, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip()
+                        if line.startswith('# '):
+                            title = line[2:].strip()
+                            break
+            except Exception:
+                pass
+
+        # If still no title, use directory name
+        if not title:
+            title = subdir.name.replace('-', ' ').title()
+
+        # Format: "Title (slug)"
+        articles.append(f"{title} (/{subdir.name})")
+
+    return sorted(articles)
 
 
 def _parse_outline_from_response(response: str) -> Outline:

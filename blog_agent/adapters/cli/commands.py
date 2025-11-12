@@ -75,7 +75,7 @@ def init(series: str, silo: str, slug: str, title: str, audience: str, tone: str
 @cli.command()
 @click.option('--config', 'config_path', required=True, type=click.Path(exists=True), help='Path to config.yaml')
 @click.option('--provider', default='claude', help='AI provider (default: claude)')
-@click.option('--skip', help='Steps to skip (comma-separated, e.g., init,outline)')
+@click.option('--skip', help='Steps/groups to skip (comma-separated). Steps: init,outline,summary,write_sections,create_draft,seo_review,humanize,multimedia,business_metadata,cta,publish,schema,categories,internal_linking. Groups: writing,post-processing,metadata,all-except-outline')
 @click.option('--only', help='Only run these steps (comma-separated, e.g., outline,summary)')
 def create(config_path: str, provider: str, skip: str, only: str):
     """
@@ -83,10 +83,30 @@ def create(config_path: str, provider: str, skip: str, only: str):
 
     Runs full workflow from outline to publication.
 
+    Step Groups (for --skip):
+      - writing: outline,summary,write_sections,create_draft
+      - post-processing: seo_review,humanize
+      - metadata: multimedia,business_metadata,schema,categories,internal_linking
+      - all-except-outline: All steps except outline (keeps existing outline.md)
+
     Examples:
-        blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/config.yaml
-        blog-agent create --config path/config.yaml --only outline,summary
-        blog-agent create --config path/config.yaml --skip init
+      # Full workflow
+      blog-agent create --config artykuly/ecommerce/seo/config.yaml
+
+      # Skip outline (use existing outline.md)
+      blog-agent create --config artykuly/ecommerce/seo/config.yaml --skip outline
+
+      # Skip all writing steps (use existing content)
+      blog-agent create --config artykuly/ecommerce/seo/config.yaml --skip writing
+
+      # Skip outline and all metadata steps
+      blog-agent create --config artykuly/ecommerce/seo/config.yaml --skip outline,metadata
+
+      # Only generate outline
+      blog-agent create --config artykuly/ecommerce/seo/config.yaml --only outline
+
+      # Only write sections (requires existing outline)
+      blog-agent create --config artykuly/ecommerce/seo/config.yaml --only write_sections
     """
     config_path = Path(config_path)
     project_root = Path.cwd()
@@ -104,9 +124,45 @@ def create(config_path: str, provider: str, skip: str, only: str):
     click.echo(f"   Path: {article_path}")
     click.echo(f"   Provider: {provider}\n")
 
-    # Parse skip/only lists
-    skip_list = [s.strip() for s in skip.split(',')] if skip else None
-    only_list = [s.strip() for s in only.split(',')] if only else None
+    # Define step groups for easier skipping
+    STEP_GROUPS = {
+        'writing': ['outline', 'summary', 'write_sections', 'create_draft'],
+        'post-processing': ['seo_review', 'humanize'],
+        'metadata': ['multimedia', 'business_metadata', 'schema', 'categories', 'internal_linking'],
+        'all-except-outline': ['init', 'summary', 'write_sections', 'create_draft', 'seo_review',
+                               'humanize', 'multimedia', 'business_metadata', 'cta', 'publish',
+                               'schema', 'categories', 'internal_linking', 'generate_images'],
+    }
+
+    def expand_groups(items_str: str) -> list:
+        """Expand step groups into individual steps"""
+        if not items_str:
+            return None
+
+        items = [s.strip() for s in items_str.split(',')]
+        expanded = []
+
+        for item in items:
+            if item in STEP_GROUPS:
+                # It's a group - expand it
+                expanded.extend(STEP_GROUPS[item])
+            else:
+                # It's a regular step name
+                expanded.append(item)
+
+        # Remove duplicates while preserving order
+        seen = set()
+        result = []
+        for step in expanded:
+            if step not in seen:
+                seen.add(step)
+                result.append(step)
+
+        return result if result else None
+
+    # Parse skip/only lists (with group expansion)
+    skip_list = expand_groups(skip)
+    only_list = expand_groups(only)
 
     # Create factory and deps
     factory = DependencyFactory(project_root)
