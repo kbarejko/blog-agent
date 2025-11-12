@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Sklepy tracą 40% klientów przy 3+ sekundach ładowania** - Core Web Vitals to już nie opcja, ale warunek indeksacji w Google
-- **Duplicate content od producenta zabija pozycje** - unikalne opisy produktów zwiększają konwersję o 25% względem kopii producenckich
-- **Long-tail keywords generują 70% sprzedaży** - "buty sportowe Nike Air Max 90 rozmiar 42" konwertują lepiej niż ogólne "buty"
-- **Link building w e-commerce wymaga content-first strategii** - digital PR i badania branżowe przyciągają naturalne linki lepiej niż guest posting
-- **Organic revenue to kluczowa metryka** - pozycje w Google bez mierzenia przychodu i ROAS to strzał w ciemność
+- **SEO techniczne to fundament konwersji** - Core Web Vitals wpływają bezpośrednio na ranking Google i współczynnik zakupów, wolny sklep traci 20% sprzedaży
+- **Unikalne treści produktowe zwiększają ruch o 300%** - kopiowanie opisów od dostawców to strzał w stopę, własne treści to goldmine dla long-tail keywords
+- **Architektura silosów linkuje kategorie strategicznie** - prawidłowa struktura wewnętrznego linkowania przenosi "SEO juice" między produktami i buduje autorytet kategorii
+- **ROI z SEO vs Google Ads w liczbach** - organiczny ruch kosztuje 10x mniej niż płatne kampanie, ale efekty widać po 6 miesiącach, nie po 6 dniach
+- **Roadmap wdrożenia krok po kroku** - konkretny plan działania od audytu technicznego po monitoring KPI, z linkami do szczegółowych przewodników

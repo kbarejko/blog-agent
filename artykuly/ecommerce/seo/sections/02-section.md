@@ -1,21 +1,15 @@
-## Fundamenty techniczne - Bez tego nic nie działa
+## Fundament: SEO techniczne i Core Web Vitals
 
-Wyobraź sobie, że prowadzisz sklep stacjonarny z zepsutymi drzwiami, migającym światłem i kasą, która co trzecia transakcja się zawiesza. Nikt nie zostałby dłużej niż minutę. W świecie online ta minuta skraca się do 3 sekund.
+Sklep internetowy bez solidnych fundamentów technicznych to jak dom na piasku. Możesz mieć najlepsze produkty i opisy na świecie, ale jeśli strona ładuje się 8 sekund, klienci odejdą wcześniej niż Google zdąży ją zindeksować.
 
-Google traktuje doświadczenie użytkownika jako jeden z najważniejszych sygnałów rankingowych. Core Web Vitals – szybkość ładowania (LCP), interaktywność (FID) i stabilność wizualna (CLS) – to nie techniczne fanaberie, ale bezpośredni wpływ na Twoje przychody.
+Core Web Vitals to nie techniczny kaprys. To bezpośredni wpływ na twój portfel. Badanie Google pokazuje, że poprawa Largest Contentful Paint o 0,1 sekundy może zwiększyć współczynnik konwersji nawet o 8%. W sklepie robiącym milion złotych rocznie to 80 tysięcy różnicy.
 
-### Szybkość jako przewaga konkurencyjna
+Największym wrogiem e-commerce jest powolne ładowanie zdjęć produktów. Katalog z 500 produktami na stronie kategorii może ważyć więcej niż cała strona firmowa. Roboty Google przeglądają takie strony jak strudzony turysta z ciężkim plecakiem.
 
-Sklepy ładujące się poniżej 2 sekund mają współczynnik konwersji średnio o 60% wyższy od tych, które potrzebują 5 sekund. Każda dodatkowa sekunda to strata około 11% odwiedzających. W praktyce oznacza to, że optymalizacja szybkości może przynieść więcej klientów niż kampania reklamowa za 50 tysięcy złotych.
+Crawling i indeksowanie w sklepach to osobna sztuka. Google musi zrozumieć twoją strukturę kategorii, znaleźć wszystkie produkty i nie pogubić się w filterach. Złożona nawigacja faceted może wygenerować miliony bezwartościowych URL-i. Każdy z nich "kradnie" budżet crawlingu od ważnych stron.
 
-Kluczowe obszary do sprawdzenia: optymalizacja obrazów (WebP, lazy loading), minimalizacja CSS i JavaScript, efektywny caching, CDN dla globalnego zasięgu. Szczególną uwagę warto zwrócić na mobile – w e-commerce stanowi często 70% ruchu.
+Architektura URL w e-commerce przypomina system dróg w mieście. Prostsze znaczy lepsze. `sklep.pl/obuwie/meskie/sportowe/nike` mówi wszystko Google i klientom. `sklep.pl/p?cat=123&br=456&t=789` to zagadka, którą nikt nie lubi rozwiązywać.
 
-### Crawlowanie i indeksacja - rozmowa z Google
+Mobile-first indexing w e-commerce to już nie przyszłość. To teraz. Ponad 60% zakupów online zaczyna się na telefonie. Twoja mobilna wersja musi być nie tylko szybka, ale funkcjonalna. Każdy filtr, każde zdjęcie produktu, cały proces płatności.
 
-Googlebot musi efektywnie przeskanować Twój sklep, aby zrozumieć jego strukturę i zawartość. Robots.txt, sitemap XML, internal linking, structured data – to kanały komunikacji z wyszukiwarką.
-
-Najczęstsze problemy: blokowanie ważnych zasobów w robots.txt, brakujące lub nieprawidłowe structured data dla produktów, problemy z renderowaniem JavaScript. Sklepy SPA (Single Page Application) wymagają szczególnej uwagi – Google musi "zobaczyć" zawartość tak samo jak użytkownik.
-
-Monitoring błędów crawlingu w Google Search Console powinien być cotygodniowy. 404 na produktach, redirect loops, server errors – każdy z tych problemów bezpośrednio wpływa na widoczność w wynikach wyszukiwania.
-
-**Szczegółowy przewodnik po aspektach technicznych, включая konkretne narzędzia i benchmarki, znajdziesz w artykule: [SEO techniczne + CWV w kontekście indeksacji](/artykuly/ecommerce/seo/seo-sklepu-cwv)**
+Szczegółowy przewodnik po SEO technicznym i optymalizacji Core Web Vitals znajdziesz w artykule [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv).
