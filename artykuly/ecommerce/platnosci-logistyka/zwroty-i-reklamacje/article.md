@@ -8,11 +8,11 @@
 
 # Zwroty i reklamacje w e-commerce
 
-Czy wiedzieliście, że niemal 70% klientów dokładnie sprawdza warunki zwrotów jeszcze przed złożeniem zamówienia? To fascynująca statystyka, która powinna dać do myślenia każdemu, kto prowadzi sklep internetowy. W końcu kupowanie online to często kupowanie w ciemno – nie możemy przecież dotknąć swetra czy sprawdzić, jak leży w ręce nowy telefon.
+Czy wiedzieliście, że niemal 70% klientów dokładnie sprawdza warunki zwrotów jeszcze [przed złożeniem zamówienia](/ecommerce/platnosci-logistyka/platnosci-online-polska/)? To fascynująca statystyka, która powinna dać do myślenia każdemu, kto prowadzi sklep internetowy. W końcu kupowanie online to często kupowanie w ciemno – nie możemy przecież dotknąć swetra czy sprawdzić, jak leży w ręce nowy telefon.
 
 Skuteczny system obsługi zwrotów to znacznie więcej niż tylko spełnienie wymogów prawnych. To prawdziwa broń konkurencyjna. Sklepy, które jasno komunikują swoje zasady zwrotów i nie komplikują tego procesu, mogą liczyć na nawet 30% wyższe współczynniki konwersji. To całkiem imponujący wynik, prawda?
 
-Z drugiej strony, zwroty to także poważny wydatek. Średnio około 8-10% wszystkich zamówień wraca do sklepu, choć w niektórych branżach sytuacja wygląda znacznie gorzej. W przypadku odzieży czy elektroniki może być to nawet 40% sprzedaży. To już naprawdę spore wyzwanie logistyczne i finansowe.
+Z drugiej strony, zwroty to także [poważny wydatek](/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci/). Średnio około 8-10% wszystkich zamówień wraca do sklepu, choć w niektórych branżach sytuacja wygląda znacznie gorzej. W przypadku odzieży czy elektroniki może być to nawet 40% sprzedaży. To już naprawdę spore [wyzwanie logistyczne i finansowe](/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl/).
 
 Co ciekawe, sposób obsługi zwrotów wydaje się mieć ogromny wpływ na lojalność klientów. Badania sugerują, że aż 96% osób, które miały pozytywne doświadczenia z procesem zwrotu, wraca do tego samego sklepu po kolejne zakupy. Natomiast jedna zła sytuacja może oznaczać nie tylko utratę klienta, ale też negatywne komentarze w sieci.
 
