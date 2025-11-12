@@ -10,7 +10,7 @@
 
 Wyobraź sobie sytuację: klient przegląda Twój sklep, wybiera produkt za 500 zł, przechodzi do koszyka, wypełnia formularz i... nagle zamyka przeglądarkę. Brzmi znajomo? Niestety, w polskich sklepach internetowych aż 73% klientów właśnie tak postępuje – porzuca koszyk tuż przed finalizacją zakupu.
 
-Różnica między sukcesem a porażką w e-commerce często sprowadza się do jakości doświadczeń użytkownika. Badania wskazują, że przemyślane inwestycje w UX potrafią zwiększyć konwersje nawet o 200%. Z kolei każda dodatkowa sekunda ładowania strony może kosztować Cię 7% potencjalnych sprzedaży. Nieczytelny proces zakupowy? To prawdopodobnie najszybszy sposób na zmarnowanie nawet najlepszej kampanii reklamowej.
+Różnica między sukcesem a porażką w e-commerce często sprowadza się do jakości doświadczeń użytkownika. Badania wskazują, że przemyślane inwestycje w UX potrafią zwiększyć konwersje nawet o 200%. Z kolei każda dodatkowa sekunda ładowania strony może kosztować Cię 7% potencjalnych sprzedaży. Nieczytelny proces zakupowy? To prawdopodobnie najszybszy sposób na [zmarnowanie nawet najlepszej kampanii reklamowej](/artykuly/ecommerce/seo/).
 
 ## Różnica między UX a interfejsem
 
