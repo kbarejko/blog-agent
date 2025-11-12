@@ -217,9 +217,28 @@ while IFS='|' read -r series silo article; do
             IFS=',' read -ra files_array <<< "$default_files"
             for file in "${files_array[@]}"; do
                 file_path="$article_path/$file"
+
                 if [ ! -f "$file_path" ]; then
-                    touch "$file_path"
-                    echo -e "    ${BLUE}→${NC} Utworzono plik: $file"
+                    # Specjalna obsługa config.yaml - generuj z domyślnymi wartościami
+                    if [[ "$file" == "config.yaml" ]]; then
+                        # Konwertuj slug na tytuł (zamień - na spacje, kapitalizuj)
+                        title=$(echo "$actual_article" | sed 's/-/ /g' | sed 's/\b\(.\)/\u\1/g')
+
+                        # Utwórz config.yaml z domyślnymi wartościami
+                        cat > "$file_path" <<YAML
+title: $title
+target_audience: Przedsiębiorcy i właściciele firm
+tone: ekspercki, ale naturalny i rozmowny
+model: claude-sonnet-4-20250514
+meta_title: ""
+meta_description: ""
+YAML
+                        echo -e "    ${BLUE}→${NC} Utworzono plik: $file (z konfiguracją)"
+                    else
+                        # Inne pliki - utwórz puste
+                        touch "$file_path"
+                        echo -e "    ${BLUE}→${NC} Utworzono plik: $file"
+                    fi
                 fi
             done
         fi
