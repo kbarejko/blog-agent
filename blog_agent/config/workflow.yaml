@@ -72,9 +72,18 @@ steps:
     description: "Add internal links to related articles in the same silo"
     enabled: true
 
+  - name: generate_images
+    module: blog_agent.core.workflow.steps.step_15_generate_images
+    description: "Generate images using DALL-E from multimedia prompts"
+    enabled: false  # Disabled by default (requires OPENAI_API_KEY and costs money)
+    model: "dall-e-3"
+    size: "1792x1024"
+    quality: "standard"
+    skip_existing: true
+
 # Metadata
 metadata:
   version: "1.0"
-  total_steps: 14
+  total_steps: 15
   estimated_time: "6-7 minutes"
-  estimated_cost: "$0.09 (Claude Sonnet 4)"
+  estimated_cost: "$0.09 (Claude Sonnet 4) + images if enabled"

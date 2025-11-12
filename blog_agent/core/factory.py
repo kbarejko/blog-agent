@@ -17,6 +17,7 @@ from ..infrastructure.storage.file_storage import FileStorage
 from ..infrastructure.git.git_ops import GitOperations
 from ..infrastructure.yaml.category_reader import CategoryReader
 from ..infrastructure.cms.payload_adapter import PayloadAdapter
+from ..infrastructure.images.image_generator import ImageGenerator
 
 
 class DependencyFactory:
@@ -75,6 +76,14 @@ class DependencyFactory:
         except:
             pass  # Payload not configured
 
+        # Optional: Image generator (if OPENAI_API_KEY is set)
+        image_generator = None
+        if os.getenv('OPENAI_API_KEY'):
+            try:
+                image_generator = ImageGenerator()
+            except:
+                pass  # Image generator not available
+
         return {
             'ai': ai_provider,
             'storage': storage,
@@ -83,6 +92,7 @@ class DependencyFactory:
             'review': review,
             'category_matcher': category_matcher,
             'payload': payload,
+            'image_generator': image_generator,
         }
 
     def _load_provider_config(self, provider_name: str) -> Dict[str, Any]:

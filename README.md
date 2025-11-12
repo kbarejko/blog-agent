@@ -4,7 +4,7 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 14-step workflow from outline to publication
+- **Automated Article Generation**: 15-step workflow from outline to publication
 - **Multi-Model Support**: Claude, OpenAI (GPT-4), Google Gemini, Ollama (local)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
 - **Git Versioning**: Commits at key milestones
@@ -13,6 +13,7 @@ AI-powered blog article generation system for Digital Vantage.
 - **SEO Optimization**: Meta tags, heading structure, Schema.org markup
 - **CTA Generation**: Contextual "Co dalej?" sections
 - **Multimedia Suggestions**: AI-generated image prompts
+- **Image Generation**: DALL-E 3 integration for automatic image creation (optional)
 - **Internal Linking**: Automatic cross-references between related articles in silos
 - **Local Models**: Ollama support for offline generation (llama3, mistral, codellama)
 - **Multiple Providers**: 4 AI providers with 15+ model options
@@ -93,6 +94,7 @@ blog-agent list --series ecommerce
 12. **Schema** - Generate Schema.org structured data with 22 template variables (Article, FAQPage, HowTo)
 13. **Categories** - AI selects 1-5 categories from 146 available
 14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
+15. **Generate Images** - Generate images with DALL-E 3 from multimedia prompts (optional, disabled by default)
 
 ## Article Structure
 
@@ -171,6 +173,43 @@ Available Ollama models:
 - `codellama:13b` (7.4 GB) - Code Llama 13B
 - `phi3:mini` (2.2 GB) - Microsoft Phi-3 (fastest)
 - And more (see `ollama list`)
+
+### Image Generation Setup
+
+Step 15 generates images using OpenAI DALL-E API (disabled by default).
+
+**Setup:**
+```bash
+# 1. Get OpenAI API key from https://platform.openai.com/api-keys
+export OPENAI_API_KEY='sk-...'
+
+# 2. Enable step in workflow.yaml
+# Change: enabled: false → enabled: true
+
+# 3. Run workflow with image generation
+blog-agent create --config path/config.yaml
+# Or run image generation only
+blog-agent create --config path/config.yaml --only generate_images
+```
+
+**Cost:**
+- DALL-E 3 Standard (1792x1024): $0.08 per image
+- DALL-E 3 HD (1792x1024): $0.12 per image
+- DALL-E 2 (1024x1024): $0.02 per image (cheaper alternative)
+
+For typical article (hero + 5 section images):
+- **DALL-E 3 Standard: ~$0.48 per article**
+- **DALL-E 2: ~$0.12 per article**
+
+**Configuration in workflow.yaml:**
+```yaml
+- name: generate_images
+  enabled: true  # Enable image generation
+  model: "dall-e-3"  # or "dall-e-2" for cheaper
+  size: "1792x1024"  # or "1024x1024"
+  quality: "standard"  # or "hd"
+  skip_existing: true  # Skip if image already exists
+```
 
 ### AI Provider Comparison
 
@@ -303,6 +342,9 @@ python test_remaining_steps.py
 # Test Internal Linking step (step 14)
 python test_internal_linking.py
 
+# Test Image Generation step (step 15)
+python test_image_generation.py
+
 # Test Ollama integration
 python test_ollama.py
 
@@ -325,10 +367,18 @@ python test_gemini.py
   - Uses AI to suggest anchor text from existing content
   - Gracefully handles cases where no good links exist
   - Works best with thematically related articles
+- ✅ **Step 15 (Image Generation)**: Implemented (requires OPENAI_API_KEY)
+  - Generates images using DALL-E 3 or DALL-E 2
+  - Reads prompts from multimedia.json
+  - Saves images to images/ folder
+  - Updates multimedia.json with local paths
+  - Disabled by default (opt-in, costs money)
+  - Test script: test_image_generation.py
 - ✅ **E2E Workflow**: Complete 1-14 workflow validated
   - Tested with claude-3-haiku-20240307 (cheap model)
   - Generated article: 4410 words, Flesch 39.1, 3 categories
   - All 14 steps completed successfully (~15 minutes)
+  - Step 15 (images) is optional add-on
 - ✅ **Ollama Integration**: Tested with llama3:latest
   - Provider connection working
   - Text generation working
