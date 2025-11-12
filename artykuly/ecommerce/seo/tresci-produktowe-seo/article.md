@@ -12,7 +12,7 @@ Większość właścicieli sklepów internetowych wpadła w pułapkę, która ko
 
 Prawda jest taka, że dobrze napisane opisy produktów mogą zwiększyć sprzedaż nawet o 78%, jednocześnie przyciągając setki nowych klientów z wyszukiwarki każdego dnia. Problem w tym, że wielu przedsiębiorców traktuje je jak niepotrzebny balast – nie zdając sobie sprawy z ogromnego potencjału, który marnują.
 
-Pokażę ci, jak tworzyć treści produktowe, które działają na dwóch frontach jednocześnie: przekonują niezdecydowanych klientów do kliknięcia "dodaj do koszyka" i budują stały strumień organicznego ruchu. Bez teoretyzowania – tylko sprawdzone techniki i przykłady z prawdziwego życia.
+Pokażę ci, jak tworzyć treści produktowe, które działają na dwóch frontach jednocześnie: przekonują niezdecydowanych klientów do kliknięcia "dodaj do koszyka" i budują [stały strumień organicznego ruchu](/ecommerce/seo/linkowanie-wewnetrzne/). Bez teoretyzowania – tylko sprawdzone techniki i przykłady z prawdziwego życia.
 
 ## Dlaczego treści produktowe to fundament sukcesu e-commerce
 
@@ -22,7 +22,7 @@ Badania przeprowadzone przez Salsify ujawniają coś fascynującego – aż 87% 
 
 Różnica w konwersji może być naprawdę dramatyczna. Sklepy z kompletnymi, przemyślanymi opisami sprzedają średnio o 45% więcej niż te z podstawowymi treściami. Dlaczego? Dobry opis eliminuje obawy zanim klient zdąży je sformułować w głowie.
 
-Google również docenia treści, które mają sens. Algorytm lepiej rozumie tematykę produktu, gdy opis zawiera naturalny kontekst, synonimy i różne warianty kluczowych fraz. Efekt? Wyższe pozycje w wynikach wyszukiwania i więcej organicznych odwiedzin.
+[Google również docenia tre](/ecommerce/seo/seo-sklepu-cwv/)ści, które mają sens. Algorytm lepiej rozumie tematykę produktu, gdy opis zawiera naturalny kontekst, synonimy i różne warianty kluczowych fraz. Efekt? Wyższe pozycje w wynikach wyszukiwania i więcej organicznych odwiedzin.
 
 Koszt pozyskania nowego klienta rośnie każdego roku – średnia cena kliknięcia w kategorii e-commerce wzrosła o 23% w ciągu ostatnich dwunastu miesięcy. Tymczasem ruch organiczny z dobrze zoptymalizowanych stron produktów to praktycznie darmowi klienci przez następne lata.
 
