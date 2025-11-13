@@ -1,27 +1,21 @@
-## Performance i szybkość - fundamenty dobrego UX
+## Szybkość jako element UX - wpływ na zachowania użytkowników
 
-### Wpływ szybkości na doświadczenie użytkownika
+Trzy sekundy. Tyle czasu masz, zanim użytkownik zacznie się denerwować. Po pięciu sekundach połowa już odeszła. Po dziesięciu zostają tylko najbardziej zdeterminowani.
 
-Trzy sekundy. Tyle czasu ma Twój sklep na pierwszą impressję. Po tym czasie 53% użytkowników mobilnych po prostu odchodzi. Badania Google są bezlitosne – każda dodatkowa sekunda ładowania oznacza 7% mniej konwersji.
+Largest Contentful Paint (LCP) na stronach produktowych powinien zmieścić się w 2,5 sekundy. To moment, gdy główny obraz produktu i kluczowe informacje stają się widoczne. Użytkownik musi szybko ocenić, czy to to, czego szuka.
 
-W e-commerce szybkość to nie fanaberia technologiczna, tylko konkretny business. Klient, który czeka na załadowanie strony produktu, ma czas zmienić zdanie. Ten, który przyszedł z reklamy i trafi na wolno ładującą się stronę, wraca do Google i klika w konkurencję.
+First Input Delay (FID) ujawnia się przy dodawaniu do koszyka. Kliknięcie w przycisk "Dodaj do koszyka" bez natychmiastowej reakcji budzi podejrzenia. Czy kliknąłem? Czy coś się dzieje? Ludzie klikają ponownie, czasem dodając produkt dwukrotnie.
 
-Mobile commerce ma jeszcze ostrzejsze wymagania. Użytkownicy smartfonów oczekują błyskawicznych reakcji, a ich połączenie internet nie zawsze jest stabilne. Desktop daje więcej pobłażliwości, ale standard 2-3 sekundy obowiązuje wszędzie.
+Cumulative Layout Shift (CLS) to cichy zabójca konwersji. Strona, która "skacze" podczas ładowania, frustruje szczególnie na mobilnych. Użytkownik celuje w przycisk, ale w ostatniej chwili treść się przesuwa. Zamiast "Kup teraz" klika w reklamę.
 
-Google traktuje szybkość jako czynnik rankingowy, więc wolny sklep traci widoczność organiczną. Paradoks: inwestujesz w SEO i content marketing, a technical performance niszczy te wysiłki.
+Lazy loading obrazków produktów brzmi sensownie, ale wymaga finezji. Placeholder powinien mieć dokładnie te same wymiary co docelowy obraz. Skeleton screens działają lepiej niż kółka ładowania – sugerują, że coś się dzieje.
 
-### Kluczowe metryki wydajności dla sklepów online
+Cache dla powracających klientów to różnica między lojalnym kupującym a tym, który sprawdzi konkurencję. Ktoś, kto już u ciebie kupował, oczekuje jeszcze płynniejszego doświadczenia.
 
-Core Web Vitals to trzy wskaźniki, na których skupia się Google. Largest Contentful Paint (LCP) mierzy szybkość ładowania głównej treści – w sklepach to często zdjęcie produktu. First Input Delay (FID) sprawdza responsywność interfejsu. Cumulative Layout Shift (CLS) karze za "skaczące" elementy strony.
+Progressive loading priorytetyzuje to, co widać nad zagięciem ekranu. Krytyczne elementy – cena, zdjęcie główne, przycisk zakupu – ładują się najpierw. Reszta może poczekać chwilę.
 
-E-commerce ma specyficzne wyzwania. Katalogi z tysiącami produktów, galerie zdjęć wysokiej rozdzielczości, skomplikowane filtry i porównywarka cen. Każdy element może stać się wąskim gardłem.
+Więcej o optymalizacji szybkości w: [Performance UX w E-commerce] (planowany artykuł)
 
-Mobile-first to dziś jedyna sensowna strategia. Ponad 60% zakupów online zaczyna się na smartfonie. Optymalizujesz pod mobile, a desktop sam się dopasuje.
+Feedback wizualny podczas ładowania nie może być przypadkowy. Animacja postępu dla procesu płatności, subtelne pulsowanie podczas wyszukiwania, potwierdzenie dodania do koszyka – każdy sygnał mówi użytkownikowi, że system żyje i pracuje.
 
-### Od teorii do praktyki
-
-Najczęstsze błędy? Nieoptymalizowane zdjęcia produktów, brak lazy loading, za dużo zewnętrznych skryptów (social media, analytics, chatboty). Jeden pixel tracking może spowolnić całą stronę.
-
-Quick wins to kompresja obrazów, minifikacja CSS/JS i włączenie cache'owania. Długoterminowo: migracja na CDN, optymalizacja bazy danych, wybór szybszego hostingu.
-
-**Link wewnętrzny:** Kompleksowe strategie poprawy wydajności sklepów internetowych oraz narzędzia do monitorowania performance opisujemy w artykule [Performance Media](/performance-media).
+Na urządzeniach mobilnych każda milisekunda ma większe znaczenie. Połączenia są słabsze, procesory mniej wydajne, a cierpliwość jeszcze mniejsza.

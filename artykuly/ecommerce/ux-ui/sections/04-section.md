@@ -1,33 +1,21 @@
-## Analiza zachowań użytkowników - dane jako podstawa decyzji UX
+## Dostępność (accessibility) - UX dla wszystkich użytkowników
 
-### Kluczowe metryki UX w e-commerce
+Dwanaście milionów Polaków ma różnego rodzaju niepełnosprawności. To nie niszowy segment – to ogromny rynek, który większość sklepów internetowych kompletnie ignoruje.
 
-Bounce rate 85% na stronie kategorii produktów. Średni czas sesji 43 sekundy. Brzmi znajomo? Te liczby krzyczą, że coś jest nie tak z UX, ale co konkretnie?
+Ironią jest, że wiele rozwiązań accessibility poprawia doświadczenie wszystkich użytkowników. Wysoki kontrast tekstu? Lepiej widać na słońcu przy telefonie. Duże, wyraźne przyciski? Łatwiej trafić na ekranie dotykowym. Logiczna struktura nagłówków? Szybciej znajdziesz informacje.
 
-Standardowe metryki Google Analytics to dopiero początek. Bounce rate mówi, że ludzie odchodzą, ale nie wyjaśnia dlaczego. Czas sesji może być krótki bo klient szybko znalazł to czego szukał, albo długi bo się gubił w nawigacji.
+WCAG 2.1 to nie tylko standard prawny – to praktyczny przewodnik po użyteczności. Wymóg czterech poziomów nawigacji klawiszowej sprawia, że strona staje się przejrzystsza. Konieczność opisów dla obrazków zmusza do przemyślenia, czy każda grafika ma sens.
 
-Prawdziwą goldmine'ą są ścieżki nawigacji użytkowników. Zobacz gdzie klikają po wejściu na stronę główną. Czy trafiają do kategorii produktów czy od razu w wyszukiwarkę? Czy z karty produktu idą do koszyka czy wracają do kategorii?
+Screen readery to specjalistyczne oprogramowanie, które "czyta" strony internetowe. Ale jeśli twoje pola formularza nie mają właściwych etykiet, użytkownik usłyszy "pole tekstowe" zamiast "adres e-mail". Trudno wtedy wypełnić zamówienie.
 
-Heatmapy pokazują co dzieje się naprawdę. Klienci klikają w elementy, które nie są linkami? Przewijają bez zatrzymania przez ważne sekcje? Koncentrują uwagę na niewłaściwych elementach? To sygnały do natychmiastowych zmian.
+Alt teksty dla zdjęć produktów wymagają finezji. "Czerwona sukienka" to za mało. "Czerwona sukienka midi z długimi rękawami, wzór w kwiaty" daje pełny obraz. Dla produktów technicznych opisy mogą być jeszcze bardziej szczegółowe.
 
-Nagrania sesji ujawniają frustracje ukryte w statystykach. Widzisz jak klient próbuje trzy razy wypełnić formularz, bo walidacja jest nieczytelna. Albo jak szuka przycisku "dodaj do koszyka", który znika za obrazkami produktu.
+Nawigacja klawiaturą ujawnia problemy projektowe niewidoczne na pierwszy rzut oka. Jeśli nie da się dotrzeć do głównego menu naciskając Tab, coś jest źle zaprojektowane. Focus powinien być widoczny – wyraźna ramka wokół aktywnego elementu.
 
-### Narzędzia do analizy zachowań w sklepie online
+Automated testing wykrywa oczywiste błędy – brak alt tekstów, słaby kontrast, problemy z kolejnością czytania. Ale prawdziwe problemy ujawnia dopiero testowanie z rzeczywistymi użytkownikami niepełnosprawnymi.
 
-Google Analytics 4 dla e-commerce to standard, ale konfiguracja robi różnicę. Enhanced e-commerce tracking pokazuje gdzie w funnel sprzedażowym tracisz klientów. Które produkty mają wysokie bounce rate? Na którym kroku checkout ludzie rezygnują?
+Kompletny przewodnik po accessibility: [Accessibility w E-commerce] (planowany artykuł)
 
-Hotjar i Crazy Egg to okno do umysłów klientów. Heatmapy kliknięć, scroll maps, form analytics – widzisz dokładnie jak ludzie używają Twojego sklepu. Nagrania sesji pokazują prawdziwe zachowania, nie tylko statystyki.
+Kolory nie mogą być jedynym nośnikiem informacji. Czerwony przycisk "Usuń z koszyka" musi mieć też odpowiednią ikonę lub tekst. Osoba z daltonizmem może nie rozróżnić go od zielonego "Dodaj do ulubionych".
 
-A/B testing w e-commerce ma swoje zasady. Testuj elementy o największym potencjalnym wpływie: przyciski CTA, nagłówki stron produktowych, proces checkout. Jeden test na raz, wystarczająco długo żeby uzyskać statystyczną istotność.
-
-Nie testuj kolorów przycisków – testuj ich tekst i umiejscowienie. Nie zmieniaj wszystkiego naraz – izoluj zmienne. "Kup teraz" vs "Dodaj do koszyka" to sensowny test. Zmiana całego layoutu to chaos danych.
-
-### Od danych do działania
-
-Dane bez działania to hobby, nie biznes. Masz heatmapy pokazujące, że nikt nie przewija do opisu produktu? Przenieś kluczowe informacje wyżej. Form analytics pokazuje porzucanie na polu "telefon"? Zrób go opcjonalnym.
-
-Priorytetyzuj zmiany według wpływu na biznes i kosztu wdrożenia. Poprawa szybkości strony może zwiększyć konwersje o 15% przy relatywnie niewielkim koszcie. Redesign całego sklepu to duża inwestycja o niepewnym wyniku.
-
-**Link wewnętrzny:** Praktyczne podejście do analizy wyszukiwań wewnętrznych i zachowań użytkowników w sklepach internetowych opisaliśmy szczegółowo w artykule [Search Analytics](/search-analytics).
-
-Cykl optymalizacji nigdy się nie kończy. Testuj, analizuj, wdrażaj poprawki, monitoruj rezultaty, planuj kolejne testy. UX to maraton, nie sprint.
+Formularze wymagają szczególnej uwagi. Komunikaty o błędach powinny być jasne i konkretne. "Nieprawidłowy format" to za mało. "Adres e-mail musi zawierać znak @" daje użytkownikowi konkretną wskazówkę do poprawy.

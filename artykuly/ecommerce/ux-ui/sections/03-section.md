@@ -1,27 +1,21 @@
-## Dostępność (accessibility) - sklep dla wszystkich użytkowników
+## Wewnętrzna wyszukiwarka - klucz do znalezienia produktów
 
-### Dlaczego accessibility ma znaczenie w e-commerce
+Połowa użytkowników sklepu internetowego sięga po wyszukiwarkę w ciągu pierwszych 30 sekund. To nie przypadek – ludzie przychodzą z konkretnym celem, a nie po to, żeby klikać przez dziesiątki kategorii.
 
-15% populacji to osoby z różnymi niepełnosprawnościami. W Polsce to ponad 5 milionów potencjalnych klientów. Ignorowanie ich potrzeb oznacza dobrowolną rezygnację z gigantycznego segmentu rynku.
+Użytkownicy wyszukiwarki wewnętrznej to szczególna grupa. Konwertują częściej o 2-3 razy w porównaniu do tych, którzy tylko przeglądają kategorie. Wiedzą, czego chcą, i są bliżej decyzji zakupowej. Dlatego każdy problem z wyszukiwaniem to bezpośrednia strata w sprzedaży.
 
-Od 2025 roku wszystkie sklepy internetowe w UE muszą spełniać standardy WCAG 2.1 AA. To nie jest opcjonalna "zabawa w polityczną poprawność" – to wymóg prawny z realnymi konsekwencjami finansowymi. Kary mogą sięgać 4% rocznego obrotu.
+Zero results queries – zapytania bez wyników – to sytuacja alarmowa. 68% użytkowników, którzy nie znajdą niczego przy pierwszym wyszukiwaniu, opuszcza sklep natychmiast. Nie próbują ponownie, nie sprawdzają kategorii. Po prostu odchodzą.
 
-Bonus: rozwiązania accessibility poprawiają SEO. Alt teksty pomagają Google zrozumieć zawartość zdjęć. Przejrzysta struktura nagłówków ułatwia indeksację. Lepszy kontrast kolorów zwiększa czytelność dla wszystkich użytkowników.
+Najczęstszy problem? Sklepy wyszukują tylko w tytułach produktów, ignorując opisy, marki czy parametry techniczne. Ktoś szuka "czerwonej sukienki", a system nie znajduje produktu opisanego jako "sukienka bordowa". Synonimów nikt nie dodał.
 
-### Podstawowe zasady dostępności w sklepach online
+Autocomplete to nie tylko wygoda – to edukacja klienta. Podpowiadając popularne frazy, pokazujesz, co masz w ofercie. "iPhone 15 Pro" może rozwinąć się do "iPhone 15 Pro Max", "iPhone 15 Pro Case", sugerując dodatkowe możliwości.
 
-Nawigacja klawiaturą przez checkout to podstawa. Część użytkowników nie może używać myszy – musi móc przejść przez całą ścieżkę zakupową używając tylko Tab, Enter i strzałek.
+Dogłębną analizę search analytics znajdziesz w: [Search Analytics](/search-analytics)
 
-Każde zdjęcie produktu potrzebuje opisu alternatywnego. Nie "zdjęcie produktu", ale "czarne sneakersy Nike Air Max, widok z boku". Osoby niewidome kupują online równie chętnie jak wszyscy inni.
+Analiza zapytań bez wyników ujawnia luki w asortymencie lub problemy z nazewnictwem. Jeśli 200 osób miesięcznie szuka "bezprzewodowych słuchawek", a ty sprzedajesz "słuchawki bluetooth", masz problem z komunikacją, nie z produktem.
 
-Kontrast między tekstem a tłem musi wynosić minimum 4.5:1. Szare napisy na białym tle wyglądają elegancko, ale część użytkowników ich po prostu nie widzi. Sprawdź to narzędziem WebAIM Color Contrast Checker.
+Personalizacja wyników powinna być subtelna. Ktoś, kto wcześniej kupował produkty premium, może zobaczyć nieco inne ranking niż osoba szukająca zawsze najtańszych opcji. Ale algorytm nie może być zbyt nachalni – użytkownicy cenią także odkrywanie nowych rzeczy.
 
-Czytniki ekranu potrzebują logicznej struktury. Nagłówki H1-H6 w odpowiedniej kolejności, formularze z prawidłowymi labelkami, przyciski z jasnymi opisami funkcji.
+Filtrowanie wyników wymaga przemyślenia hierarchii. Najpopularniejsze filtry – cena, marka, rozmiar – powinny być zawsze widoczne. Reszta może się kryć za przyciskiem "więcej filtrów". Zbyt wiele opcji od razu paraliżuje decyzje.
 
-### Testowanie i wdrażanie rozwiązań accessibility
-
-WAVE i axe to darmowe narzędzia do podstawowego audytu. Pokażą oczywiste błędy jak brakujące alt teksty czy problemy z kontrastem. Prawdziwy test to jednak próba nawigacji tylko klawiaturą.
-
-Najczęstsze problemy w polskich sklepach? Formularze bez labelek, zdjęcia bez opisów, niedostępne menu mobilne, linki typu "kliknij tutaj". Każdy da się naprawić stosunkowo łatwo.
-
-Accessibility to nie jednorazowa akcja, ale część regularnej optymalizacji UX. Każda nowa funkcja powinna być testowana pod kątem dostępności od początku.
+Szybkość wyszukiwarki ma znaczenie psychologiczne. Wyniki powinny pojawiać się niemal natychmiast, podczas wpisywania. Opóźnienie dłuższe niż 200 milisekund sprawia wrażenie, że system "myśli", a to budzi wątpliwości.
