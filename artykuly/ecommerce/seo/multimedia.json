@@ -2,91 +2,78 @@
   "hero_image": {
     "type": "photo",
     "title": "Hero image - SEO w e-commerce",
-    "description": "Profesjonalne zdjęcie właściciela sklepu e-commerce pracującego nad strategią SEO",
-    "alt_text": "Właściciel sklepu e-commerce analizuje strategię SEO na laptopie",
-    "prompt": "Professional photo of an e-commerce business owner working on laptop focusing on SEO strategy, modern office environment, natural lighting, authentic workspace, stock photo style",
+    "description": "Profesjonalne zdjęcie zespołu e-commerce pracującego nad strategią SEO z laptopami i notatnikami",
+    "alt_text": "Zespół e-commerce opracowujący strategię SEO przy laptopach",
+    "prompt": "Professional photo of an e-commerce team working on SEO strategy with laptops and notebooks, modern office environment, collaborative atmosphere, natural lighting, stock photo style",
     "keywords": [
       "e-commerce",
-      "SEO",
-      "strategia"
+      "strategia SEO",
+      "zespół"
     ]
   },
   "section_media": [
     {
       "type": "chart",
       "subtype": "bar_chart",
-      "section": "Sekcja: Optymalizacja techniczna SEO",
-      "title": "Wykres Core Web Vitals",
-      "description": "Wykres słupkowy przedstawiający wpływ Core Web Vitals na pozycjonowanie",
-      "alt_text": "Wykres wpływu Core Web Vitals na pozycjonowanie e-commerce",
-      "prompt": "Clean bar chart showing the impact of Core Web Vitals on e-commerce SEO ranking, blue bars, professional infographic style, labeled axes, minimalist design",
+      "section": "Optymalizacja techniczna SEO",
+      "title": "Wykres wpływu Core Web Vitals na ranking SEO",
+      "description": "Wykres słupkowy pokazujący wpływ różnych wskaźników Core Web Vitals na ranking SEO",
+      "alt_text": "Wykres wpływu Core Web Vitals na ranking SEO",
+      "prompt": "Bar chart showing the impact of Core Web Vitals on SEO ranking, with metrics like LCP, FID, and CLS, blue and green colors, professional infographic style",
       "placement": "after_paragraph_2",
       "keywords": [
         "Core Web Vitals",
         "SEO",
+        "ranking"
+      ]
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Tworzenie treści produktowych",
+      "title": "Infografika - Elementy skutecznych treści produktowych",
+      "description": "Infografika z kluczowymi elementami do uwzględnienia w treściach produktowych SEO",
+      "alt_text": "Infografika z elementami skutecznych treści produktowych SEO",
+      "prompt": "Infographic showing key elements of effective product content for SEO: unique descriptions, user intent, keyword integration, high-quality images, professional style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "treści produktowe",
+        "SEO",
+        "e-commerce",
+        "infografika"
+      ]
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Analiza ruchu i konwersji",
+      "title": "Screenshot Google Analytics",
+      "description": "Screenshot interfejsu Google Analytics pokazujący dane o konwersji",
+      "alt_text": "Interfejs Google Analytics z danymi o konwersji w sklepie e-commerce",
+      "prompt": "Screenshot of Google Analytics interface showing conversion data for an e-commerce store, clear dashboard view, highlighted conversion metrics",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "Google Analytics",
+        "konwersja",
         "e-commerce"
       ]
     },
     {
       "type": "illustration",
       "subtype": "infographic",
-      "section": "Sekcja: Tworzenie treści produktowych",
-      "title": "Infografika - Optymalizacja opisów produktów",
-      "description": "Infografika pokazująca kluczowe elementy optymalizacji opisów produktów",
-      "alt_text": "Infografika optymalizacji opisów produktów dla SEO",
-      "prompt": "Infographic illustrating key elements of product description optimization for SEO: keywords, user engagement, unique content. Icons for each element, blue and green colors, professional clean design",
-      "placement": "after_paragraph_1",
-      "keywords": [
-        "treści produktowe",
-        "optymalizacja",
-        "SEO"
-      ]
-    },
-    {
-      "type": "screenshot",
-      "subtype": "interface",
-      "section": "Sekcja: Analiza ruchu i konwersji",
-      "title": "Screenshot Google Analytics",
-      "description": "Screenshot interfejsu Google Analytics z danymi o ruchu i konwersji",
-      "alt_text": "Google Analytics z danymi o ruchu i konwersji w e-commerce",
-      "prompt": "Screenshot of Google Analytics interface showing traffic and conversion data for e-commerce store, highlighted metrics, professional software interface",
-      "placement": "after_paragraph_2",
-      "keywords": [
-        "Google Analytics",
-        "ruch",
-        "konwersja"
-      ]
-    },
-    {
-      "type": "chart",
-      "subtype": "line_chart",
-      "section": "Sekcja: Trendy w SEO dla e-commerce w 2023",
-      "title": "Wykres trendów SEO 2023",
-      "description": "Wykres liniowy przedstawiający trendy SEO w e-commerce w 2023 roku",
-      "alt_text": "Wykres trendów SEO w e-commerce w 2023 roku",
-      "prompt": "Line chart showing SEO trends in e-commerce for 2023, AI and personalization impact, professional infographic style, green and blue lines, labeled axes",
-      "placement": "after_paragraph_1",
+      "section": "Trendy w SEO dla e-commerce w 2025",
+      "title": "Infografika - Przyszłość SEO w e-commerce",
+      "description": "Infografika przedstawiająca przyszłe trendy w SEO dla e-commerce do 2025 roku",
+      "alt_text": "Infografika trendów SEO w e-commerce do 2025 roku",
+      "prompt": "Infographic showing future SEO trends for e-commerce by 2025: AI integration, voice search optimization, personalization, blue and green colors, futuristic design",
+      "placement": "after_paragraph_3",
       "keywords": [
         "trendy SEO",
         "e-commerce",
-        "2023"
-      ]
-    },
-    {
-      "type": "illustration",
-      "subtype": "flowchart",
-      "section": "Sekcja: Linkowanie wewnętrzne",
-      "title": "Diagram linkowania wewnętrznego",
-      "description": "Flowchart przedstawiający proces linkowania wewnętrznego w e-commerce",
-      "alt_text": "Flowchart procesu linkowania wewnętrznego w sklepie e-commerce",
-      "prompt": "Flowchart diagram illustrating internal linking process in e-commerce, arrows connecting steps, icons for each step, blue and white color scheme, professional design",
-      "placement": "after_paragraph_3",
-      "keywords": [
-        "linkowanie wewnętrzne",
-        "proces",
-        "e-commerce"
+        "2025",
+        "AI"
       ]
     }
   ],
-  "total_count": 6
+  "total_count": 5
 }
