@@ -164,9 +164,27 @@ def create(config_path: str, provider: str, skip: str, only: str):
     skip_list = expand_groups(skip)
     only_list = expand_groups(only)
 
+    # Auto-detect provider from model name if provider is default 'claude'
+    # and article config has a specific model
+    detected_provider = provider
+    if provider == 'claude' and article_config.model:
+        model = article_config.model
+        # Map common model patterns to providers
+        if model.startswith('gpt-') or 'gpt' in model.lower():
+            # Try to find matching provider config (e.g., openai-gpt5-1 for gpt-5.1)
+            # Normalize: gpt-5.1 -> gpt5-1, gpt-4o -> gpt4o
+            model_normalized = model.replace('.', '-').replace('gpt-', 'gpt')
+            detected_provider = f'openai-{model_normalized}'
+            click.echo(f"   Auto-detected provider: {detected_provider} (from model: {model})")
+        elif model.startswith('gemini'):
+            detected_provider = 'gemini'
+            click.echo(f"   Auto-detected provider: {detected_provider} (from model: {model})")
+        elif model.startswith('claude'):
+            detected_provider = 'claude'
+
     # Create factory and deps
     factory = DependencyFactory(project_root)
-    deps = factory.create_deps(provider)
+    deps = factory.create_deps(detected_provider)
 
     # Create workflow engine
     workflow_config_path = factory.get_workflow_config_path()

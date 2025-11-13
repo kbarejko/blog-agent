@@ -62,12 +62,42 @@ blog-agent init \
 # Using default provider (Claude)
 blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/config.yaml
 
-# Using specific provider
+# Using specific provider (explicit)
 blog-agent create --config path/to/config.yaml --provider claude
-blog-agent create --config path/to/config.yaml --provider openai
+blog-agent create --config path/to/config.yaml --provider openai-gpt4o     # GPT-4o
+blog-agent create --config path/to/config.yaml --provider openai-gpt4o-mini # GPT-4o Mini
 blog-agent create --config path/to/config.yaml --provider gemini
 blog-agent create --config path/to/config.yaml --provider ollama
 ```
+
+**Auto-Detection from config.yaml:**
+
+The system automatically detects the provider from the `model` field in your article's `config.yaml`:
+
+```yaml
+# config.yaml
+model: gpt-4o         # Auto-detects openai-gpt4o provider
+model: gpt-4o-mini    # Auto-detects openai-gpt4o-mini provider
+model: gpt-4-turbo    # Auto-detects openai provider
+model: gemini-1.5-pro # Auto-detects gemini provider
+model: claude-sonnet-4-20250514 # Uses claude provider (default)
+```
+
+No need to specify `--provider` when the model is in your config!
+
+**Available Providers:**
+
+| Provider | Model | Quality | Speed | Cost |
+|----------|-------|---------|-------|------|
+| `claude` | Claude Sonnet 4 | ⭐⭐⭐⭐⭐ | Fast | $$ |
+| `openai-gpt4o` | GPT-4o | ⭐⭐⭐⭐⭐ | Fast | $$ |
+| `openai-gpt4o-mini` | GPT-4o Mini | ⭐⭐⭐⭐ | Very Fast | $ |
+| `openai` | GPT-4 Turbo | ⭐⭐⭐⭐ | Medium | $$ |
+| `gemini` | Gemini 1.5 Pro | ⭐⭐⭐⭐ | Fast | $ |
+| `gemini-flash` | Gemini 1.5 Flash | ⭐⭐⭐⭐ | Very Fast | $ |
+| `ollama` | Llama 3 | ⭐⭐ | Slow | Free |
+
+Configure providers in `blog_agent/config/providers.yaml`
 
 ### Check Status
 
@@ -158,7 +188,7 @@ Each article has its own `config.yaml` file that controls content generation.
 title: "Your Article Title"
 target_audience: "Who this article is for"
 tone: "ekspercki, ale naturalny i rozmowny"
-model: "claude-sonnet-4-20250514"
+model: "claude-sonnet-4-20250514"  # AI model (auto-detects provider)
 ```
 
 **Optional Fields:**
@@ -173,17 +203,21 @@ meta_description: "SEO meta description (auto-generated if empty)"
 title: Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO
 target_audience: Właściciele sklepów internetowych i specjaliści e-commerce
 tone: ekspercki, ale naturalny i rozmowny
-model: claude-sonnet-4-20250514
+model: gpt-4o
+target_word_count: 2000
 meta_title: ""
 meta_description: ""
 ```
 
 **Model Options:**
-- `claude-sonnet-4-20250514` - Best quality (recommended)
-- `claude-3-haiku-20240307` - Faster, cheaper
-- `gpt-4-turbo` - OpenAI alternative
-- `gemini-1.5-pro` - Google alternative
-- `llama3:latest` - Local Ollama (requires setup)
+- `claude-sonnet-4-20250514` - Claude Sonnet 4 (best quality, recommended)
+- `gpt-4o` - OpenAI GPT-4o (latest, excellent quality)
+- `gpt-4o-mini` - OpenAI GPT-4o Mini (faster, cheaper)
+- `gpt-4-turbo` - OpenAI GPT-4 Turbo
+- `gpt-3.5-turbo` - OpenAI GPT-3.5 (cheapest)
+- `gemini-1.5-pro` - Google Gemini Pro
+- `gemini-1.5-flash` - Google Gemini Flash (fast, cheap)
+- `llama3:latest` - Local Ollama (requires setup, free)
 
 **Tone Guidelines:**
 - `ekspercki, ale naturalny i rozmowny` - Expert but conversational (default)
@@ -250,6 +284,13 @@ The `tolerance_percent` adds flexibility to all limits. For example, with `toler
 
 Configure AI providers (Claude, OpenAI, Gemini, Ollama).
 
+The system supports **provider prefixes** for fine-grained control. For example:
+- `openai-gpt4o` → uses `gpt-4o` model with OpenAI provider
+- `openai-gpt4o-mini` → uses `gpt-4o-mini` model with OpenAI provider
+- `gemini-flash` → uses `gemini-1.5-flash` model with Gemini provider
+
+Configure each variant in `providers.yaml`:
+
 ```yaml
 providers:
   # Claude (Anthropic) - Best quality
@@ -259,7 +300,21 @@ providers:
     max_tokens: 4000
     temperature: 1.0
 
-  # OpenAI - GPT models
+  # OpenAI - GPT-4o (latest and most capable)
+  openai-gpt4o:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-4o
+    max_tokens: 4000
+    temperature: 0.7
+
+  # OpenAI - GPT-4o Mini (faster, cheaper)
+  openai-gpt4o-mini:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-4o-mini
+    max_tokens: 4000
+    temperature: 0.7
+
+  # OpenAI - GPT-4 Turbo
   openai:
     api_key: ${OPENAI_API_KEY}
     model: gpt-4-turbo
@@ -280,6 +335,15 @@ providers:
     max_tokens: 4000
     temperature: 0.7
 ```
+
+**Auto-Detection:**
+When you set `model: gpt-4o` in your article's `config.yaml`, the system automatically:
+1. Normalizes the model name (`gpt-4o` → `gpt4o`)
+2. Detects the provider prefix (`openai-gpt4o`)
+3. Loads the matching provider config from `providers.yaml`
+4. Uses the `OpenAIProvider` class with the configured settings
+
+No need to manually specify `--provider` on the command line!
 
 ### Ollama Setup
 

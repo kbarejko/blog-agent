@@ -38,7 +38,7 @@ class ProviderRegistry:
         Create provider instance
 
         Args:
-            name: Provider name
+            name: Provider name (supports prefixes like 'openai-gpt5', 'gemini-flash')
             config: Provider configuration
 
         Returns:
@@ -47,12 +47,21 @@ class ProviderRegistry:
         Raises:
             ValueError: If provider not registered
         """
-        if name not in cls._providers:
-            available = ', '.join(cls._providers.keys())
-            raise ValueError(f"Unknown provider '{name}'. Available: {available}")
+        # Try exact match first
+        if name in cls._providers:
+            provider_class = cls._providers[name]
+            return provider_class(config)
 
-        provider_class = cls._providers[name]
-        return provider_class(config)
+        # Try prefix matching (e.g., 'openai-gpt5' -> 'openai', 'gemini-flash' -> 'gemini')
+        for prefix in ['openai', 'gemini', 'ollama', 'claude']:
+            if name.startswith(f'{prefix}-') or name.startswith(f'{prefix}_'):
+                if prefix in cls._providers:
+                    provider_class = cls._providers[prefix]
+                    return provider_class(config)
+
+        # No match found
+        available = ', '.join(cls._providers.keys())
+        raise ValueError(f"Unknown provider '{name}'. Available: {available} (or variants like openai-*, gemini-*, etc.)")
 
     @classmethod
     def list_providers(cls) -> list[str]:
