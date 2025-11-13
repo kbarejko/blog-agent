@@ -181,9 +181,14 @@ def write_section_with_review(
         # Generate content
         content = ai.generate(prompt, max_tokens=1500)
 
-        # Review with section-specific target words (if available)
+        # Review with section-specific target words and structure validation
         target_words = section.get('target_words')
-        review_result = review.review_section(content, target_words=target_words)
+        expected_structure = section.get('description', '')
+        review_result = review.review_section(
+            content,
+            target_words=target_words,
+            expected_structure=expected_structure
+        )
 
         # Store this attempt
         attempts.append((content, review_result))
