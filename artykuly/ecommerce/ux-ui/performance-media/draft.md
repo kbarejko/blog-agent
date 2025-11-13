@@ -1,3 +1,5 @@
+# Performance Media – Marketing, który płaci za siebie
+
 ## Co znajdziesz w artykule?
 
 - **Performance Media to płatność za wyniki** - zamiast wydawać na reklamę "w ciemno", płacisz tylko za konkretne konwersje, leady lub sprzedaż z mierzalnym ROI
@@ -5,9 +7,6 @@
 - **Google Ads + Facebook to tylko początek** - kompletna mapa kanałów performance (programmatic, affiliate, TikTok) z budżetami i oczekiwanymi rezultatami
 - **Checklist 10 kroków do pierwszej kampanii** - od setupu trackingu po optymalizację, gotowy plan działania na pierwsze 30 dni
 - **Błędy kosztujące 40% budżetu** - najczęstsze pułapki w attribution, A/B testach i targetingu, których doświadczeni marketerzy już nie popełniają
-
-
-# Performance Media – Marketing, który płaci za siebie
 
 Wyobraź sobie marketing, gdzie każda wydana złotówka generuje mierzalny zwrot. W Performance Media to nie życzenie, a codzienność.
 
@@ -171,16 +170,4 @@ Data-driven decisions zastępują intuicję. Nie musisz zgadywać, która reklam
 
 ## Performance Media uzupełnia tradycyjny marketing
 
-Performance Media nie zabija brandingu. Przeciwnie – współpracuje z nim. 
-
-Branding buduje rozpoznawalność. Performance Media zamienia ją w sprzedaż. Razem tworzą kompletny system marketingowy.
-
-## Zacznij małymi krokami
-
-Nie potrzebujesz budżetu Coca-Coli. Wystarczy 2000 zł miesięcznie na start.
-
-Wybierz jeden kanał. Naucz się go doskonale. Potem skaluj i dodawaj kolejne.
-
-Najważniejsze to zacząć. Każdy dzień zwłoki to stracone możliwości wzrostu.
-
-**Potrzebujesz wsparcia w Performance Media?** Digital Vantage pomoże ci zbudować przewidywalny system pozyskiwania klientów. Umów się na bezpłatną konsultację – sprawdźmy razem potencjał twojego biznesu.
+Performance Media nie zabija brandingu. Przeciwnie – współpracuje z
