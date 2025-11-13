@@ -129,7 +129,7 @@ blog-agent list --series ecommerce
 13. **Categories** - AI selects 1-5 categories from 146 available
 14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
 15. **Generate Images** - Generate images with DALL-E 3 from multimedia prompts (optional, disabled by default)
-16. **Social Media** - Generate social media posts (Facebook/LinkedIn/Instagram) with hooks, alternative titles, and hashtags
+16. **Social Media** - Generate social media posts (Facebook/LinkedIn/Instagram) with hooks, alternative titles, and hashtags (saved as Markdown)
 
 ### Advanced Workflow Control
 
@@ -625,7 +625,7 @@ python test_gemini.py
   - Provides 4 alternative titles with strong hooks
   - Generates first comment with bullets, link, acronym explanations, and 10 hashtags
   - Targets non-technical business owners (25-55)
-  - Outputs to social_media.yaml
+  - Outputs to social_media.md (readable Markdown format)
   - Test script: test_social_media.py
 - ✅ **E2E Workflow**: Complete 1-16 workflow validated
   - Tested with claude-3-haiku-20240307 (cheap model)

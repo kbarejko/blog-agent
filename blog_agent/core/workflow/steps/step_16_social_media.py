@@ -66,18 +66,19 @@ def execute_social_media(
     # Ensure URL is included
     social_data['article_url'] = article_url
 
-    # Convert hashtags from list to space-separated string (for cleaner YAML)
+    # Convert hashtags from list to space-separated string
     if 'first_comment' in social_data and 'hashtags' in social_data['first_comment']:
         hashtags = social_data['first_comment']['hashtags']
         if isinstance(hashtags, list):
             social_data['first_comment']['hashtags'] = ' '.join(hashtags)
 
-    # Save to YAML file
-    output_path = article.path / 'social_media.yaml'
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    # Save to Markdown file
+    output_path = article.path / 'social_media.md'
+    markdown_content = _format_as_markdown(social_data)
 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
-        yaml.dump(social_data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+        f.write(markdown_content)
 
     print(f"   ✅ Social media posts generated")
     print(f"      Post length: {len(social_data.get('post', ''))} chars")
@@ -85,6 +86,69 @@ def execute_social_media(
     print(f"      Hashtags: {len(social_data.get('first_comment', {}).get('hashtags', []))}")
 
     return article
+
+
+def _format_as_markdown(social_data: Dict[str, Any]) -> str:
+    """
+    Format social media data as Markdown
+
+    Args:
+        social_data: Social media data dict
+
+    Returns:
+        Formatted markdown string
+    """
+    lines = []
+
+    # Post
+    lines.append("# Post")
+    lines.append("")
+    lines.append(social_data.get('post', ''))
+    lines.append("")
+
+    # Alternative titles
+    lines.append("## Alternatywne tytuły")
+    lines.append("")
+    for i, title in enumerate(social_data.get('alternative_titles', []), 1):
+        lines.append(f"{i}. {title}")
+    lines.append("")
+
+    # First comment
+    first_comment = social_data.get('first_comment', {})
+    lines.append("## Pierwszy komentarz")
+    lines.append("")
+
+    # Intro + bullets
+    intro = first_comment.get('intro', 'Co znajdziesz w artykule?')
+    lines.append(f"**{intro}**")
+    lines.append("")
+    for bullet in first_comment.get('bullets', []):
+        lines.append(f"- {bullet}")
+    lines.append("")
+
+    # Link
+    link = first_comment.get('link', social_data.get('article_url', ''))
+    lines.append(f"**Link:** {link}")
+    lines.append("")
+
+    # Acronym explanations
+    acronyms = first_comment.get('acronym_explanations', {})
+    if acronyms:
+        lines.append("### Wyjaśnienia skrótów")
+        lines.append("")
+        for acronym, explanation in acronyms.items():
+            lines.append(f"- **{acronym}**: {explanation}")
+        lines.append("")
+
+    # Hashtags
+    hashtags = first_comment.get('hashtags', '')
+    if hashtags:
+        lines.append("### Hashtags")
+        lines.append("")
+        lines.append(hashtags)
+        lines.append("")
+
+    return '\n'.join(lines)
 
 
 def _generate_article_url(article_path: Path) -> str:

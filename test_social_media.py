@@ -56,47 +56,22 @@ def test_social_media_generation():
         print(f"\n🔄 Generating social media posts...")
         article = execute_social_media(article, deps, {})
 
-        # Read generated file
-        social_media_file = test_article_path / "social_media.yaml"
+        # Read generated markdown file
+        social_media_file = test_article_path / "social_media.md"
         if social_media_file.exists():
-            import yaml
             with open(social_media_file, 'r', encoding='utf-8') as f:
-                social_data = yaml.safe_load(f)
+                content = f.read()
 
             print(f"\n✅ Social media posts generated successfully!")
-            print(f"\n📝 POST ({len(social_data.get('post', ''))} chars):")
-            print(f"   {social_data.get('post', 'N/A')}")
-
-            print(f"\n📋 ALTERNATIVE TITLES:")
-            for i, title in enumerate(social_data.get('alternative_titles', []), 1):
-                print(f"   {i}. {title}")
-
-            print(f"\n💬 FIRST COMMENT:")
-            first_comment = social_data.get('first_comment', {})
-            print(f"   {first_comment.get('intro', 'N/A')}")
-            for bullet in first_comment.get('bullets', []):
-                print(f"   • {bullet}")
-            print(f"\n   Link: {first_comment.get('link', 'N/A')}")
-
-            if first_comment.get('acronym_explanations'):
-                print(f"\n   Wyjaśnienia skrótów:")
-                for acronym, explanation in first_comment.get('acronym_explanations', {}).items():
-                    print(f"   • {acronym}: {explanation}")
-
-            hashtags = first_comment.get('hashtags', '')
-            if isinstance(hashtags, list):
-                hashtags_str = ' '.join(hashtags)
-                hashtag_count = len(hashtags)
-            else:
-                hashtags_str = hashtags
-                hashtag_count = len(hashtags.split())
-            print(f"\n   Hashtags ({hashtag_count}):")
-            print(f"   {hashtags_str}")
-
             print(f"\n📁 File saved: {social_media_file}")
+            print(f"\n" + "=" * 60)
+            print("CONTENT PREVIEW:")
+            print("=" * 60)
+            print(content)
+            print("=" * 60)
 
         else:
-            print(f"❌ social_media.yaml not created")
+            print(f"❌ social_media.md not created")
 
     except Exception as e:
         print(f"❌ Error: {e}")
