@@ -1,53 +1,31 @@
-## Najczęstsze błędy SEO w e-commerce (i jak ich uniknąć)
+## Najczęstsze błędy SEO w e-commerce (i jak ich unikać)
 
-Sklep internetowy ma tysiąc produktów. Pozycje rosną, ruch zwiększa się, ale właściciel jest sfrustrowany. "Wszystko robimy według poradników SEO!" – mówi. 
+### Błędy techniczne
 
-Problem w szczegółach. E-commerce to minowe pole pułapek, które w innych branżach nie istnieją.
+Duplicate content to plaga e-commerce, która niszczy pozycje w Google jak termity drewniany dom. Ten sam produkt w trzech kolorach tworzy trzy niemal identyczne strony. Każda kombinacja filtrów generuje kolejny URL z tą samą treścią. Sortowanie od najtańszych? Kolejny duplikat kategorii.
 
-### Błąd nr 1: Optymalizacja tylko pod desktop
+Google nie ma cierpliwości do duplikatów. Jego roboty marnują czas na skanowanie identycznych treści zamiast odkrywać nowe produkty. Rezultat? Cały sklep spada w pozycjach.
 
-Statystyki mówią jasno – 65% zakupów online dzieje się na telefonach. Ale większość sklepów nadal projektuje najpierw wersję desktopową.
+Rozwiązanie to canonical URLs i przemyślana struktura. Główna strona produktu powinna być oznaczona jako kanoniczna, warianty kolorystyczne – jako jej wersje. Filtry cenowe i sortowania blokuj w robots.txt albo używaj parametrów URL z rel=canonical.
 
-Klient na telefonie nie ma cierpliwości. Jeśli przycisk "Kup teraz" jest za mały, produkty ładują się wolno, a formularz zamówienia wymaga pięciokrotnego powiększania – odchodzi.
+Orphaned pages, czyli strony bez linków wewnętrznych, to kolejny klasyk. Produkt dodany do sklepu, ale nieprzypisany do żadnej kategorii, nie dostanie ani grama "link juice". Google może go w ogóle nie znaleźć.
 
-Mobile-first to nie trend. To konieczność biznesowa.
+Przegładowane karty produktów to trzeci grzech główny. Dziesięć zdjęć w rozdzielczości 4K, player wideo, interaktywne 360°, galerie zoom – wszystko ładuje się wieczność. Klient ucieka, Google karze za wolną stronę.
 
-### Błąd nr 2: Chaos z produktami wyprzedanymi
+### Błędy strategiczne
 
-Co zrobić z produktem, który się skończył? Większość sklepów usuwa stronę albo zostawia błąd 404.
+Keyword cannibalization brzmi mądrze, ale oznacza prostą rzecz: walczysz sam ze sobą. Masz kategorię "buty sportowe" i blog "najlepsze buty sportowe 2024"? Gratulacje, konkurujesz o te same frazy własnymi stronami.
 
-To marnowanie miesięcy pracy SEO.
+Google nie wie, którą stronę wyświetlić w wynikach. Czasem pokazuje kategorię, czasem artykuł, czasem żadną. Tracisz pozycje, bo rozmywasz sygnały. 
 
-Każda strona produktu ma zbudowaną pozycję, linki, zaufanie Google. Kasowanie to wyrzucanie pieniędzy przez okno.
+Thin content to kolejna pułapka. Kopiujesz opisy od producenta, dodajesz zdjęcie i myślisz, że gotowe. Problem w tym, że setki innych sklepów robi to samo. Google widzi identyczne treści i traktuje je jako spam.
 
-Lepsze rozwiązanie? Strona "Produkt niedostępny" z propozycjami alternatyw. Przekierowanie 301 do podobnego produktu. Newsletterowe powiadomienie o powrocie towaru.
+Ignorowanie long-tail keywords to strzał w stopę. Wszyscy walczą o "laptop", ale nikt nie myśli o "laptop do grafiki 15 cali do 5000 złotych". Tymczasem druga fraza ma niższą konkurencję i wyższą konwersję. Klient wie dokładnie, czego szuka.
 
-### Błąd nr 3: Duplikaty treści z filtrów
+### Błędy w content strategy
 
-Filtry to potęga funkcjonalna i piekło SEO. Ta sama kategoria może wygenerować setki podobnych stron:
-- /sukienki-czerwone
-- /sukienki-rozmiar-38  
-- /sukienki-maxi
-- /sukienki-czerwone-rozmiar-38-maxi
+Brak wykorzystania user-generated content to marnowanie SEO-złota. Każda opinia klienta to świeża, unikalna treść pełna naturalnych słów kluczowych. A większość sklepów ma opinie schowane w zakładce albo w ogóle ich nie zbiera.
 
-Google widzi duplikaty. Karze za nie.
+Seasonal content timing to sztuka, którą mało kto opanował. Artykuł o prezentach świątecznych publikujesz w grudniu? Za późno. Google potrzebuje miesięcy, żeby go zindeksować i wypozycjonować. Treści sezonowe przygotowuj z 3-4 miesięcznym wyprzedzeniem.
 
-Rozwiązanie wymaga strategii. Indeksujesz tylko najważniejsze kombinacje filtrów – te, których ludzie rzeczywiście szukają. Resztę blokujesz canonical tagiem lub robots.txt.
-
-### Błąd nr 4: Kopiowanie od wszystkich dostawców
-
-Najłatwiej wziąć opisy produktów od producenta. Problem? Robi tak 90% konkurencji.
-
-Google nie lubi duplikatów. Klienci też wolą unikalne treści.
-
-Przepisanie opisów to inwestycja, ale zwraca się wielokrotnie. Jeden sklep przepisał opisy 200 najważniejszych produktów. Wyniki? Wzrost ruchu organicznego o 40% w sześć miesięcy.
-
-### Błąd nr 5: Ignorowanie linkowania wewnętrznego
-
-Sklepy traktują produkty jak izolowane wyspy. Brak powiązań między podobnymi przedmiotami. Słabe linkowanie kategorii głównych.
-
-To marnowanie potencjału. Każdy link to rekomendacja dla Google i ścieżka nawigacji dla klienta.
-
-"Pasuje do tego", "Podobne produkty", "Kompletny zestaw" – to nie tylko narzędzia cross-sellingu. To sposób na dystrybucję siły SEO po całym sklepie.
-
-E-commerce SEO to dyscyplina szczegółów. Każda optymalizacja ma bezpośredni wpływ na wyniki sprzedażowe.
+Missing reviews integration oznacza, że marnujesz potencjał społeczny. Opinie nie tylko budują zaufanie – dają też structured data do rich snippets. Gwiazdki w wynikach Google zwiększają klikalność o 30%.

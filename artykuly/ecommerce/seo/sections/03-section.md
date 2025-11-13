@@ -1,43 +1,29 @@
-## SEO techniczne: Szybkość, stabilność i doświadczenie użytkownika
+## Treści produktowe jako fundament sprzedaży
 
-Klient dodaje produkt do koszyka. Strona się ładuje... i ładuje... i ładuje. Po 8 sekundach rezygnuje.
+### Optymalizacja kart produktów
 
-Właśnie straciliśmy sprzedaż nie przez cenę czy konkurencję. Przez wolne ładowanie.
+Opis produktu "Świetne buty, polecamy!" to strzał w stopę. Google nie ma pojęcia, o jakie buty chodzi, a klient nie wie, dlaczego miałby je kupić. Tymczasem karta produktu to twój najlepszy sprzedawca – pracuje 24/7 i nigdy nie ma złego dnia.
 
-W e-commerce każda milisekunda ma cenę. Amazon wyliczył, że 100ms opóźnienia kosztuje ich 1% przychodów. W sklepie za milion rocznie to 10 tysięcy złotych. Za każde 100 milisekund.
+Skuteczny opis produktu w e-commerce musi połączyć dwa cele: pozycjonować się w Google i przekonywać do zakupu. Brzmi jak kwadrat koła? Wcale nie.
 
-### Core Web Vitals: nowe zasady gry
+Zacznij od słów kluczowych long-tail. Zamiast walczyć o "buty" (konkurencja kosmiczna), skup się na "buty trekkingowe wodoodporne damskie". Mniejsza konkurencja, wyższa konwersja. Klient wpisujący długie frazy wie dokładnie, czego szuka.
 
-Google przestał udawać, że szybkość to tylko jeden z czynników. Core Web Vitals to konkretne metryki. Z konkretnymi progami.
+Strukturę opisu buduj przemyśle. Pierwsze 160 znaków to twój meta-opis – musi zachęcać do kliknięcia w wynikach Google. Dalej: korzyści przed cechami. Nie "materiał: Gore-Tex", ale "stopy pozostaną suche nawet podczas całodniowej wędrówki w deszczu".
 
-**LCP (Largest Contentful Paint)** – poniżej 2,5 sekundy. W e-commerce to zazwyczaj główne zdjęcie produktu. Jeśli ładuje się wolno, klient nie zobaczy, co kupuje.
+User-generated content, czyli opinie klientów, to SEO-złoto. Google uwielbia świeże, unikalne treści. Każda opinia to nowy tekst na twojej stronie, pełen naturalnych słów kluczowych. Plus budują zaufanie – 88% klientów ufa opiniom innych użytkowników jak rekomendacjom znajomych.
 
-**FID (First Input Delay)** – poniżej 100ms. Czas reakcji na pierwsze kliknięcie. W sklepie to często przycisk "Dodaj do koszyka". Opóźnienie = frustracja = brak sprzedaży.
+### Content marketing w e-commerce
 
-**CLS (Cumulative Layout Shift)** – poniżej 0,1. Elementy nie mogą "skakać" podczas ładowania. Klient klika "Kup teraz", a trafia w "Usuń z koszyka", bo przycisk się przesunął.
+Blog w sklepie internetowym to nie fanaberia – to maszyna do generowania ruchu i sprzedaży. Ale nie każdy blog. Artykuł "10 najmodniejszych trendów" nie sprzeda ani jednego produktu.
 
-### Wyzwania e-commerce: ciężar obrazów i funkcjonalności
+Skuteczny content marketing w e-commerce to przewodniki zakupowe. "Jak wybrać buty trekkingowe na wysokie góry" z linkami do konkretnych produktów z twojego sklepu. "Porównanie 5 najlepszych plecaków na Kilimandżaro" z tabelą cech i cenami.
 
-Sklepy internetowe to maszyny do generowania problemów z szybkością. Dziesiątki zdjęć produktów na kategorii. Interaktywne filtry. Koszyk aktualizujący się na żywo.
+Sezonowość to twój as w rękawie. Artykuł o przygotowaniach do sezonu narciarskiego publikujesz we wrześniu, nie w styczniu. Google indeksuje go na spokojnie, a w październiku jesteś gotowy na szczyt sezonu zakupowego.
 
-Każdy element spowalnia. Każdy wymaga optymalizacji.
+Szczegółowy przewodnik po tworzeniu treści produktowych znajdziesz w artykule [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo).
 
-Zdjęcia produktów to największy winowajca. Fotograf dostarcza pliki po 5MB każdy. Programista wrzuca na stronę bez kompresji. Kategoria z 20 produktami waży 100MB.
+### Structured data dla e-commerce
 
-Rozwiązanie? WebP zamiast JPEG. Lazy loading dla obrazków poza viewport. CDN do szybkiej dystrybucji. Compression na poziomie 80-85% dla zdjęć produktów.
+Rich snippets w wynikach Google to jak wystawka w centrum handlowym – przykuwają wzrok i zwiększają klikalność o 20-30%. Gwiazdki z ocenami, cena, dostępność – wszystko widoczne bez klikania w stronę.
 
-### Mobile-first w praktyce
-
-Ponad 60% zakupów online dzieje się na telefonach. Ale większość sklepów nadal projektowana jest najpierw pod desktop.
-
-To błąd kosztujący miliony.
-
-Mobile-first oznacza myślenie kciukiem, nie myszką. Duże przyciski. Czytelne czcionki. Szybkie ładowanie nawet na wolnym 3G.
-
-Structured data to sposób na wyróżnienie się w wynikach. Rich snippets z ceną, dostępnością i ocenami zwiększają klikalność o 30-50%.
-
-Schema.org Product to minimum. Ale prawdziwa siła tkwi w szczegółach: ReviewRating, AggregateRating, Offer z aktualną ceną i dostępnością.
-
-Kompletny przewodnik po optymalizacji technicznej i Core Web Vitals znajdziesz tutaj: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv).
-
-Bez stabilnych fundamentów technicznych najlepsze produkty pozostaną niewidoczne.
+Schema.org dla produktów to standard, który musisz wdrożyć. Google Shopping integruje się z danymi strukturalnymi, dając podwójną ekspozycję: wyniki organiczne plus zakładka Shopping.

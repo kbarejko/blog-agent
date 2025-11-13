@@ -1,49 +1,33 @@
-## FAQ - najczęstsze pytania o SEO w sklepach internetowych
+## Jak zacząć? Pierwsze kroki w SEO e-commerce
 
-### Od czego zacząć SEO w nowym sklepie internetowym?
+### Technical audit (miesiąc 1)
 
-Zawsze zacznij od audytu technicznego - sprawdź szybkość ładowania, strukturę URL i podstawowe ustawienia. Szczegółowe instrukcje znajdziesz w naszym przewodniku po [SEO technicznym i CWV](/seo-sklepu-cwv).
+Zacznij od fundamentów – audytu technicznego. To jak badania lekarskie przed treningiem: musisz wiedzieć, co naprawić, zanim zaczniesz budować.
 
-Pierwszy tydzień poświęć na Core Web Vitals. Drugi - na sprawdzenie indeksacji w Search Console. Trzeci - na podstawowe meta tagi dla najważniejszych kategorii.
+Core Web Vitals to twój pierwszy przystanek. Strona ładująca się dłużej niż 3 sekundy traci połowę potencjalnych klientów. Użyj Google PageSpeed Insights i sprawdź wszystkie kluczowe podstrony: główną, kategorie, top-produkty.
 
-### Jak pisać opisy produktów żeby były SEO-friendly?
+Crawl errors w Google Search Console pokażą, które strony Google nie może odwiedzić. Błędy 404, przekierowania w pętli, zablokowane w robots.txt produkty – to wszystko niszczy twoje pozycje.
 
-Unikaj kopiowania opisów od producenta. Twórz unikalne treści skupione na korzyściach dla klienta. Kompletny przewodnik po [treściach produktowych znajdziesz tutaj](/tresci-produktowe-seo).
+Podstawowa optymalizacja on-page to trzeci filar. Tytuły stron, meta-opisy, nagłówki H1-H3. Brzmi nudnie, ale to fundamenty, na których budujesz całą strategię.
 
-Zamiast "wysokiej jakości produkt" napisz "wytrzyma 5 lat codziennego użytkowania". Klient dostaje konkret, Google - unikalną treść.
+### Content optimization (miesiąc 2-3)
 
-### Czy linkowanie wewnętrzne naprawdę zwiększa sprzedaż?
+Po uporządkowaniu technikaliów czas na treści. Nie zaczynaj od całego sklepu – to przepis na wypalenie i chaos.
 
-Tak! Właściwe linkowanie może zwiększyć wartość koszyka o 15-30% dzięki cross-sellingu i up-sellingu. Sprawdź nasze strategie [linkowania wewnętrznego w e-commerce](/linkowanie-wewnetrzne).
+Skup się na 20-30 najpopularniejszych produktach. Te, które generują najwięcej ruchu i sprzedaży, zasługują na pierwszeństwo. Każdy opis musi odpowiadać na pytanie klienta i zawierać naturalne słowa kluczowe.
 
-"Klienci kupujący ten produkt wybierali też" to nie tylko UX. To potężne narzędzie sprzedażowe zamaskowane jako pomoc.
+Kategorie produktów to twoje największe atuty SEO. One mają potencjał pozycjonować się za setki różnych fraz. Dobra kategoria to nie tylko lista produktów, ale przewodnik zakupowy z filtrami, porównaniami i poradami.
 
-### Ile czasu potrzeba na pierwsze efekty SEO w sklepie?
+Struktura linkowania wewnętrznego łączy wszystko w całość. Każda kategoria powinna linkować do najważniejszych produktów. Każdy produkt – do powiązanych pozycji.
 
-Quick wins (poprawki techniczne) mogą dać efekty w 4-6 tygodni. Kompletne efekty strategii content-based to 6-12 miesięcy.
+### Long-term strategy (miesiąc 4+)
 
-Ale pamiętaj - SEO w e-commerce ma efekt skumulowany. Szósty miesiąc przynosi już 150% wzrost ruchu względem pierwszego.
+Po trzech miesiącach masz solidne podstawy. Teraz czas na strategię długoterminową, która będzie przynosić rezultaty przez lata.
 
-### Czy warto inwestować w SEO sklepu jeśli mam małą branżę niszową?
+Content marketing to twoja droga do dominacji w wynikach Google. Blog sklepowy z przewodnikami zakupowymi, porównaniami produktów i poradami branżowymi. Każdy artykuł to dziesiątki nowych słów kluczowych i setki potencjalnych klientów.
 
-Szczególnie warto! W niszach często konkurencja SEO jest mniejsza, a klienci bardziej świadomi swoich potrzeb. ROI może być wyższy niż w popularnych branżach.
+Konkurencja śpi. Wykorzystaj to. Regularna analiza tego, co robią inni gracze w twojej branży, pokazuje luki, które możesz wypełnić. Słowa kluczowe, których nie wykorzystują, treści, których nie tworzą.
 
-"Akcesoria dla leworęcznych gitarzystów" ma może 100 wyszukiwań miesięcznie. Za to każde prowadzi do klienta gotowego kupić za 500 zł.
+Keyword expansion to proces bez końca. Im więcej long-tail fraz pokryjesz, tym więcej klientów przyciągniesz. "Buty" to jeden klient, ale "buty trekkingowe wodoodporne rozmiar 42" to klient gotowy do zakupu.
 
-### Jak mierzyć skuteczność SEO w e-commerce?
-
-Nie tylko pozycje i ruch - śledź revenue per organic session, assisted conversions i customer lifetime value z ruchu organicznego.
-
-Klient z Google może kupić za 200 zł pierwszy raz, ale wrócić i wydać 2000 zł w ciągu roku. Patrz szeroko.
-
-### Które strony są najważniejsze dla SEO sklepu?
-
-Strona główna, kategorie główne i bestsellery. To one przekazują najwięcej "mocy" SEO dalej w strukturze sklepu.
-
-Kategoria "Laptopy" z pozycją #3 może przynieść więcej klientów niż 50 pojedynczych produktów na pozycjach #15-20.
-
-### Jak często aktualizować treści w sklepie internetowym?
-
-Opisy produktów - przy każdej zmianie asortymentu. Kategorie - co kwartał. Blog/newsy - minimum raz w tygodniu dla lepszej indeksacji.
-
-Google lubi świeże treści. Ale w e-commerce jakość zawsze wygrywa z ilością.
+SEO w e-commerce to maraton, nie sprint. Pierwsze efekty widać po trzech miesiącach, prawdziwe rezultaty – po roku systematycznej pracy.

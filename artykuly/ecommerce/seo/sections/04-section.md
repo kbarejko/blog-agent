@@ -1,47 +1,23 @@
-## Treści produktowe: Jak wyróżnić się w morzu konkurencji
+## Linkowanie wewnętrzne jako strategia sprzedaży
 
-Dwóch sprzedawców oferuje identyczne słuchawki. Pierwszy kopiuje opis od producenta: "Wysokiej jakości słuchawki bezprzewodowe z zaawansowaną technologią Bluetooth 5.0." Drugi pisze: "Posłuchaj ulubionych utworów bez przerwy przez 8 godzin. Połączysz się z telefonem w sekundę, a bateria wystarczy na cały dzień pracy."
+### Architektura linkowania w sklepie
 
-Który opis przekonuje do zakupu?
+Każdy link w twoim sklepie to potencjalna ścieżka do kasy. Brzmi górnolotnie? Wcale nie. Klient, który trafi na kartę produktu przez wyszukiwarkę, ma przed sobą wybór: kupić ten jeden produkt albo odkryć więcej opcji w twoim sklepie.
 
-### Problem kopiowania opisów producenta
+Przemyślane linkowanie wewnętrzne decyduje o tym, którą drogę wybierze.
 
-90% sklepów internetowych popełnia ten sam błąd. Kopiuje opisy od dostawców. Setki identycznych treści w Google. Zero szans na wyróżnienie.
+Kategorie to twoje główne arterie – muszą być mocno linkowane z głównej strony i między sobą. Każda kategoria powinna przekazywać "link juice" do najważniejszych produktów. Nie demokratycznie do wszystkich, ale strategicznie do tych, które generują największą marżę.
 
-Producent pisze dla wszystkich. Ty piszesz dla swojego klienta.
+Related products to nie tylko cross-selling, ale SEO w akcji. "Klienci, którzy kupili ten plecak, kupili również..." to naturalny sposób na dystrybucję autorytetu strony. Google śledzi te ścieżki i docenia produkty, które otrzymują więcej linków wewnętrznych.
 
-Zamiast "procesor octa-core" napisz "płynne działanie nawet przy kilku uruchomionych aplikacjach". Zamiast "materiał 100% bawełna" napisz "przyjemny w dotyku, oddycha w upalne dni".
+Breadcrumbs pełnią podwójną funkcję. Dla użytkowników to mapa, która pokazuje, gdzie się znajdują. Dla Google to struktura, która ułatwia zrozumienie hierarchii sklepu. Plus dodatkowe słowa kluczowe w anchorach.
 
-Klient kupuje korzyści, nie specyfikację.
+### Siła strategicznego linkowania
 
-### Tytuły produktów: pierwsze wrażenie decyduje
+Jeden sklep z artykułami sportowymi przeprowadził eksperyment. Zmienił strategię linkowania z losowej na przemyślaną. Produkty z największą marżą zaczęły otrzymywać więcej linków wewnętrznych z kategorii i artykułów blogowych.
 
-Tytuł produktu to jego wizytówka w wynikach Google i na stronie kategorii. Musi zawierać kluczowe informacje i zachęcać do kliknięcia.
+Rezultat po sześciu miesiącach? 40% wzrost sprzedaży produktów wysokomarżowych. Ruch organiczny pozostał na podobnym poziomie, ale zmienił się jego rozkład. Klienci częściej trafiali na produkty, które właściciel chciał sprzedawać.
 
-Dobry tytuł produktu ma strukturę: Marka + Model + Kluczowa cecha + Zastosowanie.
+Sezonowe linkowanie to zaawansowana taktyka. Przed zimą wszystkie ścieżki prowadzą do kurtek narciarskich. Przed latem – do sprzętu plażowego. Dynamiczne menu, banery i related products automatycznie kierują ruch tam, gdzie jest największy popyt.
 
-"Nike Air Zoom Pegasus 40 buty do biegania męskie" zamiast tylko "Nike Pegasus 40".
-
-Unikaj keyword stuffingu. "Buty męskie sportowe do biegania Nike męskie running shoes" to spam, nie optymalizacja.
-
-### Zdjęcia produktów: SEO obrazków w e-commerce
-
-Klienci nie mogą dotknąć produktu przed zakupem. Zdjęcia muszą zastąpić wszystkie zmysły.
-
-Ale zdjęcia to też potężne narzędzie SEO. Google Images generuje coraz więcej ruchu e-commerce.
-
-Nazwy plików mają znaczenie. "DSC_4425.jpg" nic nie mówi. "Nike-air-zoom-pegasus-40-meskie-biale.jpg" – wszystko jasne.
-
-Alt text to opis dla niewidomych i Google. Pisz naturalnie: "Białe buty do biegania Nike Air Zoom Pegasus 40 na białym tle".
-
-### Recenzje: content i zaufanie w jednym
-
-Opinie klientów to podwójne złoto. Budują zaufanie i dostarczają unikalnych treści.
-
-Każda recenzja to nowe słowa kluczowe. Klienci opisują produkty swoim językiem. Używają fraz, o których nie pomyślałbyś.
-
-Zachęcaj do szczegółowych opinii. "Jak oceniasz ten produkt?" generuje "Super". "Jak sprawdził się ten telefon w codziennym użytkowaniu?" daje akapity wartościowej treści.
-
-Szczegółowe strategie tworzenia treści produktowych opisane są w artykule: [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo).
-
-Unikalne treści produktowe to inwestycja, która procentuje latami. Jednorazowy wysiłek, długoterminowe korzyści.
+Kompletną strategię linkowania wewnętrznego w e-commerce opisaliśmy w przewodniku [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne).

@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Architektura sklepu wpływa na 40% sukcesu SEO** - prawidłowa hierarchia kategorii i linkowanie wewnętrzne przekłada się bezpośrednio na wyższe pozycje i sprzedaż
-- **Core Web Vitals w e-commerce to nie tylko technikalia** - każda sekunda ładowania to 7% mniej konwersji, a mobile-first to już standard, nie opcja
-- **Unikalne opisy produktów vs duplikaty od producentów** - sklepy z własnymi treściami osiągają o 60% więcej ruchu organicznego niż kopiujące od dostawców
-- **Commercial keywords działają inaczej niż informacyjne** - strategia słów kluczowych w e-commerce wymaga mapowania intencji zakupowych, nie tylko wolumenów wyszukiwań
-- **ROI z SEO mierzy się sprzedażą, nie pozycjami** - conversion rate z ruchu organicznego i revenue from organic search to metryki które naprawdę liczą się w biznesie
+- **SEO generuje o 150% więcej sprzedaży niż Google Ads** - ruch organiczny ma wyższą konwersję i nie kosztuje za każde kliknięcie, a efekty rosną z czasem
+- **Każda sekunda opóźnienia = 7% spadek konwersji** - Core Web Vitals to nie tylko ranking Google, ale bezpośredni wpływ na przychody sklepu
+- **Linkowanie wewnętrzne zwiększa sprzedaż o 40%** - strategiczne łączenie produktów z kategoriami to najszybszy sposób na cross-selling przez SEO
+- **9 najczęstszych błędów kosztuje sklepy miliony** - duplicate content, brak opisów produktów i ignorowanie long-tail keywords zabija organiczny ruch
+- **Plan działania na pierwsze 4 miesiące** - konkretny harmonogram od audytu technicznego po content marketing z praktyką sprawdzoną na setkach sklepów

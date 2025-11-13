@@ -1,61 +1,25 @@
-## Fundament SEO e-commerce: Architektura i struktura sklepu
+## Fundamenty SEO sklepu - aspekty techniczne
 
-Klient wchodzi do sklepu. Ma jasny cel – kupić buty do biegania. Klikają "Sport", potem "Obuwie", następnie "Bieganie". Trzy kliknięcia i są tam, gdzie chcieli.
+### Szybkość i Core Web Vitals
 
-To nie przypadek. To przemyślana architektura.
+Klient ma 3 sekundy cierpliwości. Po tym czasie 40% użytkowników zamyka kartę i idzie do konkurencji. W e-commerce każda sekunda opóźnienia to 7% mniej sprzedaży. Brzmi dramatycznie? Bo jest dramatycznie.
 
-### Hierarchia kategorii: droga do konwersji
+Google od 2021 roku traktuje Page Experience jako oficjalny czynnik rankingowy. To oznacza, że wolny sklep nie tylko traci klientów – traci też pozycje w wyszukiwarce. Podwójny cios, którego większość właścicieli sklepów nawet nie dostrzega.
 
-Dobra struktura sklepu przypomina odwróconą piramidę. Na górze strona główna. Poniżej główne kategorie. Dalej podkategorie. Na dole konkretne produkty.
+Core Web Vitals to trzy metryki, które Google uważa za kluczowe: LCP (jak szybko ładuje się główna treść), FID (jak szybko strona reaguje na kliknięcia) i CLS (czy elementy "skaczą" podczas ładowania).
 
-Każdy poziom musi mieć sens biznesowy i SEO.
+W e-commerce te metryki mają swoje specificzne wyzwania. Karty produktów pełne są wysokiej jakości zdjęć – każde waży kilka megabajtów. Filtry kategorii generują złożone zapytania do bazy danych. Skrypty śledzące zakupy spowalniają każdą stronę.
 
-Główne kategorie powinny odzwierciedlać sposób myślenia klientów. Nie organizuj według dostawców czy magazynu. Organizuj według potrzeb kupujących.
+Rozwiązanie? Kompresja obrazów, lazy loading, optymalizacja bazy danych i bezlitosne usuwanie niepotrzebnych skryptów. Jeden klient zmniejszył czas ładowania z 8 do 2 sekund i odnotował 35% wzrost konwersji w ciągu dwóch tygodni.
 
-"Telefony" zamiast "Produkty od Samsung". "Sukienki na wesele" zamiast "Odzież formalna". Klienci szukają rozwiązań, nie kategorii księgowych.
+### Struktura witryny i indeksacja
 
-### URL-e: pierwsza wizytówka w wynikach
+Duży sklep internetowy to labirynt dla robotów Google. Tysiące produktów, dziesiątki kategorii, filtry cenowe, kolorystyczne, rozmiarowe. Każda kombinacja filtru tworzy nową stronę. Google może indeksować miliony podobnych do siebie URL-i.
 
-Adres strony to pierwsze, co widzi użytkownik w Google. Porównaj dwa URL-e:
+Problem duplicate content w e-commerce to plaga. Ten sam produkt dostępny w trzech kolorach = trzy prawie identyczne strony. Sortowanie od najtańszych = kolejny duplikat kategorii. Google nie lubi duplikatów i karze je niższymi pozycjami.
 
-- sklep.pl/kategoria/423/podkategoria/891/produkt/99482
-- sklep.pl/buty-do-biegania/nike-air-zoom-pegasus
+Crawl budget to kolejne wyzwanie. Google ma ograniczoną ilość czasu na przeskanowanie twojego sklepu. Jeśli zmarnuje go na tysiące stron z filtrami, może przegapić twoje najważniejsze produkty.
 
-Który budzi większe zaufanie?
+Fundamentem jest przemyślana architektura: kategorie → podkategorie → produkty. Maksymalnie 3 kliki od strony głównej do każdego produktu. Canonical URLs dla duplikatów. Robots.txt blokujący niepotrzebne filtry.
 
-Dobry URL mówi, gdzie jesteśmy i co znajdziemy. Zawiera słowa kluczowe. Jest krótki i zrozumiały.
-
-Unikaj polskich znaków w URL-ach. Google radzi sobie z nimi, ale użytkownicy mogą mieć problemy przy kopiowaniu czy udostępnianiu.
-
-### Breadcrumbs: mapa dla klienta i robota
-
-Okruszki to więcej niż nawigacja. To sposób na pokazanie Google struktury sklepu. I pomoc dla klienta, który się zagubił.
-
-Dobry breadcrumb wygląda tak:
-Strona główna > Elektronika > Smartfony > iPhone > iPhone 15 Pro
-
-Każdy element powinien być klikalny. Każdy prowadzi do wyższego poziomu kategorii.
-
-### Nawigacja facetowa: potęga i pułapka
-
-Filtry to serce każdego sklepu. Pozwalają klientom znaleźć dokładnie to, czego szukają. Rozmiar, kolor, marka, cena – wszystko w kilku kliknięciach.
-
-Ale dla SEO to podwójne ostrze.
-
-Z jednej strony tworzą tysiące unikalnych kombinacji. "Czerwone sukienki maxi do 200 złotych" to świetne słowo długoistne.
-
-Z drugiej – generują duplikaty treści. Ta sama sukienka może pojawić się na dziesiątkach podobnych stron.
-
-Rozwiązanie? Przemyślana strategia indeksacji. Najważniejsze kombinacje filtrów indeksujesz. Resztę blokujesz w robots.txt.
-
-### Linkowanie wewnętrzne: przewodnik po sklepie
-
-Każdy link to rekomendacja. Dla Google i dla klienta.
-
-Linkuj produkty powiązane. "Pasuje do tego" czy "Klienci kupują też" to nie tylko narzędzia sprzedażowe. To sposób na dystrybucję siły SEO.
-
-Wzmacniaj strategiczne kategorie. Jeśli zarabiasz najwięcej na smartfonach, linkuj do tej kategorii z każdej możliwej strony.
-
-Szczegółowe strategie i case study znajdziesz w naszym przewodniku: [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne).
-
-Dobra architektura to fundament. Bez niej najlepsze treści się zmarnują.
+Szczegółowy przewodnik po optymalizacji technicznej znajdziesz w naszym artykule o [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv).
