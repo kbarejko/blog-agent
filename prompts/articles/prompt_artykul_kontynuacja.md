@@ -37,16 +37,50 @@ Kolejna sekcja z konspektu: **{{SECTION_TITLE}}**
 4. **Listy punktowe** - Jeśli konspekt zawiera bullet points (`-`), omów KAŻDY punkt z osobna
 5. **Kolejność** - Pisz w tej samej kolejności co w konspekcie
 
-**Przykład:**
-Jeśli konspekt mówi:
+**Przykład 1 - H3 headers:**
+Jeśli konspekt zawiera H3:
+```
+## Proces checkout
+
+### Psychologia procesu zakupowego
+- Bariery psychologiczne w ostatnim kroku
+- Znaczenie przejrzystości kosztów
+
+### Optymalizacja kroków checkout
+- Długość procesu (1-step vs multi-step)
+- Eliminacja niepotrzebnych pól
+```
+
+To MUSISZ napisać (ZACHOWUJĄC H3):
+```
+## Proces checkout
+
+### Psychologia procesu zakupowego
+
+[wprowadzenie do tej podsekcji]
+
+**Bariery psychologiczne w ostatnim kroku** [rozwinięcie punktu]
+
+**Znaczenie przejrzystości kosztów** [rozwinięcie punktu]
+
+### Optymalizacja kroków checkout
+
+[wprowadzenie do tej podsekcji]
+
+**Długość procesu (1-step vs multi-step)** [rozwinięcie punktu]
+
+**Eliminacja niepotrzebnych pól** [rozwinięcie punktu]
+```
+
+**Przykład 2 - Tylko bullet points:**
+Jeśli konspekt NIE ma H3, tylko bullets:
 ```
 ## Linkowanie wewnętrzne
 - Znaczenie linkowania dla struktury sklepu
 - Jak poprawne linkowanie wpływa na ranking
-- Praktyki efektywnego linkowania
 ```
 
-To MUSISZ napisać:
+To napisz z bold:
 ```
 ## Linkowanie wewnętrzne
 
@@ -55,8 +89,6 @@ To MUSISZ napisać:
 **Znaczenie linkowania dla struktury sklepu** [rozwinięcie]
 
 **Jak poprawne linkowanie wpływa na ranking** [rozwinięcie]
-
-**Praktyki efektywnego linkowania** [rozwinięcie]
 ```
 
 ---

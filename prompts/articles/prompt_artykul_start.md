@@ -32,23 +32,58 @@ Pierwsza sekcja z konspektu: **{{SECTION_TITLE}}**
 4. **Listy punktowe** - Jeśli konspekt zawiera bullet points (`-`), omów KAŻDY punkt z osobna
 5. **Kolejność** - Pisz w tej samej kolejności co w konspekcie
 
-**Przykład:**
-Jeśli konspekt mówi:
+**Przykład 1 - H3 headers:**
+Jeśli konspekt zawiera H3:
+```
+## Szybkość jako element UX
+
+### Core Web Vitals w kontekście e-commerce
+- LCP dla stron produktowych
+- FID w procesie dodawania do koszyka
+
+### Optymalizacja szybkości dla konwersji
+- Lazy loading obrazków
+- Cache'owanie dla powracających klientów
+```
+
+To MUSISZ napisać (ZACHOWUJĄC H3):
+```
+## Szybkość jako element UX
+
+### Core Web Vitals w kontekście e-commerce
+
+[wprowadzenie do tej podsekcji]
+
+**LCP dla stron produktowych** [rozwinięcie punktu]
+
+**FID w procesie dodawania do koszyka** [rozwinięcie punktu]
+
+### Optymalizacja szybkości dla konwersji
+
+[wprowadzenie do tej podsekcji]
+
+**Lazy loading obrazków** [rozwinięcie punktu]
+
+**Cache'owanie dla powracających klientów** [rozwinięcie punktu]
+```
+
+**Przykład 2 - Tylko bullet points:**
+Jeśli konspekt NIE ma H3, tylko bullets:
 ```
 ## Optymalizacja techniczna
 - Core Web Vitals
 - Mobile-first indexing
 ```
 
-To MUSISZ napisać:
+To napisz z bold:
 ```
 ## Optymalizacja techniczna
 
 [wprowadzenie do sekcji]
 
-**Core Web Vitals** [rozwinięcie tego punktu]
+**Core Web Vitals** [rozwinięcie punktu]
 
-**Mobile-first indexing** [rozwinięcie tego punktu]
+**Mobile-first indexing** [rozwinięcie punktu]
 ```
 
 ---
