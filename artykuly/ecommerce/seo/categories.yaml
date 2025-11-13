@@ -5,7 +5,13 @@ categories:
 - slug: e-commerce
   title: E-commerce
   path: strony-internetowe/content-management-systems-cms/e-commerce
+- slug: content-marketing
+  title: Content Marketing
+  path: marketing-w-internecie/content-marketing
+- slug: optymalizacja-techniczna
+  title: Optymalizacja Techniczna
+  path: marketing-w-internecie/seo-i-optymalizacja-stron/optymalizacja-techniczna
 - slug: sklepy-internetowe
   title: Sklepy Internetowe
   path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
-count: 3
+count: 5
