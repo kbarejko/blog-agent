@@ -1,17 +1,23 @@
-## Pozycjonowanie długiego ogona w e-commerce
+## Analityka i pomiar sukcesu
 
-Gdy klient wpisuje „czerwone buty sportowe damskie Nike rozmiar 38 do biegania jesienią", nie szuka inspiracji. Ma konkretną potrzebę i gotową kartę płatniczą. To właśnie long tail keywords – frazka ma może 50 wyszukiwań miesięcznie, ale każde z nich to niemal pewna sprzedaż.
+W e-commerce każda wizyta powinna zamieniać się w złotówki. Standardowe metryki SEO – pozycje, kliki, odsłony – to tylko połowa obrazu. Prawdziwa wartość kryje się w liczbach sprzedażowych.
 
-Większość sklepów goni popularne, jednowörtowe hasła. „Buty" – 100 000 wyszukiwań, gigantyczna konkurencja, a połowa szukających tak naprawdę nie wie, czego chce. „Buty do biegania damskie wodoodporne jesień" – może 200 wyszukiwań, ale każda osoba wie dokładnie, co ma kupić.
+### KPI specyficzne dla SEO e-commerce
 
-Długi ogon to 70% całego ruchu wyszukiwarek. Te tysięce specyficznych fraz, o których nikt głośno nie mówi. Problem w tym, że większość sklepów nie wie, jak je znaleźć – albo znajdzie, ale nie potrafi pod nie zoptymalizować treści.
+**Revenue per organic session** to twój najważniejszy wskaźnik. Możesz mieć milion wizyt z Google, ale jeśli generują 100 złotych przychodu, coś idzie bardzo źle.
 
-Search Console to kopalnia długiego ogona. W raporcie zapytań wyszukiwania znajdziesz frazy, na które Google już Cię pokazuje, ale na pozycji 15 czy 20. „Buty na płaskie stopy do chodzenia" – może nikt celowo pod to nie optymalizował, ale klienci szukają właśnie tak.
+Porównuj różne źródła ruchu. Ruch z zapytań branded ("nazwa sklepu + produkt") konwertuje często 3x lepiej niż generic ("buty męskie"). To nie znaczy, że generic jest bez wartości – po prostu potrzebuje innej strategii.
 
-Autosugestie Google'a pokazują, jak naprawdę szukają ludzie. Zacznij wpisywać „buty do biegania" i zobacz, co podsuwa: „buty do biegania po asfalcie", „buty do biegania na zime", „buty do biegania płaskostopie". Każda sugestia to potencjalna fraza długiego ogona.
+**Assisted conversions** pokazują pełną ścieżkę klienta. Użytkownik wchodzi przez "smartfony", przegląda kategorie, wraca po dwóch dniach przez branded search i kupuje. Bez analityki wielokanałowej przypisujesz konwersję tylko brandowi.
 
-Kluczem jest myślenie jak klient, nie jak sprzedawca. Ty mówisz „obuwie sportowe wysokiej jakości". Klient szuka „wygodne buty na długie spacery z psem". Języki są różne, ale produkt ten sam.
+Category pages vs product pages to wieczna dyskusja. Kategorie przyciągają ruch top-of-funnel, produkty konwertują bottom-of-funnel. Oba poziomy potrzebują różnych metryk sukcesu.
 
-Optymalizacja pod długi ogon to sztuka naturalnego używania specyficznych fraz w treściach. Nie wpychaj na siłę „czerwone buty sportowe damskie Nike rozmiar 38" dziesięć razy w opis. Użyj raz w tytule, raz w opisie, a resztę kontekstu zbuduj naturalnie.
+### Tools i monitoring
 
----
+Google Search Console w e-commerce to kopalnia złota. Filtry po kategorii produktów pokażą ci, które grupy tracą widoczność, zanim spadną sprzedaże.
+
+Featured snippets dla "najlepszy X" lub "jak wybrać Y" to darmowa reklama na szczycie Google. Monitoruj je systematycznie – jeden snippet może zwiększyć ruch o 200%.
+
+Śledzenie konkurencji w e-commerce wymaga myślenia w kategoriach produktowych. Tracisz pozycje w "laptopach gamingowych"? Sprawdź, czy konkurenci nie zaktualizowali oferty lub nie dodali nowych wariantów.
+
+Pomiar SEO w e-commerce to gra długoterminowa z krótkimi sprintami. Revenue rośnie miesiącami, ale alert o spadku crawlowania wymaga reakcji natychmiast.

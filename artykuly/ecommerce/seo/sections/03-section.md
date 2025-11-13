@@ -1,17 +1,29 @@
-## Treści produktowe - przekonaj algorytmy i klientów jednocześnie
+## Techniczne fundamenty SEO sklepu
 
-Opis produktu „Buty sportowe damskie, wysokiej jakości materiały, wygodne" to jak wizytówka z napisem „jestem człowiekiem". Technicznie prawdziwe, ale kompletnie bezużyteczne. W e-commerce treści produktowe mają podwójną misję – pomóc Google zrozumieć, co sprzedajesz, i przekonać klienta, że to właśnie tego potrzebuje.
+Po uporządkowaniu architektury przychodzi czas na techniczne fundamenty. W e-commerce nie możesz sobie pozwolić na wolno ładującą się stronę – użytkownicy odejdą do konkurencji, zanim zdążą zobaczyć twoje produkty.
 
-Większość sklepów popełnia kardynalny błąd. Kopiuje opisy od producentów, tworząc armię klonów, które Google ignoruje. Albo pisze dla robotów, zapominając, że to ludzie wyciągają portfele. Skuteczne treści e-commerce muszą równoważyć potrzeby algorytmów z psychologią zakupów.
+### Core Web Vitals w kontekście e-commerce
 
-Tytuły produktów z naturalnymi słowami kluczowymi to fundament. Zamiast „Obuwie model X123", napisz „Buty do biegania Nike Air damskie czarne rozmiary 36-42". Klient wie od razu, czy to dla niego. Google rozumie kontekst.
+**Largest Contentful Paint (LCP)** to twój największy wróg na stronach produktowych. Galeria zdjęć, szczegółowe opisy, recenzje – wszystko to może sprawić, że główny content pojawia się po 4-5 sekundach. Google uznaje to za złe doświadczenie użytkownika.
 
-Opisy produktowe to nie specyfikacje techniczne przełożone na polski. To odpowiedzi na pytania, które klient zadaje sobie w głowie. „Czy będą wygodne na długich spacerach?" „Jak wypadają w praniu?" „Do jakiej stylizacji pasują?" Dane techniczne są ważne, ale korzyści sprzedają.
+Rozwiązanie? Lazy loading dla zdjęć poniżej pierwszego ekranu, optymalizacja obrazów i priorytetyzacja ładowania hero image produktu.
 
-Structured data to niewidzialni pomocnicy, którzy tłumaczą Google'owi szczegóły Twojego produktu. Cena, dostępność, recenzje, warianty kolorów – rich snippets mogą zwiększyć CTR nawet o 30%. Ale tylko jeśli dane są aktualne i precyzyjne.
+**Cumulative Layout Shift (CLS)** szczególnie boli w listingach produktowych. Kiedy użytkownik scrolluje przez kategorie, a elementy skaczą w górę i w dół przez późno ładujące się zdjęcia lub reklamy, frustracja rośnie błyskawicznie.
 
-FAQ, recenzje i porady użytkowania to treści wspierające, które budują zaufanie. Klient kupujący online nie może dotknąć produktu. Te dodatkowe informacje zastępują doświadczenie fizycznego sklepu, odpowiadając na wątpliwości przed zakupem.
+Najgorszy scenariusz? Użytkownik chce kliknąć produkt, ale layout się przesuwa i trafia w zupełnie inny element. To prosta droga do utraty sprzedaży.
 
-**Szczegółowy przewodnik znajdziesz tutaj:** [Treści produktowe SEO w e-commerce](/tresci-produktowe-seo) – jak tworzyć opisy, które sprzedają i pozycjonują.
+**First Input Delay (FID)** zabija konwersje podczas checkout. Użytkownik klika "Dodaj do koszyka", nic się nie dzieje przez dwie sekundy, więc klika ponownie. Efekt? Podwójne dodanie produktu lub zepsuty proces płatności.
 
-Kluczem jest zrozumienie intencji wyszukiwania. Ktoś wpisujący „jak wybrać buty do biegania" jest na innym etapie niż osoba szukająca „Nike Air Zoom 38 czarne cena". Pierwszy potrzebuje porad, drugi chce kupić. Różne intencje wymagają różnych treści i różnych stron w Twoim sklepie.
+### Indeksacja i crawlowanie w dużych sklepach
+
+Kiedy masz 50 000 produktów, robots.txt staje się strategicznym narzędziem. Nie możesz pozwolić Google na marnowanie crawl budget na strony koszyka, checkout czy filtry, które generują nieskończone kombinacje URL-i.
+
+**Canonical URLs ratują przed chaosem**
+
+Jeden produkt w trzech kolorach to nie trzy różne strony dla Google. Wariant czerwony może być główny, pozostałe canonical na niego. To samo z filtrami – "buty męskie" sortowane po cenie nie powinno być osobną stroną w indeksie.
+
+Sitemap.xml w e-commerce to nie lista wszystkich stron, ale strategicznie wybrane najważniejsze kategorie i produkty. Bestsellery, nowości, sezonowe hity – to one zasługują na pierwszeństwo w oczach botów.
+
+[Głębszy dive w techniczne SEO: SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
+
+Technika to niewidzialny fundament, który albo wspiera sprzedaż, albo ją torpeduje. Klienci tego nie widzą, ale Google tak.

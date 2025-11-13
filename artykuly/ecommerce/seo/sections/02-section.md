@@ -1,15 +1,29 @@
-## Fundamenty techniczne - szybkość i dostępność na pierwszym miejscu
+## Architektura informacji i linkowanie wewnętrzne
 
-Sklep internetowy to jak budynek. Możesz mieć najpiękniejszą wystawę sklepową na świecie, ale jeśli drzwi wejściowe są zablokowane, a wind nie ma – klienci po prostu odejdą. W e-commerce fundament stanowi techniczne SEO, które decyduje o tym, czy Google w ogóle zauważy Twoje produkty i czy klienci będą w stanie je kupić.
+Wyobraź sobie Google jako bibliotekarza, który próbuje zrozumieć strukturę twojego sklepu. Jeśli nawigacja jest chaotyczna, bot będzie się gubić tak samo jak twoi klienci.
 
-Core Web Vitals przestały być rekomendacją. To oficjalny ranking factor, który wpływa na pozycje w wynikach wyszukiwania. Largest Contentful Paint, First Input Delay, Cumulative Layout Shift – te metryki mierzą rzeczywiste doświadczenia użytkowników. Google wie, że sklep ładujący się 6 sekund na telefonie to sklep, który traci klientów.
+### Struktura nawigacji jako fundament SEO
 
-Sklepy internetowe mają specyficzne wyzwania techniczne. Tysiące stron produktowych, dynamiczne filtry, warianty kolorów i rozmiarów, zdjęcia w wysokiej rozdzielczości. Każdy element może spowalniać stronę lub generować duplikaty treści, które mylą wyszukiwarki.
+Każda kategoria w hierarchii to kolejny poziom „zaufania" w oczach wyszukiwarki. Produkty umieszczone głęboko – pięć kliknięć od strony głównej – otrzymują znacznie mniej „crawl budget" niż te na drugim poziomie.
 
-Mobile-first indexing oznacza fundamentalną zmianę. Google używa wersji mobilnej Twojego sklepu jako podstawy do oceny i indeksowania. Jeśli na telefonie brakuje opisów produktów, Google może nie zobaczyć ich wcale – nawet jeśli na komputerze wszystko działa perfekcyjnie.
+**Link juice przepływa w dół**
 
-Struktura URL-i w e-commerce to osobny temat. Parametry filtrów, sortowania, paginacja – każdy może tworzyć nieskończone kombinacje stron, marnując crawl budget Google'a na nieistotne treści. Rozwiązaniem są przemyślane canonical tagi, strategiczne użycie noindex i logiczna hierarchia kategorii.
+Strona główna ma największą moc. Przekazuje ją kategoriom głównym, te z kolei podkategoriom, aż w końcu dociera do pojedynczych produktów. Im bardziej płaska struktura, tym więcej mocy otrzymuje każdy produkt.
 
-**Dowiedz się więcej o optymalizacji technicznej:** [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv) – kompletny przewodnik po tym, jak przygotować sklep pod wymagania Google.
+Breadcrumbs to nie tylko wygoda dla użytkowników. To jasny sygnał dla Google o hierarchii twojego sklepu. "Strona główna > Elektronika > Smartfony > iPhone 15" mówi więcej niż tysiąc słów w opisie.
 
-Crawl budget to zasób, którego nie można marnować. Google ma ograniczony czas na przeszukiwanie Twojego sklepu. Jeśli bot traci czas na puste kategorie, nieistotne filtry czy błędne przekierowania, może nie dotrzeć do najważniejszych produktów. Optymalizacja robots.txt i sitemap.xml nie jest techniczną formalności – to strategia biznesowa.
+### Strategiczne linkowanie między produktami
+
+Linkowanie wewnętrzne w e-commerce ma podwójną misję: pomóc Google zrozumieć powiązania między produktami i zwiększyć wartość koszyka.
+
+Kiedy linkujesz z iPhone'a do etui, robisz dwie rzeczy jednocześnie. Pokazujesz wyszukiwarce semantyczne połączenie między produktami i sugerujesz klientowi dodatkowy zakup.
+
+**Related products z głową**
+
+Nie linkuj przypadkowo. "Klienci którzy kupili X, oglądali też Y" to złoty standard z Amazon, ale w SEO liczy się kontekst. Linkuj produkty z tej samej kategorii, akcesoria, warianty kolorystyczne.
+
+Każdy taki link to głos zaufania. Im więcej produktów linkuje do danego produktu, tym ważniejszy wydaje się w oczach Google.
+
+[Szczegóły strategii linkowania znajdziesz w: Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne)
+
+Dobrze przemyślana architektura to fundament, na którym budujesz wszystko inne. Bez niej najlepsze treści i perfekcyjna technika to strzały w ciemno.

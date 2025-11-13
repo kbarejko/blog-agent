@@ -1,17 +1,29 @@
-## Optymalizacja kategorii i struktury sklepu
+## SEO lokalne dla e-commerce
 
-Kategoria „Elektronika" z jednym zdaniem opisu i linkami do 500 produktów to jak biblioteka bez katalogu. Klient się gubi, Google nie rozumie kontekstu, a Ty tracisz szanse na pozycjonowanie długiego ogona fraz. Struktura kategorii to kręgosłup SEO w e-commerce – źle zaprojektowana może pogrzebać nawet najlepsze produkty.
+Myślisz, że e-commerce to tylko sprzedaż online? Google ma inne zdanie. Coraz więcej użytkowników szuka produktów z dopiskiem "w pobliżu" lub "sklep stacjonarny".
 
-Dobrze zaprojektowana hierarchia kategorii pomaga klientom szybko znaleźć to, czego szukają. A jednocześnie tłumaczy Google'owi, jak Twoje produkty się ze sobą łączą. To balans między intuicyjną nawigacją a wymogami algorytmów.
+### Multi-location e-commerce
 
-Płaska struktura vs. głęboka hierarchia – to fundamentalna decyzja. Płaska oznacza, że większość produktów jest 2-3 kliki od strony głównej. Google łatwiej je indeksuje, przekazywanie link juice jest efektywniejsze. Ale w dużych sklepach może prowadzić do chaosu kategorii.
+"Gdzie kupić iPhone w Warszawie" generuje dziesiątki tysięcy wyszukiwań miesięcznie. Użytkownicy chcą dotknąć produktu przed zakupem, odebrać osobiście lub uniknąć kosztów dostawy.
 
-Głęboka hierarchia lepiej organizuje szeroki asortyment. „Odzież > Ubrania damskie > Sukienki > Sukienki koktajlowe" brzmi logicznie. Problem w tym, że produkty głęboko w strukturze mogą być słabiej pozycjonowane. Rozwiązaniem są przemyślane breadcrumbs i linkowanie wewnętrzne, które skracają ścieżki SEO.
+Jeśli masz punkty odbioru lub sklepy stacjonarne, local pack to twoja złota żyła. Te trzy wyniki z mapką na szczycie wyszukiwania przyciągają 44% wszystkich kliknięć w zapytaniach lokalnych.
 
-Każda kategoria powinna być mini-landingiem dla swojej tematyki. Opis kategorii „Buty sportowe" to miejsce na pozycjonowanie fraz jak „buty do biegania", „obuwie fitness", „sneakersy damskie". Ale to też miejsce na budowanie zaufania – dlaczego właśnie te buty, jakie marki oferujesz, co wyróżnia Twój wybór.
+**Google My Business dla każdej lokalizacji**
 
-Filtry to podwójne ostrze e-commerce. Klient chce filtrować po kolorze, rozmiarze, cenie. Ale każda kombinacja może tworzyć nową stronę z duplikatami treści. „Buty > czerwone > damskie > Nike > rozmiar 38" to potencjalnie tysiące URL-i z podobną treścią.
+Każdy punkt odbioru to osobny profil GMB. Nie grupuj wszystkiego pod jedną wizytówką. Warszawa Mokotów, Warszawa Praga, Kraków Stare Miasto – każda lokalizacja ma własne zapytania i konkurencję.
 
-Canonical tagi ratują przed duplikatami, ale nie zawsze. Lepiej strategicznie używać noindex dla mniej popularnych kombinacji filtrów. Pozwól Google'owi indeksować tylko te strony, które rzeczywiście przynoszą ruch.
+Regularne aktualizacje godzin otwarcia, zdjęcia produktów na półkach, odpowiedzi na recenzje – to wszystko buduje local authority. Google nagradza aktywne profile wyższymi pozycjami.
 
-Breadcrumbs to nie tylko wygoda nawigacyjna. To structured data, które pokazują się w wynikach Google jako czytelna ścieżka. „Strona główna > Elektronika > Smartfony > Apple iPhone" od razu mówi użytkownikowi, gdzie się znajduje.
+### Geo-targeting w strategii treści
+
+"Sklep z butami Kraków" to nie tylko nazwa miasta w title tagu. To kompleksowa strategia landing pages dla każdego regionu.
+
+**Lokalne słowa kluczowe mają sens**
+
+"Dostawa kwiatów Gdańsk do 2h" konwertuje lepiej niż ogólne "dostawa kwiatów". Użytkownik wie, że jesteś w jego okolicy i możesz zrealizować zamówienie szybko.
+
+Twórz dedykowane strony dla każdego miasta, ale unikaj duplicate content. Różne produkty, lokalne promocje, specyficzne informacje o dostawie – każda strona musi mieć unikalną wartość.
+
+Local structured data to nie opcja, to konieczność. Adres, godziny otwarcia, numer telefonu w formacie schema.org pomagają Google zrozumieć twoje lokalizacje.
+
+Przyszłość e-commerce to połączenie online z offline. Klienci research'ują w sieci, ale często finalizują zakup w sklepie. SEO lokalne buduje ten most między światami.
