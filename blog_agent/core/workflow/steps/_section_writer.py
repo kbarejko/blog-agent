@@ -255,13 +255,11 @@ def write_section_with_review(
         # Generate content
         content = ai.generate(prompt, max_tokens=1500)
 
-        # Review with section-specific target words and structure validation
+        # Review with section-specific target words (no structure validation - we inject H3 anyway)
         target_words = section.get('target_words')
-        expected_structure = section.get('description', '')
         review_result = review.review_section(
             content,
-            target_words=target_words,
-            expected_structure=expected_structure
+            target_words=target_words
         )
 
         # Store this attempt
