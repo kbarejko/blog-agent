@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **SEO generuje o 150% więcej sprzedaży niż Google Ads** - ruch organiczny ma wyższą konwersję i nie kosztuje za każde kliknięcie, a efekty rosną z czasem
-- **Każda sekunda opóźnienia = 7% spadek konwersji** - Core Web Vitals to nie tylko ranking Google, ale bezpośredni wpływ na przychody sklepu
-- **Linkowanie wewnętrzne zwiększa sprzedaż o 40%** - strategiczne łączenie produktów z kategoriami to najszybszy sposób na cross-selling przez SEO
-- **9 najczęstszych błędów kosztuje sklepy miliony** - duplicate content, brak opisów produktów i ignorowanie long-tail keywords zabija organiczny ruch
-- **Plan działania na pierwsze 4 miesiące** - konkretny harmonogram od audytu technicznego po content marketing z praktyką sprawdzoną na setkach sklepów
+- **93% klientów zaczyna od Google** - ale tylko 25% sklepów ma SEO które rzeczywiście przekłada się na sprzedaż, a nie tylko ruch
+- **Core Web Vitals to ranking factor od 2021** - każda sekunda opóźnienia ładowania to 7% mniej konwersji i spadek w wynikach wyszukiwania
+- **Long tail keywords mają 3x wyższą konwersję** - frazy typu "czerwone buty sportowe damskie Nike" przyciągają klientów gotowych kupić
+- **Strategiczne linkowanie wewnętrzne zwiększa AOV o 15-30%** - przemyślane prowadzenie klientów przez sklep wspiera cross-selling i up-selling
+- **Checklist techniczny SEO dla e-commerce** - 15 punktów które możesz sprawdzić w swoim sklepie już dziś, plus gotowe narzędzia do monitoringu ROI

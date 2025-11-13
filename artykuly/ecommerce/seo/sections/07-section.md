@@ -1,33 +1,13 @@
-## Jak zacząć? Pierwsze kroki w SEO e-commerce
+## Lokalne SEO dla sklepów internetowych
 
-### Technical audit (miesiąc 1)
+Gdy myślisz o sklepie internetowym, lokalne SEO może wydawać się sprzeczne z logiką. Po co ograniczać się do regionu, skoro internet jest globalny? Problem w tym, że nawet w sieci ludzie myślą lokalnie. Szukają „sklep z butami Warszawa", „dostawa tego samego dnia Kraków" albo po prostu chcą mieć pewność, że kupują od kogoś, kogo mogą znaleźć.
 
-Zacznij od fundamentów – audytu technicznego. To jak badania lekarskie przed treningiem: musisz wiedzieć, co naprawić, zanim zaczniesz budować.
+Google coraz mocniej personalizuje wyniki na podstawie lokalizacji użytkownika. Nawet jeśli klient nie wpisuje nazwy miasta, algorytmy często preferują sklepy „z okolicy". To szczególnie widoczne w wynikach mobilnych, gdzie ponad 60% wyszukiwań ma lokalny kontekst.
 
-Core Web Vitals to twój pierwszy przystanek. Strona ładująca się dłużej niż 3 sekundy traci połowę potencjalnych klientów. Użyj Google PageSpeed Insights i sprawdź wszystkie kluczowe podstrony: główną, kategorie, top-produkty.
+Fizyczne punkty odbioru to największa szansa na lokalne SEO. Jeśli oferujesz click & collect, odbiór w punkcie czy masz salon stacjonarny, Google My Business staje się kluczowy. Zweryfikowany profil z aktualnymi godzinami, zdjęciami i recenzjami może przyciągnąć klientów, którzy wolą dotknąć produktu przed zakupem.
 
-Crawl errors w Google Search Console pokażą, które strony Google nie może odwiedzić. Błędy 404, przekierowania w pętli, zablokowane w robots.txt produkty – to wszystko niszczy twoje pozycje.
+Ale nawet pure-play e-commerce może skorzystać z lokalnego myślenia. Strony regionalne typu „Dostawa kwiatów Gdańsk" czy „Meble do biura Wrocław" często lepiej konwertują niż ogólne landing page. Klient czuje, że sklep rozumie jego lokalne potrzeby – czy to szybkość dostawy, czy znajomość regionalnych preferencji.
 
-Podstawowa optymalizacja on-page to trzeci filar. Tytuły stron, meta-opisy, nagłówki H1-H3. Brzmi nudnie, ale to fundamenty, na których budujesz całą strategię.
+Schema markup dla lokalnych firm pomaga Google zrozumieć, gdzie działasz. Dane kontaktowe, obszar obsługi, lokalne numery telefonów – te informacje budują zaufanie w oczach algorytmów. Klient kupujący online chce wiedzieć, że w razie problemu ma do kogo zadzwonić.
 
-### Content optimization (miesiąc 2-3)
-
-Po uporządkowaniu technikaliów czas na treści. Nie zaczynaj od całego sklepu – to przepis na wypalenie i chaos.
-
-Skup się na 20-30 najpopularniejszych produktach. Te, które generują najwięcej ruchu i sprzedaży, zasługują na pierwszeństwo. Każdy opis musi odpowiadać na pytanie klienta i zawierać naturalne słowa kluczowe.
-
-Kategorie produktów to twoje największe atuty SEO. One mają potencjał pozycjonować się za setki różnych fraz. Dobra kategoria to nie tylko lista produktów, ale przewodnik zakupowy z filtrami, porównaniami i poradami.
-
-Struktura linkowania wewnętrznego łączy wszystko w całość. Każda kategoria powinna linkować do najważniejszych produktów. Każdy produkt – do powiązanych pozycji.
-
-### Long-term strategy (miesiąc 4+)
-
-Po trzech miesiącach masz solidne podstawy. Teraz czas na strategię długoterminową, która będzie przynosić rezultaty przez lata.
-
-Content marketing to twoja droga do dominacji w wynikach Google. Blog sklepowy z przewodnikami zakupowymi, porównaniami produktów i poradami branżowymi. Każdy artykuł to dziesiątki nowych słów kluczowych i setki potencjalnych klientów.
-
-Konkurencja śpi. Wykorzystaj to. Regularna analiza tego, co robią inni gracze w twojej branży, pokazuje luki, które możesz wypełnić. Słowa kluczowe, których nie wykorzystują, treści, których nie tworzą.
-
-Keyword expansion to proces bez końca. Im więcej long-tail fraz pokryjesz, tym więcej klientów przyciągniesz. "Buty" to jeden klient, ale "buty trekkingowe wodoodporne rozmiar 42" to klient gotowy do zakupu.
-
-SEO w e-commerce to maraton, nie sprint. Pierwsze efekty widać po trzech miesiącach, prawdziwe rezultaty – po roku systematycznej pracy.
+Lokalne słowa kluczowe w e-commerce to często niedoceniana nisza. „Sukienki na wesele Poznań" ma mniejszą konkurencję niż ogólne „sukienki na wesele", a klient z Poznania może bardziej ufać lokalnemu dostawcy. Sezonowość i regionalne różnice też mają znaczenie – kurtki zimowe sprzedają się inaczej w górach niż nad morzem.

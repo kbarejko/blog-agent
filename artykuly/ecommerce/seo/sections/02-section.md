@@ -1,25 +1,15 @@
-## Fundamenty SEO sklepu - aspekty techniczne
+## Fundamenty techniczne - szybkość i dostępność na pierwszym miejscu
 
-### Szybkość i Core Web Vitals
+Sklep internetowy to jak budynek. Możesz mieć najpiękniejszą wystawę sklepową na świecie, ale jeśli drzwi wejściowe są zablokowane, a wind nie ma – klienci po prostu odejdą. W e-commerce fundament stanowi techniczne SEO, które decyduje o tym, czy Google w ogóle zauważy Twoje produkty i czy klienci będą w stanie je kupić.
 
-Klient ma 3 sekundy cierpliwości. Po tym czasie 40% użytkowników zamyka kartę i idzie do konkurencji. W e-commerce każda sekunda opóźnienia to 7% mniej sprzedaży. Brzmi dramatycznie? Bo jest dramatycznie.
+Core Web Vitals przestały być rekomendacją. To oficjalny ranking factor, który wpływa na pozycje w wynikach wyszukiwania. Largest Contentful Paint, First Input Delay, Cumulative Layout Shift – te metryki mierzą rzeczywiste doświadczenia użytkowników. Google wie, że sklep ładujący się 6 sekund na telefonie to sklep, który traci klientów.
 
-Google od 2021 roku traktuje Page Experience jako oficjalny czynnik rankingowy. To oznacza, że wolny sklep nie tylko traci klientów – traci też pozycje w wyszukiwarce. Podwójny cios, którego większość właścicieli sklepów nawet nie dostrzega.
+Sklepy internetowe mają specyficzne wyzwania techniczne. Tysiące stron produktowych, dynamiczne filtry, warianty kolorów i rozmiarów, zdjęcia w wysokiej rozdzielczości. Każdy element może spowalniać stronę lub generować duplikaty treści, które mylą wyszukiwarki.
 
-Core Web Vitals to trzy metryki, które Google uważa za kluczowe: LCP (jak szybko ładuje się główna treść), FID (jak szybko strona reaguje na kliknięcia) i CLS (czy elementy "skaczą" podczas ładowania).
+Mobile-first indexing oznacza fundamentalną zmianę. Google używa wersji mobilnej Twojego sklepu jako podstawy do oceny i indeksowania. Jeśli na telefonie brakuje opisów produktów, Google może nie zobaczyć ich wcale – nawet jeśli na komputerze wszystko działa perfekcyjnie.
 
-W e-commerce te metryki mają swoje specificzne wyzwania. Karty produktów pełne są wysokiej jakości zdjęć – każde waży kilka megabajtów. Filtry kategorii generują złożone zapytania do bazy danych. Skrypty śledzące zakupy spowalniają każdą stronę.
+Struktura URL-i w e-commerce to osobny temat. Parametry filtrów, sortowania, paginacja – każdy może tworzyć nieskończone kombinacje stron, marnując crawl budget Google'a na nieistotne treści. Rozwiązaniem są przemyślane canonical tagi, strategiczne użycie noindex i logiczna hierarchia kategorii.
 
-Rozwiązanie? Kompresja obrazów, lazy loading, optymalizacja bazy danych i bezlitosne usuwanie niepotrzebnych skryptów. Jeden klient zmniejszył czas ładowania z 8 do 2 sekund i odnotował 35% wzrost konwersji w ciągu dwóch tygodni.
+**Dowiedz się więcej o optymalizacji technicznej:** [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv) – kompletny przewodnik po tym, jak przygotować sklep pod wymagania Google.
 
-### Struktura witryny i indeksacja
-
-Duży sklep internetowy to labirynt dla robotów Google. Tysiące produktów, dziesiątki kategorii, filtry cenowe, kolorystyczne, rozmiarowe. Każda kombinacja filtru tworzy nową stronę. Google może indeksować miliony podobnych do siebie URL-i.
-
-Problem duplicate content w e-commerce to plaga. Ten sam produkt dostępny w trzech kolorach = trzy prawie identyczne strony. Sortowanie od najtańszych = kolejny duplikat kategorii. Google nie lubi duplikatów i karze je niższymi pozycjami.
-
-Crawl budget to kolejne wyzwanie. Google ma ograniczoną ilość czasu na przeskanowanie twojego sklepu. Jeśli zmarnuje go na tysiące stron z filtrami, może przegapić twoje najważniejsze produkty.
-
-Fundamentem jest przemyślana architektura: kategorie → podkategorie → produkty. Maksymalnie 3 kliki od strony głównej do każdego produktu. Canonical URLs dla duplikatów. Robots.txt blokujący niepotrzebne filtry.
-
-Szczegółowy przewodnik po optymalizacji technicznej znajdziesz w naszym artykule o [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv).
+Crawl budget to zasób, którego nie można marnować. Google ma ograniczony czas na przeszukiwanie Twojego sklepu. Jeśli bot traci czas na puste kategorie, nieistotne filtry czy błędne przekierowania, może nie dotrzeć do najważniejszych produktów. Optymalizacja robots.txt i sitemap.xml nie jest techniczną formalności – to strategia biznesowa.
