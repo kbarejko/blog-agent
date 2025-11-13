@@ -26,64 +26,48 @@ Pierwsza sekcja z konspektu: **{{SECTION_TITLE}}**
 {{SECTION_DESCRIPTION}}
 
 **Zasady struktury:**
-1. **Nagłówki H2** - Główny tytuł sekcji (np. `## Tytuł sekcji`)
-2. **Nagłówki H3** - Jeśli konspekt zawiera H3 (`###`), MUSISZ je użyć jako podsekcje
-3. **Nagłówki H4** - Jeśli konspekt zawiera H4 (`####`), MUSISZ je użyć
-4. **Listy punktowe** - Jeśli konspekt zawiera bullet points (`-`), omów KAŻDY punkt z osobna
+1. **Nagłówki H2** - Główny tytuł sekcji (np. `## Tytuł sekcji`) - ZAWSZE zachowuj
+2. **Nagłówki H3** - Jeśli konspekt zawiera H3 (`###`), MUSISZ je zachować jako H3 w tekście
+3. **Nagłówki H4** - Jeśli konspekt zawiera H4 (`####`), MUSISZ je zachować jako H4 w tekście
+4. **Bullet points** - to TEMATY do omówienia w naturalnych akapitach (NIE jako pogrubione nagłówki!)
 5. **Kolejność** - Pisz w tej samej kolejności co w konspekcie
 
-**Przykład 1 - H3 headers:**
-Jeśli konspekt zawiera H3:
+**WAŻNE: Jak traktować strukturę:**
+- **H3 headery** - MUSISZ zachować jako `### Nagłówek` w tekście
+- **Bullet points pod H3** - to TEMATY do omówienia w naturalnych akapitach (NIE jako pogrubione nagłówki!)
+
+**Przykład - Sekcja z H3:**
+Konspekt mówi:
 ```
-## Szybkość jako element UX
+## Szybkość jako element UX - wpływ na zachowania użytkowników
 
 ### Core Web Vitals w kontekście e-commerce
-- LCP dla stron produktowych
-- FID w procesie dodawania do koszyka
+- LCP (Largest Contentful Paint) dla stron produktowych
+- FID (First Input Delay) w procesie dodawania do koszyka
+- CLS (Cumulative Layout Shift) i jego wpływ na frustrację
 
 ### Optymalizacja szybkości dla konwersji
-- Lazy loading obrazków
+- Lazy loading obrazków produktów
 - Cache'owanie dla powracających klientów
 ```
 
-To MUSISZ napisać (ZACHOWUJĄC H3):
+MUSISZ napisać (ZACHOWUJĄC H3, omów tematy w naturalnych akapitach):
 ```
-## Szybkość jako element UX
+## Szybkość jako element UX - wpływ na zachowania użytkowników
 
 ### Core Web Vitals w kontekście e-commerce
 
-[wprowadzenie do tej podsekcji]
+LCP (Largest Contentful Paint) dla stron produktowych decyduje o pierwszym wrażeniu. Użytkownik czekający ponad 2.5 sekundy na wyświetlenie głównego obrazu produktu często po prostu odchodzi do konkurencji.
 
-**LCP dla stron produktowych** [rozwinięcie punktu]
+FID (First Input Delay) w procesie dodawania do koszyka może być zabójczy. Gdy klient klika "Dodaj do koszyka" i nic się nie dzieje przez pół sekundy, frustracja rośnie wykładniczo.
 
-**FID w procesie dodawania do koszyka** [rozwinięcie punktu]
+CLS (Cumulative Layout Shift) wywołuje frustrację, gdy elementy strony "skaczą" podczas ładowania. Użytkownik celuje w przycisk, ale w ostatniej chwili przesuwa się logo i klika w reklamę.
 
 ### Optymalizacja szybkości dla konwersji
 
-[wprowadzenie do tej podsekcji]
+Lazy loading obrazków produktów to podstawowa technika. Zamiast ładować wszystkie 50 zdjęć z listy produktów, ładuj tylko te widoczne na ekranie.
 
-**Lazy loading obrazków** [rozwinięcie punktu]
-
-**Cache'owanie dla powracających klientów** [rozwinięcie punktu]
-```
-
-**Przykład 2 - Tylko bullet points:**
-Jeśli konspekt NIE ma H3, tylko bullets:
-```
-## Optymalizacja techniczna
-- Core Web Vitals
-- Mobile-first indexing
-```
-
-To napisz z bold:
-```
-## Optymalizacja techniczna
-
-[wprowadzenie do sekcji]
-
-**Core Web Vitals** [rozwinięcie punktu]
-
-**Mobile-first indexing** [rozwinięcie punktu]
+Cache'owanie dla powracających klientów sprawia, że druga wizyta jest błyskawiczna. Powracający użytkownicy konwertują 3x lepiej, więc ich doświadczenie jest kluczowe.
 ```
 
 ---

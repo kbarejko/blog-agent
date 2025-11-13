@@ -31,64 +31,48 @@ Kolejna sekcja z konspektu: **{{SECTION_TITLE}}**
 {{SECTION_DESCRIPTION}}
 
 **Zasady struktury:**
-1. **Nagłówki H2** - Główny tytuł sekcji (np. `## Tytuł sekcji`)
-2. **Nagłówki H3** - Jeśli konspekt zawiera H3 (`###`), MUSISZ je użyć jako podsekcje
-3. **Nagłówki H4** - Jeśli konspekt zawiera H4 (`####`), MUSISZ je użyć
-4. **Listy punktowe** - Jeśli konspekt zawiera bullet points (`-`), omów KAŻDY punkt z osobna
+1. **Nagłówki H2** - Główny tytuł sekcji (np. `## Tytuł sekcji`) - ZAWSZE zachowuj
+2. **Nagłówki H3** - Jeśli konspekt zawiera H3 (`###`), MUSISZ je zachować jako H3 w tekście
+3. **Nagłówki H4** - Jeśli konspekt zawiera H4 (`####`), MUSISZ je zachować jako H4 w tekście
+4. **Bullet points** - to TEMATY do omówienia w naturalnych akapitach (NIE jako pogrubione nagłówki!)
 5. **Kolejność** - Pisz w tej samej kolejności co w konspekcie
 
-**Przykład 1 - H3 headers:**
-Jeśli konspekt zawiera H3:
+**WAŻNE: Jak traktować strukturę:**
+- **H3 headery** - MUSISZ zachować jako `### Nagłówek` w tekście
+- **Bullet points pod H3** - to TEMATY do omówienia w naturlanych akapitach (NIE jako pogrubione nagłówki!)
+
+**Przykład - Sekcja z H3:**
+Konspekt mówi:
 ```
-## Proces checkout
+## Proces checkout - fundament konwersji
 
 ### Psychologia procesu zakupowego
-- Bariery psychologiczne w ostatnim kroku
-- Znaczenie przejrzystości kosztów
+- Bariery psychologiczne w ostatnim kroku zakupu
+- Znaczenie przejrzystości kosztów i czasu dostawy
+- Trust signals w procesie płatności
 
 ### Optymalizacja kroków checkout
 - Długość procesu (1-step vs multi-step)
-- Eliminacja niepotrzebnych pól
+- Eliminacja niepotrzebnych pól formularza
 ```
 
-To MUSISZ napisać (ZACHOWUJĄC H3):
+MUSISZ napisać (ZACHOWUJĄC H3, omów tematy w naturalnych akapitach):
 ```
-## Proces checkout
+## Proces checkout - fundament konwersji
 
 ### Psychologia procesu zakupowego
 
-[wprowadzenie do tej podsekcji]
+Ostatni krok przed zakupem to moment prawdy. Klient ma już produkt w koszyku, jest zdecydowany kupić, ale właśnie tutaj pojawia się najwięcej barier psychologicznych. Użytkownik nagle zastanawia się: czy na pewno tego potrzebuję? Czy ten sklep jest bezpieczny?
 
-**Bariery psychologiczne w ostatnim kroku** [rozwinięcie punktu]
+Przejrzystość kosztów i czasu dostawy eliminuje nieprzyjemne niespodzianki. Klienci muszą wiedzieć od początku, ile zapłacą i kiedy otrzymają zamówienie. Żadnych ukrytych opłat na końcu procesu.
 
-**Znaczenie przejrzystości kosztów** [rozwinięcie punktu]
+Trust signals w procesie płatności budują zaufanie w krytycznym momencie. Certyfikaty bezpieczeństwa, znane metody płatności, opinie innych klientów - wszystko to uspokaja nerwy przed kliknięciem "Kupuję".
 
 ### Optymalizacja kroków checkout
 
-[wprowadzenie do tej podsekcji]
+Długość procesu checkout budzi gorące dyskusje. Jedni stawiają na single-page checkout, inni na podział na etapy. Prawda jest prosta: liczy się przejrzystość, nie liczba kroków.
 
-**Długość procesu (1-step vs multi-step)** [rozwinięcie punktu]
-
-**Eliminacja niepotrzebnych pól** [rozwinięcie punktu]
-```
-
-**Przykład 2 - Tylko bullet points:**
-Jeśli konspekt NIE ma H3, tylko bullets:
-```
-## Linkowanie wewnętrzne
-- Znaczenie linkowania dla struktury sklepu
-- Jak poprawne linkowanie wpływa na ranking
-```
-
-To napisz z bold:
-```
-## Linkowanie wewnętrzne
-
-[wprowadzenie do sekcji]
-
-**Znaczenie linkowania dla struktury sklepu** [rozwinięcie]
-
-**Jak poprawne linkowanie wpływa na ranking** [rozwinięcie]
+Eliminacja niepotrzebnych pól formularza to sztuka cięcia zbędnego. Każde dodatkowe pole to bariera. Czy naprawdę potrzebujesz numeru telefonu do wysyłki?
 ```
 
 ---
