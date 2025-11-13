@@ -4,7 +4,7 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 15-step workflow from outline to publication
+- **Automated Article Generation**: 16-step workflow from outline to publication
 - **Silo Article Support**: Special handling for category hub pages with automatic sub-article detection and FAQ
 - **Flexible Workflow Control**: Skip steps or step groups (writing, metadata, post-processing)
 - **Target Word Count**: Per-article length control (e.g., 2000, 3500, 5000 words) - automatically adjusts sections
@@ -129,6 +129,7 @@ blog-agent list --series ecommerce
 13. **Categories** - AI selects 1-5 categories from 146 available
 14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
 15. **Generate Images** - Generate images with DALL-E 3 from multimedia prompts (optional, disabled by default)
+16. **Social Media** - Generate social media posts (Facebook/LinkedIn/Instagram) with hooks, alternative titles, and hashtags
 
 ### Advanced Workflow Control
 
@@ -586,6 +587,9 @@ python test_internal_linking.py
 python test_image_generation.py  # DALL-E
 python test_stability_ai.py      # Stability AI
 
+# Test Social Media step (step 16)
+python test_social_media.py
+
 # Test Ollama integration
 python test_ollama.py
 
@@ -615,7 +619,15 @@ python test_gemini.py
   - Updates multimedia.json with local paths
   - Disabled by default (opt-in, costs money)
   - Test script: test_image_generation.py
-- ✅ **E2E Workflow**: Complete 1-14 workflow validated
+- ✅ **Step 16 (Social Media)**: Validated
+  - Generates social media posts for Facebook/LinkedIn/Instagram
+  - Creates 80±5 char hook-based post
+  - Provides 4 alternative titles with strong hooks
+  - Generates first comment with bullets, link, acronym explanations, and 10 hashtags
+  - Targets non-technical business owners (25-55)
+  - Outputs to social_media.json
+  - Test script: test_social_media.py
+- ✅ **E2E Workflow**: Complete 1-16 workflow validated
   - Tested with claude-3-haiku-20240307 (cheap model)
   - Generated article: 4410 words, Flesch 39.1, 3 categories
   - All 14 steps completed successfully (~15 minutes)

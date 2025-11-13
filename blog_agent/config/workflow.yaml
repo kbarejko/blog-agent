@@ -1,5 +1,5 @@
 # Workflow Configuration
-# Defines the 14-step article generation process
+# Defines the 16-step article generation process
 
 steps:
   - name: init
@@ -89,6 +89,11 @@ steps:
     # cfg_scale: 7.0  # guidance scale
     skip_existing: true
 
+  - name: social_media
+    module: blog_agent.core.workflow.steps.step_16_social_media
+    description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
+    enabled: true
+
 # Quality Review Configuration
 review:
   min_words: 300      # Minimum words per section
@@ -100,6 +105,6 @@ review:
 # Metadata
 metadata:
   version: "1.0"
-  total_steps: 15
+  total_steps: 16
   estimated_time: "6-7 minutes"
   estimated_cost: "$0.09 (Claude Sonnet 4) + images if enabled"
