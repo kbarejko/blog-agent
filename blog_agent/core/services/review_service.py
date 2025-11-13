@@ -56,7 +56,7 @@ class ReviewService:
             # If calculation fails, return neutral score
             return 50.0
 
-    def review_section(self, content: str, target_words: Optional[int] = None, expected_structure: Optional[str] = None) -> Dict[str, any]:
+    def review_section(self, content: str, target_words: Optional[int] = None) -> Dict[str, any]:
         """
         Review a section for quality
 
@@ -64,8 +64,6 @@ class ReviewService:
             content: Section content
             target_words: Optional target word count for this specific section
                          If provided, overrides default min/max_words
-            expected_structure: Optional structure from outline to validate against
-                              If provided, checks that H3/H4 headers are preserved
 
         Returns:
             Review result with issues and metrics
@@ -100,35 +98,6 @@ class ReviewService:
                 issues.append(f"Too long: {word_count} words (target {target}, max {effective_max} with 10% tolerance)")
             else:
                 issues.append(f"Too long: {word_count} words (max {target})")
-
-        # Structure validation (H3/H4 headers preservation)
-        if expected_structure:
-            import re
-            # Extract H3 headers from expected structure
-            expected_h3 = re.findall(r'^### (.+)$', expected_structure, re.MULTILINE)
-            # Extract H4 headers from expected structure
-            expected_h4 = re.findall(r'^#### (.+)$', expected_structure, re.MULTILINE)
-
-            # Check H3 headers in content
-            missing_h3 = []
-            for h3 in expected_h3:
-                # Check if H3 is present in content (case-insensitive)
-                if f"### {h3}" not in content and f"### {h3.lower()}" not in content.lower():
-                    missing_h3.append(h3)
-
-            # Check H4 headers in content
-            missing_h4 = []
-            for h4 in expected_h4:
-                if f"#### {h4}" not in content and f"#### {h4.lower()}" not in content.lower():
-                    missing_h4.append(h4)
-
-            if missing_h3:
-                issues.append(f"Missing H3 headers from outline: {', '.join(missing_h3)}")
-                metrics['missing_h3'] = missing_h3
-
-            if missing_h4:
-                issues.append(f"Missing H4 headers from outline: {', '.join(missing_h4)}")
-                metrics['missing_h4'] = missing_h4
 
         # Flesch Reading Ease
         flesch = self.calculate_flesch_reading_ease(content)
@@ -208,18 +177,6 @@ class ReviewService:
                 feedback_lines.append("- Uprość język: krótsze zdania, prostsze słowa, więcej akapitów")
             elif "Too simple" in issue:
                 feedback_lines.append("- Wzbogać treść: dodaj detale eksperckie, terminologię branżową")
-            elif "Missing H3 headers" in issue:
-                missing = metrics.get('missing_h3', [])
-                feedback_lines.append(f"- KRYTYCZNE: Musisz użyć WSZYSTKICH nagłówków H3 z konspektu:")
-                for h3 in missing:
-                    feedback_lines.append(f"  ### {h3}")
-                feedback_lines.append("  Zachowaj je DOKŁADNIE jako ### w tekście!")
-            elif "Missing H4 headers" in issue:
-                missing = metrics.get('missing_h4', [])
-                feedback_lines.append(f"- KRYTYCZNE: Musisz użyć WSZYSTKICH nagłówków H4 z konspektu:")
-                for h4 in missing:
-                    feedback_lines.append(f"  #### {h4}")
-                feedback_lines.append("  Zachowaj je DOKŁADNIE jako #### w tekście!")
 
         return "\n".join(feedback_lines)
 
