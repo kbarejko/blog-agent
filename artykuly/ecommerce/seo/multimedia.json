@@ -1,12 +1,92 @@
 {
   "hero_image": {
     "type": "photo",
-    "title": "Hero image - SEO w e-commerce szybki ruch i konwersja.",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "SEO w e-commerce szybki ruch i konwersja.",
-    "prompt": "Professional modern illustration for SEO w e-commerce szybki ruch i konwersja.",
-    "keywords": []
+    "title": "Hero image - SEO w e-commerce",
+    "description": "Profesjonalne zdjęcie właściciela sklepu e-commerce pracującego nad strategią SEO",
+    "alt_text": "Właściciel sklepu e-commerce analizuje strategię SEO na laptopie",
+    "prompt": "Professional photo of an e-commerce business owner working on laptop focusing on SEO strategy, modern office environment, natural lighting, authentic workspace, stock photo style",
+    "keywords": [
+      "e-commerce",
+      "SEO",
+      "strategia"
+    ]
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Optymalizacja techniczna SEO",
+      "title": "Wykres Core Web Vitals",
+      "description": "Wykres słupkowy przedstawiający wpływ Core Web Vitals na pozycjonowanie",
+      "alt_text": "Wykres wpływu Core Web Vitals na pozycjonowanie e-commerce",
+      "prompt": "Clean bar chart showing the impact of Core Web Vitals on e-commerce SEO ranking, blue bars, professional infographic style, labeled axes, minimalist design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Core Web Vitals",
+        "SEO",
+        "e-commerce"
+      ]
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Tworzenie treści produktowych",
+      "title": "Infografika - Optymalizacja opisów produktów",
+      "description": "Infografika pokazująca kluczowe elementy optymalizacji opisów produktów",
+      "alt_text": "Infografika optymalizacji opisów produktów dla SEO",
+      "prompt": "Infographic illustrating key elements of product description optimization for SEO: keywords, user engagement, unique content. Icons for each element, blue and green colors, professional clean design",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "treści produktowe",
+        "optymalizacja",
+        "SEO"
+      ]
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Analiza ruchu i konwersji",
+      "title": "Screenshot Google Analytics",
+      "description": "Screenshot interfejsu Google Analytics z danymi o ruchu i konwersji",
+      "alt_text": "Google Analytics z danymi o ruchu i konwersji w e-commerce",
+      "prompt": "Screenshot of Google Analytics interface showing traffic and conversion data for e-commerce store, highlighted metrics, professional software interface",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Google Analytics",
+        "ruch",
+        "konwersja"
+      ]
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Trendy w SEO dla e-commerce w 2023",
+      "title": "Wykres trendów SEO 2023",
+      "description": "Wykres liniowy przedstawiający trendy SEO w e-commerce w 2023 roku",
+      "alt_text": "Wykres trendów SEO w e-commerce w 2023 roku",
+      "prompt": "Line chart showing SEO trends in e-commerce for 2023, AI and personalization impact, professional infographic style, green and blue lines, labeled axes",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "trendy SEO",
+        "e-commerce",
+        "2023"
+      ]
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Linkowanie wewnętrzne",
+      "title": "Diagram linkowania wewnętrznego",
+      "description": "Flowchart przedstawiający proces linkowania wewnętrznego w e-commerce",
+      "alt_text": "Flowchart procesu linkowania wewnętrznego w sklepie e-commerce",
+      "prompt": "Flowchart diagram illustrating internal linking process in e-commerce, arrows connecting steps, icons for each step, blue and white color scheme, professional design",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "linkowanie wewnętrzne",
+        "proces",
+        "e-commerce"
+      ]
+    }
+  ],
+  "total_count": 6
 }
