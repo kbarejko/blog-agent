@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **SEO przyciąga znacznie więcej kupujących niż płatne reklamy** - organiczny ruch w wyszukiwarkach przekłada się na wyższą sprzedaż, nie wymaga ciągłych dopłat za każde kliknięcie, a jego wartość rośnie systematycznie z czasem
-- **Każda sekunda zwłoki na stronie może kosztować Cię konkretne zamówienia** - optymalizacja Core Web Vitals wpływa nie tylko na pozycję w Google, lecz prawdopodobnie bezpośrednio przekłada się na przychody Twojego sklepu
+- **[Każda sekunda zwłoki na stronie](/artykuly/ecommerce/ux-ui/) może kosztować Cię konkretne zamówienia** - optymalizacja Core Web Vitals wpływa nie tylko na pozycję w Google, lecz prawdopodobnie bezpośrednio przekłada się na przychody Twojego sklepu
 - **Przemyślane linkowanie wewnętrzne znacząco zwiększa wartość zamówień** - gdy strategicznie połączysz produkty z odpowiednimi kategoriami, naturalnie zachęcisz klientów do zakupu dodatkowych rzeczy
 - **Dziewięć powtarzających się błędów niszczy potencjał tysięcy sklepów** - powielone treści, puste opisy produktów czy ignorowanie fraz długoogonowych może sugerować Google, że Twoja strona nie jest wartościowa dla użytkowników  
 - **Sprawdzony plan działania na najbliższe cztery miesiące** - otrzymasz konkretny harmonogram kroków od pierwszego audytu technicznego po strategię content marketingu, który już pomógł setkom innych przedsiębiorców
@@ -16,7 +16,7 @@ Wielu właścicieli sklepów popełnia w tej sytuacji podstawowy błąd. SEO tra
 
 Rzeczywistość wygląda inaczej. Dobrze zaplanowane SEO w e-commerce to znacznie więcej niż tylko zwiększony ruch. To przede wszystkim konkretna sprzedaż, lepsze marże i klienci, którzy wracają po więcej. Inwestycja, która pracuje nieprzerwanie – także wtedy, gdy już dawno poszedłeś spać.
 
-SEO dla sklepów internetowych różni się od tradycyjnego pozycjonowania jak samolot od samochodu. Oba służą do przemieszczania się, ale cel i sposób działania mają zupełnie inne. W e-commerce każda pozycja w wynikach wyszukiwania, każdy klik użytkownika i każda sekunda spędzona na stronie powinna przekładać się na wymierny efekt biznesowy.
+SEO dla sklepów internetowych różni się od tradycyjnego pozycjonowania jak samolot od samochodu. Oba służą do przemieszczania się, ale cel i sposób działania mają zupełnie inne. W e-commerce każda pozycja w wynikach wyszukiwania, każdy klik użytkownika i [każda sekunda spędzona na stronie](/artykuly/ecommerce/ux-ui/) powinna przekładać się na wymierny efekt biznesowy.
 
 ## Dlaczego SEO w e-commerce to inwestycja, nie koszt?
 
