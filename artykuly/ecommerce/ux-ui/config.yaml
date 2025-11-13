@@ -1,8 +1,8 @@
 title: UX/UI w e-commerce - checkout, szybkość, dostępność
 target_audience: Właściciele sklepów internetowych i specjaliści e-commerce
 tone: ekspercki, ale naturalny i rozmowny
-model: claude-sonnet-4-20250514
-target_word_count: 2500
+model: gpt-5.1
+target_word_count: 2000
 meta_title: UX/UI w e-commerce - checkout, szybkość, dostępność
 meta_description: Dowiedz się więcej o UX/UI w e-commerce - checkout, szybkość, dostępność.
   Praktyczny przewodnik z konkretnymi wskazówkami i przykładami.
