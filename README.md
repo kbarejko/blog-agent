@@ -625,7 +625,7 @@ python test_gemini.py
   - Provides 4 alternative titles with strong hooks
   - Generates first comment with bullets, link, acronym explanations, and 10 hashtags
   - Targets non-technical business owners (25-55)
-  - Outputs to social_media.json
+  - Outputs to social_media.yaml
   - Test script: test_social_media.py
 - ✅ **E2E Workflow**: Complete 1-16 workflow validated
   - Tested with claude-3-haiku-20240307 (cheap model)

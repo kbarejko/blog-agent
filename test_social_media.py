@@ -57,11 +57,11 @@ def test_social_media_generation():
         article = execute_social_media(article, deps, {})
 
         # Read generated file
-        social_media_file = test_article_path / "social_media.json"
+        social_media_file = test_article_path / "social_media.yaml"
         if social_media_file.exists():
-            import json
+            import yaml
             with open(social_media_file, 'r', encoding='utf-8') as f:
-                social_data = json.load(f)
+                social_data = yaml.safe_load(f)
 
             print(f"\n✅ Social media posts generated successfully!")
             print(f"\n📝 POST ({len(social_data.get('post', ''))} chars):")
@@ -90,7 +90,7 @@ def test_social_media_generation():
             print(f"\n📁 File saved: {social_media_file}")
 
         else:
-            print(f"❌ social_media.json not created")
+            print(f"❌ social_media.yaml not created")
 
     except Exception as e:
         print(f"❌ Error: {e}")

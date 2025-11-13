@@ -5,6 +5,7 @@ Creates social media post package (Facebook/LinkedIn/Instagram) based on article
 """
 from typing import Dict, Any
 import json
+import yaml
 from pathlib import Path
 
 
@@ -65,9 +66,12 @@ def execute_social_media(
     # Ensure URL is included
     social_data['article_url'] = article_url
 
-    # Save to file
-    output_path = article.path / 'social_media.json'
-    storage.write_json(output_path, social_data)
+    # Save to YAML file
+    output_path = article.path / 'social_media.yaml'
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        yaml.dump(social_data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
 
     print(f"   ✅ Social media posts generated")
     print(f"      Post length: {len(social_data.get('post', ''))} chars")
