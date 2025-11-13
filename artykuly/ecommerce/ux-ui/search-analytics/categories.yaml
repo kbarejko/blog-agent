@@ -1,0 +1,11 @@
+categories:
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
+- slug: sklepy-internetowe
+  title: Sklepy Internetowe
+  path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+- slug: narzedzia-do-analityki
+  title: Narzędzia do Analityki
+  path: oprogramowanie-i-narzedzia/narzedzia-do-analityki
+count: 3
