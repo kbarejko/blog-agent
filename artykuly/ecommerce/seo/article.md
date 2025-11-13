@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **93% ruchu e-commerce rozpoczyna podróż w wyszukiwarkach** - dobrze przemyślane SEO może prawdopodobnie zwiększyć Twoje przychody o 200-300% w przeciągu roku. To nie jest teoria, lecz rzeczywistość wielu sklepów internetowych
-- **Core Web Vitals wpływają bezpośrednio na portfel** - każda dodatkowa sekunda ładowania strony kosztuje Cię około 7% potencjalnych klientów. W praktyce oznacza to, że sklep ładujący się 4 sekundy zamiast 2 może tracić nawet 14% sprzedaży
+- **[Core Web Vitals](/artykuly/ecommerce/ux-ui/) wpływają bezpośrednio na portfel** - każda dodatkowa sekunda ładowania strony kosztuje Cię około 7% potencjalnych klientów. W praktyce oznacza to, że sklep ładujący się 4 sekundy zamiast 2 może tracić nawet 14% sprzedaży
 - **Oryginalne opisy produktów mogą zwiększyć ruch o 40%** - kopiowanie treści od dostawców wydaje się prostym rozwiązaniem, ale Google karze takie praktyki. Sklepy z unikalnymi opisami regularnie wyprzedzają konkurencję w wynikach wyszukiwania
 - **Przemyślane linkowanie wewnętrzne podnosi wartość koszyka o 15-30%** - strategiczne kierowanie klientów między produktami przez SEO przypomina dobrze przeszkolonego sprzedawcę. Różnica? Pracuje 24/7 i nie wymaga prowizji
 - **Revenue per organic session** - konkretne wskaźniki ROI, które pokażą rzeczywistą wartość SEO w Twoim przypadku. Nie chodzi już tylko o pozycje czy liczbę odwiedzin, ale o realny wpływ na wyniki finansowe
