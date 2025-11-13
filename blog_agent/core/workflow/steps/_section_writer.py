@@ -4,6 +4,42 @@ Section Writer Helper
 Shared logic for writing sections with AI review and auto-fix.
 """
 from typing import Dict, Any, Optional, List, Tuple
+import re
+
+
+def _ensure_section_header(content: str, section_title: str) -> str:
+    """
+    Ensure section starts with H2 header from outline
+
+    Args:
+        content: Generated section content
+        section_title: Section title from outline (e.g., "1. Introduction" or "Introduction")
+
+    Returns:
+        Content with H2 header prepended
+    """
+    # Normalize title - remove number prefix if present (e.g., "1. Title" -> "Title")
+    title_normalized = re.sub(r'^\d+\.\s*', '', section_title).strip()
+
+    # Check if content already starts with H2 header (## Title)
+    lines = content.strip().split('\n')
+    if lines and lines[0].startswith('## '):
+        # Already has H2, return as-is
+        return content
+
+    # Check if content starts with H3 header (### Title) - upgrade to H2
+    if lines and lines[0].startswith('### '):
+        # Check if it's our title
+        h3_title = lines[0][4:].strip()  # Remove "### " prefix
+        if h3_title.lower() == title_normalized.lower():
+            # Replace H3 with H2
+            lines[0] = f"## {title_normalized}"
+            return '\n'.join(lines)
+        # Different title in H3 - prepend our H2
+        return f"## {title_normalized}\n\n{content}"
+
+    # No header found - prepend H2
+    return f"## {title_normalized}\n\n{content}"
 
 
 def _select_best_attempt(
@@ -154,6 +190,8 @@ def write_section_with_review(
 
         if review_result['valid']:
             print(f"   ✅ Section passed review")
+            # Add H2 header from outline (if not already present)
+            content = _ensure_section_header(content, section['title'])
             return content
 
         # Not valid - provide feedback for retry
@@ -167,4 +205,7 @@ def write_section_with_review(
     # Max retries reached - select the attempt closest to requirements
     best_content, best_result = _select_best_attempt(attempts, section.get('target_words'))
     print(f"   ⚠️  Max retries reached. Selected attempt closest to requirements: {', '.join(best_result['issues'])}")
-    return best_content
+
+    # Add H2 header from outline (if not already present)
+    content = _ensure_section_header(best_content, section['title'])
+    return content
