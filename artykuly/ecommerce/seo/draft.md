@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **53% ruchu z wyszukiwarek** - optymalizacja SEO w e-commerce generuje ponad połowę organicznego ruchu, ale wymaga innych strategii niż tradycyjne strony
 - **Architektura linkowania zwiększa sprzedaż** - prawidłowy przepływ link juice między produktami i kategoriami wpływa bezpośrednio na pozycje i cross-selling
@@ -7,11 +7,11 @@
 - **Voice search zmienia zakupy** - optymalizacja pod zapytania "najlepszy produkt" i featured snippets to przyszłość e-commerce SEO
 
 
-# SEO w e-commerce: szybki ruch i konwersja
+## SEO w e-commerce: szybki ruch i konwersja
 
 W e-commerce nie wystarczy być widocznym – trzeba też sprzedawać. Tradycyjne SEO koncentruje się na ruchu, ale sklepy internetowe mają podwójne wyzwanie: przyciągnąć użytkowników i przekonać ich do zakupu.
 
-## Dlaczego SEO jest kluczowe dla e-commerce
+### Dlaczego SEO jest kluczowe dla e-commerce
 
 Statystyki nie kłamią – 53% całego ruchu w e-commerce pochodzi z wyszukiwarek organicznych. To ogromny kawałek tortu, którego nie można ignorować.
 
@@ -25,7 +25,7 @@ Typowe SEO pyta: "Jak zdobyć więcej ruchu?" E-commerce SEO idzie dalej: "Jak z
 
 To oznacza optymalizację nie tylko pod kątem pozycji w Google, ale też pod kątem konwersji. Title tag musi przyciągnąć klik i sugerować wartość produktu. Opis kategorii powinien budować zaufanie, nie tylko zawierać słowa kluczowe.
 
-## Holistyczne podejście jako konieczność
+### Holistyczne podejście jako konieczność
 
 Skuteczne SEO w e-commerce opiera się na trzech filarach: solidnych fundamentach technicznych, przemyślanej architekturze informacji i treściach, które sprzedają.
 
@@ -207,20 +207,4 @@ SGE (Search Generative Experience) już testuje AI-generated shopping recommenda
 
 Visual search to kolejny przełom. Klient robi zdjęcie butów na ulicy, Google znajduje identyczne w twoim sklepie. Pinterest Lens i Google Lens już to robią – optymalizacja obrazów pod visual search staje się koniecznością.
 
-Personalizacja wyników oznacza, że dwóch użytkowników zobaczy różne produkty dla tego samego zapytania. Historia zakupów, lokalizacja, urządzenie – wszystko wpływa na wyniki.
-
-Przyszłość SEO e-commerce to wyścig z technologią. Wygra ten, kto zaadaptuje się pierwszy.
-
-## Podsumowanie
-
-SEO w e-commerce to więcej niż pozycje w Google – to inwestycja w długoterminowy wzrost sprzedaży. Trzy filary: solidne fundamenty techniczne, przemyślana architektura i treści które sprzedają, muszą działać w symfonii.
-
-Nie ma szybkich tricków ani uniwersalnych receptur. Każdy sklep ma unikalną strukturę produktów, konkurencję i grupę docelową. To, co działa dla sklepu z elektroniką, może spalić na panewce w branży modowej.
-
-**Long-term investment z quick wins**
-
-Techniczne poprawki przynoszą efekty w tygodniach. Optymalizacja treści potrzebuje miesięcy. Budowanie autorytetu przez linkowanie to gra na lata. Mądrze jest połączyć wszystkie poziomy – od szybkich fixes po strategię długoterminową.
-
-Rozpocznij od audytu obecnego stanu. Sprawdź Core Web Vitals, przeanalizuj strukturę nawigacji, zidentyfikuj największe gaps w treściach produktowych. Najlepiej zaczynać od tego, co boli najbardziej.
-
-E-commerce SEO to maraton, nie sprint. Ale każdy krok w dobrą stronę to więcej ruchu, lepsze konwersje i większy przychód z wyszukiwarek organicznych.
+Personalizacja wyników oznacza, że dwóch
