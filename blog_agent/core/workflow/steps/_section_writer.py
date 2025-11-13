@@ -7,6 +7,80 @@ from typing import Dict, Any, Optional, List, Tuple
 import re
 
 
+def _inject_h3_structure(content: str, expected_structure: str) -> str:
+    """
+    Inject H3 headers from outline into generated content
+
+    Args:
+        content: Generated content (may be missing H3)
+        expected_structure: Structure from outline with H3 headers
+
+    Returns:
+        Content with H3 headers injected
+    """
+    # Extract H3 headers from expected structure
+    h3_headers = re.findall(r'^### (.+)$', expected_structure, re.MULTILINE)
+
+    if not h3_headers:
+        # No H3 in outline, return as-is
+        return content
+
+    # Check if content already has H3
+    if content.count('###') >= len(h3_headers):
+        # Already has H3, return as-is
+        return content
+
+    # Split content into paragraphs
+    lines = content.strip().split('\n')
+    paragraphs = []
+    current_para = []
+
+    for line in lines:
+        line_stripped = line.strip()
+        if line_stripped == '' and current_para:
+            # Empty line - end of paragraph
+            paragraphs.append('\n'.join(current_para))
+            current_para = []
+        elif line_stripped:
+            current_para.append(line)
+
+    if current_para:
+        paragraphs.append('\n'.join(current_para))
+
+    # Skip H2 header if present
+    start_idx = 0
+    if paragraphs and paragraphs[0].startswith('##'):
+        start_idx = 1
+
+    # Calculate how many paragraphs per H3 section
+    content_paragraphs = paragraphs[start_idx:]
+    if len(content_paragraphs) == 0:
+        return content
+
+    paragraphs_per_h3 = max(1, len(content_paragraphs) // len(h3_headers))
+
+    # Inject H3 headers
+    result = []
+    if start_idx == 1:
+        result.append(paragraphs[0])  # Keep H2 header
+        result.append('')
+
+    for i, h3 in enumerate(h3_headers):
+        # Add H3 header
+        result.append(f"### {h3}")
+        result.append('')
+
+        # Add paragraphs for this H3
+        start = i * paragraphs_per_h3
+        end = start + paragraphs_per_h3 if i < len(h3_headers) - 1 else len(content_paragraphs)
+
+        for j in range(start, min(end, len(content_paragraphs))):
+            result.append(content_paragraphs[j])
+            result.append('')
+
+    return '\n'.join(result).strip()
+
+
 def _ensure_section_header(content: str, section_title: str) -> str:
     """
     Ensure section starts with H2 header from outline
@@ -195,6 +269,8 @@ def write_section_with_review(
 
         if review_result['valid']:
             print(f"   ✅ Section passed review")
+            # Inject H3 structure if missing
+            content = _inject_h3_structure(content, expected_structure)
             # Add H2 header from outline (if not already present)
             content = _ensure_section_header(content, section['title'])
             return content
@@ -211,6 +287,9 @@ def write_section_with_review(
     best_content, best_result = _select_best_attempt(attempts, section.get('target_words'))
     print(f"   ⚠️  Max retries reached. Selected attempt closest to requirements: {', '.join(best_result['issues'])}")
 
+    # Inject H3 structure if missing
+    expected_structure = section.get('description', '')
+    content = _inject_h3_structure(best_content, expected_structure)
     # Add H2 header from outline (if not already present)
-    content = _ensure_section_header(best_content, section['title'])
+    content = _ensure_section_header(content, section['title'])
     return content
