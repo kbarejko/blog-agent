@@ -1,3 +1,5 @@
+# UX/UI w e-commerce - checkout, szybkość, dostępność
+
 ## Co znajdziesz w artykule?
 
 - **78% użytkowników nigdy nie wraca** - słaby UX w sklepie internetowym to największa przyczyna utraty klientów na zawsze
@@ -5,9 +7,6 @@
 - **3 sekundy ładowania = 32% bounce rate** - Core Web Vitals wpływają nie tylko na SEO, ale bezpośrednio na sprzedaż
 - **Wyszukiwarka generuje 30-60% ruchu** - użytkownicy którzy wyszukują kupują 2x częściej, ale tylko jeśli znajdą to czego szukają
 - **15% populacji ma niepełnosprawności** - dostępność to nie tylko compliance z WCAG, ale dodatkowy segment klientów i lepsze pozycje w Google
-
-
-# UX/UI w e-commerce - checkout, szybkość, dostępność
 
 Każdego dnia miliony potencjalnych klientów porzucają koszyki tuż przed finalizacją zakupu. Czy to przez zbyt długi formularz, nieoczekiwane koszty wysyłki, czy po prostu frustrujące doświadczenie użytkownika.
 
@@ -109,7 +108,7 @@ Customer journey na mobilnych jest fundamentalnie inny. Desktop users przegląda
 
 Thumb zones – obszary łatwo dostępne dla kciuka – to nie fanaberia ergonomów, to podstawa sprzedaży. Przycisk "Dodaj do koszyka" umieszczony w prawym górnym rogu to gwarancja frustracji dla 70% użytkowników, którzy trzymają telefon jedną ręką.
 
-Progressive Web Apps łączą szybkość aplikacji mobilnych z dostępnością przeglądarki. Offline browsing, push notifikacje, instalacja bez app store – to przyszłość mobile commerce. Ale implementacja wymaga więcej niż technicznych sztuczek.
+Progressive Web Apps łączą szybkość aplikacji mobilnych z dostępnością przeglądarki. Offline browsing, push notyfikacje, instalacja bez app store – to przyszłość mobile commerce. Ale implementacja wymaga więcej niż technicznych sztuczek.
 
 Nawigacja mobilna to odwieczny dylemat między hamburgerem a dolnym paskiem. Hamburger chowa menu, ale oszczędza miejsce. Tab bar jest zawsze widoczny, ale ogranicza opcje. Najlepsze sklepy łączą oba podejścia – główne kategorie na dole, szczegóły pod hamburgerem.
 
@@ -181,29 +180,3 @@ Tak. Wiele impactful changes to małe zmiany: uproszczenie formularzy, poprawa s
 Quick wins – od tygodnia do miesiąca. Średnie zmiany – 2-3 miesiące. Kompleksowy redesign – 6-12 miesięcy. Kluczem jest iteracyjne podejście z testowaniem każdej zmiany.
 
 **Które metryki UX są najważniejsze dla e-commerce?**
-Conversion rate, cart abandonment rate, bounce rate, time on page, pages per session. Dodatkowo: search success rate, mobile vs desktop performance, return visitor behavior.
-
-**Czy accessibility w e-commerce się opłaca biznesowo?**
-Definitywnie. Użytkownicy z niepełnosprawnościami to 12% populacji. Poprawa accessibility często zwiększa konwersje o 10-15% dla wszystkich użytkowników dzięki lepszej ogólnej użyteczności.
-
-## Mobile-first UX w e-commerce
-
-Paradoks mobile commerce wciąż frustruje właścicieli sklepów. 60% ruchu pochodzi z telefonów, ale konwersje mobilne są dwukrotnie niższe niż na desktopach. Problem nie leży w niechęci do kupowania na telefonie – leży w projektowaniu sklepów.
-
-Customer journey na mobilnych jest fundamentalnie inny. Desktop users przeglądają, porównują, otwierają dziesiątki kart. Mobile users są fokusowani, często kupują impulsywnie, ale rezygnują przy pierwszej przeszkodzie.
-
-Thumb zones – obszary łatwo dostępne dla kciuka – to nie fanaberia ergonomów, to podstawa sprzedaży. Przycisk "Dodaj do koszyka" umieszczony w prawym górnym rogu to gwarancja frustracji dla 70% użytkowników, którzy trzymają telefon jedną ręką.
-
-Progressive Web Apps łączą szybkość aplikacji mobilnych z dostępnością przeglądarki. Offline browsing, push notifikacje, instalacja bez app store – to przyszłość mobile commerce. Ale implementacja wymaga więcej niż technicznych sztuczek.
-
-Nawigacja mobilna to odwieczny dylemat między hamburgerem a dolnym paskiem. Hamburger chowa menu, ale oszczędza miejsce. Tab bar jest zawsze widoczny, ale ogranicza opcje. Najlepsze sklepy łączą oba podejścia – główne kategorie na dole, szczegóły pod hamburgerem.
-
-Zdjęcia produktów na małym ekranie wymagają przemyślenia hierarchii. Swipe gallery działa lepiej niż miniaturki. Zoom gesture musi być płynny, a powrót do normalnego widoku intuicyjny. Produkty z wieloma wariantami potrzebują smart navigation między kolorami i rozmiarami.
-
-Szczegóły mobile UX w: [Mobile E-commerce UX] (planowany artykuł)
-
-Formularze mobilne to szczególne wyzwanie. Autofocus na pierwszym polu, przewidywalna kolejność Tab, odpowiednie klawiatury – numeryczna dla kodów pocztowych, e-mailowa dla adresów. Każdy niepotrzebny klik między polami to ryzyko rezygnacji.
-
-Loading states na mobilnych muszą być bardziej komunikatywne. Słabe połączenie, słabszy procesor – użytkownik potrzebuje więcej pewności, że coś się dzieje. Skeleton screens z animacją działają lepiej niż statyczne spinnery.
-
----
