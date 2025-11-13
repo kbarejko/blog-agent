@@ -1,29 +1,49 @@
-## Analityka i pomiar efektów
+## FAQ - najczęstsze pytania o SEO w sklepach internetowych
 
-Właściciel e-sklepu, który mierzy sukces SEO liczbą odwiedzin, to jak sprzedawca oceniający swoją skuteczność ilością osób przechodzących obok witryny. W e-commerce liczy się jedno: ile organiczny ruch przekłada się na złotówki w kasie.
+### Od czego zacząć SEO w nowym sklepie internetowym?
 
-Tradycyjne metryki SEO – pozycje w wyszukiwarce czy ogólny ruch organiczny – to tylko wierzchołek góry lodowej. Prawdziwa wartość kryje się w danych biznesowych: organic revenue, revenue per session czy conversion rate z poszczególnych kategorii produktów.
+Zawsze zacznij od audytu technicznego - sprawdź szybkość ładowania, strukturę URL i podstawowe ustawienia. Szczegółowe instrukcje znajdziesz w naszym przewodniku po [SEO technicznym i CWV](/seo-sklepu-cwv).
 
-### KPI dla SEO w e-commerce
+Pierwszy tydzień poświęć na Core Web Vitals. Drugi - na sprawdzenie indeksacji w Search Console. Trzeci - na podstawowe meta tagi dla najważniejszych kategorii.
 
-Najbardziej wartościowa metryką jest organic revenue per product page. Pokazuje, które produkty nie tylko przyciągają ruch, ale rzeczywiście się sprzedają. Laptop generujący 1000 wizyt miesięcznie, ale zero sprzedaży, potrzebuje optymalizacji treści lub ceny.
+### Jak pisać opisy produktów żeby były SEO-friendly?
 
-Pozycje dla długoogonkowych fraz produktowych mówią więcej niż ranking dla ogólnych kategorii. "Laptop Dell XPS 13 cena" konwertuje lepiej niż "laptopy". Śledź pozycje dla konkretnych modeli i wariantów – tu kryje się prawdziwy potencjał sprzedażowy.
+Unikaj kopiowania opisów od producenta. Twórz unikalne treści skupione na korzyściach dla klienta. Kompletny przewodnik po [treściach produktowych znajdziesz tutaj](/tresci-produktowe-seo).
 
-Seasonal performance to unikalny aspekt e-commerce analytics. Buty zimowe muszą zyskać pozycje do października, stroje kąpielowe do kwietnia. Historia z poprzednich sezonów pomoże przewidzieć trendy i odpowiednio wcześnie zoptymalizować treści.
+Zamiast "wysokiej jakości produkt" napisz "wytrzyma 5 lat codziennego użytkowania". Klient dostaje konkret, Google - unikalną treść.
 
-### Narzędzia do monitorowania
+### Czy linkowanie wewnętrzne naprawdę zwiększa sprzedaż?
 
-Google Analytics 4 w połączeniu z Enhanced Ecommerce śledzi pełną ścieżkę zakupową. Widzisz nie tylko skąd przyszedł klient, ale które produkty oglądał, co dodał do koszyka i gdzie porzucił transakcję.
+Tak! Właściwe linkowanie może zwiększyć wartość koszyka o 15-30% dzięki cross-sellingu i up-sellingu. Sprawdź nasze strategie [linkowania wewnętrznego w e-commerce](/linkowanie-wewnetrzne).
 
-Search Console pokazuje, dla jakich zapytań Google wyświetla Twoje produkty. Analiza "Queries" ujawnia long-tailowe frazy, których wcześniej nie zauważyłeś. To goldmine dla rozwijania asortymentu i optymalizacji opisów.
+"Klienci kupujący ten produkt wybierali też" to nie tylko UX. To potężne narzędzie sprzedażowe zamaskowane jako pomoc.
 
-Dedicated e-commerce tools jak SEMrush czy Sistrix oferują specjalne funkcje dla sklepów: tracking pozycji produktów, analiza konkurencji cenowej, monitoring rich snippets z opiniami.
+### Ile czasu potrzeba na pierwsze efekty SEO w sklepie?
 
-### A/B testowanie elementów SEO
+Quick wins (poprawki techniczne) mogą dać efekty w 4-6 tygodni. Kompletne efekty strategii content-based to 6-12 miesięcy.
 
-Tytuły produktów to pierwsze pole do testowania. "iPhone 15 Pro 128GB" vs "iPhone 15 Pro 128GB - najnowszy model Apple" może różnić się o 20-30% w CTR z wyników Google.
+Ale pamiętaj - SEO w e-commerce ma efekt skumulowany. Szósty miesiąc przynosi już 150% wzrost ruchu względem pierwszego.
 
-Meta descriptions wpływają na decyzje zakupowe jeszcze przed wejściem na stronę. Testuj emocjonalne vs faktyczne podejście: "Kup iPhone 15 Pro z dostawą jutro!" kontra "iPhone 15 Pro - specyfikacja, cena, opinie użytkowników".
+### Czy warto inwestować w SEO sklepu jeśli mam małą branżę niszową?
 
-Struktury URL też można testować. Krótsze linki często działają lepiej na mobile, ale dłuższe z keywords mogą przynieść lepsze pozycje dla long-tail queries.
+Szczególnie warto! W niszach często konkurencja SEO jest mniejsza, a klienci bardziej świadomi swoich potrzeb. ROI może być wyższy niż w popularnych branżach.
+
+"Akcesoria dla leworęcznych gitarzystów" ma może 100 wyszukiwań miesięcznie. Za to każde prowadzi do klienta gotowego kupić za 500 zł.
+
+### Jak mierzyć skuteczność SEO w e-commerce?
+
+Nie tylko pozycje i ruch - śledź revenue per organic session, assisted conversions i customer lifetime value z ruchu organicznego.
+
+Klient z Google może kupić za 200 zł pierwszy raz, ale wrócić i wydać 2000 zł w ciągu roku. Patrz szeroko.
+
+### Które strony są najważniejsze dla SEO sklepu?
+
+Strona główna, kategorie główne i bestsellery. To one przekazują najwięcej "mocy" SEO dalej w strukturze sklepu.
+
+Kategoria "Laptopy" z pozycją #3 może przynieść więcej klientów niż 50 pojedynczych produktów na pozycjach #15-20.
+
+### Jak często aktualizować treści w sklepie internetowym?
+
+Opisy produktów - przy każdej zmianie asortymentu. Kategorie - co kwartał. Blog/newsy - minimum raz w tygodniu dla lepszej indeksacji.
+
+Google lubi świeże treści. Ale w e-commerce jakość zawsze wygrywa z ilością.

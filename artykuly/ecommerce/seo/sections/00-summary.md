@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **SEO w e-commerce to 35% więcej konwersji** - prawidłowa optymalizacja kategorii i produktów przekłada się bezpośrednio na sprzedaż, nie tylko ruch
-- **Core Web Vitals mogą kosztować 20% przychodów** - wolny sklep traci klientów już po 3 sekundach, a Google dodatkowo obniża pozycje
-- **Linkowanie wewnętrzne zwiększa AOV o 15%** - strategiczne powiązania między produktami prowadzą klientów do droższych zakupów
-- **Gotowy roadmap na pierwsze 90 dni** - konkretna lista działań od audytu technicznego po optymalizację najważniejszych kategorii
-- **8 kluczowych metryk e-commerce SEO** - organic revenue, pozycje produktowe i współczynniki konwersji które pokazują realny wpływ na biznes
+- **93% ruchu e-commerce zaczyna się od wyszukiwarek** - właściwe SEO może zwiększyć sprzedaż o 200-300% w ciągu 12 miesięcy
+- **Core Web Vitals to nie tylko pozycjonowanie** - każda sekunda opóźnienia w ładowaniu kosztuje 7% konwersji w sklepach internetowych
+- **Unikalne opisy produktów zwiększają ruch o 40%** - kopiowanie treści od producenta to najczęstszy błąd który niszczy widoczność w Google
+- **Linkowanie wewnętrzne może podnieść AOV o 15-30%** - strategiczny cross-selling przez SEO to dodatkowe przychody bez płacenia za reklamy
+- **Revenue per organic session** - praktyczne metryki ROI które pokażą realną wartość SEO dla Twojego sklepu (nie tylko pozycje i ruch)

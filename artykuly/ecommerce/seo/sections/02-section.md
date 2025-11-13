@@ -1,21 +1,33 @@
-## Architektura i struktura sklepu - fundament sukcesu
+## Treści produktowe jako motor SEO
 
-Wyobraź sobie, że wchodzisz do galerii handlowej, w której działki zmieniają nazwy co tydzień, a sklepy przenoszą się losowo między piętrami. Właśnie tak Google postrzega większość e-sklepów z chaotyczną strukturą URL i nawigacją.
+### Optymalizacja kart produktów
 
-Prawidłowa architektura to nie tylko kwestia estetyki – to fundament, na którym budujesz całą strategię SEO. Struktura URL powinna odzwierciedlać hierarchię produktów w sposób logiczny zarówno dla botów Google'a, jak i dla użytkowników. Zamiast `/produkt-id-12847` lepiej użyć `/elektronika/smartfony/iphone-15-pro/`.
+"Samsung Galaxy S24 128GB czarny" - tak brzmi 90% opisów produktów w polskich sklepach. Kopiuj-wklej od producenta. Zero wartości dla klienta i Google'a.
 
-Największy błąd? Sklepy traktują każdy produkt jako odizolowaną wyspę. Brakuje im przemyślanej hierarchii kategorii, która przeprowadzi użytkownika od ogólnego zapytania "laptop do pracy" przez kategorię "laptopy biznesowe" aż do konkretnego modelu. Google nagradza sklepy, które budują logiczne ścieżki tematyczne.
+Duplikaty treści to śmierć SEO w e-commerce. Gdy tysiące sklepów ma identyczny opis, Google wybiera największy. Nie Twój.
 
-### Linkowanie wewnętrzne jako motor sprzedaży
+Unikalny opis produktu to nie literatura. To odpowiedzi na pytania klientów. "Czy zmieści się w małej torebce?" "Ile waży?" "Do czego pasuje?"
 
-Strategiczne linkowanie w e-commerce przypomina dobrą rozmowę ze sprzedawcą. Gdy klient ogląda laptop, naturalnie wspominasz o torbie, myszy czy dodatkowej pamięci. W świecie cyfrowym te rekomendacje to linki wewnętrzne.
+Schema markup dla produktów to Twoja szansa na rich snippets. Gwiazdki ocen, cena, dostępność - wszystko widoczne w wynikach wyszukiwania. Więcej kliknięć, wyższa konwersja.
 
-Badania pokazują, że skuteczne linkowanie między produktami zwiększa wartość koszyka średnio o 15-25%. Google interpretuje te połączenia jako sygnały o wartości i tematyce stron, co bezpośrednio przekłada się na pozycje w wynikach wyszukiwania.
+Zdjęcia produktów mówią więcej niż słowa. Ale Google ich nie widzi bez alt tagów. "Czerwona sukienka midi z długim rękawem" zamiast "IMG_2847.jpg". Proste, skuteczne.
 
-Szczegółowy przewodnik po budowaniu strategii linkowania wewnętrznego znajdziesz w naszym artykule: [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne)
+### SEO dla kategorii produktów
 
-### Struktura kategorii i faceted navigation
+Strona kategorii to pole bitwy między SEO a user experience. Za dużo tekstu irytuje klientów. Za mało - ignoruje Google.
 
-Filtry produktów to największa pułapka SEO w e-commerce. Każda kombinacja filtrów może wygenerować nową stronę – rozmiar 42, kolor czerwony, marka Nike. W sklepie z 1000 produktów możesz tak stworzyć milion URL-i z duplikowanymi treściami.
+Rozwiązanie? Treść poniżej produktów. Klient zobaczy ofertę od razu. Google znajdzie kontekst niżej.
 
-Rozwiązanie leży w przemyślanej strategii indeksacji. Nie każda kombinacja filtrów zasługuje na własną stronę w Google. Kluczem jest analiza zapytań użytkowników i wskazanie robotom, które strony mają wartość SEO, a które służą tylko nawigacji.
+Filtry to pułapka SEO. "Kolor: niebieski" tworzy nowy URL. "Kolor: niebieski + Rozmiar: L" - kolejny. Masz tysiące stron z jednym produktem.
+
+Canonical tag wskazuje Google'owi główną wersję. Noindex dla kombinacji filtrów. Tylko kategorie główne w indeksie.
+
+Kompletny przewodnik po treściach produktowych znajdziesz tutaj: [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo)
+
+### Content marketing w e-commerce
+
+Blog w sklepie to nie fanpage na Facebooku. To narzędzie sprzedażowe.
+
+"Jak wybrać idealne jeansy" kieruje ruch na kategorię dżinsów. "10 stylizacji na jesień" prezentuje Twoje produkty. Sezonowe treści łapią klientów w odpowiednim momencie.
+
+Ale nie zapominaj o stronach kategorii. Tam też potrzeba treści. Przewodnik po typach butów na stronie "Obuwie" ma większą siłę SEO niż post na blogu.

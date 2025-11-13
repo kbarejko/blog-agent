@@ -1,25 +1,31 @@
-## SEO lokalne dla e-commerce
+## Najczęstsze błędy SEO w e-commerce
 
-Większość właścicieli sklepów internetowych ignoruje SEO lokalne, traktując swój biznes jako czysto cyfrowy. To błąd, który kosztuje ich klientów mieszkających w pobliżu. Nawet jeśli sprzedajesz głównie online, lokalna optymalizacja może być Twoją tajną bronią przeciwko gigantom jak Allegro czy Amazon.
+### Błędy techniczne
 
-Statystyki są bezlitosne: 76% osób, które szukają czegoś lokalnie na telefonie, odwiedza sklep fizyczny w ciągu doby. 28% tych wizyt kończy się zakupem. Jeśli oferujesz odbiór osobisty, lokalną dostawę lub masz showroom, ignorujesz ogromny potencjał sprzedażowy.
+Sklep internetowy to jak samochód wyścigowy. Jeden źle dokręcony śrubka może zniszczyć całą jazdę.
 
-### Google My Business dla e-sklepów
+Core Web Vitals w e-commerce to nie abstrakcja. To różnica między sprzedażą a frustracją klientów. Widziałem sklepy tracące 40% konwersji przez obrazki ładujące się 6 sekund. Klient zdąży zmienić zdanie trzy razy.
 
-Profil GMB to nie tylko wizytówka dla restauracji i salonów fryzjerskich. Sklep internetowy z prawidłowo skonfigurowanym profilem pojawia się w lokalnych wynikach dla zapytań typu "sklep z elektroniką Warszawa" czy "gdzie kupić laptop w Krakowie".
+Przekierowania przy zmianie asortymentu to drugi klasyk. Produkt znika, link prowadzi na 404. Google traci ślad, klient trafi do konkurencji. Każde wycofanie produktu powinno prowadzić na podobną alternatywę albo kategorię główną.
 
-Kluczem jest kategoria biznesu. Zamiast ogólnej "sklep internetowy" wybierz konkretne kategorie związane z asortymentem: "sklep komputerowy", "sklep z odzieżą sportową", "księgarnia". Google lepiej rozumie, dla jakich zapytań pokazać Twój profil.
+Indeksacja stron produktowych może Cię zaskoczyć. Masz 5000 produktów, ale Google widzi tylko 800? Sprawdź robots.txt i sitemap. Często winne są filtry tworzące miliony niepotrzebnych kombinacji URL.
 
-Zdjęcia produktów w GMB działają jak mini-katalog. Klient może zobaczyć aktualny asortyment przed wizytą w punkcie odbioru. To zmniejsza ryzyko rozczarowania i zwiększa prawdopodobieństwo finalizacji zakupu.
+### Błędy contentu
 
-### Optymalizacja dla "near me" searches
+"Wysokiej jakości produkt w atrakcyjnej cenie" - tak brzmi 80% opisów w polskich sklepach. Google to ignoruje, klienci przewijają dalej.
 
-Zapytania z "near me" rosną o 150% rocznie. "Sklep z butami near me", "laptop do kupienia blisko mnie" – ludzie szukają wygody lokalnych zakupów połączonej z szerokim wyborem e-commerce.
+Kopiowanie od producentów to najgorszy możliwy start. Wkleiłeś opis iPhone'a z Apple? Świetnie, taki sam ma 2000 innych sklepów. Guess who wins? Nie Ty.
 
-Strategia jest prosta: dodawaj lokalizacje do treści tam, gdzie to naturalne. Opis kategorii "Laptopy" może wspomnieć o "szybkiej dostawie w Warszawie i okolicach". To sygnał dla Google, że obsługujesz lokalny rynek.
+Meta tagi to Twoje hasła wyborcze w Google. "Kup teraz super oferta!!!" nikogo nie przekona. "Damskie kozaki zimowe - 150 modeli, rozmiary 35-42" mówi konkretnie, czego szukać.
 
-### Schema markup dla lokalnych sklepów
+Puste strony kategorii to strzał w stopę. "Sukienki wieczorowe" bez żadnego opisu to sygnał dla Google: "tu nie ma wartościowej treści". Dodaj chociaż akapit o tym, do czego pasują, jak wybierać rozmiar.
 
-LocalBusiness schema to sposób na poinformowanie Google o fizycznych aspektach Twojego e-sklepu. Godziny otwarcia punktu odbioru, adres magazynu, numery telefonów – wszystkie te dane mogą pojawić się bezpośrednio w wynikach wyszukiwania.
+### Błędy strategiczne
 
-Store locator na stronie to dodatkowy sygnał lokalności. Nawet jeśli masz jeden punkt odbioru, interaktywna mapa buduje zaufanie i pomaga w pozycjonowaniu lokalnym.
+Branded keywords to pułapka wygody. Pozycja #1 dla nazwy swojego sklepu cieszy ego, ale nie portfel. Klienci znający Twoją markę i tak Cię znajdą.
+
+Prawdziwe pieniądze leżą w długim ogonie. "Buty" ma milion konkurentów. "Buty trekkingowe damskie na szeroką stopę" - może dziesięciu. Łatwiej wygrać, lepiej konwertuje.
+
+SEO w izolacji to jak gra w tenisa bez rakiety. Klient znajdzie Cię organicznie, kupi przez remarketing. Newsletter przekieruje na stronę produktu znalezioną w Google. Wszystkie kanały muszą grać razem.
+
+Każdy z tych błędów może kosztować Cię tysiące klientów rocznie. Dobra wiadomość? Większość da się naprawić w kilka tygodni.

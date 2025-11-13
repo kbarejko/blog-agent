@@ -1,27 +1,37 @@
-## SEO techniczne - szybkość i Core Web Vitals
+## Strategia linkowania w sklepie internetowym
 
-Twój sklep może mieć najlepsze produkty na świecie, ale jeśli strona ładuje się dłużej niż 3 sekundy, tracisz 40% potencjalnych klientów. Google wie o tym doskonale i od 2021 roku traktuje szybkość jako oficjalny czynnik rankingowy w e-commerce.
+### Architektura informacji
 
-Core Web Vitals to nie tylko techniczne wskaźniki – to bezpośrednie mierniki frustracji użytkowników. Largest Contentful Paint pokazuje, jak długo czeka klient na główny element strony. W przypadku produktów to zazwyczaj zdjęcie główne.
+Twój sklep to miasto. Kategorie główne to główne arterie. Podkategorie - mniejsze ulice. Produkty - domy przy ulicach.
 
-Cumulative Layout Shift mierzy, ile razy strona "skacze" podczas ładowania. Wyobraź sobie klienta, który chce kliknąć "Dodaj do koszyka", a przycisk nagle przesuwa się o 50 pikseli w dół. To recepta na frustrację i utratę sprzedaży.
+Google porusza się jak turysta z mapą. Jeśli struktura jest płaska, wszystkie "domy" są równie ważne. Jeśli głęboka - niektóre są trudne do znalezienia.
 
-### Optymalizacja szybkości ładowania
+Płaska struktura działa dla małych sklepów. 50 produktów, 3 kategorie. Wszystko na wyciągnięcie ręki.
 
-Największe problemy tkwią w obrazach produktów. Sklepy internetowe ładują zdjęcia w rozdzielczości 4K, gdy użytkownik na telefonie potrzebuje maksymalnie 800px szerokości. WebP zamiast JPEG może zmniejszyć wagę plików o 30-40%.
+Sklepy z tysiącami produktów potrzebują hierarchii. Strony kategorii stają się hub-ami linkowych. Przekazują moc SEO produktom. Kierują klientów do konkretnych rozwiązań.
 
-Lazy loading to kolejny must-have. Po co ładować 50 produktów na raz, skoro klient widzi tylko pierwsze 8? Nowoczesne przeglądarki wspierają natywne `loading="lazy"` – wystarczy jeden atrybut w HTML.
+"Elektronika" ma moc 90. "Smartphones" dziedziczy 30. "iPhone 15" otrzymuje 10. To nie matematyka - to rzeczywistość algorytmów Google.
 
-Jednak szybkość to nie tylko frontend. Baza danych z 100 000 produktów potrzebuje optymalizacji zapytań. Cache'owanie stron kategorii może przyspieszyć ładowanie o 70-80%.
+### Linkowanie wewnętrzne dla zwiększenia sprzedaży
 
-### Core Web Vitals w kontekście sklepów
+Linkowanie w e-commerce to nie tylko SEO. To sprzedaż.
 
-E-commerce ma unikalne wyzwania techniczne. Koszyki, filtry, galerie zdjęć – wszystko musi działać błyskawicznie. JavaScript odpowiedzialny za warianty produktów często blokuje główny wątek przeglądarki.
+"Klienci, którzy kupili ten produkt, oglądali również" - to link wewnętrzny przebierany za rekomendację. Google widzi sygnał. Klient widzi okazję.
 
-Dokładne wytyczne dotyczące optymalizacji technicznej i Core Web Vitals dla sklepów internetowych opisaliśmy w artykule: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
+Cross-selling przez linkowanie zwiększa wartość koszyka o 15-30%. "Do tego telefonu polecamy etui" na stronie produktu. Link do akcesoriów w opisie. Naturalnie, bez nachalności.
 
-### Mobile-first i responsywność
+Up-selling to sztuka subtelności. "Sprawdź wersję Pro tego produktu" na końcu karty. Link do droższej alternatywy w sekcji specyfikacji. Klient sam decyduje.
 
-73% zakupów online odbywa się na urządzeniach mobilnych. Nie chodzi tylko o to, żeby strona się zmieściła na ekranie. Przyciski muszą być wystarczająco duże, formularze proste, a checkout możliwie najkrótszy.
+Produkty powiązane tworzą sieć połączeń. Google lubi takie struktury. Użytkownicy zostają dłużej. Więcej stron w sesji, więcej okazji do konwersji.
 
-Google indeksuje strony w wersji mobilnej. Jeśli Twój sklep świetnie wygląda na desktopie, ale kuleje na telefonie, algorytm oceni go na podstawie słabszej wersji mobilnej.
+Dokładne techniki linkowania opisujemy w artykule: [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne)
+
+### Link building specyficzny dla e-commerce
+
+Tradycyjny link building w e-commerce ma sens jak sprzedaż lodów w styczniu.
+
+Blogerzy chcą poznać produkty. Nie linki. Influencerzy testują, recenzują, polecają. W zamian dostajesz link i rekomendację.
+
+PR produktowy to link building w przebraniu. Nowa kolekcja trafia do redakcji. Artykuł o trendach zawiera link do Twojego sklepu. Czytelnik kupuje, Google notuje sygnał.
+
+Współpraca z mikro-influencerami często daje lepsze rezultaty niż gwiazdy. 1000 zaangażowanych fanów to więcej niż 100 tysięcy obojętnych obserwatorów.
