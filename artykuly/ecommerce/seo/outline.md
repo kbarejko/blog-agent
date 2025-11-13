@@ -27,7 +27,7 @@
 - Jak mierzyć i zwiększać konwersję w sklepie online
 - **Miejsce na przyszłe artykuły**: Omówienie zaawansowanych narzędzi analitycznych
 
-## 5. Trendy w SEO dla e-commerce w 2023
+## 5. Trendy w SEO dla e-commerce w 2025
 (~250 słów)
 - Nowe algorytmy i ich wpływ na e-commerce
 - Rosnące znaczenie AI i personalizacji w SEO
@@ -41,7 +41,7 @@
 
 ### 4. Jakie narzędzia analityczne polecacie do analizy SEO? Istnieje wiele narzędzi, które mogą pomóc, takich jak Google Analytics. Więcej informacji znajdziesz w przyszłych artykułach.
 
-### 5. Jakie są najnowsze trendy w SEO na 2023 rok? Obecnie kluczowe znaczenie ma AI oraz personalizacja. Więcej o trendach w przyszłych artykułach.
+### 5. Jakie są najnowsze trendy w SEO na 2025 rok? Obecnie kluczowe znaczenie ma AI oraz personalizacja. Więcej o trendach w przyszłych artykułach.
 
 ## 6. Podsumowanie
 (~150 słów)
