@@ -1,4 +1,7 @@
 categories:
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
 - slug: seo-i-optymalizacja-stron
   title: SEO i Optymalizacja Stron
   path: marketing-w-internecie/seo-i-optymalizacja-stron
@@ -8,9 +11,6 @@ categories:
 - slug: link-building
   title: Link Building
   path: marketing-w-internecie/seo-i-optymalizacja-stron/link-building
-- slug: e-commerce
-  title: E-commerce
-  path: strony-internetowe/content-management-systems-cms/e-commerce
 - slug: narzedzia-do-analityki
   title: Narzędzia do Analityki
   path: oprogramowanie-i-narzedzia/narzedzia-do-analityki
