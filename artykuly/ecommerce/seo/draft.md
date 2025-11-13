@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **SEO generuje o 150% więcej sprzedaży niż Google Ads** - ruch organiczny ma wyższą konwersję i nie kosztuje za każde kliknięcie, a efekty rosną z czasem
 - **Każda sekunda opóźnienia = 7% spadek konwersji** - Core Web Vitals to nie tylko ranking Google, ale bezpośredni wpływ na przychody sklepu
@@ -7,7 +7,7 @@
 - **Plan działania na pierwsze 4 miesiące** - konkretny harmonogram od audytu technicznego po content marketing z praktyką sprawdzoną na setkach sklepów
 
 
-# SEO w e-commerce: szybki ruch i konwersja
+## SEO w e-commerce: szybki ruch i konwersja
 
 Właściciel sklepu internetowego z elektroniką przestał spać spokojnie, gdy zobaczył rachunki za Google Ads. 50 tysięcy złotych miesięcznie, a marże topnieją jak lód na słońcu. Wtedy zdecydował się na SEO – i rok później 60% jego przychodów pochodziło z ruchu organicznego.
 
@@ -49,7 +49,7 @@ Google od 2021 roku traktuje Page Experience jako oficjalny czynnik rankingowy. 
 
 Core Web Vitals to trzy metryki, które Google uważa za kluczowe: LCP (jak szybko ładuje się główna treść), FID (jak szybko strona reaguje na kliknięcia) i CLS (czy elementy "skaczą" podczas ładowania).
 
-W e-commerce te metryki mają swoje specificzne wyzwania. Karty produktów pełne są wysokiej jakości zdjęć – każde waży kilka megabajtów. Filtry kategorii generują złożone zapytania do bazy danych. Skrypty śledzące zakupy spowalniają każdą stronę.
+W e-commerce te metryki mają swoje specifyczne wyzwania. Karty produktów pełne są wysokiej jakości zdjęć – każde waży kilka megabajtów. Filtry kategorii generują złożone zapytania do bazy danych. Skrypty śledzące zakupy spowalniają każdą stronę.
 
 Rozwiązanie? Kompresja obrazów, lazy loading, optymalizacja bazy danych i bezlitosne usuwanie niepotrzebnych skryptów. Jeden klient zmniejszył czas ładowania z 8 do 2 sekund i odnotował 35% wzrost konwersji w ciągu dwóch tygodni.
 
@@ -225,38 +225,4 @@ Zdecydowanie tak! SEO i Google Ads wzajemnie się wspierają. Ruch organiczny ma
 
 **4. Który aspekt SEO e-commerce jest najważniejszy?**
 
-Nie ma jednego najważniejszego - to jak pytanie "co jest ważniejsze w samochodzie: silnik czy koła?". Jednak jeśli musiałbym wybrać priorytet, to szybkość strony i optymalizacja treści produktowych dają najszybsze rezultaty.
-
-**5. Jak mierzyć skuteczność SEO w sklepie internetowym?**
-
-Nie patrz tylko na pozycje w Google. Kluczowe metryki to: przychód z ruchu organicznego, współczynnik konwersji dla organicznych odwiedzin, średnia wartość zamówienia (AOV) oraz wzrost organicznych sesji rok do roku.
-
-**6. Czy mały sklep może konkurować SEO z dużymi graczami?**
-
-Tak, ale musisz być sprytniejszy. Zamiast walczyć o słowa typu "buty", skup się na long-tail: "buty do biegania po asfalcie zimą". Mniejsza konkurencja, wyższa konwersja. Więcej o strategii konkurowania znajdziesz w artykule o [treściach produktowych SEO](/tresci-produktowe-seo).
-
-**7. Jak często należy aktualizować treści produktowe?**
-
-Regularne aktualizacje (co 3-6 miesięcy) dla top-produktów są wskazane, ale nie zmieniaj wszystkiego naraz. Google lubi stabilność z ewolucją. Więcej szczegółów w naszym przewodniku [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo).
-
-**8. Czy linkowanie wewnętrzne naprawdę zwiększa sprzedaż?**
-
-Zdecydowanie! Przemyślane linkowanie wewnętrzne może zwiększyć sprzedaż o 20-40%. Każdy link to potencjalna ścieżka do zakupu. Szczegóły strategii opisaliśmy w artykule [Linkowanie wewnętrzne w e-commerce](/linkowanie-wewnetrzne).
-
-**9. Co robić gdy strona jest wolna mimo optymalizacji?**
-
-Szybkość to fundament SEO e-commerce. Jeśli podstawowe optymalizacje obrazów i cachowania nie pomagają, problem może tkwić głębiej - w hostingu, kodzie czy strukturze bazy danych. Kompleksowe rozwiązanie znajdziesz w materiale o [SEO techniczne + CWV](/seo-sklepu-cwv).
-
-## Podsumowanie
-
-SEO w e-commerce to nie pojedyncze działania, lecz kompleksowa strategia łącząca aspekty techniczne, treściowe i user experience w jeden spójny system. Każdy element wpływa na pozostałe jak elementy domina – problemy techniczne niszczą najlepsze treści, a słabe treści marnują doskonałą optymalizację techniczną.
-
-Kluczem do sukcesu jest systematyczność i pomiar rezultatów biznesowych, nie tylko pozycji w wyszukiwarce. Pozycja numer jeden za słowo, które nie generuje sprzedaży, to pyrrusowe zwycięstwo. Lepiej być drugim za frazę, która przynosi konkretnych klientów gotowych na zakup.
-
-Zaczynaj od fundamentów technicznych – szybka strona to podstawa wszystkiego. Na solidnych fundamentach buduj wartościowe treści produktowe, które odpowiadają na rzeczywiste pytania klientów. Następnie wzmacniaj całość strategicznym linkowaniem wewnętrznym, które kieruje ruch tam, gdzie ma największą szansę na konwersję.
-
-Pamiętaj – każdy sklep internetowy jest inny i wymaga dostosowanego podejścia. Branża, wielkość asortymentu, grupa docelowa, budżet – wszystko ma znaczenie. Nie ma uniwersalnej recepty, ale są sprawdzone zasady, które działają niezależnie od specyfiki.
-
-Jeśli chcesz zagłębić się w konkretne aspekty omawiane w tym artykule, zacznij od tematu najbliższego twoim aktualnym potrzebom. Masz problemy z szybkością ładowania? Sięgnij po przewodnik [SEO techniczne](/seo-sklepu-cwv). Chcesz poprawić opisy produktów? Sprawdź artykuł o [treściach produktowych](/tresci-produktowe-seo). Potrzebujesz zwiększyć sprzedaż z istniejącego ruchu? [Linkowanie wewnętrzne](/linkowanie-wewnetrzne) może być odpowiedzią.
-
-SEO to maraton wymagający cierpliwości, ale nagrody są warte wysiłku. Organiczny ruch, który pracuje przez lata po jednorazowej inwestycji, klienci z wysokim zamiarem zakupu i rosnące marże – to przyszłość każdego ambitnego sklepu internetowego.
+Nie ma jednego najważniejszego - to jak pytanie "co jest ważniejsze w samochodzie: silnik czy koła?". Jednak jeśli musiałbym wybrać priorytet, to szybkość strony i optymalizacja treści produkt
