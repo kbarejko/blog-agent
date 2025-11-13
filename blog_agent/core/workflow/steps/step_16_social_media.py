@@ -66,6 +66,12 @@ def execute_social_media(
     # Ensure URL is included
     social_data['article_url'] = article_url
 
+    # Convert hashtags from list to space-separated string (for cleaner YAML)
+    if 'first_comment' in social_data and 'hashtags' in social_data['first_comment']:
+        hashtags = social_data['first_comment']['hashtags']
+        if isinstance(hashtags, list):
+            social_data['first_comment']['hashtags'] = ' '.join(hashtags)
+
     # Save to YAML file
     output_path = article.path / 'social_media.yaml'
     output_path.parent.mkdir(parents=True, exist_ok=True)

@@ -83,9 +83,15 @@ def test_social_media_generation():
                 for acronym, explanation in first_comment.get('acronym_explanations', {}).items():
                     print(f"   • {acronym}: {explanation}")
 
-            hashtags = first_comment.get('hashtags', [])
-            print(f"\n   Hashtags ({len(hashtags)}):")
-            print(f"   {' '.join(hashtags)}")
+            hashtags = first_comment.get('hashtags', '')
+            if isinstance(hashtags, list):
+                hashtags_str = ' '.join(hashtags)
+                hashtag_count = len(hashtags)
+            else:
+                hashtags_str = hashtags
+                hashtag_count = len(hashtags.split())
+            print(f"\n   Hashtags ({hashtag_count}):")
+            print(f"   {hashtags_str}")
 
             print(f"\n📁 File saved: {social_media_file}")
 
