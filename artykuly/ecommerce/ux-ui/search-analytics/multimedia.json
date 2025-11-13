@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Search Analytics",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Search Analytics",
+    "prompt": "Professional modern illustration for Search Analytics",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}

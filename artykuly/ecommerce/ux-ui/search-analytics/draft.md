@@ -1,3 +1,5 @@
+# Search Analytics: Jak zrozumieć, czego naprawdę szukają Twoi klienci
+
 ## Co znajdziesz w artykule?
 
 - **Zapytania bez wyników to złota kopalnia** - klienci sami mówią czego chcą kupić, ale nie mogą znaleźć w Twoim sklepie
@@ -5,9 +7,6 @@
 - **Gotowe konfiguracje dla Shopify, WooCommerce, Magento** - krok po kroku implementacja trackingu bez pomocy programisty
 - **Dashboard 5 kluczowych metryk** - które wskaźniki śledzić żeby podejmować trafne decyzje biznesowe, a nie gubić się w danych
 - **Checklist 9 działań + FAQ** - konkretne kroki do wdrożenia w najbliższych tygodniach plus odpowiedzi na najczęstsze wątpliwości właścicieli sklepów
-
-
-# Search Analytics: Jak zrozumieć, czego naprawdę szukają Twoi klienci
 
 Właściciel średniej wielkości sklepu z elektroniką zauważył coś niepokojącego. Mimo rosnącego ruchu na stronie, sprzedaż stała w miejscu. Dopiero gdy zajrzał do danych wyszukiwarki wewnętrznej, odkrył prawdę – 40% klientów szukało produktów, których w ofercie nie było.
 
@@ -125,8 +124,4 @@ Integracja z CRM i email marketingiem otwiera nowe możliwości. Klient szukał 
 
 ### Pułapki, których warto unikać
 
-Nie skupiaj się tylko na top zapytaniach. Często największe okazje kryją się w long-tail frazach, które pojawiają się rzadko, ale mają wysoką wartość komercyjną.
-
-Różnice między mobile a desktop są ogromne. Na telefonie ludzie szukają krócej i konkretniej. "Sukienka czerwona" zamiast "sukienka koktajlowa czerwona na wesele". Jeden algorytm dla wszystkich urządzeń to błąd.
-
-Overoptimalizacja to realna groźba. Zbyt częste zmiany dezorientują klientów. Wprowadzaj modyfikacje stopniowo i zawsze mierz wyniki przez co najmniej dwa tygodnie.
+Nie skupiaj się tylko na top zapytaniach.
