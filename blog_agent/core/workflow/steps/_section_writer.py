@@ -3,7 +3,66 @@ Section Writer Helper
 
 Shared logic for writing sections with AI review and auto-fix.
 """
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List, Tuple
+
+
+def _select_best_attempt(
+    attempts: List[Tuple[str, Dict[str, Any]]],
+    target_words: Optional[int] = None
+) -> Tuple[str, Dict[str, Any]]:
+    """
+    Select the attempt closest to requirements
+
+    Args:
+        attempts: List of (content, review_result) tuples
+        target_words: Optional target word count for this section
+
+    Returns:
+        Best (content, review_result) tuple
+    """
+    if not attempts:
+        raise ValueError("No attempts to select from")
+
+    if len(attempts) == 1:
+        return attempts[0]
+
+    # Calculate penalty score for each attempt (lower is better)
+    scored_attempts = []
+    for content, review_result in attempts:
+        penalty = 0
+
+        # Word count penalty
+        word_count = review_result.get('word_count', 0)
+        min_words = review_result.get('min_words', 300)
+        max_words = review_result.get('max_words', 400)
+
+        if word_count < min_words:
+            penalty += (min_words - word_count) ** 2  # Squared penalty for being too short
+        elif word_count > max_words:
+            penalty += (word_count - max_words) ** 2  # Squared penalty for being too long
+
+        # Flesch score penalty (if checked)
+        flesch = review_result.get('flesch', None)
+        if flesch is not None:
+            min_flesch = review_result.get('min_flesch', 40)
+            max_flesch = review_result.get('max_flesch', 60)
+            target_flesch = (min_flesch + max_flesch) / 2
+
+            if flesch < min_flesch:
+                penalty += (min_flesch - flesch) ** 2
+            elif flesch > max_flesch:
+                penalty += (flesch - max_flesch) ** 2
+            else:
+                # Within range - add small penalty for distance from center
+                penalty += abs(flesch - target_flesch) * 0.5
+
+        scored_attempts.append((penalty, content, review_result))
+
+    # Sort by penalty (ascending) and return the best
+    scored_attempts.sort(key=lambda x: x[0])
+    _, best_content, best_result = scored_attempts[0]
+
+    return best_content, best_result
 
 
 def write_section_with_review(
@@ -47,15 +106,19 @@ def write_section_with_review(
         previous_sections = article.sections[:section_index]
         previous_context = "\n\n---\n\n".join(previous_sections)
 
-    # Calculate target words per section if target_word_count is specified
+    # Get target words from section (parsed from outline description)
     words_per_section_guidance = ""
-    if article.config.target_word_count:
-        # Calculate words per section based on total target
+    if 'target_words' in section and section['target_words']:
+        # Use specific target from outline (e.g., "(~200 słów)")
+        target_words = section['target_words']
+        words_per_section_guidance = f" Docelowa długość tej sekcji: ~{target_words} słów (z konspektu)."
+    elif article.config.target_word_count:
+        # Fallback: calculate average from total target
         num_sections = len(article.outline.sections)
-        overhead = 700  # FAQ, checklist, intro overhead
-        content_words = max(article.config.target_word_count - overhead, num_sections * 200)
+        overhead = 0  # Don't subtract overhead - total includes all sections
+        content_words = article.config.target_word_count - overhead
         words_per_section = round(content_words / num_sections)
-        words_per_section_guidance = f" Docelowa długość tej sekcji: ~{words_per_section} słów."
+        words_per_section_guidance = f" Docelowa długość tej sekcji: ~{words_per_section} słów (szacunkowa)."
 
     # Render prompt
     variables = {
@@ -72,6 +135,9 @@ def write_section_with_review(
 
     prompt = prompts.load_and_render(prompt_path, variables)
 
+    # Track all attempts to select the best one
+    attempts = []  # List of (content, review_result) tuples
+
     # Generate and review with retries
     for attempt in range(max_retries + 1):
         print(f"   Generating section {section_index + 1}: {section['title']} (attempt {attempt + 1})", flush=True)
@@ -79,8 +145,12 @@ def write_section_with_review(
         # Generate content
         content = ai.generate(prompt, max_tokens=1500)
 
-        # Review
-        review_result = review.review_section(content)
+        # Review with section-specific target words (if available)
+        target_words = section.get('target_words')
+        review_result = review.review_section(content, target_words=target_words)
+
+        # Store this attempt
+        attempts.append((content, review_result))
 
         if review_result['valid']:
             print(f"   ✅ Section passed review")
@@ -93,9 +163,8 @@ def write_section_with_review(
 
             # Add feedback to prompt for retry
             prompt = f"{prompt}\n\n---\n\n## FEEDBACK NA POPRZEDNIĄ WERSJĘ\n\n{feedback}\n\n**Przepisz sekcję uwzględniając powyższe uwagi:**"
-        else:
-            # Max retries reached - accept with warning
-            print(f"   ⚠️  Max retries reached. Accepting with issues: {', '.join(review_result['issues'])}")
-            return content
 
-    return content  # Should never reach here, but for type checker
+    # Max retries reached - select the attempt closest to requirements
+    best_content, best_result = _select_best_attempt(attempts, section.get('target_words'))
+    print(f"   ⚠️  Max retries reached. Selected attempt closest to requirements: {', '.join(best_result['issues'])}")
+    return best_content
