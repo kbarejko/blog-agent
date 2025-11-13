@@ -2,7 +2,7 @@
 
 - **53% ruchu z wyszukiwarek** - w e-commerce optymalizacja SEO może generować ponad połowę całego organicznego ruchu. Wymaga to jednak zupełnie innych strategii niż te stosowane w tradycyjnych stronach internetowych
 - **Architektura linkowania zwiększa sprzedaż** - przemyślany przepływ link juice między produktami a kategoriami wpływa bezpośrednio na lepsze pozycje w wynikach wyszukiwania. To z kolei może znacząco zwiększyć skuteczność cross-sellingu
-- **Core Web Vitals blokują konwersje** - gdy zdjęcia produktów ładują się zbyt wolno, a layouty "skaczą" podczas przeglądania, prawdopodobnie tracisz nawet 40% potencjalnych klientów
+- **[Core Web Vitals blokują konwersje](/artykuly/ecommerce/ux-ui/)** - gdy zdjęcia produktów ładują się zbyt wolno, a [layouty "skaczą" podczas przeglądania](/artykuly/ecommerce/ux-ui/), prawdopodobnie tracisz nawet 40% potencjalnych klientów
 - **Revenue per organic session** - konkretny wskaźnik KPI, który wydaje się być znacznie bardziej wartościowy niż tradycyjne śledzenie samych pozycji czy ruchu na stronie
 - **Voice search zmienia zakupy** - przyszłość e-commerce SEO najprawdopodobniej leży w optymalizacji pod zapytania typu "najlepszy produkt" oraz featured snippets. Coraz więcej ludzi robi zakupy używając komend głosowych
 
@@ -22,7 +22,7 @@ Zamiast skromnych 20 podstron nagle masz do czynienia z tysiącami produktów. T
 
 Standardowe SEO zadaje proste pytanie: "W jaki sposób zwiększyć ruch na stronie?" SEO w e-commerce idzie o krok dalej: "Jak przyciągnąć odwiedzających, którzy rzeczywiście coś kupią?"
 
-To oznacza optymalizację nie tylko pod algorytmy Google'a, ale również pod kątem konwersji. Title tag powinien nie tylko zachęcić do kliknięcia, ale też subtelnie sugerować wartość produktu. Opisy kategorii wydają się kluczowe dla budowania zaufania, a nie tylko miejscem na mechaniczne wstawienie słów kluczowych.
+To oznacza [optymalizację nie tylko pod algorytmy Google'a, ale również pod kątem konwersji](/artykuly/ecommerce/ux-ui/). Title tag powinien nie tylko zachęcić do kliknięcia, ale też subtelnie sugerować wartość produktu. Opisy kategorii wydają się kluczowe dla budowania zaufania, a nie tylko miejscem na mechaniczne wstawienie słów kluczowych.
 
 ## Holistyczne podejście jako prawdopodobna konieczność
 
