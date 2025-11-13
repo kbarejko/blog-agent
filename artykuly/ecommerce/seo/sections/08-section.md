@@ -1,13 +1,25 @@
-## Podsumowanie
+## Najczęściej zadawane pytania (FAQ)
 
-SEO w e-commerce to więcej niż pozycje w Google – to inwestycja w długoterminowy wzrost sprzedaży. Trzy filary: solidne fundamenty techniczne, przemyślana architektura i treści które sprzedają, muszą działać w symfonii.
+### 1. Od czego zacząć SEO w nowym sklepie internetowym?
+Priorytetem są aspekty techniczne - szybkość, mobile-friendliness i prawidłowa struktura URL. Dopiero potem przechodzimy do optymalizacji treści.
 
-Nie ma szybkich tricków ani uniwersalnych receptur. Każdy sklep ma unikalną strukturę produktów, konkurencję i grupę docelową. To, co działa dla sklepu z elektroniką, może spalić na panewce w branży modowej.
+### 2. Jak długo trwa uzyskanie efektów SEO w e-commerce?
+Pierwsze efekty widać po 3-6 miesiącach, ale pełne rezultaty wymagają 6-12 miesięcy systematycznej pracy, szczególnie dla competitive keywords.
 
-**Long-term investment z quick wins**
+### 3. Czy warto inwestować w treści blogowe dla sklepu internetowego?
+Blog wspiera SEO poprzez long-tail keywords informacyjne, ale nie powinien zastępować optymalizacji stron produktowych i kategorii.
 
-Techniczne poprawki przynoszą efekty w tygodniach. Optymalizacja treści potrzebuje miesięcy. Budowanie autorytetu przez linkowanie to gra na lata. Mądrze jest połączyć wszystkie poziomy – od szybkich fixes po strategię długoterminową.
+### 4. Jak radzić sobie z duplikatami treści w e-commerce?
+Kluczowe są unikalne opisy produktów, prawidłowe canonical tags i strategiczne używanie robots meta dla wariantów produktowych. [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo)
 
-Rozpocznij od audytu obecnego stanu. Sprawdź Core Web Vitals, przeanalizuj strukturę nawigacji, zidentyfikuj największe gaps w treściach produktowych. Najlepiej zaczynać od tego, co boli najbardziej.
+### 5. Jakie są najważniejsze aspekty techniczne SEO dla sklepu?
+Core Web Vitals, mobile-first design, structured data i prawidłowa architektura URL to fundamenty. [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
 
-E-commerce SEO to maraton, nie sprint. Ale każdy krok w dobrą stronę to więcej ruchu, lepsze konwersje i większy przychód z wyszukiwarek organicznych.
+### 6. Jak mierzyć ROI z działań SEO w e-commerce?
+Śledź organic revenue, nie tylko traffic. Ważne są też: koszt pozyskania klienta organicznego, lifetime value i współczynnik konwersji z SEO.
+
+### 7. Czy linkowanie wewnętrzne rzeczywiście wpływa na sprzedaż?
+Zdecydowanie tak - inteligentne linkowanie zwiększa czas na stronie, page views i może podnieść średnią wartość zamówienia. [Linkowanie wewnętrzne w e-commerce](/linkowanie-wewnetrzne)
+
+### 8. Jak często aktualizować treści SEO w sklepie internetowym?
+Opisy produktów przy każdej zmianie asortymentu, strony kategorii co kwartał, a content marketingowy regularnie według zaplanowanego kalendarza.

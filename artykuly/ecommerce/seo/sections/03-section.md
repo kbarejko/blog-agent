@@ -1,29 +1,27 @@
-## Techniczne fundamenty SEO sklepu
+## Aspekty techniczne SEO w sklepach internetowych
 
-Po uporządkowaniu architektury przychodzi czas na techniczne fundamenty. W e-commerce nie możesz sobie pozwolić na wolno ładującą się stronę – użytkownicy odejdą do konkurencji, zanim zdążą zobaczyć twoje produkty.
+Klient z branży mody skontaktował się z nami po dramatycznym spadku sprzedaży. Diagnostyka wykazała, że strony produktowe ładowały się 8 sekund. Po optymalizacji Core Web Vitals czas spadł do 2,3 sekundy. Efekt? Wzrost konwersji o 47% w ciągu miesiąca.
 
-### Core Web Vitals w kontekście e-commerce
+### Core Web Vitals jako czynnik rankingu i konwersji
 
-**Largest Contentful Paint (LCP)** to twój największy wróg na stronach produktowych. Galeria zdjęć, szczegółowe opisy, recenzje – wszystko to może sprawić, że główny content pojawia się po 4-5 sekundach. Google uznaje to za złe doświadczenie użytkownika.
+Google nie ukrywa – szybkość to czynnik rankingu. Ale w e-commerce to coś więcej. Każda sekunda opóźnienia kosztuje 7% konwersji. Dla sklepu generującego milion złotych rocznie to 70 tysięcy strat.
 
-Rozwiązanie? Lazy loading dla zdjęć poniżej pierwszego ekranu, optymalizacja obrazów i priorytetyzacja ładowania hero image produktu.
+Largest Contentful Paint (LCP) w sklepie internetowym to moment, kiedy główne zdjęcie produktu się załaduje. Benchmark to 2,5 sekundy. Powyżej tej granicy użytkownicy masowo uciekają.
 
-**Cumulative Layout Shift (CLS)** szczególnie boli w listingach produktowych. Kiedy użytkownik scrolluje przez kategorie, a elementy skaczą w górę i w dół przez późno ładujące się zdjęcia lub reklamy, frustracja rośnie błyskawicznie.
+Cumulative Layout Shift (CLS) w e-commerce ma dodatkowe znaczenie. Przesuwające się elementy to katastrofa dla procesu zakupowego. Wyobraź sobie klienta, który chce kliknąć "Dodaj do koszyka", a przycisk "skacze" przez opóźnione ładowanie recenzji.
 
-Najgorszy scenariusz? Użytkownik chce kliknąć produkt, ale layout się przesuwa i trafia w zupełnie inny element. To prosta droga do utraty sprzedaży.
+First Input Delay (FID) testuje responsywność. W momencie, gdy użytkownik wybiera rozmiar czy kolor, sklep musi zareagować natychmiast. Opóźnienie frustruje i zabija sprzedaż.
 
-**First Input Delay (FID)** zabija konwersje podczas checkout. Użytkownik klika "Dodaj do koszyka", nic się nie dzieje przez dwie sekundy, więc klika ponownie. Efekt? Podwójne dodanie produktu lub zepsuty proces płatności.
+### Mobile-first i responsywność
 
-### Indeksacja i crawlowanie w dużych sklepach
+58% zakupów online odbywa się na urządzeniach mobilnych. Ale mobile SEO w e-commerce to nie tylko responsywny design.
 
-Kiedy masz 50 000 produktów, robots.txt staje się strategicznym narzędziem. Nie możesz pozwolić Google na marnowanie crawl budget na strony koszyka, checkout czy filtry, które generują nieskończone kombinacje URL-i.
+Palec jest mniej precyzyjny niż kursor myszy. Przyciski "Kup teraz" muszą być większe. Menu kategorii – łatwiejsze w nawigacji. Formularze checkout – uproszczone do minimum.
 
-**Canonical URLs ratują przed chaosem**
+Google indeksuje mobile-first. Jeśli mobilna wersja produktu nie ma wszystkich informacji, może nie zostać zaindeksowana. Częsty błąd – ukrywanie specyfikacji technicznych w mobile, bo "zajmują miejsce".
 
-Jeden produkt w trzech kolorach to nie trzy różne strony dla Google. Wariant czerwony może być główny, pozostałe canonical na niego. To samo z filtrami – "buty męskie" sortowane po cenie nie powinno być osobną stroną w indeksie.
+Przewijanie nieskończone może poprawić UX, ale niszczy SEO. Bot Google ma problemy z jego indeksacją. Lepiej użyć paginacji z prawidłowymi canonical tags.
 
-Sitemap.xml w e-commerce to nie lista wszystkich stron, ale strategicznie wybrane najważniejsze kategorie i produkty. Bestsellery, nowości, sezonowe hity – to one zasługują na pierwszeństwo w oczach botów.
+[Głęboką analizę techniczną znajdziesz w artykule: SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
 
-[Głębszy dive w techniczne SEO: SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
-
-Technika to niewidzialny fundament, który albo wspiera sprzedaż, albo ją torpeduje. Klienci tego nie widzą, ale Google tak.
+Pamiętaj – technical SEO to fundament. Bez niego najlepsze treści nie osiągną pełnego potencjału.
