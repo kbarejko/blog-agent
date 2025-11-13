@@ -1,49 +1,37 @@
-# SEO dla sklepów internetowych - kompletny przewodnik po zwiększeniu ruchu i konwersji
+# SEO w e-commerce: Przewodnik po zwiększaniu ruchu i konwersji w sklepie internetowym
 
-Co miesiąc tracisz klientów, którzy szukają dokładnie tego, co sprzedajesz. Wpisują frazę w Google, ale trafiają do konkurencji. Dlaczego? Bo Twój sklep jest niewidoczny w wyszukiwarkach.
+Właściciel sklepu internetowego pokazuje mi Google Analytics. Ruch organiczny rośnie, pozycje się poprawiają, ale sprzedaż... stoi w miejscu. "Przecież SEO działa!" – mówi zrezygnowany. 
 
-93% wszystkich sesji zakupowych zaczyna się od wyszukiwarki. To nie tylko statystyka - to ostrzeżenie dla każdego właściciela sklepu online.
+Problem? Myślał o SEO jak o każdej innej stronie.
 
-SEO w e-commerce to jednak zupełnie inna gra niż pozycjonowanie zwykłych stron. Masz tysiące produktów, zmienny asortyment i klientów na różnych etapach zakupu. Jeden błąd może kosztować Cię całe kategorie w wynikach.
+E-commerce to inna liga. Tu nie wystarczy być na pierwszej pozycji. Klient musi nie tylko wejść, ale i kupić. A to wymaga zupełnie innego podejścia do optymalizacji.
 
-Ten przewodnik pokaże Ci wszystkie aspekty SEO dla sklepów. Od technicznych podstaw po strategie treści. Od linkowania wewnętrznego po pomiar ROI.
+SEO w sklepach internetowych to balansowanie na linie. Z jednej strony tysiące produktów do zoptymalizowania. Z drugiej – presja czasu, sezonowość i bezlitosna konkurencja cenowa.
 
-Ale pamiętaj - w e-commerce SEO to nie tylko ruch. To przede wszystkim konwersja.
+Każdy błąd kosztuje. Każda szansa na poprawę konwersji jest na wagę złota.
 
-Klient, który znajdzie Cię przez Google, kupuje 3x częściej niż ten z mediów społecznościowych. Ma konkretny problem i szuka rozwiązania. Twoja rola? Być tam, gdzie on szuka.
+## Dlaczego SEO e-commerce to więcej niż pozycje w Google
 
-## Fundament SEO w e-commerce - aspekty techniczne
+W tradycyjnym SEO sukces mierzymy ruchem i pozycjami. W e-commerce liczy się przede wszystkim jedna rzecz: ile ze wzrostu ruchu przekłada się na sprzedaż.
 
-### Szybkość ładowania jako kluczowy czynnik konwersji
+Różnica jest brutalna. Sklep może mieć milion wizyt miesięcznie i ledwo wiązać koniec z końcem. Inny – przy stu tysiącach wizyt – generuje wielokrotnie wyższe przychody.
 
-Jedna sekunda opóźnienia to 7% mniej konwersji. W sklepie za milion rocznie to 70 tysięcy strat.
+Sekret tkwi w jakości ruchu organicznego. Każde słowo kluczowe niesie inną intencję zakupową. Każda optymalizacja wpływa na ścieżkę konwersji.
 
-Core Web Vitals uderzają szczególnie w e-commerce. Strony produktów pełne są zdjęć. Kategorie ładują dziesiątki miniatur. Lista życzeń synchronizuje się z bazą danych.
+Dlatego SEO e-commerce wymaga holistycznego myślenia. Nie optymalizujesz tylko pod Google. Optymalizujesz pod klienta gotowego do zakupu.
 
-Largest Contentful Paint pokazuje, czy główne zdjęcie produktu ładuje się szybko. First Input Delay mierzy responsywność przy dodawaniu do koszyka. Cumulative Layout Shift karze za "skaczące" elementy podczas ładowania.
+## Cztery filary SEO e-commerce
 
-Google traktuje te metryki jako sygnały rankingowe. Ale co ważniejsze - użytkownicy głosują portfelem.
+Skuteczna strategia SEO w sklepie internetowym opiera się na czterech fundamentach.
 
-Szczegółowy przewodnik po optymalizacji technicznej znajdziesz w artykule: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv)
+**Fundament techniczny** – architektura sklepu, szybkość, mobile-first. Bez tego nawet najlepsze treści nie zadziałają.
 
-### Mobile-first w e-commerce
+**Treści produktowe** – unikalne opisy, optymalizacja zdjęć, recenzje. To one przekonują do zakupu.
 
-67% zakupów online zaczyna się na telefonie. Ale tylko 30% kończy się tam transakcją.
+**Strategia słów kluczowych** – mapowanie intencji zakupowych, long-tail, sezonowość.
 
-Dlaczego? Bo większość sklepów ma mobilną wersję jako "dodatek" do desktopowej. Małe przyciski, nieczytelny tekst, skomplikowana nawigacja.
+**Linkowanie wewnętrzne** – przewodzenie klientów przez ścieżkę zakupową, wzmacnianie najważniejszych kategorii.
 
-Google indeksuje najpierw wersję mobilną. Jeśli tam czegoś brakuje, nie znajdzie tego w wynikach.
+W tym przewodniku przejdziemy przez każdy element. Pokażę sprawdzone strategie i częste pułapki. Na końcu otrzymasz konkretny plan działania.
 
-Responsive design to minimum. Prawdziwa optymalizacja mobilna to przemyślane doświadczenie zakupowe. Duże zdjęcia produktów, łatwa nawigacja jedną ręką, uproszczony checkout.
-
-### Struktura URL i nawigacja
-
-URL w e-commerce opowiada historię. `sklep.pl/kategoria/podkategoria/produkt` pokazuje Google'owi hierarchię ważności.
-
-Kategoria główna ma największą moc SEO. Przekazuje ją podkategoriom. Te z kolei - konkretnym produktom.
-
-Breadcrumbs to nie tylko UX. To potężne narzędzie SEO. Pokazują Google'owi strukturę sklepu i pomagają w indeksacji.
-
-Zmiana URL to zawsze ryzyko. W e-commerce szczególnie, bo produkty znikają i pojawiają się. Każda zmiana wymaga przekierowania 301. Każdy brak przekierowania to utracona pozycja.
-
-Planuj strukturę URL na lata. Będzie Ci służyć długo.
+Zaczynamy od fundamentów.

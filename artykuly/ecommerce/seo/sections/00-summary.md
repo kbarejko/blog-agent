@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **93% ruchu e-commerce zaczyna się od wyszukiwarek** - właściwe SEO może zwiększyć sprzedaż o 200-300% w ciągu 12 miesięcy
-- **Core Web Vitals to nie tylko pozycjonowanie** - każda sekunda opóźnienia w ładowaniu kosztuje 7% konwersji w sklepach internetowych
-- **Unikalne opisy produktów zwiększają ruch o 40%** - kopiowanie treści od producenta to najczęstszy błąd który niszczy widoczność w Google
-- **Linkowanie wewnętrzne może podnieść AOV o 15-30%** - strategiczny cross-selling przez SEO to dodatkowe przychody bez płacenia za reklamy
-- **Revenue per organic session** - praktyczne metryki ROI które pokażą realną wartość SEO dla Twojego sklepu (nie tylko pozycje i ruch)
+- **Architektura sklepu wpływa na 40% sukcesu SEO** - prawidłowa hierarchia kategorii i linkowanie wewnętrzne przekłada się bezpośrednio na wyższe pozycje i sprzedaż
+- **Core Web Vitals w e-commerce to nie tylko technikalia** - każda sekunda ładowania to 7% mniej konwersji, a mobile-first to już standard, nie opcja
+- **Unikalne opisy produktów vs duplikaty od producentów** - sklepy z własnymi treściami osiągają o 60% więcej ruchu organicznego niż kopiujące od dostawców
+- **Commercial keywords działają inaczej niż informacyjne** - strategia słów kluczowych w e-commerce wymaga mapowania intencji zakupowych, nie tylko wolumenów wyszukiwań
+- **ROI z SEO mierzy się sprzedażą, nie pozycjami** - conversion rate z ruchu organicznego i revenue from organic search to metryki które naprawdę liczą się w biznesie

@@ -1,31 +1,53 @@
-## Najczęstsze błędy SEO w e-commerce
+## Najczęstsze błędy SEO w e-commerce (i jak ich uniknąć)
 
-### Błędy techniczne
+Sklep internetowy ma tysiąc produktów. Pozycje rosną, ruch zwiększa się, ale właściciel jest sfrustrowany. "Wszystko robimy według poradników SEO!" – mówi. 
 
-Sklep internetowy to jak samochód wyścigowy. Jeden źle dokręcony śrubka może zniszczyć całą jazdę.
+Problem w szczegółach. E-commerce to minowe pole pułapek, które w innych branżach nie istnieją.
 
-Core Web Vitals w e-commerce to nie abstrakcja. To różnica między sprzedażą a frustracją klientów. Widziałem sklepy tracące 40% konwersji przez obrazki ładujące się 6 sekund. Klient zdąży zmienić zdanie trzy razy.
+### Błąd nr 1: Optymalizacja tylko pod desktop
 
-Przekierowania przy zmianie asortymentu to drugi klasyk. Produkt znika, link prowadzi na 404. Google traci ślad, klient trafi do konkurencji. Każde wycofanie produktu powinno prowadzić na podobną alternatywę albo kategorię główną.
+Statystyki mówią jasno – 65% zakupów online dzieje się na telefonach. Ale większość sklepów nadal projektuje najpierw wersję desktopową.
 
-Indeksacja stron produktowych może Cię zaskoczyć. Masz 5000 produktów, ale Google widzi tylko 800? Sprawdź robots.txt i sitemap. Często winne są filtry tworzące miliony niepotrzebnych kombinacji URL.
+Klient na telefonie nie ma cierpliwości. Jeśli przycisk "Kup teraz" jest za mały, produkty ładują się wolno, a formularz zamówienia wymaga pięciokrotnego powiększania – odchodzi.
 
-### Błędy contentu
+Mobile-first to nie trend. To konieczność biznesowa.
 
-"Wysokiej jakości produkt w atrakcyjnej cenie" - tak brzmi 80% opisów w polskich sklepach. Google to ignoruje, klienci przewijają dalej.
+### Błąd nr 2: Chaos z produktami wyprzedanymi
 
-Kopiowanie od producentów to najgorszy możliwy start. Wkleiłeś opis iPhone'a z Apple? Świetnie, taki sam ma 2000 innych sklepów. Guess who wins? Nie Ty.
+Co zrobić z produktem, który się skończył? Większość sklepów usuwa stronę albo zostawia błąd 404.
 
-Meta tagi to Twoje hasła wyborcze w Google. "Kup teraz super oferta!!!" nikogo nie przekona. "Damskie kozaki zimowe - 150 modeli, rozmiary 35-42" mówi konkretnie, czego szukać.
+To marnowanie miesięcy pracy SEO.
 
-Puste strony kategorii to strzał w stopę. "Sukienki wieczorowe" bez żadnego opisu to sygnał dla Google: "tu nie ma wartościowej treści". Dodaj chociaż akapit o tym, do czego pasują, jak wybierać rozmiar.
+Każda strona produktu ma zbudowaną pozycję, linki, zaufanie Google. Kasowanie to wyrzucanie pieniędzy przez okno.
 
-### Błędy strategiczne
+Lepsze rozwiązanie? Strona "Produkt niedostępny" z propozycjami alternatyw. Przekierowanie 301 do podobnego produktu. Newsletterowe powiadomienie o powrocie towaru.
 
-Branded keywords to pułapka wygody. Pozycja #1 dla nazwy swojego sklepu cieszy ego, ale nie portfel. Klienci znający Twoją markę i tak Cię znajdą.
+### Błąd nr 3: Duplikaty treści z filtrów
 
-Prawdziwe pieniądze leżą w długim ogonie. "Buty" ma milion konkurentów. "Buty trekkingowe damskie na szeroką stopę" - może dziesięciu. Łatwiej wygrać, lepiej konwertuje.
+Filtry to potęga funkcjonalna i piekło SEO. Ta sama kategoria może wygenerować setki podobnych stron:
+- /sukienki-czerwone
+- /sukienki-rozmiar-38  
+- /sukienki-maxi
+- /sukienki-czerwone-rozmiar-38-maxi
 
-SEO w izolacji to jak gra w tenisa bez rakiety. Klient znajdzie Cię organicznie, kupi przez remarketing. Newsletter przekieruje na stronę produktu znalezioną w Google. Wszystkie kanały muszą grać razem.
+Google widzi duplikaty. Karze za nie.
 
-Każdy z tych błędów może kosztować Cię tysiące klientów rocznie. Dobra wiadomość? Większość da się naprawić w kilka tygodni.
+Rozwiązanie wymaga strategii. Indeksujesz tylko najważniejsze kombinacje filtrów – te, których ludzie rzeczywiście szukają. Resztę blokujesz canonical tagiem lub robots.txt.
+
+### Błąd nr 4: Kopiowanie od wszystkich dostawców
+
+Najłatwiej wziąć opisy produktów od producenta. Problem? Robi tak 90% konkurencji.
+
+Google nie lubi duplikatów. Klienci też wolą unikalne treści.
+
+Przepisanie opisów to inwestycja, ale zwraca się wielokrotnie. Jeden sklep przepisał opisy 200 najważniejszych produktów. Wyniki? Wzrost ruchu organicznego o 40% w sześć miesięcy.
+
+### Błąd nr 5: Ignorowanie linkowania wewnętrznego
+
+Sklepy traktują produkty jak izolowane wyspy. Brak powiązań między podobnymi przedmiotami. Słabe linkowanie kategorii głównych.
+
+To marnowanie potencjału. Każdy link to rekomendacja dla Google i ścieżka nawigacji dla klienta.
+
+"Pasuje do tego", "Podobne produkty", "Kompletny zestaw" – to nie tylko narzędzia cross-sellingu. To sposób na dystrybucję siły SEO po całym sklepie.
+
+E-commerce SEO to dyscyplina szczegółów. Każda optymalizacja ma bezpośredni wpływ na wyniki sprzedażowe.

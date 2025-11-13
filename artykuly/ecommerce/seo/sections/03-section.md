@@ -1,37 +1,43 @@
-## Strategia linkowania w sklepie internetowym
+## SEO techniczne: Szybkość, stabilność i doświadczenie użytkownika
 
-### Architektura informacji
+Klient dodaje produkt do koszyka. Strona się ładuje... i ładuje... i ładuje. Po 8 sekundach rezygnuje.
 
-Twój sklep to miasto. Kategorie główne to główne arterie. Podkategorie - mniejsze ulice. Produkty - domy przy ulicach.
+Właśnie straciliśmy sprzedaż nie przez cenę czy konkurencję. Przez wolne ładowanie.
 
-Google porusza się jak turysta z mapą. Jeśli struktura jest płaska, wszystkie "domy" są równie ważne. Jeśli głęboka - niektóre są trudne do znalezienia.
+W e-commerce każda milisekunda ma cenę. Amazon wyliczył, że 100ms opóźnienia kosztuje ich 1% przychodów. W sklepie za milion rocznie to 10 tysięcy złotych. Za każde 100 milisekund.
 
-Płaska struktura działa dla małych sklepów. 50 produktów, 3 kategorie. Wszystko na wyciągnięcie ręki.
+### Core Web Vitals: nowe zasady gry
 
-Sklepy z tysiącami produktów potrzebują hierarchii. Strony kategorii stają się hub-ami linkowych. Przekazują moc SEO produktom. Kierują klientów do konkretnych rozwiązań.
+Google przestał udawać, że szybkość to tylko jeden z czynników. Core Web Vitals to konkretne metryki. Z konkretnymi progami.
 
-"Elektronika" ma moc 90. "Smartphones" dziedziczy 30. "iPhone 15" otrzymuje 10. To nie matematyka - to rzeczywistość algorytmów Google.
+**LCP (Largest Contentful Paint)** – poniżej 2,5 sekundy. W e-commerce to zazwyczaj główne zdjęcie produktu. Jeśli ładuje się wolno, klient nie zobaczy, co kupuje.
 
-### Linkowanie wewnętrzne dla zwiększenia sprzedaży
+**FID (First Input Delay)** – poniżej 100ms. Czas reakcji na pierwsze kliknięcie. W sklepie to często przycisk "Dodaj do koszyka". Opóźnienie = frustracja = brak sprzedaży.
 
-Linkowanie w e-commerce to nie tylko SEO. To sprzedaż.
+**CLS (Cumulative Layout Shift)** – poniżej 0,1. Elementy nie mogą "skakać" podczas ładowania. Klient klika "Kup teraz", a trafia w "Usuń z koszyka", bo przycisk się przesunął.
 
-"Klienci, którzy kupili ten produkt, oglądali również" - to link wewnętrzny przebierany za rekomendację. Google widzi sygnał. Klient widzi okazję.
+### Wyzwania e-commerce: ciężar obrazów i funkcjonalności
 
-Cross-selling przez linkowanie zwiększa wartość koszyka o 15-30%. "Do tego telefonu polecamy etui" na stronie produktu. Link do akcesoriów w opisie. Naturalnie, bez nachalności.
+Sklepy internetowe to maszyny do generowania problemów z szybkością. Dziesiątki zdjęć produktów na kategorii. Interaktywne filtry. Koszyk aktualizujący się na żywo.
 
-Up-selling to sztuka subtelności. "Sprawdź wersję Pro tego produktu" na końcu karty. Link do droższej alternatywy w sekcji specyfikacji. Klient sam decyduje.
+Każdy element spowalnia. Każdy wymaga optymalizacji.
 
-Produkty powiązane tworzą sieć połączeń. Google lubi takie struktury. Użytkownicy zostają dłużej. Więcej stron w sesji, więcej okazji do konwersji.
+Zdjęcia produktów to największy winowajca. Fotograf dostarcza pliki po 5MB każdy. Programista wrzuca na stronę bez kompresji. Kategoria z 20 produktami waży 100MB.
 
-Dokładne techniki linkowania opisujemy w artykule: [Linkowanie wewnętrzne w e-commerce - jak zwiększyć sprzedaż i SEO](/linkowanie-wewnetrzne)
+Rozwiązanie? WebP zamiast JPEG. Lazy loading dla obrazków poza viewport. CDN do szybkiej dystrybucji. Compression na poziomie 80-85% dla zdjęć produktów.
 
-### Link building specyficzny dla e-commerce
+### Mobile-first w praktyce
 
-Tradycyjny link building w e-commerce ma sens jak sprzedaż lodów w styczniu.
+Ponad 60% zakupów online dzieje się na telefonach. Ale większość sklepów nadal projektowana jest najpierw pod desktop.
 
-Blogerzy chcą poznać produkty. Nie linki. Influencerzy testują, recenzują, polecają. W zamian dostajesz link i rekomendację.
+To błąd kosztujący miliony.
 
-PR produktowy to link building w przebraniu. Nowa kolekcja trafia do redakcji. Artykuł o trendach zawiera link do Twojego sklepu. Czytelnik kupuje, Google notuje sygnał.
+Mobile-first oznacza myślenie kciukiem, nie myszką. Duże przyciski. Czytelne czcionki. Szybkie ładowanie nawet na wolnym 3G.
 
-Współpraca z mikro-influencerami często daje lepsze rezultaty niż gwiazdy. 1000 zaangażowanych fanów to więcej niż 100 tysięcy obojętnych obserwatorów.
+Structured data to sposób na wyróżnienie się w wynikach. Rich snippets z ceną, dostępnością i ocenami zwiększają klikalność o 30-50%.
+
+Schema.org Product to minimum. Ale prawdziwa siła tkwi w szczegółach: ReviewRating, AggregateRating, Offer z aktualną ceną i dostępnością.
+
+Kompletny przewodnik po optymalizacji technicznej i Core Web Vitals znajdziesz tutaj: [SEO techniczne + CWV w kontekście indeksacji](/seo-sklepu-cwv).
+
+Bez stabilnych fundamentów technicznych najlepsze produkty pozostaną niewidoczne.

@@ -1,27 +1,47 @@
-## Mierzenie sukcesu SEO w e-commerce
+## Treści produktowe: Jak wyróżnić się w morzu konkurencji
 
-### Metryki poza ruchem organicznym
+Dwóch sprzedawców oferuje identyczne słuchawki. Pierwszy kopiuje opis od producenta: "Wysokiej jakości słuchawki bezprzewodowe z zaawansowaną technologią Bluetooth 5.0." Drugi pisze: "Posłuchaj ulubionych utworów bez przerwy przez 8 godzin. Połączysz się z telefonem w sekundę, a bateria wystarczy na cały dzień pracy."
 
-10 tysięcy sesji organicznych brzmi imponująco w raporcie. Ale co z tego, jeśli żadna nie kończy się zakupem?
+Który opis przekonuje do zakupu?
 
-W e-commerce liczą się inne wskaźniki. Revenue per organic session pokazuje prawdziwą wartość ruchu SEO. 1000 sesji po 50 zł przychodu każda to 50 tysięcy reasons, żeby kontynuować strategię.
+### Problem kopiowania opisów producenta
 
-Assisted conversions ujawniają ukrytą moc SEO. Klient znajduje Cię przez "buty do biegania", ale kupuje tydzień później przez newsletter. Google Analytics 4 śledzi całą ścieżkę. SEO dostaje credit za asystę.
+90% sklepów internetowych popełnia ten sam błąd. Kopiuje opisy od dostawców. Setki identycznych treści w Google. Zero szans na wyróżnienie.
 
-Customer lifetime value z ruchu organicznego często zaskakuje. Klienci z Google kupują przemyślanie. Wracają częściej. Wydają więcej w kolejnych zamówieniach. Jeden klient organiczny może być wart trzech z reklam.
+Producent pisze dla wszystkich. Ty piszesz dla swojego klienta.
 
-### Narzędzia analityczne
+Zamiast "procesor octa-core" napisz "płynne działanie nawet przy kilku uruchomionych aplikacjach". Zamiast "materiał 100% bawełna" napisz "przyjemny w dotyku, oddycha w upalne dni".
 
-Google Analytics 4 w e-commerce to kopalnia danych. Enhanced ecommerce tracking pokazuje, które produkty Google docenia. Funnel analysis ujawnia, gdzie tracisz klientów między wynikami a kasą.
+Klient kupuje korzyści, nie specyfikację.
 
-Search Console mówi prawdę o Twoich pozycjach. Position tracking dla kategorii vs. produktów odsłania różne strategie. Kategorie budują świadomość marki. Produkty konwertują bezpośrednio.
+### Tytuły produktów: pierwsze wrażenie decyduje
 
-Clicks vs. impressions w Search Console to Twój barometr atrakcyjności. Wysokie impressions, niskie clicks? Popraw title i meta description. Niskie impressions? Czas na więcej treści.
+Tytuł produktu to jego wizytówka w wynikach Google i na stronie kategorii. Musi zawierać kluczowe informacje i zachęcać do kliknięcia.
 
-### ROI z działań SEO
+Dobry tytuł produktu ma strukturę: Marka + Model + Kluczowa cecha + Zastosowanie.
 
-Pozycja #1 dla "laptopy do grafiki" może być warta 100 tysięcy rocznie. Pozycja #5 - tylko 20 tysięcy. Kalkulacja prosta: średni CPC w Google Ads x miesięczne wyszukiwania x współczynnik konwersji.
+"Nike Air Zoom Pegasus 40 buty do biegania męskie" zamiast tylko "Nike Pegasus 40".
 
-Ale SEO w e-commerce ma efekt kumulacyjny. Pierwszy miesiąc przynosi 10% wzrostu ruchu. Szósty - już 150%. Dwunasty - 300% i stabilizację. Cierpliwość się opłaca.
+Unikaj keyword stuffingu. "Buty męskie sportowe do biegania Nike męskie running shoes" to spam, nie optymalizacja.
 
-Inwestycja w treści produktowe działa latami. Jeden dobry opis może przynosić klientów przez pięć lat. W reklamach każdy klient kosztuje od nowa.
+### Zdjęcia produktów: SEO obrazków w e-commerce
+
+Klienci nie mogą dotknąć produktu przed zakupem. Zdjęcia muszą zastąpić wszystkie zmysły.
+
+Ale zdjęcia to też potężne narzędzie SEO. Google Images generuje coraz więcej ruchu e-commerce.
+
+Nazwy plików mają znaczenie. "DSC_4425.jpg" nic nie mówi. "Nike-air-zoom-pegasus-40-meskie-biale.jpg" – wszystko jasne.
+
+Alt text to opis dla niewidomych i Google. Pisz naturalnie: "Białe buty do biegania Nike Air Zoom Pegasus 40 na białym tle".
+
+### Recenzje: content i zaufanie w jednym
+
+Opinie klientów to podwójne złoto. Budują zaufanie i dostarczają unikalnych treści.
+
+Każda recenzja to nowe słowa kluczowe. Klienci opisują produkty swoim językiem. Używają fraz, o których nie pomyślałbyś.
+
+Zachęcaj do szczegółowych opinii. "Jak oceniasz ten produkt?" generuje "Super". "Jak sprawdził się ten telefon w codziennym użytkowaniu?" daje akapity wartościowej treści.
+
+Szczegółowe strategie tworzenia treści produktowych opisane są w artykule: [Treści Produktowe SEO w e-commerce](/tresci-produktowe-seo).
+
+Unikalne treści produktowe to inwestycja, która procentuje latami. Jednorazowy wysiłek, długoterminowe korzyści.

@@ -1,37 +1,41 @@
-## Jak zacząć SEO w swoim sklepie - pierwszy krok
+## Strategia słów kluczowych w e-commerce
 
-### Audit techniczny jako punkt startowy
+"iPhone 15" kontra "najlepszy smartfon do zdjęć dla nastolatków". Pierwsze słowo przynosi 100 tysięcy wyszukiwań miesięcznie. Drugie – może 500. Ale zgadnij, które generuje więcej sprzedaży?
 
-Zanim zaczniesz marzyć o pierwszych pozycjach, sprawdź czy Twój sklep w ogóle nadaje się do walki.
+W e-commerce nie wygrywasz liczbą wyszukiwań. Wygrywasz intencją zakupową.
 
-Audit techniczny to jak badania przed treningiem na siłownię. Może się okazać, że masz kontuzję, o której nie wiesz. W sklepach internetowych najczęstsze "kontuzje" to brutalne.
+### Commercial keywords: tam, gdzie rodzą się decyzje
 
-Strony produktów ładujące się 8 sekund. URL-e zmieniające się co miesiąc bez przekierowań. Tysiące stron 404 po wycofanych produktach. Schema markup z błędami, która myli Google'a zamiast pomagać.
+Klient przechodzi przez kilka faz przed zakupem. Najpierw szuka informacji: "jak wybrać telefon". Potem porównuje opcje: "iPhone vs Samsung". Na końcu jest gotowy kupić: "iPhone 15 Pro 256GB najniższa cena".
 
-PageSpeed Insights pokaże Ci prawdę o Core Web Vitals. Google Search Console ujawni błędy indeksacji. Screaming Frog przeskanuje całą strukturę w kilka minut.
+Każda faza wymaga innej strategii słów kluczowych.
 
-Nie musisz być programistą. Narzędzia robią robotę za Ciebie. Ty tylko interpretujesz wyniki i ustalasz priorytety.
+Informacyjne fazy budują świadomość marki. Commercial i transakcyjne przynoszą sprzedaż bezpośrednią.
 
-### Quick wins dla początkujących
+Słowa z "kupić", "cena", "sklep", "promocja" mają niższe wolumeny, ale wyższą konwersję. "Buty Nike sklep" konwertuje lepiej niż ogólne "buty Nike".
 
-Niektóre poprawki SEO działają jak tabletka przeciwbólowa. Szybko i skutecznie.
+### Long-tail: złota żyła niszowych produktów
 
-Title i meta description to Twoja wizytówka w Google. "Kup teraz!" brzmi jak spam. "Damskie buty do biegania - 200 modeli, darmowa dostawa" mówi konkretnie, co oferujesz.
+Specjalistyczne produkty żyją z fraz długoistnych. Nikt nie wpisuje "lampa". Szukają "lampa wisząca do kuchni w stylu industrialnym".
 
-Schema markup dla produktów dodasz jednym pluginem. W Shopify to kilka kliknięć. W WooCommerce - jedna wtyczka. Google od razu zaczyna pokazywać gwiazdki i ceny w wynikach.
+Im bardziej konkretna fraza, tym bardziej zdeterminowany klient.
 
-Linki wewnętrzne między powiązanymi produktami to praca na 30 minut. "Zobacz także", "Polecane akcesoria", "Kompletuj zestaw". Klient zostaje dłużej, Google widzi strukturę.
+"Sukienka na wesele dla puszystych do 200 złotych" to może 50 wyszukiwań miesięcznie. Ale każdy klient trafiający przez tę frazę jest gotowy do zakupu.
 
-Efekty pierwszych poprawek pojawią się w 4-6 tygodni. To motywacja do kolejnych kroków.
+### Sezonowość: rytm e-commerce
 
-### Planowanie długofalowej strategii
+Swimwear w styczniu? Kurtki zimowe w lipcu? Większość sklepów ignoruje naturalny rytm zakupowy.
 
-SEO w e-commerce to maraton, nie sprint. Potrzebujesz planu na 6-12 miesięcy.
+Planowanie treści pod sezonowość zaczyna się z półrocznym wyprzedzeniem. Optymalizujesz strony z kostiumami kąpielowymi w styczniu, żeby w maju być na szczycie wyników.
 
-Pierwsze trzy miesiące: technika i quick wins. Następne trzy: treści produktowe i kategorie. Kolejne pół roku: content marketing i linkowanie.
+Google Trends to twój kompas. Pokazuje nie tylko co, ale kiedy ludzie szukają.
 
-Budżet? 2-5% obrotu na SEO to realistyczna inwestycja. Sklep za milion rocznie może wydać 20-50 tysięcy na SEO i liczyć na 200-500 tysięcy dodatkowego przychodu.
+### Mapowanie: każde słowo ma swoje miejsce
 
-Ale pamiętaj - SEO nie działa w próżni. Integruj z reklamami, email marketingiem, social media. Klient, który Cię znajdzie organicznie, chętniej otworzy newsletter. Ten z newslettera łatwiej kliknie reklamę.
+Kategoria "Smartfony" powinna rankingować na "telefony", "smartfony", "telefony komórkowe". Konkretny iPhone 15 – na "iPhone 15 cena", "iPhone 15 sklep", "kup iPhone 15".
 
-Roadmapa SEO to żywy dokument. Zmieniaj ją co kwartał. Rynek e-commerce nie śpi.
+Unikaj kanibalizacji słów kluczowych. Gdy dwie strony konkurują o tę samą frazę, obie tracą.
+
+Brand keywords to fundament. Twoja nazwa marki + "sklep", "opinie", "kontakt" muszą prowadzić do ciebie. Jeśli nie, konkurencja przejmie twoich klientów na ostatnim metrze.
+
+Strategiczne myślenie o słowach kluczowych to różnica między ruchem a sprzedażą.
