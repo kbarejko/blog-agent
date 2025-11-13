@@ -1,0 +1,11 @@
+categories:
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: kampanie-ppc
+  title: Kampanie PPC
+  path: marketing-w-internecie/kampanie-ppc
+- slug: google-ads
+  title: Google Ads
+  path: marketing-w-internecie/kampanie-ppc/google-ads
+count: 3
