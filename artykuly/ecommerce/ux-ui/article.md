@@ -4,7 +4,7 @@
 - **Checkout pochłania 70% potencjalnych transakcji** - niespodziewane koszty dostawy, zbyt skomplikowane formularze czy brak możliwości zakupów bez rejestracji skutecznie zniechęcają nawet zdecydowanych kupujących
 - **Trzy sekundy ładowania oznacza 32% odrzuceń** - optymalizacja Core Web Vitals to nie tylko kwestia pozycjonowania, ale bezpośredni wpływ na wyniki sprzedażowe
 - **Wyszukiwarka wewnętrzna przyciąga 30-60% ruchu** - klienci korzystający z niej kupują dwukrotnie częściej, ale tylko wtedy gdy faktycznie odnajdą pożądane produkty
-- **15% społeczeństwa żyje z niepełnosprawnościami** - dbałość o dostępność przekracza ramy zgodności z WCAG, otwierając dodatkowy segment rynku i poprawiając widoczność w Google
+- **15% społeczeństwa żyje z niepełnosprawnościami** - dbałość o dostępność przekracza ramy zgodności z WCAG, otwierając dodatkowy segment rynku i poprawiając [widoczność w Google](/artykuly/ecommerce/seo/)
 
 # UX/UI w e-commerce - checkout, szybkość, dostępność
 
