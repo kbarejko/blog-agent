@@ -45,36 +45,52 @@ Artykuł SILO różni się od zwykłego artykułu szczegółowego:
    - Być czytelne, zrozumiałe i spójne z tonem Digital Vantage
    - Sugerować szerszy kontekst (nie konkretne szczegóły)
 
-## 📋 Przykładowa struktura artykułu SILO
+## 📋 FORMAT KONSPEKTU - JAK POWINIEN WYGLĄDAĆ
+
+**WAŻNE:** Konspekt to PLAN artykułu, nie gotowy artykuł. Każda sekcja powinna zawierać:
+1. Tytuł sekcji (H2)
+2. **Docelową długość w formacie `(~XXX słów)`**
+3. Punkty/tematy do omówienia (lista)
+
+**Przykład poprawnego konspektu:**
 
 ```markdown
-## Wprowadzenie do tematu
-[Szeroki kontekst, dlaczego temat jest ważny]
+## 1. Wprowadzenie do tematu
+(~200 słów)
+- Szeroki kontekst, dlaczego temat jest ważny
+- Statystyki pokazujące znaczenie tematu
+- Zapowiedź głównych aspektów
 
-## Główny aspekt #1
-[Krótkie wprowadzenie]
-[Link: "Dowiedz się więcej w naszym przewodniku: [Artykuł 1]"]
+## 2. Główny aspekt #1
+(~250 słów)
 
-## Główny aspekt #2
-[Krótkie wprowadzenie]
-[Link: "Szczegóły znajdziesz w: [Artykuł 2]"]
+### Podtemat A
+- Krótkie wprowadzenie do aspektu #1
+- Kluczowe wyzwania
+- **Miejsce na link:** "Dowiedz się więcej w naszym przewodniku: [Artykuł 1](/link)"
 
-## Główny aspekt #3
-[Krótkie wprowadzenie]
-[Link: "Przeczytaj więcej: [Artykuł 3]"]
+## 3. Główny aspekt #2
+(~300 słów)
 
-## Jak zacząć? (Przewodnik startowy)
-[Praktyczne kroki dla początkujących]
+### Podtemat B
+- Wprowadzenie do aspektu #2
+- Praktyczne wskazówki
+- **Miejsce na link:** "Szczegóły znajdziesz w: [Artykuł 2](/link)"
 
-## Najczęstsze błędy
-[Krótki przegląd pułapek]
+## 4. Najczęstsze błędy
+(~200 słów)
+- Błąd #1 i jego konsekwencje
+- Błąd #2 i jak go uniknąć
+- Błąd #3 z przykładem
 
-## Najczęściej zadawane pytania (FAQ) ← OBOWIĄZKOWE!
-[6-10 pytań z linkami do artykułów w silosie]
-
-## Podsumowanie
-[Zachęta do eksploracji szczegółowych artykułów]
+## 5. Podsumowanie
+(~150 słów)
+- Kluczowe wnioski
+- Zachęta do eksploracji szczegółowych artykułów
+- Call to action
 ```
+
+**NIE** pisz pełnych akapitów w konspekcie - to zadanie dla kolejnego kroku workflow!
 
 ## 🎯 Wymagane i opcjonalne sekcje
 
@@ -134,7 +150,43 @@ Wskazówki dotyczące kolejności czytania artykułów w silosie.
 
 ## 📊 Długość i zakres
 
-- **Długość docelowa:** 1500-2500 słów (krócej niż zwykły artykuł)
-- **Liczba sekcji H2:** 5-8 (każda = potencjalny artykuł szczegółowy)
+**KRYTYCZNE:** Konspekt musi zawierać docelową długość dla KAŻDEJ sekcji w formacie `(~XXX słów)`.
+
+Zasady planowania długości:
+- **Liczba sekcji H2:** 5-8 głównych sekcji (każda = potencjalny artykuł szczegółowy)
+- **Rozkład słów:** Suma długości wszystkich sekcji MUSI być równa docelowej długości artykułu
+- **Typowe długości sekcji:**
+  - Wprowadzenie: 150-250 słów
+  - Sekcje główne (H2): 250-350 słów każda
+  - FAQ: budżet ~400-600 słów (6-10 pytań × 50-70 słów)
+  - Podsumowanie: 100-200 słów
+
+**Przykład dla artykułu 2000 słów:**
+- Wprowadzenie (200) + 5 sekcji głównych (5×250=1250) + FAQ (400) + Podsumowanie (150) = 2000 słów
+
 - **Głębokość:** Wprowadzająca, nie szczegółowa
 - **Cel:** Dać czytelnikowi "mapę" tematu i skierować go do właściwego artykułu szczegółowego
+
+---
+
+## ⚠️ KLUCZOWE PRZYPOMNIENIE
+
+**TO MA BYĆ KONSPEKT, NIE GOTOWY ARTYKUŁ!**
+
+✅ **DOBRZE:**
+```markdown
+## 2. Fundamenty techniczne SEO
+(~250 słów)
+- Znaczenie szybkości ładowania dla konwersji
+- Core Web Vitals jako ranking factor
+- Mobile-first indexing w praktyce
+- **Miejsce na link:** [SEO techniczne + CWV](/seo-sklepu-cwv)
+```
+
+❌ **ŹLE:**
+```markdown
+## 2. Fundamenty techniczne SEO
+Techniczne SEO w e-commerce to fundament, na którym budujesz wszystkie inne działania. Sklepy internetowe mają specyficzne wyzwania: tysiące produktów, dynamiczne treści, skomplikowane kategorie i filtry. [pełne akapity...]
+```
+
+**Pisz PLAN (punkty), nie pełne treści!** Treści będą generowane w kolejnym kroku.

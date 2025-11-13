@@ -50,8 +50,9 @@ def execute_outline(
     target_info = ""
     if article.config.target_word_count:
         # Calculate number of sections and words per section
-        # Account for FAQ (~500 words) and Checklist (~200 words) if applicable
-        overhead = 500 if is_silo_article else 300  # FAQ/Checklist overhead
+        # For SILO articles: FAQ/Checklist are PART of target_word_count, not additional
+        # For regular articles: small overhead for intro/summary
+        overhead = 0 if is_silo_article else 200  # Intro/summary overhead for regular articles
         content_words = article.config.target_word_count - overhead
 
         # Optimal section length: 300-400 words
@@ -59,9 +60,13 @@ def execute_outline(
         suggested_sections = max(3, round(content_words / optimal_section_length))
         words_per_section = round(content_words / suggested_sections)
 
-        target_info = f"\n\n**DŁUGOŚĆ ARTYKUŁU:** Docelowa długość całkowita: {article.config.target_word_count} słów. Sugerowana struktura: {suggested_sections} sekcji × ~{words_per_section} słów/sekcję (+ FAQ/podsumowanie ~{overhead} słów)."
+        if is_silo_article:
+            target_info = f"\n\n**DŁUGOŚĆ ARTYKUŁU:** Docelowa długość całkowita: {article.config.target_word_count} słów. To sugestia - sam zdecyduj o optymalnej liczbie sekcji i ich długości, aby osiągnąć docelową długość. FAQ i podsumowanie wliczają się w ten limit."
+        else:
+            target_info = f"\n\n**DŁUGOŚĆ ARTYKUŁU:** Docelowa długość całkowita: {article.config.target_word_count} słów. Sugerowana struktura: {suggested_sections} sekcji × ~{words_per_section} słów/sekcję."
 
-        print(f"📏 Target: {article.config.target_word_count} words → {suggested_sections} sections × {words_per_section} words/section")
+        # Show realistic estimate in console (AI will decide final structure)
+        print(f"📏 Target: {article.config.target_word_count} words (AI will determine optimal section count)")
 
     if is_silo_article:
         # Use silo-specific prompt
@@ -321,8 +326,24 @@ def _parse_outline_from_response(response: str) -> Outline:
     if current_section:
         sections.append(current_section)
 
-    # Estimate word count (300-400 per section)
-    estimated_words = len(sections) * 350
+    # Extract target word counts from descriptions (format: "(~200 słów)")
+    # and calculate total estimated words
+    total_target_words = 0
+    for section in sections:
+        desc = section.get('description', '')
+        # Try to extract target words: (~200 słów), (200 słów), (~200), etc.
+        target_match = re.search(r'\(~?(\d+)(?:\s*słów?)?\)', desc)
+        if target_match:
+            target_words = int(target_match.group(1))
+            section['target_words'] = target_words
+            total_target_words += target_words
+        else:
+            # No explicit target - use default 300
+            section['target_words'] = 300
+            total_target_words += 300
+
+    # Use total_target_words if available, otherwise estimate
+    estimated_words = total_target_words if total_target_words > 0 else len(sections) * 350
 
     return Outline(
         sections=sections,

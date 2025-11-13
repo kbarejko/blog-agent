@@ -56,12 +56,14 @@ class ReviewService:
             # If calculation fails, return neutral score
             return 50.0
 
-    def review_section(self, content: str) -> Dict[str, any]:
+    def review_section(self, content: str, target_words: Optional[int] = None) -> Dict[str, any]:
         """
         Review a section for quality
 
         Args:
             content: Section content
+            target_words: Optional target word count for this specific section
+                         If provided, overrides default min/max_words
 
         Returns:
             Review result with issues and metrics
@@ -73,16 +75,29 @@ class ReviewService:
         word_count = self.count_words(content)
         metrics['word_count'] = word_count
 
-        if word_count < self.effective_min_words:
-            if self.tolerance_percent > 0:
-                issues.append(f"Too short: {word_count} words (target {self.min_words}, min {self.effective_min_words} with {self.tolerance_percent}% tolerance)")
+        # Calculate effective limits (use target_words if provided)
+        if target_words:
+            # Use target_words with ±10% tolerance
+            tolerance_factor = 0.10  # 10% tolerance
+            effective_min = int(target_words * (1 - tolerance_factor))
+            effective_max = int(target_words * (1 + tolerance_factor))
+            target = target_words
+        else:
+            # Use default limits from config
+            effective_min = self.effective_min_words
+            effective_max = self.effective_max_words
+            target = self.min_words
+
+        if word_count < effective_min:
+            if self.tolerance_percent > 0 or target_words:
+                issues.append(f"Too short: {word_count} words (target {target}, min {effective_min} with 10% tolerance)")
             else:
-                issues.append(f"Too short: {word_count} words (min {self.min_words})")
-        elif word_count > self.effective_max_words:
-            if self.tolerance_percent > 0:
-                issues.append(f"Too long: {word_count} words (target {self.max_words}, max {self.effective_max_words} with {self.tolerance_percent}% tolerance)")
+                issues.append(f"Too short: {word_count} words (min {target})")
+        elif word_count > effective_max:
+            if self.tolerance_percent > 0 or target_words:
+                issues.append(f"Too long: {word_count} words (target {target}, max {effective_max} with 10% tolerance)")
             else:
-                issues.append(f"Too long: {word_count} words (max {self.max_words})")
+                issues.append(f"Too long: {word_count} words (max {target})")
 
         # Flesch Reading Ease
         flesch = self.calculate_flesch_reading_ease(content)
