@@ -94,6 +94,16 @@ steps:
     description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
     enabled: true
 
+  - name: faq
+    module: blog_agent.core.workflow.steps.step_17_faq
+    description: "Generate FAQ section (if in outline)"
+    enabled: true
+
+  - name: checklist
+    module: blog_agent.core.workflow.steps.step_18_checklist
+    description: "Generate Checklist section (if in outline)"
+    enabled: true
+
 # Quality Review Configuration
 review:
   min_words: 300      # Minimum words per section
@@ -105,6 +115,6 @@ review:
 # Metadata
 metadata:
   version: "1.0"
-  total_steps: 16
-  estimated_time: "6-7 minutes"
-  estimated_cost: "$0.09 (Claude Sonnet 4) + images if enabled"
+  total_steps: 18
+  estimated_time: "7-8 minutes"
+  estimated_cost: "$0.10 (Claude Sonnet 4) + images if enabled"
