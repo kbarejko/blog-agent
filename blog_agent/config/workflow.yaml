@@ -1,5 +1,18 @@
 # Workflow Configuration
-# Defines the 16-step article generation process
+# Defines the 18-step article generation process
+#
+# Per-Step AI Provider Configuration:
+# Each step can optionally specify its own AI provider or model:
+#   provider: "gemini"          # Use specific provider (gemini, claude, openai-gpt4o, etc.)
+#   model: "gemini-2.5-flash"   # Auto-detect provider from model name
+#
+# If not specified, uses the default provider passed via CLI (--provider) or article config.
+#
+# Example use cases:
+#   - outline: gemini-2.5-flash (fast and cheap for structure)
+#   - write_sections: claude-sonnet-4 (best quality for content)
+#   - humanize: gpt-4o (excellent at natural language refinement)
+#   - faq: gemini-2.5-flash (good for Q&A generation)
 
 steps:
   - name: init
@@ -11,6 +24,8 @@ steps:
     module: blog_agent.core.workflow.steps.step_02_outline
     description: "Generate article outline"
     enabled: true
+    # provider: gemini  # Optional: use specific provider for this step
+    # model: gemini-2.5-flash  # Optional: auto-detect provider from model
 
   - name: summary
     module: blog_agent.core.workflow.steps.step_03_summary
@@ -21,6 +36,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_04_write_sections
     description: "Write all article sections with AI review"
     enabled: true
+    # provider: claude  # Optional: use Claude for high-quality content
 
   - name: create_draft
     module: blog_agent.core.workflow.steps.step_05_create_draft
@@ -36,6 +52,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_07_humanize
     description: "Humanize content (natural language)"
     enabled: true
+    # model: gpt-4o  # Optional: GPT-4o is excellent at humanization
 
   - name: multimedia
     module: blog_agent.core.workflow.steps.step_08_multimedia

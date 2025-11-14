@@ -186,9 +186,9 @@ def create(config_path: str, provider: str, skip: str, only: str):
     factory = DependencyFactory(project_root)
     deps = factory.create_deps(detected_provider)
 
-    # Create workflow engine
+    # Create workflow engine (pass factory for per-step provider support)
     workflow_config_path = factory.get_workflow_config_path()
-    engine = WorkflowEngine(workflow_config_path)
+    engine = WorkflowEngine(workflow_config_path, factory=factory)
 
     # Execute workflow
     try:
