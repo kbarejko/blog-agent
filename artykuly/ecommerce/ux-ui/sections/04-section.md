@@ -1,29 +1,25 @@
 ## Dostępność - inkluzywny e-commerce dla wszystkich
 
-15% populacji boryka się z różnymi formami niepełnosprawności. To nie statystyka - to 5,7 miliona potencjalnych klientów tylko w Polsce. Sklepy ignorujące dostępność tracą ogromny segment rynku, często nie zdając sobie z tego sprawy.
+Każdy piąty Polak ma jakieś ograniczenia w korzystaniu z internetu. Słabszy wzrok, problemy motoryczne, trudności z koncentracją - to wszystko wpływa na sposób robienia zakupów online. Ignorowanie tej grupy to rezygnacja z 15% potencjalnych klientów.
 
-WCAG 2.1 na poziomie AA to obecnie standard minimum dla e-commerce. To nie tylko kwestia etyczna, ale prawna - dyrektywa o dostępności cyfrowej obowiązuje w całej UE. Sklepy muszą być użyteczne dla wszystkich, nie tylko dla osób bez ograniczeń.
+### WCAG 2.1 - punkt wyjścia, nie cel
 
-### Najczęstsze bariery w sklepach internetowych
+Web Content Accessibility Guidelines to nie biurokratyczna zachcianka, ale praktyczny przewodnik po tworzeniu stron dla wszystkich. Level AA to minimum, które powinien spełniać każdy poważny sklep internetowy. Nie chodzi o idealizm, ale o biznes - dostępny sklep to więcej klientów i mniejsze ryzyko prawne.
 
-Nawigacja klawiaturowa to podstawowy test dostępności. Użytkownik musi móc przejść przez cały proces zakupu używając tylko klawiatury. Jeśli focus nie jest widoczny lub przeskakuje chaotycznie między elementami, osoby niewidzące czy z ograniczoną mobilnością nie dokończą zakupu.
+Dostępność w e-commerce ma swoje specyficzne wyzwania. Nawigacja klawiaturowa musi działać płynnie od strony głównej aż do finalizacji zamówienia. Użytkownik poruszający się tylko klawiszem Tab nie może utknąć w galerii zdjęć produktu.
 
-Czytniki ekranu wymagają semantycznego HTML-a i odpowiednich etykiet. Przycisk z samą ikoną koszyka to zagadka dla NVDA czy JAWS. Screen reader odczyta "przycisk" zamiast "dodaj do koszyka", co dezorientuje użytkownika.
+### Czytniki ekranu a sprzedaż online
 
-Kontrast kolorów niszczy użyteczność dla osób z problemami wzroku. Szary tekst na białym tle może wyglądać elegancko, ale współczynnik 3:1 to za mało. Standard wymaga minimum 4.5:1 dla normalnego tekstu.
+Niewidomi klienci "słuchają" stron internetowych przez specjalne oprogramowanie. Zdjęcie produktu bez alt-tekstu to dla nich kompletna pustka. "Buty sportowe Nike Air Max, czarne z białą podeszwą, rozmiar 42" to informacja użyteczna. "Zdjęcie produktu" to strata czasu i cierpliwości.
 
-### Praktyczne rozwiązania dla dostępności
+Opisowe linki działają jak drogowskazy. Zamiast "kliknij tutaj" lepiej napisać "zobacz szczegóły butów Nike Air Max". Czytnik ekranu może listować wszystkie linki na stronie - użytkownik powinien wiedzieć, dokąd każdy prowadzi.
 
-Alt-teksty dla zdjęć produktów muszą być opisowe, nie dekoracyjne. Zamiast "zdjęcie butów" napisz "czarne sneakersy Nike Air Max rozmiar 42". Osoba niewidząca potrzebuje konkretów, nie ogólników.
+### Kontrast i formularze
 
-Opisowe linki eliminują frustrację. "Kliknij tutaj" to katastrofa dla dostępności. "Zobacz szczegóły produktu" czy "przejdź do płatności" daje kontekst i jasność.
+Szary tekst na białym tle może wyglądać elegancko, ale dla osoby ze słabszym wzrokiem to nieczytelny bełkot. Minimum to stosunek kontrastu 4.5:1 dla normalnego tekstu. Etykiety formularzy muszą być jasno połączone z polami - nie tylko wizualnie, ale też programistycznie.
 
-Etykiety formularzy wymagają powiązania z polami przez atrybut "for". Placeholder to nie etykieta - znika po wpisaniu tekstu. Label musi być stały i jednoznaczny.
+### Testowanie w praktyce
 
-### Testowanie i automatyzacja
+Prawdziwi użytkownicy technologii asystujących to najlepsi testerzy dostępności. Automatyczne narzędzia jak axe-core wychwycą oczywiste błędy, ale człowiek powie, czy strona rzeczywiście się da używać.
 
-Testowanie z technologiami asystującymi odsłania prawdziwe problemy. NVDA to darmowy screen reader dostępny dla każdego developera. 15 minut testowania może uratować tysiące potencjalnych transakcji.
-
-Axe czy WAVE automatyzują podstawowe sprawdzenia. Wykrywają problemy z kontrastem, brakującymi etykietami czy złą strukturą nagłówków. To pierwszy krok, nie ostatni - automatyzacja nie zastąpi testów z prawdziwymi użytkownikami.
-
-Dostępność to inwestycja w większy rynek, nie dodatkowy koszt. Sklepy dostępne dla wszystkich sprzedają więcej wszystkim.
+Dostępny sklep to nie tylko społeczna odpowiedzialność. To przewaga konkurencyjna, która otwiera drzwi do nowego segmentu lojalnych klientów.

@@ -1,23 +1,27 @@
 ## Mobile-first design - projektowanie dla smartfonów
 
-Ponad 60% ruchu w polskim e-commerce pochodzi już z urządzeń mobilnych, ale większość sklepów wciąż projektuje "desktop first" i dopiero potem adaptuje na telefony. To błąd kosztujący miliony złotych w utraconych konwersjach.
+Ponad 60% polskich e-commerce to już handel mobilny. Twój sklep może wyglądać perfekcyjnie na dużym ekranie, ale to telefon decyduje o sukcesie biznesu. Klient stojący w kolejce do lekarza ma trzy minuty na zakup - albo twoja strona mu to umożliwi, albo kupi u konkurencji.
 
-Użytkownicy mobilni zachowują się fundamentalnie inaczej. Na komputerze porównują oferty w kilku kartach, czytają szczegółowe opisy, analizują opinie. Na telefonie podejmują szybkie decyzje, bazują na pierwszym wrażeniu i rzadko wracają do poprzedniej strony. Czas na podjęcie decyzji skraca się o 40%.
+### Inne urządzenie, inne zachowania
 
-Touch nie to kliknięcie. Palec zajmuje 44x44 piksele powierzchni - cztery razy więcej niż kursor myszy. Przyciski mniejsze niż 9mm są praktycznie niemożliwe do trafienia. Menu rozwijane, które świetnie działa na desktopie, na telefonie staje się pułapką frustracji.
+Desktop to spokojne przeglądanie z kursorem precyzyjnie celującym w małe elementy. Mobile to chaos - telefon w jednej ręce, torebka w drugiej, tramwaj podskakuje na kocich łbach. Klient na smartfonie jest niecierpliwy, rozproszony i wymaga większych przycisków.
 
-### Responsive kontra adaptive - starcie technologii
+Mysz pozwala na hover effects i subtelne interakcje. Palec to tępă broń - albo trafia w cel, albo wywołuje frustrację. Minimum 44 piksele na 44 piksele dla klikalnych elementów to nie fanaberia, ale konieczność użyteczności.
 
-Responsive design to jeden kod dla wszystkich urządzeń. Elementy skalują się płynnie, ale telefon musi pobrać wszystkie zasoby - również te przeznaczone dla dużych ekranów. Efekt? Wolniejsze ładowanie mimo mniejszego wyświetlacza.
+### Touch-friendly jako standard
 
-Adaptive design wykrywa urządzenie i serwuje dedykowaną wersję. Telefon dostaje tylko to, co potrzebuje. Koszty developmentu rosną, ale wydajność skacze w górę. Amazon czy Facebook wybierają adaptive - a oni liczą każdy procent konwersji.
+Przyciski "Dodaj do koszyka" muszą być duże jak kciuk dorosłego człowieka. Formularze wymagają przestrzeni między polami - nikt nie chce klikać w cenę zamiast opisu produktu. Galerie zdjęć powinny reagować na swipe, nie na małe strzałeczki z desktopowej ery.
 
-### Thumb-friendly zones decydują o użyteczności
+### Responsive kontra adaptive
 
-Strefa kciuka to obszar, który możesz osiągnąć trzymając telefon jedną ręką. Najważniejsze przyciski - "dodaj do koszyka", "kup teraz", nawigacja - muszą być w dolnej połowie ekranu. Apple i Google nie bez powodu przeniosły główne kontrolki w dół swoich interfejsów.
+Responsive design to jedna strona dopasowująca się do różnych ekranów. Adaptive to osobne wersje dla każdego urządzenia. W e-commerce responsive zwycięża - łatwiejszy w utrzymaniu i lepszy dla SEO. Jeden URL, jedna wersja treści, zero problemów z duplicate content.
 
-Nawigacja na górze ekranu to relikt z ery małych telefonów. Na iPhone'ie 14 Pro Max górny róg to ekspedycja kciukiem. Menu hamburgera powinno być w prawym dolnym rogu dla praworęcznych i lewym dla mańkutów.
+### Nawigacja dla kciuka
 
-Formularze mobilne wymagają całkowicie nowego myślenia. Jedno pole na ekran to często lepsza strategia niż kompresja wszystkiego na widok. Klawiatura zajmuje 50% powierzchni - projektuj z tym ograniczeniem od początku. Autokompletowanie adresów nie to luksus, to konieczność.
+Thumb-friendly zones to dolne 60% ekranu - tam kciuk sięga bez gimnastyki. Najważniejsze elementy - koszyk, filtrowanie, dodawanie produktów - powinny mieszkać w tej strefie komfortu. Hamburger menu w górnym rogu to tortura dla prawej ręki trzymającej duży telefon.
 
-Mobile-first to nie trend, to realność 2024 roku. Sklepy myślące "mobile last" będą ostatnie w wynikach.
+### Formularze bez frustracji
+
+Pięć pól na ekranie telefonu to maksimum przed przewinięciem. Klawiatura mobilna zajmuje pół ekranu, więc każde pole musi być widoczne podczas wypełniania. Autofill i geolokalizacja to nie luksusy, ale oczekiwane ułatwienia.
+
+Mobile UX Best Practices to temat na osobny, szczegółowy przewodnik - fundamenty są jednak proste: większe elementy, mniej kliknięć, więcej przestrzeni.

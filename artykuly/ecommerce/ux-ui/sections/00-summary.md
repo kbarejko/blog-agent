@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Proces checkout traci 69% klientów** - poznaj 5 najważniejszych błędów formularzy zamówień i gotowe rozwiązania które zwiększają konwersję o 35%
-- **3 sekundy to maksimum** - po tym czasie tracisz klientów, ale optymalizacja Core Web Vitals może podnieść sprzedaż o 200% (konkretne metryki i narzędzia)
-- **Dostępność to 15% dodatkowych klientów** - WCAG 2.1 nie tylko chroni przed karami, ale otwiera sklep na osoby z niepełnosprawnościami (praktyczna checklist)
-- **Mobile generuje 60% sprzedaży** - projektowanie mobile-first z thumb-friendly zones i optymalizacją formularzy na małych ekranach
-- **Gotowe narzędzia analityczne** - Google Analytics 4, heatmapy i A/B testy które pokażą gdzie tracisz pieniądze w lejku sprzedaży
+- **Proces checkout traci 70% klientów** - poznasz 5 głównych przyczyn porzucania koszyka i konkretne rozwiązania każdej z nich
+- **3 sekundy to maksimum** - przekroczenie tego progu kosztuje 50% konwersji, a Core Web Vitals bezpośrednio wpływają na ranking Google
+- **Dostępność to 15% dodatkowych klientów** - WCAG 2.1 to nie tylko prawo, ale przewaga konkurencyjna którą łatwo osiągnąć
+- **Mobile generuje 60% ruchu** - thumb-friendly design i optymalizacja formularów na małych ekranach decydują o sukcesie
+- **Gotowe narzędzia do audytu** - praktyczne checklista i metody pomiaru UX które wdrożysz w swoim sklepie już dziś

@@ -1,27 +1,31 @@
 ## Szybkość i wydajność - niewidzialne podstawy UX
 
-Trzy sekundy. Tyle czasu masz na załadowanie strony, zanim użytkownik zacznie myśleć o odejściu. Po 5 sekundach prawdopodobieństwo opuszczenia witryny wzrasta o 90%. To nie kaprys - to psychologia oczekiwania w erze natychmiastowości.
+Trzy sekundy. To wszystko, co masz na zrobienie pierwszego wrażenia w e-commerce. Po tym czasie większość użytkowników zaczyna się niecierpliwić. Po pięciu sekundach co drugi opuszcza stronę, zabierając ze sobą potencjalny zakup.
 
-Mózg interpretuje powolne ładowanie jako sygnał problemu. Użytkownik podświadomie myśli: "Jeśli strona działa wolno, to może sklep też będzie miał problemy z dostawą?". Pierwsze wrażenie buduje się w milisekundach, nie minutach.
+### Psychologia niecierpliwości
 
-### Mobilna rewolucja zmienia zasady gry
+Nasze mózgi działają w trybie natychmiastowej gratyfikacji. Klient, który kliknął link do produktu, już mentalnie go kupuje. Każda sekunda oczekiwania to szansa na zmianę zdania. W tradycyjnym sklepie sprzedawca może zagadać wahającego się klienta. Online takiej drugiej szansy nie ma.
 
-Ruch mobilny w polskim e-commerce przekroczył 60%, ale prędkość łączy mobilnych wciąż pozostaje wyzwaniem. Użytkownik w autobusie ma mniej cierpliwości niż ten przy biurku z szybkim WiFi. Mobilny checkout musi być błyskawiczny.
+Badania Amazon pokazują brutalną prawdę: każde 100 milisekund opóźnienia kosztuje koncern 1% sprzedaży. Dla małego sklepu internetowego może to oznaczać różnicę między zyskiem a stratą.
 
-Korelacja między szybkością a konwersjami to matematyka bez litości. Każda dodatkowa sekunda ładowania oznacza 7% mniej konwersji. Dla sklepu z obrotami 2 miliony rocznie to 140 tysięcy złotych różnicy.
+### Mobilna rzeczywistość
 
-### Core Web Vitals w praktyce e-commerce
+Smartfony zmieniły wszystkie reguły gry. Połączenie 4G w metrze, WiFi w kawiarni, dane w ruchu - każda sytuacja ma inne ograniczenia. Strona, która ładuje się szybko na biurkowym komputerze, może być koszmarem na telefonie.
 
-Largest Contentful Paint (LCP) dla stron produktowych powinien nie przekraczać 2,5 sekundy. Główny obraz produktu musi się załadować natychmiast - to element, na który klient czeka najbardziej. Optymalizacja wymaga kompresji obrazów i priorytetyzacji kluczowych zasobów.
+Mobile-first to nie tylko trend projektowy, ale konieczność techniczna. Większość transakcji e-commerce w Polsce już dzieje się na urządzeniach mobilnych.
 
-Cumulative Layout Shift (CLS) niszczy doświadczenie podczas przeglądania galerii. Gdy obrazy ładują się chaotycznie i przesuwają elementy, użytkownik może przypadkowo kliknąć niewłaściwy przycisk. Stabilny layout to fundament zaufania.
+### Metryki, które się liczą
 
-First Input Delay (FID) ujawnia się podczas interakcji z koszykiem. Klient klika "dodaj do koszyka", a nic się nie dzieje przez 2 sekundy. Podejrzewa, że sklep nie działa i klika ponownie. Rezultat? Chaos w koszyku i frustracja.
+Largest Contentful Paint (LCP) pokazuje, kiedy główny element strony produktu staje się widoczny. Zdjęcie produktu ładujące się ponad 2,5 sekundy to stracona sprzedaż. Klient nie będzie czekał na zobaczenie tego, co chce kupić.
 
-### Narzędzia do kontroli wydajności
+Cumulative Layout Shift (CLS) to zmorą galerii produktów. Zdjęcia przeskakujące podczas ładowania frustrują użytkowników. Klient próbuje kliknąć jeden produkt, a trafia w inny przez opóźnione ładowanie elementów.
 
-Google PageSpeed Insights pokazuje realną wydajność na prawdziwych urządzeniach. GTmetrix dostarcza szczegółowe analizy optymalizacji. Chrome DevTools pozwala debugować problemy w czasie rzeczywistym.
+First Input Delay (FID) najbardziej boli w koszyku. Klient klika "Dodaj do koszyka", nic się nie dzieje, klika ponownie. Wynik? Podwójne produkty w koszyku i zirytowany użytkownik.
 
-Monitoring wydajności to nie jednorazowa akcja, ale ciągły proces. Każda aktualizacja sklepu, nowy plugin czy zmiana w kodzie może spowolnić stronę. Automatyczne alerty przy spadku wydajności pozwalają reagować, zanim klienci zaczną odchodzić.
+### Narzędzia kontroli
 
-Szybkość to niewidzialny sprzedawca, który pracuje 24/7.
+Google PageSpeed Insights to punkt startowy każdej optymalizacji. WebPageTest pokazuje szczegółowe wodospady ładowania. GTmetrix łączy najlepsze z obu światów, oferując konkretne rekomendacje.
+
+Real User Monitoring (RUM) zbiera dane od prawdziwych użytkowników. Laboratoryjna szybkość to jedno, rzeczywiste doświadczenia klientów to zupełnie inna historia.
+
+Szybkość to niewidoczny fundament każdego udanego sklepu internetowego. Klienci jej nie zauważą, gdy jest dobra, ale natychmiast poczują, gdy zawodzi.
