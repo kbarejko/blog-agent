@@ -1,6 +1,21 @@
 # TODO List
 
-## Current Session Tasks (2025-11-07)
+## Current Session Tasks (2025-11-14)
+- [x] Investigate Gemini 2.5 SAFETY blocks with Polish content
+  - **Problem identified:** Gemini 2.5 (Flash & Pro) blocks Polish educational content with empty safety_ratings
+  - **Root cause:** Training data bias - model trained primarily on English, misinterprets Polish technical/business terms as harmful
+  - **Tested solutions:**
+    - ✅ HarmBlockThreshold.BLOCK_NONE - doesn't help
+    - ✅ Numeric value 4 - doesn't help
+    - ✅ gemini-2.0-flash - **WORKS** (older model, different training data)
+  - **Evidence:** Google confirmed 9.6% safety performance decline in Gemini 2.5
+  - **Decision:** Use gemini-2.0-flash for Polish content (15 req/min, stable, no false positives)
+- [ ] **Future task:** Monitor Gemini API updates - check if Google fixes Polish/non-English content blocking in 2.5+
+  - Check release notes: https://ai.google.dev/gemini-api/docs/models/gemini
+  - Re-test gemini-2.5-flash with Polish prompts quarterly
+  - Consider switching back to 2.5 when bug is fixed (newer model, better capabilities)
+
+## Previous Session Tasks (2025-11-07)
 - [x] Setup venv and install blog-agent CLI
 - [x] Run end-to-end test #1 (identified truncation issue)
 - [x] Fix CLI status command (PosixPath error)
