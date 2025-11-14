@@ -5,6 +5,7 @@ Implementation using Google Generative AI API.
 """
 from typing import Dict, Any, Optional
 import google.generativeai as genai
+from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
 from .base_provider import BaseAIProvider
 
@@ -57,12 +58,63 @@ class GeminiProvider(BaseAIProvider):
                 temperature=temperature if temperature is not None else self.default_temperature,
             )
 
+            # Configure safety settings (permissive for content generation)
+            # Set to BLOCK_NONE to minimize false positives
+            safety_settings = {
+                HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+                HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+                HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+                HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+            }
+
             # Generate content
             response = self.model.generate_content(
                 prompt,
                 generation_config=generation_config,
+                safety_settings=safety_settings,
                 **kwargs
             )
+
+            # Check if response was blocked
+            if not response.candidates:
+                # Response blocked at prompt level
+                feedback = response.prompt_feedback
+                raise RuntimeError(
+                    f"Gemini blocked prompt. "
+                    f"Block reason: {feedback.block_reason if hasattr(feedback, 'block_reason') else 'Unknown'}. "
+                    f"Safety ratings: {feedback.safety_ratings if hasattr(feedback, 'safety_ratings') else 'N/A'}"
+                )
+
+            # Check finish reason
+            candidate = response.candidates[0]
+            finish_reasons = {
+                1: 'STOP',           # Success
+                2: 'SAFETY',         # Blocked by safety filters
+                3: 'MAX_TOKENS',     # Reached token limit
+                4: 'RECITATION',     # Blocked due to recitation
+                5: 'OTHER'           # Other reason
+            }
+
+            if candidate.finish_reason != 1:  # 1 = STOP (success)
+                reason = finish_reasons.get(candidate.finish_reason, f'UNKNOWN({candidate.finish_reason})')
+
+                # Build detailed error message
+                error_parts = [f"Gemini generation failed: finish_reason={reason}"]
+
+                if hasattr(candidate, 'safety_ratings') and candidate.safety_ratings:
+                    ratings_str = ', '.join([
+                        f"{rating.category.name}={rating.probability.name}"
+                        for rating in candidate.safety_ratings
+                    ])
+                    error_parts.append(f"Safety ratings: {ratings_str}")
+
+                if candidate.finish_reason == 2:  # SAFETY
+                    error_parts.append(
+                        "Content was blocked by safety filters. "
+                        "This may be a false positive. Try rephrasing the prompt or using a different model."
+                    )
+
+                raise RuntimeError(' '.join(error_parts))
 
             # Extract text from response
             return response.text
