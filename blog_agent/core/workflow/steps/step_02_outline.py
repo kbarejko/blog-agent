@@ -99,7 +99,8 @@ def execute_outline(
 
     # Generate outline with AI
     # Silo articles need more tokens (more sections, FAQ required, links to articles)
-    max_tokens = 3500 if is_silo_article else 2000
+    # Gemini models may need more tokens due to different tokenization
+    max_tokens = 5000 if is_silo_article else 2500
     response = ai.generate(prompt, max_tokens=max_tokens)
 
     # Parse outline from response
