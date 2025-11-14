@@ -108,11 +108,20 @@ class GeminiProvider(BaseAIProvider):
                     ])
                     error_parts.append(f"Safety ratings: {ratings_str}")
 
+                    # Print to console for debugging
+                    print(f"\n⚠️  Gemini Safety Ratings:")
+                    for rating in candidate.safety_ratings:
+                        print(f"   - {rating.category.name}: {rating.probability.name}")
+
                 if candidate.finish_reason == 2:  # SAFETY
                     error_parts.append(
                         "Content was blocked by safety filters. "
                         "This may be a false positive. Try rephrasing the prompt or using a different model."
                     )
+
+                    # Show prompt snippet for debugging
+                    prompt_preview = prompt[:500] if len(prompt) > 500 else prompt
+                    print(f"\n⚠️  Prompt preview (first 500 chars):\n{prompt_preview}\n")
 
                 raise RuntimeError(' '.join(error_parts))
 
