@@ -5,10 +5,13 @@ categories:
 - slug: sklepy-internetowe
   title: Sklepy Internetowe
   path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
 - slug: marketing-w-internecie
   title: Marketing w Internecie
   path: marketing-w-internecie
-- slug: technologie-dla-firm
-  title: Technologie dla firm
-  path: firma/technologie-dla-firm
-count: 4
+- slug: strategia-it
+  title: Strategia IT
+  path: strategia-it
+count: 5
