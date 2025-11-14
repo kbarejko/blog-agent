@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **PayU vs Przelewy24 vs Stripe** - szczegółowe porównanie prowizji, funkcji i wpływu na konwersję dla sklepów o różnym wolumenie sprzedaży
 - **Paczkomaty obniżają koszty o 30-40%** - InPost, DPD Pickup i Allegro One Box jako alternatywa dla tradycyjnych kurierów z pełną analizą kosztów
@@ -6,14 +6,13 @@
 - **Marketplace'y generują 40% więcej ruchu** - Allegro Smart, Amazon i ekspansja cross-border z wyliczeniami ROI i kosztów prowizji
 - **Zwroty kosztują średnio 12% przychodu** - automatyzacja etykiet, polityka zwrotów i strategie minimalizacji kosztów przy zachowaniu satysfakcji klientów
 
-
 ## Wprowadzenie - Ekosystem płatności i logistyki w e-commerce
 
-# Płatności & logistyka - checkout, Paczkomaty, zwroty, marketplace'y
+### Płatności & logistyka - checkout, Paczkomaty, zwroty, marketplace'y
 
 70% koszyków w polskich sklepach online zostaje porzuconych. Połowa z tych rezygnacji to efekt problemów w płatnościach lub wątpliwości co do dostawy.
 
-## Wprowadzenie - Ekosystem płatności i logistyki w e-commerce
+#### Wprowadzenie - Ekosystem płatności i logistyki w e-commerce
 
 Płatności i logistyka to szkielet każdego sklepu internetowego. Bez sprawnych systemów płatniczych klient nie sfinalizuje zakupu. Bez dobrej logistyki nie otrzyma produktu na czas.
 
@@ -91,7 +90,7 @@ Najlepsze integracje łączą kilku operatorów w jednym panelu. Klient wybiera 
 
 Allegro to 60% polskiego e-commerce. Własna logistyka, dedykowane metody płatności, miliony aktywnych użytkowników. Dla wielu sklepów to nie opcja - to konieczność.
 
-Specyfika płatności na Allegro upraszacza proces. Allegro Pay obsługuje karty, BLIK, raty. Sprzedawca dostaje pieniądze bez konieczności własnej integracji płatniczej. Minus? Prowizja 4,8-5,5% vs 2,9% w przypadku własnego operatora.
+Specyfika płatności na Allegro upraszcza proces. Allegro Pay obsługuje karty, BLIK, raty. Sprzedawca dostaje pieniądze bez konieczności własnej integracji płatniczej. Minus? Prowizja 4,8-5,5% vs 2,9% w przypadku własnego operatora.
 
 Allegro Smart! to gra o widoczność. Darmowa dostawa dla klientów, wyższe pozycje w wynikach wyszukiwania, więcej sprzedaży. Koszt? Sprzedawca dopłaca około 5-8 zł do każdej przesyłki. Przy średniej marży 30% to spore obciążenie rentowności.
 
