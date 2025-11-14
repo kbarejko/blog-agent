@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Optymalizacja produktów zwiększa konwersję o 30-50%** - strategiczne umieszczenie słów kluczowych w nazwach, opisach i atrybutach alt obrazów napędza zarówno ranking jak i sprzedaż
-- **Szybka dostawa wpływa na SEO pośrednio** - Google nagradza strony z niskim bounce rate, a przejrzyste informacje o InPost/DPD/DHL w koszyku redukują porzucenia o 25%
-- **Bezpieczne płatności to ranking + konwersja** - SSL, BLIK, płatności odroczone nie tylko uspokajają klientów, ale sygnalizują Google'owi profesjonalizm sklepu
-- **SEO międzynarodowe otwiera nowe rynki** - hreflang, lokalizowane treści i cross-border logistyka mogą podwoić ruch organiczny z UE w 6 miesięcy
-- **Transparentne zwroty budują zaufanie** - jasna polityka reklamacji zmniejsza negatywne opinie, które niszczą local SEO i pozycję w wynikach
+- **Checkout zoptymalizowany zwiększa konwersję o 35%** - konkretne kroki do uproszczenia procesu płatności i redukcji porzucania koszyka
+- **BLIK, przelewy, karty, Buy Now Pay Later** - pełny przegląd metod płatności z kosztami prowizji i preferencjami polskich klientów
+- **InPost, DPD, DHL - porównanie kosztów i integracji** - praktyczne zestawienie operatorów logistycznych z gotowymi rozwiązaniami API
+- **Zwroty jako narzędzie budowania lojalności** - jak przekształcić obowiązkowy proces w przewagę konkurencyjną i zwiększyć retention
+- **Marketplace'y generują 40% więcej ruchu** - strategie sprzedaży na Allegro, Amazon i innych platformach z checklist do szybkiego startu
