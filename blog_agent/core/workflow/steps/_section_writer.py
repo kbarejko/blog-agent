@@ -245,6 +245,10 @@ def write_section_with_review(
 
     prompt = prompts.load_and_render(prompt_path, variables)
 
+    # Get expected structure for H3 injection
+    expected_structure = section.get('description', '')
+    target_words = section.get('target_words')
+
     # Track all attempts to select the best one
     attempts = []  # List of (content, review_result) tuples
 
@@ -256,11 +260,7 @@ def write_section_with_review(
         content = ai.generate(prompt, max_tokens=1500)
 
         # Review with section-specific target words (no structure validation - we inject H3 anyway)
-        target_words = section.get('target_words')
-        review_result = review.review_section(
-            content,
-            target_words=target_words
-        )
+        review_result = review.review_section(content, target_words=target_words)
 
         # Store this attempt
         attempts.append((content, review_result))
@@ -282,11 +282,10 @@ def write_section_with_review(
             prompt = f"{prompt}\n\n---\n\n## FEEDBACK NA POPRZEDNIĄ WERSJĘ\n\n{feedback}\n\n**Przepisz sekcję uwzględniając powyższe uwagi:**"
 
     # Max retries reached - select the attempt closest to requirements
-    best_content, best_result = _select_best_attempt(attempts, section.get('target_words'))
+    best_content, best_result = _select_best_attempt(attempts, target_words)
     print(f"   ⚠️  Max retries reached. Selected attempt closest to requirements: {', '.join(best_result['issues'])}")
 
     # Inject H3 structure if missing
-    expected_structure = section.get('description', '')
     content = _inject_h3_structure(best_content, expected_structure)
     # Add H2 header from outline (if not already present)
     content = _ensure_section_header(content, section['title'])
