@@ -85,6 +85,74 @@ model: claude-sonnet-4-20250514 # Uses claude provider (default)
 
 No need to specify `--provider` when the model is in your config!
 
+### Per-Step Provider Configuration
+
+**NEW:** Configure different AI providers for different workflow steps!
+
+Each step in `workflow.yaml` can use a different AI provider or model. This allows you to optimize for cost, speed, or quality at each stage:
+
+```yaml
+# blog_agent/config/workflow.yaml
+steps:
+  - name: outline
+    module: blog_agent.core.workflow.steps.step_02_outline
+    enabled: true
+    provider: gemini  # Fast and cheap for structure generation
+    
+  - name: write_sections
+    module: blog_agent.core.workflow.steps.step_04_write_sections
+    enabled: true
+    model: claude-sonnet-4-20250514  # Best quality for content
+    
+  - name: humanize
+    module: blog_agent.core.workflow.steps.step_07_humanize
+    enabled: true
+    model: gpt-4o  # Excellent at natural language refinement
+```
+
+**Benefits:**
+- 💰 **Cost optimization**: Use cheaper models for simpler tasks (outline, FAQ)
+- ⚡ **Speed**: Use faster models where quality matters less
+- 🎯 **Quality**: Use best models where it counts (content writing)
+- 🔄 **Flexibility**: Mix providers based on their strengths
+
+**Example configurations:**
+
+```yaml
+# Budget-friendly: Gemini for everything
+steps:
+  - name: outline
+    provider: gemini-flash
+  - name: write_sections
+    provider: gemini-flash
+  - name: humanize
+    provider: gemini-flash
+# Cost: ~$0.02 per article
+
+# Balanced: Gemini for structure, Claude for content
+steps:
+  - name: outline
+    model: gemini-2.5-flash
+  - name: write_sections
+    model: claude-sonnet-4-20250514
+  - name: humanize
+    model: gemini-2.5-pro
+# Cost: ~$0.12 per article
+
+# Premium: Claude for everything
+steps:
+  - name: outline
+    provider: claude
+  - name: write_sections
+    provider: claude
+  - name: humanize
+    provider: claude
+# Cost: ~$0.15 per article
+```
+
+If a step doesn't specify a provider/model, it uses the default from CLI (`--provider`) or article config.
+
+
 **Available Providers:**
 
 | Provider | Model | Quality | Speed | Cost |
