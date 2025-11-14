@@ -1,21 +1,35 @@
-## Wewnętrzna wyszukiwarka - klucz do znalezienia produktów
+## Szybkość jako element UX - wpływ na zachowania użytkowników
 
-Połowa użytkowników sklepu internetowego sięga po wyszukiwarkę w ciągu pierwszych 30 sekund. To nie przypadek – ludzie przychodzą z konkretnym celem, a nie po to, żeby klikać przez dziesiątki kategorii.
+Użytkownik kliknął w produkt i patrzy na pusty ekran. Jedną sekunda, drugą, trzecią – i już odszedł do konkurencji. W e-commerce szybkość to nie luksus, to konieczność. Każda milisekunda decyduje o tym, czy klient zostanie czy odejdzie z pustymi rękami.
 
-Użytkownicy wyszukiwarki wewnętrznej to szczególna grupa. Konwertują częściej o 2-3 razy w porównaniu do tych, którzy tylko przeglądają kategorie. Wiedzą, czego chcą, i są bliżej decyzji zakupowej. Dlatego każdy problem z wyszukiwaniem to bezpośrednia strata w sprzedaży.
+**LCP (Largest Contentful Paint) dla stron produktowych**
 
-Zero results queries – zapytania bez wyników – to sytuacja alarmowa. 68% użytkowników, którzy nie znajdą niczego przy pierwszym wyszukiwaniu, opuszcza sklep natychmiast. Nie próbują ponownie, nie sprawdzają kategorii. Po prostu odchodzą.
+Largest Contentful Paint to moment, kiedy główna zawartość strony staje się widoczna. Dla strony produktu oznacza to zdjęcie, cenę i przycisk "Dodaj do koszyka". Google wymaga LCP poniżej 2.5 sekundy, ale w e-commerce liczy się każda dziesiąta. Amazon traktuje 2 sekundy jak wieczność – i ma rację.
 
-Najczęstszy problem? Sklepy wyszukują tylko w tytułach produktów, ignorując opisy, marki czy parametry techniczne. Ktoś szuka "czerwonej sukienki", a system nie znajduje produktu opisanego jako "sukienka bordowa". Synonimów nikt nie dodał.
+**FID (First Input Delay) w procesie dodawania do koszyka**
 
-Autocomplete to nie tylko wygoda – to edukacja klienta. Podpowiadając popularne frazy, pokazujesz, co masz w ofercie. "iPhone 15 Pro" może rozwinąć się do "iPhone 15 Pro Max", "iPhone 15 Pro Case", sugerując dodatkowe możliwości.
+First Input Delay mierzy czas reakcji na pierwsze kliknięcie użytkownika. Klient klika "Dodaj do koszyka" i nic się nie dzieje – to klasyczny sposób na zrujnowanie konwersji. Ideały FID to poniżej 100 milisekund. Powyżej tego progu ludzie zaczynają klikać wielokrotnie lub zmieniają zdanie.
 
-Dogłębną analizę search analytics znajdziesz w: [Search Analytics](/search-analytics)
+**CLS (Cumulative Layout Shift) i jego wpływ na frustrację użytkowników**
 
-Analiza zapytań bez wyników ujawnia luki w asortymencie lub problemy z nazewnictwem. Jeśli 200 osób miesięcznie szuka "bezprzewodowych słuchawek", a ty sprzedajesz "słuchawki bluetooth", masz problem z komunikacją, nie z produktem.
+Layout shift to frustracja w czystej postaci. Użytkownik celuje w przycisk "Kup teraz", ale w ostatniej chwili ładuje się baner i klika w reklamę. CLS mierzy właśnie takie "skakanie" elementów. Zero CLS to cel, do którego warto dążyć – szczególnie na mobile.
 
-Personalizacja wyników powinna być subtelna. Ktoś, kto wcześniej kupował produkty premium, może zobaczyć nieco inne ranking niż osoba szukająca zawsze najtańszych opcji. Ale algorytm nie może być zbyt nachalni – użytkownicy cenią także odkrywanie nowych rzeczy.
+**Lazy loading obrazków produktów**
 
-Filtrowanie wyników wymaga przemyślenia hierarchii. Najpopularniejsze filtry – cena, marka, rozmiar – powinny być zawsze widoczne. Reszta może się kryć za przyciskiem "więcej filtrów". Zbyt wiele opcji od razu paraliżuje decyzje.
+Ładowanie wszystkich zdjęć na raz to marnowanie zasobów. Lazy loading pokazuje obrazki dopiero gdy są potrzebne. Instagram perfekte opanował tę sztukę – przewijasz feed, a kolejne posty ładują się płynnie w tle. W sklepie z setkami produktów to różnica między 2 a 10 sekundami ładowania.
 
-Szybkość wyszukiwarki ma znaczenie psychologiczne. Wyniki powinny pojawiać się niemal natychmiast, podczas wpisywania. Opóźnienie dłuższe niż 200 milisekund sprawia wrażenie, że system "myśli", a to budzi wątpliwości.
+**Optymalizacja czasu ładowania na urządzeniach mobilnych**
+
+Mobile to inne uniwersum. Połączenia gorsze, procesory słabsze, cierpliwość mniejsza. Obrazki muszą być skompresowane, JavaScript zminifikowany, a krytyczny CSS wbudowany inline. Progressive Web Apps to przyszłość – aplikacyjna płynność w przeglądarce.
+
+**Cache'owanie dla lepszego UX powracających klientów**
+
+Pierwszy wizyta to walka o każdą sekundę. Druga wizyta powinna być błyskawiczna dzięki cache'owaniu. Browser cache, CDN, service workers – każda warstwa przyspiesza powrót klienta.
+
+Więcej o optymalizacji szybkości w: [Performance UX w E-commerce] (planowany artykuł)
+
+**Skeleton screens i progressive loading** zastępują nudne loading spinnery. Pokazują strukturę strony przed załadowaniem treści. Facebook pionierował to rozwiązanie – użytkownik widzi "szkielet" posta, więc czuje że coś się dzieje.
+
+**Feedback wizualny podczas ładowania** to komunikacja z użytkownikiem. Progress bary, shimmer effects, micro-interactions – wszystko po to, żeby klient wiedział że system pracuje, nie zawiesił się.
+
+**Priorytyzacja krytycznej treści above-the-fold** oznacza ładowanie najpierw tego, co klient widzi od razu. Cena, główne zdjęcie, przycisk zakupu – to ładuje się pierwsze. Opisy i recenzje mogą poczekać ułamek sekundy dłużej.
