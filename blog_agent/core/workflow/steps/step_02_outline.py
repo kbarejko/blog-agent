@@ -119,11 +119,25 @@ def execute_outline(
     # Set outline on article
     article.set_outline(outline)
 
-    # Save outline.md
+    # Save outline.md (main sections only)
     outline_path = article.get_outline_path()
     storage.write_file(outline_path, outline.to_markdown())
 
-    print(f"✅ Outline created: {len(outline.sections)} sections (FAQ and Checklist always included)")
+    # Extract and save FAQ outline separately
+    faq_content = _extract_faq_from_response(response)
+    if faq_content:
+        faq_outline_path = article.path / 'faq_outline.md'
+        storage.write_file(faq_outline_path, faq_content)
+        print(f"✅ FAQ outline saved to faq_outline.md")
+
+    # Extract and save Checklist outline separately
+    checklist_content = _extract_checklist_from_response(response)
+    if checklist_content:
+        checklist_outline_path = article.path / 'checklist_outline.md'
+        storage.write_file(checklist_outline_path, checklist_content)
+        print(f"✅ Checklist outline saved to checklist_outline.md")
+
+    print(f"✅ Outline created: {len(outline.sections)} main sections")
 
     # Git commit
     series, silo, slug = article.get_series_silo_slug()
@@ -333,3 +347,122 @@ def _parse_outline_from_response(response: str) -> Outline:
         sections=sections,
         estimated_word_count=estimated_words
     )
+
+
+def _extract_faq_from_response(response: str) -> str:
+    """
+    Extract FAQ section from outline response
+
+    Looks for FAQ H2 section or series of H3 questions starting with ### 1. ?
+
+    Args:
+        response: Full outline response
+
+    Returns:
+        FAQ content as markdown (questions with description points) or empty string if not found
+    """
+    import re
+
+    lines = response.split('\n')
+    faq_lines = []
+    in_faq = False
+
+    for line in lines:
+        line_stripped = line.strip()
+        line_lower = line_stripped.lower()
+
+        # Detect FAQ start - either H2 with FAQ keywords or ### 1. with question mark
+        if not in_faq:
+            # Check for H2 FAQ section
+            if line_stripped.startswith('##') and any(keyword in line_lower for keyword in ['faq', 'najczęściej zadawane', 'pytania']):
+                in_faq = True
+                continue  # Skip the H2 header itself
+
+            # Check for ### 1. Question? (FAQ without H2 header)
+            if re.match(r'^###\s*1[\.\)]\s*.*\?', line_stripped):
+                in_faq = True
+
+        if in_faq:
+            # Stop if we hit another H2 (next main section) - but not H3!
+            if line_stripped.startswith('##') and not line_stripped.startswith('###'):
+                break
+
+            # Stop if we hit checklist checkbox items
+            if line_stripped.startswith('- ['):
+                break
+
+            # Add all FAQ content (H3 questions and bullet points)
+            faq_lines.append(line)
+
+    if not faq_lines:
+        return ""
+
+    # Clean up and return
+    faq_content = '\n'.join(faq_lines).strip()
+
+    if not faq_content:
+        return ""
+
+    # Add header
+    faq_content = "# FAQ Outline\n\n" + faq_content
+
+    return faq_content
+
+
+def _extract_checklist_from_response(response: str) -> str:
+    """
+    Extract Checklist section from outline response
+
+    Looks for checklist checkbox items (- [ ] or - [x])
+
+    Args:
+        response: Full outline response
+
+    Returns:
+        Checklist content as markdown (checkbox list) or empty string if not found
+    """
+    lines = response.split('\n')
+    checklist_lines = []
+    in_checklist = False
+    checklist_started = False
+
+    for i, line in enumerate(lines):
+        line_stripped = line.strip()
+        line_lower = line_stripped.lower()
+
+        # Detect Checklist start - H2 with checklist keywords
+        if not in_checklist:
+            if line_stripped.startswith('##') and any(keyword in line_lower for keyword in ['checklist', 'lista kontrolna', 'check list']):
+                in_checklist = True
+                checklist_started = True
+                continue  # Skip the H2 header
+
+        # Also detect by checkbox pattern (- [ ] or - [x])
+        if not in_checklist and (line_stripped.startswith('- [ ]') or line_stripped.startswith('- [x]')):
+            in_checklist = True
+            checklist_started = True
+
+        if in_checklist:
+            # Stop if we hit another H2
+            if line_stripped.startswith('##'):
+                break
+
+            # Add checklist items (checkboxes and description text)
+            # Include checkbox items and any description lines between them
+            if line_stripped.startswith('- [') or (checklist_lines and line_stripped and not line_stripped.startswith('#')):
+                checklist_lines.append(line)
+
+    if not checklist_started:
+        return ""
+
+    # Clean up and return
+    checklist_content = '\n'.join(checklist_lines).strip()
+
+    if not checklist_content:
+        return ""
+
+    # Add header if not present
+    if not checklist_content.startswith('#'):
+        checklist_content = "# Checklist Outline\n\n" + checklist_content
+
+    return checklist_content
