@@ -16,7 +16,6 @@ Wygeneruj 5-8 pytań FAQ które:
 
 ## Format:
 
-```markdown
 ### 1. [Pytanie konkretne i praktyczne]?
 
 [Zwięzła odpowiedź 2-4 zdania]
@@ -24,6 +23,7 @@ Wygeneruj 5-8 pytań FAQ które:
 ### 2. [Kolejne pytanie]?
 
 [Odpowiedź]
-```
+
+**WAŻNE:** Zwróć sam markdown bez opakowywania w ```markdown ... ```. Po prostu wygeneruj pytania i odpowiedzi zaczynając od ### 1.
 
 Pisz naturalnie, bez żargonu. Odpowiedzi powinny dawać konkretną wartość.

@@ -1,4 +1,3 @@
-```markdown
 ### 1. Jak długo powinien trwać proces checkout w sklepie internetowym?
 
 Idealny proces checkout powinien być możliwy do ukończenia w maksymalnie 3-4 krokach i nie dłużej niż 2-3 minuty. Każdy dodatkowy krok zwiększa ryzyko porzucenia koszyka o około 20%. Najważniejsze to oferować opcję zakupów bez rejestracji (guest checkout) i minimalizować liczbę wymaganych pól w formularzach.
@@ -26,4 +25,3 @@ Responsive design to minimum, ale nie wystarczy. Sklep mobilny wymaga dedykowane
 ### 7. Jak często powinienem testować UX mojego sklepu?
 
 UX należy testować regularnie - przynajmniej raz na kwartał lub po każdej większej zmianie w sklepie. Używaj narzędzi jak heatmapy, nagrania sesji użytkowników oraz testy A/B. Szczególną uwagę poświęć procesom: wyszukiwania produktów, dodawania do koszyka i finalizacji zakupu.
-```

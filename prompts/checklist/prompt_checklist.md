@@ -16,13 +16,13 @@ Wygeneruj checklist z 8-12 pozycjami które:
 
 ## Format:
 
-```markdown
 ## Checklist: [Nazwa związana z tematem]
 
 - [ ] [Konkretny, wykonalny krok 1]
 - [ ] [Konkretny, wykonalny krok 2]
 - [ ] [Konkretny, wykonalny krok 3]
 ...
-```
+
+**WAŻNE:** Zwróć sam markdown bez opakowywania w ```markdown ... ```. Po prostu wygeneruj checklist zaczynając od ## Checklist:.
 
 Każdy punkt powinien być jasny i jednoznaczny. Unikaj ogólników.

@@ -1,7 +1,6 @@
-```markdown
 ## Co dalej?
 
-### ✅ Jeśli planujesz optymalizację UX/UI w najbliższych 2-3 miesiącach:
+### Jeśli planujesz optymalizację UX/UI w najbliższych 2-3 miesiącach:
 
 **Pierwsze kroki:**
 1. **Zrób audyt checkout flow** - przejdź przez cały proces zakupu na różnych urządzeniach, zmierz ile kroków potrzeba do finalizacji
@@ -52,4 +51,3 @@ Jeśli odpowiedziałeś "tak" na 2+ pytania, optymalizacja UX/UI może znacząco
 - [Dołącz do webinaru "Mobile UX Best Practices"](#) - live Q&A z ekspertami UX
 
 💡 **Wskazówka:** UX w e-commerce to nie jednorazowy projekt, lecz ciągły proces optymalizacji. Najlepsze wyniki dają regularne A/B testy i stopniowe ulepszenia oparte na danych z rzeczywistych użytkowników. Zacznij od quick wins, a następnie inwestuj w kompleksowe rozwiązania.
-```
