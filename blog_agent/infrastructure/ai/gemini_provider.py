@@ -51,7 +51,7 @@ class GeminiProvider(BaseAIProvider):
         Returns:
             Generated text
         """
-        # Retry logic for SAFETY false positives
+        # Retry logic for SAFETY false positives and rate limits
         max_retries = 3
         retry_delay = 1  # seconds
 
@@ -61,7 +61,27 @@ class GeminiProvider(BaseAIProvider):
             except RuntimeError as e:
                 error_msg = str(e)
 
-                # Only retry on SAFETY blocks with NEGLIGIBLE ratings (false positives)
+                # Handle rate limit errors (429)
+                if '429' in error_msg and 'retry in' in error_msg:
+                    if attempt < max_retries - 1:
+                        import re
+                        import time
+
+                        # Extract retry delay from error message
+                        match = re.search(r'retry in ([\d.]+)s', error_msg)
+                        if match:
+                            retry_seconds = float(match.group(1))
+                            print(f"   ⏳ Rate limit exceeded - waiting {retry_seconds:.0f}s...")
+                            print(f"   🔄 Retrying... (attempt {attempt + 2}/{max_retries})")
+                            time.sleep(retry_seconds + 1)  # +1s buffer
+                            continue
+                        else:
+                            # Fallback if we can't extract delay
+                            print(f"   ⏳ Rate limit exceeded - waiting 20s...")
+                            time.sleep(20)
+                            continue
+
+                # Handle SAFETY blocks with NEGLIGIBLE ratings (false positives)
                 if 'finish_reason=SAFETY' in error_msg and 'NEGLIGIBLE' in error_msg:
                     if attempt < max_retries - 1:
                         import time
