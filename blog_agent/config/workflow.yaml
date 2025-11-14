@@ -25,7 +25,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_02_outline
     description: "Generate article outline"
     enabled: true
-    provider: gemini-pro  # Optional: use specific provider for this step
+    # provider: gemini-2.0-flash  # Use default (Claude) - more reliable, no safety issues
 
   - name: summary
     module: blog_agent.core.workflow.steps.step_03_summary
