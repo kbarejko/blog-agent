@@ -145,6 +145,8 @@ def _humanize_question(qa_text: str, target_audience: str, ai, prompts) -> str:
     """
     Humanize a single FAQ question+answer
 
+    Keeps answer concise (50-70 words)
+
     Args:
         qa_text: Question and answer markdown (### Question\n\nAnswer)
         target_audience: Target audience for tone
@@ -162,8 +164,11 @@ def _humanize_question(qa_text: str, target_audience: str, ai, prompts) -> str:
         }
     )
 
-    # Humanize with moderate token limit
-    humanized = ai.generate(prompt, max_tokens=1500)
+    # Add instruction to keep answers short
+    prompt += "\n\n**WAŻNE:** Odpowiedź MUSI mieć maksymalnie 50-70 słów (2-3 zdania). Nie rozwijaj zbyt szczegółowo."
+
+    # Humanize with limited tokens to enforce brevity
+    humanized = ai.generate(prompt, max_tokens=400)
 
     return humanized.strip()
 
@@ -172,7 +177,7 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
     """
     Add internal links to FAQ content
 
-    Finds related articles in the same silo and adds contextual links
+    Finds related articles in the same silo and adds contextual links using AI
 
     Args:
         faq_content: FAQ content
@@ -226,20 +231,83 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
     if not related_articles:
         return faq_content
 
-    # Add links to FAQ (simple approach: add at end of each answer if keyword matches)
-    # This is simplified - could use AI to place links contextually
+    # Parse FAQ into questions and add relevant links
     lines = faq_content.split('\n')
     output_lines = []
-    in_answer = False
+    current_question = None
+    current_answer_lines = []
 
     for line in lines:
-        output_lines.append(line)
+        line_stripped = line.strip()
 
-        if line.strip().startswith('###'):
-            in_answer = True
-        elif in_answer and line.strip() == '':
-            # End of answer - check if we can add a link
-            # Simple heuristic: add link if FAQ question mentions related article topic
-            in_answer = False
+        # Detect question
+        if line_stripped.startswith('###') and '?' in line_stripped:
+            # Save previous Q&A with link
+            if current_question:
+                # Find best matching article for this Q&A
+                qa_text = current_question + '\n' + '\n'.join(current_answer_lines)
+                best_match = _find_best_article_match(qa_text, related_articles)
+
+                # Add Q&A to output
+                output_lines.append(current_question)
+                output_lines.extend(current_answer_lines)
+
+                # Add link if found
+                if best_match:
+                    output_lines.append('')
+                    output_lines.append(f"**Więcej:** [{best_match['title']}]({best_match['url']})")
+
+                output_lines.append('')  # Empty line between Q&As
+
+            # Start new question
+            current_question = line
+            current_answer_lines = []
+        else:
+            # Add to current answer
+            if current_question:
+                current_answer_lines.append(line)
+
+    # Save last Q&A
+    if current_question:
+        qa_text = current_question + '\n' + '\n'.join(current_answer_lines)
+        best_match = _find_best_article_match(qa_text, related_articles)
+
+        output_lines.append(current_question)
+        output_lines.extend(current_answer_lines)
+
+        if best_match:
+            output_lines.append('')
+            output_lines.append(f"**Więcej:** [{best_match['title']}]({best_match['url']})")
 
     return '\n'.join(output_lines)
+
+
+def _find_best_article_match(qa_text: str, related_articles: list) -> dict:
+    """
+    Find best matching article for Q&A using keyword matching
+
+    Args:
+        qa_text: Question and answer text
+        related_articles: List of related articles
+
+    Returns:
+        Best matching article dict or None
+    """
+    if not related_articles:
+        return None
+
+    qa_lower = qa_text.lower()
+    best_match = None
+    best_score = 0
+
+    for article in related_articles:
+        # Simple keyword matching from slug
+        keywords = article['slug'].split('-')
+        score = sum(1 for keyword in keywords if keyword in qa_lower)
+
+        if score > best_score:
+            best_score = score
+            best_match = article
+
+    # Only return if at least one keyword matched
+    return best_match if best_score > 0 else None

@@ -12,7 +12,8 @@ Wygeneruj 5-8 pytań FAQ które:
 - Odpowiadają na praktyczne wątpliwości czytelników
 - Dotyczą tematu artykułu
 - Są konkretne i pomocne
-- Zawierają krótkie, zwięzłe odpowiedzi (2-4 zdania)
+- **WAŻNE:** Każda odpowiedź MUSI mieć 50-70 słów (2-3 zdania maksymalnie)
+- Odpowiedzi zwięzłe, konkretne, bez rozwijania tematu
 
 ## Format:
 
