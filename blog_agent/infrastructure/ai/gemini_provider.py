@@ -52,52 +52,55 @@ class GeminiProvider(BaseAIProvider):
             Generated text
         """
         # Retry logic for SAFETY false positives and rate limits
-        max_retries = 3
+        max_safety_retries = 3  # Max retries for SAFETY false positives
+        max_total_attempts = 10  # Hard limit to prevent infinite loops
         retry_delay = 1  # seconds
 
-        for attempt in range(max_retries):
+        import time
+        import re
+
+        attempt = 0
+        while attempt < max_total_attempts:
             try:
                 return self._generate_with_safety_check(prompt, max_tokens, temperature, **kwargs)
             except RuntimeError as e:
                 error_msg = str(e)
+                attempt += 1
 
-                # Handle rate limit errors (429) - ALWAYS retry these, even on last attempt
+                # Handle rate limit errors (429) - retry with suggested delay
                 if '429' in error_msg and 'retry in' in error_msg:
-                    import re
-                    import time
+                    if attempt >= max_total_attempts:
+                        print(f"   ❌ Max total attempts ({max_total_attempts}) reached")
+                        raise
 
                     # Extract retry delay from error message
                     match = re.search(r'retry in ([\d.]+)s', error_msg)
                     if match:
                         retry_seconds = float(match.group(1))
                         print(f"   ⏳ Rate limit exceeded - waiting {retry_seconds:.0f}s...")
-                        print(f"   🔄 Retrying... (attempt {attempt + 2}/{max_retries + 1})")
+                        print(f"   🔄 Retrying... (attempt {attempt + 1}/{max_total_attempts})")
                         time.sleep(retry_seconds + 1)  # +1s buffer
-                        # Extend max_retries to allow rate limit retry
-                        max_retries += 1
                         continue
                     else:
                         # Fallback if we can't extract delay
                         print(f"   ⏳ Rate limit exceeded - waiting 20s...")
                         time.sleep(20)
-                        max_retries += 1
                         continue
 
                 # Handle SAFETY blocks with NEGLIGIBLE ratings (false positives)
                 if 'finish_reason=SAFETY' in error_msg and 'NEGLIGIBLE' in error_msg:
-                    if attempt < max_retries - 1:
-                        import time
-                        wait_time = retry_delay * (attempt + 1)  # Linear backoff
+                    if attempt < max_safety_retries:
+                        wait_time = retry_delay * attempt  # Linear backoff
                         print(f"   ⚠️  SAFETY false positive detected (all ratings NEGLIGIBLE)")
-                        print(f"   🔄 Retrying in {wait_time}s... (attempt {attempt + 2}/{max_retries})")
+                        print(f"   🔄 Retrying in {wait_time}s... (attempt {attempt + 1}/{max_total_attempts})")
                         time.sleep(wait_time)
                         continue
 
                 # Not a retry-able error, or max retries reached
                 raise
 
-        # Should not reach here, but just in case
-        raise RuntimeError("Max retries reached for Gemini generation")
+        # Max attempts reached
+        raise RuntimeError(f"Max total attempts ({max_total_attempts}) reached for Gemini generation")
 
     def _generate_with_safety_check(
         self,
@@ -203,9 +206,11 @@ class GeminiProvider(BaseAIProvider):
                         "This may be a false positive. Try rephrasing the prompt or using a different model."
                     )
 
-                    # Show prompt snippet for debugging
-                    prompt_preview = prompt[:500] if len(prompt) > 500 else prompt
-                    print(f"\n⚠️  Prompt preview (first 500 chars):\n{prompt_preview}\n")
+                    # Show FULL prompt for debugging SAFETY false positives
+                    print(f"\n⚠️  FULL PROMPT that triggered SAFETY block:")
+                    print(f"{'='*80}")
+                    print(prompt)
+                    print(f"{'='*80}\n")
 
                 raise RuntimeError(' '.join(error_parts))
 
