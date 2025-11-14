@@ -79,6 +79,15 @@ class GeminiProvider(BaseAIProvider):
             if not response.candidates:
                 # Response blocked at prompt level
                 feedback = response.prompt_feedback
+
+                print(f"\n⚠️  Gemini blocked at PROMPT level")
+                print(f"   Block reason: {feedback.block_reason if hasattr(feedback, 'block_reason') else 'Unknown'}")
+
+                if hasattr(feedback, 'safety_ratings') and feedback.safety_ratings:
+                    print(f"\n⚠️  Prompt Safety Ratings:")
+                    for rating in feedback.safety_ratings:
+                        print(f"   - {rating.category.name}: {rating.probability.name}")
+
                 raise RuntimeError(
                     f"Gemini blocked prompt. "
                     f"Block reason: {feedback.block_reason if hasattr(feedback, 'block_reason') else 'Unknown'}. "
@@ -101,17 +110,31 @@ class GeminiProvider(BaseAIProvider):
                 # Build detailed error message
                 error_parts = [f"Gemini generation failed: finish_reason={reason}"]
 
-                if hasattr(candidate, 'safety_ratings') and candidate.safety_ratings:
+                # Always show candidate info for debugging
+                print(f"\n⚠️  Gemini Response Debug:")
+                print(f"   Finish reason: {reason} ({candidate.finish_reason})")
+                print(f"   Has safety_ratings attr: {hasattr(candidate, 'safety_ratings')}")
+
+                # Get safety ratings value
+                safety_ratings = getattr(candidate, 'safety_ratings', None)
+                print(f"   safety_ratings value: {safety_ratings}")
+                print(f"   safety_ratings type: {type(safety_ratings)}")
+
+                if safety_ratings:
+                    print(f"   safety_ratings length: {len(safety_ratings)}")
+
                     ratings_str = ', '.join([
                         f"{rating.category.name}={rating.probability.name}"
-                        for rating in candidate.safety_ratings
+                        for rating in safety_ratings
                     ])
                     error_parts.append(f"Safety ratings: {ratings_str}")
 
                     # Print to console for debugging
-                    print(f"\n⚠️  Gemini Safety Ratings:")
-                    for rating in candidate.safety_ratings:
+                    print(f"\n⚠️  Candidate Safety Ratings:")
+                    for rating in safety_ratings:
                         print(f"   - {rating.category.name}: {rating.probability.name}")
+                else:
+                    print(f"   safety_ratings is None or empty - Gemini didn't provide details")
 
                 if candidate.finish_reason == 2:  # SAFETY
                     error_parts.append(
