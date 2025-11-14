@@ -20,13 +20,13 @@ Każdego dnia miliony ludzi poszukują produktów w sieci. Tylko te sklepy, któ
 
 SEO w e-commerce to coś więcej niż tylko wysokie pozycje w Google. To przede wszystkim skoncentrowany ruch i namacalne zyski. Odpowiednia optymalizacja może zwiększyć sprzedaż nawet o 200-300% w ciągu roku.
 
-Podczas gdy tradycyjne SEO skupia się głównie na treściach, w e-commerce liczą się inne aspekty. Kluczowe są szybkość działania strony, opinie klientów oraz intuicyjny proces zakupowy.
+Podczas gdy tradycyjne SEO skupia się głównie na treściach, w e-commerce liczą się inne aspekty. Kluczowe są [szybkość działania strony](/artykuly/ecommerce/ux-ui/), opinie klientów oraz [intuicyjny proces zakupowy](/artykuly/ecommerce/ux-ui/).
 
 ### Różnice, które mają znaczenie
 
 Sklep internetowy wymaga optymalizacji na wielu poziomach. Każdy produkt to oddzielna strona, która powinna być dobrze pozycjonowana. Kategorie muszą być uporządkowane tak, aby były zrozumiałe zarówno dla użytkowników, jak i robotów Google.
 
-Płatności bezpośrednio wpływają na konwersję. Długi proces płatności może prowadzić do zwiększonego współczynnika odrzuceń, co Google może zauważyć i ukarać w rankingach.
+Płatności bezpośrednio wpływają na konwersję. [Długi proces płatności](/artykuly/ecommerce/ux-ui/) może prowadzić do zwiększonego współczynnika odrzuceń, co Google może zauważyć i ukarać w rankingach.
 
 Logistyka również odgrywa rolę. Informacje o dostawie muszą być klarowne. Klienci często szukają fraz takich jak "dostawa w 24h" czy "darmowa wysyłka", które są popularnymi słowami kluczowymi.
 
