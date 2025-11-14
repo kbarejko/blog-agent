@@ -17,6 +17,17 @@ Napisz **wprowadzenie** i **pierwszą sekcję** artykułu zatytułowanego:
 
 Pierwsza sekcja z konspektu: **{{SECTION_TITLE}}**
 
+**Format:**
+```
+# {{TYTUL_ARTYKULU}}
+
+[hook - 2-3 zdania]
+
+## {{SECTION_TITLE}}
+
+[treść sekcji]
+```
+
 ---
 
 ## 📋 Struktura sekcji

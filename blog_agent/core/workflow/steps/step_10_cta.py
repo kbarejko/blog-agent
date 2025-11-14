@@ -129,13 +129,10 @@ Team: {article.business_metadata.team_size}"""
 
     article.set_cta_section(cta_section)
 
-    # Add CTA to final content
-    article.add_cta_to_final()
+    # Save CTA to separate file (cta.md)
+    cta_path = article.path / 'cta.md'
+    storage.write_file(cta_path, response)
 
-    # Save updated article.md
-    article_path = article.get_article_path()
-    storage.write_file(article_path, article.final_content)
-
-    print(f"✅ CTA section added (variant: {variant})")
+    print(f"✅ CTA section saved to cta.md (variant: {variant})")
 
     return article
