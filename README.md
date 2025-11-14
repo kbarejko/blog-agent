@@ -79,7 +79,7 @@ The system automatically detects the provider from the `model` field in your art
 model: gpt-4o         # Auto-detects openai-gpt4o provider
 model: gpt-4o-mini    # Auto-detects openai-gpt4o-mini provider
 model: gpt-4-turbo    # Auto-detects openai provider
-model: gemini-1.5-pro # Auto-detects gemini provider
+model: gemini-2.5-pro # Auto-detects gemini provider
 model: claude-sonnet-4-20250514 # Uses claude provider (default)
 ```
 
@@ -216,8 +216,10 @@ meta_description: ""
 - `gpt-4o-mini` - OpenAI GPT-4o Mini (faster, cheaper)
 - `gpt-4-turbo` - OpenAI GPT-4 Turbo
 - `gpt-3.5-turbo` - OpenAI GPT-3.5 (cheapest)
-- `gemini-1.5-pro` - Google Gemini Pro
-- `gemini-1.5-flash` - Google Gemini Flash (fast, cheap)
+- `gemini-1.5-pro` - Google Gemini 2.5 Pro (most capable)
+- `gemini-2.5-flash` - Google Gemini 2.5 Flash (fast, cheap)
+
+⚠️ **Note:** Gemini 1.x models (gemini-1.5-pro, gemini-1.5-flash, gemini-pro) are deprecated as of April 2025. Use Gemini 2.x models instead.
 - `llama3:latest` - Local Ollama (requires setup, free)
 
 **Tone Guidelines:**
@@ -288,7 +290,7 @@ Configure AI providers (Claude, OpenAI, Gemini, Ollama).
 The system supports **provider prefixes** for fine-grained control. For example:
 - `openai-gpt4o` → uses `gpt-4o` model with OpenAI provider
 - `openai-gpt4o-mini` → uses `gpt-4o-mini` model with OpenAI provider
-- `gemini-flash` → uses `gemini-1.5-flash` model with Gemini provider
+- `gemini-flash` → uses `gemini-2.5-flash` model with Gemini provider
 
 Configure each variant in `providers.yaml`:
 
@@ -325,7 +327,7 @@ providers:
   # Google Gemini - Fast and cheap
   gemini:
     api_key: ${GOOGLE_API_KEY}
-    model: gemini-1.5-pro
+    model: gemini-2.5-pro
     max_tokens: 8000
     temperature: 0.9
 

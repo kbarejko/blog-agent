@@ -29,10 +29,10 @@ def test_gemini_connection():
 
     print(f"✅ API key found: {api_key[:10]}...{api_key[-4:]}")
 
-    # Test with Gemini 1.5 Flash (cheaper for testing)
+    # Test with Gemini 2.5 Flash (cheaper for testing)
     config = {
         'api_key': api_key,
-        'model': 'gemini-1.5-flash',
+        'model': 'gemini-2.5-flash',
         'max_tokens': 100,
         'temperature': 0.9
     }
@@ -78,9 +78,9 @@ def test_gemini_models():
     print("=" * 60 + "\n")
 
     models = [
-        ("gemini-1.5-pro", "Gemini 1.5 Pro - Most capable, large context"),
-        ("gemini-1.5-flash", "Gemini 1.5 Flash - Fast and efficient"),
-        ("gemini-pro", "Gemini Pro - Original (legacy)"),
+        ("gemini-2.5-pro", "Gemini 2.5 Pro - Most capable, advanced reasoning"),
+        ("gemini-2.5-flash", "Gemini 2.5 Flash - Fast and efficient"),
+        ("gemini-2.0-flash-001", "Gemini 2.0 Flash - Legacy, still supported"),
     ]
 
     print("Models you can use with blog-agent:\n")
@@ -88,20 +88,23 @@ def test_gemini_models():
         print(f"  • {model_name}")
         print(f"    {description}\n")
 
+    print("⚠️  Gemini 1.x models (gemini-1.5-pro, gemini-1.5-flash, gemini-pro)")
+    print("    are deprecated as of April 2025. Use Gemini 2.x models.\n")
+
     print("Key features:")
-    print("  • Up to 1M token context window (1.5 models)")
-    print("  • Multimodal support (text, images, video)")
+    print("  • Up to 2M token context window (2.5 models)")
+    print("  • Multimodal support (text, images, video, audio)")
     print("  • Free tier available with rate limits\n")
 
     print("Cost comparison (per 1M tokens):")
-    print("  • Gemini 1.5 Pro: $3.50 input / $10.50 output")
-    print("  • Gemini 1.5 Flash: $0.35 input / $1.05 output")
-    print("  • Gemini Pro: $0.50 input / $1.50 output\n")
+    print("  • Gemini 2.5 Pro: $3.50 input / $10.50 output")
+    print("  • Gemini 2.5 Flash: $0.30 input / $1.20 output")
+    print("  • Gemini 2.0 Flash: $0.15 input / $0.60 output\n")
 
     print("For blog generation (3000-word article):")
-    print("  • Gemini 1.5 Pro: ~$0.10 per article")
-    print("  • Gemini 1.5 Flash: ~$0.01 per article (cheapest cloud option!)")
-    print("  • Gemini Pro: ~$0.015 per article\n")
+    print("  • Gemini 2.5 Pro: ~$0.10 per article")
+    print("  • Gemini 2.5 Flash: ~$0.01 per article (recommended!)")
+    print("  • Gemini 2.0 Flash: ~$0.005 per article (cheapest cloud option!)\n")
 
     print("Free tier:")
     print("  • 15 requests/minute")
