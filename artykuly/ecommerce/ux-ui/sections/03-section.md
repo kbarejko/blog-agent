@@ -1,35 +1,27 @@
-## Szybkość jako element UX - wpływ na zachowania użytkowników
+## Szybkość i wydajność - niewidzialne podstawy UX
 
-Użytkownik kliknął w produkt i patrzy na pusty ekran. Jedną sekunda, drugą, trzecią – i już odszedł do konkurencji. W e-commerce szybkość to nie luksus, to konieczność. Każda milisekunda decyduje o tym, czy klient zostanie czy odejdzie z pustymi rękami.
+Trzy sekundy. Tyle czasu masz na załadowanie strony, zanim użytkownik zacznie myśleć o odejściu. Po 5 sekundach prawdopodobieństwo opuszczenia witryny wzrasta o 90%. To nie kaprys - to psychologia oczekiwania w erze natychmiastowości.
 
-**LCP (Largest Contentful Paint) dla stron produktowych**
+Mózg interpretuje powolne ładowanie jako sygnał problemu. Użytkownik podświadomie myśli: "Jeśli strona działa wolno, to może sklep też będzie miał problemy z dostawą?". Pierwsze wrażenie buduje się w milisekundach, nie minutach.
 
-Largest Contentful Paint to moment, kiedy główna zawartość strony staje się widoczna. Dla strony produktu oznacza to zdjęcie, cenę i przycisk "Dodaj do koszyka". Google wymaga LCP poniżej 2.5 sekundy, ale w e-commerce liczy się każda dziesiąta. Amazon traktuje 2 sekundy jak wieczność – i ma rację.
+### Mobilna rewolucja zmienia zasady gry
 
-**FID (First Input Delay) w procesie dodawania do koszyka**
+Ruch mobilny w polskim e-commerce przekroczył 60%, ale prędkość łączy mobilnych wciąż pozostaje wyzwaniem. Użytkownik w autobusie ma mniej cierpliwości niż ten przy biurku z szybkim WiFi. Mobilny checkout musi być błyskawiczny.
 
-First Input Delay mierzy czas reakcji na pierwsze kliknięcie użytkownika. Klient klika "Dodaj do koszyka" i nic się nie dzieje – to klasyczny sposób na zrujnowanie konwersji. Ideały FID to poniżej 100 milisekund. Powyżej tego progu ludzie zaczynają klikać wielokrotnie lub zmieniają zdanie.
+Korelacja między szybkością a konwersjami to matematyka bez litości. Każda dodatkowa sekunda ładowania oznacza 7% mniej konwersji. Dla sklepu z obrotami 2 miliony rocznie to 140 tysięcy złotych różnicy.
 
-**CLS (Cumulative Layout Shift) i jego wpływ na frustrację użytkowników**
+### Core Web Vitals w praktyce e-commerce
 
-Layout shift to frustracja w czystej postaci. Użytkownik celuje w przycisk "Kup teraz", ale w ostatniej chwili ładuje się baner i klika w reklamę. CLS mierzy właśnie takie "skakanie" elementów. Zero CLS to cel, do którego warto dążyć – szczególnie na mobile.
+Largest Contentful Paint (LCP) dla stron produktowych powinien nie przekraczać 2,5 sekundy. Główny obraz produktu musi się załadować natychmiast - to element, na który klient czeka najbardziej. Optymalizacja wymaga kompresji obrazów i priorytetyzacji kluczowych zasobów.
 
-**Lazy loading obrazków produktów**
+Cumulative Layout Shift (CLS) niszczy doświadczenie podczas przeglądania galerii. Gdy obrazy ładują się chaotycznie i przesuwają elementy, użytkownik może przypadkowo kliknąć niewłaściwy przycisk. Stabilny layout to fundament zaufania.
 
-Ładowanie wszystkich zdjęć na raz to marnowanie zasobów. Lazy loading pokazuje obrazki dopiero gdy są potrzebne. Instagram perfekte opanował tę sztukę – przewijasz feed, a kolejne posty ładują się płynnie w tle. W sklepie z setkami produktów to różnica między 2 a 10 sekundami ładowania.
+First Input Delay (FID) ujawnia się podczas interakcji z koszykiem. Klient klika "dodaj do koszyka", a nic się nie dzieje przez 2 sekundy. Podejrzewa, że sklep nie działa i klika ponownie. Rezultat? Chaos w koszyku i frustracja.
 
-**Optymalizacja czasu ładowania na urządzeniach mobilnych**
+### Narzędzia do kontroli wydajności
 
-Mobile to inne uniwersum. Połączenia gorsze, procesory słabsze, cierpliwość mniejsza. Obrazki muszą być skompresowane, JavaScript zminifikowany, a krytyczny CSS wbudowany inline. Progressive Web Apps to przyszłość – aplikacyjna płynność w przeglądarce.
+Google PageSpeed Insights pokazuje realną wydajność na prawdziwych urządzeniach. GTmetrix dostarcza szczegółowe analizy optymalizacji. Chrome DevTools pozwala debugować problemy w czasie rzeczywistym.
 
-**Cache'owanie dla lepszego UX powracających klientów**
+Monitoring wydajności to nie jednorazowa akcja, ale ciągły proces. Każda aktualizacja sklepu, nowy plugin czy zmiana w kodzie może spowolnić stronę. Automatyczne alerty przy spadku wydajności pozwalają reagować, zanim klienci zaczną odchodzić.
 
-Pierwszy wizyta to walka o każdą sekundę. Druga wizyta powinna być błyskawiczna dzięki cache'owaniu. Browser cache, CDN, service workers – każda warstwa przyspiesza powrót klienta.
-
-Więcej o optymalizacji szybkości w: [Performance UX w E-commerce] (planowany artykuł)
-
-**Skeleton screens i progressive loading** zastępują nudne loading spinnery. Pokazują strukturę strony przed załadowaniem treści. Facebook pionierował to rozwiązanie – użytkownik widzi "szkielet" posta, więc czuje że coś się dzieje.
-
-**Feedback wizualny podczas ładowania** to komunikacja z użytkownikiem. Progress bary, shimmer effects, micro-interactions – wszystko po to, żeby klient wiedział że system pracuje, nie zawiesił się.
-
-**Priorytyzacja krytycznej treści above-the-fold** oznacza ładowanie najpierw tego, co klient widzi od razu. Cena, główne zdjęcie, przycisk zakupu – to ładuje się pierwsze. Opisy i recenzje mogą poczekać ułamek sekundy dłużej.
+Szybkość to niewidzialny sprzedawca, który pracuje 24/7.

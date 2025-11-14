@@ -1,21 +1,29 @@
-## Dostępność (accessibility) - UX dla wszystkich użytkowników
+## Dostępność - inkluzywny e-commerce dla wszystkich
 
-Dwanaście milionów Polaków ma różnego rodzaju niepełnosprawności. To nie niszowy segment – to ogromny rynek, który większość sklepów internetowych kompletnie ignoruje.
+15% populacji boryka się z różnymi formami niepełnosprawności. To nie statystyka - to 5,7 miliona potencjalnych klientów tylko w Polsce. Sklepy ignorujące dostępność tracą ogromny segment rynku, często nie zdając sobie z tego sprawy.
 
-Ironią jest, że wiele rozwiązań accessibility poprawia doświadczenie wszystkich użytkowników. Wysoki kontrast tekstu? Lepiej widać na słońcu przy telefonie. Duże, wyraźne przyciski? Łatwiej trafić na ekranie dotykowym. Logiczna struktura nagłówków? Szybciej znajdziesz informacje.
+WCAG 2.1 na poziomie AA to obecnie standard minimum dla e-commerce. To nie tylko kwestia etyczna, ale prawna - dyrektywa o dostępności cyfrowej obowiązuje w całej UE. Sklepy muszą być użyteczne dla wszystkich, nie tylko dla osób bez ograniczeń.
 
-WCAG 2.1 to nie tylko standard prawny – to praktyczny przewodnik po użyteczności. Wymóg czterech poziomów nawigacji klawiszowej sprawia, że strona staje się przejrzystsza. Konieczność opisów dla obrazków zmusza do przemyślenia, czy każda grafika ma sens.
+### Najczęstsze bariery w sklepach internetowych
 
-Screen readery to specjalistyczne oprogramowanie, które "czyta" strony internetowe. Ale jeśli twoje pola formularza nie mają właściwych etykiet, użytkownik usłyszy "pole tekstowe" zamiast "adres e-mail". Trudno wtedy wypełnić zamówienie.
+Nawigacja klawiaturowa to podstawowy test dostępności. Użytkownik musi móc przejść przez cały proces zakupu używając tylko klawiatury. Jeśli focus nie jest widoczny lub przeskakuje chaotycznie między elementami, osoby niewidzące czy z ograniczoną mobilnością nie dokończą zakupu.
 
-Alt teksty dla zdjęć produktów wymagają finezji. "Czerwona sukienka" to za mało. "Czerwona sukienka midi z długimi rękawami, wzór w kwiaty" daje pełny obraz. Dla produktów technicznych opisy mogą być jeszcze bardziej szczegółowe.
+Czytniki ekranu wymagają semantycznego HTML-a i odpowiednich etykiet. Przycisk z samą ikoną koszyka to zagadka dla NVDA czy JAWS. Screen reader odczyta "przycisk" zamiast "dodaj do koszyka", co dezorientuje użytkownika.
 
-Nawigacja klawiaturą ujawnia problemy projektowe niewidoczne na pierwszy rzut oka. Jeśli nie da się dotrzeć do głównego menu naciskając Tab, coś jest źle zaprojektowane. Focus powinien być widoczny – wyraźna ramka wokół aktywnego elementu.
+Kontrast kolorów niszczy użyteczność dla osób z problemami wzroku. Szary tekst na białym tle może wyglądać elegancko, ale współczynnik 3:1 to za mało. Standard wymaga minimum 4.5:1 dla normalnego tekstu.
 
-Automated testing wykrywa oczywiste błędy – brak alt tekstów, słaby kontrast, problemy z kolejnością czytania. Ale prawdziwe problemy ujawnia dopiero testowanie z rzeczywistymi użytkownikami niepełnosprawnymi.
+### Praktyczne rozwiązania dla dostępności
 
-Kompletny przewodnik po accessibility: [Accessibility w E-commerce] (planowany artykuł)
+Alt-teksty dla zdjęć produktów muszą być opisowe, nie dekoracyjne. Zamiast "zdjęcie butów" napisz "czarne sneakersy Nike Air Max rozmiar 42". Osoba niewidząca potrzebuje konkretów, nie ogólników.
 
-Kolory nie mogą być jedynym nośnikiem informacji. Czerwony przycisk "Usuń z koszyka" musi mieć też odpowiednią ikonę lub tekst. Osoba z daltonizmem może nie rozróżnić go od zielonego "Dodaj do ulubionych".
+Opisowe linki eliminują frustrację. "Kliknij tutaj" to katastrofa dla dostępności. "Zobacz szczegóły produktu" czy "przejdź do płatności" daje kontekst i jasność.
 
-Formularze wymagają szczególnej uwagi. Komunikaty o błędach powinny być jasne i konkretne. "Nieprawidłowy format" to za mało. "Adres e-mail musi zawierać znak @" daje użytkownikowi konkretną wskazówkę do poprawy.
+Etykiety formularzy wymagają powiązania z polami przez atrybut "for". Placeholder to nie etykieta - znika po wpisaniu tekstu. Label musi być stały i jednoznaczny.
+
+### Testowanie i automatyzacja
+
+Testowanie z technologiami asystującymi odsłania prawdziwe problemy. NVDA to darmowy screen reader dostępny dla każdego developera. 15 minut testowania może uratować tysiące potencjalnych transakcji.
+
+Axe czy WAVE automatyzują podstawowe sprawdzenia. Wykrywają problemy z kontrastem, brakującymi etykietami czy złą strukturą nagłówków. To pierwszy krok, nie ostatni - automatyzacja nie zastąpi testów z prawdziwymi użytkownikami.
+
+Dostępność to inwestycja w większy rynek, nie dodatkowy koszt. Sklepy dostępne dla wszystkich sprzedają więcej wszystkim.

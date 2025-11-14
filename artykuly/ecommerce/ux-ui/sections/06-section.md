@@ -1,23 +1,23 @@
-## Personalizacja i AI w UX e-commerce
+## Mobile-first design - projektowanie dla smartfonów
 
-Sztuczna inteligencja w e-commerce to już nie science fiction. To konkretne narzędzia, które zmieniają sposób, w jaki kupujemy online.
+Ponad 60% ruchu w polskim e-commerce pochodzi już z urządzeń mobilnych, ale większość sklepów wciąż projektuje "desktop first" i dopiero potem adaptuje na telefony. To błąd kosztujący miliony złotych w utraconych konwersjach.
 
-Product recommendations oparte na historii przeglądania działają, ale wymagają subtelności. Algorytm, który pokazuje tylko podobne produkty, tworzy bańkę. Użytkownik może przegapić coś ciekawego z innej kategorii.
+Użytkownicy mobilni zachowują się fundamentalnie inaczej. Na komputerze porównują oferty w kilku kartach, czytają szczegółowe opisy, analizują opinie. Na telefonie podejmują szybkie decyzje, bazują na pierwszym wrażeniu i rzadko wracają do poprzedniej strony. Czas na podjęcie decyzji skraca się o 40%.
 
-Najlepsze systemy łączą różne sygnały. Historia zakupów, czas spędzony na stronach, produkty w koszyku – wszystko to buduje profil klienta. Ale algorytm musi także zostawić miejsce na spontaniczność i odkrywanie.
+Touch nie to kliknięcie. Palec zajmuje 44x44 piksele powierzchni - cztery razy więcej niż kursor myszy. Przyciski mniejsze niż 9mm są praktycznie niemożliwe do trafienia. Menu rozwijane, które świetnie działa na desktopie, na telefonie staje się pułapką frustracji.
 
-Dynamic content personalization to coś więcej niż tylko rekomendacje. To dostosowane banery, inne kolejność kategorii, nawet inne ceny dla różnych segmentów klientów. Ktoś, kto często kupuje produkty premium, może zobaczyć inne strony główną niż osoba szukająca okazji.
+### Responsive kontra adaptive - starcie technologii
 
-Email marketing integruje się z doświadczeniem na stronie. Produkt porzucony w koszyku pojawia się w mailu z rabatem. Ale musi także zniknąć z głównej strony, jeśli klient już go kupił. Nikt nie lubi widoku produktu, który już ma.
+Responsive design to jeden kod dla wszystkich urządzeń. Elementy skalują się płynnie, ale telefon musi pobrać wszystkie zasoby - również te przeznaczone dla dużych ekranów. Efekt? Wolniejsze ładowanie mimo mniejszego wyświetlacza.
 
-Chatboty przeszły długą drogę od prostych drzew decyzyjnych. Dzisiejsze AI rozumie kontekst, pamięta wcześniejsze pytania, potrafi eskalować do człowieka w odpowiednim momencie. Ale nadal nie zastąpią ludzkiej intuicji w skomplikowanych sprawach.
+Adaptive design wykrywa urządzenie i serwuje dedykowaną wersję. Telefon dostaje tylko to, co potrzebuje. Koszty developmentu rosną, ale wydajność skacze w górę. Amazon czy Facebook wybierają adaptive - a oni liczą każdy procent konwersji.
 
-Predictive search wie, czego szukasz, zanim skończysz pisać. Nie tylko dopełnia frazy, ale także sugeruje alternatywy i podobne produkty. "iPhone" rozszerza się do konkretnych modeli, ale pokazuje też akcesoria i etui.
+### Thumb-friendly zones decydują o użyteczności
 
-Smart filtering to personalizacja ukryta w tle. System wie, że preferujesz konkretną markę, i wypycha ją wyżej w wynikach. Ale nie ukrywa innych opcji całkowicie. Użytkownik zachowuje kontrolę nad wyborem.
+Strefa kciuka to obszar, który możesz osiągnąć trzymając telefon jedną ręką. Najważniejsze przyciski - "dodaj do koszyka", "kup teraz", nawigacja - muszą być w dolnej połowie ekranu. Apple i Google nie bez powodu przeniosły główne kontrolki w dół swoich interfejsów.
 
-Więcej o AI w UX: [AI-Driven Personalization] (planowany artykuł)
+Nawigacja na górze ekranu to relikt z ery małych telefonów. Na iPhone'ie 14 Pro Max górny róg to ekspedycja kciukiem. Menu hamburgera powinno być w prawym dolnym rogu dla praworęcznych i lewym dla mańkutów.
 
-Personalizacja ma także ciemną stronę. Zbyt agresywne algorytmy mogą wydawać się inwazyjne. Klienci cenią sugestie, ale nie lubią wrażenia, że są śledzeni na każdym kroku.
+Formularze mobilne wymagają całkowicie nowego myślenia. Jedno pole na ekran to często lepsza strategia niż kompresja wszystkiego na widok. Klawiatura zajmuje 50% powierzchni - projektuj z tym ograniczeniem od początku. Autokompletowanie adresów nie to luksus, to konieczność.
 
-Kluczem jest transparentność i kontrola. Użytkownik powinien rozumieć, skąd biorą się rekomendacje, i móc je modyfikować.
+Mobile-first to nie trend, to realność 2024 roku. Sklepy myślące "mobile last" będą ostatnie w wynikach.
