@@ -22,7 +22,7 @@ E-commerce stawia przed projektantami wyjątkowe wyzwania. Na zwykłej stronie k
 
 Transakcyjny charakter e-commerce wymaga niemal perfekcji. Gdy klient wprowadza numer karty, musi czuć się całkowicie bezpiecznie. Proces finalizacji zamówienia powinien być na tyle intuicyjny, żeby nikt nie tracił czasu na zastanawianie się, co zrobić dalej. W końcu nikt nie lubi komplikacji podczas płacenia.
 
-Szybkość ładowania stron w handlu elektronicznym to podstawa, nie dodatek. Statystyki pokazują bezlitośnie: każda dodatkowa sekunda oczekiwania redukuje konwersję o około 7%. W branży, gdzie marże często balansują na granicy opłacalności, takie straty bardzo szybko się sumują.
+Szybkość ładowania stron w handlu elektronicznym to podstawa, nie dodatek. Statystyki pokazują bezlitośnie: [każda dodatkowa sekunda oczekiwania redukuje konwersję o około 7%](/artykuly/ecommerce/seo/). W branży, gdzie marże często balansują na granicy opłacalności, takie straty bardzo szybko się sumują.
 
 Eksperci od UX/UI w e-commerce koncentrują się zwykle na czterech fundamentalnych obszarach. Optymalizacja checkout'u to serce całego procesu – miejsce, gdzie odwiedzający faktycznie staje się płacącym klientem. Wydajność techniczna kształtuje pierwsze wrażenie i decyduje, czy użytkownik w ogóle zostanie na stronie. Dostępność otwiera drzwi dla szerszej grupy potencjalnych kupujących. Analityka natomiast pokazuje bezlitośnie, które rozwiązania działają, a które wymagają natychmiastowej korekty.
 
