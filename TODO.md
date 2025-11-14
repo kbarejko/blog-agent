@@ -14,6 +14,20 @@
   - Check release notes: https://ai.google.dev/gemini-api/docs/models/gemini
   - Re-test gemini-2.5-flash with Polish prompts quarterly
   - Consider switching back to 2.5 when bug is fixed (newer model, better capabilities)
+- [x] **Implement FAQ/Checklist pipeline redesign**
+  - ✅ Separate outline files: faq_outline.md, checklist_outline.md (step_02)
+  - ✅ Question-by-question humanization for FAQ (step_17)
+  - ✅ Answer length enforcement: 50-70 words via prompt + max_tokens=400
+  - ✅ Internal linking to related articles in silo (keyword matching)
+  - ✅ Fixed silo path detection (subdirectories, not siblings)
+  - ✅ Debug logging for link matching
+  - ✅ Tested with artykuly/ecommerce/platnosci-logistyka (8 questions, contextual links)
+  - ✅ Removed legacy outline files (outline-chat.md, outline-claude.md)
+- [x] **Per-step provider configuration**
+  - ✅ Added provider/model fields to workflow.yaml steps
+  - ✅ Auto-detection from model names (gpt-* → openai-gpt*, gemini* → gemini)
+  - ✅ WorkflowEngine._get_step_ai_provider() implementation
+  - ✅ Tested with different providers per step
 
 ## Previous Session Tasks (2025-11-07)
 - [x] Setup venv and install blog-agent CLI

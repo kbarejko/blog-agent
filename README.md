@@ -4,8 +4,10 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 16-step workflow from outline to publication
+- **Automated Article Generation**: 18-step workflow from outline to publication
 - **Silo Article Support**: Special handling for category hub pages with automatic sub-article detection and FAQ
+- **FAQ/Checklist Pipeline**: Separate mini-article pipeline with humanization and internal linking (50-70 word answers)
+- **Per-Step Provider Configuration**: Use different AI models for different workflow steps (optimize cost vs. quality)
 - **Flexible Workflow Control**: Skip steps or step groups (writing, metadata, post-processing)
 - **Target Word Count**: Per-article length control (e.g., 2000, 3500, 5000 words) - automatically adjusts sections
 - **Auto-Load Existing Files**: Skipped steps automatically load existing content (outline.md, draft.md, etc.)
