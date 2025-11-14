@@ -111,7 +111,7 @@ class WorkflowEngine:
         # Create new AI provider for this step
         try:
             provider_config = self.factory._load_provider_config(step_provider)
-            from ..infrastructure.ai.provider_registry import ProviderRegistry
+            from ...infrastructure.ai.provider_registry import ProviderRegistry
             ai_provider = ProviderRegistry.create(step_provider, provider_config)
             print(f"   🔀 Using step-specific provider: {step_provider}")
             return ai_provider

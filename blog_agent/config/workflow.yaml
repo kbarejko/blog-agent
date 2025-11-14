@@ -19,13 +19,15 @@ steps:
     module: blog_agent.core.workflow.steps.step_01_init
     description: "Initialize article structure"
     enabled: true
+    provider: gemini  # lub gemini-2.0-flash dla absolutnego minimum
+    model: gemini-2.0-flash  # ~$0.01/artykuł
 
   - name: outline
     module: blog_agent.core.workflow.steps.step_02_outline
     description: "Generate article outline"
     enabled: true
-    # provider: gemini  # Optional: use specific provider for this step
-    # model: gemini-2.5-flash  # Optional: auto-detect provider from model
+    provider: gemini  # Optional: use specific provider for this step
+    model: gemini-2.5-flash  # Optional: auto-detect provider from model
 
   - name: summary
     module: blog_agent.core.workflow.steps.step_03_summary
@@ -36,7 +38,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_04_write_sections
     description: "Write all article sections with AI review"
     enabled: true
-    # provider: claude  # Optional: use Claude for high-quality content
+    provider: claude  # Optional: use Claude for high-quality content
 
   - name: create_draft
     module: blog_agent.core.workflow.steps.step_05_create_draft
@@ -47,17 +49,20 @@ steps:
     module: blog_agent.core.workflow.steps.step_06_seo_review
     description: "SEO review and heading fixes"
     enabled: true
+    provider: gemini  # lub gemini-2.0-flash dla absolutnego minimum
+    model: gemini-2.0-flash  # ~$0.01/artykuł    
 
   - name: humanize
     module: blog_agent.core.workflow.steps.step_07_humanize
     description: "Humanize content (natural language)"
     enabled: true
-    # model: gpt-4o  # Optional: GPT-4o is excellent at humanization
+    provider: openai-gpt4o  # Optional: use GPT-4o for humanization
+    model: gpt-4o  # Optional: GPT-4o is excellent at humanization
 
   - name: multimedia
     module: blog_agent.core.workflow.steps.step_08_multimedia
     description: "Generate multimedia suggestions"
-    enabled: true
+    enabled: false
 
   - name: business_metadata
     module: blog_agent.core.workflow.steps.step_09_business_metadata
@@ -68,6 +73,9 @@ steps:
     module: blog_agent.core.workflow.steps.step_10_cta
     description: "Generate CTA/Next Steps section"
     enabled: true
+    provider: openai-gpt4o  # Optional: use GPT-4o for humanization
+    model: gpt-4o  # Optional: GPT-4o is excellent at humanization
+
 
   - name: publish
     module: blog_agent.core.workflow.steps.step_11_publish
@@ -78,11 +86,15 @@ steps:
     module: blog_agent.core.workflow.steps.step_12_schema
     description: "Generate Schema.org markup"
     enabled: true
+    provider: gemini  # lub gemini-2.0-flash dla absolutnego minimum
+    model: gemini-2.0-flash  # ~$0.01/artykuł
 
   - name: categories
     module: blog_agent.core.workflow.steps.step_13_categories
     description: "Assign categories from categories.yaml"
     enabled: true
+    provider: gemini  # lub gemini-2.0-flash dla absolutnego minimum
+    model: gemini-2.0-flash  # ~$0.01/artykuł    
 
   - name: internal_linking
     module: blog_agent.core.workflow.steps.step_14_internal_linking
@@ -110,16 +122,22 @@ steps:
     module: blog_agent.core.workflow.steps.step_16_social_media
     description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
     enabled: true
+    provider: openai-gpt4o  # Optional: use GPT-4o for humanization
+    model: gpt-4o  # Optional: GPT-4o is excellent at humanization
 
   - name: faq
     module: blog_agent.core.workflow.steps.step_17_faq
     description: "Generate FAQ section (if in outline)"
     enabled: true
+    provider: gemini  # lub gemini-2.0-flash dla absolutnego minimum
+    model: gemini-2.0-flash  # ~$0.01/artykuł    
 
   - name: checklist
     module: blog_agent.core.workflow.steps.step_18_checklist
     description: "Generate Checklist section (if in outline)"
     enabled: true
+    provider: gemini  # lub gemini-2.0-flash dla absolutnego minimum
+    model: gemini-2.0-flash  # ~$0.01/artykuł
 
 # Quality Review Configuration
 review:
