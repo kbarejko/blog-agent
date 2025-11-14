@@ -51,6 +51,45 @@ class GeminiProvider(BaseAIProvider):
         Returns:
             Generated text
         """
+        # Retry logic for SAFETY false positives
+        max_retries = 3
+        retry_delay = 1  # seconds
+
+        for attempt in range(max_retries):
+            try:
+                return self._generate_with_safety_check(prompt, max_tokens, temperature, **kwargs)
+            except RuntimeError as e:
+                error_msg = str(e)
+
+                # Only retry on SAFETY blocks with NEGLIGIBLE ratings (false positives)
+                if 'finish_reason=SAFETY' in error_msg and 'NEGLIGIBLE' in error_msg:
+                    if attempt < max_retries - 1:
+                        import time
+                        wait_time = retry_delay * (attempt + 1)  # Linear backoff
+                        print(f"   ⚠️  SAFETY false positive detected (all ratings NEGLIGIBLE)")
+                        print(f"   🔄 Retrying in {wait_time}s... (attempt {attempt + 2}/{max_retries})")
+                        time.sleep(wait_time)
+                        continue
+
+                # Not a retry-able error, or max retries reached
+                raise
+
+        # Should not reach here, but just in case
+        raise RuntimeError("Max retries reached for Gemini generation")
+
+    def _generate_with_safety_check(
+        self,
+        prompt: str,
+        max_tokens: Optional[int] = None,
+        temperature: Optional[float] = None,
+        **kwargs
+    ) -> str:
+        """
+        Internal generation method with safety checks
+
+        Returns:
+            Generated text
+        """
         try:
             # Prepare generation config
             generation_config = genai.GenerationConfig(
