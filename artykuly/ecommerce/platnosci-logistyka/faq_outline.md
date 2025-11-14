@@ -1,37 +1,34 @@
 # FAQ Outline
 
-### 1. Jakie są najpopularniejsze metody płatności w polskim e-commerce?
-- BLIK, szybkie przelewy, karty płatnicze, płatności odroczone.
-- Link do artykułu: [Płatności Online Polska w e-commerce](/platnosci-online-polska)
+### 1. Który operator płatności jest najlepszy dla małego sklepu internetowego?
+- Kryteria wyboru w zależności od branży i wolumenu
+- **Link:** [Płatności online Polska](/platnosci-online-polska)
 
-### 2. Jak zoptymalizować koszty wysyłki w moim sklepie internetowym?
-- Negocjacje z przewoźnikami, wybór odpowiednich opakowań, oferowanie darmowej wysyłki od określonej kwoty.
-- Link do artykułu: [Logistyka Inpost Dpd Dhl](/logistyka-inpost-dpd-dhl)
+### 2. Jak wybrać operatora logistycznego dla e-commerce?
+- Analiza kosztów, czasu dostaw i jakości obsługi
+- **Link:** [Logistyka InPost DPD DHL](/logistyka-inpost-dpd-dhl)
 
-### 3. Jak prawidłowo obsługiwać zwroty i reklamacje?
-- Ustalenie jasnej polityki zwrotów, sprawna komunikacja z klientem, szybkie rozpatrywanie reklamacji.
-- Link do artykułu: [Zwroty I Reklamacje w e-commerce](/zwroty-i-reklamacje)
+### 3. Czy warto inwestować w integrację z Allegro?
+- ROI z marketplace'ów vs własny sklep
+- **Link:** [Allegro Integracja](/allegro-integracja)
 
-### 4. Czy warto sprzedawać na Allegro?
-- Zasięg platformy, łatwość dotarcia do klientów, konkurencja.
-- Link do artykułu: [Allegro Integracja](/allegro-integracja)
+### 4. Jak obniżyć koszty płatności w sklepie internetowym?
+- Negocjowanie prowizji i optymalizacja mix'u płatności
+- **Link:** [Obniżenie kosztów płatności](/obnizenie-kosztow-platnosci)
 
-### 5. Jak obniżyć koszty płatności online w moim sklepie?
-- Negocjowanie stawek z operatorami płatności, wybór optymalnego modelu rozliczeń, minimalizacja liczby transakcji.
-- Link do artykułu: [Obnizenie Kosztow Platnosci w e-commerce](/obnizenie-kosztow-platnosci)
+### 5. Jaka powinna być polityka zwrotów w e-commerce?
+- Balans między konkurencyjnością a rentownością
+- **Link:** [Zwroty i reklamacje](/zwroty-i-reklamacje)
 
-### 6. Jakie są najważniejsze aspekty prawne sprzedaży transgranicznej w UE?
-- VAT, ochrona danych osobowych, prawa konsumentów.
-- Link do artykułu: [Cross Border Ue](/cross-border-ue)
+### 6. Czy opłaca się sprzedawać za granicę przez e-commerce?
+- Wyzwania prawne, podatkowe i logistyczne
+- **Link:** [Cross Border UE](/cross-border-ue)
 
-### 7. Co to jest fulfillment i kiedy warto z niego skorzystać?
-- Outsourcing logistyki, korzyści i wady, koszty.
+### 7. Jak zoptymalizować checkout aby zwiększyć konwersję?
+- UX/UI najlepsze praktyki i A/B testing
 
-### 8. Jak zabezpieczyć sklep internetowy przed oszustwami płatniczymi?
-- Systemy wykrywania oszustw, weryfikacja tożsamości klienta, bezpieczne bramki płatnicze.
+### 8. Jakie są koszty integracji z różnymi operatorami płatności?
+- Opłaty setup, prowizje transakcyjne, koszty utrzymania
 
-### 9. Jakie są trendy w płatnościach mobilnych w e-commerce?
-- BLIK, Apple Pay, Google Pay.
-
-### 10. Jak monitorować satysfakcję klientów z procesu płatności i dostawy?
-- Ankiety, opinie, wskaźnik NPS.
+### 9. Jak automatyzować procesy logistyczne w sklepie online?
+- API, webhooki, systemy klasy WMS/ERP
