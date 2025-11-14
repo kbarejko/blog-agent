@@ -19,7 +19,7 @@
 
 # Płatności & logistyka - checkout, Paczkomaty, zwroty, marketplace'y
 
-Czy zdarzyło Ci się kiedyś dodać produkty do koszyka i na etapie płatności po prostu zrezygnować z zakupu? To zaskakująco powszechny problem w e-commerce, gdzie nieprzemyślane rozwiązania w zakresie płatności i logistyki mogą zniweczyć nawet najlepsze strategie marketingowe.
+Czy zdarzyło Ci się kiedyś dodać produkty do koszyka i na etapie płatności po prostu zrezygnować z zakupu? To zaskakująco powszechny problem w e-commerce, gdzie nieprzemyślane rozwiązania w zakresie płatności i logistyki mogą zniweczyć nawet najlepsze [strategie marketingowe](/artykuly/ecommerce/seo/).
 
 ## Wprowadzenie do Płatności i Logistyki w E-commerce
 
@@ -29,9 +29,9 @@ Pierwsze wrażenie jest kluczowe. Kiedy klient dociera do procesu checkout, dos�
 
 Dostawa to kolejny kluczowy moment. Opóźnienia, uszkodzone paczki czy trudności z odbiorem z Paczkomatów mogą znacząco wpłynąć na postrzeganie Twojej marki.
 
-Statystyki są jednoznaczne – sklepy z płynnym procesem zakupowym mogą cieszyć się nawet 35% wyższą konwersją. Zadowoleni klienci wracają i polecają sklep znajomym.
+Statystyki są jednoznaczne – sklepy z płynnym procesem zakupowym mogą cieszyć się nawet [35% wyższą konwersją](/artykuly/ecommerce/ux-ui/). Zadowoleni klienci wracają i polecają sklep znajomym.
 
-W tym artykule omówimy kluczowe aspekty: jak optymalizować proces checkout, jak wybrać odpowiednie bramki płatnicze, partnerów logistycznych oraz jak zarządzać zwrotami.
+W tym artykule omówimy kluczowe aspekty: jak optymalizować [proces checkout](/artykuly/ecommerce/ux-ui/), jak wybrać odpowiednie bramki płatnicze, partnerów logistycznych oraz jak zarządzać zwrotami.
 
 Przyjrzymy się także, jak rozszerzać działalność na rynki UE i integrować się z marketplace'ami, takimi jak Allegro.
 
