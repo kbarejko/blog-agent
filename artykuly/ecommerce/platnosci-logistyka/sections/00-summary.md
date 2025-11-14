@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Checkout w 3 krokach zwiększa konwersję o 35%** - praktyczne wskazówki jak uprościć proces zakupowy i wyeliminować porzucanie koszyka
-- **BLIK dominuje w Polsce z 60% udziałem** - kompletny przegląd bramek płatniczych i jak negocjować niższe prowizje (średnio 1,8% zamiast 2,5%)
-- **InPost vs DPD vs DHL** - szczegółowe porównanie kosztów, zasięgu i czasów dostawy plus strategie obniżenia kosztów wysyłki o 20-30%
-- **Polityka zwrotów to klucz do lojalności** - 14 dni to minimum, ale sklepy oferujące 30 dni mają o 25% więcej powracających klientów
-- **Integracja z Allegro automatyzuje 80% procesów** - jak zsynchronizować zamówienia, płatności i wysyłki między sklepem a marketplace'ami
+- **PayU vs Przelewy24 vs Stripe** - szczegółowe porównanie prowizji, funkcji i wpływu na konwersję dla sklepów o różnym wolumenie sprzedaży
+- **Paczkomaty obniżają koszty o 30-40%** - InPost, DPD Pickup i Allegro One Box jako alternatywa dla tradycyjnych kurierów z pełną analizą kosztów
+- **Checkout w 3 krokach zwiększa konwersję o 25%** - sprawdzone praktyki UX/UI, guest checkout i optymalne ustawienie metod płatności na podstawie polskich danych
+- **Marketplace'y generują 40% więcej ruchu** - Allegro Smart, Amazon i ekspansja cross-border z wyliczeniami ROI i kosztów prowizji
+- **Zwroty kosztują średnio 12% przychodu** - automatyzacja etykiet, polityka zwrotów i strategie minimalizacji kosztów przy zachowaniu satysfakcji klientów

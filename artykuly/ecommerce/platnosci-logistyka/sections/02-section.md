@@ -1,37 +1,25 @@
-## Optymalizacja Checkoutu dla Maksymalnej Konwersji
+## Płatności online w polskim e-commerce
 
-Każdy dodatkowy klik w procesie checkout to kolejna okazja dla klienta, żeby zmienić zdanie. Najlepsze sklepy ograniczają zakupy do 2-3 kroków maksymalnie.
+### Krajobraz operatorów płatności
 
-### Projektuj dla szybkości
+Polski rynek płatności online ma swoich wyraźnych liderów. PayU dominuje w średnich i dużych e-commerce'ach dzięki szerokiej palecie metod płatności i dobrej integracji z BLIK-iem. Przelewy24 to wybór wielu mniejszych sklepów - proste wdrożenie, przystępne stawki startowe.
 
-Prosty checkout zaczyna się od przejrzystego layoutu. Umieść najważniejsze informacje na górze strony. Wyróżnij przycisk "Zamawiam" kolorem i wielkością.
+Stripe zyskuje na popularności wśród firm technologicznych. Eleganckie API, świetna dokumentacja, ale wyższe prowizje. Adyen to rozwiązanie dla enterprise - zaawansowane funkcje, globalne pokrycie, ale wymaga większego budżetu i zespołu technicznego.
 
-Usuń wszystkie rozpraszające elementy - dodatkowe banery, linki do innych produktów czy nadmierną nawigację. W tym momencie liczy się tylko finalizacja zakupu.
+Różnice w prowizjach są znaczące. PayU startuje od 2,9% + 0,25 zł, Przelewy24 od 1,9% + 0,25 zł dla kart. Stripe to standard 2,9% + 0,25 zł, ale bez dodatkowych opłat za setup. Te pozornie małe różnice przy większych obrotach to tysiące złotych rocznie.
 
-### Minimalizuj formularz
+Wpływ na konwersję jest często niedoceniany. Klient widzi znajome logo PayU lub P24 - to buduje zaufanie. Jeśli checkout ładuje się szybko i obsługuje BLIK jednym kliknięciem, konwersja rośnie o 10-15%. Wybór operatora to nie tylko kwestia kosztów.
 
-Zostaw tylko niezbędne pola. Imię, nazwisko, adres i telefon wystarczą. Każde dodatkowe pole obniża konwersję o 2-3%.
+### Optymalizacja kosztów płatności
 
-Używaj inteligentnych funkcji jak autouzupełnianie adresu na podstawie kodu pocztowego. Klient wpisuje 00-001, a system podpowiada "Warszawa".
+Struktury prowizji kryją pułapki. Opłata interchange (około 0,8-1,2% dla kart Visa/Mastercard) to koszt niezmienny. Marża operatora już tak. Do tego dochodzą opłaty za chargeback (20-40 zł), za failed transaction, miesięczne fee za gateway.
 
-### Zakupy gościnne
+Sklepy z obrotem powyżej 100 tys. zł miesięcznie mają przestrzeń do negocjacji. Operatorzy często oferują stawki degresywne. Przy 500 tys. zł obrotu możesz wynegocjować obniżkę o 0,3-0,5 punktu procentowego. To 1500-2500 zł miesięcznych oszczędności.
 
-Nie zmuszaj do rejestracji. Opcja "Kup bez rejestracji" może zwiększyć konwersję nawet o 25%. 
+Optymalizacja mix'u płatności też ma znaczenie. BLIK ma niższe prowizje niż karty. Przelewy tradycyjne jeszcze tańsze. Zachęcanie klientów do tańszych metod poprzez drobne rabaty może obniżyć średni koszt transakcji.
 
-Zaoferuj możliwość założenia konta po zakupie. "Chcesz śledzić zamówienie? Utwórz konto jednym kliknięciem".
+Szczegółowe strategie redukcji kosztów znajdziesz w: [Obniżenie kosztów płatności](/obnizenie-kosztow-platnosci)
 
-### Transparentność kosztów
+Kompletny przegląd polskiego rynku: [Płatności online Polska](/platnosci-online-polska)
 
-Ukryte koszty wysyłki to główny powód porzucania koszyka. Pokazuj końcową kwotę już na pierwszej stronie checkout.
-
-Przykład: "Suma: 299 zł + dostawa 15 zł = 314 zł". Bez niespodzianek na końcu.
-
-Dodaj kalkulator wysyłki, który automatycznie nalicza koszty po wpisaniu kodu pocztowego.
-
-### Mobile-first podejście
-
-Ponad 60% zakupów odbywa się przez telefon. Duże przyciski, czytelne czcionki i możliwość płatności BLIK-iem jednym dotknięciem.
-
-Przetestuj checkout na różnych urządzeniach. To, co działa na desktopie, może być nieczytelne na smartfonie.
-
-Optymalizacja checkout to proces ciągły. Każda zmiana może przynieść dramatyczne rezultaty w konwersji.
+Monitoring kosztów płatności powinien być stały. Miesięczna analiza struktury prowizji często ujawnia możliwości oszczędności, które wcześniej umykały uwadze.

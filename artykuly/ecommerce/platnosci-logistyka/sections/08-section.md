@@ -1,21 +1,11 @@
 ## Podsumowanie
 
-Płatności i logistyka to serce każdego sklepu internetowego. Sprawny checkout, odpowiednie bramki płatnicze i niezawodna dostawa decydują o sukcesie biznesu.
+Płatności i logistyka to fundament każdego sklepu internetowego. Bez sprawnych systemów płatniczych tracisz 28% klientów w checkout. Bez dobrej logistyki kolejne 22% odchodzi z powodu kosztów dostawy.
 
-Kluczowe elementy to prostota i wybór. Checkout w trzech krokach, różnorodne metody płatności i elastyczne opcje dostawy. Klienci chcą wygody.
+Optymalizacja kosztów nie może odbywać się kosztem jakości obsługi. Oszczędzanie 0,3% na prowizjach płatniczych, które obniża konwersję o 10%, to fałszywa ekonomia. Lepiej wynegocjować lepsze stawki z obecnym operatorem niż ryzykować zmianą systemu.
 
-BLIK i Paczkomaty zdominowały polski rynek. Ale nie zapominaj o kartach płatniczych i dostawie kurierskiej. Różni klienci mają różne preferencje.
+Marketplace'y przestały być opcją - to konieczność. Allegro to 60% polskiego e-commerce. Amazon Europe otwiera dostęp do rynków z wyższymi marżami. Sprzedaż wielokanałowa wymaga innych kompetencji, ale generuje stabilniejsze przychody.
 
-Zwroty to szansa, nie problem. Szybka obsługa i jasne zasady budują lojalność lepiej niż idealne produkty.
+Szczegółowe strategie znajdziesz w dedykowanych artykułach linkowanych w tekście. Każdy obszar - od wyboru operatora płatności po ekspansję zagraniczną - zasługuje na głębszą analizę.
 
-Marketplace'y jak Allegro to dodatkowy kanał sprzedaży. Integracja z własnym sklepem otwiera nowe możliwości.
-
-Ekspansja w UE wymaga przygotowania. Lokalne metody płatności i VAT to wyzwania, ale korzyści są ogromne.
-
-### Ciągła optymalizacja przynosi rezultaty
-
-Testuj różne rozwiązania. Monitoruj wskaźniki konwersji. Zbieraj opinie klientów. Małe zmiany mogą przynieść duże efekty.
-
-Zapoznaj się z artykułami szczegółowymi. Każdy temat można pogłębić i dostosować do swojego biznesu.
-
-**Czas na działanie.** Sprawdź swój checkout. Porównaj oferty logistyczne. Wprowadź nowe metody płatności. Twoi klienci to docenią.
+Czas na audyt. Przeanalizuj prowizje obecnego operatora płatności. Przetestuj alternatywnych kurierów. Zmierz konwersję checkout step-by-step. Dane pokażą gdzie tkwią największe możliwości optymalizacji.
