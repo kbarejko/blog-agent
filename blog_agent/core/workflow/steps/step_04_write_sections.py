@@ -59,11 +59,8 @@ def execute_write_sections(
 
     print(f"\n✅ All {num_sections} sections written")
 
-    # Check if we need to write optional sections
-    if article.outline.has_checklist:
-        print("   📋 Checklist section included")
-
-    if article.outline.has_faq:
-        print("   ❓ FAQ section included")
+    # FAQ and Checklist are always included in outline
+    print("   📋 Checklist section included")
+    print("   ❓ FAQ section included")
 
     return article

@@ -65,61 +65,35 @@ Dodatkowe wymagania:
 
 **NIE** pisz pełnych akapitów w konspekcie - pisz tylko punkty do omówienia!
 
-## 🎯 Opcjonalne sekcje (Twoja decyzja)
+## 🎯 Wymagane sekcje końcowe
 
-Oceń, czy artykuł powinien zawierać następujące **opcjonalne sekcje** na końcu (po głównych sekcjach):
+**ZAWSZE dodaj te sekcje** na końcu artykułu (po głównych sekcjach, przed podsumowaniem):
+
+### FAQ (Najczęściej zadawane pytania)
+```markdown
+## Najczęściej zadawane pytania (FAQ)
+
+### 1. [Pytanie praktyczne]?
+- Punkt do omówienia
+- Kolejny punkt
+
+### 2. [Kolejne pytanie]?
+- Punkt do omówienia
+
+[5-8 pytań z praktycznymi odpowiedziami]
+```
 
 ### Checklist (Lista kontrolna)
-**Dodaj, jeśli:**
-- Artykuł jest typu "jak zrobić", "przewodnik", "implementacja"
-- Temat wymaga kroków do wykonania (audyt, wdrożenie, konfiguracja)
-- Czytelnik może użyć listy jako narzędzie robocze
-
-**NIE dodawaj, jeśli:**
-- Artykuł jest teoretyczny, koncepcyjny
-- To porównanie, analiza lub opinia
-- To historia lub case study
-
-**Format:**
 ```markdown
 ## Checklist - [Tematyczny Tytuł]
 - [ ] Konkretny krok do wykonania
 - [ ] Następny krok
 - [ ] ...
+
+[8-12 wykonalnych kroków]
 ```
 
-### FAQ (Najczęściej zadawane pytania)
-**Dodaj, jeśli:**
-- Temat budzi wiele wątpliwości lub pytań
-- Jest złożony i wymaga wyjaśnień
-- Dotyczy popularnego zagadnienia z naturalnymi pytaniami użytkowników
-- Może wzmocnić SEO (long-tail keywords w pytaniach)
-
-**NIE dodawaj, jeśli:**
-- Artykuł jest bardzo krótki/prosty
-- Temat jest bardzo niszowy bez oczywistych pytań
-- To lista narzędzi lub porównanie tabel (FAQ nie ma sensu)
-
-**Format:**
-```markdown
-## Najczęściej zadawane pytania (FAQ)
-
-### 1. Pytanie pierwsze (naturalne, jak zadałby użytkownik)?
-Zwięzła odpowiedź (2-4 zdania).
-
-### 2. Pytanie drugie?
-Odpowiedź...
-
-[...maksymalnie 10 pytań, optimum: 5-7]
-```
-
-**Możliwe kombinacje:**
-- Tylko Checklist
-- Tylko FAQ
-- Oba (dla kompleksowych przewodników)
-- Żadne (dla artykułów teoretycznych)
-
-**WAŻNE:** Jeśli decydujesz się dodać FAQ lub Checklist, uwzględnij je w strukturze konspektu jako ostatnie sekcje (przed ewentualnym podsumowaniem).
+**WAŻNE:** FAQ i Checklist są zawsze częścią struktury outline, ale faktyczna generacja do plików jest opcjonalna.
 
 ---
 

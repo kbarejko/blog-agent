@@ -122,11 +122,7 @@ def execute_outline(
     outline_path = article.get_outline_path()
     storage.write_file(outline_path, outline.to_markdown())
 
-    print(f"✅ Outline created: {len(outline.sections)} sections")
-    if outline.has_checklist:
-        print("   - Includes: Checklist")
-    if outline.has_faq:
-        print("   - Includes: FAQ")
+    print(f"✅ Outline created: {len(outline.sections)} sections (FAQ and Checklist always included)")
 
     # Git commit
     series, silo, slug = article.get_series_silo_slug()
@@ -228,8 +224,6 @@ def _parse_outline_from_response(response: str) -> Outline:
         Outline value object
     """
     sections = []
-    has_checklist = False
-    has_faq = False
 
     lines = response.split('\n')
     current_section = None
@@ -291,22 +285,11 @@ def _parse_outline_from_response(response: str) -> Outline:
 
         # Check for checklist items (lines starting with [ ] or - [ ])
         if current_section and (line.startswith('[ ]') or line.startswith('- [ ]')):
-            has_checklist = True
             # Add to description with proper formatting
             if current_section['description']:
                 current_section['description'] += '\n'
             current_section['description'] += original_line.rstrip()
             continue
-
-        # Check for FAQ markers (sections with question format or FAQ keyword)
-        if 'FAQ' in line.upper() or re.match(r'^\d+\.\s+.*\?', line):
-            has_faq = True
-
-        # Check for optional sections markers in text
-        if 'Checklist:' in line and ('TAK' in line.upper() or 'YES' in line.upper()):
-            has_checklist = True
-        if 'FAQ:' in line and ('TAK' in line.upper() or 'YES' in line.upper()):
-            has_faq = True
 
         # Add to current section description
         # Preserve line breaks for lists and formatting
@@ -347,7 +330,5 @@ def _parse_outline_from_response(response: str) -> Outline:
 
     return Outline(
         sections=sections,
-        has_checklist=has_checklist,
-        has_faq=has_faq,
         estimated_word_count=estimated_words
     )

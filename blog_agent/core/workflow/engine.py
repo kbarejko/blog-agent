@@ -197,14 +197,8 @@ class WorkflowEngine:
                     if current_section:
                         sections.append(current_section)
 
-                    # Check for FAQ and Checklist markers
-                    has_faq = 'FAQ' in content.upper() or 'najczęściej zadawane pytania' in content.lower()
-                    has_checklist = '- [ ]' in content or '[ ]' in content
-
                     outline = Outline(
                         sections=sections,
-                        has_checklist=has_checklist,
-                        has_faq=has_faq,
                         estimated_word_count=len(sections) * 350
                     )
                     article.set_outline(outline)

@@ -40,9 +40,9 @@ def execute_schema(
 
     print("🔄 Generating Schema.org markup...")
 
-    # Determine which schemas to include
-    include_faq = article.outline and article.outline.has_faq
-    include_howto = article.outline and article.outline.has_checklist
+    # FAQ and Checklist are always included in outline
+    include_faq = True
+    include_howto = True
 
     # Extract series and silo from article path
     path_parts = article.path.parts

@@ -1,23 +1,23 @@
 # Post
 
-69% klientów porzuca koszyk na ostatnim etapie. Poznaj 5 błędów które zabijają sprzedaż
+70% klientów porzuca koszyki przed płatnością. Sprawdź jak to zatrzymać
 
 ## Alternatywne tytuły
 
-1. Dlaczego 7 na 10 klientów porzuca koszyk w Twoim sklepie?
-2. 5 błędów UX które kosztują Cię 35% sprzedaży w e-commerce
-3. Jak zwiększyć konwersję o 200% poprawiając UX w sklepie online
-4. 3 sekundy decydują o sukcesie Twojego sklepu internetowego
+1. Jak zatrzymać 70% klientów, którzy porzucają koszyki w Twoim sklepie
+2. 3 sekundy na przekonanie klienta - optymalizacja sklepu internetowego
+3. Dlaczego klienci uciekają przed płatnością i jak to naprawić
+4. Mobile-first, szybkość, checkout - recepta na więcej sprzedaży online
 
 ## Pierwszy komentarz
 
 **Co znajdziesz w artykule?**
 
-- 5 najczęstszych problemów w checkout które tracą 69% klientów - oraz sposoby zwiększenia konwersji o 35%
-- Dlaczego 3 sekundy to maksymalny czas ładowania i jak Core Web Vitals mogą podnieść sprzedaż dwukrotnie
-- Jak dostępność WCAG 2.1 otwiera dostęp do 15% nowych klientów ignorowanych przez konkurencję
-- Mobile-first dla 60% sprzedaży - projektowanie z myślą o strefach kciuka i optymalizacji formularzy
-- Konkretne narzędzia analityczne - Google Analytics 4, mapy cieplne i testy A/B do znajdowania strat w sprzedaży
+- 5 głównych powodów porzucania koszyków i sposoby ich rozwiązania
+- Jak 3 sekundy ładowania decydują o stracie połowy klientów
+- Dlaczego dostępność może zwiększyć sprzedaż o 15%
+- Mobile-first design - projektowanie pod 60% ruchu ze smartfonów
+- Gotowe narzędzia i listy kontrolne do audytu sklepu
 
 **Link:** https://www.digitalvantage.pl/artykuly/ecommerce/ux-ui/
 
@@ -25,8 +25,10 @@
 
 - **UX**: User Experience - doświadczenie użytkownika
 - **UI**: User Interface - interfejs użytkownika
-- **WCAG**: Web Content Accessibility Guidelines - wytyczne dostępności treści internetowych
+- **WCAG**: Web Content Accessibility Guidelines - wytyczne dostępności stron
+- **CLS**: Cumulative Layout Shift - metryka stabilności układu strony
+- **LCP**: Largest Contentful Paint - czas ładowania głównego elementu
 
 ### Hashtags
 
-#ecommerce #sklepinternetowy #konwersja #sprzedażonline #biznesonline #userexperience #optymalizacja #marketing #biznes #przedsiębiorczość
+#ecommerce #sklepinternetowy #biznesonline #konwersja #ux #sprzedażonline #optymalizacja #biznes #marketing #digitalcommerce

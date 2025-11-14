@@ -1,7 +1,7 @@
 """
 Step 17: Generate FAQ
 
-Generates FAQ section if outline has has_faq=True.
+Generates FAQ section (always included in outline).
 Saves to faq.md with publish recommendation.
 """
 from typing import Dict, Any
@@ -18,16 +18,15 @@ def execute_faq(
     Generate FAQ section
 
     Args:
-        article: Article (must have outline and final content)
+        article: Article (must have outline)
         deps: Dependencies (ai, prompts, storage)
         config: Step configuration
 
     Returns:
         Article with FAQ generated
     """
-    if not article.outline or not article.outline.has_faq:
-        print("⏭️  Skipping FAQ (not in outline)")
-        return article
+    if not article.outline:
+        raise ValueError("Outline must exist before generating FAQ")
 
     ai = deps['ai']
     prompts = deps['prompts']

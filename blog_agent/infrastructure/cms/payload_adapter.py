@@ -68,22 +68,20 @@ class PayloadAdapter:
             'content': article.final_content
         })
 
-        # FAQ block (if exists)
-        if article.outline and article.outline.has_faq:
-            # Parse FAQ from final content
-            # For now, placeholder - actual parsing can be added later
-            doc['blocks'].append({
-                'blockType': 'faq',
-                'questions': []  # Would be parsed from content
-            })
+        # FAQ block (always included in outline)
+        # Parse FAQ from final content
+        # For now, placeholder - actual parsing can be added later
+        doc['blocks'].append({
+            'blockType': 'faq',
+            'questions': []  # Would be parsed from content
+        })
 
-        # Checklist block (if exists)
-        if article.outline and article.outline.has_checklist:
-            # Parse checklist from final content
-            doc['blocks'].append({
-                'blockType': 'checklist',
-                'items': []  # Would be parsed from content
-            })
+        # Checklist block (always included in outline)
+        # Parse checklist from final content
+        doc['blocks'].append({
+            'blockType': 'checklist',
+            'items': []  # Would be parsed from content
+        })
 
         # Related articles block (if internal links exist)
         if article.internal_links:

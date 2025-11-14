@@ -10,17 +10,15 @@ from datetime import datetime
 
 @dataclass(frozen=True)
 class Outline:
-    """Article outline with sections and optional components"""
+    """Article outline with sections (FAQ and Checklist always included)"""
     sections: List[Dict[str, str]]  # [{"title": "...", "description": "..."}]
-    has_checklist: bool = False
-    has_faq: bool = False
     estimated_word_count: int = 0
 
     @classmethod
     def from_markdown(cls, content: str) -> 'Outline':
         """Parse outline from markdown format"""
         # Will be implemented with actual parsing logic
-        return cls(sections=[], has_checklist=False, has_faq=False)
+        return cls(sections=[])
 
     def to_markdown(self) -> str:
         """Convert outline to markdown format"""
@@ -30,11 +28,6 @@ class Outline:
             lines.append(f"## {i}. {section['title']}")
             if section.get('description'):
                 lines.append(f"{section['description']}\n")
-
-        if self.has_checklist:
-            lines.append("\n**Zawiera:** Checklist")
-        if self.has_faq:
-            lines.append("**Zawiera:** FAQ\n")
 
         return "\n".join(lines)
 

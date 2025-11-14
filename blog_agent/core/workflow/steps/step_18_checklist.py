@@ -1,7 +1,7 @@
 """
 Step 18: Generate Checklist
 
-Generates checklist section if outline has has_checklist=True.
+Generates checklist section (always included in outline).
 Saves to checklist.md with publish recommendation.
 """
 from typing import Dict, Any
@@ -18,16 +18,15 @@ def execute_checklist(
     Generate Checklist section
 
     Args:
-        article: Article (must have outline and final content)
+        article: Article (must have outline)
         deps: Dependencies (ai, prompts, storage)
         config: Step configuration
 
     Returns:
         Article with checklist generated
     """
-    if not article.outline or not article.outline.has_checklist:
-        print("⏭️  Skipping Checklist (not in outline)")
-        return article
+    if not article.outline:
+        raise ValueError("Outline must exist before generating Checklist")
 
     ai = deps['ai']
     prompts = deps['prompts']

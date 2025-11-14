@@ -30,7 +30,7 @@ print(f"✅ Loaded article.md ({len(article.final_content)} chars)")
 
 # Create outline
 sections = [{"title": "Section 1", "description": "Test"}]
-article.outline = Outline(sections=sections, has_faq=False, has_checklist=True, estimated_word_count=3000)
+article.outline = Outline(sections=sections, estimated_word_count=3000)
 print(f"✅ Created outline")
 
 # Create factory and deps

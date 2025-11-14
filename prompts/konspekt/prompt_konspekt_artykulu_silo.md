@@ -92,61 +92,45 @@ Artykuł SILO różni się od zwykłego artykułu szczegółowego:
 
 **NIE** pisz pełnych akapitów w konspekcie - to zadanie dla kolejnego kroku workflow!
 
-## 🎯 Wymagane i opcjonalne sekcje
+## 🎯 Wymagane sekcje końcowe
 
-### FAQ (Najczęściej zadawane pytania) - WYMAGANE
-**FAQ jest OBOWIĄZKOWE dla wszystkich artykułów SILO**, ponieważ:
-- Pomaga w nawigacji po temacie
-- Odpowiada na pytania typu "co powinienem przeczytać najpierw?", "od czego zacząć?"
-- Może kierować do konkretnych artykułów szczegółowych w silosie
-- Wzmacnia SEO dla szerszych zapytań long-tail
-- Pomaga czytelnikowi zorientować się w strukturze całego silosa
+**ZAWSZE dodaj te sekcje** na końcu (po głównych sekcjach, przed podsumowaniem):
 
-**Format:**
+### FAQ (Najczęściej zadawane pytania)
 ```markdown
 ## Najczęściej zadawane pytania (FAQ)
 
-### 1. Od czego zacząć z [temat]?
-Zwięzła odpowiedź z linkiem do artykułu startowego (jeśli istnieje).
+### 1. [Pytanie praktyczne]?
+- Punkt do omówienia
+- Link do artykułu szczegółowego (jeśli dotyczy)
 
-### 2. Jaka jest różnica między [aspekt A] a [aspekt B]?
-Odpowiedź z linkami do odpowiednich artykułów szczegółowych.
+### 2. [Kolejne pytanie]?
+- Punkt do omówienia
 
-### 3. Który artykuł powinienem przeczytać najpierw?
-Wskazówki dotyczące kolejności czytania artykułów w silosie.
-
-[...optimum: 6-10 pytań dla artykułów SILO]
+[6-10 pytań z linkami do artykułów w silosie]
 ```
 
-**WAŻNE dla FAQ w artykułach SILO:**
-- Minimum 5 pytań, optimum 6-10 pytań
-- Przynajmniej 2-3 pytania powinny zawierać linki do artykułów szczegółowych w silosie
-- Pytania powinny pomagać w nawigacji (np. "Który aspekt jest najważniejszy?", "Od czego zacząć?")
-- Pytania typu "co dalej?" mogą wskazywać na potencjalne przyszłe artykuły
-
-### Checklist (Lista kontrolna) - OPCJONALNY
-**Dla artykułów SILO Checklist jest OPCJONALNY**:
-- Dodaj TYLKO jeśli temat można podsumować jako listę kroków do wykonania
-- Checklist powinien być high-level, nie szczegółowy
-- Może zawierać linki do artykułów szczegółowych dla każdego kroku
-
-**Format:**
+### Checklist (Lista kontrolna)
 ```markdown
-## Checklist - [Temat] w pigułce
-- [ ] Krok 1 (high-level) → [Link do artykułu szczegółowego]
-- [ ] Krok 2 (high-level) → [Link do artykułu szczegółowego]
+## Checklist - [Tematyczny Tytuł]
+- [ ] Krok do wykonania
+- [ ] Następny krok
 - [ ] ...
+
+[8-12 wykonalnych kroków]
 ```
+
+**WAŻNE:** FAQ i Checklist są zawsze częścią outline, faktyczna generacja do plików jest opcjonalna.
 
 ## ⚠️ WAŻNE instrukcje dla AI
 
 1. **ZAWSZE uwzględnij wszystkie istniejące artykuły** z listy {{SILO_ARTICLES}} w konspekcie
-2. **FAQ jest OBOWIĄZKOWE** - każdy konspekt artykułu SILO MUSI zawierać sekcję FAQ z minimum 5 pytaniami (optimum 6-10)
+2. **FAQ i Checklist są OBOWIĄZKOWE** - każdy outline MUSI zawierać obie sekcje
 3. **ZAPLANUJ miejsca na przyszłe artykuły** - struktura powinna mieć "luki", które można wypełnić
 4. **Zachowaj balans** - artykuł ma być wartościowy sam w sobie, ale też zachęcać do czytania dalej
 5. **Użyj natural language** dla linków wewnętrznych - nie "kliknij tutaj", ale "dowiedz się więcej o [temat konkretny]"
 6. **Każda sekcja H2 to potencjalne miejsce na link** do artykułu szczegółowego (istniejącego lub przyszłego)
-7. **FAQ musi zawierać linki** - przynajmniej 2-3 pytania w FAQ powinny kierować do konkretnych artykułów w silosie
+7. **FAQ powinien zawierać linki** - przynajmniej 2-3 pytania w FAQ mogą kierować do artykułów w silosie
 
 ## 📊 Długość i zakres
 
@@ -158,11 +142,12 @@ Zasady planowania długości:
 - **Typowe długości sekcji:**
   - Wprowadzenie: 150-250 słów
   - Sekcje główne (H2): 250-350 słów każda
-  - FAQ: budżet ~400-600 słów (6-10 pytań × 50-70 słów)
+  - FAQ: ~400-600 słów (6-10 pytań × 50-70 słów)
+  - Checklist: ~100-200 słów (8-12 kroków)
   - Podsumowanie: 100-200 słów
 
 **Przykład dla artykułu 2000 słów:**
-- Wprowadzenie (200) + 5 sekcji głównych (5×250=1250) + FAQ (400) + Podsumowanie (150) = 2000 słów
+- Wprowadzenie (200) + 5 sekcji głównych (5×250=1250) + FAQ (400) + Checklist (150) = 2000 słów
 
 - **Głębokość:** Wprowadzająca, nie szczegółowa
 - **Cel:** Dać czytelnikowi "mapę" tematu i skierować go do właściwego artykułu szczegółowego
