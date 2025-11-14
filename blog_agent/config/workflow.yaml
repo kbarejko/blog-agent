@@ -19,14 +19,13 @@ steps:
     module: blog_agent.core.workflow.steps.step_01_init
     description: "Initialize article structure"
     enabled: true
-    provider:  gemini-2.0-flash  # lub gemini-2.0-flash dla absolutnego minimum
-
+    provider:  openai-gpt4o-mini
+    
   - name: outline
     module: blog_agent.core.workflow.steps.step_02_outline
     description: "Generate article outline"
     enabled: true
-    provider: gemini-2.0-flash  # Works with Polish content, no SAFETY false positives
-
+  
   - name: summary
     module: blog_agent.core.workflow.steps.step_03_summary
     description: "Generate article summary (Co znajdziesz w artykule?)"
@@ -47,7 +46,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_06_seo_review
     description: "SEO review and heading fixes"
     enabled: true
-    provider: gemini-2.0-flash  # lub gemini-2.0-flash dla absolutnego minimum
+    provider: openai-gpt4o
 
   - name: humanize
     module: blog_agent.core.workflow.steps.step_07_humanize
@@ -81,13 +80,13 @@ steps:
     module: blog_agent.core.workflow.steps.step_12_schema
     description: "Generate Schema.org markup"
     enabled: true
-    provider: gemini-2.0-flash  # lub gemini-2.0-flash dla absolutnego minimum
+    provider: openai-gpt4o-mini
 
   - name: categories
     module: blog_agent.core.workflow.steps.step_13_categories
     description: "Assign categories from categories.yaml"
     enabled: true
-    provider: gemini-2.0-flash  # lub gemini-2.0-flash dla absolutnego minimum
+    provider: openai-gpt4o-mini
 
   - name: internal_linking
     module: blog_agent.core.workflow.steps.step_14_internal_linking
@@ -121,14 +120,11 @@ steps:
     module: blog_agent.core.workflow.steps.step_17_faq
     description: "Generate FAQ section (if in outline)"
     enabled: true
-    provider: gemini-2.0-flash  # lub gemini-2.0-flash dla absolutnego minimum
-
 
   - name: checklist
     module: blog_agent.core.workflow.steps.step_18_checklist
     description: "Generate Checklist section (if in outline)"
     enabled: true
-    provider: gemini-2.0-flash  # lub gemini-2.0-flash dla absolutnego minimum
 
 # Quality Review Configuration
 review:

@@ -177,7 +177,7 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
     """
     Add internal links to FAQ content
 
-    Finds related articles in the same silo and adds contextual links using AI
+    Finds related articles in the same silo and adds contextual links
 
     Args:
         faq_content: FAQ content
@@ -187,13 +187,13 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
     Returns:
         FAQ content with internal links added
     """
-    # Get silo directory (parent of article)
-    silo_path = article.path.parent
+    # Get silo directory - articles in same silo are subdirectories of current article
+    silo_path = article.path
 
     if not silo_path.exists():
         return faq_content
 
-    # Find related articles in silo
+    # Find related articles in silo (subdirectories)
     related_articles = []
     for subdir in silo_path.iterdir():
         if not subdir.is_dir() or subdir == article.path:
@@ -237,11 +237,14 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
     current_question = None
     current_answer_lines = []
 
+    print(f"   📝 Processing {len(lines)} lines, {len(related_articles)} related articles")
+
     for line in lines:
         line_stripped = line.strip()
 
         # Detect question
         if line_stripped.startswith('###') and '?' in line_stripped:
+            print(f"   🔍 Found question: {line_stripped[:60]}...")
             # Save previous Q&A with link
             if current_question:
                 # Find best matching article for this Q&A
@@ -254,8 +257,11 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
 
                 # Add link if found
                 if best_match:
+                    print(f"      → Adding link to: {best_match['slug']}")
                     output_lines.append('')
                     output_lines.append(f"**Więcej:** [{best_match['title']}]({best_match['url']})")
+                else:
+                    print(f"      → No match found")
 
                 output_lines.append('')  # Empty line between Q&As
 
