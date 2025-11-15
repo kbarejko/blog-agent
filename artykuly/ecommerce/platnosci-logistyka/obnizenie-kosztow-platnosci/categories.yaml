@@ -2,10 +2,16 @@ categories:
 - slug: e-commerce
   title: E-commerce
   path: strony-internetowe/content-management-systems-cms/e-commerce
-- slug: sklepy-internetowe
-  title: Sklepy Internetowe
-  path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
+- slug: firma
+  title: Firma
+  path: firma
 - slug: koszty-i-budzetowanie-it
   title: Koszty i budżetowanie IT
   path: strategia-it/koszty-i-budzetowanie-it
-count: 3
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+count: 5
