@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **PayU, Przelewy24, Tpay - różnice w kosztach do 0,8%**  
+- **PayU, Przelewy24, Tpay - [różnice w kosztach do 0,8%](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci)**  
   Przyjrzyjmy się z bliska prowizjom i ewentualnym ukrytym opłatom u trzech czołowych operatorów płatności w Polsce. Czy różnice są znaczące?
 
 - **BLIK dominuje z 67% udziałem**  
@@ -12,7 +12,7 @@
 - **PCI DSS bez stresu**  
   Bezpieczeństwo w płatnościach to podstawa. Oto praktyczny przewodnik po wymaganiach PCI DSS, który pomoże je spełnić, unikając kosztownych certyfikacji.
 
-- **Optymalizacja kosztów do 40%**  
+- **[Optymalizacja kosztów do 40%](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci)**  
   Czy można obniżyć koszty płatności nawet o 40%? Odkryj sprawdzone metody negocjowania stawek i optymalizacji routingu płatności, które mogą poprawić rentowność twojego biznesu.
 
 ## Wprowadzenie - Płatności online jako fundament e-commerce w Polsce
@@ -25,7 +25,7 @@ W 2024 roku aż 73% polskich klientów rezygnuje z zakupu, jeśli sklep nie ofer
 
 Dobór odpowiednich metod płatności przestał być tylko "miłym dodatkiem" do sklepu internetowego. Teraz to fundament, który decyduje o tym, czy klient zdecyduje się na zakup, czy może wybrać konkurencję. Każdy dzień opóźnienia w optymalizacji płatności to potencjalne straty transakcji i niezadowolenie klientów.
 
-Polski rynek e-commerce już teraz wart jest ponad 100 miliardów złotych rocznie, a preferencje płatnicze Polaków są bardzo widoczne. Dla młodszych użytkowników, BLIK jest dominującą metodą (regularnie korzysta z niego 68% osób poniżej 35 roku życia), podczas gdy starsze pokolenia wciąż darzą zaufaniem tradycyjne przelewy bankowe. Płatności kartą online stanowią około 35% wszystkich transakcji, ale ich udział stopniowo maleje na rzecz szybszych metod.
+[Polski rynek e-commerce już teraz wart jest ponad 100 miliardów złotych](/artykuly/ecommerce/platnosci-logistyka/cross-border-ue) rocznie, a preferencje płatnicze Polaków są bardzo widoczne. Dla młodszych użytkowników, BLIK jest dominującą metodą (regularnie korzysta z niego 68% osób poniżej 35 roku życia), podczas gdy starsze pokolenia wciąż darzą zaufaniem tradycyjne przelewy bankowe. Płatności kartą online stanowią około 35% wszystkich transakcji, ale ich udział stopniowo maleje na rzecz szybszych metod.
 
 Odpowiednio dobrane rozwiązania płatnicze mogą zwiększyć konwersję nawet o 30%. Sklepy, które oferują szeroką gamę popularnych metod płatności, obserwują średnio o 25% wyższą wartość zamówień i znacznie niższy wskaźnik porzucania koszyków. To bezpośrednio wpływa na wyniki finansowe.
 
