@@ -1,25 +1,27 @@
 # FAQ Outline
 
-### Czy mogę mieć kilku operatorów płatności jednocześnie?
-- Zalety i wady multi-operator setup
-- Kwestie techniczne i integracyjne
+(~350 słów)
 
-### Jak długo trwa wdrożenie płatności online?
-- Typowe czasy wdrożenia dla różnych rozwiązań
-- Czynniki wpływające na szybkość implementacji
+### 1. Ile kosztuje wdrożenie płatności online w sklepie internetowym?
+- Koszty setup​u u różnych operatorów
+- Miesięczne opłaty stałe vs. prowizje od transakcji
 
-### Czy małe sklepy potrzebują wszystkich metod płatności?
-- Minimalne zestawy płatności dla start-upów
-- Kiedy rozszerzać ofertę płatniczą
+### 2. Która metoda płatności ma najwyższą konwersję w Polsce?
+- Statystyki konwersji dla różnych metod
+- Zależność od branży i grupy docelowej
 
-### Co zrobić z porzuconymi koszykami z powodu płatności?
-- Analiza przyczyn porzucania
-- Remarketing i email recovery
+### 3. Jak długo trwa integracja z operatorem płatności?
+- Czasookresy dla różnych typów integracji
+- Czynniki wpływające na czas wdrożenia
 
-### Jak radzić sobie z płatnościami międzynarodowymi?
-- Waluty obce i kursy wymiany
-- Specyfika płatności z różnych krajów
+### 4. Czy mały sklep internetowy potrzebuje wielu metod płatności?
+- Minimum viable payment methods dla startupów
+- Kiedy warto rozszerzać portfolio płatności
 
-### Czy warto inwestować w płatności mobilne?
-- Trendy w mobile commerce w Polsce
-- Optymalizacja płatności na smartfonach
+### 5. Co zrobić gdy klient reklamuje płatność?
+- Procedury dispute i chargeback
+- Dokumentacja konieczna do obrony transakcji
+
+### 6. Jak zabezpieczyć się przed fraudem w płatnościach online?
+- Podstawowe środki ostrożności
+- Kiedy inwestować w zaawansowane systemy antyfraudowe

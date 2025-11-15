@@ -1,14 +1,15 @@
 # Checklist Outline
 
-- [ ] Przeanalizuj profil swoich klientów i ich preferencje płatnicze
-- [ ] Porównaj oferty minimum 3 operatorów płatności
-- [ ] Sprawdź koszty prowizji dla swojego wolumenu sprzedaży
-- [ ] Upewnij się, że operator obsługuje wszystkie kluczowe metody płatności
-- [ ] Zweryfikuj szybkość rozliczeń i wpływ na cash flow
-- [ ] Sprawdź jakość dokumentacji API i wsparcia technicznego
-- [ ] Zaplanuj proces integracji z platformą e-commerce
-- [ ] Przygotuj stronę płatności zgodną z najlepszymi praktykami UX
-- [ ] Wdróż monitoring bezpieczeństwa i systemy antyfraud
-- [ ] Przetestuj cały proces płatności przed uruchomieniem
-- [ ] Przygotuj procedury obsługi reklamacji i chargebacków
-- [ ] Zaplanuj regularne przeglądy i optymalizację kosztów płatności
+- [ ] Przeprowadzenie analizy potrzeb i grupy docelowej
+- [ ] Benchmark kosztów u 3-5 operatorów płatności
+- [ ] Sprawdzenie dostępnych metod płatności u każdego operatora
+- [ ] Ocena łatwości integracji technicznej
+- [ ] Weryfikacja wsparcia technicznego i dokumentacji API
+- [ ] Przegląd polityki chargebacków i dispute
+- [ ] Analiza czasu rozliczeń i wypłat
+- [ ] Sprawdzenie referencji i opinii innych merchantów
+- [ ] Test sandbox environment przed wdrożeniem
+- [ ] Przygotowanie backup operatora na wypadek problemów
+- [ ] Wdrożenie analytics i monitoringu płatności
+- [ ] Optymalizacja checkout flow pod kątem konwersji
+- [ ] Przeszkolenie zespołu z obsługi problemów płatniczych
