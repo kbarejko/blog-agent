@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **BLIK zdobywa 45% rynku** - To może sugerować, że polscy klienci coraz częściej wybierają płatności mobilne. Sklepy, które nie oferują BLIK, mogą tracić aż co trzeciego klienta.
-- **Prowizje od 1,2% do 3,9%** - Przyglądamy się dokładnie kosztom w PayU, Przelewy24, Stripe i ukrytym opłatom, które mogą znacząco wpływać na marżę sprzedawcy.
+- **[Prowizje od 1,2% do 3,9%](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci)** - Przyglądamy się dokładnie [kosztom w PayU, Przelewy24, Stripe](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci) i ukrytym opłatom, które mogą znacząco wpływać na marżę sprzedawcy.
 - **Checkout w 3 krokach poprawia konwersję o 23%** - Przedstawiamy sprawdzone wzorce UX, które mogą zwiększyć efektywność procesu płatności zarówno na komputerach, jak i urządzeniach mobilnych.
 - **PCI DSS to nie tylko opcja, ale wymóg** - Przeprowadzamy przez konkretne kroki implementacji zabezpieczeń, oferując również gotową checklistę do audytu bezpieczeństwa.
 - **ROI z optymalizacji płatności: 300-500%** - Omawiamy, które metryki warto śledzić w GA4 i jak przeprowadzać testy A/B w procesie płatności, by zwiększyć przychody.
@@ -12,7 +12,7 @@
 
 # Płatności Online w Polskim E-commerce
 
-Wyobraź sobie sytuację, kiedy klient z entuzjazmem dodaje produkty do koszyka, przechodzi przez cały proces zakupowy, a na samym końcu... rezygnuje. Brzmi znajomo? Statystyki wskazują, że aż 70% polskich konsumentów porzuca zakupy właśnie na etapie płatności. Może to być efekt niewłaściwych decyzji biznesowych.
+Wyobraź sobie sytuację, kiedy klient z entuzjazmem dodaje produkty do koszyka, przechodzi przez cały [proces zakupowy](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje), a na samym końcu... rezygnuje. Brzmi znajomo? Statystyki wskazują, że aż 70% polskich konsumentów porzuca zakupy właśnie na etapie płatności. Może to być efekt niewłaściwych decyzji biznesowych.
 
 ## Wprowadzenie - stan płatności online w polskim e-commerce
 
