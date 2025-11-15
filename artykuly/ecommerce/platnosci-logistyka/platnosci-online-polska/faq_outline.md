@@ -1,27 +1,36 @@
 # FAQ Outline
 
-(~350 słów)
+### 1. Ile kosztuje wdrożenie systemu płatności online w Polsce?
+- Zestawienie kosztów setupu u głównych operatorów
+- Miesięczne opłaty stałe vs. model pure transaction-based
+- Koszty ukryte, o których operatorzy nie mówią od razu
 
-### 1. Ile kosztuje wdrożenie płatności online w sklepie internetowym?
-- Koszty setup​u u różnych operatorów
-- Miesięczne opłaty stałe vs. prowizje od transakcji
+### 2. Jak długo trwa proces integracji płatności online?
+- Timeline dla różnych platform e-commerce
+- Czynniki wydłużające proces wdrożenia
+- Jak przyspieszyć integrację
 
-### 2. Która metoda płatności ma najwyższą konwersję w Polsce?
-- Statystyki konwersji dla różnych metod
-- Zależność od branży i grupy docelowej
+### 3. Czy mogę zmieniać operatora płatności po wdrożeniu?
+- Proces migracji między operatorami
+- Zachowanie danych klientów przy zmianie
+- Minimalizacja przestoju podczas przejścia
 
-### 3. Jak długo trwa integracja z operatorem płatności?
-- Czasookresy dla różnych typów integracji
-- Czynniki wpływające na czas wdrożenia
+### 4. Jakie prowizje biorą operatorzy płatności w Polsce?
+- Aktualne stawki prowizji u głównych graczy
+- Od czego zależą negocjowane stawki
+- Kiedy warto renegocjować umowę
 
-### 4. Czy mały sklep internetowy potrzebuje wielu metod płatności?
-- Minimum viable payment methods dla startupów
-- Kiedy warto rozszerzać portfolio płatności
+### 5. Czy małe sklepy internetowe potrzebują zaawansowanych systemów płatności?
+- Punkt opłacalności różnych rozwiązań
+- Prostsze alternatywy dla małych biznesów
+- Skalowanie systemów płatności wraz z rozwojem firmy
 
-### 5. Co zrobić gdy klient reklamuje płatność?
-- Procedury dispute i chargeback
-- Dokumentacja konieczna do obrony transakcji
+### 6. Co to jest PCI DSS i czy muszę się tym martwić?
+- Wyjaśnienie standardu PCI DSS prostymi słowami
+- Odpowiedzialność merchantów vs. operatorów płatności
+- Konsekwencje nie-compliance
 
-### 6. Jak zabezpieczyć się przed fraudem w płatnościach online?
-- Podstawowe środki ostrożności
-- Kiedy inwestować w zaawansowane systemy antyfraudowe
+### 7. Jak płatności mobilne wpływają na sprzedaż?
+- Statystyki mobile commerce w Polsce
+- Optymalizacja pod BLIK i płatności mobilne
+- Przyszłość contactless payments
