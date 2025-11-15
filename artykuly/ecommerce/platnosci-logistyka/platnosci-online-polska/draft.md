@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **PayU, Przelewy24, Tpay - różnice w kosztach do 0,8%** - szczegółowe porównanie prowizji i ukrytych opłat u trzech głównych operatorów w Polsce
 - **BLIK dominuje z 67% udziałem** - aktualne statystyki preferencji płatniczych Polaków i jak to wpływa na konwersje w sklepach
@@ -6,14 +6,13 @@
 - **PCI DSS bez stresu** - praktyczny przewodnik po wymaganiach bezpieczeństwa i jak je spełnić bez drogich certyfikacji
 - **Optymalizacja kosztów do 40%** - sprawdzone metody negocjowania stawek i routing płatności dla większej rentowności
 
-
 ## Wprowadzenie - Płatności online jako fundament e-commerce w Polsce
 
-# Platnosci Online Polska w e-commerce
+### Platnosci Online Polska w e-commerce
 
 W 2024 roku aż 73% polskich konsumentów porzuca koszyk zakupowy, gdy sklep nie oferuje ich preferowanej metody płatności. To jedna liczba, która pokazuje, jak kluczowe są dziś decyzje dotyczące płatności online.
 
-## Wprowadzenie - Płatności online jako fundament e-commerce w Polsce
+### Wprowadzenie - Płatności online jako fundament e-commerce w Polsce
 
 Dobór odpowiednich metod płatności to nie jest już kwestia "miłego dodatku" do sklepu internetowego. To podstawa, która decyduje o tym, czy klient sfinalizuje zakup, czy odejdzie do konkurencji. Każdy dzień zwłoki w optymalizacji płatności to utracone transakcje i frustracja klientów.
 
@@ -151,10 +150,6 @@ Procedura reklamacji powinna być prosta jak BLIK – jeden formularz, jasne ter
 
 ---
 
-## Optymalizacja procesu płatności dla lepszych konwersji
-
-Najlepsze metody płatności i zabezpieczenia to połowa sukcesu. Druga połowa to płynny, intuicyjny proces, który nie frustruje klientów w ostatniej chwili. Statystyki są bezlitosne: 23% Polaków porzuca koszyk z powodu zbyt skomplikowanej procedury płatności.
-
 ### UX/UI płatności - najlepsze praktyki
 
 Każdy dodatkowy krok to potencjalna utrata 10-15% klientów. Ideał to maksymalnie trzy kroki: podsumowanie zamówienia, wybór płatności, potwierdzenie. Wszystko inne to luksusy, na które możesz sobie pozwolić tylko przy bardzo lojalnych klientach.
@@ -189,33 +184,9 @@ Prowizje to tylko wierzchołek góry lodowej. Prawdziwe koszty płatności onlin
 
 ### Negocjowanie warunków współpracy
 
-### Struktura kosztów u różnych operatorów
-
-### Optymalizacja kosztów w praktyce
-
-Prowizje procentowe to podstawa, ale diabeł tkwi w szczegółach. PayU oferuje 1,5% prowizji, ale dodaje 0,30 zł za każdą transakcję BLIK. Przelewy24 ma 1,8%, ale bez opłat stałych. Przy średnim koszyku 80 zł pierwsza opcja będzie droższa.
-
-### Czy mogę mieć kilku operatorów płatności jednocześnie?
-
-Koszty miesięczne często są pomijane w kalkulacjach. 25 złotych miesięcznie to przy małej skali duże obciążenie, ale przy obrotach powyżej 50 tysięcy złotych to marginalny koszt.
-
-### Jak długo trwa wdrożenie płatności online?
-
-Opłaty za wypłaty to pułapka dla początkujących. Jeden operator pobiera 2 złote za każdą wypłatę, drugi oferuje darmowe wypłaty raz dziennie. Różnica może wynosić 150 złotych miesięcznie.
-
-### Czy małe sklepy potrzebują wszystkich metod płatności?
-
-### Negocjowanie warunków współpracy
-
-### Co zrobić z porzuconymi koszykami z powodu płatności?
-
 Próg negocjacji zaczyna się od 20 tysięcy złotych miesięcznego obrotu. Poniżej tej kwoty operatorzy rzadko są skłonni do ustępstw. Powyżej 100 tysięcy każdy punkt bazowy prowizji jest do wynegocjowania.
 
-### Jak radzić sobie z płatnościami międzynarodowymi?
-
 Argumenty to nie tylko wolumen. Stabilność obrotów, niska stopa chargebacków, długoterminowa współpraca – to wszystko ma wartość. Niektórzy operatorzy oferują lepsze warunki w zamian za wyłączność.
-
-### Czy warto inwestować w płatności mobilne?
 
 ### Optymalizacja kosztów w praktyce
 
