@@ -181,9 +181,9 @@ Silo articles (category hub pages) have special handling:
 
 1. **Different Prompt**: Uses `prompt_konspekt_artykulu_silo.md`
 2. **Article Detection**: Automatically finds sub-articles in the silo
-3. **Required FAQ**: FAQ section is mandatory (not optional)
-4. **Natural Linking**: Includes links to all sub-articles
-5. **More Tokens**: Gets 3500 tokens vs 2000 for regular articles
+3. **Natural Linking**: Includes links to all sub-articles
+4. **More Tokens**: Gets 3500 tokens vs 2000 for regular articles
+5. **FAQ/Checklist**: Generated separately in steps 17-18 (not part of main outline)
 
 ### Creating a Silo Article
 
@@ -201,7 +201,7 @@ The system will:
 - Detect it's a silo article (no slug in path)
 - Find existing sub-articles (like `marketing/google-ads`, `marketing/facebook-ads`)
 - Generate outline with links to those articles
-- Include comprehensive FAQ section
+- Generate FAQ and Checklist in separate steps (faq.md, checklist.md)
 
 ## 🎛️ Provider Selection
 

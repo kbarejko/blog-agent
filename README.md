@@ -185,7 +185,7 @@ blog-agent list --series ecommerce
 ## Workflow Steps
 
 1. **Init** - Create folder structure
-2. **Outline** - Generate article outline with optional sections (Checklist, FAQ)
+2. **Outline** - Generate article outline (main sections only - FAQ/Checklist have separate outlines)
 3. **Summary** - Create "Co znajdziesz w artykule?" (3-5 value points)
 4. **Write Sections** - Write all sections with AI review (300-400 words, Flesch 40-60)
 5. **Create Draft** - Combine summary + sections → draft.md
@@ -200,8 +200,8 @@ blog-agent list --series ecommerce
 14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
 15. **Generate Images** - Generate images with DALL-E 3 or Stability AI from multimedia prompts (optional, disabled by default)
 16. **Social Media** - Generate social media posts (Facebook/LinkedIn/Instagram) with hooks, alternative titles, and hashtags (saved as Markdown)
-17. **FAQ** - Generate FAQ section with 5-8 questions and semantic internal linking to related articles (if FAQ in outline)
-18. **Checklist** - Generate actionable checklist with 8-12 items and humanization (if Checklist in outline)
+17. **FAQ** - Generate FAQ section with 5-8 questions and semantic internal linking to related articles (separate faq.md file with faq_outline.md)
+18. **Checklist** - Generate actionable checklist with 8-12 items and humanization (separate checklist.md file with checklist_outline.md)
 19. **Headers Alternatives** - Generate 3-4 SEO-optimized alternatives for all H1/H2/H3 headers, including long-tail variants (optional, disabled by default)
 
 ### Advanced Workflow Control
