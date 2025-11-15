@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **BLIK dominuje z 45% udziałem** - polscy klienci preferują płatności mobilne, a sklepy bez BLIK tracą co trzeciego kupującego
 - **Prowizje od 1,2% do 3,9%** - szczegółowe porównanie kosztów PayU, Przelewy24, Stripe i ukrytych opłat które niszczą marżę
@@ -6,14 +6,13 @@
 - **PCI DSS to nie opcja lecz wymóg** - konkretne kroki implementacji zabezpieczeń plus gotowa checklist audytu bezpieczeństwa
 - **ROI z optymalizacji płatności: 300-500%** - które metryki śledzić w GA4 i jak A/B testować checkout żeby zwiększyć przychody
 
-
 ## Wprowadzenie - stan płatności online w polskim e-commerce
 
-# Platnosci Online Polska w e-commerce
+### Platnosci Online Polska w e-commerce
 
 Klient dodaje produkty do koszyka, przechodzi przez cały proces zakupowy, a na ostatnim etapie... rezygnuje. Statystyki pokazują, że nawet 70% polskich konsumentów porzuca zakupy właśnie na etapie płatności. To nie przypadek – to konsekwencja złych decyzji biznesowych.
 
-## Wprowadzenie - stan płatności online w polskim e-commerce
+### Wprowadzenie - stan płatności online w polskim e-commerce
 
 Płatności to nie tylko techniczny element sklepu internetowego. To moment prawdy, w którym potencjalny klient podejmuje ostateczną decyzję o zakupie. Właściwie skonfigurowane płatności mogą zwiększyć konwersję nawet o 30%, podczas gdy źle dobrane metody potrafią zniszczyć najlepszą strategię marketingową.
 
@@ -117,7 +116,7 @@ PCI DSS to nie opcja, ale obowiązek. Ten standard definiuje, jak chronić dane 
 
 Sprawdź certyfikat PCI DSS swojego operatora. PayU, Przelewy24 i Stripe mają pełną certyfikację. Mniejsze firmy mogą mieć problemy z jej utrzymaniem.
 
-3D Secure 2.0 zmienił zasady gry. Stara wersja irytowała klientów dodatkowymi stronami autoryzacji. Nowa wersja działa w tle. Analizuje zachowanie użytkownika i wymaga dodatkowej weryfikacji tylko w podejrzanych przypadach.
+3D Secure 2.0 zmienił zasady gry. Stara wersja irytowała klientów dodatkowymi stronami autoryzacji. Nowa wersja działa w tle. Analizuje zachowanie użytkownika i wymaga dodatkowej weryfikacji tylko w podejrzanych przypadkach.
 
 Tokenizacja to najskuteczniejsza ochrona danych. Prawdziwe numery kart zastępowane są unikalnymi tokenami. Nawet jeśli ktoś zhakuje bazę danych, nie zdobędzie użytecznych informacji.
 
