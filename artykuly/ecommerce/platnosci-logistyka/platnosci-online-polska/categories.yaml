@@ -2,16 +2,16 @@ categories:
 - slug: e-commerce
   title: E-commerce
   path: strony-internetowe/content-management-systems-cms/e-commerce
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
 - slug: bezpieczenstwo
   title: Bezpieczeństwo
   path: bezpieczenstwo
 - slug: marketing-w-internecie
   title: Marketing w Internecie
   path: marketing-w-internecie
-- slug: technologie-dla-firm
-  title: Technologie dla firm
-  path: firma/technologie-dla-firm
-- slug: projektowanie-ux-ui
-  title: Projektowanie UX/UI
-  path: strony-internetowe/projektowanie-ux-ui
+- slug: strategia-it
+  title: Strategia IT
+  path: strategia-it
 count: 5
