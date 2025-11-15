@@ -16,13 +16,13 @@ Pewien właściciel sklepu internetowego z elektroniką odkrył niedawno zaskaku
 
 ## Wprowadzenie - dlaczego koszty płatności to krytyczny element rentowności sklepu
 
-Polskie sklepy internetowe zazwyczaj płacą od 1,8% do 3,2% wartości transakcji za obsługę płatności online. Choć na pierwszy rzut oka może się to wydawać niewiele, przy rocznych obrotach rzędu 2 mln zł mówimy już o kwocie rzędu 36-64 tys. zł. Dla większych sklepów te sumy mogą sięgać setek tysięcy złotych rocznie.
+Polskie sklepy internetowe zazwyczaj płacą od 1,8% do 3,2% wartości transakcji za [obsługę płatności online](/artykuly/ecommerce/platnosci-logistyka/platnosci-online-polska). Choć na pierwszy rzut oka może się to wydawać niewiele, przy rocznych obrotach rzędu 2 mln zł mówimy już o kwocie rzędu 36-64 tys. zł. Dla większych sklepów te sumy mogą sięgać setek tysięcy złotych rocznie.
 
 Problem ten staje się szczególnie istotny w branżach o niskich marżach. Jeśli na przykład sprzedajesz produkty z marżą 8%, a koszty płatności sięgają 2,5%, to niemal jedna trzecia zysku z każdej transakcji znika. W przypadku elektroniki czy artykułów spożywczych ta proporcja może być jeszcze bardziej niekorzystna.
 
-Koszty płatności to nie tylko widoczne prowizje transakcyjne. Składają się na nie również opłaty interchange pobierane przez banki wydające karty, opłaty scheme organizacji kartowych (takich jak Visa czy Mastercard), opłaty operatora płatności, miesięczne abonamenty za bramkę oraz koszty ukryte.
+Koszty płatności to nie tylko widoczne prowizje transakcyjne. Składają się na nie również [opłaty interchange pobierane przez banki](/artykuly/ecommerce/platnosci-logistyka/cross-border-ue) wydające karty, opłaty scheme organizacji kartowych (takich jak Visa czy Mastercard), opłaty operatora płatności, miesięczne abonamenty za bramkę oraz koszty ukryte.
 
-Te ostatnie mogą być najbardziej zaskakujące. Na przykład, każdy chargeback kosztuje średnio 65-80 zł, niezależnie od wartości sporu. Refundy generują dodatkowe opłaty, a nieudane transakcje także mogą wiązać się z kosztami, mimo że pieniądze nie zmieniają właściciela.
+Te ostatnie mogą być najbardziej zaskakujące. Na przykład, każdy chargeback kosztuje średnio 65-80 zł, niezależnie od wartości sporu. [Refundy generują dodatkowe opłaty](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje), a nieudane transakcje także mogą wiązać się z kosztami, mimo że pieniądze nie zmieniają właściciela.
 
 Różnice między metodami płatności również są znaczące. BLIK na ogół kosztuje od 0,6% do 1,2%, podczas gdy płatności kartami zagranicznymi mogą sięgać 3,8%. Świadomi przedsiębiorcy umieją wykorzystać te różnice, aby zoptymalizować koszty.
 
