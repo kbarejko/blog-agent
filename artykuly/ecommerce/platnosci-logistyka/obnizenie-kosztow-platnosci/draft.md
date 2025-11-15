@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Oszczędności 20-40% na prowizjach** - konkretne techniki negocjacyjne z operatorami płatności i analiza ukrytych kosztów (chargebacki, forex, opłaty stałe)
 - **Smart routing zwiększa zyski o 15%** - automatyczne kierowanie transakcji do najtańszych operatorów plus retry logic dla nieudanych płatności
@@ -6,10 +6,9 @@
 - **Gotowy system monitoringu kosztów** - dashboard i kluczowe metryki (EPC, authorization rate) do śledzenia optymalizacji w czasie rzeczywistym
 - **Checklist redukcji chargebacków** - 8 sprawdzonych sposobów na minimalizację sporów i kar, które mogą kosztować do 3x wartości transakcji
 
-
 ## Wprowadzenie - dlaczego koszty płatności to krytyczny element rentowności sklepu
 
-# Obnizenie Kosztow Platnosci w e-commerce
+# Obniżenie Kosztów Płatności w e-commerce
 
 Właściciel sklepu internetowego z elektroniką odkrył niedawno szokującą prawdę: płacił miesięcznie 4200 zł opłat za płatności przy obrocie 280 tys. zł. Po analizie okazało się, że mógł obniżyć te koszty o 35% przy zachowaniu tej samej jakości obsługi.
 
@@ -19,7 +18,7 @@ Polskie e-sklepy płacą przeciętnie 1,8-3,2% wartości transakcji za obsługę
 
 Problem staje się szczególnie dotkliwy w branżach o niskich marżach. Jeśli sprzedajesz produkty z 8% marżą, a koszty płatności wynoszą 2,5%, tracisz niemal jedną trzecią zysku na każdej transakcji. W kategorii elektroniki czy artykułów spożywczych ta proporcja może być jeszcze bardziej bolesna.
 
-Koszty płatności to znacznie więcej niż widoczne prowizje transakcyjne. Składają się na nie interchange fees pobierane przez banki wydające karty, scheme fees organizacji kartowych (Visa, Mastercard), opłaty operatora płatności, miesięczne abonامenty za bramkę oraz koszty ukryte.
+Koszty płatności to znacznie więcej niż widoczne prowizje transakcyjne. Składają się na nie interchange fees pobierane przez banki wydające karty, scheme fees organizacji kartowych (Visa, Mastercard), opłaty operatora płatności, miesięczne abonamenty za bramkę oraz koszty ukryte.
 
 Te ostatnie bywają najbardziej zaskakujące. Chargebacki kosztują średnio 65-80 zł za każdy spór, niezależnie od jego wartości. Refundy generują dodatkowe opłaty. Nieudane transakcje też mogą kosztować, mimo że pieniądze nie zmieniły właściciela.
 
@@ -205,7 +204,7 @@ Przeanalizuj strukturę płatności. Ile klientów używa każdej metody? Która
 
 ### Miesiące 2-3 - negocjacje i zmiany
 
-Zbierz oferty od minimum trzech operatorów. Przygotuj dane o swoich obrotах i planach rozwoju. Negocjuj nie tylko prowizje, ale też warunki rozliczeń i dodatkowe usługi.
+Zbierz oferty od minimum trzech operatorów. Przygotuj dane o swoich obrotach i planach rozwoju. Negocjuj nie tylko prowizje, ale też warunki rozliczeń i dodatkowe usługi.
 
 Rozważ dodanie alternatywnych metod płatności. BLIK zajmuje jeden dzień na integrację, a przynosi oszczędności już od pierwszej transakcji. PayPal może zwiększyć konwersję międzynarodową mimo wyższych kosztów.
 
@@ -213,14 +212,4 @@ Rozważ dodanie alternatywnych metod płatności. BLIK zajmuje jeden dzień na i
 
 Smart routing wymaga inwestycji 8-15 tys. zł, ale zwraca się w 6-12 miesięcy. System antyfraudowy kosztuje podobnie, ale oszczędza na chargebackach od pierwszego dnia.
 
-Tokenizacja stałych klientów obniża koszty powtarzających się zakupów. Jeśli masz subscription model lub lojalnych kupujących, to priorytet.
-
-### Monitoring i dostrajanie
-
-Ustaw dashboard z kluczowymi metrykami. Sprawdzaj EPC raz w tygodniu, autoryzację codziennie. Reaguj na spadki w ciągu 24 godzin.
-
-Testuj nowe rozwiązania regularnie. Rynek płatności szybko się zmienia. Co pół roku sprawdzaj oferty nowych operatorów. Co rok rób pełny audit kosztów.
-
-Planuj zmiany na spokojnie. Nie wprowadzaj wszystkich optymalizacji jednocześnie. Rozpłóż je na 12 miesięcy, żeby móc mierzyć efekt każdej.
-
-Pamiętaj o balansie między kosztami a doświadczeniem klienta. Najtańsza opcja nie zawsze jest najlepsza biznesowo.
+Tokenizacja stałych klientów obniża koszty powtarzających się zakupów
