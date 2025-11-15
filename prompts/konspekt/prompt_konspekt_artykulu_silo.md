@@ -92,45 +92,13 @@ Artykuł SILO różni się od zwykłego artykułu szczegółowego:
 
 **NIE** pisz pełnych akapitów w konspekcie - to zadanie dla kolejnego kroku workflow!
 
-## 🎯 Wymagane sekcje końcowe
-
-**ZAWSZE dodaj te sekcje** na końcu (po głównych sekcjach, przed podsumowaniem):
-
-### FAQ (Najczęściej zadawane pytania)
-```markdown
-## Najczęściej zadawane pytania (FAQ)
-
-### 1. [Pytanie praktyczne]?
-- Punkt do omówienia
-- Link do artykułu szczegółowego (jeśli dotyczy)
-
-### 2. [Kolejne pytanie]?
-- Punkt do omówienia
-
-[6-10 pytań z linkami do artykułów w silosie]
-```
-
-### Checklist (Lista kontrolna)
-```markdown
-## Checklist - [Tematyczny Tytuł]
-- [ ] Krok do wykonania
-- [ ] Następny krok
-- [ ] ...
-
-[8-12 wykonalnych kroków]
-```
-
-**WAŻNE:** FAQ i Checklist są zawsze częścią outline, faktyczna generacja do plików jest opcjonalna.
-
 ## ⚠️ WAŻNE instrukcje dla AI
 
 1. **ZAWSZE uwzględnij wszystkie istniejące artykuły** z listy {{SILO_ARTICLES}} w konspekcie
-2. **FAQ i Checklist są OBOWIĄZKOWE** - każdy outline MUSI zawierać obie sekcje
-3. **ZAPLANUJ miejsca na przyszłe artykuły** - struktura powinna mieć "luki", które można wypełnić
-4. **Zachowaj balans** - artykuł ma być wartościowy sam w sobie, ale też zachęcać do czytania dalej
-5. **Użyj natural language** dla linków wewnętrznych - nie "kliknij tutaj", ale "dowiedz się więcej o [temat konkretny]"
-6. **Każda sekcja H2 to potencjalne miejsce na link** do artykułu szczegółowego (istniejącego lub przyszłego)
-7. **FAQ powinien zawierać linki** - przynajmniej 2-3 pytania w FAQ mogą kierować do artykułów w silosie
+2. **ZAPLANUJ miejsca na przyszłe artykuły** - struktura powinna mieć "luki", które można wypełnić
+3. **Zachowaj balans** - artykuł ma być wartościowy sam w sobie, ale też zachęcać do czytania dalej
+4. **Użyj natural language** dla linków wewnętrznych - nie "kliknij tutaj", ale "dowiedz się więcej o [temat konkretny]"
+5. **Każda sekcja H2 to potencjalne miejsce na link** do artykułu szczegółowego (istniejącego lub przyszłego)
 
 ## 📊 Długość i zakres
 
@@ -142,12 +110,15 @@ Zasady planowania długości:
 - **Typowe długości sekcji:**
   - Wprowadzenie: 150-250 słów
   - Sekcje główne (H2): 250-350 słów każda
-  - FAQ: ~400-600 słów (6-10 pytań × 50-70 słów)
-  - Checklist: ~100-200 słów (8-12 kroków)
   - Podsumowanie: 100-200 słów
 
-**Przykład dla artykułu 2000 słów:**
-- Wprowadzenie (200) + 5 sekcji głównych (5×250=1250) + FAQ (400) + Checklist (150) = 2000 słów
+**Przykład dla artykułu SILO 1500 słów:**
+- Wprowadzenie (200) + 5 sekcji głównych (5×250=1250) + Podsumowanie (150) = 1600 słów
+
+**Przykład dla artykułu SILO 2000 słów:**
+- Wprowadzenie (250) + 6 sekcji głównych (6×280=1680) + Podsumowanie (150) = 2080 słów
+
+**UWAGA:** FAQ i Checklist są generowane w oddzielnych krokach workflow i NIE są częścią głównego artykułu.
 
 - **Głębokość:** Wprowadzająca, nie szczegółowa
 - **Cel:** Dać czytelnikowi "mapę" tematu i skierować go do właściwego artykułu szczegółowego

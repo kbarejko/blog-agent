@@ -65,36 +65,6 @@ Dodatkowe wymagania:
 
 **NIE** pisz pełnych akapitów w konspekcie - pisz tylko punkty do omówienia!
 
-## 🎯 Wymagane sekcje końcowe
-
-**ZAWSZE dodaj te sekcje** na końcu artykułu (po głównych sekcjach, przed podsumowaniem):
-
-### FAQ (Najczęściej zadawane pytania)
-```markdown
-## Najczęściej zadawane pytania (FAQ)
-
-### 1. [Pytanie praktyczne]?
-- Punkt do omówienia
-- Kolejny punkt
-
-### 2. [Kolejne pytanie]?
-- Punkt do omówienia
-
-[5-8 pytań z praktycznymi odpowiedziami]
-```
-
-### Checklist (Lista kontrolna)
-```markdown
-## Checklist - [Tematyczny Tytuł]
-- [ ] Konkretny krok do wykonania
-- [ ] Następny krok
-- [ ] ...
-
-[8-12 wykonalnych kroków]
-```
-
-**WAŻNE:** FAQ i Checklist są zawsze częścią struktury outline, ale faktyczna generacja do plików jest opcjonalna.
-
 ---
 
 ## 📊 Długość i zakres
@@ -106,15 +76,17 @@ Zasady planowania długości:
 - **Typowe długości sekcji:**
   - Wprowadzenie: 150-250 słów
   - Sekcje główne (H2): 300-400 słów każda
-  - FAQ (jeśli obecne): budżet ~300-500 słów (5-7 pytań × 50-70 słów)
-  - Checklist (jeśli obecny): budżet ~100-200 słów
   - Podsumowanie: 100-200 słów
 
 **Przykład dla artykułu 1500 słów:**
-- Wprowadzenie (200) + 3 sekcje główne (3×350=1050) + FAQ (optional, ~300) + Podsumowanie (150) = 1700 słów
-- Lub: Wprowadzenie (200) + 4 sekcje główne (4×300=1200) + Podsumowanie (100) = 1500 słów
+- Wprowadzenie (200) + 4 sekcje główne (4×300=1200) + Podsumowanie (100) = 1500 słów
+
+**Przykład dla artykułu 2500 słów:**
+- Wprowadzenie (250) + 6 sekcji głównych (6×350=2100) + Podsumowanie (150) = 2500 słów
 
 Dostosuj liczbę i długość sekcji do docelowej długości artykułu podanej w kontekście.
+
+**UWAGA:** FAQ i Checklist są generowane w oddzielnych krokach workflow i NIE są częścią głównego artykułu.
 
 ---
 
