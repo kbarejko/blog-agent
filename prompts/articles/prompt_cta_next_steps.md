@@ -363,4 +363,9 @@ Przed zwróceniem wyniku sprawdź:
 
 ---
 
-**Output:** Markdown sekcja "Co dalej?" gotowa do wklejenia na koniec artykułu
+**WAŻNE - Format zwrotki:**
+- Zwróć CZYSTY markdown bez opakowywania w \`\`\`markdown ... \`\`\`
+- Output powinien zaczynać się bezpośrednio od `## Co dalej?`
+- Gotowe do bezpośredniego wklejenia na koniec artykułu
+
+**Output:** Markdown sekcja "Co dalej?" (czysty markdown, bez wrapper)

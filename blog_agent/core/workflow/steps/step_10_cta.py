@@ -118,20 +118,34 @@ Team: {article.business_metadata.team_size}"""
     # Generate CTA
     response = ai.generate(prompt, max_tokens=3000)
 
+    # Clean response - remove ```markdown wrapper if present
+    cleaned_response = response.strip()
+    if cleaned_response.startswith('```markdown'):
+        # Remove opening ```markdown
+        cleaned_response = cleaned_response[len('```markdown'):].lstrip()
+    if cleaned_response.startswith('```'):
+        # Remove opening ``` (without markdown keyword)
+        cleaned_response = cleaned_response[3:].lstrip()
+    if cleaned_response.endswith('```'):
+        # Remove closing ```
+        cleaned_response = cleaned_response[:-3].rstrip()
+
+    cleaned_response = cleaned_response.strip()
+
     # Determine variant (simplified - AI should specify in response)
     variant = 'practical'  # Default
 
     # Create CTA section
     cta_section = CTASection(
         variant=variant,
-        content=response
+        content=cleaned_response
     )
 
     article.set_cta_section(cta_section)
 
     # Save CTA to separate file (cta.md)
     cta_path = article.path / 'cta.md'
-    storage.write_file(cta_path, response)
+    storage.write_file(cta_path, cleaned_response)
 
     print(f"✅ CTA section saved to cta.md (variant: {variant})")
 
