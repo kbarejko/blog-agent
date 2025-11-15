@@ -1,16 +1,15 @@
-```markdown
 ## Co dalej?
 
-### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiącach:
+### ✅ Jeśli planujesz wdrożenie w najbliższych 3-6 miesiącach:
 
 **Pierwsze kroki:**
 1. **Przeanalizuj obecną platformę e-commerce** - Zrób listę funkcji, których Ci brakuje i problemów, które chcesz rozwiązać.
-2. **Ustal budżet wdrożenia** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20%.
+2. **Ustal budżet wdrożenia** - Na podstawie artykułu orientacyjny budżet to 60-200k PLN - uwzględnij bufór 20%.
 3. **Przygotuj listę integracji** - Jakie systemy muszą być zintegrowane? (ERP, CRM, płatności, magazyn).
 
 **Przydatne narzędzia:**
-- Calculator TCO (Total Cost of Ownership) - Oblicz rzeczywisty koszt platformy na 3 lata (licencje + hosting + development).
-- Platform comparison spreadsheet - Porównaj 3-5 platform na podstawie Twoich wymagań.
+- [Platform comparison spreadsheet]({{LINK}}) - Porównaj 3-5 platform na podstawie Twoich wymagań.
+- [Calculator TCO (Total Cost of Ownership)]({{LINK}}) - Oblicz rzeczywisty koszt platformy na 3 lata (licencje + hosting + development).
 
 **Potrzebujesz pomocy?**
 - [Umów bezpłatną konsultację]({{LINK}}) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
@@ -19,12 +18,11 @@
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Integracje ERP w e-commerce](link) - Dowiesz się jak połączyć platformę z systemem magazynowym.
-- [Koszty wdrożenia platform](link) - Szczegółowy breakdown kosztów dla różnych rozwiązań.
+- [UX/UI w e-commerce - checkout, szybkość, dostępność](/artykuly/ecommerce/ux-ui) - Dowiedz się, jak poprawić doświadczenie użytkownika i zwiększyć konwersję.
+- [SEO w e-commerce szybki ruch i konwersja.](/artykuly/ecommerce/seo) - Poznaj strategie na zwiększenie widoczności i sprzedaży.
 
 **Zasoby:**
 - [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu.
 - [Dołącz do webinaru]({{LINK}}) - Live Q&A z ekspertami.
 
-⚠️ **Ważne:** Płatności & logistyka - checkout, Paczkomaty, zwroty, marketplace’y to złożone wdrożenie wymagające doświadczonego zespołu. Zalecamy konsultację z ekspertem przed podjęciem decyzji - źle przeprowadzona migracja może kosztować 2-3x więcej niż planowano.
-```
+⚠️ **Ważne:** Optymalizacja płatności i logistyki to złożone zadanie wymagające doświadczonego zespołu. Zalecamy konsultację z ekspertem przed podjęciem decyzji - źle przeprowadzona migracja może kosztować 2-3x więcej niż planowano.
