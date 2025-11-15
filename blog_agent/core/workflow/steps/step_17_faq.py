@@ -61,25 +61,35 @@ def execute_faq(
         storage.write_file(faq_path, faq_draft)
         return article
 
-    # Step 3: Humanize each question
-    print(f"🔄 Humanizing {len(questions)} questions...")
-    humanized_questions = []
+    # Step 3: Get related articles for linking
+    related_articles = _find_related_articles(article, storage)
+
+    # Step 4: Humanize each question + add contextual links
+    print(f"🔄 Humanizing {len(questions)} questions + adding contextual links...")
+    humanized_and_linked = []
     for i, (question, answer) in enumerate(questions, 1):
         print(f"   📝 Question {i}/{len(questions)}...", end=" ", flush=True)
 
+        # Humanize first
         qa_text = f"### {question}\n\n{answer}"
         humanized = _humanize_question(qa_text, article.config.target_audience, ai, prompts)
 
-        humanized_questions.append(humanized)
+        # Then add contextual link if relevant (AI-powered)
+        if related_articles:
+            linked = _insert_contextual_link_if_relevant(
+                humanized,
+                related_articles,
+                ai,
+                prompts
+            )
+            humanized_and_linked.append(linked)
+        else:
+            humanized_and_linked.append(humanized)
+
         print("✓")
 
-    # Step 4: Add internal links
-    print("🔄 Adding internal links...")
-    linked_faq = _add_internal_links_to_faq(
-        "\n\n".join(humanized_questions),
-        article,
-        storage
-    )
+    # Join all Q&As
+    linked_faq = "\n\n".join(humanized_and_linked)
 
     # Step 5: Save final FAQ
     faq_path = article.path / 'faq.md'
@@ -173,25 +183,22 @@ def _humanize_question(qa_text: str, target_audience: str, ai, prompts) -> str:
     return humanized.strip()
 
 
-def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> str:
+def _find_related_articles(article: Article, storage) -> List[Dict[str, str]]:
     """
-    Add internal links to FAQ content
-
-    Finds related articles in the same silo and adds contextual links
+    Find related articles in the same silo
 
     Args:
-        faq_content: FAQ content
         article: Article object
         storage: Storage service
 
     Returns:
-        FAQ content with internal links added
+        List of related article metadata: [{'title': str, 'slug': str, 'url': str}, ...]
     """
     # Get silo directory - articles in same silo are subdirectories of current article
     silo_path = article.path
 
     if not silo_path.exists():
-        return faq_content
+        return []
 
     # Find related articles in silo (subdirectories)
     related_articles = []
@@ -228,92 +235,73 @@ def _add_internal_links_to_faq(faq_content: str, article: Article, storage) -> s
                 'url': f"/{subdir.name}"
             })
 
-    if not related_articles:
-        return faq_content
-
-    # Parse FAQ into questions and add relevant links
-    lines = faq_content.split('\n')
-    output_lines = []
-    current_question = None
-    current_answer_lines = []
-
-    print(f"   📝 Processing {len(lines)} lines, {len(related_articles)} related articles")
-
-    for line in lines:
-        line_stripped = line.strip()
-
-        # Detect question
-        if line_stripped.startswith('###') and '?' in line_stripped:
-            print(f"   🔍 Found question: {line_stripped[:60]}...")
-            # Save previous Q&A with link
-            if current_question:
-                # Find best matching article for this Q&A
-                qa_text = current_question + '\n' + '\n'.join(current_answer_lines)
-                best_match = _find_best_article_match(qa_text, related_articles)
-
-                # Add Q&A to output
-                output_lines.append(current_question)
-                output_lines.extend(current_answer_lines)
-
-                # Add link if found
-                if best_match:
-                    print(f"      → Adding link to: {best_match['slug']}")
-                    output_lines.append('')
-                    output_lines.append(f"**Więcej:** [{best_match['title']}]({best_match['url']})")
-                else:
-                    print(f"      → No match found")
-
-                output_lines.append('')  # Empty line between Q&As
-
-            # Start new question
-            current_question = line
-            current_answer_lines = []
-        else:
-            # Add to current answer
-            if current_question:
-                current_answer_lines.append(line)
-
-    # Save last Q&A
-    if current_question:
-        qa_text = current_question + '\n' + '\n'.join(current_answer_lines)
-        best_match = _find_best_article_match(qa_text, related_articles)
-
-        output_lines.append(current_question)
-        output_lines.extend(current_answer_lines)
-
-        if best_match:
-            output_lines.append('')
-            output_lines.append(f"**Więcej:** [{best_match['title']}]({best_match['url']})")
-
-    return '\n'.join(output_lines)
+    return related_articles
 
 
-def _find_best_article_match(qa_text: str, related_articles: list) -> dict:
+def _insert_contextual_link_if_relevant(
+    qa_text: str,
+    related_articles: List[Dict[str, str]],
+    ai,
+    prompts
+) -> str:
     """
-    Find best matching article for Q&A using keyword matching
+    Use AI to determine if a link is relevant and insert it naturally into the answer
+
+    AI analyzes semantic relevance and rewrites answer with natural link if appropriate.
+    If no strong match, returns original answer unchanged.
 
     Args:
-        qa_text: Question and answer text
-        related_articles: List of related articles
+        qa_text: Question and answer markdown (### Question\n\nAnswer)
+        related_articles: List of available articles
+        ai: AI provider
+        prompts: Prompts service
 
     Returns:
-        Best matching article dict or None
+        Q&A with natural link inserted (or unchanged if no relevant match)
     """
     if not related_articles:
-        return None
+        return qa_text
 
-    qa_lower = qa_text.lower()
-    best_match = None
-    best_score = 0
+    # Build list of available articles for AI
+    articles_list = "\n".join([
+        f"- **{art['title']}** (slug: {art['slug']}, link: [{art['title']}]({art['url']}))"
+        for art in related_articles
+    ])
 
-    for article in related_articles:
-        # Simple keyword matching from slug
-        keywords = article['slug'].split('-')
-        score = sum(1 for keyword in keywords if keyword in qa_lower)
+    # AI prompt for contextual linking
+    prompt = f"""Masz pytanie i odpowiedź z FAQ oraz listę powiązanych artykułów.
 
-        if score > best_score:
-            best_score = score
-            best_match = article
+# Pytanie i odpowiedź:
+{qa_text}
 
-    # Only return if at least one keyword matched
-    return best_match if best_score > 0 else None
+# Dostępne artykuły w silosie:
+{articles_list}
+
+# Zadanie:
+1. **Oceń tematyczną relevantność:** Czy KTÓRYKOLWIEK z dostępnych artykułów jest silnie powiązany tematycznie z tym pytaniem? (nie kieruj się tylko podobnymi słowami, ale semantycznym związkiem)
+
+2. **Jeśli TAK (silny związek tematyczny):**
+   - Wybierz JEDEN najbardziej relevantny artykuł
+   - Przepisz odpowiedź, naturalnie wplatając link w tekst
+   - Przykłady naturalnego wplecenia:
+     * "Więcej szczegółów znajdziesz w artykule [Tytuł](/slug)"
+     * "Zagadnienie to szerzej opisujemy w [Tytuł](/slug)"
+     * "Przeczytaj o tym w [Tytuł](/slug)"
+   - Link powinien być częścią zdania, nie osobną linijką na końcu
+   - Zachowaj długość odpowiedzi (50-70 słów)
+
+3. **Jeśli NIE (brak silnego związku):**
+   - Zwróć dokładnie oryginalną odpowiedź BEZ ZMIAN
+   - Lepiej brak linku niż wymuszony, słabo powiązany link
+
+**WAŻNE:**
+- Zwróć TYLKO pytanie i odpowiedź (### Question\n\nAnswer), bez komentarzy
+- NIE dodawaj "Więcej:" na końcu - link MUSI być w tekście
+- Jeśli nie ma dobrego dopasowania, zwróć oryginał bez linku
+
+Zwróć przepisany Q&A:"""
+
+    # Get AI response
+    result = ai.generate(prompt, max_tokens=500)
+
+    return result.strip()
