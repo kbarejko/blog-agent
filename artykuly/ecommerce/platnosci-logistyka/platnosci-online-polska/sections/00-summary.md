@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **BLIK dominuje z 45% udziałem** - polski fenomen wyprzedził karty płatnicze i zmienia strategię e-commerce w 2024 roku
-- **Prowizje od 1,2% do 3,8%** - pełne porównanie kosztów PayU, Przelewy24, Tpay i Stripe z ukrytymi opłatami za chargebacki i wypłaty
-- **Checkout w 3 krokach zwiększa konwersję o 23%** - konkretne techniki optymalizacji płatności oparte na A/B testach polskich sklepów
-- **Gotowa checklist 13 punktów** - praktyczny plan wyboru operatora płatności z kalkulatorem TCO dla różnych wolumenów sprzedaży
-- **BNPL rośnie 340% rocznie** - dlaczego PayPo i Klarna to już nie trend, ale konieczność dla sklepów z AOV powyżej 200 zł
+- **PayU dominuje enterprise, Przelewy24 małe firmy** - ranking operatorów z rzeczywistymi kosztami prowizji i ukrytymi opłatami (setup, miesieczne, chargebacki)
+- **BLIK to 31% płatności mobilnych w Polsce** - dlaczego ignorowanie płatności mobilnych kosztuje Cię 40% potencjalnych klientów
+- **Integracja zajmuje 2-8 tygodni** - konkretny timeline dla Shopify, WooCommerce i PrestaShop plus checklist przygotowań prawnych i technicznych
+- **PCI DSS nie dotyczy Cię bezpośrednio** - ale brak certyfikatu u operatora może kosztować Cię sklep, klientów i zgodność z RODO
+- **Conversion rate rośnie o 23%** - jak optymalizacja UX płatności (guest checkout, one-click, mobile-first) bezpośrednio wpływa na zyski
