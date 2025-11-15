@@ -136,10 +136,20 @@ def _find_silo_articles(silo_path: Path, current_slug: str, deps: Dict[str, Any]
         # Extract excerpt (first paragraph after summary)
         excerpt = _extract_excerpt(article_content)
 
+        # Build full URL path from "artykuly/" onwards
+        parts = article_dir.parts
+        try:
+            artykuly_idx = parts.index('artykuly')
+            relative_parts = parts[artykuly_idx:]
+            url = '/' + '/'.join(relative_parts)
+        except ValueError:
+            # Fallback if "artykuly" not found in path
+            url = f"/{'/'.join(article_dir.parts[-3:])}"
+
         articles.append({
             'slug': slug,
             'title': config.get('title', slug),
-            'url': f"/{'/'.join(article_dir.parts[-3:])}/",  # /series/silo/slug/
+            'url': url,
             'excerpt': excerpt
         })
 

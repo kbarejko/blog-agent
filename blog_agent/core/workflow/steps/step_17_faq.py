@@ -229,10 +229,20 @@ def _find_related_articles(article: Article, storage) -> List[Dict[str, str]]:
             if not title:
                 title = subdir.name.replace('-', ' ').title()
 
+            # Build full URL path from "artykuly/" onwards
+            parts = subdir.parts
+            try:
+                artykuly_idx = parts.index('artykuly')
+                relative_parts = parts[artykuly_idx:]
+                url = '/' + '/'.join(relative_parts)
+            except ValueError:
+                # Fallback if "artykuly" not found in path
+                url = f"/{subdir.name}"
+
             related_articles.append({
                 'title': title,
                 'slug': subdir.name,
-                'url': f"/{subdir.name}"
+                'url': url
             })
 
     return related_articles
