@@ -57,16 +57,12 @@
   - ✅ Added flush=True to key progress indicators
   - ✅ Real-time visibility during long AI operations
   - ✅ Works for both "python -m blog_agent" and "blog-agent" commands
-- [ ] **Improve FAQ internal linking (step_17_faq.py)**
-  - **Problem:** Current implementation adds "Więcej:" links that are repetitive and unnatural
-  - **Problem:** Keyword matching too simple - often links same article (zwroty-i-reklamacje) to all questions
-  - **Goal:** Natural in-text links embedded in answers, not "Więcej:" suffix
-  - **Goal:** Better article matching - use AI or TF-IDF for semantic similarity instead of keyword matching
-  - **Approach ideas:**
-    - Use AI to suggest 1-2 contextual links PER QUESTION (not all questions)
-    - AI rewrites answer to naturally include link (e.g., "Więcej o polityce zwrotów znajdziesz w artykule [Zwroty i Reklamacje](/zwroty)")
-    - Improved matching: analyze full Q&A text vs article titles/slugs using semantic similarity
-    - Only link when confidence score > threshold (avoid forced/irrelevant links)
+- [x] **Improve FAQ internal linking (step_17_faq.py)** ✅ COMPLETED
+  - ✅ Implemented AI-powered semantic matching (replaced keyword matching)
+  - ✅ Natural in-text link insertion (replaced "Więcej:" suffix)
+  - ✅ Selective linking with AI confidence threshold
+  - ✅ Tested: 7/7 questions with relevant, diverse links
+  - **Results:** Links now semantically match question topics, naturally integrated
 - [ ] Test error resilience (workflow should continue on non-critical errors)
 - [ ] Performance benchmarking (target: 6-7 minutes per article)
 
