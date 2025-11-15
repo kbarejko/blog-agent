@@ -25,6 +25,27 @@ SEARCH_DIR="${1:-artykuly}"
 # Activate virtual environment
 source .venv/bin/activate
 
+# Temporarily enable headers_alternatives step in workflow.yaml
+WORKFLOW_FILE="blog_agent/config/workflow.yaml"
+echo -e "${BLUE}⚙️  Enabling headers_alternatives step...${NC}"
+
+# Backup original workflow.yaml
+cp "$WORKFLOW_FILE" "${WORKFLOW_FILE}.backup"
+
+# Enable the step (change enabled: false to enabled: true for headers_alternatives)
+sed -i '/name: headers_alternatives/,/enabled:/ s/enabled: false/enabled: true/' "$WORKFLOW_FILE"
+
+# Cleanup function to restore original workflow.yaml
+cleanup() {
+    if [ -f "${WORKFLOW_FILE}.backup" ]; then
+        echo -e "\n${BLUE}⚙️  Restoring original workflow.yaml...${NC}"
+        mv "${WORKFLOW_FILE}.backup" "$WORKFLOW_FILE"
+    fi
+}
+
+# Set trap to restore on exit
+trap cleanup EXIT
+
 echo -e "${BLUE}🔍 Searching for articles in: ${SEARCH_DIR}${NC}"
 echo ""
 

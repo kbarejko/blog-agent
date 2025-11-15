@@ -11,7 +11,50 @@ Examples:
 """
 import subprocess
 import sys
+import shutil
 from pathlib import Path
+
+
+def enable_headers_alternatives_step():
+    """
+    Temporarily enable headers_alternatives step in workflow.yaml
+
+    Returns:
+        Path to backup file
+    """
+    workflow_file = Path("blog_agent/config/workflow.yaml")
+    backup_file = workflow_file.with_suffix('.yaml.backup')
+
+    # Backup original
+    shutil.copy(workflow_file, backup_file)
+
+    # Read workflow
+    with open(workflow_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Enable headers_alternatives step
+    # Find the section and change enabled: false to enabled: true
+    lines = content.split('\n')
+    in_headers_section = False
+
+    for i, line in enumerate(lines):
+        if 'name: headers_alternatives' in line:
+            in_headers_section = True
+        elif in_headers_section and 'enabled:' in line:
+            lines[i] = line.replace('enabled: false', 'enabled: true')
+            break
+
+    # Write back
+    with open(workflow_file, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+
+    return backup_file
+
+
+def restore_workflow(backup_file: Path):
+    """Restore original workflow.yaml from backup"""
+    workflow_file = Path("blog_agent/config/workflow.yaml")
+    shutil.move(backup_file, workflow_file)
 
 
 def find_articles(search_dir: Path):
@@ -67,52 +110,62 @@ def main():
     # Get search directory from args or default to 'artykuly'
     search_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('artykuly')
 
-    print(f"🔍 Searching for articles in: {search_dir}\n")
+    # Enable headers_alternatives step
+    print("⚙️  Enabling headers_alternatives step...")
+    backup_file = enable_headers_alternatives_step()
 
-    # Find all articles
-    configs = find_articles(search_dir)
-    total = len(configs)
+    try:
+        print(f"🔍 Searching for articles in: {search_dir}\n")
 
-    print(f"📊 Found {total} articles\n")
+        # Find all articles
+        configs = find_articles(search_dir)
+        total = len(configs)
 
-    success = 0
-    failed = 0
-    skipped = 0
+        print(f"📊 Found {total} articles\n")
 
-    # Process each article
-    for idx, config_path in enumerate(configs, 1):
-        article_dir = config_path.parent
-        article_name = get_article_title(config_path)
+        success = 0
+        failed = 0
+        skipped = 0
 
-        print(f"[{idx}/{total}] Processing: {article_name}")
-        print(f"   Path: {article_dir}")
+        # Process each article
+        for idx, config_path in enumerate(configs, 1):
+            article_dir = config_path.parent
+            article_name = get_article_title(config_path)
 
-        # Check if article.md exists
-        article_md = article_dir / "article.md"
-        if not article_md.exists():
-            print(f"   ⚠️  Skipping - article.md not found\n")
-            skipped += 1
-            continue
+            print(f"[{idx}/{total}] Processing: {article_name}")
+            print(f"   Path: {article_dir}")
 
-        # Generate alternatives
-        if generate_headers_alternatives(config_path):
-            success += 1
-            print(f"   ✅ Generated headers_alternatives.md\n")
-        else:
-            failed += 1
-            print(f"   ❌ Failed to generate alternatives\n")
+            # Check if article.md exists
+            article_md = article_dir / "article.md"
+            if not article_md.exists():
+                print(f"   ⚠️  Skipping - article.md not found\n")
+                skipped += 1
+                continue
 
-    # Summary
-    print("\n" + "=" * 40)
-    print("📊 Summary")
-    print("=" * 40)
-    print(f"Total articles:    {total}")
-    print(f"Successful:        {success}")
-    if skipped > 0:
-        print(f"Skipped (no article.md): {skipped}")
-    if failed > 0:
-        print(f"Failed:            {failed}")
-    print("=" * 40)
+            # Generate alternatives
+            if generate_headers_alternatives(config_path):
+                success += 1
+                print(f"   ✅ Generated headers_alternatives.md\n")
+            else:
+                failed += 1
+                print(f"   ❌ Failed to generate alternatives\n")
+
+        # Summary
+        print("\n" + "=" * 40)
+        print("📊 Summary")
+        print("=" * 40)
+        print(f"Total articles:    {total}")
+        print(f"Successful:        {success}")
+        if skipped > 0:
+            print(f"Skipped (no article.md): {skipped}")
+        if failed > 0:
+            print(f"Failed:            {failed}")
+        print("=" * 40)
+
+    finally:
+        # Always restore original workflow.yaml
+        print("\n⚙️  Restoring original workflow.yaml...")
+        restore_workflow(backup_file)
 
 
 if __name__ == "__main__":
