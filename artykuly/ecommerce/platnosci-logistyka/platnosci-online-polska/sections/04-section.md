@@ -1,11 +1,35 @@
-### Porównanie kluczowych funkcjonalności
+## Najważniejsi gracze na rynku płatności online w Polsce
 
-Obsługiwane metody płatności różnią się znacząco między operatorami. PayU prowadzi pod względem kompletności – oferuje 19 różnych sposobów płatności, włączając egzotyczne opcje jak Alior Raty czy płatności w Bitcoin. Przelewy24 skupia się na najpopularniejszych metodach, ale za to każdą z nich dopracował do perfekcji. Paynow stawia na mobilność – jego BLIK działa najszybciej na rynku, często finalizując transakcję w 8 sekund. Tpay wyróżnia się najszerszą gamą banków – współpracuje z 140 instytucjami finansowymi.
+Teoria to jedno, praktyka to drugie. Czas przyjrzeć się konkretnym rozwiązaniom, które możesz wdrożyć w swoim sklepie już dziś. Każdy operator ma swoją specjalizację i grupę docelową.
 
-Koszty transakcji to pole do negocjacji. Standardowe prowizje wahają się od 1,4% u Paynow do 2,9% u PayU, ale to tylko punkt startowy. Sklepy z obrotami powyżej 50 tysięcy miesięcznie mogą wynegocjować stawki nawet o 40% niższe. Przelewy24 oferuje progresywną taryfę – im więcej sprzedajesz, tym mniej płacisz za transakcję. PayU wprowadził model "success fee" – płacisz tylko za udane transakcje.
+### Przelewy24 - kompleksowe rozwiązanie
 
-Opłaty dodatkowe potrafią zaskoczyć. PayU pobiera 5 złotych miesięcznie za dostęp do panelu analitycznego. Przelewy24 liczy sobie 2% extra za wypłaty w ciągu 24 godzin. Tpay ma ukryte koszty za obsługę chargebacków – 25 złotych za każdy przypadek.
+Przelewy24 to wybór dla sklepów, które cenią stabilność i szerokie wsparcie. Oferują ponad 200 metod płatności w jednym pakiecie – od wszystkich polskich banków, przez BLIK, po karty i portfele cyfrowe.
 
-Jakość obsługi klienta różni się dramatycznie. PayU ma dedykowanych opiekunów dla dużych klientów, ale mały sklep może czekać na odpowiedź 48 godzin. Paynow odpowiada najszybciej – średnio w 2 godziny, ale tylko w dni robocze. Przelewy24 ma najlepsze wsparcie techniczne, dostępne przez telefon i chat. Tpay oferuje wsparcie w weekendy, co doceniają sklepy działające 24/7.
+Prowizje zaczynają się od 1,8% dla małych sklepów, ale przy obrotach powyżej 50 tysięcy złotych miesięcznie można wynegocjować 1,4%. Brak opłat miesięcznych to plus dla start-upów, ale wypłaty środków kosztują 1 zł za każdą transakcję.
 
-Integracja z popularnymi platformami e-commerce to kluczowa kwestia praktyczna. WooCommerce ma oficjalne wtyczki wszystkich czterech operatorów, ale jakość różni się znacząco. Plugin PayU oferuje najwięcej opcji konfiguracji, podczas gdy Paynow stawia na prostotę – instalacja zajmuje dosłownie 5 minut.
+W praktyce Przelewy24 sprawdzają się świetnie w sklepach modowych i elektronicznych. Minusem może być nieco przestarzały interfejs administracyjny i ograniczone możliwości personalizacji procesu płatności.
+
+### PayU - globalny gracz z lokalnym podejściem
+
+PayU to pierwsza liga dla średnich i dużych e-commerce. Prowizje od 1,5% plus zaawansowane narzędzia analityczne, które pozwalają optymalizować konwersje w czasie rzeczywistym.
+
+Ich największą siłą są płatności ratalne PayU oraz współpraca z PayPo w zakresie płatności odroczonych. To kluczowe, gdy średnia wartość koszyka przekracza 200 złotych.
+
+Integracje z WooCommerce, PrestaShop czy Magento działają bezproblemowo. Panel administracyjny jest intuicyjny, a dokumentacja API należy do najlepszych na rynku.
+
+### Tpay (dawniej Transferuj.pl) - polski lider
+
+Tpay wyróżnia się konkurencyjnymi prowizjami – od 1,2% przy zachowaniu pełnej funkcjonalności. Polski rodowód to gwarancja doskonałego wsparcia dla lokalnych metod płatności.
+
+Specjalizują się w szybkich przelewach i błyskawicznych rozliczeniach T+1. BLIK działa tu bez zarzutu, a system antyfraud jest dostrojony do specyfiki polskiego rynku.
+
+Ich mocną stroną są też płatności cykliczne – idealne dla subskrypcji i usług SaaS.
+
+### Inne znaczące rozwiązania
+
+PayPal pozostaje niezbędny przy sprzedaży międzynarodowej. Mimo wyższych prowizji (3,4% + 1,35 zł), daje dostęp do 400 milionów użytkowników na świecie.
+
+Stripe to technologiczne centrum dla zaawansowanych integracji. API na poziomie enterprise, ale wymaga więcej pracy programistycznej.
+
+Rozwiązania bankowe (mBank, PKO BP) sprawdzają się w B2B, gdzie relacja biznesowa z bankiem ma znaczenie strategiczne.

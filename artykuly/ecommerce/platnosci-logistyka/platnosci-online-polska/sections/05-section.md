@@ -1,21 +1,27 @@
-PrestaShop ma bardziej skomplikowaną strukturę wtyczek. PayU wymaga dodatkowej konfiguracji SSL, podczas gdy Przelewy24 działa od razu po instalacji. Tpay oferuje najbardziej zaawansowane opcje dla PrestaShop – pozwala na personalizację metod płatności według kategorii produktów.
+## Bezpieczeństwo płatności - co musisz wiedzieć
 
-Magento to najwięcej problemów z integracją. PayU ma stabilną wtyczkę, ale wymaga znajomości PHP do pełnej konfiguracji. Przelewy24 działa dobrze w standardowych scenariuszach, ale może sprawiać kłopoty z nietypowymi produktami jak subskrypcje. Paynow ma najnowszą wtyczkę, kompatybilną z Magento 2.4, ale brakuje jej zaawansowanych funkcji.
+Najlepsze prowizje i najszerszy wybór metod płatności nic nie znaczą, gdy system nie jest bezpieczny. Jeden incydent związany z wyciekiem danych może zniszczyć reputację zbudowaną latami. W Polsce co miesiąc dochodzi do kilkuset prób oszustw płatniczych, ale większość sklepów nawet o tym nie wie.
 
-Gotowe wtyczki versus rozwiązania dedykowane to fundamentalny wybór. Wtyczka to szybki start – instalujesz, konfigurujesz i działasz. Rozwiązanie dedykowane daje pełną kontrolę, ale wymaga programisty i kilku tygodni pracy.
+### Standardy bezpieczeństwa i compliance
 
-Kiedy wybrać dedykowaną integrację? Gdy masz nietypowy model biznesowy. Sprzedajesz subskrypcje, oferujesz płatności ratalne lub obsługujesz marketplace. Wtyczki nie poradzą sobie z takimi scenariuszami.
+PCI DSS to nie jest opcja – to wymóg prawny dla każdego, kto przetwarza dane kart płatniczych. Standard określa 12 podstawowych wymagań, od szyfrowania danych po regularne testy bezpieczeństwa. Dobre wieści: wybierając renomowanego operatora płatności, przerzucasz na niego większość obowiązków compliance.
 
-Przykład z życia: sklep z artykułami sportowymi próbował używać standardowej wtyczki PayU. Problem? Sprzedawali zarówno produkty fizyczne, jak i karty podarunkowe. Wtyczka nie umiała rozróżnić tych kategorii dla celów podatkowych. Musieli zamówić dedykowaną integrację za 8 tysięcy złotych.
+RODO w płatnościach online to minowe pole. Musisz wiedzieć dokładnie, jakie dane zbierasz, jak długo je przechowujesz i na jakiej podstawie prawnej. Numer karty to dane osobowe, więc każde ich przetwarzanie wymaga odpowiedniej zgody lub podstawy prawnej.
 
-## Koszty płatności online - jak optymalizować wydatki
+Certyfikat SSL to absolutne minimum – bez niego żadna przeglądarka nie pozwoli na bezpieczną płatność. Szyfrowanie TLS 1.3 to obecny standard, a starsze protokoły są już uznawane za niebezpieczne.
 
-Koszty płatności to często niedoceniana pozycja w budżecie e-commerce. Różnica między dobrze a źle wynegocjowaną umową może wynosić kilka procent obrotu rocznie. To oznacza tysiące złotych oszczędności lub strat.
+### Ochrona przed fraudem
 
-### Struktura kosztów u różnych dostawców
+Nowoczesne systemy wykrywania fraudu analizują setki parametrów w milisekundach. Lokalizacja IP, urządzenie, historia zakupów, sposób poruszania się po stronie – to wszystko tworzy unikalny "odcisk palca" transakcji.
 
-Prowizje od transakcji to tylko wierzchołek góry lodowej. Standardowe stawki to punkt wyjścia do negocjacji, nie finalny koszt. Mały sklep z obrotem 10 tysięcy miesięcznie zapłaci 2,5-2,9% za transakcję. Średni sklep (100 tysięcy obrotu) wynegocjuje 1,8-2,2%. Duży gracz dostanie 1,2-1,6%.
+Weryfikacja 3D Secure to obosieczny miecz. Chroni przed chargebackami, ale może zniechęcić do zakupu nawet 15% klientów. Większość operatorów pozwala na elastyczne zarządzanie 3DS – włączasz go tylko dla podejrzanych transakcji powyżej określonej kwoty.
 
-Paynow oferuje najbardziej transparentną strukturę – jedna stawka 1,4% dla wszystkich, bez względu na wielkość. PayU stosuje system progresywny – zaczynasz od 2,9%, ale przy obrotach powyżej miliona spadasz do 1,1%. Przelewy24 negocjuje indywidualnie już od 50 tysięcy obrotu miesięcznego.
+Chargeback to koszt 20-50 złotych plus utrata towaru. Dlatego monitoring transakcji i szybka reakcja na pierwsze sygnały są kluczowe.
 
-Opłaty stałe miesięczne różnią się dramatically. Paynow w ogóle ich nie pobiera. Tpay liczy 19 złotych miesięcznie za podstawowy pakiet. PayU pobiera od 49 do 299 złotych, zależnie od wybranego planu. Przelewy24 ma hybrydowy model – no fee poniżej pewnego progu, potem stała opłata 99 złotych.
+### Budowanie zaufania klientów
+
+Widoczne certyfikaty bezpieczeństwa zwiększają konwersję o 8-12%. Klienci szukają logo Trusted Shops, SSL czy znanych operatorów płatności.
+
+Transparentność to podstawa. Ukryte koszty, niejasne warunki zwrotów czy brak informacji o zabezpieczeniach to najszybszy sposób na utratę zaufania.
+
+Procedura reklamacji powinna być prosta jak BLIK – jeden formularz, jasne terminy, regularna komunikacja o statusie sprawy.

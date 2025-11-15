@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **BLIK dominuje z 45% udziałem** - polski fenomen wyprzedził karty płatnicze i zmienia strategie sklepów internetowych
-- **Prowizje od 1,2% do 3,5%** - konkretne stawki u PayU, Przelewy24, Paynow i Tpay plus jak negocjować lepsze warunki przy większym wolumenie
-- **Porzucanie koszyka spada o 23%** - optymalizacja procesu płatności przez one-click i lokalizację metod płatności według preferencji klientów
-- **PCI DSS to nie Twój problem** - przy zewnętrznych operatorach odpowiedzialność za compliance leży po ich stronie, ale 5 podstawowych zasad musisz spełnić
-- **Gotowa checklist 11 kroków** - od analizy potrzeb przez wybór dostawcy po monitoring konwersji, plus FAQ z najczęstszymi problemami wdrożeniowymi
+- **PayU, Przelewy24, Tpay - różnice w kosztach do 0,8%** - szczegółowe porównanie prowizji i ukrytych opłat u trzech głównych operatorów w Polsce
+- **BLIK dominuje z 67% udziałem** - aktualne statystyki preferencji płatniczych Polaków i jak to wpływa na konwersje w sklepach
+- **Integracja w 2-14 dni** - realne czasy wdrożenia dla różnych platform e-commerce plus gotowa checklist przygotowań
+- **PCI DSS bez stresu** - praktyczny przewodnik po wymaganiach bezpieczeństwa i jak je spełnić bez drogich certyfikacji
+- **Optymalizacja kosztów do 40%** - sprawdzone metody negocjowania stawek i routing płatności dla większej rentowności
