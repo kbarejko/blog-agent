@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **PayU dominuje enterprise, Przelewy24 małe firmy** - Odkryj, jak operatorzy płatności różnią się pod względem rzeczywistych kosztów prowizji oraz ukrytych opłat. Dowiesz się, jakie koszty mogą pojawić się przy konfiguracji, miesięcznych opłatach czy chargebackach.
+- **PayU dominuje enterprise, Przelewy24 małe firmy** - Odkryj, jak operatorzy płatności różnią się pod względem [rzeczywistych kosztów prowizji oraz ukrytych opłat](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci). Dowiesz się, jakie koszty mogą pojawić się przy konfiguracji, miesięcznych opłatach czy chargebackach.
 
 - **BLIK to 31% płatności mobilnych w Polsce** - Czy wiesz, że ignorowanie płatności mobilnych może pozbawić Cię aż 40% potencjalnych klientów? Zobacz, dlaczego warto uwzględnić tę formę płatności.
 
@@ -14,11 +14,11 @@
 
 # Płatności Online w Polskim E-commerce
 
-Gdy klient zapełnia swój koszyk w Twoim sklepie internetowym, staje przed kluczowym wyborem – jaką metodę płatności wybrać. To właśnie tutaj decyduje się, czy wróci do Ciebie jako lojalny klient, czy zrezygnuje z zakupów na zawsze.
+Gdy klient zapełnia swój koszyk w Twoim sklepie internetowym, staje przed kluczowym wyborem – jaką metodę płatności wybrać. To właśnie tutaj decyduje się, czy [wróci do Ciebie jako lojalny klient](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje), czy zrezygnuje z zakupów na zawsze.
 
 ## Wprowadzenie - Polski rynek płatności online w pigułce
 
-Polski e-commerce jest na fali wznoszącej. W 2024 roku wartość transakcji online przekroczyła 95 miliardów złotych, co oznacza wzrost o ponad 12% w porównaniu z rokiem poprzednim. Za tym dynamicznym rozwojem kryje się nie tylko większa liczba sklepów internetowych, ale także zmieniające się nawyki płatnicze Polaków.
+Polski e-commerce jest na fali wznoszącej. W 2024 roku wartość transakcji online przekroczyła 95 miliardów złotych, co oznacza wzrost o ponad 12% w porównaniu z rokiem poprzednim. Za tym dynamicznym rozwojem kryje się nie tylko [większa liczba sklepów internetowych](/artykuly/ecommerce/platnosci-logistyka/allegro-integracja), ale także zmieniające się nawyki płatnicze Polaków.
 
 Jeszcze pięć lat temu przelewy bankowe i płatności przy odbiorze były na porządku dziennym. Dziś sytuacja wygląda zupełnie inaczej. BLIK, który stał się liderem płatności mobilnych, odpowiada za ponad 35% wszystkich transakcji online. Chociaż szybkie przelewy bankowe wciąż mają największy udział (42%), coraz większą popularność zyskują płatności odroczone, szczególnie wśród młodszych klientów.
 
