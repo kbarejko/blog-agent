@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **InPost najtańszy do 500 przesyłek/miesiąc** - powyżej tej liczby DPD i DHL oferują lepsze stawki hurtowe, różnice sięgają 30-40%
-- **Ukryte koszty zjadają marżę** - zwroty, przekierowania i strefy dostawy potrafią podnieść rzeczywiste koszty o 2-3 zł na przesyłkę
-- **API InPost najstabilniejsze** - 99,8% uptime vs 97% u konkurencji, gotowe wtyczki dla wszystkich popularnych platform e-commerce
-- **DHL tylko dla premium i międzynarodówki** - 3x droższy od InPost, ale jedyny który gwarantuje dostawę overnight do Azji i USA
-- **Multi-carrier obniża ryzyko o 60%** - divesyfikacja operatorów zabezpiecza przed strajkami i awariami systemów
+- **InPost dominuje ceną i wygodą** - paczkomaty to oszczędność 30-40% vs kurier, ale limity gabarytowe wykluczają większe produkty
+- **DPD najlepszy dla B2B** - europejska sieć i profesjonalna obsługa, choć droższy o 15-20% od InPost w segmencie krajowym
+- **DHL opłaca się od przesyłek 100zł+** - premium handling i międzynarodówka, ale koszty krajowe mogą zabić marżę w tanich produktach
+- **Model hybrydowy zwiększa zyski** - automatyczny wybór kuriera na podstawie wartości/wagi zamówienia optymalizuje koszty o 25%
+- **Negocjacje nie tylko o cenę** - limity reklamacji, SLA dostaw i integracja API często ważniejsze niż stawka za przesyłkę
