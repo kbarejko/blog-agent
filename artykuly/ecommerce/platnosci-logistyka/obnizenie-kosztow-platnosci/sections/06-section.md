@@ -1,19 +1,31 @@
-### Platformy payment orchestration
+## Alternatywne metody płatności - niższe koszty, wyższa konwersja
 
-Payment orchestration to technologia łącząca różnych operatorów w jeden system. Zamiast integrować każdego dostawcę osobno, podłączasz się do jednej platformy zarządzającej wszystkim.
+Sklep z grami planszowymi zwiększył konwersję o 12% po dodaniu BLIK-a i PayPal. Co więcej, średni koszt transakcji spadł z 2,3% do 1,9%. Klienci otrzymali więcej opcji płatności, a właściciel - niższe prowizje.
 
-Wyobraź sobie, że masz sklep obsługujący płatności przez Przelewy24, PayU i Stripe. Zwykle oznacza to trzy różne integracje, trzy dashboardy, trzy źródła raportów. Orchestrator daje jeden interfejs do wszystkich.
+### Local payment methods
 
-Największa korzyść? Automatyczne przełączanie między operatorami. Jeśli jeden ma problemy techniczne, system natychmiast kieruje transakcje do drugiego. Jeden z naszych klientów uniknął tak utraty sprzedaży podczas awarii głównego operatora. Backup działał automatycznie przez osiem godzin.
+BLIK króluje wśród tanich opcji płatności w Polsce. Prowizje wynoszą 0,8-1,3%, czyli prawie połowę mniej niż karty. Klienci lubią prostotę - sześć cyfr w aplikacji banku i gotowe. Dodatkowo rozliczenia są szybkie, często tego samego dnia.
 
-Koszty orchestracji zaczynają się od 0,1-0,2% dodatkowej prowizji. Brzmi jak dodatkowy wydatek, ale oszczędności często przeważają. Smart routing, lepsze kursy walut, automatyczne retry nieudanych płatności. To może obniżyć całkowite koszty o 15-25%.
+Przelewy24 oferuje podobne koszty przy szerszej gamie banków. Niektórzy operatorzy naliczają 0,9-1,5% za przelewy online. To wciąż znacznie taniej niż płatności kartami zagranicznymi. Klienci mogą płacić bezpośrednio ze swojego banku bez dodatkowych aplikacji.
 
-Kiedy warto inwestować? Jeśli obsługujesz więcej niż dwa operatorów płatności, orchestrator się opłaca. Przy jednym dostawcy to zbędny koszt. Przy dwóch – border case. Przy trzech i więcej – praktycznie zawsze zyskujesz.
+PayU działa jako agregator różnych metod. Prowizje wahają się między 1,2-2,1% zależnie od wybranej opcji. Zaletą jest jedna integracja dla wielu sposobów płatności. Wadą - mniejsza kontrola nad kosztami poszczególnych transakcji.
 
-Popularne rozwiązania to Adyen, Stripe Connect czy lokalne firmy jak eCard. Każde ma inne mocne strony. Adyen świetnie radzi sobie z płatnościami międzynarodowymi. Stripe ma najlepsze API dla developerów. eCard zna polskie metody płatności najlepiej.
+Płatności mobilne rosną najszybciej. Google Pay i Apple Pay kosztują podobnie do kart, ale oferują wyższą konwersję. Klienci płacą jednym dotknięciem bez wpisywania danych karty. Mniej porzuconych koszyków to więcej sprzedaży.
 
-Własne rozwiązanie vs. gotowa platforma? Przy obrotach poniżej 15 milionów złotych rocznie gotowa platforma zawsze wygrywa. Koszty developmentu, utrzymania, compliance są zbyt wysokie. Powyżej tej kwoty możesz rozważyć własną infrastrukturę.
+Open Banking otwiera nowe możliwości. Płatności bank-to-bank omijają sieci kartowe, co może obniżyć koszty do 0,5-1%. Wdrożenie wymaga jednak czasu i inwestycji technicznych.
 
-Testuj orchestrator stopniowo. Zacznij od 10-20% transakcji. Monitoruj współczynniki akceptacji, czasy przetwarzania, koszty. Jeśli wszystko działa lepiej, przerzucaj większy ruch.
+### Cryptocurrency i stablecoiny
 
-Najczęstszy błąd? Wybieranie orchestratora tylko na podstawie ceny. Zwracaj uwagę na supported payment methods, geographic coverage, technical support quality. Najtańszy dostawca może kosztować fortunę przez problemy techniczne.
+Kryptowaluty obiecują niskie prowizje, ale rzeczywistość jest złożona. Prowizje sieci Bitcoin wahają się od 1 do 50 zł zależnie od obciążenia. Ethereum bywa jeszcze droższe. Stablecoiny jak USDC oferują większą stabilność, ale wciąż wymagają konwersji na złotówki.
+
+Compliance to dodatkowy koszt. Musisz zgłosić działalność do KNF, wdrożyć procedury AML i monitorować transakcje. Koszty prawne i administracyjne mogą sięgać 10-20 tys. zł rocznie.
+
+Krypto ma sens dla konkretnych grup klientów. Technologiczni early adopters, międzynarodowi kupujący unikający high forex fees, młodzi klienci preferujący innowacje. Jeśli to nie twoja grupa docelowa, inwestycja może się nie zwrócić.
+
+### Buy now, pay later (BNPL)
+
+PayPo, Twisto i podobne rozwiązania kosztują 3-6% prowizji. To więcej niż tradycyjne płatności, ale często zwiększają średnią wartość zamówienia o 20-40%. Liczy się bilans między wyższymi kosztami a większą sprzedażą.
+
+Integracja wymaga dodatkowej pracy. Systemy BNPL potrzebują szczegółowych danych o produktach i klientach. Muszą ocenić ryzyko kredytowe w czasie rzeczywistym. To oznacza dodatkowe API, testy i wsparcie techniczne.
+
+Operational overhead też rośnie. Więcej pytań klientów o raty, obsługa opóźnień w płatnościach, dodatkowe faktury. Planuj 2-3 godziny dodatkowej pracy tygodniowo na obsługę BNPL.
