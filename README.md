@@ -4,7 +4,7 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 18-step workflow from outline to publication
+- **Automated Article Generation**: 19-step workflow from outline to publication
 - **Silo Article Support**: Special handling for category hub pages with automatic sub-article detection and FAQ
 - **FAQ/Checklist Pipeline**: Separate mini-article pipeline with humanization and internal linking (50-70 word answers)
 - **Per-Step Provider Configuration**: Use different AI models for different workflow steps (optimize cost vs. quality)
@@ -198,8 +198,11 @@ blog-agent list --series ecommerce
 12. **Schema** - Generate Schema.org structured data with 22 template variables (Article, FAQPage, HowTo)
 13. **Categories** - AI selects 1-5 categories from 146 available
 14. **Internal Linking** - Automatically add 3-5 internal links to related articles in the same silo (AI-driven anchor selection)
-15. **Generate Images** - Generate images with DALL-E 3 from multimedia prompts (optional, disabled by default)
+15. **Generate Images** - Generate images with DALL-E 3 or Stability AI from multimedia prompts (optional, disabled by default)
 16. **Social Media** - Generate social media posts (Facebook/LinkedIn/Instagram) with hooks, alternative titles, and hashtags (saved as Markdown)
+17. **FAQ** - Generate FAQ section with 5-8 questions and semantic internal linking to related articles (if FAQ in outline)
+18. **Checklist** - Generate actionable checklist with 8-12 items and humanization (if Checklist in outline)
+19. **Headers Alternatives** - Generate 3-4 SEO-optimized alternatives for all H1/H2/H3 headers, including long-tail variants (optional, disabled by default)
 
 ### Advanced Workflow Control
 
@@ -507,6 +510,44 @@ python test_image_generation.py
 # Test Stability AI
 python test_stability_ai.py
 ```
+
+### SEO Headers Alternatives (Optional)
+
+Generate 3-4 SEO-optimized alternatives for all H1, H2, H3 headers in your articles. Each header gets alternative proposals including long-tail variants.
+
+**Quick Start:**
+```bash
+# Single article
+blog-agent create --config path/config.yaml --only headers_alternatives
+
+# All articles in directory
+./generate_headers_alternatives_all.sh artykuly/ecommerce
+
+# Python version (cross-platform)
+python generate_headers_alternatives_all.py artykuly/ecommerce/seo
+```
+
+**Output:** Creates `headers_alternatives.md` in each article directory with format:
+```markdown
+# Original: Your Article Title
+
+**Propozycje SEO:**
+1. Short variant with keyword
+2. Natural SEO-friendly version
+3. Detailed long-tail variant describing exactly what the article covers (LONG TAIL)
+4. Variant with numbers or data
+
+---
+
+## Original: Section Header
+
+**Propozycje SEO:**
+1. ...
+```
+
+**Enable in workflow:** Set `enabled: true` in `blog_agent/config/workflow.yaml` for automatic generation.
+
+**Documentation:** See [README_HEADERS_ALTERNATIVES.md](README_HEADERS_ALTERNATIVES.md) for complete guide, batch processing, and cost estimates.
 
 ### AI Provider Comparison
 

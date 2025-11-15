@@ -1,6 +1,35 @@
 # TODO List
 
-## Current Session Tasks (2025-11-14)
+## Current Session Tasks (2025-11-15)
+- [x] **Implement Headers Alternatives SEO step (Step 19)**
+  - ✅ Created step_19_headers_alternatives.py
+  - ✅ Parses all H1, H2, H3 headers from article.md
+  - ✅ Generates 3-4 SEO-optimized alternatives per header
+  - ✅ At least one long-tail variant (8-12 words) per header
+  - ✅ Created prompt_headers_alternatives.md
+  - ✅ Added to workflow.yaml as optional step (enabled: false by default)
+  - ✅ Batch scripts for mass processing (bash + Python)
+  - ✅ Auto-enable/disable workflow.yaml during batch runs
+  - ✅ Documentation: README_HEADERS_ALTERNATIVES.md
+  - ✅ Tested: 32 headers × 4 alternatives = 128 proposals
+- [x] **Improve CTA section - prioritize silo articles**
+  - ✅ Added _find_silo_articles() to step_10_cta.py
+  - ✅ Generates full URL paths (/artykuly/seria/silos/slug)
+  - ✅ Updated RELATED_ARTICLES variable (was empty, now populated)
+  - ✅ Updated prompt to prioritize same-silo articles first
+  - ✅ Section "Polecane artykuły" now shows silo articles before others
+- [ ] **TODO: Improve multimedia generation step (step_08_multimedia.py)**
+  - Current state: Generates multimedia.json with image/video suggestions
+  - Issues to address:
+    - [ ] Better prompt engineering for image descriptions
+    - [ ] Add video timestamps and specific scene descriptions
+    - [ ] Integration with actual image generation (DALL-E/Stability AI)
+    - [ ] Validate multimedia.json schema more strictly
+    - [ ] Add fallback when AI doesn't return valid JSON
+    - [ ] Consider adding infographic suggestions
+  - Priority: Medium (currently disabled in workflow.yaml)
+
+## Previous Session Tasks (2025-11-14)
 - [x] Investigate Gemini 2.5 SAFETY blocks with Polish content
   - **Problem identified:** Gemini 2.5 (Flash & Pro) blocks Polish educational content with empty safety_ratings
   - **Root cause:** Training data bias - model trained primarily on English, misinterprets Polish technical/business terms as harmful

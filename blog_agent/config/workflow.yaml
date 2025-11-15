@@ -129,7 +129,7 @@ steps:
   - name: headers_alternatives
     module: blog_agent.core.workflow.steps.step_19_headers_alternatives
     description: "Generate SEO-optimized alternative headers (H1/H2/H3)"
-    enabled: false  # Optional - enable to generate alternative header proposals
+    enabled: true  # Optional - enable to generate alternative header proposals
     provider: openai-gpt4o  # Use GPT-4o for SEO optimization
 
 # Quality Review Configuration
