@@ -203,7 +203,9 @@ TIME_2: "2-4 godziny (batch processing)"
 
 ### 7. Related Articles
 
-Z `{{RELATED_ARTICLES}}` (internal linking), wybierz 2-3 najbardziej pasujące:
+**PRIORYTET:** Najpierw używaj artykułów z tego samego silosu (dostarczonych w `{{RELATED_ARTICLES}}`), a dopiero potem sugeruj inne artykuły jeśli jest sens.
+
+Z `{{RELATED_ARTICLES}}` wybierz 2-3 najbardziej pasujące artykuły z silosu:
 ```
 RELATED_ARTICLE_1: "[Integracje ERP w e-commerce](link)"
 WHY_READ_1: "dowiesz się jak połączyć platformę z systemem magazynowym"
@@ -211,6 +213,10 @@ WHY_READ_1: "dowiesz się jak połączyć platformę z systemem magazynowym"
 RELATED_ARTICLE_2: "[Koszty wdrożenia platform](link)"
 WHY_READ_2: "szczegółowy breakdown kosztów dla różnych rozwiązań"
 ```
+
+**Kolejność w sekcji "Polecane artykuły":**
+1. **Najpierw:** 2-3 artykuły z tego samego silosu (z `{{RELATED_ARTICLES}}`)
+2. **Opcjonalnie:** 1-2 artykuły z innych silosów, jeśli są bardzo istotne dla tematu
 
 ### 8. Optional Warning/Note
 
@@ -250,6 +256,7 @@ Jeśli `complexity.organizational: "high"`:
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
+<!-- UWAGA: Najpierw artykuły z tego samego silosu -->
 - [Integracje ERP, WMS i CRM](../operacje/integracje-erp-wms-crm) - dowiesz się jak połączyć platformę z systemami backendowymi
 - [Koszty utrzymania e-commerce](../operacje/koszty-utrzymania) - ukryte koszty których nie widzisz przy wyborze platformy
 
@@ -280,6 +287,7 @@ Jeśli mniej niż 2 "tak", prawdopodobnie lepiej zoptymalizować obecną platfor
 ### 📖 Pogłęb wiedzę:
 
 **Następne kroki lektury:**
+<!-- UWAGA: Najpierw artykuły z tego samego silosu -->
 1. **[Headless vs Traditional - case studies](../platformy/headless-case-studies)** - 5 prawdziwych wdrożeń, co zadziałało, co nie
 2. **[API-first e-commerce platforms](../platformy/api-first)** - przegląd platform wspierających headless out-of-the-box
 
@@ -325,6 +333,7 @@ Jeśli mniej niż 2 "tak", prawdopodobnie lepiej zoptymalizować obecną platfor
 
 ### 📚 Dowiedz się więcej:
 
+<!-- UWAGA: Najpierw artykuły z tego samego silosu -->
 - [CDN dla e-commerce - przewodnik](../operacje/cdn-ecommerce) - jak wybrać i skonfigurować CDN
 - [Image optimization strategies](../operacje/image-optimization) - wszystko o formatach, kompresji, lazy loading
 

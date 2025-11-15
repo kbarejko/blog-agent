@@ -3,7 +3,9 @@ Step 11: CTA/Next Steps
 
 Generates "Co dalej?" section with actionable next steps.
 """
-from typing import Dict, Any
+from typing import Dict, Any, List
+from pathlib import Path
+import yaml
 
 from ...domain.article import Article
 from ...domain.value_objects import CTASection
@@ -73,6 +75,17 @@ Team: {article.business_metadata.team_size}"""
     series = path_parts[1] if len(path_parts) > 1 else "unknown"
     silo = path_parts[2] if len(path_parts) > 2 else "unknown"
 
+    # Find related articles in the same silo
+    current_slug = path_parts[-1] if len(path_parts) > 0 else "unknown"
+    silo_articles = _find_silo_articles(article.path, current_slug)
+
+    # Format silo articles for prompt (prioritize silo articles)
+    related_articles_text = ""
+    if silo_articles:
+        related_articles_text = "**Artykuły z tego samego silosu tematycznego:**\n"
+        for art in silo_articles[:5]:  # Limit to 5 articles
+            related_articles_text += f"- [{art['title']}]({art['url']})\n"
+
     # Generate checklist name from article title
     checklist_name = f"{article.config.title} - Checklist"
 
@@ -90,7 +103,7 @@ Team: {article.business_metadata.team_size}"""
             'SERIA': series,
             'SILOS': silo,
             'CHECKLIST_NAME': checklist_name,
-            'RELATED_ARTICLES': '',  # Placeholder - will be populated by internal linking step
+            'RELATED_ARTICLES': related_articles_text,
             'INVESTMENT_RANGE': investment_range,
             'TIMEFRAME': timeframe,
             'TOPIC': topic,
@@ -150,3 +163,60 @@ Team: {article.business_metadata.team_size}"""
     print(f"✅ CTA section saved to cta.md (variant: {variant})")
 
     return article
+
+
+def _find_silo_articles(article_path: Path, current_slug: str) -> List[Dict[str, str]]:
+    """
+    Find all published articles in the same silo
+
+    Args:
+        article_path: Path to current article directory
+        current_slug: Current article slug to exclude
+
+    Returns:
+        List of article metadata dicts with title and url
+    """
+    articles = []
+
+    # Get silo path (parent directory)
+    silo_path = article_path.parent
+
+    # Scan all subdirectories in the silo
+    for article_dir in silo_path.iterdir():
+        if not article_dir.is_dir():
+            continue
+
+        slug = article_dir.name
+        if slug == current_slug:
+            continue  # Skip current article
+
+        # Check if article is published
+        article_md = article_dir / "article.md"
+        if not article_md.exists():
+            continue  # Not published yet
+
+        # Load config to get title
+        config_path = article_dir / "config.yaml"
+        if not config_path.exists():
+            continue
+
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f)
+
+        # Build full URL path from "artykuly/" onwards
+        parts = article_dir.parts
+        try:
+            artykuly_idx = parts.index('artykuly')
+            relative_parts = parts[artykuly_idx:]
+            url = '/' + '/'.join(relative_parts)
+        except ValueError:
+            # Fallback if "artykuly" not found in path
+            url = f"/{'/'.join(article_dir.parts[-3:])}"
+
+        articles.append({
+            'slug': slug,
+            'title': config.get('title', slug),
+            'url': url
+        })
+
+    return articles
