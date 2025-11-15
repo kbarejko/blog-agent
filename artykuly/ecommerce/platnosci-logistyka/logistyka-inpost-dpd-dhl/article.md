@@ -2,11 +2,11 @@
 
 - **InPost dominuje ceną i wygodą** - Paczkomaty mogą zaoszczędzić od 30 do 40% w porównaniu do tradycyjnych kurierów. Chociaż są świetnym wyborem dla mniejszych przesyłek, limity gabarytowe mogą być problemem przy większych produktach.
 
-- **DPD najlepszy dla B2B** - Z szeroką europejską siecią i profesjonalną obsługą, DPD wydaje się idealnym wyborem dla biznesu. Mimo że jest droższy o 15-20% od InPost na rynku krajowym, oferuje jakość, która może być tego warta.
+- **DPD najlepszy dla B2B** - Z [szeroką europejską siecią](/artykuly/ecommerce/platnosci-logistyka/cross-border-ue) i profesjonalną obsługą, DPD wydaje się idealnym wyborem dla biznesu. Mimo że jest droższy o 15-20% od InPost na rynku krajowym, oferuje jakość, która może być tego warta.
 
 - **DHL opłaca się od przesyłek 100zł+** - Gdy zależy nam na premium obsłudze i międzynarodowym zasięgu, DHL często się sprawdza. Jednak przy tanich produktach, koszty krajowe mogą znacząco wpłynąć na marżę.
 
-- **Model hybrydowy zwiększa zyski** - Automatyczny wybór kuriera w zależności od wartości czy wagi zamówienia może pozwolić na optymalizację kosztów o około 25%. To rozwiązanie, które warto rozważyć, by zwiększyć efektywność.
+- **Model hybrydowy zwiększa zyski** - Automatyczny wybór kuriera w zależności od wartości czy wagi zamówienia może pozwolić na [optymalizację kosztów o około 25%](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci). To rozwiązanie, które warto rozważyć, by zwiększyć efektywność.
 
 - **Negocjacje nie tylko o cenę** - Przy wyborze dostawcy, warto zwrócić uwagę nie tylko na koszt przesyłki. Limity reklamacji, SLA dostaw czy integracja API mogą być równie, a czasem nawet bardziej istotne.
 
@@ -20,7 +20,7 @@ Wyobraź sobie sytuację: klient zamawia u Ciebie paczkę w piątek wieczorem, l
 
 Dziś klienci sklepów internetowych mają coraz większe oczekiwania. Darmowa dostawa, możliwość odbioru 24/7, szybki dostęp do informacji o przesyłce – to już standardowe wymagania. Badania wskazują, że aż 38% klientów rezygnuje z zakupu, jeśli opcje dostawy ich nie satysfakcjonują. Dodatkowo, 22% nie wraca do sklepu po negatywnych doświadczeniach z dostawą.
 
-Wybór kuriera to coś więcej niż tylko szukanie najniższej ceny za przesyłkę. To strategiczna decyzja, która wpływa na satysfakcję klientów, liczbę zwrotów, a w konsekwencji na dochodowość całej firmy. Niewłaściwy wybór może prowadzić nie tylko do dodatkowych kosztów związanych z reklamacjami, ale przede wszystkim do utraty klientów.
+Wybór kuriera to coś więcej niż tylko szukanie najniższej ceny za przesyłkę. To strategiczna decyzja, która wpływa na satysfakcję klientów, liczbę zwrotów, a w konsekwencji na dochodowość całej firmy. Niewłaściwy wybór może prowadzić nie tylko do [dodatkowych kosztów związanych z reklamacjami](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje), ale przede wszystkim do utraty klientów.
 
 Na polskim rynku wyróżniają się trzej główni gracze: InPost z innowacyjną siecią paczkomatów, DPD, który jest europejskim standardem w obsłudze biznesu, oraz DHL znany z oferty premium. Każdy z nich ma swoje zalety, specyficzne ceny i docelowe segmenty klientów. Nie ma jednego uniwersalnego lidera – jest tylko najlepszy wybór dopasowany do konkretnego modelu biznesowego.
 
