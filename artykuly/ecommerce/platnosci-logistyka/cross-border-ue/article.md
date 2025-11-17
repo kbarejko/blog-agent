@@ -7,10 +7,10 @@
   System One Stop Shop (OSS) to prawdziwa pomoc w rozliczaniu VAT ze wszystkich krajów UE w jednym miejscu. Może to znacznie uprościć Twoje obowiązki księgowe i zaoszczędzić cenny czas.
 
 - **Fulfillment lokalny vs centralny**  
-  Rozważając lokalizację magazynu, warto wiedzieć, że magazyn w Niemczech może być droższy o 40%, ale skraca czas dostawy o 2-3 dni. To z kolei może zwiększyć konwersję nawet o 15%. Wybór lokalizacji to kluczowa decyzja dla logistyki Twojej firmy.
+  Rozważając lokalizację magazynu, warto wiedzieć, że magazyn w Niemczech może być droższy o 40%, ale skraca czas dostawy o 2-3 dni. To z kolei może zwiększyć konwersję nawet o 15%. Wybór lokalizacji to [kluczowa decyzja dla logistyki](/artykuly/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl) Twojej firmy.
 
 - **BNPL dominuje w Szwecji (65%), karty w Niemczech (78%)**  
-  Przyjrzymy się preferencjom płatniczym w różnych krajach UE. Na przykład, w Szwecji popularność BNPL (Buy Now, Pay Later) wynosi aż 65%, podczas gdy w Niemczech 78% klientów preferuje karty płatnicze. Zrozumienie tych preferencji może pomóc w optymalizacji kosztów prowizji.
+  Przyjrzymy się preferencjom płatniczym w różnych krajach UE. Na przykład, w Szwecji popularność BNPL (Buy Now, Pay Later) wynosi aż 65%, podczas gdy w Niemczech 78% klientów preferuje [karty płatnicze](/artykuly/ecommerce/platnosci-logistyka/platnosci-online-polska). Zrozumienie tych preferencji może pomóc w [optymalizacji kosztów prowizji](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci).
 
 - **Google Ads w lokalnych językach dają 3x lepszy ROI**  
   Zastanawiasz się nad marketingiem cross border? Praktyczne wskazówki zawarte w artykule pokażą, jak korzystanie z Google Ads w lokalnych językach potrafi trzykrotnie zwiększyć ROI. Dzięki temu unikniesz marnowania budżetu na kampanie, które nie przynoszą oczekiwanych rezultatów.
