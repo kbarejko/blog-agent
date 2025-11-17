@@ -5,7 +5,13 @@ categories:
 - slug: sklepy-internetowe
   title: Sklepy Internetowe
   path: strony-internetowe/content-management-systems-cms/e-commerce/sklepy-internetowe
-- slug: ochrona-danych-osobowych
-  title: Ochrona Danych Osobowych
-  path: bezpieczenstwo/cyberbezpieczenstwo/ochrona-danych-osobowych
-count: 3
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: firma
+  title: Firma
+  path: firma
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+count: 5
