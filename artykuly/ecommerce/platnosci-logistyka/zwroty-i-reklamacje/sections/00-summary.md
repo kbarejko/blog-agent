@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **95% klientów sprawdza politykę zwrotów przed zakupem** - dobrze zaprojektowane warunki zwiększają konwersję nawet o 30%
-- **Bezpłatne zwroty kosztują 15-25% marży** - poznasz strategie jak być konkurencyjnym bez rujnowania rentowności
-- **Zwroty można monetyzować** - outlet, refurbishment i recycling odzyskują 40-60% wartości zwracanych produktów
-- **14 dni to minimum prawne, ale nie optimum biznesowe** - analiza jak długi okres zwrotu maksymalizuje zyski długoterminowe
-- **Gotowe procedury i narzędzia** - systemy RMA, integracje z kurierami i checklist optymalizacji kosztów logistycznych
+- **14 dni na zwrot, 24 miesiące na reklamację** - jasne różnice prawne między procedurami i kiedy klient może żądać pieniędzy, wymiany lub naprawy
+- **Polityka zwrotów zwiększa konwersję o 30%** - transparentne warunki zwrotów budują zaufanie i redukują porzucanie koszyka przed płatnością
+- **Zwroty kosztują średnio 21% wartości zamówienia** - pełna kalkulacja ukrytych kosztów logistyki, magazynowania i ponownego wprowadzania towarów do sprzedaży
+- **Automatyzacja etykiet i statusów** - gotowe integracje z WooCommerce, Shopify i PrestaShop do zarządzania zwrotami bez ręcznej obsługi
+- **5 strategii redukcji zwrotów o 40%** - lepsze zdjęcia, dokładne opisy i personalizacja rekomendacji zmniejszają liczbę rozczarowanych klientów

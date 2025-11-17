@@ -1,25 +1,27 @@
-## Podstawy prawne – co musisz wiedzieć o przepisach
+## Podstawy prawne zwrotów i reklamacji - co musisz wiedzieć
 
-Prawo to fundament każdej polityki zwrotów. Bez zrozumienia przepisów ryzykujesz nie tylko konflikty z klientami, ale także kary od organów kontrolnych. Polski e-commerce działa w ramach unijnych regulacji, które dają klientom szerokie uprawnienia.
+Prawo daje klientom dwa różne narzędzia: zwrot i reklamację. Mylenie ich to pierwszy krok do problemów prawnych i finansowych. Każde działa według innych zasad, ma inne terminy i inne konsekwencje dla Twojego sklepu.
 
-### Prawo odstąpienia od umowy
+### Różnice między zwrotem a reklamacją
 
-Każdy klient ma prawo odstąpić od umowy w ciągu 14 dni od otrzymania produktu. To nie jest przywilej – to jego ustawowe prawo, którego nie można ograniczyć regulaminem sklepu. Termin liczy się od momentu objęcia towaru w posiadanie, nie od daty zamówienia.
+Zwrot towarów to prawo do odstąpienia od umowy zawartej na odległość. Klient ma 14 dni od otrzymania przesyłki, żeby zmienić zdanie – bez podania przyczyny. To nie ma związku z wadami produktu. Po prostu może mu się nie podobać kolor, rozmiar albo sam produkt.
 
-Klient nie musi podawać przyczyny odstąpienia. Może zwrócić produkt, bo po prostu zmienił zdanie. Ty jako sprzedawca masz obowiązek przyjąć zwrot i zwrócić pieniądze w ciągu 14 dni od otrzymania oświadczenia o odstąpieniu.
+Ważne: te 14 dni to kalendarz, nie dni robocze. Weekend i święta się liczą.
 
-Istnieją jednak wyjątki. Nie można zwrócić produktów wykonanych na zamówienie klienta, jak spersonalizowane kubki czy grawerowane biżuteria. Produkty szybko psujące się, płyty CD/DVD rozpakowane przez klienta, czy treści cyfrowe pobrane za zgodą klienta również nie podlegają zwrotowi.
+Reklamacja to zupełnie inna historia. Dotyczy wad fizycznych lub prawnych towaru. Klient ma aż 24 miesiące na zgłoszenie problemu, ale pierwsze 12 miesięcy to strefa szczególnej ochrony. W tym okresie zakłada się, że wada istniała już w momencie dostawy.
 
-Musisz wyraźnie poinformować klienta o prawie odstąpienia. To nie tylko wzmianka w regulaminie – przepisy wymagają dostarczenia formularza odstąpienia i jasnego opisania procedury. Brak tej informacji przedłuża termin na odstąpienie do 12 miesięcy.
+Nie wszystko można zwrócić bez przyczyny. Wyłączenia dotyczą produktów spersonalizowanych, artykułów spożywczych z krótkim terminem ważności, płyt CD/DVD w otwartych opakowaniach czy bielizny i kosmetyków ze względów higienicznych. Sprawdź pełną listę w ustawie o prawach konsumenta.
 
-### Rękojmia i gwarancja
+W przypadku reklamacji klient może żądać naprawy lub wymiany na nowy produkt. Jeśli to niemożliwe albo nieproporcjonalnie kosztowne, może domagać się obniżenia ceny lub odstąpienia od umowy z pełnym zwrotem pieniędzy.
 
-Rękojmia to twój obowiązek przez 2 lata od sprzedaży. Odpowiadasz za zgodność produktu z umową – jeśli towar ma wadę fizyczną lub prawną, klient może żądać naprawy, wymiany, obniżenia ceny lub zwrotu.
+Przykład z praktyki: klient kupuje kurtkę za 300 zł. Po tygodniu stwierdza, że kolor mu nie pasuje – to zwrot. Jeśli zamek się zepsuje po miesiącu użytkowania – to reklamacja.
 
-Gwarancja producenta to dodatkowe zobowiązanie, często korzystniejsze od rękojmi. Może obejmować szerszy zakres usług lub dłuższy okres. Kluczowa różnica: w ramach rękojmi klient zgłasza reklamację do ciebie, w ramach gwarancji – bezpośrednio do producenta.
+### Obowiązki prawne sprzedawcy
 
-W pierwszych 12 miesiącach domniemywa się, że wada istniała w momencie sprzedaży. To producent lub sprzedawca musi udowodnić, że tak nie było. Po roku ciężar dowodu przechodzi na klienta.
+Musisz poinformować klienta o prawie do zwrotu już przed zakupem. To znaczy w regulaminie sklepu, na stronie produktu i w potwierdzeniu zamówienia. Brak tej informacji przedłuża okres zwrotu do 12 miesięcy.
 
-Masz 14 dni na rozpatrzenie reklamacji. Jeśli nie odpowiesz w tym terminie, reklamacja jest uznana za uzasadnioną. W praktyce oznacza to automatyczną zgodę na żądanie klienta – wymianę, naprawę lub zwrot pieniędzy.
+Na rozpatrzenie reklamacji masz maksymalnie 14 dni. To termin ustawowy, nie ma negocjacji. Pieniądze za zwrot musisz oddać w ciągu 14 dni od otrzymania oświadczenia o odstąpieniu od umowy.
 
-Pamiętaj: jako sprzedawca internetowy odpowiadasz solidarnie z producentem. Nawet jeśli wada wynika z błędu producenta, klient może zwrócić się bezpośrednio do ciebie. Dopiero potem możesz dochodzić roszczeń od dostawcy.
+Koszty przesyłki zwrotnej ponosi klient, ale tylko jeśli go o tym poinformowałeś przed zakupem. Maksymalnie może to być koszt najtańszej standardowej przesyłki. W praktyce wielu sprzedawców pokrywa te koszty, żeby być bardziej konkurencyjnymi.
+
+W przypadku reklamacji to Ty ponosisz wszystkie koszty – przesyłki, naprawy lub wymiany. Klient zwraca Ci produkt na Twój koszt i odbiera naprawiony lub wymieniony również bezpłatnie.
