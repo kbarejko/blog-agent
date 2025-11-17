@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Metodologia 6 kryteriów** - systematyczny sposób porównania platform e-commerce z systemem punktowym i wagami ważności dla średnich firm
 - **Rzeczywiste koszty Shoper vs WooCommerce vs Shopify** - pełne zestawienie z ukrytymi opłatami, prowizjami i kosztami utrzymania na poziomie 100-200 zamówień miesięcznie
@@ -6,10 +6,9 @@
 - **Dlaczego Shoper wygrał** - kluczowe argumenty decyzji, kompromisy które trzeba było zaakceptować i pierwsze wyniki sprzedażowe po uruchomieniu
 - **Checklist pytań przed wyborem** - uniwersalne zasady dla średnich butików i najczęstsze błędy które mogą kosztować rok pracy i migrację
 
-
 ## Wprowadzenie - Dlaczego wybór platformy e-commerce może zadecydować o sukcesie Twojego butiku
 
-# Case Study jak wybrać platformę e-commerce dla butiku, średniaka
+### Case Study jak wybrać platformę e-commerce dla butiku, średniaka
 
 Właścicielka butiku odzieży damskiej z Poznania straciła 40 000 zł w ciągu pierwszego roku przez źle dobraną platformę e-commerce. Po sześciu miesiącach walki z systemem, który nie radził sobie z wariantami produktów, zdecydowała się na kosztowną migrację.
 
@@ -161,9 +160,9 @@ Sygnały ostrzegawcze są jasne: zespół traci więcej czasu na walkę z system
 
 Potrzebujesz wsparcia w wyborze platformy dla Twojego biznesu? Zespół Digital Vantage pomoże przeprowadzić analizę i dobierze rozwiązanie idealne dla Twoich potrzeb.
 
-## 🎯 Propozycja tytułu H1
+# 🎯 Propozycja tytułu H1
 
-### FAQ - Najczęściej zadawane pytania o wybór platformy e-commerce
+## FAQ - Najczęściej zadawane pytania o wybór platformy e-commerce
 
 **Która platforma jest najlepsza dla małego butiku?**
 
