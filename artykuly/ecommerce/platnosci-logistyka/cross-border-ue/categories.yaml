@@ -2,16 +2,16 @@ categories:
 - slug: firma
   title: Firma
   path: firma
-- slug: marketing-w-internecie
-  title: Marketing w Internecie
-  path: marketing-w-internecie
 - slug: e-commerce
   title: E-commerce
   path: strony-internetowe/content-management-systems-cms/e-commerce
 - slug: technologie-dla-firm
   title: Technologie dla firm
   path: firma/technologie-dla-firm
-- slug: rozwoj-oprogramowania
-  title: Rozwój Oprogramowania
-  path: rozwoj-oprogramowania
+- slug: strategia-it
+  title: Strategia IT
+  path: strategia-it
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
 count: 5
