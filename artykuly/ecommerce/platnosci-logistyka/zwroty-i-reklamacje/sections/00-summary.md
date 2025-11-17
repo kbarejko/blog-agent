@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Zwrot ≠ reklamacja** - zwrot to prawo do rezygnacji w 14 dni bez powodu, reklamacja to odpowiedzialność za wady towaru z terminami do 2 lat
-- **Koszty zwrotu ponosi klient** - chyba że sam zdecydujesz inaczej dla przewagi konkurencyjnej, ale musisz to jasno komunikować przed zakupem
-- **14 dni na reklamację, nie więcej** - tyle masz czasu na odpowiedź klientowi, a szybsza obsługa znacząco poprawia satysfakcję i lojalność
-- **Produkty spersonalizowane są wyjątkiem** - kosmetyki, żywność i towary szyte na miarę możesz wykluczyć z prawa odstąpienia zgodnie z prawem
-- **Checklist 12 działań + gotowe wzory** - formularze odstąpienia, procedury i szablony komunikacji zgodne z polskim prawem do wdrożenia od zaraz
+- **30-40% zwrotów w modzie** - statystyki pokazują prawdziwą skalę problemu, ale łatwe zwroty zwiększają sprzedaż o 15-20%
+- **14 dni na zwrot, 2 lata na reklamację** - konkretne obowiązki prawne i wyjątki, które musisz znać żeby uniknąć problemów z UOKiK
+- **Reverse logistics kosztuje 10-15% marży** - jak zorganizować odbiór, kontrolę jakości i ponowną sprzedaż zwróconych produktów
+- **Return rate jako KPI** - gotowe metryki do trackowania (koszt zwrotu vs marża, NPS po zwrocie) i konkretne sposoby redukcji zwrotów przez lepsze opisy produktów
+- **Chatboty redukują koszty obsługi o 40%** - przegląd narzędzi AI do automatycznej kwalifikacji zgłoszeń i wsparcia customer service
