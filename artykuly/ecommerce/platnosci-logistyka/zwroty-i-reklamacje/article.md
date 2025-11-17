@@ -1,8 +1,8 @@
 ## Co znajdziesz w artykule?
 
 - **14 dni na zwrot, 24 miesiące na reklamację** - Jakie są kluczowe różnice między tymi procedurami? Dowiedz się, kiedy możesz domagać się zwrotu pieniędzy, wymiany produktu lub jego naprawy.
-- **Polityka zwrotów zwiększa konwersję o 30%** - Ustalanie jasnych i przejrzystych warunków zwrotów pomaga budować zaufanie klientów i zmniejszyć liczbę porzuceń koszyka przed dokonaniem płatności.
-- **Zwroty kosztują średnio 21% wartości zamówienia** - Ukryte koszty związane z logistyką, magazynowaniem i ponownym wprowadzaniem produktów do sprzedaży mogą być zaskakujące. Przedstawiamy pełną kalkulację.
+- **Polityka zwrotów zwiększa konwersję o 30%** - Ustalanie jasnych i przejrzystych warunków zwrotów pomaga budować zaufanie klientów i zmniejszyć liczbę porzuceń koszyka [przed dokonaniem płatności](/artykuly/ecommerce/platnosci-logistyka/platnosci-online-polska).
+- **Zwroty kosztują średnio 21% wartości zamówienia** - Ukryte [koszty związane z logistyką](/artykuly/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl), magazynowaniem i ponownym wprowadzaniem produktów do sprzedaży mogą być zaskakujące. Przedstawiamy pełną kalkulację.
 - **Automatyzacja etykiet i statusów** - Dzięki gotowym integracjom z WooCommerce, Shopify i PrestaShop, zarządzanie zwrotami staje się prostsze i mniej czasochłonne, eliminując potrzebę ręcznej obsługi.
 - **5 strategii redukcji zwrotów o 40%** - Zastosowanie lepszych zdjęć, dokładniejszych opisów czy personalizacji rekomendacji to skuteczne sposoby na zmniejszenie liczby zawiedzionych klientów.
 
@@ -16,7 +16,7 @@ Każdy sklep internetowy wcześniej czy później spotka się z sytuacją, gdy k
 
 ## Wprowadzenie: Dlaczego zwroty i reklamacje to fundament zaufania w e-commerce
 
-W polskim e-commerce średnio 8-15% zamówionych produktów wraca do sklepów, a w niektórych segmentach, jak odzież czy elektronika, wskaźnik ten może sięgać nawet 30%. To dane, które trudno zignorować. Każdy zwrócony produkt to nie tylko potencjalnie stracony klient, ale także – i tutaj tkwi szansa – możliwość zbudowania trwałej relacji.
+W [polskim e-commerce](/artykuly/ecommerce/platnosci-logistyka/allegro-integracja) średnio 8-15% zamówionych produktów wraca do sklepów, a w niektórych segmentach, jak odzież czy elektronika, wskaźnik ten może sięgać nawet 30%. To dane, które trudno zignorować. Każdy zwrócony produkt to nie tylko potencjalnie stracony klient, ale także – i tutaj tkwi szansa – możliwość zbudowania trwałej relacji.
 
 Właściciele sklepów często widzą zwroty jako nieprzyjemną konieczność, która pochłania marżę i komplikuje operacje. To może być błędna perspektywa. Badania pokazują, że aż 67% polskich konsumentów sprawdza politykę zwrotów przed zakupem, a 89% nie zdecyduje się na zakupy w sklepie, który nie ma jasnych zasad dotyczących zwrotów.
 
