@@ -4,7 +4,7 @@
 - **Bezpłatne zwroty kosztują 15-25% marży** - Jak być konkurencyjnym, nie narażając się na straty? Poznasz strategie, które pomogą Ci osiągnąć ten cel.
 - **Zwroty można monetyzować** - Możliwości takie jak outlet, refurbishment czy recycling pozwalają odzyskać 40-60% wartości zwracanych produktów. To nie tylko oszczędność, ale także dodatkowy zysk.
 - **14 dni to minimum prawne, ale nie optimum biznesowe** - Wydłużenie okresu zwrotu może zwiększyć lojalność klientów. Przeanalizujemy, jak długo powinien trwać, by maksymalizować zyski.
-- **Gotowe procedury i narzędzia** - Dowiesz się o systemach RMA, integracjach z kurierami i checklistach optymalizujących koszty logistyczne. Efektywność procesów zwrotów jest w zasięgu ręki.
+- **Gotowe procedury i narzędzia** - Dowiesz się o systemach RMA, [integracjach z kurierami](/artykuly/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl) i checklistach optymalizujących koszty logistyczne. Efektywność procesów zwrotów jest w zasięgu ręki.
 
 
 
@@ -18,13 +18,13 @@ Każdego dnia w polskich sklepach internetowych dochodzi do sytuacji, które wł
 
 Statystyki z branży e-commerce są nieubłagane: średnio 20-30% produktów sprzedawanych online trafia z powrotem do sprzedawcy. W niektórych kategoriach, takich jak odzież czy obuwie, liczby te mogą dochodzić nawet do 40%. To oznacza, że każdy właściciel sklepu internetowego musi być gotowy na to, że znaczna część jego sprzedaży będzie wymagała ponownego przetworzenia.
 
-Paradoksalnie, to właśnie sposób obsługi zwrotów decyduje o sukcesie w e-commerce. Badania pokazują, że aż 95% klientów sprawdza warunki zwrotu przed finalizacją zakupu. Liberalna polityka zwrotów przestała być już tylko dodatkiem – stała się nieodzownym elementem konkurencyjności.
+Paradoksalnie, to właśnie sposób obsługi zwrotów decyduje o sukcesie w e-commerce. Badania pokazują, że aż 95% klientów sprawdza warunki zwrotu przed [finalizacją zakupu](/artykuly/ecommerce/platnosci-logistyka/platnosci-online-polska). Liberalna polityka zwrotów przestała być już tylko dodatkiem – stała się nieodzownym elementem konkurencyjności.
 
-Warto rozróżnić między zwrotem a reklamacją. Zwrot to rezygnacja klienta z zakupu w ramach 14-dniowego prawa odstąpienia od umowy – bez konieczności podawania przyczyny. Reklamacja natomiast dotyczy produktu wadliwego i opiera się na przepisach o rękojmi lub gwarancji. Każdy z tych procesów wymaga innego podejścia prawnego i logistycznego.
+Warto rozróżnić między zwrotem a reklamacją. Zwrot to rezygnacja klienta z zakupu w ramach 14-dniowego prawa odstąpienia od umowy – bez konieczności podawania przyczyny. Reklamacja natomiast dotyczy produktu wadliwego i opiera się na [przepisach o rękojmi](/artykuly/ecommerce/platnosci-logistyka/cross-border-ue) lub gwarancji. Każdy z tych procesów wymaga innego podejścia prawnego i logistycznego.
 
 Właściciele sklepów często patrzą na zwroty jak na czysty koszt. Jednak przemyślana polityka zwrotów może zwiększyć konwersję nawet o 20-30%. Klienci chętniej dokonują zakupów, gdy wiedzą, że w razie potrzeby mogą bezproblemowo zwrócić produkt. Co więcej, dobrze zorganizowany proces zwrotów buduje lojalność – klient, który doświadczył sprawnej obsługi reklamacji, chętniej wraca do sklepu na kolejne zakupy.
 
-W tym artykule znajdziesz kompletny przewodnik po zarządzaniu zwrotami i reklamacjami. Od podstaw prawnych, przez projektowanie polityki zwrotów, po optymalizację procesów logistycznych i finansowych. Pokażemy również praktyczne narzędzia i najlepsze praktyki, które pomogą przekształcić zwroty z koniecznego kosztu w przewagę konkurencyjną.
+W tym artykule znajdziesz kompletny przewodnik po zarządzaniu zwrotami i reklamacjami. Od podstaw prawnych, przez projektowanie polityki zwrotów, po optymalizację [procesów logistycznych](/artykuly/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl) i finansowych. Pokażemy również praktyczne narzędzia i najlepsze praktyki, które pomogą przekształcić zwroty z koniecznego kosztu w przewagę konkurencyjną.
 
 ## Podstawy prawne – co warto wiedzieć o przepisach
 
