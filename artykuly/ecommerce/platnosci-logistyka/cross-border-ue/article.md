@@ -1,9 +1,9 @@
 ## Co znajdziesz w artykule?
 
 - **OSS upraszcza VAT w całej UE** - Dzięki systemowi One Stop Shop (OSS), przedsiębiorcy mogą unikać rejestracji VAT w każdym kraju z osobna. To duża wygoda, choć warto pamiętać, że progi są różne w poszczególnych krajach – na przykład w Niemczech wynosi to 10 tys. euro, podczas gdy na Malcie aż 35 tys. euro.
-- **Fulfillment lokalny vs centralny** - Decyzja o lokalizacji magazynu może znacząco wpłynąć na koszty wysyłki. Przesyłki z centralnego magazynu w Polsce obsługują całą UE za 8-12 euro za sztukę. Jeśli jednak zdecydujemy się na lokalne centra, koszty przesyłki spadają do 4-6 euro, ale trzeba liczyć się z wyższymi kosztami stałymi.
-- **Niemcy płacą inaczej niż Włosi** - Różnice kulturowe wpływają na preferencje płatnicze. W Niemczech popularne są Sofort i płatności fakturowe, podczas gdy Włosi częściej sięgają po karty kredytowe. W Belgii natomiast dominuje Bancontact. To pokazuje, jak ważne jest dostosowanie metod płatności do lokalnych oczekiwań.
-- **Hedging dla MŚP ma sens** - Małe i średnie przedsiębiorstwa powinny rozważyć zabezpieczenie się przed ryzykiem walutowym. Nawet niewielkie wahania, jak 5-procentowy wzrost lub spadek kursu EUR/PLN, mogą poważnie naruszyć marżę. Proste instrumenty finansowe, takie jak kontrakty terminowe, mogą pomóc uniknąć nieprzyjemnych strat.
+- **Fulfillment lokalny vs centralny** - Decyzja o lokalizacji magazynu może znacząco wpłynąć na [koszty wysyłki](/artykuly/ecommerce/platnosci-logistyka/logistyka-inpost-dpd-dhl). Przesyłki z centralnego magazynu w Polsce obsługują całą UE za 8-12 euro za sztukę. Jeśli jednak zdecydujemy się na lokalne centra, koszty przesyłki spadają do 4-6 euro, ale trzeba liczyć się z wyższymi kosztami stałymi.
+- **Niemcy płacą inaczej niż Włosi** - Różnice kulturowe wpływają na preferencje płatnicze. W Niemczech popularne są Sofort i płatności fakturowe, podczas gdy Włosi częściej sięgają po karty kredytowe. W Belgii natomiast dominuje Bancontact. To pokazuje, jak ważne jest dostosowanie [metod płatności](/artykuly/ecommerce/platnosci-logistyka/platnosci-online-polska) do lokalnych oczekiwań.
+- **Hedging dla MŚP ma sens** - Małe i średnie przedsiębiorstwa powinny rozważyć zabezpieczenie się przed ryzykiem walutowym. Nawet niewielkie wahania, jak 5-procentowy wzrost lub spadek kursu EUR/PLN, mogą poważnie [naruszyć marżę](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci). Proste instrumenty finansowe, takie jak kontrakty terminowe, mogą pomóc uniknąć nieprzyjemnych strat.
 
 ## Wprowadzenie - Cross Border UE jako szansa dla polskich firm
 
@@ -23,7 +23,7 @@ Pierwsze półrocze 2024 przyniosło dalsze przyspieszenie. Eksport e-commerce z
 
 Polski rynek ma swoje ograniczenia, a konkurencja rośnie z każdym dniem. Na przykład, niemiecki klient wydaje średnio 1847 euro rocznie na zakupy online, podczas gdy Francuz - 1623 euro, a Polak tylko 687 euro. Różnica ta jest znacząca.
 
-Ekspansja na rynki zagraniczne pozwala również na dywersyfikację ryzyka. Kiedy polski rynek zwalnia, zamówienia z zagranicy mogą pomóc utrzymać poziom sprzedaży. Wiele firm odkryło tę korzyść podczas pandemii.
+Ekspansja na rynki zagraniczne pozwala również na dywersyfikację ryzyka. Kiedy polski rynek zwalnia, zamówienia z zagranicy mogą pomóc utrzymać [poziom sprzedaży](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje). Wiele firm odkryło tę korzyść podczas pandemii.
 
 ### Korzyści i wyzwania na starcie
 
