@@ -3,26 +3,26 @@
 ### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiącach:
 
 **Pierwsze kroki:**
-1. **Analizuj potencjał rynkowy** - Zbadaj, które kraje UE są najbardziej obiecujące dla Twoich produktów.
-2. **Zarejestruj VAT w systemie OSS** - Uprość swoje rozliczenia podatkowe przy sprzedaży do wielu krajów.
-3. **Przygotuj strategię logistyczną** - Zdecyduj, czy lepszym wyborem będzie centralny magazyn czy lokalne centra fulfillment.
+1. **Przeanalizuj obecną platformę e-commerce** - Zrób listę funkcji, których Ci brakuje i problemów, które chcesz rozwiązać.
+2. **Ustal budżet wdrożenia** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20%.
+3. **Przygotuj listę integracji** - Jakie systemy muszą być zintegrowane? (ERP, CRM, płatności, magazyn).
 
 **Przydatne narzędzia:**
-- **Taxamo** - Automatyczne naliczanie VAT w różnych krajach UE.
-- **ShipStation** - Uproszczenie etykietowania i śledzenia przesyłek międzynarodowych.
+- **Calculator TCO (Total Cost of Ownership)** - Oblicz rzeczywisty koszt platformy na 3 lata (licencje + hosting + development).
+- **Platform comparison spreadsheet** - Porównaj 3-5 platform na podstawie Twoich wymagań.
 
 **Potrzebujesz pomocy?**
-- [Umów bezpłatną konsultację]({{LINK}}) - omówimy Twój case i pomożemy zaplanować wdrożenie.
-- [Pobierz RFP template]({{LINK}}) - gotowy brief do wysłania do agencji/dostawców.
+- [Umów bezpłatną konsultację]({{LINK}}) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
+- [Pobierz RFP template]({{LINK}}) - Gotowy brief do wysłania do agencji/dostawców.
 
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Zwroty I Reklamacje w e-commerce](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje) - dowiedz się, jak efektywnie zarządzać polityką zwrotów.
-- [Obnizenie Kosztow Platnosci w e-commerce](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci) - optymalizacja kosztów płatności może znacząco zwiększyć marże.
+- [Zwroty I Reklamacje w e-commerce](/artykuly/ecommerce/platnosci-logistyka/zwroty-i-reklamacje) - Dowiedz się, jak skutecznie zarządzać zwrotami i reklamacjami.
+- [Obnizenie Kosztow Platnosci w e-commerce](/artykuly/ecommerce/platnosci-logistyka/obnizenie-kosztow-platnosci) - Poznaj strategie na redukcję kosztów transakcyjnych.
 
 **Zasoby:**
 - [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu.
-- [Dołącz do webinaru]({{LINK}}) - live Q&A z ekspertami.
+- [Dołącz do webinaru]({{LINK}}) - Live Q&A z ekspertami.
 
-⚠️ **Ważne:** Cross Border Ue to złożone wdrożenie wymagające doświadczonego zespołu. Zalecamy konsultację z ekspertem przed podjęciem decyzji - źle przeprowadzona migracja może kosztować 2-3x więcej niż planowano.
+⚠️ **Ważne:** Cross Border UE to złożone wdrożenie wymagające doświadczonego zespołu. Zalecamy konsultację z ekspertem przed podjęciem decyzji - źle przeprowadzona migracja może kosztować 2-3x więcej niż planowano.
