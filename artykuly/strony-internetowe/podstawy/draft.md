@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **97% klientów szuka firm online** - bez strony internetowej Twoja firma praktycznie nie istnieje dla większości potencjalnych klientów
 - **Strona pracuje 24/7 za darmo** - jeden raz zbudowana generuje leady i sprzedaż przez lata, podczas gdy reklamy kosztują za każdy kontakt
@@ -6,14 +6,13 @@
 - **Koszt pozyskania klienta spada o 60%** - klienci którzy znajdą Cię online są tańsi niż ci z reklam tradycyjnych czy poleceń
 - **Gotowa mapa działania** - praktyczne kroki od analizy potrzeb po wybór wykonawcy, z budżetowaniem i timeline'm projektu
 
-
 ## Wprowadzenie - dlaczego strona internetowa to podstawa biznesu w 2024 roku
 
-# Podstawy stron internetowych dla firm
+### Podstawy stron internetowych dla firm
 
 Klient szuka Twojej firmy, ale zamiast na stronie internetowej, trafia na puste pole w wynikach Google. W tym momencie prawdopodobnie przechodzi do konkurencji – a Ty tracisz potencjalną sprzedaż, nawet o tym nie wiedząc.
 
-## Wprowadzenie - dlaczego strona internetowa to podstawa biznesu w 2024 roku
+#### Dlaczego strona internetowa to podstawa biznesu w 2024 roku
 
 Statystyki nie pozostawiają wątpliwości: **97% konsumentów szuka informacji o firmach online** przed podjęciem decyzji o zakupie. To oznacza, że niemal każdy Twój potencjalny klient najpierw sprawdzi Cię w internecie – niezależnie od tego, czy prowadzisz restaurację, warsztat samochodowy, czy firmę consultingową.
 
@@ -159,7 +158,7 @@ Możliwość ciągłego rozwoju to kolejny atut. Dziś dodajesz blog, za miesią
 
 **Utrata klientów na rzecz konkurencji to ukryty, ale realny koszt.** Gdy potencjalny klient nie znajdzie Cię online, wybiera tego, kogo znajdzie. Nie dowiesz się nawet o straconej szansie.
 
-Ograniczone możliwości rozwoju to długoterminowy problem. Bez obecności online trudno skalować biznes, wejść na nowe rynki czy budować rozpoznawalność marki. **Zostajeszz w miejscu, podczas gdy inni rosną.**
+Ograniczone możliwości rozwoju to długoterminowy problem. Bez obecności online trudno skalować biznes, wejść na nowe rynki czy budować rozpoznawalność marki. **Zostajesz w miejscu, podczas gdy inni rosną.**
 
 Każdy dzień bez strony to dzień, w którym konkurencja buduje przewagę. Im dłużej czekasz, tym droższe staje się nadrobienie dystansu.
 
