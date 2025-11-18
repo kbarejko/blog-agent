@@ -105,9 +105,106 @@ structure:
     - strona-na-start
 
   strony-internetowe:
-    - czy-twoja-strona-internetowa-przyciaga-klientow-czy-ich-odstrasza
-    - dlaczego-twoja-firma-potrzebuje-nowoczesnej-strony-internetowej
-    - odblokuj-potencjal-swojej-firmy-odkryj-7-zaskakujacych-sposobow-jak-strona-internetowa-przyczyni-sie-do-twojego-sukcesu
+    podstawy:
+      - czym-jest-strona-internetowa
+      - dlaczego-warto
+      - kiedy-potrzebujesz
+      - korzyści-biznesowe
+      - wizytowka-vs-landing-vs-portal
+    strategia:
+      - dlaczego-warto
+      - dostepnosc-wcag
+      - korzysci
+      - kpi-i-cele
+      - pozycjonowanie-seo
+      - przewodnik
+      - przyciaganie-klientow
+      - redesign-vs-optmalizacja
+      - wizytowka-vs-landing-vs-portal
+    proces:
+      - brief
+      - content-i-media
+      - html-poradnik
+      - html-szablony
+      - jak-zrobic
+      - opublikowanie
+      - projektowanie-ux-ui
+      - publikacja
+      - wireframe
+      - wireframing
+    projektowanie:
+      - conversion-rate
+      - kolory-i-typografia
+      - nawigacja
+      - responsywnosc
+      - ux-ui-podstawy
+    tresci-i-media:
+      - blog-i-aktualnosci
+      - copywriting-seo
+      - tworzenie-tresci
+      - video-marketing
+      - zdjecia-i-grafiki
+    marketing-seo:
+      - conversion-optimization
+      - email-marketing-seo
+      - google-analytics
+      - pozycjonowanie-seo
+      - reklama-google-ads
+      - social-media
+    koszty:
+      - abonament-vs-jednorazowo
+      - czynniki-wplywajace
+      - domena-i-hosting
+      - ile-kosztuje-strona
+      - jednorazowe
+      - koszty-ukryte
+      - oplaty-cykliczne
+      - optymalizacja
+      - oszczedzanie
+      - porownanie-technik
+      - tanie-rozwiazanie
+      - ukryte
+      - wycena-i-budzetowanie
+    bezpieczenstwo:
+      - aktualizacje
+      - backup-i-awaryjne-odzyskiwanie
+      - rodo-i-privacy
+      - ssl-i-https
+      - zabezpieczenia
+    technologie:
+      - cms-wordpress-vs-headless
+      - headless
+      - hosting
+      - hosting-i-domeny
+      - html-css-podstawy
+      - javascript-react-vue
+      - nextjs
+      - nowoczesne
+      - payload-cms
+      - php-js-dla-biznesu
+      - php-vs-javascript
+      - php-vs-javascript-dla-biznesu
+      - wybor-platformy
+    narzedzia:
+      - analytics
+      - cms-bez-kodu
+      - konstruktory-stron
+      - page-builders
+      - testowanie
+    poradniki:
+      - css-responsywny
+      - html-dla-poczatkujacych
+      - javascript-interaktywnosc
+      - migracja-strony
+      - wordpress-setup
+    utrzymanie:
+      - aktualizacje-cms
+      - monitoring-strony
+      - opieka-techniczna
+      - optymalizacja-wydajnosci-technicznej
+      - wsparcie-techniczne
+    slownik:
+      - slownik
 
   single-articles:
     - bitwa-aplikacji-wybrac-mobilna-czy-pozostac-przy-aplikacji-webowej
