@@ -3,26 +3,26 @@
 ### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiącach:
 
 **Pierwsze kroki:**
-1. **Przeanalizuj potrzeby swojej firmy** - Zidentyfikuj, jakie funkcje i elementy są kluczowe dla Twojej strony, aby wspierały Twoje cele biznesowe.
-2. **Ustal budżet na projekt strony** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20% na nieprzewidziane wydatki.
-3. **Znajdź odpowiedniego wykonawcę** - Zdecyduj, czy potrzebujesz freelancera czy agencji i zapytaj o doświadczenie w Twojej branży, terminy realizacji oraz co obejmuje cena.
+1. **Przeanalizuj obecną sytuację online** - sprawdź, jak wygląda Twoja obecność w sieci, co warto poprawić i jakie nowe funkcje wprowadzić.
+2. **Ustal budżet na stworzenie strony** - na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20% na nieprzewidziane wydatki.
+3. **Przygotuj listę integracji** - jakie systemy muszą być zintegrowane? (ERP, CRM, płatności, magazyn)
 
 **Przydatne narzędzia:**
-- [Checklist projektu strony internetowej]({{LINK}}) - Pomocna lista kontrolna do planowania i realizacji projektu.
-- [Kalkulator TCO (Total Cost of Ownership)]({{LINK}}) - Oblicz rzeczywisty koszt strony na 3 lata (licencje + hosting + wdrożenie).
+- [Calculator TCO (Total Cost of Ownership)]({{LINK}}) - oblicz rzeczywisty koszt platformy na 3 lata (licencje + hosting + development)
+- [Platform comparison spreadsheet]({{LINK}}) - porównaj 3-5 platform na podstawie Twoich wymagań
 
 **Potrzebujesz pomocy?**
-- [Umów bezpłatną konsultację]({{LINK}}) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
-- [Pobierz RFP template]({{LINK}}) - Gotowy brief do wysłania do agencji/dostawców.
+- [Umów bezpłatną konsultację]({{LINK}}) - omówimy Twój case i pomożemy zaplanować wdrożenie
+- [Pobierz RFP template]({{LINK}}) - gotowy brief do wysłania do agencji/dostawców
 
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Kiedy potrzebujesz strony internetowej]({{LINK}}) - Dowiedz się, jakie sygnały wskazują na potrzebę posiadania strony.
-- [Czym jest strona internetowa]({{LINK}}) - Techniczne aspekty wyjaśnione w przystępny sposób.
+- [Kiedy potrzebujesz strony internetowej]({{LINK}}) - znajdziesz tam konkretne wskazówki, które mogą rozwiać Twoje wątpliwości.
+- [Czym jest strona internetowa]({{LINK}}) - techniczne aspekty wyjaśnione w przystępny sposób.
 
 **Zasoby:**
-- [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu.
-- [Dołącz do webinaru]({{LINK}}) - Live Q&A z ekspertami.
+- [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu
+- [Dołącz do webinaru]({{LINK}}) - live Q&A z ekspertami
 
-💡 **Wskazówka:** Strona internetowa to inwestycja, która przynosi korzyści przez długi czas. Każda wydana złotówka pracuje na rzecz Twojego biznesu, przyciągając klientów i budując profesjonalny wizerunek. Zadbaj o to, aby była dostosowana do Twoich potrzeb i celów biznesowych.
+💡 **Wskazówka:** Sukces wdrożenia strony internetowej to w 70% planowanie i przygotowanie, a w 30% technologia. Zadbaj o precyzyjne określenie celów i oczekiwań, co pozwoli uniknąć niespodzianek w trakcie realizacji projektu.
