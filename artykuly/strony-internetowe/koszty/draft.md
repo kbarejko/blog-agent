@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Prawdziwy koszt strony** - Dlaczego rzeczywisty budżet na stronę internetową może być nawet 2-3 razy wyższy od początkowej wyceny z uwagi na ukryte opłaty i koszty operacyjne
 - **Model abonamentowy vs jednorazowy** - Kiedy miesięczne opłaty są bardziej opłacalne niż duża inwestycja początkowa i jak każdy model wpływa na przepływ gotówki w firmie
@@ -6,14 +6,11 @@
 - **Nieuniknione koszty cykliczne** - Hosting, domeny, aktualizacje i wsparcie techniczne generują średnio 2000-5000 zł rocznie niezależnie od rozmiaru strony
 - **Strategie optymalizacji budżetu** - Sprawdzone metody redukcji kosztów o 30-50% bez utraty funkcjonalności oraz kiedy tanie rozwiązania faktycznie się opłacają
 
-
 ## Wprowadzenie - dlaczego koszt strony to więcej niż jedna kwota
-
-# Koszty
 
 Większość przedsiębiorców pyta: "Ile kosztuje strona internetowa?" Odpowiedź nie jest jednak tak prosta, jak mogłoby się wydawać.
 
-## Wprowadzenie - dlaczego koszt strony to więcej niż jedna kwota
+### Wprowadzenie - dlaczego koszt strony to więcej niż jedna kwota
 
 Planowanie budżetu na stronę internetową przypomina budowę domu. Poza ceną projektu i realizacji czekają na nas koszty fundamentów, wyposażenia i późniejszego utrzymania.
 
@@ -21,7 +18,7 @@ Wiele firm popełnia ten sam błąd. Koncentrują się wyłącznie na koszcie st
 
 Zapominają o domenach, hostingu czy przyszłych aktualizacjach. Rezultat? Budżet przekroczony już w pierwszym roku działania.
 
-### Struktura rzeczywistych kosztów
+#### Struktura rzeczywistych kosztów
 
 Prawdziwy koszt strony składa się z kilku kategorii. Koszty jednorazowe to projekt, kodowanie i wdrożenie.
 
@@ -47,7 +44,7 @@ Model abonamentowy rozkłada koszty w czasie. Zamiast 15 000 zł jednorazowo pł
 
 W abonamencie często masz wsparcie techniczne, aktualizacje i kopie zapasowe. Wykonawca dba o bezpieczeństwo i działanie strony.
 
-### Który model wybrać?
+#### Który model wybrać?
 
 Jednorazowa płatność sprawdza się przy stabilnym budżecie. Masz kontrolę nad kosztami i własnością strony.
 
