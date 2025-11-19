@@ -17,7 +17,7 @@ Czy wiesz, że co miesiąc aż 60% małych firm doświadcza utraty danych? Co go
 
 Średnie koszty związane z przestojami IT w polskich firmach mogą wynosić nawet 15 000 zł za godzinę. Dla średnich przedsiębiorstw awaria trwająca jeden dzień może oznaczać straty rzędu 120 000 zł. I to jeszcze bez uwzględnienia utraty zaufania klientów czy problemów wizerunkowych.
 
-Zagrożenia czają się wszędzie. Ransomware atakuje co 11 sekund, dyski twarde mogą się zepsuć zupełnie niespodziewanie, a nawet najbardziej zaufany pracownik może przypadkowo usunąć kluczowy folder. W 2023 roku aż 32% polskich firm doświadczyło cyberataków, a awarie sprzętu były przyczyną 45% przypadków utraty danych.
+Zagrożenia czają się wszędzie. Ransomware atakuje co 11 sekund, dyski twarde mogą się zepsuć zupełnie niespodziewanie, a nawet najbardziej zaufany pracownik może przypadkowo usunąć kluczowy folder. W 2023 roku aż 32% polskich firm doświadczyło [cyberataków](/artykuly/strony-internetowe/bezpieczenstwo/aktualizacje), a [awarie sprzętu](/artykuly/strony-internetowe/bezpieczenstwo/aktualizacje) były przyczyną 45% przypadków utraty danych.
 
 Backup to proces regularnego tworzenia kopii zapasowych danych. Z kolei disaster recovery to kompleksowa strategia powrotu do pełnej funkcjonalności po awarii – obejmuje procedury, zespół, alternatywne lokalizacje oraz harmonogram działań.
 
