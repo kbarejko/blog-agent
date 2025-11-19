@@ -131,7 +131,8 @@
 - Responsywność → `/responsywnosc`
 - Conversion Rate → `/conversion-rate`
 - Kolory i typografia → `/kolory-i-typografia`
-- Nawigacja → `/nawigacja` **Możliwości rozszerzenia silosa (przyszłe artykuły):**
+- Nawigacja → `/nawigacja` 
+**Możliwości rozszerzenia silosa (przyszłe artykuły):**
 - Projektowanie e-commerce
 - Accessibility w projektowaniu
 - Design systems dla firm
