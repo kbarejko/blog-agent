@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Strategia 3-2-1** - Sprawdzona metoda tworzenia 3 kopii danych na 2 różnych nośnikach z 1 kopią offline, którą wdroży każda firma niezależnie od wielkości
 - **Kalkulacja RTO i RPO** - Konkretne wskazówki jak określić maksymalny czas przestoju i dopuszczalną utratę danych dla Twojego biznesu
@@ -6,14 +6,13 @@
 - **Plan disaster recovery** - Gotowe procedury awaryjne z podziałem ról, priorytetyzacją systemów i komunikacją z klientami podczas awarii
 - **Compliance z RODO** - Wymagania prawne dotyczące backup, okresy retencji danych i geograficzne ograniczenia przechowywania w różnych branżach
 
-
 ## Wprowadzenie: Dlaczego backup to nie tylko opcja, ale konieczność biznesowa
 
-# Backup I Awaryjne Odzyskiwanie
+# Backup i Awaryjne Odzyskiwanie
 
 Co miesiąc 60% małych firm doświadcza utraty danych, a 40% z nich nigdy nie wznawia działalności. To nie są abstrakcyjne liczby – to realność biznesowa, która dotyka firmy każdego dnia.
 
-## Wprowadzenie: Dlaczego backup to nie tylko opcja, ale konieczność biznesowa
+### Wprowadzenie: Dlaczego backup to nie tylko opcja, ale konieczność biznesowa
 
 Średni koszt przestoju IT w polskich firmach wynosi 15 000 zł za godzinę. Dla średniego przedsiębiorstwa awaria trwająca jeden dzień może oznaczać straty sięgające 120 000 zł. Te liczby nie uwzględniają jeszcze utraconego zaufania klientów czy szkód wizerunkowych.
 
@@ -225,7 +224,7 @@ Jeśli Twoja firma ma więcej niż 20 użytkowników, dane rozproszone po kilku 
 
 Nie czekaj na awarię. Skonsultuj swoją sytuację z Digital Vantage - pomożemy zaprojektować strategię backup, która rzeczywiście ochroni Twój biznes.
 
-## Propozycja tytułu H1:
+## Propozycja tytułu H1
 
 Masz rację, backup i disaster recovery to nie koszty - to ubezpieczenie biznesu. Firmy, które tego nie rozumieją, często płacą znacznie wyższą cenę za przestoje i utratę danych.
 
@@ -245,4 +244,4 @@ Najważniejsze: przetestuj przywracanie danych na środowisku testowym. Wybierz 
 
 Jeśli Twoja firma ma więcej niż 20 użytkowników, dane rozproszone po kilku lokalizacjach lub wymogi compliance, projekt wymaga profesjonalnego wsparcia. Eksperci widzą pułapki, których nie dostrzeże nawet doświadczony administrator IT. Pomogą uniknąć kosztownych błędów jak niewłaściwy dobór narzędzi czy źle skonfigurowane retencje.
 
-Nie czekaj na awarię. Każdy dzień zwleki to większe ryzyko utraty danych i wyższe koszty odbudowy.
+Nie czekaj na awarię. Każdy dzień zwleki to większe ryzyko utraty danych i wyżs
