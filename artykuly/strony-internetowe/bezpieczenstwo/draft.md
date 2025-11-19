@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Koszty cyberataków** - Naruszenie bezpieczeństwa małej firmy kosztuje średnio 150 000 zł, podczas gdy podstawowe zabezpieczenia to wydatek 1-3 tys. zł rocznie
 - **Strategia 3-2-1 dla kopii zapasowych** - Sprawdzona metoda ochrony danych biznesowych, która pozwala odzyskać wszystkie informacje w ciągu 24 godzin po awarii
@@ -6,14 +6,13 @@
 - **Plan reagowania na incydenty** - Gotowy scenariusz działania w pierwszych 60 minutach po wykryciu ataku, który minimalizuje straty i chroni reputację firmy
 - **Zgodność z RODO bez kar** - 5 konkretnych działań technicznych, które zabezpieczają przed mandatami UODO sięgającymi 4% obrotu rocznego
 
-
 ## Wprowadzenie - dlaczego bezpieczeństwo to fundament każdej strony
 
-# Bezpieczeństwo
+### Bezpieczeństwo
 
 Jedna udana cyberataką może zniszczyć reputację firmy budowaną latami. W 2024 roku średni koszt naruszenia bezpieczeństwa dla małych firm wyniósł 3,31 miliona dolarów, podczas gdy kompleksowe zabezpieczenia kosztują ułamek tej kwoty.
 
-## Wprowadzenie - dlaczego bezpieczeństwo to fundament każdej strony
+### Wprowadzenie - dlaczego bezpieczeństwo to fundament każdej strony
 
 Cyberataki na małe i średnie przedsiębiorstwa osiągnęły rekordowy poziom. Według raportu IBM Security z 2024 roku, 43% ataków skierowanych jest właśnie przeciwko firmom z sektora MŚP. Co gorsza, 60% małych firm kończy działalność w ciągu sześciu miesięcy od udanego cyberataku.
 
