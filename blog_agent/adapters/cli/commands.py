@@ -6,6 +6,7 @@ Click-based CLI for blog-agent.
 import click
 from pathlib import Path
 import sys
+from builtins import list as list_type
 
 from ...core.domain.article import Article
 from ...core.domain.config import ArticleConfig
@@ -25,23 +26,145 @@ def cli():
 
 
 @cli.command()
-@click.option('--series', required=True, help='Series name (e.g., ecommerce, saas)')
-@click.option('--silo', required=True, help='Silo name (e.g., operacje, platformy)')
-@click.option('--slug', required=True, help='Article slug (e.g., bezpieczenstwo-rodo)')
-@click.option('--title', required=True, help='Article title (H1)')
-@click.option('--audience', required=True, help='Target audience')
+@click.option('--series', required=True, help='Series name (e.g., ecommerce, strony-internetowe)')
+@click.option('--silo', help='Silo name (e.g., operacje, platformy) - optional when initializing entire series')
+@click.option('--slug', help='Article slug (e.g., bezpieczenstwo-rodo) - required for single article')
+@click.option('--title', help='Article title (H1) - required for single article')
+@click.option('--audience', help='Target audience - required for single article')
 @click.option('--tone', default='ekspercki, ale naturalny i rozmowny', help='Writing tone')
 def init(series: str, silo: str, slug: str, title: str, audience: str, tone: str):
     """
     Initialize article structure
 
-    Creates folder structure and config.yaml.
+    Two modes:
+    1. Initialize entire series: blog-agent init --series strony-internetowe
+       (reads article_structure.yaml and creates all silos/articles)
 
-    Example:
+    2. Initialize single article: blog-agent init --series ecommerce --silo operacje --slug bezpieczenstwo-rodo --title "..." --audience "..."
+
+    Examples:
+        # Initialize entire series from article_structure.yaml
+        blog-agent init --series strony-internetowe
+
+        # Initialize single article
         blog-agent init --series ecommerce --silo operacje --slug bezpieczenstwo-rodo --title "Bezpieczeństwo i RODO" --audience "Właściciele sklepów e-commerce"
     """
-    # Build article path
+    import yaml
+
     project_root = Path.cwd()
+
+    # MODE 1: Initialize entire series from article_structure.yaml
+    if not silo and not slug:
+        click.echo(f"🚀 Initializing series: {series}")
+        click.echo(f"   Reading article_structure.yaml...\n")
+
+        # Read article_structure.yaml
+        yaml_file = project_root / "article_structure.yaml"
+        if not yaml_file.exists():
+            click.echo(f"❌ article_structure.yaml not found")
+            sys.exit(1)
+
+        with open(yaml_file, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+
+        structure = data.get('structure', {})
+
+        if series not in structure:
+            click.echo(f"❌ Series '{series}' not found in article_structure.yaml")
+            click.echo(f"\n   Available series: {', '.join(structure.keys())}")
+            sys.exit(1)
+
+        series_data = structure[series]
+
+        # Initialize factory once
+        factory = DependencyFactory(project_root)
+        deps = factory.create_deps()
+
+        # Stats
+        created_count = 0
+        skipped_count = 0
+
+        # Process each silo
+        for silo_name, articles in series_data.items():
+            if not isinstance(articles, list_type):
+                click.echo(f"⚠️  Skipping {silo_name} - invalid format")
+                continue
+
+            click.echo(f"\n📁 Silo: {silo_name}")
+
+            # 1. Create article for the silo itself (silos are always articles)
+            silo_path = project_root / "artykuly" / series / silo_name
+
+            if silo_path.exists() and (silo_path / "config.yaml").exists():
+                click.echo(f"  📄 [silo article] (already exists)")
+                skipped_count += 1
+            else:
+                # Convert slug to title
+                silo_title = silo_name.replace('-', ' ').title()
+
+                silo_config = ArticleConfig(
+                    title=silo_title,
+                    target_audience=audience or "Przedsiębiorcy i właściciele firm",
+                    tone=tone
+                )
+
+                # Create silo article
+                silo_article = Article(path=silo_path, config=silo_config)
+
+                # Execute init step for silo
+                from ...core.workflow.steps.step_01_init import execute_init
+                execute_init(silo_article, deps, {})
+
+                click.echo(f"  ✅ [silo article] {silo_name}")
+                created_count += 1
+
+            # 2. Process each article in the silo
+            for article_slug in articles:
+                article_path = project_root / "artykuly" / series / silo_name / article_slug
+
+                # Skip if exists
+                if article_path.exists():
+                    click.echo(f"  ⏭️  {article_slug} (already exists)")
+                    skipped_count += 1
+                    continue
+
+                # Create default config
+                # Convert slug to title (replace - with spaces, capitalize)
+                article_title = article_slug.replace('-', ' ').title()
+
+                config = ArticleConfig(
+                    title=article_title,
+                    target_audience=audience or "Przedsiębiorcy i właściciele firm",
+                    tone=tone
+                )
+
+                # Create article
+                article = Article(path=article_path, config=config)
+
+                # Execute init step
+                from ...core.workflow.steps.step_01_init import execute_init
+                execute_init(article, deps, {})
+
+                click.echo(f"  ✅ {article_slug}")
+                created_count += 1
+
+        click.echo(f"\n{'='*60}")
+        click.echo(f"📊 Summary:")
+        click.echo(f"   Created: {created_count}")
+        click.echo(f"   Skipped: {skipped_count}")
+        click.echo(f"{'='*60}")
+
+        return
+
+    # MODE 2: Initialize single article (original behavior)
+    if not slug or not title or not audience:
+        click.echo("❌ For single article initialization, all parameters are required:")
+        click.echo("   --series, --silo, --slug, --title, --audience")
+        click.echo("\nOr use series-only mode to initialize entire series:")
+        click.echo("   blog-agent init --series strony-internetowe")
+        sys.exit(1)
+
+    # Build article path
     article_path = project_root / "artykuly" / series / silo / slug
 
     # Check if already exists
