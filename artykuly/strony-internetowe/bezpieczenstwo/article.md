@@ -22,15 +22,15 @@ Cyberataki na małe i średnie przedsiębiorstwa są teraz na rekordowym poziomi
 
 To nie są żarty. Średni koszt naruszenia bezpieczeństwa na świecie to 3,31 miliona dolarów, a w Polsce sięga około 12,5 miliona złotych. Tymczasem roczne wydatki na porządne zabezpieczenia to tylko kilka do kilkunastu tysięcy złotych. Różnica jest ogromna.
 
-Od 2014 roku Google uwzględnia bezpieczeństwo strony jako czynnik rankingowy. Strony bez SSL spadają w wynikach wyszukiwania. Użytkownicy widzą ostrzeżenie o "niezabezpieczonej stronie" i często opuszczają ją natychmiast.
+Od 2014 roku [Google uwzględnia bezpieczeństwo strony](/artykuly/strony-internetowe/podstawy) jako czynnik rankingowy. Strony bez SSL spadają w wynikach wyszukiwania. Użytkownicy widzą ostrzeżenie o "niezabezpieczonej stronie" i często opuszczają ją natychmiast.
 
 Badania wskazują, że 84% konsumentów rezygnuje z zakupów online, jeśli dane są przesyłane przez niezabezpieczone połączenie. To przekłada się na bezpośrednie straty w sprzedaży.
 
-Nowoczesne bezpieczeństwo stron internetowych składa się z kilku warstw. Pierwsza warstwa to podstawowe zabezpieczenia serwerów i aplikacji. Druga obejmuje szyfrowanie połączeń za pomocą certyfikatów SSL.
+Nowoczesne bezpieczeństwo stron internetowych składa się z kilku warstw. Pierwsza warstwa to podstawowe zabezpieczenia serwerów i aplikacji. Druga obejmuje szyfrowanie połączeń za pomocą [certyfikatów SSL](/artykuly/strony-internetowe/technologie).
 
-Trzecia warstwa to regularne aktualizacje systemów i aplikacji. Bez nich nawet najlepsze zabezpieczenia stają się bezużyteczne w krótkim czasie.
+Trzecia warstwa to [regularne aktualizacje systemów i aplikacji](/artykuly/strony-internetowe/utrzymanie). Bez nich nawet najlepsze zabezpieczenia stają się bezużyteczne w krótkim czasie.
 
-Kopie zapasowe i plany odzyskiwania danych są również kluczowe. W sytuacji ataku ransomware, są często jedyną drogą do szybkiego przywrócenia działalności.
+Kopie zapasowe i [plany odzyskiwania danych](/artykuly/strony-internetowe/strategia) są również kluczowe. W sytuacji ataku ransomware, są często jedyną drogą do szybkiego przywrócenia działalności.
 
 Nie można zapomnieć o zgodności z RODO. Naruszenie ochrony danych osobowych to ryzyko kar sięgających 4% rocznego obrotu firmy.
 
