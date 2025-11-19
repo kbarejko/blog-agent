@@ -4,7 +4,7 @@
 
 - **3 najgroźniejsze zagrożenia** - Wycieki danych płatniczych, włamania z defacement strony oraz ataki ransomware to nie tylko kwestia strat finansowych, ale także ryzyko wykluczenia z Google. Przykładowo, wyciek danych kart kredytowych może skutkować długotrwałą utratą zaufania klientów.
 
-- **Strategia backupów 3-2-1** - To praktyczna metoda zabezpieczania danych, która zapewnia, że nawet w przypadku całkowitego zniszczenia serwerów, wszystkie informacje można odzyskać. Wyobraź sobie sytuację, w której awaria techniczna nie jest końcem świata dzięki tej strategii.
+- **[Strategia backupów 3-2-1](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie)** - To praktyczna metoda zabezpieczania danych, która zapewnia, że nawet w przypadku całkowitego zniszczenia serwerów, wszystkie informacje można odzyskać. Wyobraź sobie sytuację, w której awaria techniczna nie jest końcem świata dzięki tej strategii.
 
 - **Checklist zgodności z RODO** - Istnieje 5 kluczowych działań prawnych, które musisz wdrożyć w ciągu 72 godzin od wykrycia naruszenia danych osobowych. Na przykład, natychmiastowe zgłoszenie incydentu do odpowiednich organów jest jednym z podstawowych kroków.
 
@@ -22,9 +22,9 @@ Każdego dnia aż 4000 małych i średnich firm na całym świecie staje się ce
 
 Według IBM, średni koszt naruszenia bezpieczeństwa danych wynosi około 4,45 miliona dolarów. Dla mniejszych firm taka suma może oznaczać koniec działalności. Przykładowo, pewna restauracja w Warszawie utraciła aż 80% klientów po tym, jak dane z jej systemu rezerwacji wyciekły na zewnątrz. Z kolei sklep internetowy w Krakowie musiał zamknąć swoje podwoje po tygodniowym przestoju spowodowanym atakiem ransomware.
 
-Prawdziwe koszty takich sytuacji to nie tylko odzyskiwanie danych. To także zatrzymanie sprzedaży, potencjalne kary RODO sięgające 4% rocznych obrotów, koszty związane z obsługą prawną, a co najważniejsze – utrata zaufania klientów. Odbudowa reputacji może zająć lata, jeśli w ogóle jest możliwa.
+Prawdziwe koszty takich sytuacji to nie tylko odzyskiwanie danych. To także zatrzymanie sprzedaży, [potencjalne kary RODO sięgające 4% rocznych obrotów](/artykuly/strony-internetowe/bezpieczenstwo/rodo-i-privacy), koszty związane z obsługą prawną, a co najważniejsze – utrata zaufania klientów. Odbudowa reputacji może zająć lata, jeśli w ogóle jest możliwa.
 
-Firmy, które mają solidne zabezpieczenia, zyskują przewagę nad konkurencją. Klienci coraz częściej zwracają uwagę na to, czy strona posiada certyfikat SSL i czy prosi o rozsądne dane. Przedsiębiorcy inwestujący w bezpieczeństwo budują markę, której można zaufać.
+[Firmy, które mają solidne zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/aktualizacje), zyskują przewagę nad konkurencją. Klienci coraz częściej zwracają uwagę na to, [czy strona posiada certyfikat SSL](/artykuly/strony-internetowe/bezpieczenstwo/ssl-i-https) i czy prosi o rozsądne dane. Przedsiębiorcy inwestujący w bezpieczeństwo budują markę, której można zaufać.
 
 Z tego artykułu dowiesz się, jak skutecznie chronić swoją firmę przed najczęstszymi zagrożeniami. Przygotowałem praktyczne porady – od podstawowych certyfikatów po zaawansowane systemy monitoringu. Każda złotówka wydana na zabezpieczenia to inwestycja w przyszłość Twojego biznesu.
 
