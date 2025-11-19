@@ -15,7 +15,7 @@ Jeśli firma w 2020 roku postawiła na przestarzałe technologie, dziś może p�
 
 Technologia to kręgosłup każdego biznesu online. To nie tylko kwestia działania strony, ale także jej szybkości, łatwości dodawania nowych funkcji oraz kosztów rozwoju na przestrzeni lat.
 
-Błędne decyzje technologiczne mogą kosztować dziesiątki tysięcy złotych. Przykład? Firma decyduje się na gotowy system sklepowy, który po dwóch latach nie wspiera potrzebnych integracji z magazynem. Efekt: konieczność napisania całej platformy od nowa.
+Błędne decyzje technologiczne mogą kosztować dziesiątki tysięcy złotych. Przykład? Firma decyduje się na gotowy system sklepowy, który po dwóch latach nie wspiera potrzebnych integracji z magazynem. Efekt: [konieczność napisania całej platformy od nowa](/artykuly/strony-internetowe/proces).
 
 **Koszty długoterminowe mogą przewyższać początkowe oszczędności**
 
@@ -27,13 +27,13 @@ Mała firma usługowa może potrzebować czegoś innego niż korporacja z międz
 
 **Obszary kluczowe dla sukcesu**
 
-Przeanalizujemy podstawy technologiczne – od HTML i CSS po nowoczesne frameworki. Omówimy języki programowania z perspektywy biznesowej, systemy zarządzania treścią i infrastrukturę hostingową.
+Przeanalizujemy [podstawy technologiczne](/artykuly/strony-internetowe/podstawy) – od HTML i CSS po [nowoczesne frameworki](/artykuly/strony-internetowe/slownik). Omówimy języki programowania z perspektywy biznesowej, systemy zarządzania treścią i infrastrukturę hostingową.
 
 Dowiesz się, jakie różnice występują między PHP a JavaScript pod kątem kosztów rozwoju, kiedy warto zainwestować w headless CMS, a kiedy wystarczy klasyczny WordPress. Zrozumiesz, jak wybór hostingu wpływa na konwersje i dlaczego czas ładowania strony to zarówno kwestia techniczna, jak i biznesowa.
 
 **Strategiczne myślenie o technologii**
 
-Kluczowe jest dopasowanie rozwiązań do celów biznesowych. Nie ma uniwersalnych odpowiedzi – są za to przemyślane decyzje oparte na analizie potrzeb, budżetu i planów rozwoju.
+Kluczowe jest [dopasowanie rozwiązań do celów biznesowych](/artykuly/strony-internetowe/strategia). Nie ma uniwersalnych odpowiedzi – są za to przemyślane decyzje oparte na analizie potrzeb, budżetu i planów rozwoju.
 
 ## Podstawy technologiczne - HTML, CSS i fundamenty
 
