@@ -1,0 +1,17 @@
+categories:
+- slug: rodo
+  title: RODO
+  path: bezpieczenstwo/ochrona-prywatnosci/rodo
+- slug: ochrona-danych-osobowych
+  title: Ochrona Danych Osobowych
+  path: bezpieczenstwo/cyberbezpieczenstwo/ochrona-danych-osobowych
+- slug: bezpieczenstwo-danych
+  title: Bezpieczeństwo danych
+  path: bezpieczenstwo/bezpieczenstwo-danych
+- slug: cyberbezpieczenstwo
+  title: Cyberbezpieczeństwo
+  path: bezpieczenstwo/cyberbezpieczenstwo
+- slug: firma
+  title: Firma
+  path: firma
+count: 5
