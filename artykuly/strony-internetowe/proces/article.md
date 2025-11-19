@@ -9,7 +9,7 @@
 
 # Proces
 
-Czy wiesz, że ponad 60% projektów stron internetowych przekracza budżet, a 40% nigdy nie zostaje ukończonych? Różnica między sukcesem a porażką często tkwi w jednym: dobrze zorganizowanym procesie tworzenia.
+Czy wiesz, że ponad 60% [projektów stron internetowych](/artykuly/strony-internetowe/podstawy) przekracza budżet, a 40% nigdy nie zostaje ukończonych? Różnica między sukcesem a porażką często tkwi w jednym: dobrze zorganizowanym procesie tworzenia.
 
 ## Wprowadzenie - Dlaczego proces ma znaczenie
 
@@ -21,7 +21,7 @@ Metodyczne podejście działa jak GPS w nawigacji – wskazuje, gdzie jesteś i 
 
 Dobrze zaplanowany proces przynosi wymierne korzyści: może skrócić czas realizacji nawet o 30%, zredukować liczbę zmian i poprawek, a także poprawić komunikację między zespołami. Co najważniejsze, końcowy produkt faktycznie spełnia założenia biznesowe.
 
-Kompleksowy proces tworzenia strony internetowej obejmuje siedem kluczowych etapów: strategii i planowania, projektowania UX/UI, przygotowania treści, implementacji technicznej, testowania, publikacji oraz optymalizacji po wdrożeniu. Każdy z etapów wymaga specyficznych kompetencji, narzędzi i czasu. W następnych sekcjach omówimy wszystkie etapy, pokazując praktyczne aspekty realizacji i najczęstsze pułapki, których warto unikać.
+Kompleksowy proces [tworzenia strony internetowej](/artykuly/strony-internetowe/podstawy) obejmuje siedem kluczowych etapów: strategii i planowania, projektowania UX/UI, przygotowania treści, implementacji technicznej, testowania, publikacji oraz optymalizacji po wdrożeniu. Każdy z etapów wymaga specyficznych kompetencji, narzędzi i czasu. W następnych sekcjach omówimy wszystkie etapy, pokazując praktyczne aspekty realizacji i najczęstsze pułapki, których warto unikać.
 
 ## Strategia i planowanie projektu
 
