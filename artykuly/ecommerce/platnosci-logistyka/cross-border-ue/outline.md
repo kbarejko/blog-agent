@@ -72,6 +72,6 @@
 - ROI i KPI dla działalności cross border
 - Następne kroki dla przedsiębiorców planujących ekspansję --- 
 
-### Podsumowanie
+## Podsumowanie
 
 **Proponowany tytuł H1:** Cross Border UE 2024: Kompleksowy przewodnik po sprzedaży transgranicznej dla polskich firm ```
