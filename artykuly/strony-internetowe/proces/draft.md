@@ -1,18 +1,17 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Metodyczne podejście oszczędza 30-40% budżetu** - projekty bez ustalonego procesu przekraczają budżet średnio o 67% i opóźniają się o 3-5 miesięcy
 - **Brief to podstawa sukcesu** - dobrze przygotowana specyfikacja eliminuje 80% późniejszych zmian i nieporozumień z wykonawcą
 - **Wireframing przed kodowaniem** - testowanie struktury na papierze kosztuje 50 razy mniej niż przebudowa gotowej strony
 - **7 etapów od strategii do publikacji** - kompletny workflow od analizy potrzeb po wdrożenie, z konkretnymi narzędziami i checklistami dla każdego kroku
 
-
 ## Wprowadzenie - Dlaczego proces ma znaczenie
 
-# Proces
+### Proces
 
 Czy wiesz, że ponad 60% projektów stron internetowych przekracza budżet, a 40% nigdy nie zostaje ukończonych? Różnica między sukcesem a porażką często leży w jednym: uporządkowanym procesie tworzenia.
 
-## Wprowadzenie - Dlaczego proces ma znaczenie
+### Wprowadzenie - Dlaczego proces ma znaczenie
 
 Wyobraź sobie budowę domu bez projektu architektonicznego. Najpierw fundamenty, potem ściany, a na końcu zorientujesz się, że zapomniałeś o instalacjach. Dokładnie tak wygląda tworzenie strony internetowej bez przemyślanego procesu.
 
