@@ -1,0 +1,17 @@
+categories:
+- slug: koszt-stron-internetowych
+  title: Koszt stron internetowych
+  path: strony-internetowe/koszt-stron-internetowych
+- slug: firma
+  title: Firma
+  path: firma
+- slug: strategia-it
+  title: Strategia IT
+  path: strategia-it
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+count: 5
