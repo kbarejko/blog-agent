@@ -91,4 +91,6 @@
 - Jak zbudować strategię technologiczną dla swojej firmy
 - Zachęta do zgłębienia konkretnych obszarów
 - Kiedy warto skonsultować się z ekspertami
-- Call to action - kontakt z Digital Vantage --- **Proponowany tytuł H1:** "Technologie stron internetowych - Kompletny przewodnik dla przedsiębiorców" **Alternatywny tytuł H1:** "Wybór technologii dla stron internetowych - Od podstaw do nowoczesnych rozwiązań"
+- Call to action - kontakt z Digital Vantage --- 
+
+**Proponowany tytuł H1:** "Technologie stron internetowych - Kompletny przewodnik dla przedsiębiorców" **Alternatywny tytuł H1:** "Wybór technologii dla stron internetowych - Od podstaw do nowoczesnych rozwiązań"
