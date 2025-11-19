@@ -123,7 +123,10 @@
 - Kiedy warto skorzystać z pomocy profesjonalistów
 - Checklist przed rozpoczęciem projektu projektowego
 - Zachęta do zgłębienia szczegółowych aspektów w dedykowanych przewodnikach
-- Call to action: konsultacja projektowa lub analiza obecnej strony --- **Całkowita planowana długość:** ~1750 słów **Struktura linkowania wewnętrznego:**
+- Call to action: konsultacja projektowa lub analiza obecnej strony --- 
+
+**Całkowita planowana długość:** ~1750 słów 
+**Struktura linkowania wewnętrznego:**
 - UX/UI podstawy → `/ux-ui-podstawy`
 - Responsywność → `/responsywnosc`
 - Conversion Rate → `/conversion-rate`
