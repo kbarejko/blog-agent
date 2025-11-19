@@ -1,14 +1,13 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Hosting to nie to samo co domena** - różnica kosztuje przedsiębiorców średnio 15% budżetu przez błędne decyzje zakupowe i techniczne
 - **SSL wpływa na ranking Google** - brak certyfikatu oznacza automatyczne obniżenie pozycji w wynikach wyszukiwania i ostrzeżenia dla klientów
 - **CTR, konwersje, SEO** - praktyczne definicje terminów marketingowych które bezpośrednio wpływają na przychody Twojej firmy
 - **Komunikacja z IT za połowę ceny** - znajomość podstawowych terminów eliminuje 60% błędów w projektach internetowych i przyspiesza wdrożenia
 
-
 ## Wprowadzenie - Po co słownik internetowy przedsiębiorcy?
 
-# Slownik
+### Słownik
 
 Gdy przedsiębiorca mówi „chcę nowoczesną stronę", a deweloper odpowiada „potrzebujesz responsywnego CMS-a z CDN i SSL", zaczyna się problem. Różnica w języku to różnica w zrozumieniu celów biznesowych.
 
@@ -166,7 +165,7 @@ Terminy wybrano na podstawie częstości użycia w projektach biznesowych. To s�
 
 Cyfrowa transformacja już się dzieje. Firmy, które jej nie nadążają, tracą konkurencyjność. Znajomość terminologii to pierwszy krok do skutecznego uczestnictwa w tej zmianie.
 
-## Struktura rozszerzalna - miejsca na przyszłe artykuły:
+## Struktura rozszerzalna - miejsca na przyszłe artykuły
 
 ### Struktura rozszerzalna - miejsca na przyszłe artykuły
 
