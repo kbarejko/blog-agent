@@ -1,117 +1,74 @@
 # Konspekt artykułu
 
-## 1. Wprowadzenie - Dlaczego koszty strony to więcej niż cena projektanta
-(~200 słów)
-- Rozbijanie mitu "strona za 1000 zł" - co się kryje pod tą kwotą
-- Różnica między ceną a rzeczywistym kosztem przez lata
-- Jak złe planowanie kosztów może zniszczyć projekt biznesowy
-- Zapowiedź głównych kategorii kosztów: jednorazowe, cykliczne, ukryte
-- Dlaczego inwestycja w stronę to maraton, nie sprint
-
-## 2. Anatomia kosztów - Co składa się na cenę strony internetowej
-(~220 słów)
-
-### Główne składniki kosztów
-- Projekt i UX/UI - od szkicu po gotową grafikę
-- Programowanie i wdrożenie funkcjonalności
-- Treści i optymalizacja pod SEO
-- Testy i poprawki przed uruchomieniem
-- **Miejsce na link:** "Szczegółowy breakdown wszystkich kosztów znajdziesz w: [Ile kosztuje strona](/ile-kosztuje-strona)"
-
-### Czynniki wpływające na ostateczną kwotę
-- Złożoność funkcjonalności i integracji
-- Wymagania dotyczące designu i personalizacji
-- **Miejsce na link:** "Pełna analiza w artykule: [Czynniki wpływające na koszty](/czynniki-wplywajace)"
-
-## 3. Jednorazowe vs cykliczne - Dwie strony tej samej monety
-(~240 słów)
-
-### Koszty jednorazowe
-- Projektowanie, programowanie, wdrożenie
-- Zakup licencji i narzędzi
-- Migracja z poprzedniej strony
-- **Miejsce na link:** "Kompletny przegląd kosztów jednorazowych: [Jednorazowe koszty strony](/jednorazowe)"
-
-### Opłaty cykliczne
-- Hosting, domena, certyfikaty SSL
-- Licencje na wtyczki i narzędzia
-- Backup i monitoring bezpieczeństwa
-- Wsparcie techniczne i aktualizacje
-- **Miejsce na link:** "Dowiedz się więcej o: [Opłatach cyklicznych](/oplaty-cykliczne)"
-
-### Model abonamentowy vs jednorazowa płatność
-- Kiedy wybrać abonament, a kiedy płatność jednorazową
-- Porównanie kosztów w perspektywie 3-5 lat
-- **Miejsce na link:** "Szczegółowe porównanie: [Abonament vs jednorazowo](/abonament-vs-jednorazowo)"
-
-## 4. Technologie i ich wpływ na budżet
-(~200 słów)
-
-### WordPress vs systemy dedykowane vs SaaS
-- Różnice w kosztach licencyjnych i wdrożenia
-- Koszty utrzymania każdej technologii
-- Skalowalność vs budżet startowy
-- **Miejsce na link:** "Pełne porównanie kosztów: [Porównanie technik](/porownanie-technik)"
-
-### Hosting i infrastruktura
-- Shared hosting vs VPS vs dedykowane serwery
-- CDN, backup, monitoring - co jest konieczne
-- **Miejsce na link:** "Przewodnik po kosztach: [Domena i hosting](/domena-i-hosting)"
-
-## 5. Pułapki budżetowe - Koszty, które pojawiają się po podpisaniu umowy
-(~220 słów)
-
-### Klasyczne koszty ukryte
-- Dodatkowe poprawki poza zakresem projektu
-- Integracje, które "miały być proste"
-- Migracja treści i konfiguracja zaawansowanych funkcji
-- **Miejsce na link:** "Pełna lista pułapek: [Koszty ukryte](/koszty-ukryte)"
-
-### Koszty post-wdrożeniowe
-- Szkolenia z obsługi systemu
-- Dodatkowe funkcjonalności po testach użytkowników
-- Optymalizacja wydajności po pierwszych miesiącach
-- **Miejsce na link:** "Jak ich uniknąć: [Ukryte koszty po wdrożeniu](/ukryte)"
-
-### Planowanie i wycena
-- Jak przygotować realistyczny budżet
-- Bufor na nieprzewidziane wydatki
-- **Miejsce na link:** "Praktyczny przewodnik: [Wycena i budżetowanie](/wycena-i-budzetowanie)"
-
-## 6. Strategie oszczędzania bez kompromisów jakościowych
-(~200 słów)
-
-### Mądre cięcie kosztów
-- MVP vs pełna funkcjonalność od razu
-- Rozłożenie wdrożenia w czasie
-- Wykorzystanie gotowych rozwiązań vs custom development
-
-### Długoterminowa optymalizacja kosztów
-- Kiedy warto zainwestować więcej na starcie
-- Automatyzacja procesów dla redukcji kosztów utrzymania
-- **Miejsce na link:** "Szczegółowe strategie: [Oszczędzanie na stronie](/oszczedzanie)"
-- **Miejsce na link:** "Optymalizacja budżetu: [Optymalizacja kosztów](/optymalizacja)"
-
-### Rozwiązania budżetowe
-- Kiedy tanie rozwiązania mają sens
-- Granice oszczędzania - czego nie warto ciąć
-- **Miejsce na link:** "Analiza opcji: [Tanie rozwiązania](/tanie-rozwiazanie)"
-
-## 7. Planowanie budżetu na lata - Inwestycja, nie wydatek
-(~170 słów)
-- Kalkulacja ROI i zwrotu z inwestycji w stronę
-- Koszty utrzymania vs koszty braku profesjonalnej strony
-- Budżetowanie na rozwój i aktualizacje
-- Jak przewidzieć przyszłe potrzeby i koszty
-- Moment, kiedy warto pomyśleć o rebrandingu/redesign
-
-## 8. Podsumowanie - Jak podejść do kosztów strony strategicznie
+## 1. Wprowadzenie - dlaczego koszt strony to więcej niż jedna kwota
 (~150 słów)
-- Kluczowe zasady planowania budżetu na stronę internetową
-- Najczęstsze błędy w podejściu do kosztów
-- Perspektywa długoterminowa vs oszczędzanie na siłę
-- Zachęta do analizy wszystkich aspektów kosztów przed podjęciem decyzji
-- Call to action: skorzystanie z dokładnych przewodników po konkretnych aspektach kosztów ---
+- Kompleksowość tematu kosztów - od projektu po długoterminowe utrzymanie
+- Typowe błędy przedsiębiorców przy planowaniu budżetu na stronę
+- Zapowiedź głównych kategorii kosztów i czynników wpływających na cenę
+- **Miejsce na link:** "Poznaj szczegóły w artykule [Ile kosztuje strona](/ile-kosztuje-strona)"
 
-## 9. Proponowany tytuł H1
-**"Koszty stron internetowych - Kompletny przewodnik po budżetowaniu projektów web"** **Docelowa długość całkowita:** 1600 słów **Liczba miejsc na linki wewnętrzne:** 13 (pokrycie wszystkich artykułów w silosie) **Potencjał rozszerzania:** Struktura pozwala na dodanie artykułów o kosztach e-commerce, aplikacji mobilnych, czy zaawansowanych integracji
+## 2. Modele rozliczania - jednorazowo czy abonament?
+(~150 słów)
+
+### Koszty jednorazowe vs model abonamentowy
+- Charakterystyka kosztów jednorazowych i ich struktura
+- Zalety i wady modelu abonamentowego dla biznesu
+- Kiedy który model jest bardziej opłacalny
+- **Miejsca na linki:**
+  - [Koszty jednorazowe](/jednorazowe) - szczegółowa analiza
+  - [Abonament vs jednorazowo](/abonament-vs-jednorazowo) - porównanie modeli
+
+## 3. Czynniki kształtujące cenę strony
+(~150 słów)
+
+### Elementy wpływające na wycenę
+- Złożoność funkcjonalna i wizualna
+- Wybór technologii i platformy
+- Wymagania dotyczące SEO i wydajności
+- Integracje z systemami zewnętrznymi
+- **Miejsca na linki:**
+  - [Czynniki wpływające na koszt](/czynniki-wplywajace) - kompletny przegląd
+  - [Porównanie technologii](/porownanie-technik) - analiza kosztów różnych rozwiązań
+
+## 4. Koszty cykliczne i utrzymanie
+(~150 słów)
+
+### Opłaty powtarzające się
+- Hosting i domena jako podstawowe koszty operacyjne
+- Aktualizacje, wsparcie techniczne, kopie zapasowe
+- Koszty związane z rozwojem i optymalizacją
+- **Miejsca na linki:**
+  - [Opłaty cykliczne](/oplaty-cykliczne) - szczegółowe omówienie
+  - [Domena i hosting](/domena-i-hosting) - przewodnik po kosztach podstawowych
+
+## 5. Pułapki i koszty ukryte
+(~150 słów)
+
+### Nieoczekiwane wydatki w projekcie
+- Typowe koszty ukryte w wycenach
+- Dodatkowe opłaty za zmiany w trakcie realizacji
+- Koszty związane z migracją i integracjami
+- **Miejsca na linki:**
+  - [Koszty ukryte](/koszty-ukryte) - jak ich uniknąć
+  - [Ukryte opłaty](/ukryte) - praktyczne przykłady
+
+## 6. Optymalizacja budżetu i oszczędności
+(~150 słów)
+
+### Jak mądrze zarządzać kosztami
+- Strategie redukcji kosztów bez utraty jakości
+- Tanie rozwiązania i ich ograniczenia
+- Planowanie budżetu na rozwój strony
+- **Miejsca na linki:**
+  - [Oszczędzanie na stronie](/oszczedzanie) - sprawdzone metody
+  - [Tanie rozwiązania](/tanie-rozwiazanie) - kiedy się opłacają
+  - [Optymalizacja kosztów](/optymalizacja) - długoterminowe podejście
+
+## 7. Planowanie budżetu i proces wyceny
+(~95 słów)
+
+### Praktyczne podejście do budżetowania
+- Etapy procesu wyceny profesjonalnej strony
+- Jak przygotować się do rozmów z wykonawcami
+- Znaczenie szczegółowego briefu dla kosztów projektu
+- **Miejsce na link:** [Wycena i budżetowanie](/wycena-i-budzetowanie) - kompletny przewodnik --- **Propozycja tytułu H1:** "Koszty stron internetowych - kompletny przewodnik dla przedsiębiorców" **Suma słów:** ~1000 słów
