@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **97% klientów sprawdza firmy online** - Twoja strona to pierwsza wizytówka firmy, która decyduje o zaufaniu przed pierwszym kontaktem
-- **Mobile-first to nie opcja** - ponad 60% ruchu pochodzi z telefonów, a Google od 2021 indeksuje najpierw wersje mobilne
-- **WordPress vs rozwiązania custom** - realne koszty utrzymania, zalety i wady każdego rozwiązania dla różnych typów firm
-- **5 najczęstszych błędów** - kopiowanie konkurencji, brak backupów, ignorowanie bezpieczeństwa i inne pułapki które niszczą ROI
-- **Skalowanie bez przebudowy** - jak planować rozwój od wizytówki przez katalog do sklepu internetowego krok po kroku
+- **95% klientów szuka firm online** - profesjonalna strona to nie luksus, ale konieczność biznesowa w 2025 roku
+- **WordPress dominuje 40% rynku** - dlaczego większość firm wybiera ten CMS i kiedy warto rozważyć alternatywy
+- **60% ruchu z mobile** - responsywny design dla firm lokalnych zwiększa konwersję o 25-30%
+- **Migracja bez utraty SEO** - konkretny plan przeprowadzki strony bez spadku pozycji w Google
+- **SSL/RODO to podstawa zaufania** - brak certyfikatu i zgodności z przepisami odstrasza 70% potencjalnych klientów

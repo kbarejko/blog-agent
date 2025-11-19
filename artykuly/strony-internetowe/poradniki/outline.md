@@ -69,4 +69,9 @@
 - Budżet vs funkcjonalność - jak znaleźć balans
 - Kiedy warto zlecić zewnętrznie, a kiedy robić samemu
 - Zachęta do eksploracji szczegółowych przewodników
-- Call to action: skonsultowanie strategii strony --- **Sugerowany tytuł H1:** "Poradniki stron internetowych dla firm - kompletny przewodnik dla przedsiębiorców" **Łączna długość:** ~1600 słów **Typ artykułu:** SILO (przegląd kategorii) **Liczba miejsc na linki wewnętrzne:** 8 (5 do istniejących artykułów + 3 do przyszłych)
+- Call to action: skonsultowanie strategii strony --- 
+
+**Sugerowany tytuł H1:** "Poradniki stron internetowych dla firm - kompletny przewodnik dla przedsiębiorców" 
+**Łączna długość:** ~1600 słów 
+**Typ artykułu:** SILO (przegląd kategorii) 
+**Liczba miejsc na linki wewnętrzne:** 8 (5 do istniejących artykułów + 3 do przyszłych)
