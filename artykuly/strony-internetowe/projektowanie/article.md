@@ -18,7 +18,7 @@ Spróbuj sobie wyobrazić, że masz tylko trzy sekundy, by przyciągnąć uwagę
 
 ## Wprowadzenie do projektowania stron internetowych
 
-Projektowanie stron internetowych to coś więcej niż tylko dobór ładnych kolorów i efektownych zdjęć. To przemyślany proces, który może mieć bezpośredni wpływ na wyniki Twojego biznesu.
+Projektowanie stron internetowych to coś więcej niż tylko dobór ładnych kolorów i efektownych zdjęć. To [przemyślany proces](/artykuly/strony-internetowe/proces), który może mieć bezpośredni wpływ na [wyniki Twojego biznesu](/artykuly/strony-internetowe/poradniki).
 
 Z badań Adobe wynika, że aż 38% użytkowników opuszcza strony z nieatrakcyjnym designem. Oznacza to, że co trzeci potencjalny klient może odejść, zanim jeszcze dowie się o Twojej ofercie.
 
@@ -28,11 +28,11 @@ Dobrze zaprojektowana strona to inwestycja, która się opłaca. Serwisy z przem
 
 Często myli się projektowanie z programowaniem, choć to dwa odrębne procesy. Projektowanie to planowanie tego, jak strona ma wyglądać i działać. Kodowanie natomiast to etap, gdy projekt staje się działającą stroną.
 
-Proces projektowy obejmuje badanie potrzeb użytkowników, tworzenie szkiców i prototypów. To także testowanie różnych rozwiązań, zanim programista przystąpi do pisania kodu.
+[Proces projektowy obejmuje](/artykuly/strony-internetowe/proces) badanie potrzeb użytkowników, tworzenie szkiców i prototypów. To także testowanie różnych rozwiązań, zanim programista przystąpi do pisania kodu.
 
 ### Co znajdziesz w tym przewodniku
 
-Przeanalizujemy kluczowe aspekty projektowania: podstawy UX i UI, responsywność oraz projektowanie zorientowane na konwersję. Omówimy także kolory, typografię i nawigację.
+Przeanalizujemy kluczowe aspekty projektowania: [podstawy UX i UI](/artykuly/strony-internetowe/podstawy), responsywność oraz projektowanie zorientowane na konwersję. Omówimy także kolory, typografię i nawigację.
 
 Każdy temat to praktyczna wiedza, którą możesz zastosować już dziś. Otrzymasz konkretne wskazówki, sprawdzone rozwiązania i dowiesz się, jakich błędów unikać.
 
