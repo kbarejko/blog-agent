@@ -4,7 +4,7 @@
 - **6 podstaw prawnych** - W różnych sytuacjach biznesowych można stosować różne podstawy prawne. Dowiedz się, które z nich najlepiej pasują do Twojej działalności, by móc legalnie przetwarzać dane klientów bez zbędnych zgód.
 - **Polityka prywatności bez błędów** - Jak stworzyć politykę prywatności, która jest zarówno zrozumiała dla klientów, jak i skuteczna pod względem prawnym? Podpowiadamy, jak to zrobić i gdzie umieścić ten dokument na stronie.
 - **Rejestry i procedury** - Oferujemy gotowe szablony dokumentów wymaganych przez UODO oraz instrukcje, jak wdrożyć je w codziennej działalności firmy.
-- **Bezpieczeństwo danych w praktyce** - Przedstawiamy konkretne środki techniczne i organizacyjne, które mogą pomóc chronić Twoją firmę przed wyciekami danych i atakami hakerskimi.
+- **Bezpieczeństwo danych w praktyce** - Przedstawiamy konkretne [środki techniczne i organizacyjne](/artykuly/strony-internetowe/bezpieczenstwo/aktualizacje), które mogą pomóc chronić Twoją firmę przed [wyciekami danych i atakami hakerskimi](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie).
 
 ## Wprowadzenie - dlaczego RODO nie jest tylko formalnością
 
@@ -18,7 +18,7 @@ RODO to nie tylko biurokratyczna formalność narzucona przez Brukselę, ale zbi
 
 Wielu ludzi zdaje się myśleć, że RODO dotyczy tylko dużych korporacji. W rzeczywistości małe firmy mogą być bardziej narażone na kontrole i kary, ponieważ często brakuje im zasobów na profesjonalne wdrożenie procedur zgodności. Urząd Ochrony Danych Osobowych nie zwraca uwagi na wielkość firmy przy nakładaniu kar za brak polityki prywatności czy niewłaściwe przetwarzanie danych.
 
-Koszty ignorowania RODO to nie tylko finansowe kary, które mogą sięgnąć 20 milionów euro lub 4% rocznego obrotu. To również ryzyko utraty zaufania klientów, kłopoty z wizerunkiem oraz konieczność angażowania prawników w sytuacjach kryzysowych. Jeden wyciek danych może zniweczyć lata budowania reputacji.
+Koszty ignorowania RODO to nie tylko finansowe kary, które mogą sięgnąć 20 milionów euro lub 4% rocznego obrotu. To również ryzyko utraty zaufania klientów, kłopoty z wizerunkiem oraz konieczność angażowania prawników w sytuacjach kryzysowych. Jeden [wyciek danych może zniweczyć](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie) lata budowania reputacji.
 
 Z drugiej strony, właściwe podejście do ochrony danych może stać się przewagą konkurencyjną. Klienci coraz bardziej cenią sobie przejrzystość i bezpieczeństwo swoich danych osobowych. Firma, która jasno komunikuje, jak chroni dane, zyskuje na wiarygodności i buduje profesjonalny wizerunek.
 
