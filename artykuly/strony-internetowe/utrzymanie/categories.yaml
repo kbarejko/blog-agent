@@ -1,0 +1,17 @@
+categories:
+- slug: utrzymanie-i-rozwoj-systemow
+  title: Utrzymanie i rozwój systemów
+  path: strategia-it/utrzymanie-i-rozwoj-systemow
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: firma
+  title: Firma
+  path: firma
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+- slug: koszty-i-budzetowanie-it
+  title: Koszty i budżetowanie IT
+  path: strategia-it/koszty-i-budzetowanie-it
+count: 5
