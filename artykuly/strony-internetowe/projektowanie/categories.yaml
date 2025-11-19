@@ -1,0 +1,17 @@
+categories:
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: mobilne-technologie
+  title: Mobilne Technologie
+  path: it-i-technologia/mobilne-technologie
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+count: 5
