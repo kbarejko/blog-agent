@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **95% klientów szuka firm online** - W 2025 roku posiadanie profesjonalnej strony internetowej to już nie luksus, a absolutna konieczność dla każdego biznesu.
+- **95% klientów szuka firm online** - W 2025 roku posiadanie [profesjonalnej strony internetowej](/artykuly/strony-internetowe/podstawy) to już nie luksus, a absolutna konieczność dla każdego biznesu.
 - **WordPress dominuje 40% rynku** - Dlaczego tak wiele firm wybiera ten CMS? Czy są sytuacje, kiedy warto rozważyć inne opcje?
 - **60% ruchu z mobile** - Responsywny design jest kluczem do sukcesu. Lokalne firmy mogą zwiększyć konwersję nawet o 25-30% dzięki dopasowaniu się do urządzeń mobilnych.
 - **Migracja bez utraty SEO** - Jak bezpiecznie przenieść swoją stronę, nie tracąc przy tym pozycji w wynikach wyszukiwania Google?
@@ -16,9 +16,9 @@ Każdego dnia właściciele firm zastanawiają się: „Czy rzeczywiście potrze
 
 Statystyki mówią same za siebie – około 95% klientów szuka informacji o firmach w internecie, zanim zdecyduje się na zakup. Jeśli Twoja firma nie jest widoczna online, może po prostu nie istnieć w świadomości potencjalnych klientów.
 
-Różnica między zwykłą stroną wizytówkową a stroną biznesową jest znacząca. Wizytówka to zaledwie statyczny zbiór podstawowych informacji. Natomiast strona biznesowa to aktywne narzędzie sprzedażowe, które działa przez całą dobę – generuje leady, buduje zaufanie i zachęca do współpracy.
+Różnica między zwykłą stroną wizytówkową a stroną biznesową jest znacząca. Wizytówka to zaledwie statyczny zbiór podstawowych informacji. Natomiast [strona biznesowa to aktywne narzędzie sprzedażowe](/artykuly/strony-internetowe/podstawy), które działa przez całą dobę – generuje leady, buduje zaufanie i zachęca do współpracy.
 
-Jakość Twojej strony ma bezpośredni wpływ na Twoją wiarygodność. Badania wskazują, że 75% użytkowników ocenia wiarygodność firmy na podstawie designu strony internetowej. Jeśli witryna jest przestarzała lub niefunkcjonalna, możesz stracić nawet 40% potencjalnych klientów.
+Jakość Twojej strony ma bezpośredni wpływ na Twoją wiarygodność. Badania wskazują, że 75% użytkowników ocenia [wiarygodność firmy na podstawie designu](/artykuly/strony-internetowe/podstawy) strony internetowej. Jeśli witryna jest przestarzała lub niefunkcjonalna, możesz stracić nawet 40% potencjalnych klientów.
 
 W tym przewodniku przeanalizujemy kluczowe elementy budowy profesjonalnej strony firmowej. Omówimy, jak zaplanować strategię, wybrać odpowiednią technologię, zająć się aspektami technicznymi oraz jak przeprowadzić migrację istniejących rozwiązań.
 
