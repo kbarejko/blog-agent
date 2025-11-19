@@ -1,0 +1,17 @@
+categories:
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: content-marketing
+  title: Content Marketing
+  path: marketing-w-internecie/content-marketing
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: blogowanie
+  title: Blogowanie
+  path: marketing-w-internecie/content-marketing/blogowanie
+- slug: tworzenie-tresci-wideo
+  title: Tworzenie Treści Wideo
+  path: marketing-w-internecie/content-marketing/tworzenie-tresci-wideo
+count: 5
