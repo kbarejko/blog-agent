@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **Konkretne koszty braku SSL** - Czy wiesz, że możesz stracić aż 84% klientów z powodu ostrzeżeń przeglądarki? A to nie wszystko: kary RODO mogą sięgać aż 4% rocznych obrotów Twojej firmy.
+- **Konkretne koszty braku SSL** - Czy wiesz, że możesz stracić aż 84% klientów z powodu ostrzeżeń przeglądarki? A to nie wszystko: [kary RODO mogą sięgać](/artykuly/strony-internetowe/bezpieczenstwo/rodo-i-privacy) aż 4% rocznych obrotów Twojej firmy.
 - **Wybór właściwego certyfikatu** - Jak wybrać między DV, OV a EV? Porównujemy te opcje, uwzględniając koszty wdrożenia i rzeczywisty zwrot z inwestycji w zależności od wielkości Twojej firmy.
 - **Migracja bez utraty pozycji SEO** - Przejście na HTTPS może być wyzwaniem. Opracowaliśmy 8-krokowy plan, który pomoże Ci utrzymać pozycje w rankingach i uniknąć technicznych pułapek.
 - **Automatyzacja zarządzania certyfikatami** - Warto rozważyć narzędzia, które monitorują terminy wygaśnięcia i odnowień certyfikatów. Dzięki nim zaoszczędzisz wiele godzin pracy każdego miesiąca.
@@ -16,13 +16,13 @@ Wyobraź sobie, że co 39 sekund dochodzi do cyberataku na firmy na całym świe
 
 SSL/TLS to protokoły szyfrowania, które mają za zadanie chronić dane przesyłane między przeglądarką użytkownika a serwerem. HTTPS to nic innego jak HTTP z dodatkową warstwą zabezpieczeń SSL/TLS. W praktyce biznesowej oznacza to obecność kłódki w pasku adresu przeglądarki, co daje klientom pewność, że mogą bezpiecznie podać dane swojej karty płatniczej.
 
-Statystyki są nieubłagane. Aż 43% cyberataków jest wymierzonych w małe firmy, a 60% z nich nie przetrwa więcej niż pół roku po naruszeniu bezpieczeństwa danych. W Polsce przeciętny koszt incydentu wzrósł w 2024 roku do 5,2 miliona złotych.
+Statystyki są nieubłagane. Aż 43% cyberataków jest wymierzonych w małe firmy, a 60% z nich nie przetrwa więcej niż pół roku po [naruszeniu bezpieczeństwa danych](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie). W Polsce przeciętny koszt incydentu wzrósł w 2024 roku do 5,2 miliona złotych.
 
-Wdrożenie szyfrowania SSL może przynieść wymierne korzyści biznesowe. Może zwiększyć zaufanie klientów nawet o 84%, poprawić pozycjonowanie w wynikach Google i zredukować ryzyko wysokich kar RODO, które mogą sięgać nawet 20 milionów euro. Dodatkowo, eliminuje ostrzeżenia przeglądarek, które mogą odstraszać aż 70% potencjalnych klientów.
+Wdrożenie szyfrowania SSL może przynieść wymierne korzyści biznesowe. Może zwiększyć zaufanie klientów nawet o 84%, poprawić pozycjonowanie w wynikach Google i zredukować ryzyko [wysokich kar RODO](/artykuly/strony-internetowe/bezpieczenstwo/rodo-i-privacy), które mogą sięgać nawet 20 milionów euro. Dodatkowo, eliminuje ostrzeżenia przeglądarek, które mogą odstraszać aż 70% potencjalnych klientów.
 
 Koszt implementacji to zazwyczaj od 50 do 500 złotych rocznie za certyfikat, plus kilka godzin pracy developera. W porównaniu z potencjalnymi milionowymi stratami po ataku, to naprawdę symboliczna inwestycja.
 
-W tym przewodniku dowiesz się o różnych rodzajach certyfikatów SSL, jak je wdrożyć, jaki mają wpływ na SEO oraz jakie narzędzia mogą pomóc w monitorowaniu bezpieczeństwa. Wszystko krok po kroku, bez zbędnego technicznego żargonu.
+W tym przewodniku dowiesz się o różnych rodzajach certyfikatów SSL, jak je wdrożyć, jaki mają wpływ na SEO oraz jakie narzędzia mogą pomóc w [monitorowaniu bezpieczeństwa](/artykuly/strony-internetowe/bezpieczenstwo/aktualizacje). Wszystko krok po kroku, bez zbędnego technicznego żargonu.
 
 ## Czym są SSL/TLS i HTTPS - podstawy techniczne dla przedsiębiorcy
 
