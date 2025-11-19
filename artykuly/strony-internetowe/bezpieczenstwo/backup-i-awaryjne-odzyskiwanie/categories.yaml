@@ -1,0 +1,14 @@
+categories:
+- slug: backup-i-odzyskiwanie-danych
+  title: Backup i Odzyskiwanie Danych
+  path: bezpieczenstwo/backup-i-odzyskiwanie-danych
+- slug: strategia-backupow
+  title: Strategia Backupów
+  path: bezpieczenstwo/backup-i-odzyskiwanie-danych/strategia-backupow
+- slug: rodo
+  title: RODO
+  path: bezpieczenstwo/ochrona-prywatnosci/rodo
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+count: 4
