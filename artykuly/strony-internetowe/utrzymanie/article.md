@@ -13,7 +13,7 @@ Wyobraź sobie, że siadasz do swojego komputera w poniedziałkowy poranek, a za
 
 Według badań IBM, naprawa problemu w systemie online może kosztować nawet 5-10 razy więcej niż jego zapobieganie. Firmy, które zaniedbują utrzymanie stron, tracą przeciętnie 23% potencjalnych klientów z powodu problemów technicznych.
 
-Dla porównania, regularne utrzymanie strony zazwyczaj kosztuje 10-20% wartości pierwotnej inwestycji w ciągu roku. W przypadku awarii koszty mogą wzrosnąć nawet do 200% tej kwoty w ciągu jednego dnia.
+Dla porównania, regularne utrzymanie strony zazwyczaj kosztuje 10-20% wartości [pierwotnej inwestycji](/artykuly/strony-internetowe/podstawy) w ciągu roku. W przypadku awarii koszty mogą wzrosnąć nawet do 200% tej kwoty w ciągu jednego dnia.
 
 ### Wizerunek firmy w dobie cyfryzacji
 
@@ -25,11 +25,11 @@ Profesjonalnie działająca strona to podstawa. Klienci oceniają wiarygodność
 
 W ostatnim roku cyberataki na małe i średnie przedsiębiorstwa wzrosły o 424%. Niezaktualizowane strony to otwarte drzwi dla hakerów. Wyciek danych klientów to nie tylko koszt finansowy, ale także utrata reputacji budowanej latami.
 
-Regularne aktualizacje bezpieczeństwa są kluczowe. Ale to dopiero początek zadań, które składają się na pełne utrzymanie strony internetowej.
+[Regularne aktualizacje bezpieczeństwa są kluczowe](/artykuly/strony-internetowe/technologie). Ale to dopiero początek zadań, które składają się na pełne utrzymanie strony internetowej.
 
 ### O czym przeczytasz w tym przewodniku
 
-Omówimy kluczowe obszary utrzymania strony - od codziennego monitorowania, przez planowanie budżetu, po wybór odpowiedniego partnera technicznego. Dowiesz się, jak unikać typowych błędów i kiedy warto zainwestować we własny zespół.
+Omówimy kluczowe obszary utrzymania strony - od codziennego monitorowania, przez [planowanie budżetu](/artykuly/strony-internetowe/proces), po [wybór odpowiedniego partnera technicznego](/artykuly/strony-internetowe/strategia). Dowiesz się, jak unikać typowych błędów i kiedy warto zainwestować we własny zespół.
 
 Każdy rozdział zawiera konkretne wskazówki i narzędzia, które możesz wdrożyć od razu. Bo utrzymanie strony to nie tylko koszt, to inwestycja w stabilny rozwój firmy.
 
