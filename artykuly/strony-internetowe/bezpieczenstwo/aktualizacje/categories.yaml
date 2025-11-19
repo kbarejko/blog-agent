@@ -1,0 +1,17 @@
+categories:
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+- slug: cyberbezpieczenstwo
+  title: Cyberbezpieczeństwo
+  path: bezpieczenstwo/cyberbezpieczenstwo
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: utrzymanie-i-rozwoj-systemow
+  title: Utrzymanie i rozwój systemów
+  path: strategia-it/utrzymanie-i-rozwoj-systemow
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+count: 5
