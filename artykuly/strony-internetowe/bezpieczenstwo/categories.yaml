@@ -1,0 +1,17 @@
+categories:
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+- slug: backup-i-odzyskiwanie-danych
+  title: Backup i Odzyskiwanie Danych
+  path: bezpieczenstwo/backup-i-odzyskiwanie-danych
+- slug: cyberbezpieczenstwo
+  title: Cyberbezpieczeństwo
+  path: bezpieczenstwo/cyberbezpieczenstwo
+- slug: ochrona-danych-osobowych
+  title: Ochrona Danych Osobowych
+  path: bezpieczenstwo/cyberbezpieczenstwo/ochrona-danych-osobowych
+- slug: rodo
+  title: RODO
+  path: bezpieczenstwo/ochrona-prywatnosci/rodo
+count: 5
