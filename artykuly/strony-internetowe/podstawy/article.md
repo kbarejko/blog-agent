@@ -6,9 +6,6 @@
 - **Koszt pozyskania klienta spada o 60%** - Klienci, którzy znajdują Cię online, mogą być tańsi w pozyskaniu niż ci, których zdobywasz za pomocą tradycyjnych reklam czy poleceń.
 - **Gotowa mapa działania** - Praktyczne kroki od analizy potrzeb, przez wybór wykonawcy, aż po budżetowanie i harmonogram projektu, pomogą Ci efektywnie zarządzać procesem tworzenia strony.
 
-
-
-```markdown
 ## Wprowadzenie - dlaczego strona internetowa to podstawa biznesu w 2024 roku
 
 # Podstawy stron internetowych dla firm
@@ -28,7 +25,6 @@ Twoja strona internetowa stała się pierwszym miejscem, gdzie klienci mają kon
 W tym przewodniku omówimy różne rodzaje stron internetowych, ich konkretne korzyści dla biznesu oraz pomożemy Ci zrozumieć, kiedy i jak zainwestować w swoją obecność online. Bez względu na branżę czy wielkość firmy, znajdziesz tu praktyczne wskazówki dotyczące tego, jak strona internetowa może wspierać Twoje cele biznesowe.
 
 Nie musisz być ekspertem od technologii, by zrozumieć, dlaczego i jak zbudować skuteczną obecność w sieci. Wystarczy, że poznasz podstawy i podejmiesz świadomą decyzję, jak rozwijać swój biznes online.
-```
 
 ## Czym właściwie jest strona internetowa i jak działa
 
@@ -104,7 +100,6 @@ Masz pełną kontrolę nad przekazem swojej marki. To Ty decydujesz, które real
 
 Badania sugerują, że firmy z profesjonalnymi stronami są postrzegane jako bardziej wiarygodne. Klienci częściej wybierają te, które inwestują w obecność online. To wskazuje, że firma myśli przyszłościowo i dba o szczegóły.
 
-```markdown
 ## Rodzaje stron internetowych - co wybrać dla swojego biznesu
 
 Wszystkie strony internetowe różnią się od siebie. **Wybór odpowiedniego typu witryny powinien wynikać przede wszystkim z Twoich celów biznesowych, a nie z tego, co jest akurat modne.** Każdy rodzaj strony ma swoje zastosowanie i ograniczenia.
@@ -142,7 +137,6 @@ Landing page to pojedyncza strona z konkretnym celem. Jedno wezwanie do działan
 **Grupa docelowa** również ma znaczenie. Dla B2B potrzebne będą szczegółowe informacje i materiały do pobrania. B2C zazwyczaj stawia na emocje i proste ścieżki zakupowe.
 
 **Plany rozwoju** warto przemyśleć z wyprzedzeniem. Można zacząć od wizytówki, ale dobrze jest wybrać rozwiązania, które później można rozbudować o sklep czy zaawansowane formularze.
-```
 
 ## Dlaczego inwestycja w stronę internetową się opłaca
 

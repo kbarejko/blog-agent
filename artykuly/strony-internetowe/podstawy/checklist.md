@@ -1,14 +1,14 @@
-## Checklist: Uruchomienie profesjonalnej strony internetowej dla firmy
+## Checklist: Jak uruchomić profesjonalną stronę internetową dla swojej firmy
 
-- [ ] Określ dokładnie, co chcesz osiągnąć swoją stroną oraz kim są Twoi klienci - czy to lokalne przedsiębiorstwo szukające nowych kontraktów, czy e-commerce nastawiony na sprzedaż ogólnopolską
-- [ ] Wybierz domenę, która zapadnie w pamięć - najlepiej nazwę firmy lub coś związanego z Twoją branżą. Unikaj długich, skomplikowanych nazw z myślnikami
-- [ ] Znajdź hosting odpowiedni dla Twoich potrzeb. Mała firma prawdopodobnie nie potrzebuje kosztownych rozwiązań enterprise - podstawowy plan z możliwością rozbudowy wystarczy na start
-- [ ] Zdecyduj, jak będziesz budować stronę. WordPress daje największą elastyczność, Wix czy Squarespace są prostsze w obsłudze, a programista stworzy coś całkowicie spersonalizowanego
-- [ ] Zainstaluj certyfikat SSL - dzisiaj to już standard, bez którego Google może obniżyć Cię w wynikach wyszukiwania
-- [ ] Zaplanuj strukturę nawigacji tak, żeby klient w trzech kliknięciach dotarł do tego, czego szuka. Strona główna, oferta, realizacje, kontakt - to podstawa większości firm usługowych
-- [ ] Napisz treści skupiając się na korzyściach, nie na sobie. Zamiast "Mamy 15 lat doświadczenia" lepiej "Dzięki naszemu doświadczeniu zaoszczędzisz czas i unikniesz kosztownych błędów"
-- [ ] Zainwestuj w dobre zdjęcia - własne są lepsze niż stockowe. Pokaż prawdziwych ludzi z Twojego zespołu, rzeczywiste realizacje, a nie ogólnikowe grafiki
-- [ ] Skonfiguruj formularz kontaktowy, ale nie przesadzaj z ilością pól. Imię, email, wiadomość - czasem to wszystko, czego potrzebujesz
-- [ ] Sprawdź, jak strona wygląda na telefonie. Ponad połowa użytkowników wchodzi na strony przez urządzenia mobilne, więc to nie może być przypadkowe
-- [ ] Podłącz Google Analytics, żeby wiedzieć, skąd przychodzą odwiedzający i które strony ich najbardziej interesują
-- [ ] Przed publikacją przetestuj absolutnie wszystko - każdy przycisk, każdy link, każdy formularz. Nic nie odstrasza klienta bardziej niż zepsuta strona
+- [ ] Określ główny cel strony – czy chcesz sprzedawać produkty, pozyskiwać klientów, czy może budować rozpoznawalność marki? Zapisz to w jednym konkretnym zdaniu
+- [ ] Sprawdź, czy domena z nazwą Twojej firmy jest dostępna i zarejestruj ją u sprawdzonego operatora jak OVH czy home.pl
+- [ ] Dobierz hosting odpowiedni do rozmiarów firmy – hosting współdzielony wystarczy małym przedsiębiorstwom, większe prawdopodobnie potrzebują VPS lub serwera dedykowanego
+- [ ] Zainstaluj system zarządzania treścią (WordPress wydaje się najlepszym wyborem dla większości firm) lub zdecyduj się na kreator stron
+- [ ] Zaplanuj strukturę witryny z kluczowymi sekcjami: O nas, Oferta, Produkty, Kontakt i ewentualnie Blog
+- [ ] Napisz oryginalne treści dla każdej podstrony – skup się na tym, jakie korzyści odniesie klient, a nie tylko na cechach produktu
+- [ ] Stwórz prosty formularz kontaktowy zawierający pola: imię i nazwisko, adres email, numer telefonu oraz pole na wiadomość
+- [ ] Umieść wszystkie dane kontaktowe w stopce strony i na dedykowanej podstronie – adres firmy, telefon oraz godziny pracy
+- [ ] Zainstaluj Google Analytics, żeby móc śledzić ruch na stronie i lepiej poznać swoich odwiedzających
+- [ ] Dokładnie przetestuj stronę na smartfonach i tabletach różnych marek – responsywność może znacząco wpłynąć na doświadczenia użytkowników
+- [ ] Zbadaj szybkość ładowania za pomocą PageSpeed Insights i wprowadź niezbędne optymalizacje
+- [ ] Zabezpiecz witrynę certyfikatem SSL i ustaw przekierowania na protokół HTTPS dla wszystkich podstron
