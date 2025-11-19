@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Różnice w cenie** - Dlaczego oferty na pozornie podobne strony różnią się nawet dziesięciokrotnie i które czynniki realnie wpływają na wycenę
 - **Ukryte koszty** - Jakie dodatkowe opłaty za hosting, wsparcie techniczne i aktualizacje mogą zaskoczyć Cię po uruchomieniu strony
@@ -6,14 +6,13 @@
 - **Etapowanie inwestycji** - Jak rozpocząć od wersji MVP i planować rozwój strony, aby nie przekroczyć budżetu
 - **Checklist porównania ofert** - Konkretne pytania do wykonawców i kryteria, które pomogą Ci wybrać najlepszą propozycję
 
-
 ## Wprowadzenie - dlaczego koszt strony internetowej tak różni się między ofertami?
 
-# Czynniki Wplywajace
+### Czynniki Wplywajace
 
 Kiedy w końcu zdecydujesz się na stworzenie strony internetowej dla swojego biznesu, pierwszym szokiem bywa konfrontacja z ofertami wykonawców. Jedna firma wycenia prostą stronę wizytówkę na 2000 zł, druga na 15 000 zł, a trzecia proponuje "kompleksowe rozwiązanie" za 40 000 zł.
 
-## Wprowadzenie - dlaczego koszt strony internetowej tak różni się między ofertami?
+### Wprowadzenie - dlaczego koszt strony internetowej tak różni się między ofertami?
 
 Chaos cenowy w branży web developmentu to codzienność każdego przedsiębiorcy szukającego wykonawcy strony. Różnice sięgające nawet tysiąca procent między ofertami wcale nie są rzadkością – szczególnie gdy porównujemy propozycje freelancerów z cenami renomowanych agencji.
 
