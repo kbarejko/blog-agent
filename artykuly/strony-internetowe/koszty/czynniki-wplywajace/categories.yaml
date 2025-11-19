@@ -1,0 +1,17 @@
+categories:
+- slug: koszt-stron-internetowych
+  title: Koszt stron internetowych
+  path: strony-internetowe/koszt-stron-internetowych
+- slug: wybor-wykonawcy-i-modelu-wspolpracy
+  title: Wybór wykonawcy i modelu współpracy
+  path: strategia-it/wybor-wykonawcy-i-modelu-wspolpracy
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+count: 5
