@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **1,3 miliarda potencjalnych klientów** - grupa osób z niepełnosprawnościami to ogromny, często pomijany segment rynku o znacznej sile nabywczej
 - **Konkretne kary prawne** - ustawa o dostępności cyfrowej i dyrektywa UE przewidują realne konsekwencje finansowe za brak zgodności z WCAG
@@ -6,14 +6,13 @@
 - **Szybkie wygrane za małe pieniądze** - dodanie tekstów alternatywnych i poprawa kontrastów to zmiany o natychmiastowym efekcie, kosztujące kilkaset złotych
 - **Potwierdzony wpływ na SEO** - zgodność z WCAG poprawia Core Web Vitals i pozycjonowanie w Google, zwiększając organiczny ruch o 10-20%
 
-
 ## Wprowadzenie - dlaczego dostępność to nie opcja, ale konieczność biznesowa
 
-# Dostepnosc Wcag
+### Dostępność WCAG
 
 Coca-Cola straciła w 2006 roku proces sądowy za niedostępną stronę internetową, płacąc ogromne odszkodowanie. Target w USA zapłacił 6 milionów dolarów za podobne zaniedbanie. Dziś takie sytuacje mogą spotkać każdego przedsiębiorcę.
 
-## Wprowadzenie - dlaczego dostępność to nie opcja, ale konieczność biznesowa
+### Wprowadzenie - dlaczego dostępność to nie opcja, ale konieczność biznesowa
 
 Mówimy o 1,3 miliarda ludzi na świecie żyjących z różnymi formami niepełnosprawności. To nie abstrakcyjna statystyka – to potencjalni klienci z łączną siłą nabywczą przekraczającą 13 bilionów dolarów rocznie. W Polsce osoby z niepełnosprawnościami stanowią około 12% populacji, często dysponując większym czasem na zakupy online niż przeciętny konsument.
 
