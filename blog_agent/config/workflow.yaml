@@ -57,7 +57,7 @@ steps:
   - name: multimedia
     module: blog_agent.core.workflow.steps.step_08_multimedia
     description: "Generate multimedia suggestions"
-    enabled: false
+    enabled: true  # Enabled for multimedia.json generation
 
   - name: business_metadata
     module: blog_agent.core.workflow.steps.step_09_business_metadata
@@ -95,20 +95,32 @@ steps:
 
   - name: generate_images
     module: blog_agent.core.workflow.steps.step_15_generate_images
-    description: "Generate images using DALL-E or Stability AI from multimedia prompts"
-    enabled: false  # Disabled by default (requires API key and costs money)
-    # Provider auto-detected from env vars (OPENAI_API_KEY or STABILITY_API_KEY)
-    # DALL-E settings (if using OPENAI_API_KEY):
-    model: "dall-e-3"  # dall-e-2, dall-e-3
-    size: "1792x1024"  # 1024x1024, 1792x1024, 1024x1792
-    quality: "standard"  # standard, hd
-    # Stability AI settings (if using STABILITY_API_KEY):
-    # model: "sdxl"  # sdxl ($0.011), sd3 ($0.037), sd3-medium, sd3-large-turbo
-    # width: 1024  # multiple of 64
-    # height: 1024  # multiple of 64
-    # steps: 40  # diffusion steps
-    # cfg_scale: 7.0  # guidance scale
-    skip_existing: true
+    description: "Generate hero image (auto) + stock photo suggestions for others"
+    enabled: false  # Optional - set to true to auto-generate hero images
+    # Cost: ~$0.01-0.12 per article (hero only)
+    #
+    # Provider settings (auto-detected from env vars if not specified):
+    provider: "stability"  # "stability" (cheap) or "dalle" (quality)
+    model: "sdxl"  # Stability: sdxl, sd3, sd3-medium | DALL-E: dall-e-2, dall-e-3
+    skip_existing: true  # Skip if hero.png already exists
+    #
+    # Stability AI settings (default provider - cheapest):
+    # provider: "stability"
+    # model: "sdxl"           # sdxl ($0.011), sd3 ($0.037), sd3-large-turbo
+    # width: 1024             # multiple of 64
+    # height: 1024            # multiple of 64
+    # steps: 40               # diffusion steps (more = better quality)
+    # cfg_scale: 7.0          # guidance scale (how closely to follow prompt)
+    #
+    # DALL-E settings (alternative - better quality but more expensive):
+    # provider: "dalle"
+    # model: "dall-e-3"       # dall-e-2 ($0.020), dall-e-3 ($0.040-0.120)
+    # size: "1792x1024"       # 1024x1024, 1792x1024, 1024x1792
+    # quality: "standard"     # standard ($0.040-0.080), hd ($0.080-0.120)
+    #
+    # To enable: Set API key in environment
+    # - Stability AI: export STABILITY_API_KEY=sk-...
+    # - DALL-E:       export OPENAI_API_KEY=sk-...
 
   - name: social_media
     module: blog_agent.core.workflow.steps.step_16_social_media

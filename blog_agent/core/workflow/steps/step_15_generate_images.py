@@ -1,8 +1,10 @@
 """
-Step 15: Generate Images
+Step 15: Generate Images (Hero Only)
 
-Generates images using DALL-E based on multimedia suggestions.
-Creates images/ folder and downloads generated images.
+Generates ONLY hero image using AI (DALL-E or Stability AI).
+Other images remain as suggestions with stock photo alternatives.
+This is cost-effective ($0.01-0.12 per article) while ensuring
+every article has a professional hero image.
 """
 from pathlib import Path
 from typing import Dict, Any
@@ -13,21 +15,24 @@ from ...domain.article import Article
 
 def execute_generate_images(article: Any, deps: Dict[str, Any], config: Dict[str, Any]) -> Any:
     """
-    Generate images from multimedia suggestions
+    Generate hero image from multimedia suggestions
 
-    Reads multimedia.json, generates images using DALL-E,
-    saves them to images/ folder, and updates multimedia.json
-    with local paths.
+    Reads multimedia.json, generates ONLY the hero image using AI,
+    saves it to images/ folder. Other images remain as suggestions
+    for manual implementation (stock photos or custom design).
 
     Args:
         article: Article domain object
-        deps: Dependencies (image_generator, storage, etc.)
-        config: Step configuration
+        deps: Dependencies (storage, git)
+        config: Step configuration (provider, model settings)
 
     Returns:
-        Updated article with generated images
+        Updated article with hero image generated
     """
-    print(f"🎨 Generating images with DALL-E...")
+    storage = deps.get('storage')
+    git = deps.get('git')
+
+    print(f"🎨 Generating hero image...")
 
     # Check if multimedia.json exists
     multimedia_path = article.path / "multimedia.json"
@@ -36,109 +41,100 @@ def execute_generate_images(article: Any, deps: Dict[str, Any], config: Dict[str
         return article
 
     # Load multimedia suggestions
-    with open(multimedia_path, 'r', encoding='utf-8') as f:
-        multimedia_data = json.load(f)
+    multimedia_data = storage.read_json(multimedia_path)
+    hero = multimedia_data.get('hero_image', {})
 
-    # Get image generator from deps
-    image_generator = deps.get('image_generator')
-    if not image_generator:
-        print("   ⚠️  Image generator not available in dependencies")
-        print("   💡 Set OPENAI_API_KEY to enable image generation")
+    if not hero or not hero.get('prompt'):
+        print("   ⚠️  No hero image prompt found, skipping")
         return article
+
+    # Get provider from config (default: stability for cost-effectiveness)
+    provider_name = config.get('provider', 'stability')
 
     # Create images directory
     images_dir = article.path / "images"
     images_dir.mkdir(exist_ok=True)
+    output_path = images_dir / "hero.png"
 
-    # Collect prompts to generate
-    prompts_to_generate = []
-
-    # Hero image
-    hero = multimedia_data.get('hero_image', {})
-    if hero and hero.get('prompt'):
-        prompts_to_generate.append({
-            'prompt': hero['prompt'],
-            'filename': 'hero.png',
-            'type': 'hero',
-            'title': hero.get('title', 'Hero image')
-        })
-
-    # Section media
-    section_media = multimedia_data.get('section_media', [])
-    for i, media in enumerate(section_media):
-        if media.get('prompt'):
-            # Generate filename from section or index
-            section_name = media.get('section', f'section-{i+1}')
-            filename = f"{section_name.lower().replace(' ', '-')}.png"
-
-            prompts_to_generate.append({
-                'prompt': media['prompt'],
-                'filename': filename,
-                'type': 'section_media',
-                'index': i,
-                'title': media.get('title', f'Image {i+1}')
-            })
-
-    if not prompts_to_generate:
-        print("   ℹ️  No image prompts found in multimedia.json")
+    # Skip if already exists
+    if config.get('skip_existing', True) and output_path.exists():
+        print(f"   ⏭️  Hero image already exists: {output_path.name}")
         return article
 
-    print(f"   Found {len(prompts_to_generate)} images to generate")
-    print(f"   Output: {images_dir.relative_to(article.path.parent.parent)}\n")
+    print(f"   Provider: {provider_name}")
+    print(f"   Prompt: {hero.get('prompt', '')[:60]}...")
 
-    # Generate images
     try:
-        results = image_generator.generate_batch(
-            prompts=prompts_to_generate,
-            output_dir=images_dir,
-            model=config.get('model', 'dall-e-3'),
-            size=config.get('size', '1792x1024'),
-            quality=config.get('quality', 'standard'),
-            skip_existing=config.get('skip_existing', True)
+        # Import image provider factory
+        from ....infrastructure.images.image_generator import ImageProviderFactory
+
+        # Create provider (auto-detects from env vars or uses specified)
+        try:
+            provider = ImageProviderFactory.create(provider=provider_name)
+        except ValueError as e:
+            # Try auto-detect if specified provider fails
+            print(f"   ⚠️  {str(e)}")
+            print(f"   Trying auto-detect...")
+            provider = ImageProviderFactory.auto_detect()
+            if not provider:
+                print(f"   ⚠️  No image provider available")
+                print(f"   Set STABILITY_API_KEY or OPENAI_API_KEY to enable")
+                return article
+
+        # Generate hero image
+        result = provider.generate_image(
+            prompt=hero.get('prompt'),
+            output_path=output_path,
+            model=config.get('model', 'sdxl'),
+            **{k: v for k, v in config.items() if k not in ['provider', 'model', 'skip_existing', 'enabled']}
         )
 
-        # Update multimedia.json with generated paths
-        generated_count = 0
-        skipped_count = 0
+        # Update multimedia.json with generated image info
+        hero['generated'] = True
+        hero['local_path'] = f"images/{output_path.name}"
+        hero['generation_info'] = {
+            'provider': provider_name,
+            'model': result.get('model', config.get('model')),
+        }
+        if result.get('revised_prompt'):
+            hero['revised_prompt'] = result['revised_prompt']
 
-        for i, (prompt_info, result) in enumerate(zip(prompts_to_generate, results)):
-            if result.get('skipped'):
-                skipped_count += 1
-                continue
+        multimedia_data['hero_image'] = hero
+        storage.write_json(multimedia_path, multimedia_data)
 
-            if result.get('error'):
-                continue
+        print(f"✅ Hero image generated: {output_path.name}")
+        print(f"   Size: {output_path.stat().st_size // 1024} KB")
 
-            generated_count += 1
+        # Show info about other images
+        section_media_count = len(multimedia_data.get('section_media', []))
+        if section_media_count > 0:
+            print(f"\n📋 Other images ({section_media_count} suggestions):")
+            print(f"   Check multimedia.json for:")
+            print(f"   - AI generation prompts")
+            print(f"   - Stock photo suggestions")
+            print(f"   - Manual design alternatives")
 
-            # Update multimedia data with local path
-            relative_path = f"images/{prompt_info['filename']}"
+        # Git commit
+        if git:
+            git.commit_article_stage(
+                article.path,
+                "generate_images",
+                f"Generate hero image ({provider_name})"
+            )
 
-            if prompt_info['type'] == 'hero':
-                multimedia_data['hero_image']['local_path'] = relative_path
-                multimedia_data['hero_image']['generated'] = True
-                if result.get('revised_prompt'):
-                    multimedia_data['hero_image']['revised_prompt'] = result['revised_prompt']
-
-            elif prompt_info['type'] == 'section_media':
-                idx = prompt_info['index']
-                multimedia_data['section_media'][idx]['local_path'] = relative_path
-                multimedia_data['section_media'][idx]['generated'] = True
-                if result.get('revised_prompt'):
-                    multimedia_data['section_media'][idx]['revised_prompt'] = result['revised_prompt']
-
-        # Save updated multimedia.json
-        with open(multimedia_path, 'w', encoding='utf-8') as f:
-            json.dump(multimedia_data, f, indent=2, ensure_ascii=False)
-
-        print(f"\n✅ Image generation complete:")
-        print(f"   Generated: {generated_count} images")
-        if skipped_count > 0:
-            print(f"   Skipped: {skipped_count} (already exist)")
-        print(f"   Updated: multimedia.json with local paths")
+    except ValueError as e:
+        error_msg = str(e)
+        if 'API_KEY' in error_msg or 'api_key' in error_msg:
+            print(f"   ⚠️  {error_msg}")
+            print(f"   Skipping image generation")
+            print(f"\n   To enable automatic hero generation:")
+            print(f"   - Stability AI (cheap): export STABILITY_API_KEY=sk-...")
+            print(f"   - DALL-E (quality):     export OPENAI_API_KEY=sk-...")
+        else:
+            print(f"   ⚠️  Image generation failed: {error_msg}")
 
     except Exception as e:
-        print(f"\n❌ Image generation failed: {str(e)}")
-        print(f"   Continuing without images")
+        print(f"   ⚠️  Image generation failed: {str(e)}")
+        print(f"   Hero image can be added manually to images/hero.png")
 
     return article

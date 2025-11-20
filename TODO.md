@@ -1,6 +1,25 @@
 # TODO List
 
-## Current Session Tasks (2025-11-15)
+## Current Session Tasks (2025-11-20)
+- [x] **Add 529 error retry logic with 60s delays**
+  - ✅ Added _is_overloaded_error() method to WorkflowEngine
+  - ✅ Implemented retry loop (max 3 attempts, 60s delay between)
+  - ✅ Applied to all workflow steps
+  - ✅ Clear user feedback during retries
+- [x] **Implement Opcja 3: Auto hero + manual rest (image generation)**
+  - ✅ Modified step_15_generate_images.py to generate ONLY hero image
+  - ✅ Updated workflow.yaml with Stability AI config (default provider)
+  - ✅ Updated prompt_multimedia_suggestions.md with stock photo suggestions
+  - ✅ Each multimedia suggestion now includes:
+    - AI generation prompt (for hero)
+    - Stock photo queries (unsplash_query, pexels_query)
+    - Keywords for search
+    - Style notes for manual design
+  - ✅ Created README_IMAGE_GENERATION.md documentation
+  - **Cost:** $0.011/article (Stability SDXL) or $0.04-0.12 (DALL-E)
+  - **Result:** Hero auto-generated, other images have ready-to-use stock queries
+
+## Previous Session Tasks (2025-11-15)
 - [x] **Implement Headers Alternatives SEO step (Step 19)**
   - ✅ Created step_19_headers_alternatives.py
   - ✅ Parses all H1, H2, H3 headers from article.md
@@ -18,16 +37,18 @@
   - ✅ Updated RELATED_ARTICLES variable (was empty, now populated)
   - ✅ Updated prompt to prioritize same-silo articles first
   - ✅ Section "Polecane artykuły" now shows silo articles before others
-- [ ] **TODO: Improve multimedia generation step (step_08_multimedia.py)**
+- [x] **Improve multimedia generation step (step_08_multimedia.py)** ✅ COMPLETED
   - Current state: Generates multimedia.json with image/video suggestions
-  - Issues to address:
-    - [ ] Better prompt engineering for image descriptions
-    - [ ] Add video timestamps and specific scene descriptions
-    - [ ] Integration with actual image generation (DALL-E/Stability AI)
-    - [ ] Validate multimedia.json schema more strictly
-    - [ ] Add fallback when AI doesn't return valid JSON
-    - [ ] Consider adding infographic suggestions
-  - Priority: Medium (currently disabled in workflow.yaml)
+  - Improvements completed:
+    - [x] Better prompt engineering for image descriptions (30-60 word prompts)
+    - [x] Stock photo suggestions (unsplash_query, pexels_query, keywords)
+    - [x] Integration with actual image generation (DALL-E/Stability AI) - HERO ONLY
+    - [x] Infographic suggestions with design alternatives
+    - [x] Fallback when AI doesn't return valid JSON (already existed)
+  - Not implemented (low priority):
+    - [ ] Video timestamps and specific scene descriptions (video not used yet)
+    - [ ] Stricter JSON schema validation (current is sufficient)
+  - Status: step_08 enabled: false (optional), step_15 enabled: false (optional)
 
 ## Previous Session Tasks (2025-11-14)
 - [x] Investigate Gemini 2.5 SAFETY blocks with Polish content
@@ -124,15 +145,23 @@
   - ✅ Graceful handling when no good links exist
   - ✅ Added to workflow.yaml as step 14
   - ✅ Test script created (test_internal_linking.py)
-- [ ] Improve error handling and rollback mechanism
+- [x] Add image generation integration (DALL-E/Stability AI)
+  - ✅ Implemented step_15_generate_images.py (hero only)
+  - ✅ Stability AI provider (SDXL, SD3) - $0.011-0.037/image
+  - ✅ DALL-E provider (DALL-E 2, 3) - $0.020-0.120/image
+  - ✅ Auto-detection from env vars (STABILITY_API_KEY or OPENAI_API_KEY)
+  - ✅ Stock photo suggestions for manual images (unsplash, pexels)
+  - ✅ Documentation: README_IMAGE_GENERATION.md
+- [x] Improve error handling - retry logic for 529 errors
+  - ✅ 3 retries with 60s delays for API overload errors
+  - ✅ Applied to all workflow steps
 - [ ] Add resume capability (restart from failed step)
 - [ ] Add batch processing mode
-- [ ] Add image generation integration (DALL-E/Midjourney)
 
 ## Backlog
-- Image generation integration (Phase 2)
 - Multi-language support (Phase 3)
 - Batch processing (Phase 3)
+- Resume capability (restart from failed step)
 
 ## Completed
 

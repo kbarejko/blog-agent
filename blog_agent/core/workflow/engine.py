@@ -7,6 +7,7 @@ from typing import Dict, Any, Callable, List, Optional
 from pathlib import Path
 import importlib
 import yaml
+import time
 
 from ..domain.article import Article
 from ..factory import DependencyFactory
@@ -46,6 +47,24 @@ class WorkflowEngine:
             step_func: Step function callable(article, deps, config) -> article
         """
         self.step_registry[step_name] = step_func
+
+    def _is_overloaded_error(self, error: Exception) -> bool:
+        """
+        Check if error is an API overload error (529)
+
+        Args:
+            error: Exception to check
+
+        Returns:
+            True if it's a 529/overloaded error
+        """
+        error_str = str(error).lower()
+        return any(indicator in error_str for indicator in [
+            'error code: 529',
+            'status: 529',
+            'overloaded_error',
+            'overloaded'
+        ])
 
     def _auto_detect_provider_from_model(self, model: str) -> str:
         """
@@ -196,33 +215,50 @@ class WorkflowEngine:
                 self._load_existing_data_for_step(article, step_name, deps)
                 continue
 
-            # Execute step
+            # Execute step with retry logic for 529 errors
             print(f"\n{'─'*60}")
             print(f"🔄 Step: {step_description}")
             print(f"{'─'*60}")
 
-            try:
-                # Load step function
-                step_func = self._load_step_function(step_name, step_module)
+            max_retries = 3
+            retry_delay = 60  # 60 seconds
 
-                # Get step-specific AI provider (if configured)
-                step_ai_provider = self._get_step_ai_provider(step_config, deps.get('ai'))
+            for attempt in range(max_retries):
+                try:
+                    # Load step function
+                    step_func = self._load_step_function(step_name, step_module)
 
-                # Create step-specific deps if provider is different
-                step_deps = deps
-                if step_ai_provider is not deps.get('ai'):
-                    # Shallow copy deps and replace AI provider
-                    step_deps = {**deps, 'ai': step_ai_provider}
+                    # Get step-specific AI provider (if configured)
+                    step_ai_provider = self._get_step_ai_provider(step_config, deps.get('ai'))
 
-                # Execute step
-                article = step_func(article, step_deps, step_config)
+                    # Create step-specific deps if provider is different
+                    step_deps = deps
+                    if step_ai_provider is not deps.get('ai'):
+                        # Shallow copy deps and replace AI provider
+                        step_deps = {**deps, 'ai': step_ai_provider}
 
-                print(f"✅ Step completed: {step_name}\n")
+                    # Execute step
+                    article = step_func(article, step_deps, step_config)
 
-            except Exception as e:
-                print(f"❌ Step failed: {step_name}")
-                print(f"   Error: {str(e)}\n")
-                raise
+                    print(f"✅ Step completed: {step_name}\n")
+                    break  # Success - exit retry loop
+
+                except Exception as e:
+                    is_overloaded = self._is_overloaded_error(e)
+                    is_last_attempt = (attempt == max_retries - 1)
+
+                    if is_overloaded and not is_last_attempt:
+                        # 529 error and we have retries left - wait and retry
+                        print(f"⚠️  API overloaded (attempt {attempt + 1}/{max_retries})")
+                        print(f"   Waiting {retry_delay} seconds before retry...")
+                        time.sleep(retry_delay)
+                        print(f"   Retrying step: {step_name}")
+                        continue
+                    else:
+                        # Not a 529 error, or no retries left - fail
+                        print(f"❌ Step failed: {step_name}")
+                        print(f"   Error: {str(e)}\n")
+                        raise
 
         print(f"\n{'='*60}")
         print(f"✅ Workflow completed successfully!")
