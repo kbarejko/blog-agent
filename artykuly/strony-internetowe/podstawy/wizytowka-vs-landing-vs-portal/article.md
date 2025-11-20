@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **Konkretne koszty** - Jeśli myślisz o stworzeniu wizytówki, przygotuj się na wydatek rzędu 1500-5000 zł. Z kolei za landing page zapłacisz od 2000 do 8000 zł, a stworzenie portalu internetowego może kosztować od 15000 do nawet 100000 zł lub więcej. Czas realizacji waha się w zależności od skomplikowania projektu.
-- **Wskaźniki skuteczności** - Landing page'e mogą osiągać konwersję w przedziale od 2% do 20%, co zależy od tego, jak dobrze są zoptymalizowane. Portale mają zdolność automatyzacji procesów i skalowania Twojego biznesu.
+- **Wskaźniki skuteczności** - Landing page'e mogą osiągać konwersję w przedziale od 2% do 20%, co zależy od tego, jak dobrze są zoptymalizowane. Portale mają zdolność automatyzacji procesów i [skalowania Twojego biznesu](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe).
 - **Kryteria wyboru** - Znajdziesz tu jasne wytyczne, które pomogą Ci dopasować typ strony do Twojego budżetu, wielkości firmy i celów biznesowych. Dzięki temu unikniesz przepłacania za funkcje, które nie są Ci potrzebne.
 - **Błędy kosztujące pieniądze** - Dowiesz się o najczęstszych błędach, które przedsiębiorcy popełniają, co prowadzi do strat finansowych i nieskutecznej obecności w sieci.
 - **Praktyczny plan działania** - Przedstawiamy konkretne kroki, od analizy potrzeb po współpracę z agencją. Znajdziesz tu również kluczowe pytania, które warto zadać wykonawcom, zanim podejmiesz decyzję.
@@ -10,13 +10,13 @@
 
 # Wizytówka vs Landing Page vs Portal
 
-Kiedy klient dzwoni z pytaniem: "Potrzebuję strony internetowej, ale nie wiem, jaka będzie najlepsza," to znak, że decyzja o wyborze nie jest prosta. Wiele osób prowadzących biznesy boryka się z tym samym dylematem. Źle dobrana strona internetowa to nie tylko koszty, które można było uniknąć, ale także utracone szanse na rozwój firmy.
+Kiedy klient dzwoni z pytaniem: "Potrzebuję strony internetowej, ale [nie wiem, jaka będzie najlepsza](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz)," to znak, że decyzja o wyborze nie jest prosta. Wiele osób prowadzących biznesy boryka się z tym samym dylematem. Źle dobrana strona internetowa to nie tylko koszty, które można było uniknąć, ale także [utracone szanse na rozwój firmy](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe).
 
 ## Wprowadzenie - Jak wybrać właściwy rodzaj strony dla Twojego biznesu
 
 Zastanawianie się nad rodzajem strony internetowej to częsty problem przedsiębiorców, którzy dopiero zaczynają swoją przygodę z obecnością w sieci. Często obserwuję, jak właściciele firm zadają sobie pytanie, czy potrzebują "zwykłej strony", czy może czegoś bardziej skomplikowanego, lecz nie zawsze wiedzą, czego dokładnie potrzebują.
 
-Decyzje podjęte bez odpowiedniej analizy mogą prowadzić do strat finansowych i nieskutecznej obecności w internecie. Przykładowo, firma wydająca 40 tysięcy złotych na rozbudowany portal, gdy wystarczyłaby jej prosta wizytówka za 3 tysiące, przepłaca znacznie. Z kolei przedsiębiorca, który wybrał prostą wizytówkę zamiast funkcjonalnego portalu, może codziennie tracić nowych klientów.
+Decyzje podjęte bez odpowiedniej analizy mogą prowadzić do strat finansowych i [nieskutecznej obecności w internecie](/artykuly/strony-internetowe/podstawy/dlaczego-warto). Przykładowo, firma wydająca 40 tysięcy złotych na rozbudowany portal, gdy wystarczyłaby jej prosta wizytówka za 3 tysiące, przepłaca znacznie. Z kolei przedsiębiorca, który wybrał prostą wizytówkę zamiast funkcjonalnego portalu, może codziennie tracić nowych klientów.
 
 Na rynku dostępne są trzy główne rodzaje stron internetowych: wizytówka, landing page i portal. Każdy z tych typów ma swoje zastosowanie i jest skuteczny w różnych kontekstach biznesowych. Wizytówka pomaga budować wiarygodność, landing page koncentruje się na sprzedaży konkretnego produktu, a portal obsługuje złożone procesy biznesowe.
 
