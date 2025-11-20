@@ -16,17 +16,17 @@ W dzisiejszych czasach ponad 80% klientów najpierw sprawdza firmę online, zani
 
 Każdy przedsiębiorca napotyka ten dylemat: czy zlecić stworzenie strony agencji za 15-30 tysięcy złotych, czy spróbować samemu? Często wybierana jest droższa opcja, z obawy przed technicznymi trudnościami. To jednak nie zawsze jest konieczne.
 
-Tworzenie strony samodzielnie to nie tylko oszczędność. To przede wszystkim pełna kontrola nad swoim biznesem online. Kiedy chcesz zmienić ofertę, zaktualizować cennik lub dodać nową funkcjonalność, nie musisz czekać tygodniami na programistę. Możesz to zrobić samodzielnie, kiedy tylko chcesz.
+Tworzenie strony samodzielnie to nie tylko oszczędność. To przede wszystkim pełna kontrola nad swoim biznesem online. Kiedy chcesz zmienić ofertę, zaktualizować cennik lub dodać nową funkcjonalność, nie musisz [czekać tygodniami na programistę](/artykuly/strony-internetowe/proces/html-poradnik). Możesz to zrobić samodzielnie, kiedy tylko chcesz.
 
-Rozumienie, jak działa Twoja strona, daje też inną korzyść – umożliwia podejmowanie świadomych decyzji biznesowych. Wiesz, dlaczego klienci opuszczają stronę na konkretnej podstronie, rozumiesz statystyki i możesz szybko reagować na zmiany w zachowaniu użytkowników.
+Rozumienie, jak działa Twoja strona, daje też inną korzyść – umożliwia podejmowanie świadomych decyzji biznesowych. Wiesz, dlaczego [klienci opuszczają stronę na konkretnej podstronie](/artykuly/strony-internetowe/proces/content-i-media), rozumiesz statystyki i możesz szybko reagować na zmiany w zachowaniu użytkowników.
 
-Ten artykuł poprowadzi Cię przez sześć kluczowych etapów: od planowania struktury i celów, przez wybór technologii i projektowanie interfejsu, aż po techniczne wdrożenie i promocję. Każdy krok opisuję w sposób praktyczny, z konkretnymi narzędziami i przykładami.
+Ten artykuł poprowadzi Cię przez sześć kluczowych etapów: od planowania struktury i celów, przez wybór technologii i [projektowanie interfejsu](/artykuly/strony-internetowe/proces/html-szablony), aż po techniczne wdrożenie i promocję. Każdy krok opisuję w sposób praktyczny, z konkretnymi narzędziami i przykładami.
 
 Nie potrzebujesz doświadczenia w programowaniu. Wystarczy systematyczne podejście i kilka tygodni konsekwentnej pracy. Efekt? Profesjonalna strona, która działa na rzecz Twojego biznesu przez całą dobę.
 
 ## Etap 1: Planowanie strony internetowej - fundament sukcesu
 
-Planowanie to klucz do stworzenia strony, która nie tylko ładnie wygląda, ale też działa efektywnie dla Twojego biznesu. Bez jasno zdefiniowanych celów, strona może stać się jedynie ozdobną wizytówką.
+Planowanie to klucz do stworzenia strony, która nie tylko ładnie wygląda, ale też działa efektywnie dla Twojego biznesu. [Bez jasno zdefiniowa](/artykuly/strony-internetowe/proces/brief)nych celów, strona może stać się jedynie ozdobną wizytówką.
 
 ### Określenie celów biznesowych
 
