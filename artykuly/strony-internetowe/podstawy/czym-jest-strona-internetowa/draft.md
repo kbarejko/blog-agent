@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Statystyki pokazują** - dlaczego 97% klientów szuka firm w internecie przed podjęciem decyzji o zakupie
 - **Różnica w przychodach** - jak strona internetowa może zwiększyć zasięg geograficzny Twojej firmy i generować klientów 24/7
@@ -6,10 +6,9 @@
 - **5 elementów obowiązkowych** - bez których Twoja strona straci wiarygodność w oczach potencjalnych klientów
 - **Najczęstsze błędy kosztujące pieniądze** - dlaczego 60% firm traktuje stronę jak jednorazowy wydatek zamiast inwestycji
 
-
 ## Wprowadzenie - dlaczego każda firma potrzebuje stronę internetowej
 
-# Czym Jest Strona Internetowa
+### Czym Jest Strona Internetowa
 
 Gdy ostatnio szukałeś restauracji, mechanika czy fryzjera, prawdopodobnie sięgnąłeś po telefon i wpisałeś nazwę w Google. To właśnie robi dzisiaj 97% konsumentów – sprawdza firmy online, zanim podejmie decyzję o zakupie.
 
