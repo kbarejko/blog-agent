@@ -16,17 +16,17 @@ Wyobraź sobie, że prowadzisz własną restaurację i chcesz zmienić godziny o
 
 ## Wprowadzenie - Dlaczego każdy przedsiębiorca powinien rozumieć podstawy HTML
 
-Wielu właścicieli firm uważa, że budowa strony internetowej to skomplikowana sprawa, zarezerwowana tylko dla specjalistów. Tymczasem, wiele podstawowych zmian na stronie to zaledwie kilka linijek kodu, które możesz opanować w jeden weekend.
+Wielu właścicieli firm uważa, że [budowa strony internetowej to skomplikowana sprawa](/artykuly/strony-internetowe/proces/brief), zarezerwowana tylko dla specjalistów. Tymczasem, wiele podstawowych zmian na stronie to zaledwie kilka linijek kodu, które możesz opanować w jeden weekend.
 
 ### Problem uzależnienia od programistów
 
-Każda drobna zmiana wymaga kontaktu z webmasterem. Chcesz zmienić opis produktu? To kosztuje 150 zł. Aktualizacja cennika? Kolejne 200 zł. A dodanie nowego zdjęcia zespołu? I znów dodatkowy wydatek.
+Każda drobna zmiana wymaga kontaktu z webmasterem. Chcesz zmienić opis produktu? To kosztuje 150 zł. Aktualizacja cennika? Kolejne 200 zł. A [dodanie nowego zdjęcia zespołu](/artykuly/strony-internetowe/proces/content-i-media)? I znów dodatkowy wydatek.
 
 Te drobne sumy szybko się kumulują, a Ty tracisz elastyczność biznesową - nie jesteś w stanie reagować na zmiany na bieżąco.
 
 ### Co zyskasz znając podstawy HTML
 
-Znajomość HTML to nie tylko umiejętność techniczna, ale przede wszystkim narzędzie do zarządzania własnym biznesem. Dzięki temu będziesz mógł szybko wprowadzać zmiany na stronie, porozumiewać się z programistami w ich języku i oceniać, czy proponowane przez nich wyceny są uczciwe.
+Znajomość HTML to nie tylko umiejętność techniczna, ale przede wszystkim narzędzie do zarządzania własnym biznesem. Dzięki temu będziesz mógł szybko wprowadzać zmiany na stronie, porozumiewać się z programistami w ich języku i oceniać, czy [proponowane przez nich wyceny są uczciwe](/artykuly/strony-internetowe/proces/brief).
 
 ### Co znajdziesz w tym poradniku
 
