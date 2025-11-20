@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **43% wszystkich stron** działa na WordPress, co czyni go najbezpieczniejszą inwestycją dla długofalowego rozwoju firmy
 - **Automatyczna instalacja jednym kliknięciem** w większości hostingów pozwala uruchomić stronę w 10 minut bez znajomości programowania
@@ -6,14 +6,13 @@
 - **5 kluczowych wtyczek** (Yoast SEO, UpdraftPlus, Wordfence) zabezpiecza stronę przed 90% typowych zagrożeń i awarii
 - **Struktura treści z nagłówkami H1-H6** i wewnętrznym linkowaniem może zwiększyć ruch organiczny o 40-60% w pierwszym roku
 
-
 ## Wprowadzenie - Dlaczego WordPress to najlepszy wybór dla Twojej firmy
 
-# Wordpress Setup
+### Wordpress Setup
 
 Czy wiedzieliście, że co druga strona internetowa, na którą dzisiaj wejdziecie, prawdopodobnie działa na WordPress? To nie przypadek – to świadomy wybór milionów przedsiębiorców na całym świecie. A jeśli zastanawiacie się nad własną stroną firmową, ten artykuł pokaże wam, dlaczego WordPress może być waszą najlepszą inwestycją.
 
-## Wprowadzenie - Dlaczego WordPress to najlepszy wybór dla Twojej firmy
+### Wprowadzenie - Dlaczego WordPress to najlepszy wybór dla Twojej firmy
 
 Liczby mówią same za siebie – WordPress napędza obecnie 43% wszystkich stron internetowych na świecie. To oznacza, że niemal połowa internetu zaufała tej platformie. Dla porównania, wszystkie inne systemy CMS razem wzięte nie osiągają takiej popularności.
 
@@ -83,7 +82,7 @@ Upload przez FTP może zająć 10-15 minut, w zależności od prędkości intern
 
 Panel administratora WordPress znajduje się zawsze pod adresem wasza-domena.pl/wp-admin. Po pierwszym logowaniu zobaczycie kokpit – centralną deskę rozdzielczą systemu.
 
-Po lewej stronie menu z podstawowymi funkcjami: Wpisy (artykuły na blogu), Strony (statyczne podstrony jak "O nas"), Multimedia (zdjęcia i pliki), Wygląd (motywy i personalizacja), Wtyczki i Ustawienia.
+Po lewej stronie menu z podstawowymi funkcjjami: Wpisy (artykuły na blogu), Strony (statyczne podstrony jak "O nas"), Multimedia (zdjęcia i pliki), Wygląd (motywy i personalizacja), Wtyczki i Ustawienia.
 
 Pierwszą rzeczą, którą zróbcie, to zmiana domyślnego hasła na jeszcze silniejsze. Idźcie do Użytkownicy > Profil i zaktualizujcie swoje dane. Usuńcie też przykładowy wpis "Hello World" i stronę "Sample Page" – to jasny sygnał dla wszystkich, że strona jest świeża z instalacji.
 
