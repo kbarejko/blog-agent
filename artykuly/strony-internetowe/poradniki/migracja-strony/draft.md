@@ -1,17 +1,10 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Szczegółowa lista kontrolna migracji** - 7-etapowy plan działania, który zabezpieczy Cię przed utratą danych i pozycji w Google podczas przenoszenia strony
 - **Strategie zachowania ruchu SEO** - sprawdzone metody tworzenia przekierowań 301 i komunikacji z Google, które utrzymają widoczność Twojej strony w wyszukiwarkach
 - **Plan awaryjny na wypadek problemów** - gotowe rozwiązania najczęstszych błędów migracyjnych i instrukcja szybkiego powrotu do poprzedniej wersji strony
 - **Optymalne terminy przeprowadzenia migracji** - analiza cykli biznesowych i wskazówki jak wybrać moment minimalizujący ryzyko strat w sprzedaży
 - **Kompletna metodyka testowania po migracji** - 15-punktowa lista weryfikacji funkcjonalności, która zapewni płynne działanie wszystkich elementów strony
-
-
-## Wprowadzenie - Dlaczego migracja strony to więcej niż przeniesienie plików
-
-# Migracja Strony
-
-Właśnie dostałeś informację od hostingu, że musisz przenieść stronę firmową. Serce bije szybciej, bo słyszałeś już historie o utraconych danych i znikających klientach.
 
 ## Wprowadzenie - Dlaczego migracja strony to więcej niż przeniesienie plików
 
@@ -154,8 +147,6 @@ Utwórz nowy profil w Search Console dla nowej wersji strony już w dniu migracj
 Indeksowanie po migracji może potrwać od kilku dni do kilku tygodni. Używaj narzędzia "URL Inspection" do sprawdzania czy kluczowe strony są już zindeksowane. Możesz też poprosić o ponowne przeskanowanie najważniejszych URL-i.
 
 Śledź pozycje kluczowych fraz codziennie przez pierwsze dwa tygodnie. Niewielkie spadki są normalne, ale drastyczne zmiany mogą sygnalizować problemy z przekierowaniami lub indeksowaniem. Narzędzia takie jak SEMrush czy Ahrefs pomogą monitorować zmiany pozycji w czasie rzeczywistym.
-
----
 
 ## Testing i weryfikacja po migracji
 
