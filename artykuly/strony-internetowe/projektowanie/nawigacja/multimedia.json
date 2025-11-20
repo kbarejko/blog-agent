@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Nawigacja",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Nawigacja",
+    "prompt": "Professional modern illustration for Nawigacja",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}

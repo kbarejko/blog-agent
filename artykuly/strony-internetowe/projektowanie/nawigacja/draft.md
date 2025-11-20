@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Reguła 7±2** - Dlaczego więcej niż 9 pozycji w menu głównym drastycznie obniża konwersje i jak tego unikać.
 - **Hamburger menu zabija sprzedaż** - Kiedy ukryte menu mobilne szkodzi biznesowi i jakie są skuteczniejsze alternatywy.
@@ -6,14 +6,11 @@
 - **Internal linking jako broń SEO** - W jaki sposób przemyślana nawigacja przekazuje "link juice" i poprawia pozycjonowanie całej strony.
 - **Checklist audytu nawigacji** - 15-punktowa lista kontrolna do samodzielnej oceny i natychmiastowej poprawy struktury Twojej strony.
 
-
 ## Wprowadzenie - dlaczego nawigacja decyduje o sukcesie Twojej strony
-
-# Nawigacja
 
 Gdy użytkownik wchodzi na Twoją stronę, ma maksymalnie siedem sekund na podjęcie decyzji – zostać czy odejść. To właśnie w tym krótkim okienku czasowym nawigacja odgrywa rolę pierwszego wrażenia.
 
-## Wprowadzenie - dlaczego nawigacja decyduje o sukcesie Twojej strony
+### Wprowadzenie - dlaczego nawigacja decyduje o sukcesie Twojej strony
 
 Pierwsze 3-7 sekund to moment prawdy. Użytkownik skanuje stronę wzrokiem, szukając odpowiedzi na podstawowe pytania: "Czy jestem we właściwym miejscu?" i "Jak dotrzeć do tego, czego szukam?". Jeśli nawigacja nie odpowie na te pytania natychmiast, odwiedzający po prostu odchodzi.
 
@@ -79,7 +76,7 @@ Mental models to wzorce, które użytkownicy wynoszą z innych stron internetowy
 
 F-pattern i Z-pattern opisują naturalne ruchy oczu po interfejsie. W F-pattern użytkownicy skanują najpierw górną część strony poziomo, potem lewą stronę pionowo. Menu główne powinno więc znajdować się u góry, a dodatkowa nawigacja po lewej stronie. Z-pattern lepiej sprawdza się na landing page'ach - wzrok przesuwa się z lewego górnego rogu do prawego dolnego, przez środek strony.
 
-Paradoks wyboru paraliżuje decyzje. Badanie sklepu z dżemami pokazało, że stoisko z 24 rodzajami przyciągało więcej klientów, ale sprzedawało gorzej niż stoisko z 6 opcjami. W nawigacji działa identycznie - 15 kategorii w menu głównym oznacza mniej konwersji niż 6 przemyślanych opcji.
+Paradoks wyboru paraliżuje decyzje. Badanie sklepu z dżamami pokazało, że stoisko z 24 rodzajami przyciągało więcej klientów, ale sprzedawało gorzej niż stoisko z 6 opcjami. W nawigacji działa identycznie - 15 kategorii w menu głównym oznacza mniej konwersji niż 6 przemyślanych opcji.
 
 ### Testowanie rzeczywistego zachowania
 
