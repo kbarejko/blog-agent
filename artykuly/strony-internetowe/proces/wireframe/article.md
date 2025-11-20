@@ -14,7 +14,7 @@ Zastanawiałeś się kiedyś, jak ważne jest pierwsze wrażenie? Statystyki wsk
 
 ## Co to jest wireframe i dlaczego każda firma go potrzebuje
 
-Wireframe to nic innego jak szkic Twojej przyszłej strony internetowej. To prosty plan, który pokazuje, gdzie znajdą się najważniejsze elementy, treści i funkcje. Można to porównać do planu architektonicznego budynku – zanim zdecydujesz o kolorze ścian czy rodzaju podłóg.
+Wireframe to nic innego jak szkic Twojej przyszłej strony internetowej. To prosty plan, który pokazuje, gdzie znajdą się najważniejsze elementy, [treści i funkcje](/artykuly/strony-internetowe/proces/content-i-media). Można to porównać do planu architektonicznego budynku – zanim zdecydujesz o kolorze ścian czy rodzaju podłóg.
 
 W kontekście biznesowym wireframe pełni rolę mapy, która prowadzi użytkowników przez Twoją stronę, wskazując, gdzie umieścić najważniejsze elementy, takie jak formularze kontaktowe, przyciski "Kup teraz" czy informacje o produktach.
 
@@ -22,7 +22,7 @@ Wireframe jest podstawą każdej skutecznej strony, która rzeczywiście przynos
 
 Błędy projektowe mogą być kosztowne. Przebudowa strony po zakończeniu prac może pochłonąć od 20 do 50% pierwotnego budżetu. Gorzej, jeśli przez ten czas tracisz potencjalnych klientów. Jeden z moich klientów stracił trzy miesiące sprzedaży, ponieważ formularz kontaktowy był ukryty za trzema kliknięciami.
 
-Dzięki wireframowi przedsiębiorca zyskuje kontrolę nad projektem, klarowną komunikację z wykonawcą i pewność, że strona wesprze jego cele sprzedażowe. To inwestycja, która zwraca się już przy uniknięciu pierwszej kosztownej przeróbki.
+Dzięki wireframowi przedsiębiorca zyskuje kontrolę nad projektem, klarowną komunikację z wykonawcą i pewność, że strona wesprze jego [cele sprzedażowe](/artykuly/strony-internetowe/proces/brief). To inwestycja, która zwraca się już przy uniknięciu pierwszej kosztownej przeróbki.
 
 W tym artykule pokażę Ci, jak analizować wireframe'y, oceniać ich jakość i wykorzystywać je do stworzenia strony, która naprawdę sprzedaje.
 
