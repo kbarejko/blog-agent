@@ -12,7 +12,7 @@ W tym artykule dowiesz się m.in.:
 - co musi znaleźć się nawet w najprostszej, ale skutecznej stronie,
 - w który kierunek edukacji pójść dalej, aby uniknąć chaosu i kosztownych poprawek.
 
-To dobry punkt startowy, jeśli chcesz poukładać wiedzę, podjąć spokojną decyzję i zbudować stronę, która wspiera Twój biznes — zamiast być jedynie cyfrową wizytówką.
+To dobry punkt startowy, jeśli ch2cesz poukładać wiedzę, podjąć spokojną decyzję i zbudować stronę, która wspiera Twój biznes — zamiast być jedynie cyfrową wizytówką.
 
 
 # Podstawy stron internetowych dla firm

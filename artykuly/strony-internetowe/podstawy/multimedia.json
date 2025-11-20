@@ -1,0 +1,83 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Właściciel e-commerce",
+    "description": "Profesjonalne zdjęcie właściciela sklepu e-commerce pracującego przy laptopie z dashboardem analitycznym.",
+    "alt_text": "Właściciel sklepu e-commerce analizuje dane na laptopie w nowoczesnym biurze.",
+    "prompt": "Professional photo of an e-commerce business owner working on a laptop with analytics dashboard visible, modern minimalist office with white walls, natural lighting, clean workspace, professional attire, high-quality stock photo aesthetic.",
+    "keywords": [
+      "e-commerce",
+      "analiza danych",
+      "laptop"
+    ],
+    "generated": true,
+    "local_path": "images/hero.png",
+    "generation_info": {
+      "provider": "stability",
+      "model": "stable-diffusion-xl-1024-v1-0"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Koszt pozyskania klienta",
+      "title": "Wykres kosztów pozyskania klienta",
+      "description": "Wykres słupkowy porównujący koszt pozyskania klienta przez stronę internetową i tradycyjny marketing.",
+      "alt_text": "Wykres słupkowy porównujący koszty pozyskania klienta online i offline.",
+      "prompt": "Bar chart comparing customer acquisition costs for online vs offline marketing, clear labels, professional infographic style, black and yellow colors, minimalist design.",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "koszt pozyskania klienta",
+        "marketing",
+        "e-commerce"
+      ]
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: 5 typów stron internetowych",
+      "title": "Infografika - Typy stron internetowych",
+      "description": "Infografika przedstawiająca 5 rodzajów stron internetowych i ich zastosowanie.",
+      "alt_text": "Infografika z 5 typami stron internetowych dla firm.",
+      "prompt": "Infographic illustrating 5 types of websites for businesses: 1) Landing page, 2) Business card site, 3) E-commerce store, 4) Corporate portal, 5) Blog. Clean design, icons for each type, blue and white color scheme.",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "typy stron internetowych",
+        "infografika",
+        "e-commerce"
+      ]
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Wybór wykonawcy",
+      "title": "Screenshot - Panel wyboru agencji",
+      "description": "Screenshot panelu wyboru agencji z porównaniem ofert.",
+      "alt_text": "Panel wyboru agencji z porównaniem cen i usług.",
+      "prompt": "Clean screenshot of an agency selection panel comparing different offers, showing prices, services and ratings, professional interface design, clear layout.",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "wybór agencji",
+        "porównanie ofert",
+        "usługi"
+      ]
+    },
+    {
+      "type": "photo",
+      "subtype": "contextual",
+      "section": "Sekcja: Przygotowanie materiałów",
+      "title": "Zdjęcie - Przygotowanie treści",
+      "description": "Zdjęcie zespołu pracującego nad przygotowaniem treści na stronę internetową.",
+      "alt_text": "Zespół pracujący nad treściami na stronę internetową w biurze.",
+      "prompt": "Photo of a team brainstorming and working on content for a website, modern office environment, collaborative atmosphere, natural lighting, high-quality stock photo aesthetic.",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "przygotowanie treści",
+        "zespół",
+        "biuro"
+      ]
+    }
+  ],
+  "total_count": 5
+}
