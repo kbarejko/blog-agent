@@ -6,7 +6,7 @@
 - **Grupa docelowa:** Przedsiębiorcy i właściciele firm
 - **Ton:** Ekspercki, ale naturalny i rozmowny ---
 
-## 2. 🏗️ Struktura artykułu
+## 2. Struktura artykułu
 ### 1. Wprowadzenie - Dlaczego strona internetowa to inwestycja, nie koszt (~200 słów)
 - Statystyki: 97% klientów szuka firm online przed podjęciem decyzji
 - Różnica między stroną "wizytówką" a narzędziem biznesowym
