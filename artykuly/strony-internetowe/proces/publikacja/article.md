@@ -15,11 +15,11 @@ Właściciele firm często zmagają się z podobnym problemem: ich strona wyglą
 
 ## Wprowadzenie – kiedy Twoja strona jest gotowa do publikacji
 
-Publikowanie strony internetowej to znacznie więcej niż tylko kliknięcie „udostępnij” i oczekiwanie na napływ klientów. To proces wymagający przemyślanej strategii i dokładnej weryfikacji wielu elementów.
+Publikowanie strony internetowej to znacznie więcej niż tylko kliknięcie „udostępnij” i oczekiwanie na napływ klientów. To proces wymagający [przemyślanej strategii](/artykuly/strony-internetowe/proces/brief) i dokładnej weryfikacji wielu elementów.
 
-Zbyt szybkie udostępnienie strony może prowadzić do frustracji użytkowników, którzy napotkają błędy czy wolne ładowanie. Z drugiej strony, zbyt długie zwlekanie z publikacją może oznaczać utratę szans na rozwój biznesu oraz dodatkowe koszty utrzymania zespołu deweloperskiego.
+Zbyt szybkie udostępnienie strony może prowadzić do frustracji użytkowników, którzy napotkają błędy czy wolne ładowanie. Z drugiej strony, zbyt długie zwlekanie z publikacją może oznaczać utratę szans na [rozwój biznesu](/artykuly/strony-internetowe/proces/jak-zrobic) oraz dodatkowe koszty utrzymania zespołu deweloperskiego.
 
-Dzisiejsze "opublikowanie" strony to nie tylko połączenie domeny z serwerem. To także konfiguracja narzędzi analitycznych, optymalizacja pod kątem wyszukiwarek, zabezpieczenia i monitoring wydajności.
+Dzisiejsze "opublikowanie" strony to nie tylko [połączenie domeny z serwerem](/artykuly/strony-internetowe/proces/html-szablony). To także konfiguracja narzędzi analitycznych, optymalizacja pod kątem wyszukiwarek, zabezpieczenia i monitoring wydajności.
 
 Właściwa publikacja wymaga przejścia przez kluczowe etapy: przygotowanie techniczne, konfigurację domeny, weryfikację treści, zabezpieczenia oraz plan działań promocyjnych. Każdy z tych kroków może kryć w sobie pewne trudności.
 
