@@ -1,0 +1,17 @@
+categories:
+- slug: html
+  title: HTML
+  path: strony-internetowe/frontend-development/html
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: firma
+  title: Firma
+  path: firma
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+count: 5
