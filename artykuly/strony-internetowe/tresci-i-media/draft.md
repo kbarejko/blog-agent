@@ -1,4 +1,4 @@
-# Co znajdziesz w artykule?
+## Co znajdziesz w artykule?
 
 - **Treści to 70% sukcesu strony** - jak strategiczne podejście do copywritingu, grafik i video przekłada się na wyższe konwersje i ROI
 - **Customer journey mapowanie** - praktyczny system dopasowywania różnych typów treści do etapów ścieżki zakupowej klienta
@@ -6,13 +6,14 @@
 - **Blog jako generator leadów** - sprawdzone strategie planowania tematów i keyword research, które przyciągają klientów przez lata
 - **Ekosystem treści w praktyce** - jak repurposować jeden materiał w 5 formatów i mierzyć skuteczność każdego kanału
 
+
 ## Wprowadzenie - Dlaczego treści i media decydują o sukcesie Twojej strony
 
-### Treści I Media
+# Treści I Media
 
 Twoja strona może mieć najlepszy design na świecie, ale bez przemyślanych treści pozostanie pustą skorupką. To właśnie słowa, obrazy i filmy decydują, czy odwiedzający zostanie klientem.
 
-### Wprowadzenie - Dlaczego treści i media decydują o sukcesie Twojej strony
+## Wprowadzenie - Dlaczego treści i media decydują o sukcesie Twojej strony
 
 Treści to fundament zaufania online. Kiedy potencjalny klient trafia na Twoją stronę, ma około 15 sekund na podjęcie decyzji - zostać czy odejść. W tym czasie ocenia nie tylko wygląd, ale przede wszystkim jakość przekazu.
 
@@ -65,7 +66,7 @@ Zacznij skromnie. Lepiej publikować jeden dobry artykuł miesięcznie niż obie
 
 ### Metryki, które się liczą
 
-Śledź konkretne wskaźniki: czas spędzony na stronie, współczynnik odrzuceń, zapytania ofertowe. Dla bloga mierz ruch organiczny i pozycje fraz kluczowych.
+Śledź konkretne wskaźniki: czas spędzony na stronie, współczynnik odrzuceń, zapytania ofertowe. Dla bloga mierz ruch organiczny i pozycje fraz kluczowych. 
 
 Sprawdzaj też konkurencję. Jakie treści tworzą? O czym nie piszą? Te luki to Twoja szansa na wyróżnienie się.
 
@@ -319,4 +320,4 @@ ChatGPT pomoże w burzy mózgów i strukturyzowaniu pomysłów. Nie zastąpi cop
 
 Zapier łączy różne narzędzia - nowy artykuł na blogu automatycznie trafia do mediów społecznościowych. To oszczędza klikanie i redukuje ryzyko zapomnienia o promocji.
 
-Pamiętaj: narz
+Pamiętaj: narzędzia to tylko środek do celu. Najlepszy sprzęt nie zastąpi dobrej strategii i wartościowych treści. Zacznij od jednego-dwóch rozwiązań, poznaj je dobrze, potem rozszerzaj arsenał.
