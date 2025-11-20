@@ -1,0 +1,17 @@
+categories:
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+- slug: narzedzia-biznesowe
+  title: Narzędzia biznesowe
+  path: firma/narzedzia-biznesowe
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+count: 5
