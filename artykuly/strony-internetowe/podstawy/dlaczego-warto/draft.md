@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Pierwsza ocena klienta** - Profesjonalna strona internetowa buduje zaufanie w 7 sekund, podczas gdy jej brak może kosztować 60% potencjalnych klientów
 - **Lokalne SEO skutkuje sprzedażą** - Firmy z własnymi stronami pojawiają się w 3x więcej wyszukiwań lokalnych niż te polegające tylko na mediach społecznościowych
@@ -6,14 +6,13 @@
 - **Kontrola wizerunku przynosi zyski** - Własna strona pozwala prezentować ofertę bez ograniczeń platform zewnętrznych i chroni przed negatywnymi komentarzami konkurencji
 - **ROI strony internetowej** - Inwestycja w profesjonalną stronę zwraca się średnio w ciągu 6-12 miesięcy poprzez zwiększenie liczby klientów o 25-40%
 
-
 ## Wstęp - Twoja firma w cyfrowym świecie
 
-# Dlaczego Warto
+### Dlaczego Warto
 
 Gdy potencjalny klient szuka usług w Twojej branży, pierwszym miejscem, które odwiedza, jest Google. Jeśli Twoja firma nie ma profesjonalnej strony internetowej, prawdopodobnie właśnie straciłeś kolejne zlecenie na rzecz konkurencji.
 
-## Wstęp - Twoja firma w cyfrowym świecie
+### Wstęp - Twoja firma w cyfrowym świecie
 
 Statystyki nie kłamią – 97% konsumentów szuka lokalnych firm w internecie, a 88% z nich sprawdza opinie przed podjęciem decyzji o zakupie. To oznacza, że Twoi potencjalni klienci już Cię szukają online, niezależnie od tego, czy jesteś tam obecny, czy nie.
 
@@ -71,7 +70,7 @@ Obszar działania przestaje być ograniczony geografią. Firma remontowa może d
 
 ## Kontrola nad wizerunkiem firmy
 
-Facebook może zablokować Ci konto. Instagram zmieni algorytm i Twoje posty przestaną docierać do odbiorców. Google może zmodyfikować zasady wyświetlania wizytówek. Na własnej stronie internetowej to Ty dyktujujesz warunki.
+Facebook może zablokować Ci konto. Instagram zmieni algorytm i Twoje posty przestaną docierać do odbiorców. Google może zmodyfikować zasady wyświetlania wizytówek. Na własnej stronie internetowej to Ty dyktujesz warunki.
 
 Platformy społecznościowe to wypożyczona ziemia. Budujesz na niej obecność, ale nie masz gwarancji, że jutro nie stracisz dostępu do swojej społeczności. Własna strona to Twój kawałek internetu, który nikt Ci nie zabierze. Tu ustanawiasz zasady gry.
 

@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Dlaczego Warto",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Dlaczego Warto",
+    "prompt": "Professional modern illustration for Dlaczego Warto",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
