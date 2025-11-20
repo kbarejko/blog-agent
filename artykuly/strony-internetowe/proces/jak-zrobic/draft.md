@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Kompletna metodyka planowania** - od określenia celów biznesowych po wybór domeny i hostingu, która zaoszczędzi ci miesięcy błądzenia po omacku
 - **Kryteria wyboru technologii** - porównanie WordPress, konstruktorów stron i custom development z analizą kosztów vs. funkcjonalności dla różnych typów biznesów
@@ -6,10 +6,9 @@
 - **Implementacja SEO on-page** - struktura URL-i, meta tagi, Schema markup i optymalizacja Core Web Vitals krok po kroku dla lepszej widoczności w Google
 - **Najczęstsze błędy kosztujące klientów** - 6 krytycznych pomyłek (od ignorowania mobile po brak SSL) i konkretne sposoby ich uniknięcia
 
-
 ## Wprowadzenie - Dlaczego warto samemu stworzyć stronę internetową
 
-# Jak Zrobic
+### Jak Zrobic
 
 Ponad 80% klientów sprawdza firmę online przed pierwszym kontaktem – to już nie trend, to rzeczywistość. Przedsiębiorcy, którzy tego ignorują, tracą potencjalne zyski każdego dnia.
 
@@ -81,7 +80,7 @@ Po ustaleniu wyglądu strony nadchodzi moment kluczowej decyzji technologicznej.
 
 ### Porównanie rozwiązań
 
-WordPress dominuje rynek z 40% udziałem wszystkich stron internetowych. Dla firm oferuje ogromną elastyczność - tysiące wtyczek pozwalają dodać niemal każdą funkcjonalność. SEO działa tu doskonale, a społeczność programistów jest największa na świecie. 
+WordPress dominuje rynek z 40% udziałem wszystkich stron internetowych. Dla firm oferuje ogromną elastyczność - tysiące wtyczek pozwalają dodać niemal każdą funkcjonalność. SEO działa tu doskonale, a społeczność programistów jest największa na świecie.
 
 Minusem WordPressa są regularne aktualizacje zabezpieczeń i potrzeba podstawowej wiedzy technicznej. Jeśli wtyczka przestanie być wspierana, możesz mieć problem. Koszty hosting plus premium wtyczki to około 300-800 zł rocznie.
 

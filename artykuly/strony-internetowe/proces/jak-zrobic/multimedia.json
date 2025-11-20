@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Jak Zrobic",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Jak Zrobic",
+    "prompt": "Professional modern illustration for Jak Zrobic",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
