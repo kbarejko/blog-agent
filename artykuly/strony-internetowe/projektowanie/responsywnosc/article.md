@@ -2,7 +2,7 @@
 
 - **Ponad 60% ruchu** na stronach pochodzi z urządzeń mobilnych. Jeśli Twoja strona nie jest responsywna, możesz tracić połowę potencjalnych klientów.
 - **Mobile-first indexing Google** oznacza, że to mobilna wersja Twojej strony może decydować o jej miejscu w wynikach wyszukiwania.
-- **Statystyki konwersji** pokazują, że różnica w wynikach między responsywnymi a nieodpowiednio dostosowanymi stronami e-commerce może sięgać nawet 40%.
+- **[Statystyki konwersji](/artykuly/strony-internetowe/projektowanie/conversion-rate)** pokazują, że różnica w wynikach między responsywnymi a nieodpowiednio dostosowanymi stronami e-commerce może sięgać nawet 40%.
 - **Praktyczne narzędzia testowe** są dostępne, abyś mógł samodzielnie sprawdzić, jak Twoja strona radzi sobie na różnych urządzeniach, bez potrzeby angażowania ekspertów.
 - **Plan działania** przedstawia krok po kroku, jak przeprowadzić audyt swojej obecnej strony, wybrać odpowiednią agencję i zaplanować budżet projektu.
 
@@ -18,7 +18,7 @@ Może wydaje Ci się, że klienci nadal głównie korzystają z komputerów, ale
 
 Badania Google pokazują, że jeśli strona nie załaduje się w ciągu trzech sekund na urządzeniu mobilnym, 53% użytkowników ją opuści. Jeszcze gorzej, jeśli ktoś ma złe doświadczenia z mobilną wersją strony, 79% takich osób poszuka tego samego produktu u konkurencji. Każda sekunda zwłoki to potencjalna utrata sprzedaży.
 
-Nieresponsywna strona to jak strzał w stopę. Klienci często utożsamiają trudności w nawigacji z niesolidnością firmy. Skoro nie dbasz o podstawową obecność online, jak mają Ci zaufać w poważniejszych sprawach?
+Nieresponsywna strona to jak strzał w stopę. Klienci często utożsamiają [trudności w nawigacji](/artykuly/strony-internetowe/projektowanie/nawigacja) z niesolidnością firmy. Skoro nie dbasz o podstawową obecność online, jak mają Ci zaufać w poważniejszych sprawach?
 
 Konsekwencje są jeszcze poważniejsze. Google od dawna preferuje mobilne wersje stron w wynikach wyszukiwania. To prosta zasada: brak responsywności to mniejsza widoczność, mniej klientów i niższe przychody.
 
@@ -26,7 +26,7 @@ Z tego artykułu dowiesz się, ile naprawdę tracisz przez brak responsywności,
 
 ## Czym jest responsywność i dlaczego Google ją uwielbia
 
-Responsywność to coś więcej niż tylko „strona, która dobrze wygląda na telefonie”. W kontekście biznesowym oznacza to projektowanie, które automatycznie dopasowuje układ, rozmiar elementów i funkcje do każdego urządzenia – od smartwatcha po duży monitor. Kluczowe jest tu słowo: automatycznie. Nie mówimy o oddzielnej wersji mobilnej, lecz o sprytnym systemie, który rozpoznaje ekran i prezentuje treści w najbardziej optymalny sposób.
+Responsywność to coś więcej niż tylko „strona, która dobrze wygląda na telefonie”. W kontekście biznesowym oznacza to projektowanie, które automatycznie dopasowuje układ, [rozmiar elementów](/artykuly/strony-internetowe/projektowanie/kolory-i-typografia) i funkcje do każdego urządzenia – od smartwatcha po duży monitor. Kluczowe jest tu słowo: automatycznie. Nie mówimy o oddzielnej wersji mobilnej, lecz o sprytnym systemie, który rozpoznaje ekran i prezentuje treści w najbardziej optymalny sposób.
 
 Wyobraź sobie, że Twoja strona działa jak doświadczony sprzedawca – dostosowuje sposób prezentacji do różnych klientów. Rozmawia inaczej z biznesmenem w garniturze niż z nastolatkiem w sneakersach, ale produkt prezentuje ten sam. Podobnie działa responsywność.
 
