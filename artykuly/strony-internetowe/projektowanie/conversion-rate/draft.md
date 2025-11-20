@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Formuła konwersji 10% vs 2%** - dlaczego sklep z identycznym ruchem może zarabiać 5 razy więcej dzięki lepszej optymalizacji współczynnika konwersji
 - **Konkretne narzędzia pomiaru CR** - jak skonfigurować cele w Google Analytics 4 i wykorzystać heatmapy do identyfikacji problemów w ścieżce klienta
@@ -6,14 +6,11 @@
 - **Studium przypadku wzrostu o 180%** - szczegółowa analiza zmian w e-commerce, które przyniosły konkretne rezultaty i można je powielić w każdej branży
 - **Benchmarki branżowe CR** - realistyczne oczekiwania dla e-commerce, SaaS i lead generation plus różnice w podejściu B2B vs B2C
 
-
 ## Wprowadzenie - dlaczego współczynnik konwersji decyduje o sukcesie biznesu
 
-# Conversion Rate
+### Conversion Rate
 
 Dwa sklepy internetowe, identyczny asortyment, taki sam ruch – 1000 osób miesięcznie. Pierwszy generuje 20 000 zł przychodu, drugi ledwie 4000 zł. Różnica? Jeden zamienia 10% odwiedzających w klientów, drugi tylko 2%.
-
-## Wprowadzenie - dlaczego współczynnik konwersji decyduje o sukcesie biznesu
 
 Conversion rate (CR), czyli współczynnik konwersji, to procent użytkowników, którzy wykonują pożądane przez nas działanie – najczęściej dokonują zakupu, zapisują się do newslettera lub wypełniają formularz kontaktowy. To jeden z najważniejszych wskaźników w biznesie online, który bezpośrednio przekłada się na zyski.
 

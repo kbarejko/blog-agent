@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Conversion Rate",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Conversion Rate",
+    "prompt": "Professional modern illustration for Conversion Rate",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
