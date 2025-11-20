@@ -1,0 +1,17 @@
+categories:
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: najlepsze-praktyki-ux
+  title: Najlepsze Praktyki UX
+  path: strony-internetowe/projektowanie-ux-ui/najlepsze-praktyki-ux
+- slug: testy-uzytecznosci
+  title: Testy Użyteczności
+  path: strony-internetowe/projektowanie-ux-ui/testy-uzytecznosci
+- slug: ux-aplikacji-webowych
+  title: UX aplikacji webowych
+  path: strony-internetowe/projektowanie-ux-ui/ux-aplikacji-webowych
+- slug: technologie-aplikacji-webowych
+  title: Technologie aplikacji webowych
+  path: rozwoj-oprogramowania/technologie-aplikacji-webowych
+count: 5
