@@ -1,19 +1,18 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Definicja wireframe'u** - Zrozumiesz czym jest wireframe w kontekście biznesowym i dlaczego to fundament każdej udanej strony internetowej
 - **Różnice między wireframe, mockupem i prototypem** - Dowiesz się kiedy używać każdego narzędzia i jak uniknąć kosztownych błędów w kolejności etapów projektowych
 - **Trzy rodzaje wireframe'ów** - Poznasz low-fidelity, high-fidelity i responsywne wireframes wraz z ich praktycznym zastosowaniem w biznesie
-- **Checklistę do oceny wireframe'u** - Otrzymasz konkretne pytania do projektanta i naucz się rozpoznawać czerwone flagi przed zatwierdzeniem projektu
+- **Checklistę do oceny wireframe'u** - Otrzymasz konkretne pytania do projektanta i nauczysz się rozpoznawać czerwone flagi przed zatwierdzeniem projektu
 - **Wpływ na konwersje i oszczędności** - Zobaczysz jak dobry wireframe zwiększa sprzedaż i redukuje koszty zmian podczas tworzenia strony
-
 
 ## Co to jest wireframe i dlaczego każda firma go potrzebuje
 
-# Wireframe
+### Wireframe
 
 Statystyki są bezlitosne: 88% użytkowników nie wróci na stronę po złym pierwszym wrażeniu. A przecież każdy przedsiębiorca marzy o witrynie, która sprzedaje sama siebie. Problem w tym, że między wizją a rzeczywistością często zieje przepaść szeroka na dziesiątki tysięcy złotych.
 
-## Co to jest wireframe i dlaczego każda firma go potrzebuje
+### Co to jest wireframe i dlaczego każda firma go potrzebuje
 
 Wireframe to szkielet Twojej przyszłej strony internetowej – uproszczony plan pokazujący, gdzie znajdą się kluczowe elementy, treści i funkcjonalności. Myśl o nim jak o architektonicznym rzucie budynku, zanim wybierzesz kolor ścian czy rodzaj podłóg.
 
