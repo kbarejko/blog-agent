@@ -1,11 +1,10 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Checklist przed publikacją** - 15 kluczowych punktów kontrolnych, które zabezpieczą Cię przed kosztownymi błędami po uruchomieniu strony
 - **Konfiguracja SSL i DNS** - konkretne kroki techniczne, które musisz wykonać, aby strona działała bezpiecznie i była widoczna dla klientów
 - **Elementy RODO** - 5 obowiązkowych składników polityki prywatności i sposób konfiguracji zgód, które chronią Cię przed karami do 20 mln euro
 - **Google Search Console** - jak poprawnie zgłosić stronę do indeksowania i realistyczne terminy pojawienia się w wynikach wyszukiwania (14-90 dni)
 - **Plan awaryjny** - gotowe rozwiązania najczęstszych problemów pierwszych 48 godzin po publikacji, które oszczędzą Ci stresu i utraconych klientów
-
 
 ## Wprowadzenie - dlaczego moment publikacji to kluczowy etap
 
@@ -47,7 +46,7 @@ Certyfikat SSL w 2024 roku to nie opcja, lecz konieczność. Google penalizuje s
 
 ## Aspekty prawne i zgodność z przepisami
 
-Gdy techniczna strona publikacji jest gotowa, przychodzi czas na elementy prawne. To obszar, który wielu przedsiębiorców odkłada na później, ale który może przysparzać poważnych problemów, jeśli nie zostanie właściwie przygotowany od samego początu.
+Gdy techniczna strona publikacji jest gotowa, przychodzi czas na elementy prawne. To obszar, który wielu przedsiębiorców odkłada na później, ale który może przysparzać poważnych problemów, jeśli nie zostanie właściwie przygotowany od samego początku.
 
 ### RODO i polityka prywatności
 
@@ -83,7 +82,7 @@ Lokalne SEO zmienia zasady gry dla firm z konkretną lokalizacją. Dodaj do tre�
 
 Google znajdzie Twoją stronę sam, ale można ten proces przyspieszyć. W Search Console użyj funkcji „Prośba o indeksowanie" dla głównej strony i najważniejszych podstron. Dodaj kilka linków zewnętrznych – choćby z profili firmowych w social mediach czy z katalogu branżowego.
 
-Pierwsze pozycje w Google to maraton, nie sprint. Nowa strona pojawi się w wynikach w ciągu kilku dni, ale stabilne pozycje buduje miesiącami. Młode domeny potrzebują 3-6 miesięcy, żeby Google zaczął im ufać. Firma budowlana z Krakowa może liczyć na lokalne zapytania wcześniej niż na ogólnokrajowe.
+Pierwsze pozycje w Google to maraton, nie sprint. Nowa strona pojawi się w wynikach w ciągu kilku dni, ale stabilne pozycje buduje się miesiącami. Młode domeny potrzebują 3-6 miesięcy, żeby Google zaczął im ufać. Firma budowlana z Krakowa może liczyć na lokalne zapytania wcześniej niż na ogólnokrajowe.
 
 W pierwszych tygodniach sprawdzaj Search Console codziennie. Zwracaj uwagę na błędy 404, problemy z mobilną wersją i ostrzeżenia bezpieczeństwa. Obserwuj, za które frazy strona zaczyna się pokazywać – często są to zupełnie inne słowa niż te, na które liczyłeś. To cenne informacje do dalszej optymalizacji treści.
 
@@ -126,8 +125,6 @@ Backup to polisa ubezpieczeniowa każdej strony. Skonfiguruj automatyczne kopie 
 Dane z Google Analytics zaczynają pokazywać prawdziwy obraz po tygodniu regularnego ruchu. Sprawdzaj, z jakich źródeł przychodzą użytkownicy, które podstrony są najpopularniejsze i gdzie ludzie najczęściej kończą sesję. Te informacje pomogą w planowaniu pierwszych ulepszeń.
 
 Optymalizacje na podstawie rzeczywistego użytkowania to najcenniejsze zmiany, które możesz wprowadzić. Jeśli widzisz, że wszyscy szukają cennika, a link do niego jest ukryty w stopce, przenieś go do głównego menu. Gdy formularz kontaktowy wypełnia mało osób, sprawdź czy nie ma zbyt wielu pól lub niejasnych instrukcji.
-
----
 
 ## Typowe problemy i jak ich unikać
 

@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Opublikowanie",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Opublikowanie",
+    "prompt": "Professional modern illustration for Opublikowanie",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
