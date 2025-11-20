@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **90% ruchu** - Poznasz dlaczego pierwsza strona Google generuje zdecydowaną większość klientów i jak tam trafić
 - **E-E-A-T w praktyce** - Dowiesz się jak budować Experience, Expertise, Authoritativeness i Trust, które Google nagradza wyższymi pozycjami
@@ -6,10 +6,9 @@
 - **Long tail vs short tail** - Odkryjesz które słowa kluczowe przyciągają więcej płacących klientów niż ogólne hasła branżowe
 - **ROI z działań SEO** - Nauczysz się liczyć konkretny zwrot z inwestycji w pozycjonowanie i interpretować spadki ruchu
 
-
 ## Wprowadzenie – Dlaczego SEO to fundament sukcesu w internecie
 
-# Pozycjonowanie Seo
+### Pozycjonowanie Seo
 
 Każdego dnia w Google wykonuje się ponad 8,5 miliarda wyszukiwań, a 93% wszystkich doświadczeń online zaczyna się właśnie od wyszukiwarki. Jeśli Twoja firma nie pojawia się w tych wynikach, po prostu nie istnieje dla potencjalnych klientów.
 
