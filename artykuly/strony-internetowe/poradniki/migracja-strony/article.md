@@ -14,7 +14,7 @@ Otrzymałeś wiadomość od swojego dostawcy hostingu: czas przenieść firmową
 
 ## Wprowadzenie - Dlaczego migracja strony to więcej niż przeniesienie plików
 
-Migracja strony internetowej to coś więcej niż tylko przenoszenie plików z jednego miejsca do drugiego. To skomplikowany proces wymagający uwagi i precyzyjnego planowania. Dla właściciela firmy to często kwestia zachowania ciągłości biznesu online i utrzymania pozycji w wynikach wyszukiwania.
+Migracja strony internetowej to coś więcej niż tylko [przenoszenie plików z jednego miejsca do drugiego](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych). To skomplikowany proces wymagający uwagi i precyzyjnego planowania. Dla właściciela firmy to często kwestia zachowania ciągłości biznesu online i utrzymania pozycji w wynikach wyszukiwania.
 
 Migracja jest często konieczna z różnych powodów: może być wynikiem konieczności przejścia na lepszy hosting, problemów z obecnym dostawcą lub chęci technologicznego rozwoju firmy. Czasem jest to wynik rebrandingu lub potrzeby zwiększenia wydajności strony.
 
@@ -30,7 +30,7 @@ Skuteczna migracja zaczyna się na długo przed przeniesieniem pierwszego pliku.
 
 ### Audyt obecnej strony
 
-Na początek zrób dokładny spis tego, co już masz. Przejrzyj każdą stronę i zanotuj wszystkie funkcjonalności, takie jak formularze kontaktowe, sklep, newsletter czy integracje z mediami społecznościowymi.
+Na początek zrób dokładny spis tego, co już masz. Przejrzyj każdą stronę i zanotuj [wszystkie funkcjonalności, takie jak formul](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc)arze kontaktowe, sklep, newsletter czy integracje z mediami społecznościowymi.
 
 Zajrzyj do Google Analytics lub innych narzędzi analitycznych. Które strony przyciągają najwięcej użytkowników? Te będą wymagały szczególnej troski podczas migracji. Często bywa tak, że 20% stron odpowiada za 80% odwiedzin.
 
