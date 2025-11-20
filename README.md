@@ -182,6 +182,57 @@ blog-agent list
 blog-agent list --series ecommerce
 ```
 
+## Helper Scripts
+
+The repository includes several helper scripts for batch processing and testing:
+
+### Batch Processing
+
+**Generate all articles** (skip existing):
+```bash
+./generate_all_articles.sh                    # Process all articles
+./generate_all_articles.sh artykuly/ecommerce # Process only ecommerce series
+```
+
+Features:
+- Finds all `config.yaml` files in specified directory
+- Skips articles that already have `article.md`
+- Shows progress counter and summary
+- Handles errors gracefully
+
+**Load environment variables** before running commands:
+```bash
+./run_with_env.sh blog-agent create --config path/to/config.yaml
+./run_with_env.sh python test_hero_generation.py
+```
+
+Automatically loads `.env` file and passes environment to command.
+
+### Testing Scripts
+
+**Test hero image generation**:
+```bash
+python test_hero_generation.py  # Test DALL-E 3 hero generation
+```
+
+**Test multimedia with stock suggestions**:
+```bash
+python test_multimedia_stock.py  # Test multimedia.json with stock_suggestions
+```
+
+**Test Stability AI**:
+```bash
+python test_stability_ai.py  # Test Stability AI (SDXL) integration
+```
+
+**Other test scripts**:
+- `test_gemini.py` - Test Gemini API integration
+- `test_ollama.py` - Test Ollama local models
+- `test_openai.py` - Test OpenAI GPT models
+- `test_internal_linking.py` - Test internal linking step
+- `test_cta.py` - Test CTA generation
+- `test_schema.py` - Test Schema.org generation
+
 ## Workflow Steps
 
 1. **Init** - Create folder structure
