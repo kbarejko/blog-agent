@@ -16,7 +16,7 @@ Pewien właściciel firmy budowlanej przez długi czas nie zwracał uwagi na swo
 
 Przedsiębiorcy często doświadczają tzw. "ślepoty właściciela" – zjawiska, kiedy zbyt dobrze znamy naszą stronę, by obiektywnie ocenić jej słabe strony. Codzienne patrzenie na nią sprawia, że przestajemy zauważać problemy z nawigacją, przestarzały wygląd czy frustracje użytkowników. To zrozumiałe, ale może być też kosztowne.
 
-Odkładanie decyzji o modernizacji strony to nie tylko stracone szanse biznesowe. To także spadki w wynikach wyszukiwania Google, klienci wybierający konkurencję i coraz większa przepaść między Twoim biznesem a jego cyfrowym wizerunkiem. Każdy miesiąc zwłoki to więcej potencjalnych klientów, którzy mogą Cię nie znaleźć.
+Odkładanie decyzji o modernizacji strony to nie tylko stracone szanse biznesowe. To także spadki w wynikach wyszukiwania Google, [klienci wybierający konkurencję](/artykuly/strony-internetowe/podstawy/dlaczego-warto) i coraz większa przepaść między Twoim biznesem a jego cyfrowym wizerunkiem. Każdy miesiąc zwłoki to więcej [potencjalnych klientów, którzy mogą Cię nie znaleźć](/artykuly/strony-internetowe/podstawy/dlaczego-warto).
 
 Dlatego warto zwrócić uwagę na sygnały ostrzegawcze. Nie musisz być ekspertem od stron internetowych, by zauważyć moment, kiedy obecna strona zaczyna hamować rozwój firmy, zamiast go wspierać. Niektóre z tych sygnałów są oczywiste, inne subtelniejsze, ale wszystkie mają jedną wspólną cechę – ignorowanie ich jest kosztowne.
 
@@ -24,7 +24,7 @@ Z tego artykułu dowiesz się, jak rozpoznać siedem kluczowych momentów, kiedy
 
 ## Twoja obecna strona nie generuje rezultatów biznesowych
 
-Każda strona internetowa musi przejść pewien test: jakie korzyści finansowe przynosi Twojej firmie? Jeśli nie znasz odpowiedzi na to pytanie lub wynik jest rozczarowujący, to znak, że warto coś zmienić.
+Każda strona internetowa musi przejść pewien test: [jakie korzyści finansowe przynosi Twojej firmie](/artykuly/strony-internetowe/podstawy/dlaczego-warto)? Jeśli nie znasz odpowiedzi na to pytanie lub wynik jest rozczarowujący, to znak, że warto coś zmienić.
 
 ### Słabe wyniki w konwersji
 
