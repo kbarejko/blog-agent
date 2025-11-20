@@ -1,0 +1,17 @@
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: firma
+  title: Firma
+  path: firma
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+count: 5
