@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Wireframing",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Wireframing",
+    "prompt": "Professional modern illustration for Wireframing",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
