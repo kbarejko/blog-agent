@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Gotowe vs. custom szablony** - konkretne kryteria biznesowe, które pomogą ci podjąć ekonomicznie uzasadnioną decyzję i uniknąć przepłacania za niepotrzebne rozwiązania.
 - **5 kluczowych błędów** - najczęstsze pułapki przy wyborze szablonów, które mogą kosztować cię klientów i pozycje w Google, wraz z praktycznymi sposobami ich uniknięcia.
@@ -6,14 +6,13 @@
 - **Checklist wyboru wykonawcy** - konkretne pytania do developera lub agencji, które odsieją amatorów od profesjonalistów i zaoszczędzą ci kosztownych pomyłek.
 - **Proces wdrożenia krok po kroku** - praktyczny plan implementacji z timeline'em, testami i metrykami, które warto monitorować w pierwszych tygodniach po uruchomieniu.
 
-
 ## Wprowadzenie do HTML szablonów w kontekście biznesowym
 
-# Html Szablony
+### Html Szablony
 
 Klient odwiedza Twoją stronę i w ciągu pierwszych 3 sekund podejmuje decyzję o tym, czy zostanie, czy odejdzie. To, co widzi w tym momencie, to efekt pracy HTML szablonu – niewidzialnej struktury, która może zadecydować o sukcesie lub porażce Twojego biznesu online.
 
-## Wprowadzenie do HTML szablonów w kontekście biznesowym
+### Wprowadzenie do HTML szablonów w kontekście biznesowym
 
 HTML szablon to fundament każdej strony internetowej – szkielet określający jej wygląd, układ elementów i sposób prezentacji treści. To nie jest abstrakcyjne narzędzie dla programistów, lecz strategiczny element Twojej obecności online, który bezpośrednio wpływa na wyniki sprzedażowe.
 
@@ -129,7 +128,7 @@ Pamiętaj: wdrożenie to początek, nie koniec. Szablon wymaga regularnej konser
 
 Nawet najlepszy szablon może stać się biznesową katastrofą przez pozornie niewinne błędy. Po latach analizy projektów online widać wyraźne wzorce - te same pułapki łapią zarówno małe firmy, jak i duże korporacje.
 
-### Wyględ ponad funkcjonalnością - kosztowny błąd
+### Wygląd ponad funkcjonalnością - kosztowny błąd
 
 "Wygląda fenomenalnie!" to najczęstsza przyczyna porażek projektów internetowych. Klienci wybierają szablon z oszałamiającą grafiką, nie sprawdzając, czy formularz kontaktowy faktycznie działa. Spektakularne animacje mogą ukrywać fakt, że koszyk sklepu internetowego ma błędy.
 
