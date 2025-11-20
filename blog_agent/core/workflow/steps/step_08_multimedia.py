@@ -58,7 +58,8 @@ def execute_multimedia(
     )
 
     # Generate suggestions
-    response = ai.generate(prompt, max_tokens=2000)
+    # Increased max_tokens for stock_suggestions (unsplash_query, pexels_query, keywords, style_notes)
+    response = ai.generate(prompt, max_tokens=4000)
 
     # Parse multimedia suggestions from JSON response
     try:
@@ -98,6 +99,7 @@ def execute_multimedia(
                     'alt_text': item.get('alt_text', ''),
                     'prompt': item.get('image_prompt', ''),
                     'keywords': item.get('keywords', []),
+                    'stock_suggestions': item.get('stock_suggestions', {}),
                 }
             else:
                 section_media.append({
@@ -110,6 +112,7 @@ def execute_multimedia(
                     'prompt': item.get('image_prompt', ''),
                     'placement': item.get('placement', ''),
                     'keywords': item.get('keywords', []),
+                    'stock_suggestions': item.get('stock_suggestions', {}),
                 })
 
         # Fallback hero if not found
@@ -122,6 +125,7 @@ def execute_multimedia(
                 'alt_text': article.config.title,
                 'prompt': f'Professional illustration for article about {article.config.title}',
                 'keywords': [],
+                'stock_suggestions': {},
             }
 
         multimedia = MultimediaSuggestion(
@@ -146,6 +150,7 @@ def execute_multimedia(
                 'alt_text': article.config.title,
                 'prompt': f'Professional modern illustration for {article.config.title}',
                 'keywords': [],
+                'stock_suggestions': {},
             },
             section_media=[]
         )
