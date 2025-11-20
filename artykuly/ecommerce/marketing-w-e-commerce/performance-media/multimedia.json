@@ -5,7 +5,14 @@
     "description": "Professional illustration related to article topic",
     "alt_text": "Performance Media",
     "prompt": "Professional modern illustration for Performance Media",
-    "keywords": []
+    "keywords": [],
+    "generated": true,
+    "local_path": "images/hero.png",
+    "generation_info": {
+      "provider": "dalle",
+      "model": "dall-e-3"
+    },
+    "revised_prompt": "Capture the dynamic essence of Performance Media in a professional modern style illustration. Visualize a stage set with bright lights and high-tech equipment. Include abstract elements representing various forms of media such as music, cinema, and theater. The whole scene should emanate an energetic and modern vibe, embodying the spirit of contemporary performance art."
   },
   "section_media": [],
   "total_count": 1
