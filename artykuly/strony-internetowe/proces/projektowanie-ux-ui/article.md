@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **Różnica między UX a UI** - Zastanawiasz się, dlaczego warto zrozumieć różnice między UX a UI? Może to zwiększyć konwersję na Twojej stronie nawet o 200%. Przykładowo, poprawa intuicyjności nawigacji może znacznie poprawić doświadczenia użytkownika.
-- **Proces projektowania krok po kroku** - Jak wygląda proces projektowania, od badań użytkowników po przekazanie projektu programistom? Odkryj szczegółowy plan działania z wytycznymi i harmonogramem dla każdej fazy.
+- **[proces projektowania krok po kroku](/artykuly/strony-internetowe/proces/jak-zrobic)** - Jak wygląda proces projektowania, od badań użytkowników po [przekazanie projektu programistom](/artykuly/strony-internetowe/proces/html-poradnik)? Odkryj szczegółowy plan działania z wytycznymi i harmonogramem dla każdej fazy.
 - **5 najkosztowniejszych błędów przedsiębiorców** - Uniknięcie typowych błędów w projektowaniu UX/UI może ocalić Cię przed utratą nawet 40% klientów. Na przykład, nieoptymalne formularze rejestracyjne mogą odstraszać użytkowników.
 - **Kryteria wyboru zespołu projektowego** - Jak wybrać odpowiedni zespół projektowy? Tutaj znajdziesz pytania, które warto zadać agencjom i freelancerom, a także porównanie kosztów różnych form współpracy.
 - **Metryki ROI z inwestycji w design** - Jak zmierzyć zwrot z inwestycji w UX/UI? Dowiedz się, jak wykorzystać konkretne wskaźniki biznesowe, aby ocenić efektywność swojego projektu.
@@ -23,7 +23,7 @@ Statystyki są tutaj bardzo wymowne. Firmy, które inwestują w UX, mogą liczy�
 
 Dobry design to coś więcej niż tylko estetyka. To potężne narzędzie strategiczne. Ładna strona może przyciągnąć wzrok, ale to przemyślane UX/UI skłoni użytkownika do pozostania na niej, dokonania zakupu i powrotu. To jak różnica między pięknym sklepem a jego funkcjonalnością – możesz mieć stylowe wnętrze, ale jeśli klienci nie znajdą kasy czy produktów, biznes nie przetrwa.
 
-W tym artykule znajdziesz praktyczne wskazówki na temat całego procesu projektowania UX/UI. Dowiesz się, jak zarządzać projektem, unikać kosztownych błędów i jak wybrać odpowiedni zespół. Przede wszystkim zrozumiesz, dlaczego inwestycja w dobry design to nie koszt, lecz inwestycja w rozwój Twojej firmy.
+W tym artykule znajdziesz praktyczne wskazówki na temat całego procesu projektowania UX/UI. Dowiesz się, jak [zarządzać projektem](/artykuly/strony-internetowe/proces/brief), unikać kosztownych błędów i jak wybrać odpowiedni zespół. Przede wszystkim zrozumiesz, dlaczego inwestycja w dobry design to nie koszt, lecz inwestycja w rozwój Twojej firmy.
 ```
 
 ## Czym właściwie jest projektowanie UX i UI - podstawy dla biznesu
