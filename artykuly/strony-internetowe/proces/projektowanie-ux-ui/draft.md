@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Różnica między UX a UI** - dlaczego zrozumienie tej różnicy może zwiększyć konwersję Twojej strony nawet o 200%
 - **Proces projektowania krok po kroku** - konkretne etapy od badań użytkowników po przekazanie materiałów programistom, z timeline'em każdej fazy
@@ -6,14 +6,13 @@
 - **Kryteria wyboru zespołu projektowego** - konkretne pytania do zadania agencji lub freelancerom oraz porównanie kosztów różnych modeli współpracy
 - **Metryki ROI z inwestycji w design** - jak zmierzyć zwrot z inwestycji w UX/UI za pomocą konkretnych wskaźników biznesowych
 
-
 ## Wprowadzenie - dlaczego UX/UI to fundament sukcesu Twojego biznesu online
 
-# Projektowanie Ux Ui
+# Projektowanie UX/UI
 
 Ponad 75% użytkowników ocenia wiarygodność firmy na podstawie designu jej strony internetowej. To nie przypadek – projektowanie UX/UI to dziś jeden z najważniejszych czynników decydujących o sukcesie biznesu online.
 
-## Wprowadzenie - dlaczego UX/UI to fundament sukcesu Twojego biznesu online
+### Wprowadzenie - dlaczego UX/UI to fundament sukcesu Twojego biznesu online
 
 **User Experience (UX)** to całościowe doświadczenie użytkownika podczas interakcji z produktem cyfrowym. Obejmuje każdy punkt kontaktu – od pierwszego wejścia na stronę po finalizację zakupu. **User Interface (UI)** natomiast to wizualna i interaktywna warstwa produktu – kolory, czcionki, przyciski, animacje.
 
