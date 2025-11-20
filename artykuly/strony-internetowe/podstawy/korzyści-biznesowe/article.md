@@ -14,15 +14,15 @@ Wielu przedsiębiorców nadal postrzega stronę internetową jedynie jako wizyt�
 
 ## Wprowadzenie - Dlaczego strona internetowa to strategiczna inwestycja
 
-Strona internetowa to często pierwszy punkt kontaktu z klientami. To właśnie tam podejmują oni decyzję o zakupie, zanim jeszcze skontaktują się z firmą bezpośrednio.
+Strona internetowa to często [pierwszy punkt kontaktu z klientami](/artykuly/strony-internetowe/podstawy/dlaczego-warto). To właśnie tam podejmują oni decyzję o zakupie, zanim jeszcze skontaktują się z firmą bezpośrednio.
 
-Pandemia znacząco zmieniła sposób, w jaki funkcjonuje rynek. Klienci na stałe przenieśli się do internetu. Obecnie aż 87% z nich sprawdza firmę online przed dokonaniem pierwszej wizyty czy zakupu.
+Pandemia znacząco zmieniła sposób, w jaki funkcjonuje rynek. Klienci na stałe przenieśli się do internetu. Obecnie aż 87% z nich [sprawdza firmę online przed dokonaniem pierwszej wizyty](/artykuly/strony-internetowe/podstawy/dlaczego-warto) czy zakupu.
 
-Nie chodzi tylko o to, by być obecnym w sieci. Chodzi o to, aby ta obecność przynosiła realne korzyści.
+Nie chodzi tylko o to, by [być obecnym w sieci](/artykuly/strony-internetowe/podstawy/dlaczego-warto). Chodzi o to, aby ta obecność przynosiła realne korzyści.
 
 Dobrze zaprojektowana strona internetowa nie tylko generuje leady, ale także buduje zaufanie do marki, automatyzuje część procesów sprzedażowych i obniża koszty marketingu.
 
-Firmy, które to rozumieją, rozwijają się szybciej niż ich konkurencja. Te, które tego nie dostrzegają, tracą klientów na rzecz bardziej cyfrowo zaawansowanych rywali.
+Firmy, które to rozumieją, rozwijają się szybciej niż ich konkurencja. Te, które tego nie dostrzegają, [tracą klientów na rzecz bardziej cyfrowo zaawansowanych rywali](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz).
 
 Nie musisz być ekspertem technologii. Wystarczy, że zrozumiesz podstawowe korzyści, jakie strona internetowa może przynieść Twojemu biznesowi.
 
