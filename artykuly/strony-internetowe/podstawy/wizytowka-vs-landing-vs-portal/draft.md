@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Konkretne koszty** - Wizytówka 1500-5000 zł, landing page 2000-8000 zł, portal 15000-100000+ zł wraz z czasem realizacji każdego rozwiązania
 - **Wskaźniki skuteczności** - Landing page'e osiągają konwersję 2-20% w zależności od optymalizacji, portale automatyzują procesy i skalują biznes
@@ -6,14 +6,13 @@
 - **Błędy kosztujące pieniądze** - Najczęstsze pomyłki przedsiębiorców prowadzące do strat finansowych i nieskutecznej obecności online
 - **Praktyczny plan działania** - Konkretne kroki od analizy potrzeb po współpracę z agencją, wraz z kluczowymi pytaniami do zadania wykonawcom
 
-
 ## Wprowadzenie - Jak wybrać właściwy rodzaj strony dla Twojego biznesu
 
-# Wizytowka Vs Landing Vs Portal
+### Wizytowka Vs Landing Vs Portal
 
 Klient dzwoni z pytaniem: "Potrzebuję stronę internetową, ale nie wiem jaką." To jedna z najczęstszych rozmów w każdej agencji interaktywnej. Problem w tym, że źle dobrana strona to nie tylko zmarnowane pieniądze, ale przede wszystkim stracone możliwości rozwoju biznesu.
 
-## Wprowadzenie - Jak wybrać właściwy rodzaj strony dla Twojego biznesu
+### Wprowadzenie - Jak wybrać właściwy rodzaj strony dla Twojego biznesu
 
 Wybór typu strony internetowej to jeden z najczęstszych dylematów przedsiębiorców rozpoczynających przygodę z obecnością online. Widzę to regularnie – właściciele firm zastanawiają się, czy potrzebują "zwykłej strony", czy może czegoś bardziej zaawansowanego, ale nie potrafią sformułować swoich rzeczywistych potrzeb.
 
@@ -152,8 +151,6 @@ Kluczem do sukcesu jest dopasowanie rozwiązania do realnych potrzeb biznesowych
 Inwestycja w odpowiednią stronę internetową to fundament wszystkich działań marketingowych online. Bez solidnej bazy kampanie reklamowe są nieskuteczne, a klienci tracą zaufanie do marki.
 
 Nie jesteś pewny, które rozwiązanie będzie najlepsze dla Twojej firmy? W Digital Vantage oferujemy bezpłatną konsultację, podczas której przeanalizujemy Twoje potrzeby biznesowe i zaproponujemy optymalne rozwiązanie. Skontaktuj się z nami, aby omówić indywidualne wymagania i poznać konkretne możliwości rozwoju online.
-
-## Proponowany tytuł H1:
 
 # Wizytówka vs Landing Page vs Portal - Który Typ Strony Internetowej Wybrać dla Twojego Biznesu?
 
