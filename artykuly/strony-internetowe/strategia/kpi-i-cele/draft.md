@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Framework SMART dla celów digitalowych** - praktyczne podejście do przekształcania ogólnych założeń biznesowych w mierzalne cele online z konkretnymi wskaźnikami sukcesu.
 - **Dedykowane KPI dla różnych branż** - gotowe zestawy metryk dla firm usługowych (cost per lead), e-commerce (współczynnik konwersji) i B2B (marketing qualified leads).
@@ -6,10 +6,9 @@
 - **Narzędzia behawioralne beyond GA** - jak wykorzystać Hotjar i Clarity do zrozumienia dlaczego użytkownicy rezygnują z formularzy i gdzie tracisz potencjalnych klientów.
 - **Cykl optymalizacji oparty na danych** - sprawdzony proces Measure → Analyze → Optimize → Repeat z priorytetyzacją działań według ROI i case study 6-miesięcznej transformacji firmy.
 
-
 ## Wprowadzenie – Dlaczego KPI to fundament sukcesu online
 
-# Kpi I Cele
+# KPI i Cele
 
 Większość przedsiębiorców traktuje swoją stronę internetową jak wizytówkę – statyczny element, który „po prostu ma być". Tymczasem różnica między firmami, które rosną w sieci, a tymi, które walczą o przetrwanie, często sprowadza się do jednej rzeczy: umiejętności mierzenia i optymalizacji wyników.
 
