@@ -20,7 +20,7 @@ Pomyśl o dwóch kancelariach prawnych. Jedna używa jaskrawego różu i czcionk
 
 Kolory działają na poziomie podświadomości. Niebieski może sugerować zaufanie (to dlatego wybierają go banki), czerwień często kojarzy się z pilnością (dlatego jest popularna w e-commerce), a zielony z kolei wydaje się symbolizować spokój i naturalność. Typografia wskazuje na profesjonalizm – czy tekst jest łatwy do przeczytania, czy hierarchia informacji wspiera nawigację?
 
-Właściwy dobór kolorów i czcionek może zwiększyć konwersje nawet o 200%, podczas gdy złe wybory mogą zniechęcić klientów w mgnieniu oka. Właściciele firm często skupiają się na treści, zapominając o wizualnej stronie komunikacji. To błąd, który może kosztować sprzedaż.
+Właściwy dobór kolorów i czcionek może [zwiększyć konwersje nawet o 200%](/artykuly/strony-internetowe/projektowanie/conversion-rate), podczas gdy złe wybory mogą zniechęcić klientów w mgnieniu oka. Właściciele firm często skupiają się na treści, zapominając o wizualnej stronie komunikacji. To błąd, który może kosztować sprzedaż.
 
 W tym artykule znajdziesz praktyczne wskazówki, jak dobrać kolory i czcionki odpowiednie dla Twojej branży, uniknąć typowych wpadek i jak wykorzystać psychologię percepcji do budowania zaufania klientów.
 
