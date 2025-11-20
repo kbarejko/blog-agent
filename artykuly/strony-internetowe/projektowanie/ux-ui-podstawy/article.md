@@ -2,7 +2,7 @@
 
 - **UX i UI w liczbach** - Czy wiesz, że dobrze zaprojektowane strony internetowe mogą znacząco zwiększyć konwersje i sprzedaż w biznesie online? Przyjrzymy się konkretnym statystykom, które to potwierdzają.
 - **Test 3 kliknięć** - Czy Twoi klienci mogą łatwo znaleźć to, czego szukają, bez poczucia frustracji? Przedstawiamy praktyczną metodę, która może pomóc w ocenie intuicyjności Twojej strony.
-- **Psychologia kolorów w sprzedaży** - Kolory, które wybierasz dla swojej marki, mogą mieć ogromne znaczenie. Zobacz, jak strategiczny dobór barw wpływa na decyzje zakupowe i pomaga budować rozpoznawalność marki.
+- **[Psychologia kolorów w sprzedaży](/artykuly/strony-internetowe/projektowanie/kolory-i-typografia)** - Kolory, które wybierasz dla swojej marki, mogą mieć ogromne znaczenie. Zobacz, jak strategiczny dobór barw wpływa na decyzje zakupowe i pomaga budować rozpoznawalność marki.
 - **Narzędzia bez budżetu na agencję** - Nie musisz wydawać fortuny, aby testować swoje pomysły na interfejs. Poznaj aplikacje takie jak Figma czy Canva, które mogą być przydatne dla każdego, kto chce samodzielnie eksperymentować.
 - **Red flags przy wyborze projektanta** - Jakie sygnały ostrzegawcze mogą wskazywać na to, że wybór projektanta okaże się błędny? Dowiedz się, na co zwrócić uwagę, aby uniknąć kosztownych pomyłek.
 
@@ -16,9 +16,9 @@ Każdego dnia tysiące potencjalnych klientów opuszczają strony firm w pierwsz
 
 Wielu przedsiębiorców postrzega stronę internetową jedynie jako atrakcyjną wizytówkę. To mylny pogląd, który może kosztować fortunę.
 
-Z badań wynika, że aż 88% użytkowników nie wraca na stronę po negatywnych doświadczeniach. Przykładowo, Amazon zwiększył swoje przychody o 2,7 miliarda dolarów, skracając czas ładowania strony o zaledwie jedną sekundę. Liczby te mówią same za siebie.
+Z badań wynika, że aż 88% użytkowników nie wraca na stronę po negatywnych doświadczeniach. Przykładowo, Amazon zwiększył swoje przychody o 2,7 miliarda dolarów, skracając [czas ładowania strony](/artykuly/strony-internetowe/projektowanie/responsywnosc) o zaledwie jedną sekundę. Liczby te mówią same za siebie.
 
-Różnica między stroną, która tylko dobrze wygląda, a taką, która skutecznie wspiera biznes, tkwi właśnie w UX/UI. Pierwsza cieszy oko na zrzutach ekranu, druga przekształca odwiedzających w klientów.
+Różnica między stroną, która tylko dobrze wygląda, a taką, która skutecznie wspiera biznes, tkwi właśnie w UX/UI. Pierwsza cieszy oko na zrzutach ekranu, druga [przekształca odwiedzających w klientów](/artykuly/strony-internetowe/projektowanie/conversion-rate).
 
 Piękna strona bez odpowiedniej funkcjonalności przypomina luksusowy sklep z trudnym do znalezienia wejściem. Klienci wchodzą, ale nie wiedzą, gdzie szukać kasy czy wyjścia.
 
