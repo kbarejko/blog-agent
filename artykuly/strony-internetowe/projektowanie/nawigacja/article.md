@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **Reguła 7±2** - Czy zastanawiałeś się kiedyś, dlaczego menu główne z więcej niż dziewięcioma pozycjami może obniżać konwersje? Może warto rozważyć, jak tego unikać i co to oznacza dla Twojej strony.
+- **Reguła 7±2** - Czy zastanawiałeś się kiedyś, dlaczego menu główne z więcej niż dziewięcioma pozycjami [może obniżać konwersje](/artykuly/strony-internetowe/projektowanie/conversion-rate)? Może warto rozważyć, jak tego unikać i co to oznacza dla Twojej strony.
 - **Hamburger menu zabija sprzedaż** - Ukryte menu mobilne, choć wygodne, czasem może zaszkodzić biznesowi. Przyjrzyjmy się, kiedy tak się dzieje i jakie istnieją skuteczniejsze alternatywy.
 - **Paradoks wyboru w nawigacji** - Zbyt wiele opcji może sprawić, że użytkownicy czują się przytłoczeni. Odkryjmy konkretne sposoby na uproszczenie struktury i ułatwienie nawigacji.
 - **Internal linking jako broń SEO** - Zastanawiasz się, jak dobrze przemyślana nawigacja może poprawić pozycjonowanie strony? Sprawdźmy, jak efektywnie przekazywać "link juice".
@@ -10,13 +10,13 @@
 
 # Nawigacja
 
-Kiedy ktoś odwiedza Twoją stronę, masz zaledwie kilka sekund, by zrobić dobre wrażenie. Właśnie w tym krótkim momencie nawigacja pełni rolę przewodnika, który ma za zadanie zatrzymać użytkownika.
+Kiedy ktoś odwiedza Twoją stronę, masz zaledwie kilka sekund, by [zrobić dobre wrażenie](/artykuly/strony-internetowe/projektowanie/kolory-i-typografia). Właśnie w tym krótkim momencie nawigacja pełni rolę przewodnika, który ma za zadanie zatrzymać użytkownika.
 
 ## Wprowadzenie - Dlaczego nawigacja jest kluczem do sukcesu Twojej strony
 
 Pierwsze sekundy decydują o wszystkim. Użytkownik szybko przegląda Twoją stronę, próbując znaleźć odpowiedzi na pytania: "Czy jestem tam, gdzie chciałem trafić?" oraz "Jak mogę dotrzeć do tego, czego szukam?". Jeśli nawigacja nie odpowie na te pytania natychmiast, ryzyko, że odwiedzający odejdzie, jest wysokie.
 
-Złe zaprojektowanie nawigacji może prowadzić do wzrostu współczynnika odrzuceń nawet o 40%. W przypadku e-commerce, każdy dodatkowy klik, jaki musi wykonać użytkownik, aby znaleźć produkt, może oznaczać nawet 7% spadek konwersji.
+Złe zaprojektowanie nawigacji może prowadzić do wzrostu współczynnika odrzuceń nawet o 40%. W przypadku e-commerce, każdy dodatkowy klik, jaki musi wykonać użytkownik, aby znaleźć produkt, może oznaczać nawet 7% [spadek konwersji](/artykuly/strony-internetowe/projektowanie/conversion-rate).
 
 Nawigacja stanowi podstawę doświadczenia użytkownika i jest kluczowym elementem SEO. Google ocenia strukturę Twojej strony przede wszystkim przez pryzmat nawigacji. Logiczna hierarchia treści ułatwia zarówno robotom, jak i użytkownikom poruszanie się po serwisie.
 
