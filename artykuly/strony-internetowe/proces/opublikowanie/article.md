@@ -14,7 +14,7 @@ Po miesiącach intensywnej pracy nad nową stroną internetową nadchodzi chwila
 
 ## Wprowadzenie - dlaczego moment publikacji to kluczowy etap
 
-Publikacja strony internetowej to zwieńczenie całego procesu jej tworzenia. To ostatni, ale z pewnością nie mniej ważny etap. W tym momencie wszystkie dotychczasowe decyzje dotyczące projektu, treści i funkcjonalności muszą sprostać rzeczywistości i oczekiwaniom prawdziwych użytkowników.
+Publikacja strony internetowej to zwieńczenie [całego procesu jej tworzenia](/artykuly/strony-internetowe/proces/brief). To ostatni, ale z pewnością nie mniej ważny etap. W tym momencie wszystkie [dotychczasowe decyzje dotyczące projektu, treści i funkcjonalności](/artykuly/strony-internetowe/proces/content-i-media) muszą sprostać rzeczywistości i oczekiwaniom prawdziwych użytkowników.
 
 Wielu przedsiębiorców podchodzi do tego momentu z mieszanką emocji. Z jednej strony czuje się podekscytowanie nowym narzędziem biznesowym, ale z drugiej pojawia się naturalna obawa przed problemami, które mogą ujawnić się dopiero po uruchomieniu. „Co jeśli coś nie zadziała?", „Czy wszystkie formularze są sprawne?", „Jak zadbać o bezpieczeństwo danych?" – te pytania często pojawiają się w głowach właścicieli firm.
 
@@ -28,7 +28,7 @@ Zanim Twoja strona ujrzy światło dzienne, musi przejść przez dokładny proce
 
 ### Audyt końcowy strony
 
-Na początek warto systematycznie przejrzeć każdy element strony. Sprawdź, czy wszystkie linki w menu działają, wypełnij formularze kontaktowe i upewnij się, że wiadomości rzeczywiście do Ciebie docierają. Czasem formularz wygląda idealnie, ale e-maile mogą ginąć w cyfrowej próżni.
+Na początek warto systematycznie przejrzeć każdy element strony. Sprawdź, czy wszystkie linki w menu działają, [wypełnij formularze kontaktowe](/artykuly/strony-internetowe/proces/html-poradnik) i upewnij się, że wiadomości rzeczywiście do Ciebie docierają. Czasem formularz wygląda idealnie, ale e-maile mogą ginąć w cyfrowej próżni.
 
 Dziś responsywność to absolutny must-have. Otwórz stronę na różnych urządzeniach: telefonie, tablecie i komputerze. Zwróć uwagę nie tylko na to, czy elementy się mieszczą, ale czy są wygodne w obsłudze. Menu, które działa świetnie myszką, może okazać się problematyczne na ekranie dotykowym.
 
