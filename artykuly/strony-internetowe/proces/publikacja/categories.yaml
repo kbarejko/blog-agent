@@ -1,0 +1,17 @@
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+count: 5
