@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Różnice między hostingiem** - Dlaczego VPS może zwiększyć sprzedaż o 30% w porównaniu do hostingu współdzielonego
 - **Frontend vs Backend** - Jak ta wiedza pomoże Ci kontrolować koszty projektów IT i uniknąć przepłacania za niepotrzebne funkcje
@@ -6,10 +6,9 @@
 - **SEO-terminologia** - Core Web Vitals to 3 metryki, które od 2021 roku decydują o pozycji w Google i mogą kosztować Cię klientów
 - **Bezpieczeństwo prawne** - 5 konkretnych działań RODO, które musisz wdrożyć, żeby uniknąć kar do 4% obrotu rocznego
 
-
 ## Wprowadzenie - Po co przedsiębiorcy słownik webowy?
 
-# Slownik
+# Słownik
 
 "Backend nie obsługuje tego API" – słyszysz od programisty i kiwasz głową, choć nie masz pojęcia, czy to dobra, czy zła wiadomość dla Twojego projektu. Takie sytuacje zdarzają się przedsiębiorcom codziennie, a ich koszt często przerasta wyobrażenie.
 

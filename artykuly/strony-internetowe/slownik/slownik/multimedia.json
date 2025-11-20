@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Slownik",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Slownik",
+    "prompt": "Professional modern illustration for Slownik",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
