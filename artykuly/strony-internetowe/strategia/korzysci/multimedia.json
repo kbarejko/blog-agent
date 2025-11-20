@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Korzysci",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Korzysci",
+    "prompt": "Professional modern illustration for Korzysci",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}

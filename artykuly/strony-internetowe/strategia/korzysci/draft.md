@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Pierwsze wrażenie w 0,05 sekundy** - jak profesjonalny design strony buduje wiarygodność i zwiększa konwersję o 40%
 - **Automatyzacja sprzedaży 24/7** - konkretne narzędzia (chatboty, CTA, integracje z CRM), które generują leady bez Twojego udziału
@@ -6,14 +6,13 @@
 - **Oszczędność czasu przez automatyzację** - systemy rezerwacji online, FAQ i marketing automation redukujące powtarzalne zadania
 - **ROI profesjonalnej strony vs tradycyjna reklama** - porównanie kosztów i długoterminowych korzyści z konkretnymi przykładami firm
 
-
 ## Wprowadzenie - dlaczego każdy biznes potrzebuje profesjonalnej strony
 
-# Korzyści
+### Korzyści
 
 Wyobraź sobie, że potencjalny klient znajduje Twoją stronę internetową. Ma 0,05 sekundy, żeby zdecydować, czy zostanie czy odejdzie. To mniej czasu niż potrzeba na mrugnięcie okiem. W tym momencie Twoja strona już o nim zadecydowała.
 
-## Wprowadzenie - dlaczego każdy biznes potrzebuje profesjonalnej strony
+### Wprowadzenie - dlaczego każdy biznes potrzebuje profesjonalnej strony
 
 Badania pokazują, że 75% konsumentów ocenia wiarygodność firmy wyłącznie na podstawie designu strony internetowej. To brutalna prawda dzisiejszego biznesu – nie masz drugiej szansy na pierwsze wrażenie.
 
