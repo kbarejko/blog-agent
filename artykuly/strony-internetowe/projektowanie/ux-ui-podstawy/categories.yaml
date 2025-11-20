@@ -1,0 +1,17 @@
+categories:
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: najlepsze-praktyki-ux
+  title: Najlepsze Praktyki UX
+  path: strony-internetowe/projektowanie-ux-ui/najlepsze-praktyki-ux
+- slug: testy-uzytecznosci
+  title: Testy Użyteczności
+  path: strony-internetowe/projektowanie-ux-ui/testy-uzytecznosci
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+count: 5
