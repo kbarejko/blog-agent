@@ -1,0 +1,17 @@
+categories:
+- slug: firma
+  title: Firma
+  path: firma
+- slug: strategia-it
+  title: Strategia IT
+  path: strategia-it
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+count: 5
