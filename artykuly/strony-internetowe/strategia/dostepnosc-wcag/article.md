@@ -18,7 +18,7 @@ W 2006 roku Coca-Cola musiała ponieść konsekwencje prawne za to, że jej stro
 
 ## Wprowadzenie - dlaczego dostępność to nie opcja, ale konieczność biznesowa
 
-Na świecie żyje 1,3 miliarda ludzi z różnorodnymi niepełnosprawnościami. To nie są tylko liczby – to potencjalni klienci, których łączna siła nabywcza przekracza 13 bilionów dolarów rocznie. W Polsce osoby z niepełnosprawnościami stanowią około 12% populacji, a często to właśnie oni mają więcej czasu na zakupy online niż przeciętny konsument.
+Na świecie żyje 1,3 miliarda ludzi z różnorodnymi niepełnosprawnościami. To nie są tylko liczby – to [potencjalni klienci](/artykuly/strony-internetowe/strategia/dlaczego-warto), których łączna siła nabywcza przekracza 13 bilionów dolarów rocznie. W Polsce osoby z niepełnosprawnościami stanowią około 12% populacji, a często to właśnie oni mają więcej czasu na zakupy online niż przeciętny konsument.
 
 Pomijanie dostępności niesie za sobą coraz poważniejsze konsekwencje prawne. Od 2019 roku w Polsce obowiązuje ustawa o dostępności cyfrowej, a Europejska Dyrektywa Web Accessibility wymaga, by strony spełniały standardy WCAG 2.1 na poziomie AA. Kary mogą wynieść nawet 100 tysięcy złotych, nie wspominając o kosztach sądowych i możliwej utracie reputacji.
 
