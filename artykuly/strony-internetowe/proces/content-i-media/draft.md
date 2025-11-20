@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Mapowanie contentu do customer journey** - poznasz konkretne typy treści, które wspierają klientów na każdym etapie procesu zakupowego i zwiększają konwersje.
 - **Copywriting zorientowany na sprzedaż** - otrzymasz sprawdzone techniki pisania nagłówków, call-to-action i wykorzystania storytellingu, które przekładają się na wymierne rezultaty biznesowe.
@@ -6,14 +6,13 @@
 - **ROI content marketingu** - poznasz konkretne metryki i narzędzia do mierzenia zwrotu z inwestycji w treści, aby podejmować świadome decyzje biznesowe.
 - **Model outsourcing vs. in-house** - otrzymasz jasne kryteria decyzyjne dotyczące zatrudniania copywriterów, współpracy z agencjami i budżetowania długoterminowej strategii contentu.
 
-
 ## Wprowadzenie
 
-# Content I Media
+### Content I Media
 
 Ponad 70% użytkowników opuszcza stronę w ciągu pierwszych 10 sekund. Decyduje o tym nie tylko design, ale przede wszystkim jakość treści i mediów.
 
-## Wprowadzenie
+#### Wprowadzenie
 
 Content i media to podstawa każdej skutecznej strony internetowej. To one przekonują klienta do zakupu, budują zaufanie i pozycjonują firmę w Google. Dobra treść prowadzi użytkownika przez cały proces sprzedaży – od pierwszego kontaktu z marką po finalizację transakcji.
 
