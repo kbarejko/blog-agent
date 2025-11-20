@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Responsywnosc",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Responsywnosc",
+    "prompt": "Professional modern illustration for Responsywnosc",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}

@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Ponad 60% ruchu** z urządzeń mobilnych oznacza, że nieresponsywna strona może kosztować Cię połowę potencjalnych klientów
 - **Mobile-first indexing Google** sprawia, że wersja mobilna Twojej strony decyduje o pozycji w wynikach wyszukiwania
@@ -6,10 +6,9 @@
 - **Praktyczne narzędzia testowania** pozwalają samodzielnie sprawdzić responsywność bez angażowania specjalistów
 - **Plan działania krok po kroku** od audytu obecnej strony po wybór odpowiedniej agencji i budżetowanie projektu
 
-
 ## Wprowadzenie – dlaczego responsywność to podstawa nowoczesnego biznesu online
 
-# Responsywność strony internetowej – dlaczego Twoja firma traci klientów i jak to zmienić w 2024
+### Responsywność strony internetowej – dlaczego Twoja firma traci klientów i jak to zmienić w 2024
 
 Wyobraź sobie, że klient stoi przed Twoim sklepem, ale nie może dostać się do środka, bo drzwi są za małe. Dokładnie to samo dzieje się z nieresponsywną stroną internetową – blokujesz dostęp do swojej oferty 70% potencjalnych klientów.
 
@@ -61,7 +60,7 @@ Stanford Web Credibility Research dowodzi, że 75% użytkowników ocenia wiarygo
 
 Utrata zaufania ma efekt kumulacyjny. Klient, który miał złe doświadczenie z Twoją mobilną stroną, prawdopodobnie nie wróci już nigdy. Gorzej – podzieli się tym doświadczeniem ze znajomymi. W erze social media jedna źle działająca strona może zniszczyć reputację budowaną latami.
 
-Konkurenci z responsywnymi stronami zyskują podwójnie. Nie tylko obsługują mobilnych klientów skuteczniej, ale też postrzegani są jako bardziej nowoczesni i profesjonalni. To przewaga, której odrobienie kosztuje znacznie więcej niż pierwotne wdrożenie responsywności.
+Konkurenci z responsywnymi stronami zyskują podwójnie. Nie tylko obsługują mobilnych klientów skuteczniej, ale też postrzegani są jako bardziej nowocześni i profesjonalni. To przewaga, której odrobienie kosztuje znacznie więcej niż pierwotne wdrożenie responsywności.
 
 ## Kluczowe elementy responsywnej strony biznesowej
 
