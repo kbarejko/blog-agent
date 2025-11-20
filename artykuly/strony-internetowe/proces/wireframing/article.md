@@ -3,7 +3,7 @@
 - **Rzeczywiste koszty** - Wprowadzenie zmian w strukturze strony po jej wdrożeniu może być 5-10 razy droższe niż zaplanowanie wszystkiego z użyciem wireframów na samym początku.
 - **Wybór odpowiedniego typu** - Dla prostych stron biznesowych wystarczą wireframy niskiej szczegółowości, jednak w przypadku integracji z CRM czy systemami płatności, bardziej zaawansowane wireframy są niezbędne.
 - **Konkretne elementy do zaplanowania** - Tworząc wireframy, warto zwrócić uwagę na ścieżki konwersji, formularze do generowania leadów oraz optymalizację dla urządzeń mobilnych, gdyż każdy z tych elementów potrzebuje indywidualnego podejścia.
-- **Praktyczny proces współpracy** - Warto przygotować się do spotkania z agencją, mając na uwadze kluczowe informacje oraz efektywną komunikację uwag, co może pomóc uniknąć kosztownych poprawek.
+- **Praktyczny proces współpracy** - Warto [przygotować się do spotkania z agencją](/artykuly/strony-internetowe/proces/brief), mając na uwadze kluczowe informacje oraz efektywną komunikację uwag, co może pomóc uniknąć kosztownych poprawek.
 - **Mierzalne rezultaty** - Po wdrożeniu warto śledzić konkretne wskaźniki KPI, by zrozumieć, jak wireframing wpływa na wskaźnik konwersji i zwrot z inwestycji w stronę internetową.
 
 ## Wprowadzenie – Po co firmie wireframing?
@@ -16,9 +16,9 @@ Każdego roku mnóstwo firm wydaje ogromne sumy na redesign stron internetowych,
 
 Wireframing to tworzenie szkieletu strony internetowej – układu pokazującego, gdzie znajdą się poszczególne elementy, jak będą działać i w jakiej kolejności użytkownik będzie z nimi wchodzić w interakcje. To trochę jak plan architektoniczny przed budową domu, tylko dla Twojej obecności w sieci.
 
-Wielu przedsiębiorców uważa wireframing za zbędny. "Dlaczego mamy płacić za szare prostokąty, skoro możemy od razu przejść do projektu?" – to pytanie słyszę często. Takie podejście może kosztować firmy setki tysięcy złotych rocznie. Wireframe wydaje się abstrakcyjny, podczas gdy kolorowy mockup wygląda na "prawdziwą stronę".
+Wielu przedsiębiorców uważa wireframing za zbędny. "Dlaczego mamy płacić za szare prostokąty, skoro możemy od razu [przejść do projektu](/artykuly/strony-internetowe/proces/projektowanie-ux-ui)?" – to pytanie słyszę często. Takie podejście może kosztować firmy setki tysięcy złotych rocznie. Wireframe wydaje się abstrakcyjny, podczas gdy kolorowy mockup wygląda na "prawdziwą stronę".
 
-Niestety, rzeczywistość jest taka, że zmiana struktury strony po jej wdrożeniu kosztuje 10-100 razy więcej niż wprowadzenie tej samej zmiany na etapie wireframu. Gdy klient odkrywa, że formularz kontaktowy powinien być wyżej, a sekcja "O nas" nie jest potrzebna na stronie głównej, wireframe można poprawić w godzinę. Gotową stronę – w tygodnie.
+Niestety, rzeczywistość jest taka, że zmiana struktury strony po jej wdrożeniu kosztuje 10-100 razy więcej niż wprowadzenie tej samej zmiany na etapie wireframu. Gdy klient odkrywa, że formularz kontaktowy powinien być wyżej, a [sekcja "O nas"](/artykuly/strony-internetowe/proces/content-i-media) nie jest potrzebna na stronie głównej, wireframe można poprawić w godzinę. Gotową stronę – w tygodnie.
 
 Jedna z firm, z którą pracowałem rok temu, zaoszczędziła 40 tysięcy złotych dzięki przemyślanemu wireframingowi. W trakcie tego procesu odkryli, że planowana struktura sklepu online wymuszała na klientach niepotrzebne kroki przed zakupem. Poprawka na etapie wireframu zajęła 2 godziny. Ta sama zmiana po wdrożeniu wymagałaby przeprogramowania całego systemu koszyka.
 
