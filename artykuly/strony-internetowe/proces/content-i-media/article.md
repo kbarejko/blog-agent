@@ -21,12 +21,12 @@ Jakość treści ma bezpośredni wpływ na konwersje. Strony, które oferują st
 
 Niestety, wielu przedsiębiorców popełnia podstawowe błędy. Postrzegają content jako koszt zamiast inwestycji, kopiują treści od konkurencji lub tworzą je w pośpiechu. Często używają zdjęć z banków obrazów, zamiast pokazać prawdziwą twarz firmy. Ignorują potrzeby klientów, skupiając się wyłącznie na sobie.
 
-Ten artykuł to praktyczny przewodnik po strategii content & media. Dowiesz się, jak planować treści, które wspierają sprzedaż, kiedy warto zainwestować w profesjonalne zdjęcia, oraz czy video jest konieczne w Twojej branży. Pokażemy także, jak mierzyć skuteczność contentu i kiedy warto zlecić go na zewnątrz.
+Ten artykuł to [praktyczny przewodnik po strategii content & media](/artykuly/strony-internetowe/proces/brief). Dowiesz się, [jak planować treści, które wspierają sprzedaż](/artykuly/strony-internetowe/proces/brief), kiedy warto zainwestować w profesjonalne zdjęcia, oraz czy video jest konieczne w Twojej branży. Pokażemy także, jak mierzyć skuteczność contentu i kiedy warto zlecić go na zewnątrz.
 ```
 
 ## Strategia contentu - od celów biznesowych do treści
 
-Zrozumienie klienta jest kluczem do tworzenia efektywnego contentu. Zamiast skupiać się na opisie firmy, warto najpierw zadać sobie pytanie: jakie problemy rozwiązujemy i kiedy klient ich doświadcza?
+[Zrozumienie klienta jest kluczem](/artykuly/strony-internetowe/proces/brief) do tworzenia efektywnego contentu. Zamiast skupiać się na opisie firmy, warto najpierw zadać sobie pytanie: jakie problemy rozwiązujemy i kiedy klient ich doświadcza?
 
 ### Mapowanie contentu do customer journey
 
