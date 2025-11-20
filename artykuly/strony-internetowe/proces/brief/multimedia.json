@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Brief",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Brief",
+    "prompt": "Professional modern illustration for Brief",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
