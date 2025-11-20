@@ -1,8 +1,8 @@
 ## Co znajdziesz w artykule?
 
 - **Co mówią statystyki** - zastanawiałeś się kiedyś, dlaczego aż 97% klientów przeszukuje internet, zanim zdecyduje się na zakup? To może sugerować, że obecność online jest kluczowa.
-- **Wzrost przychodów** - strona internetowa to narzędzie, które może zwiększyć zasięg Twojej firmy na cały świat i przyciągać klientów przez całą dobę.
-- **Trzy typy stron** - potrzebujesz prostej wizytówki za 3000 zł, czy może rozbudowanego sklepu internetowego za 30000 zł? Wybór zależy od Twoich potrzeb.
+- **Wzrost przychodów** - strona internetowa to [narzędzie, które może zwiększyć zasięg Twojej firmy](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe) na cały świat i przyciągać klientów przez całą dobę.
+- **Trzy typy stron** - potrzebujesz [prostej wizytówki za 3000 zł, czy może rozbudowanego sklepu internetowego za 30000 zł](/artykuly/strony-internetowe/podstawy/wizytowka-vs-landing-vs-portal)? [Wybór zależy od Twoich potrzeb](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz).
 - **5 kluczowych elementów** - bez nich Twoja strona może stracić na wiarygodności w oczach potencjalnych klientów.
 - **Powszechne błędy, które mogą kosztować** - dlaczego aż 60% firm traktuje stronę jako jednorazowy wydatek zamiast długoterminowej inwestycji?
 
@@ -14,7 +14,7 @@ Pomyśl o ostatnim razie, gdy szukałeś nowego miejsca na obiad, dobrego mechan
 
 ## Wprowadzenie - dlaczego każda firma potrzebuje stronę internetowej
 
-Wyobraźmy sobie sytuację: prowadzisz świetnie prosperującą firmę budowlaną z bogatym doświadczeniem, zadowolonymi klientami i atrakcyjnymi cenami. Jest tylko jeden problem. Kiedy ktoś wpisuje w Google "firma budowlana Warszawa", Twojej firmy tam nie ma. Konkurencja, która ma swoje strony internetowe, przechwytuje wszystkich potencjalnych klientów.
+Wyobraźmy sobie sytuację: prowadzisz świetnie prosperującą firmę budowlaną z bogatym doświadczeniem, zadowolonymi klientami i atrakcyjnymi cenami. Jest tylko jeden problem. [Kiedy ktoś wpisuje w Google](/artykuly/strony-internetowe/podstawy/dlaczego-warto) "firma budowlana Warszawa", Twojej firmy tam nie ma. Konkurencja, która ma swoje strony internetowe, przechwytuje wszystkich potencjalnych klientów.
 
 Z danych wynika, że aż 88% konsumentów sprawdza firmy online przed pierwszym kontaktem. Dodatkowo, 75% ludzi ocenia wiarygodność firmy na podstawie tego, jak prezentuje się jej strona internetowa. To oznacza, że w zaledwie kilka sekund potencjalny klient może zdecydować, czy chce z Tobą współpracować.
 
