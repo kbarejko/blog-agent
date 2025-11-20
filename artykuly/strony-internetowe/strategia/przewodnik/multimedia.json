@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Przewodnik",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Przewodnik",
+    "prompt": "Professional modern illustration for Przewodnik",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
