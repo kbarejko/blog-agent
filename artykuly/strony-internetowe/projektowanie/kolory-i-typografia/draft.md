@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Psychologia kolorów w sprzedaży** - jak niebieski buduje zaufanie w fintech, a czerwień zwiększa konwersję call-to-action o 21%
 - **Reguła 60-30-10** - sprawdzony system tworzenia profesjonalnych palet kolorów, który eliminuje chaos wizualny na stronie firmowej
@@ -6,14 +6,11 @@
 - **3 najczęstsze błędy kolorystyczne** - dlaczego jasny tekst na jasnym tle traci 67% potencjalnych klientów i jak to naprawić
 - **Gotowe kombinacje font-ów** - sprawdzone pary krojów pisma dla kancelarii, startupów i restauracji plus darmowe narzędzia do implementacji
 
-
 ## Wprowadzenie - dlaczego kolory i typografia to fundament Twojej marki online
-
-# Kolory I Typografia
 
 Klient ocenia Twoją stronę internetową w 50 milisekund – szybciej, niż zdążysz mrugnąć okiem. W tym ułamku sekundy decyduje, czy zostanie na stronie, czy od razu ją zamknie.
 
-## Wprowadzenie - dlaczego kolory i typografia to fundament Twojej marki online
+### Wprowadzenie - dlaczego kolory i typografia to fundament Twojej marki online
 
 Pierwsza reakcja na stronę internetową to emocja, nie logika. Zanim klient przeczyta pierwsze słowo o Twojej ofercie, jego mózg już przetwarza kolory, kształty i sposób układu tekstu. Stanford Web Credibility Research pokazuje, że 75% użytkowników ocenia wiarygodność firmy na podstawie wyglądu strony.
 
@@ -209,6 +206,4 @@ Ten tytuł działa na trzech poziomach. SEO doceni długi ogon słów kluczowych
 
 "Psychologia Kolorów i Typografia w Biznesie - Co Musisz Wiedzieć o Projektowaniu Strony" stawia na naukowe podejście. "Psychologia kolorów" to fraza o rosnącej popularności w wyszukiwarkach. Brzmi bardziej ekspercko, może przyciągnąć właścicieli firm premium.
 
-Każdy z tych tytułów trafia w inny typ przedsiębiorcy. Pierwszy skupia się na praktyczności, drugi na wynikach sprzedażowych, trzeci na aspektach psychologicznych. Wybór zależy od tego, jak chcesz pozycjonować swoją markę – jako praktycznego doradcę, eksperta od wyników czy specjalistę od psychologii biznesu.
-
-Pamiętaj: tytuł H1 powinien być unikalny na każdej stronie, zawierać główne słowo kluczowe i mieć 30-60 znaków dla najlepszego wyświetlania w wynikach wyszukiwania. To pierwszy element, który oceniają zarówno ludzie, jak i algorytmy wyszukiwarek.
+Każdy z tych tytułów trafia w inny typ przedsiębiorcy. Pierwszy skupia się na praktyczności, drugi na wynikach sprzedażowych, trzeci na

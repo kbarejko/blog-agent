@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Kolory I Typografia",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Kolory I Typografia",
+    "prompt": "Professional modern illustration for Kolory I Typografia",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
