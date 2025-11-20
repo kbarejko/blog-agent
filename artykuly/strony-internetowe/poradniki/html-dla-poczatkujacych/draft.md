@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Znaczniki HTML** - konkretne tagi jak `<h1>`, `<img>`, `<a>`, które pozwolą Ci samodzielnie edytować treści na firmowej stronie i komunikować się z programistami
 - **Kontrola nad SEO** - jak poprawna struktura nagłówków i meta tagi wpływają na pozycję w Google oraz dlaczego atrybut alt w obrazkach to konieczność
@@ -6,14 +6,13 @@
 - **Narzędzia do natychmiastowej praktyki** - darmowe edytory jak Visual Studio Code i inspektor przeglądarki do podglądania kodu konkurencji oraz testowania zmian
 - **Błędy kosztujące pozycje** - najczęstsze pomyłki w HTML, które szkodzą pozycjonowaniu i jak je rozpoznać podczas odbioru pracy od agencji
 
-
 ## Wprowadzenie - dlaczego właściciele firm powinni znać podstawy HTML
 
 # Html Dla Poczatkujacych
 
 Właściciel małej firmy budowlanej chciał samodzielnie zmienić cennik na swojej stronie. Zamiast czekać tydzień na programistę, zajęło mu to 10 minut. Wystarczyła podstawowa znajomość HTML.
 
-## Wprowadzenie - dlaczego właściciele firm powinni znać podstawy HTML
+### Wprowadzenie - dlaczego właściciele firm powinni znać podstawy HTML
 
 HTML to język znaczników, który tworzy szkielet każdej strony internetowej. Określa strukturę treści – gdzie znajdują się nagłówki, akapity, linki czy obrazy. To fundament, na którym opiera się cała obecność online Twojej firmy.
 
