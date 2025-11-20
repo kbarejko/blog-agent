@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **UX i UI w liczbach** - Konkretne statystyki pokazujące jak dobre projektowanie zwiększa konwersje i sprzedaż w biznesie online
 - **Test 3 kliknięć** - Praktyczna metoda sprawdzania, czy klienci znajdą na Twojej stronie to czego szukają bez frustracji
@@ -6,14 +6,13 @@
 - **Narzędzia bez budżetu na agencję** - Konkretne aplikacje jak Figma czy Canva do samodzielnego testowania pomysłów na interfejs
 - **Red flags przy wyborze projektanta** - Sygnały ostrzegawcze, które pomogą Ci uniknąć kosztownych błędów przy zlecaniu prac
 
-
 ## Wprowadzenie - Dlaczego UX/UI to fundament sukcesu Twojego biznesu online
 
-# Ux Ui Podstawy
+### Ux Ui Podstawy
 
 Każdego dnia tysiące potencjalnych klientów opuszcza strony firm w ciągu pierwszych sekund. Często nie z powodu słabego produktu czy niekonkurencyjnej ceny, ale przez frustrujące doświadczenie użytkownika.
 
-## Wprowadzenie - Dlaczego UX/UI to fundament sukcesu Twojego biznesu online
+### Wprowadzenie - Dlaczego UX/UI to fundament sukcesu Twojego biznesu online
 
 Wielu przedsiębiorców traktuje stronę internetową jak wizytówkę – ma być ładna i tyle. To błąd kosztujący fortunę.
 
@@ -215,9 +214,9 @@ Dzień 22-30: Wdróż pierwsze poprawki. Zacznij od najprostszych - czytelniejsz
 
 Potrzebujesz profesjonalnej oceny? Audyt UX/UI Twojej strony zajmuje 2-3 dni i konkretnie wskazuje, co blokuje sprzedaż. Skontaktuj się, żeby omówić możliwości.
 
-## Propozycja tytułu H1:
+# Propozycja tytułu H1:
 
-# UX/UI dla biznesu - praktyczny przewodnik po podstawach projektowania stron internetowych
+## UX/UI dla biznesu - praktyczny przewodnik po podstawach projektowania stron internetowych
 
 Każda strona internetowa ma jeden cel - przekształcić odwiedzającego w klienta. Ale większość firm traktuje swoją stronę jak wizytówkę, nie jak narzędzie sprzedaży.
 
