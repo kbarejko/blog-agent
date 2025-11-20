@@ -4,7 +4,7 @@
 - **E-E-A-T w praktyce** - Poznasz, jak w praktyce budować doświadczenie, ekspertyzę, autorytet i zaufanie, które Google może nagrodzić lepszymi pozycjami.
 - **Mobile-first indexing** - Zrozum, dlaczego Google kładzie nacisk na wersję mobilną i jakie to ma znaczenie dla Twojego biznesu.
 - **Long tail vs short tail** - Odkryj, które słowa kluczowe przyciągają bardziej wartościowych klientów niż szeroko pojęte hasła branżowe.
-- **ROI z działań SEO** - Naucz się, jak konkretnie obliczać zwrot z inwestycji w SEO i jak interpretować zmiany w ruchu.
+- **[ROI z działań SEO](/artykuly/strony-internetowe/strategia/kpi-i-cele)** - Naucz się, jak konkretnie obliczać zwrot z inwestycji w SEO i jak interpretować zmiany w ruchu.
 
 ## Wprowadzenie – Dlaczego SEO to fundament sukcesu w internecie
 
@@ -16,7 +16,7 @@ Codziennie w Google odbywa się ponad 8,5 miliarda wyszukiwań, a aż 93% wszyst
 
 Pozycjonowanie SEO to nic innego jak dostosowanie strony internetowej, aby lepiej widniała w organicznych wynikach wyszukiwania. W kontekście biznesowym to starannie zaplanowane kroki, które sprawiają, że Twoja firma pojawia się dokładnie wtedy, kiedy klient potrzebuje produktów lub usług, które oferujesz.
 
-Dane mówią same za siebie – pierwsza strona Google gromadzi około 90% całego ruchu organicznego. Dodatkowo, pierwsze trzy wyniki mają ponad 60% wszystkich kliknięć. Co to oznacza dla Ciebie? Jeśli nie jesteś na pierwszej stronie, to prawdopodobnie konkurencja zdobywa Twoich potencjalnych klientów.
+Dane mówią same za siebie – pierwsza strona Google gromadzi około 90% całego ruchu organicznego. Dodatkowo, pierwsze trzy wyniki mają ponad 60% wszystkich kliknięć. Co to oznacza dla Ciebie? Jeśli nie jesteś na pierwszej stronie, to prawdopodobnie konkurencja [zdobywa Twoich potencjalnych klientów](/artykuly/strony-internetowe/strategia/dlaczego-warto).
 
 Różnica między SEO a płatnymi reklamami w Google Ads polega na trwałości wyników. Reklamy działają tylko wtedy, gdy za nie płacisz. Natomiast dobrze zoptymalizowana strona dzięki SEO może przyciągać klientów przez długi czas, i to bez dodatkowych kosztów za każde kliknięcie.
 
@@ -30,7 +30,7 @@ Chociaż Google nie zdradza dokładnych szczegółów swojego algorytmu, lata ob
 
 ### Algorytmy Google i ich wpływ na biznes
 
-W 2024 roku Google korzysta z ponad 200 czynników rankingowych, ale kilka z nich wydaje się kluczowe. Najważniejsze to jakość i użyteczność treści, doświadczenie użytkownika na stronie, autorytet domeny oraz techniczne aspekty, takie jak szybkość ładowania.
+W 2024 roku Google korzysta z ponad 200 czynników rankingowych, ale kilka z nich wydaje się kluczowe. Najważniejsze to jakość i użyteczność treści, [doświadczenie użytkownika na stronie](/artykuly/strony-internetowe/strategia/korzysci), autorytet domeny oraz techniczne aspekty, takie jak szybkość ładowania.
 
 Google ocenia treści pod kątem ich wartości dla użytkowników. Algorytm analizuje, czy odwiedzający spędzają czas na Twojej stronie, czy wracają do wyników wyszukiwania oraz czy udostępniają linki. Dlatego artykuły pisane tylko pod SEO mogą przegrać z tymi, które rozwiązują rzeczywiste problemy klientów.
 
