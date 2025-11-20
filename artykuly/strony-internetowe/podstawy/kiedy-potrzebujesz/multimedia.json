@@ -1,0 +1,12 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Kiedy Potrzebujesz",
+    "description": "Professional illustration related to article topic",
+    "alt_text": "Kiedy Potrzebujesz",
+    "prompt": "Professional modern illustration for Kiedy Potrzebujesz",
+    "keywords": []
+  },
+  "section_media": [],
+  "total_count": 1
+}
