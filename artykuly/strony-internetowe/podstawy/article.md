@@ -2,7 +2,7 @@
 
 - **Aż 90% klientów sprawdza firmę w internecie** przed dokonaniem zakupu. Brak strony internetowej może więc oznaczać utratę wielu potencjalnych klientów już na samym początku.
 - **Wizytówka a landing page** - ta różnica może być kluczowa dla sukcesu Twojej kampanii reklamowej i jej współczynnika konwersji.
-- **Zwrot z inwestycji (ROI) w stronę internetową** często przewyższa tradycyjne kanały marketingowe. Inwestycja ta zazwyczaj zwraca się w ciągu 6-12 miesięcy.
+- **[Zwrot z inwestycji (ROI) w stronę internetową](/artykuly/strony-internetowe/koszty)** często przewyższa tradycyjne kanały marketingowe. Inwestycja ta zazwyczaj zwraca się w ciągu 6-12 miesięcy.
 - **Automatyzacja procesów** za pomocą strony internetowej, takich jak formularze, rezerwacje czy sekcja FAQ, może oszczędzić Ci kilka godzin pracy tygodniowo.
 - **Konkretnych sygnałów nie brakuje** - Twoja firma może potrzebować strony internetowej już teraz, a nie "w przyszłości".
 
@@ -25,12 +25,12 @@ W tym przewodniku omówimy podstawy: czym właściwie jest strona w kontekście 
 
 Skupimy się na praktycznych aspektach. Bez zbędnej teorii marketingowej, za to z konkretnymi wskazówkami, które możesz od razu wdrożyć.
 
-Jeśli zadajesz sobie pytanie, czy Twoja firma potrzebuje strony internetowej, prawdopodobnie odpowiedź brzmi: tak, i to już od wczoraj.
+Jeśli zadajesz sobie pytanie, [czy Twoja firma potrzebuje strony internetowej](/artykuly/strony-internetowe/poradniki), prawdopodobnie odpowiedź brzmi: tak, i to już od wczoraj.
 ```
 
 ## Czym właściwie jest strona internetowa w kontekście biznesowym
 
-Zamiast technicznych definicji, pomyśl o stronie internetowej jako o potężnym narzędziu komunikacji z klientami. To miejsce, gdzie możesz w pełni kontrolować to, co mówisz o swojej firmie, od pierwszego do ostatniego zdania.
+Zamiast [technicznych definicji](/artykuly/strony-internetowe/slownik), pomyśl o stronie internetowej jako o [potężnym narzędziu komunikacji z klientami](/artykuly/strony-internetowe/projektowanie). To miejsce, gdzie możesz w pełni kontrolować to, co mówisz o swojej firmie, od pierwszego do ostatniego zdania.
 
 ### Definicja wykraczająca poza technikalia
 
