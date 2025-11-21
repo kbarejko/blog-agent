@@ -1,23 +1,25 @@
-## Kiedy Twoja firma potrzebuje strony internetowej
+## Kiedy Twoja firma rzeczywiście potrzebuje strony internetowej
 
-Sprawdź, co dzieje się gdy klient szuka Twojej firmy w Google. Jeśli widzi pustkę, przestarzały design z 2010 roku lub informacje, które nie odpowiadają rzeczywistości – to sygnał alarmowy.
+### Sygnały, że czas na stronę
 
-**Brak obecności online to dziś niemal równoznaczny z nieistnieniem** w oczach potencjalnych klientów. Gdy ktoś pyta znajomych o polecenie hydraulika, pierwszy reflex to „sprawdź go w Google". Brak strony rodzi pytania: czy ta firma w ogóle działa? Dlaczego nie ma nawet podstawowych informacji online?
+Pierwszy sygnał jest oczywisty: klienci pytają o adres strony. Jeśli słyszysz to pytanie częściej niż raz w tygodniu, zwlekanie nie ma sensu.
 
-Przestarzała witryna może szkodzić bardziej niż jej brak. Flash, nieczynne linki, błędy w numerach telefonów – wszystko to podważa wiarygodność. Klienci myślą: jeśli nie potrafią zadbać o własną stronę, jak będą dbać o mój projekt?
+Drugi sygnał wymaga obserwacji konkurencji. Sprawdź, co wyświetla się gdy potencjalny klient szuka usług w Twojej branży. Jeśli widzisz same obce nazwy firm, masz problem.
 
-Drugi sygnał ostrzegawczy to trudności w pozyskiwaniu nowych klientów. Polegasz wyłącznie na poleceniach? To ryzykowna strategia w niestabilnych czasach. **Strona działa 24/7**, przygarnąjąc klientów także wtedy, gdy śpisz.
+Trzeci sygnał to trudności w pozyskiwaniu nowych klientów tradycyjnymi metodami. Polecenia i kontakty osobiste to świetna baza, ale mają swoje ograniczenia skalowalności.
 
-Obserwuj konkurencję. Jeśli lokalni rywale mają profesjonalne witryny z recenzjami, galerią realizacji i prostą formą kontaktu, a Ty masz tylko profil na Facebooku – tracisz klientów każdego dnia.
+### Etapy rozwoju firmy a potrzeby online
 
-Poznaj wszystkie sygnały w artykule [Kiedy potrzebujesz strony internetowej](/kiedy-potrzebujesz).
+Startup potrzebuje strony od pierwszego dnia. To najszybszy sposób na zbudowanie wiarygodności przy minimalnych kosztach. Firma etablowana może pozwolić sobie na zwłokę, ale traci momentum.
 
-**Start-up często czeka „aż się rozkręci"**, ale to błąd. Właśnie na początku każdy klient jest na wagę złota. Prosta strona buduje zaufanie i ułatwia polecenia.
+Działalność lokalna vs. ogólnopolska to różne strategie, ale obie wymagają obecności online. Lokalny fryzjer potrzebuje być widoczny w "fryzjer Kraków", firma kurierska – w całej Polsce.
 
-Firma etablowana może myśleć: „radziliśmy sobie bez internetu 20 lat". Problem w tym, że klienci się zmienili. Nawet 60-latkowie sprawdzają firmy online przed pierwszą wizytą.
+B2B i B2C mają odmienne potrzeby. B2B wymaga bardziej szczegółowych informacji, case studies, możliwości kontaktu. B2C skupia się na emocjach i szybkiej konwersji.
 
-**Sezonowość to dodatkowy argument.** Firma cateringowa zimą może promować wigilie firmowe. Sklep ogrodniczy w sezonie nie ma czasu na marketing – ale strona pracuje za niego.
+Szczegółową analizę sytuacji znajdziesz w: [Kiedy Potrzebujesz](/kiedy-potrzebujesz).
 
-Myśl długoterminowo. Dzisiejsza inwestycja w stronę to fundament pod przyszły rozwój. Można zacząć skromnie i rozbudowywać funkcjonalności wraz z potrzebami.
+### Mity o "za wczesnym" wejściu online
 
-Każda firma – od jednoosobowej praktyki przez warsztat po korporację – może skorzystać na obecności online. Rozwiązania skalują się według budżetu: od prostej wizytówki po zaawansowany portal.
+"Najpierw biznes, potem strona" brzmi rozsądnie, ale jest błędne. Strona to część biznesu, nie dodatek do niego.
+
+Koszt opóźnienia przewyższa koszt wdrożenia. Każdy dzień bez strony to potencjalni klienci, którzy trafili do konkurencji. Podstawowa strona kosztuje jak miesięczna pensja pracownika, ale pracuje całą dobę przez lata.

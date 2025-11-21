@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **97% klientów szuka firm online** - bez strony internetowej Twoja firma praktycznie nie istnieje dla większości potencjalnych klientów
-- **Strona pracuje 24/7 za darmo** - jeden raz zbudowana generuje leady i sprzedaż przez lata, podczas gdy reklamy kosztują za każdy kontakt
-- **5 typów stron dla różnych celów** - landing page, wizytówka, sklep, portal korporacyjny i ich konkretne zastosowania biznesowe
-- **Koszt pozyskania klienta spada o 60%** - klienci którzy znajdą Cię online są tańsi niż ci z reklam tradycyjnych czy poleceń
-- **Gotowa mapa działania** - praktyczne kroki od analizy potrzeb po wybór wykonawcy, z budżetowaniem i timeline'm projektu
+- **90% klientów sprawdza firmę online** przed zakupem - brak strony oznacza utratę potencjalnych klientów już na starcie
+- **Różnica między wizytówką a landing page** może zadecydować o sukcesie Twojej kampanii reklamowej i współczynniku konwersji
+- **ROI ze strony internetowej** często przewyższa tradycyjne kanały marketingowe, a inwestycja zwraca się w ciągu 6-12 miesięcy
+- **Automatyzacja procesów** przez stronę (formularze, rezerwacje, FAQ) może zaoszczędzić Ci kilka godzin tygodniowo
+- **Konkretne sygnały** wskazujące, że Twoja firma potrzebuje strony internetowej już dziś, nie "kiedyś"
