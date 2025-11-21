@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Proces tworzenia strony internetowej",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym wireframy i proces projektowania",
+    "alt_text": "Workspace z laptopem pokazującym proces projektowania strony internetowej - wireframy i szkice UI",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying wireframe mockups and UI design process, white desk, notebook with yellow pen showing sketches, smartphone, coffee cup, natural daylight from window, muted colors black white gray with subtle yellow accents, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "proces",
+      "projektowanie",
+      "strona internetowa",
+      "wireframe"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "web design process laptop wireframes workspace",
+      "pexels_query": "website development workspace mockups",
+      "keywords_for_search": [
+        "web design workspace",
+        "UI wireframes laptop",
+        "development process"
+      ],
+      "style_notes": "Clean workspace, minimalist design, natural lighting, professional business setting"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Wprowadzenie - Dlaczego proces ma znaczenie",
+      "title": "Diagram - Chaos vs. Metodyczne podejście",
+      "description": "Porównanie dwóch ścieżek: chaotycznej vs uporządkowanej realizacji projektu",
+      "alt_text": "Diagram porównujący chaotyczne i metodyczne podejście do tworzenia stron internetowych",
+      "prompt": "Split-screen comparison diagram showing chaotic vs methodical website development approach, left side showing scattered broken elements with red color, right side showing organized linear process with green checkmarks, clean infographic style, black white gray colors with red and green accents, professional design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "proces",
+        "metodyczne podejście",
+        "chaos",
+        "workflow"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process comparison diagram workflow",
+        "pexels_query": "organized vs chaotic process infographic",
+        "keywords_for_search": [
+          "process comparison",
+          "workflow diagram",
+          "business organization"
+        ],
+        "style_notes": "Split-screen comparison, clean infographic style, contrasting colors for different approaches"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Wprowadzenie - Dlaczego proces ma znaczenie",
+      "title": "Wykres - Przekroczenia budżetu projektów bez procesu",
+      "description": "Wykres słupkowy pokazujący statystyki przekroczeń budżetu i opóźnień",
+      "alt_text": "Wykres statystyk projektów stron - przekroczenia budżetu 67% vs 30% redukcja kosztów z procesem",
+      "prompt": "Professional bar chart comparing project outcomes with and without structured process, showing budget overruns and time delays, clean minimalist design, blue and red bars, percentage values clearly visible, white background, business infographic style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "statystyki",
+        "budżet",
+        "opóźnienia",
+        "efektywność procesu"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business statistics chart budget comparison",
+        "pexels_query": "financial data visualization charts",
+        "keywords_for_search": [
+          "project statistics",
+          "budget comparison chart",
+          "business performance data"
+        ],
+        "style_notes": "Clean professional chart, comparison bars, clear percentage values, business color scheme"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Wprowadzenie - Dlaczego proces ma znaczenie",
+      "title": "Infografika - 7 etapów procesu tworzenia strony",
+      "description": "Pionowa infografika przedstawiająca wszystkie 7 kluczowych etapów procesu",
+      "alt_text": "Infografika 7 etapów procesu tworzenia strony internetowej od strategii do optymalizacji",
+      "prompt": "Vertical timeline infographic showing 7 stages of website development process: strategy, UX design, content creation, technical implementation, testing, publishing, optimization. Each stage with icon, numbered steps, arrows connecting stages, clean professional design, black white gray with yellow accents",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "7 etapów",
+        "proces tworzenia",
+        "timeline",
+        "strategia"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website development process timeline infographic",
+        "pexels_query": "business process steps diagram",
+        "keywords_for_search": [
+          "development timeline",
+          "process steps infographic",
+          "website creation stages"
+        ],
+        "style_notes": "Vertical timeline format, numbered steps with icons, professional infographic design"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Projektowanie doświadczeń użytkownika",
+      "title": "Diagram - Od wireframe'u do gotowej strony",
+      "description": "Transformacja od szkieletu strony przez kolejne iteracje do finalnego designu",
+      "alt_text": "Diagram ewolucji projektu od wireframe przez mockup do gotowej strony internetowej",
+      "prompt": "Progressive transformation diagram showing website evolution from wireframe to final design, four stages: basic wireframe boxes, detailed wireframe, visual mockup, final website. Clean design process visualization, grayscale to color transition, professional UX design aesthetic",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "wireframe",
+        "mockup",
+        "iteracje",
+        "projektowanie UX"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "wireframe to website design process evolution",
+        "pexels_query": "UI UX design mockup progression",
+        "keywords_for_search": [
+          "wireframe evolution",
+          "design process stages",
+          "UX design progression"
+        ],
+        "style_notes": "Progressive design stages, from simple wireframes to polished final design"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Implementacja techniczna",
+      "title": "Screenshot - Porównanie platform (WordPress vs Custom)",
+      "description": "Porównanie interfejsów WordPress dashboardu i custom CMS",
+      "alt_text": "Porównanie interfejsów WordPress dashboard i niestandardowego systemu CMS",
+      "prompt": "Split screen comparison of WordPress admin dashboard and custom CMS interface, clean mockup presentation, highlighting key differences in functionality and user experience, professional software interface design, clear UI elements",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "WordPress",
+        "CMS",
+        "dashboard",
+        "porównanie platform"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "WordPress dashboard CMS interface comparison",
+        "pexels_query": "website admin panel interface",
+        "keywords_for_search": [
+          "CMS dashboard",
+          "WordPress interface",
+          "website management panel"
+        ],
+        "style_notes": "Clean interface screenshots, side-by-side comparison, professional software UI"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "checklist",
+      "section": "Sekcja: Testowanie i optymalizacja",
+      "title": "Checklist - Lista kontrolna przed publikacją",
+      "description": "Wizualna lista kontrolna wszystkich elementów do sprawdzenia przed wdrożeniem",
+      "alt_text": "Lista kontrolna testowania strony internetowej przed publikacją z checkboxami",
+      "prompt": "Clean checklist infographic for website pre-launch testing: functionality tests, browser compatibility, mobile responsiveness, SEO audit, performance check. Checkboxes with green checkmarks, organized in categories, professional design, black white gray with green accents",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "testowanie",
+        "checklist",
+        "kontrola jakości",
+        "publikacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website testing checklist quality assurance",
+        "pexels_query": "quality control checklist business",
+        "keywords_for_search": [
+          "testing checklist",
+          "quality control list",
+          "pre-launch checklist"
+        ],
+        "style_notes": "Clean checklist format with checkboxes, organized sections, professional business design"
+      }
+    }
+  ],
+  "total_count": 7
+}
