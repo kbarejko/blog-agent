@@ -1,84 +1,182 @@
 {
   "hero_image": {
     "type": "photo",
-    "title": "Hero image - Podstawy stron internetowych",
-    "description": "Minimalistyczna kompozycja z laptopem i dashboardem e-commerce dla profesjonalnego wizerunku",
-    "alt_text": "Laptop z dashboardem e-commerce na czystym biurku w nowoczesnym biurze",
-    "prompt": "Clean minimalist workspace top-down view, laptop showing e-commerce dashboard with analytics graphs, white desk, minimal items, natural window lighting from side, muted colors black white gray, subtle yellow accent on notebook, professional business aesthetic, high quality, shallow depth of field, no people",
+    "title": "Hero image - Podstawy stron internetowych dla firm",
+    "description": "Minimalistyczny workspace z laptopem pokazującym dashboard biznesowy na czystym biurku",
+    "alt_text": "Laptop z dashboardem biznesowym na minimalistycznym biurku w nowoczesnym biurze",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying business website dashboard with clean interface, white wooden desk, smartphone, notebook with yellow pen, coffee cup, natural daylight from window, professional business aesthetic, muted colors black white gray with subtle yellow accents, high quality, sharp focus, no people",
     "keywords": [
-      "e-commerce",
-      "dashboard",
-      "workspace",
-      "laptop"
+      "strona internetowa",
+      "biznes",
+      "firma",
+      "dashboard"
     ],
-    "generated": true,
-    "local_path": "images/hero.png",
-    "generation_info": {
-      "provider": "stability",
-      "model": "stable-diffusion-xl-1024-v1-0"
+    "stock_suggestions": {
+      "unsplash_query": "business laptop workspace dashboard modern office",
+      "pexels_query": "entrepreneur workspace computer professional setup",
+      "keywords_for_search": [
+        "business workspace",
+        "laptop dashboard",
+        "modern office setup"
+      ],
+      "style_notes": "Clean workspace, natural lighting, professional business setting, minimalist aesthetic"
     }
   },
   "section_media": [
     {
       "type": "chart",
-      "subtype": "bar_chart",
-      "section": "Konkretne korzyści biznesowe ze strony internetowej",
-      "title": "Wykres wzrostu pozyskiwania klientów",
-      "description": "Wykres słupkowy pokazujący wzrost efektywności pozyskiwania klientów dzięki stronie internetowej",
-      "alt_text": "Wykres wzrostu efektywności pozyskiwania klientów online",
-      "prompt": "Bar chart showing growth of client acquisition efficiency over time due to online presence, professional infographic style, black and yellow colors, minimalist design",
-      "placement": "after_paragraph_3",
+      "subtype": "pie_chart",
+      "section": "Wprowadzenie - Dlaczego każda firma potrzebuje strony internetowej",
+      "title": "Statystyka - 90% klientów sprawdza firmę w internecie",
+      "description": "Wykres kołowy pokazujący, że 90% klientów sprawdza firmę online przed zakupem",
+      "alt_text": "Wykres pokazujący że 90% klientów sprawdza firmę w internecie przed zakupem",
+      "prompt": "Clean pie chart showing 90% customers research company online before purchase vs 10% who don't, professional infographic style, blue and gray colors with subtle yellow accent, minimalist design, white background, business data visualization",
+      "placement": "after_paragraph_1",
       "keywords": [
-        "pozyskiwanie klientów",
-        "efektywność",
-        "statystyki"
-      ]
+        "statystyki",
+        "klienci online",
+        "zachowania konsumenckie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business statistics pie chart data visualization",
+        "pexels_query": "infographic chart business data",
+        "keywords_for_search": [
+          "business statistics",
+          "consumer behavior chart",
+          "marketing data visualization"
+        ],
+        "style_notes": "Clean pie chart design, professional colors. Canva templates work well for this type."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Czym właściwie jest strona internetowa w kontekście biznesowym",
+      "title": "Porównanie - Własna strona vs Media społecznościowe",
+      "description": "Infografika porównująca kontrolę nad własną stroną vs profilami w mediach społecznościowych",
+      "alt_text": "Porównanie kontroli nad własną stroną internetową versus profilami w mediach społecznościowych",
+      "prompt": "Side-by-side comparison infographic showing owned website vs social media profiles, left side shows house icon with full control elements, right side shows rented apartment with limitations, clean minimalist design, blue and gray colors with yellow highlights, professional style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "własna strona",
+        "media społecznościowe",
+        "kontrola",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison infographic business ownership vs rental",
+        "pexels_query": "side by side comparison business illustration",
+        "keywords_for_search": [
+          "business comparison",
+          "ownership vs rental",
+          "infographic template"
+        ],
+        "style_notes": "Clean comparison layout, icons and simple text, professional color scheme"
+      }
     },
     {
       "type": "illustration",
       "subtype": "infographic",
-      "section": "Rodzaje stron internetowych - co wybrać dla swojego biznesu",
-      "title": "Infografika - Rodzaje stron internetowych",
-      "description": "Infografika przedstawiająca różne rodzaje stron internetowych i ich zastosowania",
-      "alt_text": "Infografika z rodzajami stron internetowych i ich zastosowaniem",
-      "prompt": "Infographic illustrating different types of websites: business card, landing page, corporate site, e-commerce, with icons and brief descriptions for each type, clean professional design, organized layout",
-      "placement": "after_paragraph_2",
-      "keywords": [
-        "rodzaje stron",
-        "infografika",
-        "websites"
-      ]
-    },
-    {
-      "type": "screenshot",
-      "subtype": "interface",
-      "section": "Pierwsze kroki - jak zacząć planowanie strony",
-      "title": "Screenshot - Panel CMS WordPress",
-      "description": "Screenshot panelu WordPress pokazujący interfejs edycji treści",
-      "alt_text": "Panel administracyjny WordPress z edytorem treści",
-      "prompt": "Clean screenshot of WordPress admin panel showing content editor interface, highlighting key editing tools, professional design, no people",
+      "section": "Rodzaje stron - jak wybrać właściwy dla Twojej firmy",
+      "title": "Infografika - 3 typy stron internetowych",
+      "description": "Pionowa infografika przedstawiająca wizytówkę, landing page i portal korporacyjny z cechami i cenami",
+      "alt_text": "Infografika 3 typów stron internetowych: wizytówka, landing page, portal korporacyjny",
+      "prompt": "Vertical infographic showing 3 types of websites: business card website, landing page, corporate portal. Each section with icon, features list, price range, timeline. Clean modern design, professional layout, muted colors with yellow accents, minimalist style",
       "placement": "after_paragraph_1",
       "keywords": [
-        "WordPress",
-        "CMS",
-        "edytor treści"
-      ]
+        "typy stron",
+        "wizytówka",
+        "landing page",
+        "portal korporacyjny"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website types comparison infographic modern design",
+        "pexels_query": "business infographic types services comparison",
+        "keywords_for_search": [
+          "service comparison",
+          "business types infographic",
+          "pricing comparison"
+        ],
+        "style_notes": "Vertical layout with clear sections, icons for each type, professional business design"
+      }
     },
     {
       "type": "chart",
-      "subtype": "pie_chart",
-      "section": "Dlaczego inwestycja w stronę internetową się opłaca",
-      "title": "Wykres - Koszty pozyskania klientów",
-      "description": "Wykres kołowy przedstawiający różnice w kosztach pozyskania klientów online i offline",
-      "alt_text": "Wykres kołowy pokazujący koszty pozyskania klientów online vs offline",
-      "prompt": "Pie chart illustrating cost comparison of client acquisition online versus offline marketing, professional design, black and yellow color scheme, clear sections",
+      "subtype": "bar_chart",
+      "section": "Konkretne korzyści biznesowe ze strony internetowej",
+      "title": "ROI z inwestycji w stronę internetową",
+      "description": "Wykres słupkowy pokazujący zwrot z inwestycji w stronę internetową w pierwszych 12 miesiącach",
+      "alt_text": "Wykres ROI ze strony internetowej pokazujący zwrot inwestycji w ciągu 12 miesięcy",
+      "prompt": "Clean bar chart showing website ROI over 12 months, monthly revenue bars growing progressively, break-even point marked at month 6, professional business chart design, blue bars with yellow accent line, white background, clear labels",
       "placement": "after_paragraph_2",
       "keywords": [
-        "koszty",
-        "pozyskiwanie klientów",
-        "marketing"
-      ]
+        "ROI",
+        "zwrot z inwestycji",
+        "strona internetowa",
+        "zyski"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart ROI investment return",
+        "pexels_query": "financial growth bar chart business",
+        "keywords_for_search": [
+          "ROI chart",
+          "business growth graph",
+          "investment return visualization"
+        ],
+        "style_notes": "Professional financial chart, clear growth trend, business color scheme"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "process_flow",
+      "section": "Podsumowanie - Twoje następne kroki",
+      "title": "Proces tworzenia strony - 30 dni",
+      "description": "Diagram przepływu pokazujący 3 etapy tworzenia strony w pierwszych 30 dniach",
+      "alt_text": "Diagram procesu tworzenia strony internetowej w 3 etapach przez 30 dni",
+      "prompt": "Horizontal flowchart showing 3-phase website creation process over 30 days: Phase 1 (Days 1-10) goal setting, Phase 2 (Days 11-20) research and quotes, Phase 3 (Days 21-30) decision and start. Clean timeline design with arrows, icons for each phase, professional style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "proces tworzenia strony",
+        "30 dni",
+        "etapy",
+        "timeline"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process timeline diagram workflow",
+        "pexels_query": "project timeline infographic steps",
+        "keywords_for_search": [
+          "business timeline",
+          "project phases",
+          "workflow diagram"
+        ],
+        "style_notes": "Horizontal timeline with clear phases, arrows connecting steps, professional layout"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "example",
+      "section": "Argumenty finansowe",
+      "title": "Przykład kalkulatora ROI strony internetowej",
+      "description": "Screenshot prostego kalkulatora pokazującego ROI z inwestycji w stronę internetową",
+      "alt_text": "Kalkulator ROI pokazujący zwrot z inwestycji w stronę internetową dla małej firmy",
+      "prompt": "Clean calculator interface showing website ROI calculation, input fields for investment amount, monthly visitors, conversion rate, average order value, results showing break-even point and 12-month return, professional UI design, minimal style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "kalkulator ROI",
+        "zwrot inwestycji",
+        "strona internetowa"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "calculator interface financial planning tool",
+        "pexels_query": "business calculator app interface",
+        "keywords_for_search": [
+          "financial calculator",
+          "ROI tool",
+          "business planning app"
+        ],
+        "style_notes": "Clean calculator interface, professional business tool design, clear numbers and fields"
+      }
     }
   ],
-  "total_count": 5
+  "total_count": 7
 }
