@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **95% klientów szuka firm online** - Posiadanie profesjonalnej strony internetowej stało się nie luksusem, a koniecznością w świecie biznesu na rok 2025.
+- **95% klientów szuka firm online** - Posiadanie [profesjonalnej strony internetowej](/artykuly/strony-internetowe/podstawy) stało się nie luksusem, a koniecznością w świecie biznesu na rok 2025.
 - **WordPress dominuje 40% rynku** - Dlaczego tak wiele firm wybiera ten system zarządzania treścią i kiedy warto pomyśleć o innych opcjach?
 - **60% ruchu z mobile** - Dlaczego responsywny design zwiększa konwersję dla lokalnych firm nawet o 25-30%? Przykłady udanych wdrożeń.
 - **Migracja bez utraty SEO** - Jak zaplanować przenoszenie strony, aby nie stracić pozycji w wynikach Google?
@@ -18,13 +18,13 @@ Statystyki mówią same za siebie – aż 95% klientów poszukuje firm w interne
 
 Różnica między stroną wizytówkową a biznesową jest znacząca. Wizytówka to jak statyczna broszura z podstawowymi informacjami. Natomiast strona biznesowa działa jak całodobowe narzędzie sprzedażowe – generuje leady, buduje zaufanie i zachęca do współpracy.
 
-Jakość strony jest ściśle związana z wiarygodnością. Badania sugerują, że 75% użytkowników ocenia firmę na podstawie designu jej strony internetowej. Przestarzała lub niefunkcjonalna witryna może odstraszyć nawet 40% potencjalnych klientów.
+Jakość strony jest ściśle związana z wiarygodnością. Badania sugerują, że 75% użytkowników ocenia firmę na podstawie [designu jej strony internetowej](/artykuly/strony-internetowe/projektowanie). Przestarzała lub niefunkcjonalna witryna może odstraszyć nawet 40% potencjalnych klientów.
 
-W tym przewodniku omówimy kluczowe aspekty tworzenia profesjonalnej strony firmowej. Przeprowadzimy Cię przez planowanie strategii, wybór odpowiedniej technologii, kwestie techniczne oraz migrację istniejących rozwiązań.
+W tym przewodniku omówimy kluczowe aspekty tworzenia profesjonalnej strony firmowej. Przeprowadzimy Cię przez planowanie strategii, [wybór odpowiedniej technologii](/artykuly/strony-internetowe/technologie), kwestie techniczne oraz migrację istniejących rozwiązań.
 
 Pokażemy również, jak zadbać o widoczność w wyszukiwarkach, zabezpieczyć stronę i utrzymać ją w doskonałej kondycji. To kompletny przewodnik dla przedsiębiorców, którzy chcą poważnie podejść do swojej obecności online.
 
-## Planowanie i strategia - od pomysłu do realizacji
+## [Planowanie i strategia - od pomysłu do realizacji](/artykuly/strony-internetowe/proces)
 
 Zanim zaczniesz pisać kod czy wybierać szablon, zastanów się: dlaczego Twoja firma potrzebuje strony internetowej?
 
