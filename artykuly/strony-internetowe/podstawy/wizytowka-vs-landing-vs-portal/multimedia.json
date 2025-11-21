@@ -1,12 +1,160 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Wizytowka Vs Landing Vs Portal",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Wizytowka Vs Landing Vs Portal",
-    "prompt": "Professional modern illustration for Wizytowka Vs Landing Vs Portal",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Porównanie typów stron internetowych",
+    "description": "Minimalistyczna kompozycja 3D z trzema ekranami przedstawiającymi różne typy stron internetowych",
+    "alt_text": "Trzy ekrany pokazujące wizytówkę, landing page i portal internetowy w minimalistycznym stylu",
+    "prompt": "Three floating laptop screens showing different website types: simple business card site, focused landing page, and complex portal dashboard. Minimalist 3D composition on light gray background, clean modern design, black white gray colors with subtle yellow accents, professional tech aesthetic, geometric arrangement, no people",
+    "keywords": [
+      "wizytówka",
+      "landing page",
+      "portal",
+      "strony internetowe"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "multiple website mockups comparison modern",
+      "pexels_query": "web design mockup screens",
+      "keywords_for_search": [
+        "website comparison",
+        "web design mockup",
+        "multiple screens display"
+      ],
+      "style_notes": "Minimalist composition, multiple screen mockups, clean professional design, no people"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Analiza porównawcza - koszty",
+      "title": "Porównanie kosztów trzech typów stron",
+      "description": "Wykres słupkowy pokazujący przedziały cenowe dla wizytówki, landing page i portalu",
+      "alt_text": "Wykres kosztów wizytówki (1500-5000 zł), landing page (2000-8000 zł) i portalu (15000-100000 zł)",
+      "prompt": "Clean horizontal bar chart comparing website costs: business card 1500-5000 PLN, landing page 2000-8000 PLN, portal 15000-100000+ PLN. Professional infographic style, blue gradient bars, clear typography, minimalist design, white background with subtle grid",
+      "placement": "after_paragraph_1_in_comparison_section",
+      "keywords": [
+        "koszty",
+        "ceny",
+        "wizytówka",
+        "landing page",
+        "portal"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison chart professional",
+        "pexels_query": "financial chart data visualization",
+        "keywords_for_search": [
+          "price comparison chart",
+          "cost analysis visualization",
+          "business pricing infographic"
+        ],
+        "style_notes": "Clean professional chart design, horizontal bars showing price ranges"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Kryteria wyboru typu strony",
+      "title": "Infografika - 5 kryteriów wyboru strony internetowej",
+      "description": "Pionowa infografika przedstawiająca kluczowe kryteria wyboru z ikonami",
+      "alt_text": "Infografika 5 kryteriów wyboru strony: budżet, cele biznesowe, wielkość firmy, grupa docelowa, zasoby",
+      "prompt": "Vertical infographic showing 5 website selection criteria: 1) Budget with money icon, 2) Business goals with target icon, 3) Company size with building icon, 4) Target audience with users icon, 5) Resources with tools icon. Clean modern design, numbered steps, black and gray colors with yellow highlights, professional style",
+      "placement": "after_paragraph_2_criteria_section",
+      "keywords": [
+        "kryteria wyboru",
+        "strona internetowa",
+        "decyzja biznesowa",
+        "infografika"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business decision criteria infographic minimalist",
+        "pexels_query": "decision making process visual",
+        "keywords_for_search": [
+          "business criteria infographic",
+          "decision framework visual",
+          "selection process chart"
+        ],
+        "style_notes": "Vertical layout, numbered criteria with icons, professional minimalist design"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "conversion_chart",
+      "section": "Sekcja: Landing page - skuteczność i ROI",
+      "title": "Wykres wskaźników konwersji landing page",
+      "description": "Wykres pokazujący typowe wskaźniki konwersji dla landing page w różnych kategoriach",
+      "alt_text": "Wykres konwersji landing page: średnia 2-5%, dobra 10-15%, najlepsza 20%+",
+      "prompt": "Clean area chart showing landing page conversion rates: average 2-5%, good 10-15%, excellent 20%+. Three colored zones (red, yellow, green), professional design, clear percentage labels, minimalist style with subtle grid background",
+      "placement": "after_paragraph_1_landing_effectiveness",
+      "keywords": [
+        "konwersja",
+        "landing page",
+        "skuteczność",
+        "ROI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "conversion rate optimization chart analytics",
+        "pexels_query": "business performance metrics visualization",
+        "keywords_for_search": [
+          "conversion chart",
+          "performance metrics",
+          "success rate visualization"
+        ],
+        "style_notes": "Clean chart design with color-coded performance zones"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison_table",
+      "section": "Sekcja: Analiza porównawcza",
+      "title": "Tabela porównawcza trzech typów stron",
+      "description": "Wizualna tabela porównująca wizytówkę, landing page i portal pod kątem funkcji, kosztów i zastosowań",
+      "alt_text": "Tabela porównawcza wizytówka vs landing page vs portal internetowy z funkcjami i kosztami",
+      "prompt": "Clean comparison table showing three website types with features, costs, and use cases. Modern design with alternating row colors, clear headers, icons for each type, professional typography, minimal style with subtle borders and shadows",
+      "placement": "after_paragraph_3_comparison_section",
+      "keywords": [
+        "porównanie",
+        "tabela",
+        "wizytówka",
+        "landing page",
+        "portal"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison table design professional clean",
+        "pexels_query": "business comparison chart template",
+        "keywords_for_search": [
+          "comparison table",
+          "feature comparison",
+          "service comparison chart"
+        ],
+        "style_notes": "Clean table design with clear categories and visual hierarchy"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "mockup",
+      "section": "Sekcja: Wizytówka internetowa",
+      "title": "Przykład wizytówki internetowej",
+      "description": "Mockup prostej wizytówki internetowej z typowymi sekcjami",
+      "alt_text": "Mockup wizytówki internetowej z sekcjami: strona główna, o nas, oferta, kontakt",
+      "prompt": "Clean website mockup showing simple business card website with navigation menu, hero section, about us, services, and contact sections. Modern minimal design, professional layout, desktop view, realistic browser frame, no people visible",
+      "placement": "after_paragraph_2_business_card_section",
+      "keywords": [
+        "wizytówka",
+        "mockup",
+        "strona internetowa",
+        "przykład"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "simple website mockup business card clean",
+        "pexels_query": "website template mockup professional",
+        "keywords_for_search": [
+          "business website mockup",
+          "simple website design",
+          "company website template"
+        ],
+        "style_notes": "Clean website mockup showing typical business card site structure"
+      }
+    }
+  ],
+  "total_count": 6
 }

@@ -1,12 +1,184 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Korzyści Biznesowe",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Korzyści Biznesowe",
-    "prompt": "Professional modern illustration for Korzyści Biznesowe",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Korzyści biznesowe strony internetowej",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard analityczny e-commerce",
+    "alt_text": "Laptop z dashboardem analytics e-commerce na minimalistycznym biurku z wykresami wzrostu sprzedaży",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying business analytics dashboard with growth charts and revenue graphs, white wooden desk, smartphone, yellow notebook with pen, coffee cup, natural daylight from window, muted colors black white gray with subtle yellow accents, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "strona internetowa",
+      "korzyści biznesowe",
+      "analytics",
+      "dashboard"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business analytics workspace laptop dashboard",
+      "pexels_query": "entrepreneur workspace computer analytics",
+      "keywords_for_search": [
+        "business dashboard",
+        "analytics workspace",
+        "professional desk setup"
+      ],
+      "style_notes": "Minimalist workspace, clean composition, natural lighting, professional aesthetic zgodny z digital vantage style"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Zwiększenie sprzedaży o 30-60%",
+      "title": "Wykres ROI strony internetowej w pierwszym roku",
+      "description": "Wykres liniowy pokazujący wzrost sprzedaży po wdrożeniu profesjonalnej strony internetowej",
+      "alt_text": "Wykres wzrostu sprzedaży o 30-60% w pierwszym roku po wdrożeniu strony internetowej",
+      "prompt": "Clean line chart showing website ROI growth over 12 months, ascending line from 0% to 60% increase, professional infographic style, black and gray colors with yellow highlights for key milestones, white background, minimalist design, business presentation quality",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "ROI",
+        "wzrost sprzedaży",
+        "strona internetowa",
+        "efektywność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart financial success",
+        "pexels_query": "profit growth graph analytics",
+        "keywords_for_search": [
+          "revenue growth chart",
+          "business success graph",
+          "ROI visualization"
+        ],
+        "style_notes": "Clean professional chart, upward trend line, minimalist design. ChartJS lub Canva templates."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Automatyzacja obsługi klienta",
+      "title": "Infografika - Oszczędności przez automatyzację",
+      "description": "Porównanie kosztów tradycyjnej obsługi vs automatyzacji przez stronę internetową",
+      "alt_text": "Infografika porównująca koszty obsługi klienta: tradycyjna vs automatyzacja przez stronę internetową",
+      "prompt": "Split comparison infographic showing traditional customer service costs vs website automation savings, left side showing higher costs with traditional methods, right side showing 40% cost reduction with automation, clean design with icons, black and gray colors with yellow accents, professional business style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "automatyzacja",
+        "oszczędności",
+        "obsługa klienta",
+        "chatbot"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "automation cost savings infographic comparison",
+        "pexels_query": "business efficiency automation chart",
+        "keywords_for_search": [
+          "cost comparison infographic",
+          "automation savings",
+          "efficiency chart"
+        ],
+        "style_notes": "Split design comparison, icons for services, clean professional layout. Canva ma dobre templates."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Google Analytics i podejmowanie decyzji",
+      "title": "Screenshot dashboardu Google Analytics",
+      "description": "Przykład interfejsu Google Analytics pokazujący kluczowe metryki biznesowe",
+      "alt_text": "Dashboard Google Analytics z metrykami konwersji i zachowań użytkowników strony e-commerce",
+      "prompt": "Clean mockup of Google Analytics dashboard interface showing key business metrics, conversion rates, user behavior data, traffic sources, professional UI design, realistic but clean interface elements, highlighted important sections",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "Google Analytics",
+        "metryki",
+        "analiza danych",
+        "konwersje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard interface mockup",
+        "pexels_query": "web analytics dashboard computer screen",
+        "keywords_for_search": [
+          "analytics interface",
+          "data dashboard",
+          "web metrics screen"
+        ],
+        "style_notes": "Clean interface mockup, realistic but polished. Można użyć designowych mockupów GA."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Lejek sprzedażowy",
+      "title": "Diagram lejka sprzedażowego na stronie internetowej",
+      "description": "Schemat przepływu użytkownika przez kolejne etapy lejka sprzedażowego",
+      "alt_text": "Diagram lejka sprzedażowego pokazujący ścieżkę użytkownika od świadomości do zakupu na stronie",
+      "prompt": "Clean funnel diagram showing user journey from awareness to purchase, 4-stage funnel with percentages, arrows showing flow, icons for each stage (awareness, consideration, decision, action), minimalist design, black and gray with yellow highlights, professional infographic style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "lejek sprzedażowy",
+        "konwersja",
+        "user journey",
+        "sprzedaż online"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "sales funnel diagram infographic",
+        "pexels_query": "marketing funnel visualization",
+        "keywords_for_search": [
+          "conversion funnel",
+          "customer journey diagram",
+          "sales process"
+        ],
+        "style_notes": "Clean funnel diagram, professional infographic style. Lucidchart lub Canva templates."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "comparison_chart",
+      "section": "Sekcja: SEO vs płatne reklamy",
+      "title": "Porównanie kosztów SEO vs Google Ads",
+      "description": "Wykres porównujący długoterminowe koszty pozycjonowania organicznego i płatnych reklam",
+      "alt_text": "Wykres porównania kosztów SEO i Google Ads w perspektywie 3-letniej dla e-commerce",
+      "prompt": "Comparison chart showing SEO vs Google Ads costs over 3 years, two lines crossing showing SEO becoming more cost-effective over time, professional chart design, blue for SEO, red for ads, clean minimalist style, clear labels and values",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "SEO",
+        "Google Ads",
+        "koszty marketingu",
+        "pozycjonowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "marketing cost comparison chart analytics",
+        "pexels_query": "business cost analysis graph",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "marketing budget graph",
+          "SEO vs advertising"
+        ],
+        "style_notes": "Professional comparison chart, two-line graph showing cost trends over time."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "concept",
+      "section": "Sekcja: Konkurencyjność i przewaga rynkowa",
+      "title": "Ilustracja przewagi konkurencyjnej online",
+      "description": "Koncepcyjna ilustracja pokazująca firmę z nowoczesną stroną wyprzedzającą konkurencję",
+      "alt_text": "Ilustracja koncepcyjna przewagi konkurencyjnej firmy z profesjonalną stroną internetową",
+      "prompt": "Abstract 3D illustration showing competitive advantage concept, geometric shapes representing businesses, one elevated above others with digital connections and modern elements, minimalist composition, black white gray colors with yellow highlights, professional tech aesthetic, clean modern design, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "przewaga konkurencyjna",
+        "nowoczesność",
+        "technologia",
+        "biznes online"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "abstract business competition advantage concept",
+        "pexels_query": "business leadership geometric illustration",
+        "keywords_for_search": [
+          "competitive advantage",
+          "business leadership visual",
+          "abstract success"
+        ],
+        "style_notes": "Abstract geometric illustration, 3D elements, minimalist composition zgodny z digital vantage style"
+      }
+    }
+  ],
+  "total_count": 7
 }

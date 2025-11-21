@@ -1,12 +1,191 @@
 {
   "hero_image": {
     "type": "photo",
-    "title": "Hero image - Kiedy Potrzebujesz",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Kiedy Potrzebujesz",
-    "prompt": "Professional modern illustration for Kiedy Potrzebujesz",
-    "keywords": []
+    "title": "Hero image - Strona internetowa wymaga zmiany",
+    "description": "Minimalistyczne workspace z laptopem pokazującym dashboard analytics i notatkami strategicznymi",
+    "alt_text": "Workspace z laptopem wyświetlającym analytics strony internetowej i notatkami biznesowymi",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying website analytics dashboard with declining metrics, white wooden desk, notebook with yellow pen showing business notes, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "strona internetowa",
+      "analytics",
+      "biznes",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business analytics laptop workspace declining",
+      "pexels_query": "website analytics dashboard laptop office",
+      "keywords_for_search": [
+        "business workspace",
+        "website analytics",
+        "declining metrics",
+        "laptop dashboard"
+      ],
+      "style_notes": "Minimalist office workspace, natural lighting, professional business setting, focus on data/analytics"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Twoja obecna strona nie generuje rezultatów biznesowych",
+      "title": "Wykres spadku konwersji strony",
+      "description": "Wykres słupkowy pokazujący spadek konwersji i zapytań przez ostatnie 12 miesięcy",
+      "alt_text": "Wykres spadku konwersji strony internetowej i liczby zapytań w okresie 12 miesięcy",
+      "prompt": "Clean bar chart showing website conversion decline over 12 months, red declining bars, professional infographic style, values in percentages, minimalist design with black and gray colors, yellow accent for current month, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konwersja",
+        "spadek",
+        "strona internetowa",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "declining business chart red bars statistics",
+        "pexels_query": "negative business growth chart data",
+        "keywords_for_search": [
+          "declining chart",
+          "business statistics",
+          "red chart bars",
+          "negative trend"
+        ],
+        "style_notes": "Professional declining chart, red/gray colors, clean design. Use ChartJS or Canva templates."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "comparison",
+      "section": "Przestarzała technologia hamuje rozwój",
+      "title": "Porównanie strony na mobile vs desktop",
+      "description": "Screenshot showing strony nieresponsywnej na telefonie vs poprawnie działającej na desktopie",
+      "alt_text": "Porównanie wyświetlania nieresponsywnej strony na telefonie i komputerze",
+      "prompt": "Split screen comparison mockup showing same website on mobile phone (broken, unreadable, bad formatting) vs desktop (proper display), professional interface design, highlighted problematic areas on mobile, clean presentation style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "responsywność",
+        "mobile",
+        "strona internetowa",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "mobile website responsive design comparison",
+        "pexels_query": "smartphone website display problems",
+        "keywords_for_search": [
+          "mobile responsive",
+          "website comparison",
+          "phone vs desktop",
+          "UI problems"
+        ],
+        "style_notes": "Side-by-side comparison, highlight mobile issues. Use browser dev tools or responsive design testers."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Zmiana strategii biznesowej wymaga nowego podejścia",
+      "title": "Infografika - Ewolucja strategii biznesowej",
+      "description": "Timeline pokazujący ewolucję firmy i potrzebę dostosowania strony internetowej",
+      "alt_text": "Timeline ewolucji strategii biznesowej i wpływu na potrzeby strony internetowej",
+      "prompt": "Horizontal timeline infographic showing business evolution stages: startup, growth, expansion, rebranding. Each stage with icon and website requirements below. Clean design, arrows connecting stages, black white gray colors with yellow highlights, professional style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "strategia biznesowa",
+        "ewolucja firmy",
+        "rebranding",
+        "timeline"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business evolution timeline infographic strategy",
+        "pexels_query": "company growth stages timeline",
+        "keywords_for_search": [
+          "business timeline",
+          "company evolution",
+          "strategic planning",
+          "growth stages"
+        ],
+        "style_notes": "Horizontal timeline, professional icons, clean arrows. Canva has excellent timeline templates."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "comparison",
+      "section": "Analiza konkurencji wskazuje na opóźnienie",
+      "title": "Porównanie funkcjonalności - Ty vs Konkurencja",
+      "description": "Tabela porównawcza funkcjonalności strony z trzema głównymi konkurentami",
+      "alt_text": "Tabela porównania funkcjonalności strony internetowej z konkurencją w branży",
+      "prompt": "Clean comparison table showing website features comparison between 'Your Site' vs 3 competitors. Green checkmarks and red X marks, features like mobile responsiveness, SSL, loading speed, SEO optimization. Professional table design, minimalist style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konkurencja",
+        "porównanie",
+        "funkcjonalności",
+        "analiza"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business comparison table checklist competitive",
+        "pexels_query": "competitor analysis chart comparison",
+        "keywords_for_search": [
+          "comparison table",
+          "competitive analysis",
+          "feature comparison",
+          "business checklist"
+        ],
+        "style_notes": "Clean comparison table with checkmarks/X marks. Professional formatting, clear typography."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Planowanie inwestycji - budżet i timeline",
+      "title": "Wykres ROI z nowej strony internetowej",
+      "description": "Wykres liniowy pokazujący projekcję zwrotu z inwestycji w nową stronę przez 18 miesięcy",
+      "alt_text": "Wykres ROI z inwestycji w nową stronę internetową w okresie 18 miesięcy",
+      "prompt": "Professional line chart showing ROI projection from new website investment over 18 months. Starting negative (investment cost), breaking even at month 12, positive growth after. Green line, clean design, values in PLN, grid background",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "ROI",
+        "zwrot inwestycji",
+        "strona internetowa",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "ROI growth chart business investment positive",
+        "pexels_query": "business growth line chart green upward",
+        "keywords_for_search": [
+          "ROI chart",
+          "investment return",
+          "positive growth graph",
+          "business projection"
+        ],
+        "style_notes": "Upward trending line chart, green color for positive growth, professional grid background."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "checklist",
+      "section": "Pierwsze kroki w kierunku nowej strony",
+      "title": "Checklist - Przygotowanie do projektu strony",
+      "description": "Wizualna lista kontrolna kroków przygotowawczych przed rozpoczęciem projektu",
+      "alt_text": "Checklist przygotowania materiałów i planowania projektu nowej strony internetowej",
+      "prompt": "Clean checklist infographic showing website project preparation steps: audit current site, define goals, gather materials, choose partner, plan timeline. Checkboxes, icons for each step, vertical layout, professional design with yellow accents",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "checklist",
+        "przygotowanie",
+        "projekt strony",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business checklist preparation steps planning",
+        "pexels_query": "project checklist planning document",
+        "keywords_for_search": [
+          "business checklist",
+          "planning steps",
+          "project preparation",
+          "to-do list"
+        ],
+        "style_notes": "Vertical checklist with checkboxes and icons. Clean, actionable design. Canva has great checklist templates."
+      }
+    }
+  ],
+  "total_count": 7
 }

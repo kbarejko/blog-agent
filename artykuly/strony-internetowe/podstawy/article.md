@@ -6,7 +6,6 @@
 - **Automatyzacja procesów** za pomocą strony internetowej, takich jak formularze, rezerwacje czy sekcja FAQ, może oszczędzić Ci kilka godzin pracy tygodniowo.
 - **Konkretnych sygnałów nie brakuje** - Twoja firma może potrzebować strony internetowej już teraz, a nie "w przyszłości".
 
-```markdown
 ## Wprowadzenie - Dlaczego każda firma potrzebuje strony internetowej
 
 # Podstawy stron internetowych dla firm
@@ -26,7 +25,6 @@ W tym przewodniku omówimy podstawy: czym właściwie jest strona w kontekście 
 Skupimy się na praktycznych aspektach. Bez zbędnej teorii marketingowej, za to z konkretnymi wskazówkami, które możesz od razu wdrożyć.
 
 Jeśli zadajesz sobie pytanie, [czy Twoja firma potrzebuje strony internetowej](/artykuly/strony-internetowe/poradniki), prawdopodobnie odpowiedź brzmi: tak, i to już od wczoraj.
-```
 
 ## Czym właściwie jest strona internetowa w kontekście biznesowym
 

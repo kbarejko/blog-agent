@@ -1,27 +1,27 @@
 ### Ile kosztuje stworzenie strony internetowej dla małej firmy?
 
-Budżet na stronę internetową dla małego biznesu prawdopodobnie wyniesie między 2000 a 15000 zł. Prosta wizytówka firmowa to wydatek około 2000-5000 zł, natomiast sklep internetowy z systemem płatności może sięgnąć 8000-15000 zł. Dodatkowo warto zaplanować roczne koszty hostingu i domeny - zwykle 200-500 zł. Więcej o różnicach między typami stron znajdziesz w artykule [Wizytowka Vs Landing Vs Portal](/artykuly/strony-internetowe/podstawy/wizytowka-vs-landing-vs-portal).
+Budżet na stronę wizytówkę dla małej firmy waha się między 2000-8000 zł - wszystko zależy od tego, jakie funkcje rzeczywiście potrzebujesz. Landing page prawdopodobnie zamknie się w kwocie 1500-5000 zł, natomiast kompleksowy portal firmowy może sięgnąć nawet 10000-30000 zł. Różnice między tymi rozwiązaniami opisujemy w artykule [Wizytowka Vs Landing Vs Portal](/artykuly/strony-internetowe/podstawy/wizytowka-vs-landing-vs-portal). Najważniejsze wydaje się dopasowanie inwestycji do realnych celów biznesowych, a nie automatyczne sięganie po najtańszą propozycję.
 
-### Czy mogę samodzielnie założyć stronę internetową bez znajomości programowania?
+### Czy mogę prowadzić biznes tylko przez media społecznościowe zamiast mieć stronę?
 
-Oczywiście! Kreatory jak WordPress, Wix czy Squarespace oferują gotowe szablony i proste edytory typu "przeciągnij i upuść". Prawdopodobnie stworzysz przyzwoitą stronę w kilka godzin. Jednak jeśli zależy ci na wyjątkowym designie i zaawansowanych funkcjach, warto może rozważyć pomoc profesjonalisty i zastanowić się, [Kiedy Potrzebujesz](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz) wsparcia specjalisty.
+Media społecznościowe świetnie sprawdzają się do budowania relacji z klientami, jednak nie zastąpią w pełni własnej strony. Na swojej witrynie masz kontrolę nad przekazem i nie musisz martwić się zmianami algorytmów Facebooka czy Instagrama. Więcej o korzyściach posiadania strony znajdziesz w artykule [Dlaczego Warto](/artykuly/strony-internetowe/podstawy/dlaczego-warto). Strona to fundament, a social media - skuteczne wsparcie marketingowe.
 
-### Jakie elementy musi zawierać profesjonalna strona firmowa?
+### Jak długo trwa stworzenie strony internetowej?
 
-Dobrze zaprojektowana strona firmowa powinna w pierwszej kolejności oferować przejrzyste menu nawigacyjne oraz szczegółowe informacje o firmie. Równie istotne wydają się dane kontaktowe, opis oferowanych usług czy produktów, a także funkcjonalny formularz kontaktowy. Warto również rozważyć dodanie opinii klientów, galerii realizacji oraz niezbędnych informacji prawnych.
+Tworzenie prostej strony wizytówki zajmuje zwykle 2-4 tygodnie, podczas gdy landing page można ukończyć w 1-2 tygodnie. Różnice między tymi typami stron opisujemy w artykule [Wizytowka Vs Landing Vs Portal](/artykuly/strony-internetowe/podstawy/wizytowka-vs-landing-vs-portal). Większe projekty, jak sklepy internetowe czy portale korporacyjne, prawdopodobnie wymagają 2-3 miesięcy pracy. Ostateczny termin zależy głównie od złożoności funkcjonalności, ilości przygotowanych materiałów oraz tego, jak szybko klient udziela odpowiedzi na nasze pytania i poprawki.
 
-### Jak długo trwa proces tworzenia strony internetowej?
+### Czy potrzebuję wiedzy technicznej, żeby zarządzać stroną?
 
-Prosta strona wizytówkowa prawdopodobnie będzie gotowa w ciągu 2-4 tygodni. Sklepy internetowe czy portale z rozbudowanymi funkcjami mogą wymagać nawet 6-12 tygodni pracy. Różnice między poszczególnymi typami stron opisujemy w artykule [Wizytowka Vs Landing Vs Portal](/artykuly/strony-internetowe/podstawy/wizytowka-vs-landing-vs-portal). Tempo realizacji zależy głównie od tego, jak szybko dostarczysz materiały i ile zmian wprowadzisz w trakcie projektu.
+Absolutnie nie! Współczesne strony projektuje się z myślą o użytkownikach bez specjalistycznej wiedzy. Dodawanie tekstu czy zdjęć przypomina pracę w Wordzie - wszystko odbywa się poprzez przyjazny panel administracyjny. Dobry wykonawca zawsze przeprowadzi szkolenie i zostawi szczegółową instrukcję obsługi.
 
-### Dlaczego strona musi być responsywna i co to oznacza?
+### Kiedy strona zacznie przynosić klientów?
 
-Responsywność to zdolność witryny do płynnego dostosowywania się do każdego ekranu - czy to smartfona, tabletu czy laptopa. Skoro ponad 60% ludzi surfuje po sieci głównie na telefonach, nieresponsywna strona może skutecznie zrazić do siebie potencjalnych klientów, którzy po prostu odejdą do konkurencji.
+Pierwsze zapytania mogą pojawić się już po 3-6 miesiącach, choć wymaga to konsekwentnej pracy nad treściami i SEO. Szybsze rezultaty prawdopodobnie przyniesie połączenie strony z Google Ads czy kampaniami na Facebooku. Pamiętaj jednak – to inwestycja długofalowa, nie magiczna różdżka do natychmiastowych zysków.
 
-### Jak często powinienem aktualizować treści na stronie?
+### Czy moja lokalna firma potrzebuje strony internetowej?
 
-Częstotliwość aktualizacji treści prawdopodobnie zależy od specyfiki Twojej branży. Nowe artykuły warto publikować raz w tygodniu, choć w niektórych przypadkach może wystarczyć rzadziej. Podstawowe dane firmowe sprawdzaj co kwartał. Świeże treści budują zaufanie użytkowników i wydają się pozytywnie wpływać na widoczność w Google.
+Zdecydowanie tak. Około 80% klientów poszukuje lokalnych usług przez internet, sprawdzając głównie godziny pracy, dane kontaktowe oraz opinie innych. Profesjonalna strona znacznie zwiększa szanse na znalezienie Twojej firmy w wyszukiwaniach typu "fryzjer Kraków" czy "hydraulik Warszawa". Więcej o tym, dlaczego warto mieć stronę internetową, przeczytasz w artykule [Dlaczego Warto](/artykuly/strony-internetowe/podstawy/dlaczego-warto).
 
-### Co to jest hosting i domenę - czy muszę je kupować osobno?
+### Co się stanie, jeśli nie będę aktualizować strony?
 
-Domena to po prostu adres internetowy twojej strony (jak np. mojafirma.pl), natomiast hosting stanowi przestrzeń serwerową, gdzie faktycznie przechowywane są wszystkie pliki witryny. Te podstawowe pojęcia szerzej wyjaśniamy w artykule [Czym Jest Strona Internetowa](/artykuly/strony-internetowe/podstawy/czym-jest-strona-internetowa). Możesz zakupić je u jednego dostawcy lub wybrać różnych. Koszt hostingu wynosi zwykle 100-300 zł rocznie, podczas gdy domena .pl to wydatek około 50 złotych.
+Zaniedbana strona prawdopodobnie szkodzi więcej niż pomaga - może sugerować brak profesjonalizmu. Klienci trafiają na błędne godziny otwarcia czy nieaktualne menu. Wystarczy jednak 1-2 godziny miesięcznie na podstawowe poprawki, żeby strona rzeczywiście wspierała Twój biznes. Więcej o tym, jak strona może wspierać Twój biznes, znajdziesz w artykule [Korzyści Biznesowe](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe).

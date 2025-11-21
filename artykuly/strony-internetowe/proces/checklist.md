@@ -1,14 +1,14 @@
 ## Checklist: Proces tworzenia strony internetowej
 
-- [ ] Zastanów się, czego naprawdę potrzebuje Twoja firma i określ konkretne cele - czy chcesz zwiększyć sprzedaż, budować wizerunek, czy może dotrzeć do nowych klientów?
-- [ ] Ustal realistyczny budżet i harmonogram, pamiętając że dobra strona to inwestycja, która wymaga czasu na przemyślenia i poprawki
-- [ ] Przygotuj szczegółowy brief opisujący oczekiwania - im więcej informacji podasz na początku, tym mniej problemów będzie później
-- [ ] Wybierz partnera czy agencję z rozwagą i zawrzyj umowę, w której jasno określisz zakres prac, terminy i sposób rozliczania zmian
-- [ ] Dokładnie przeanalizuj wireframy i strukturę nawigacji - to fundament całej strony, więc warto poświęcić temu odpowiednio dużo uwagi
-- [ ] Przetestuj projekty UX/UI na znajomych lub potencjalnych użytkownikach, bo to co wydaje się intuicyjne projektantom, niekoniecznie będzie oczywiste dla klientów
-- [ ] Zbierz wszystkie treści, zdjęcia i materiały multimedialne z wyprzedzeniem - często ten etap trwa dłużej niż początkowo zakładamy
-- [ ] Sprawdź dokładnie, jak strona działa na różnych urządzeniach i w różnych przeglądarkach, szczególnie na mobilnych, którymi prawdopodobnie będzie korzystać większość użytkowników
-- [ ] Przetestuj systematycznie wszystkie funkcje - formularze, linki, przyciski i interakcje, bo drobne błędy mogą zniechęcić potencjalnych klientów
-- [ ] Przygotuj hosting, domenę i certyfikaty SSL przed publikacją, aby uniknąć technicznych problemów w ostatniej chwili
-- [ ] Uruchom stronę i dokładnie sprawdź jej działanie w środowisku produkcyjnym - czasem mogą pojawić się niespodzianki
-- [ ] Monitoruj wydajność i statystyki przez pierwsze miesiące, aby wychwycić potencjalne problemy i lepiej zrozumieć zachowania użytkowników
+- [ ] Określ jasno cele biznesowe strony oraz grupę docelową – czy to ma być wizytówka firmy, sklep internetowy, czy może platforma edukacyjna?
+- [ ] Ustal realny budżet projektu i stwórz harmonogram z konkretnymi kamieniami milowymi
+- [ ] Przygotuj szczegółowy brief z wymaganiami funkcjonalnymi – uwzględnij elementy jak formularz kontaktowy, integracje z płatnościami czy panel administracyjny
+- [ ] Wybierz agencję lub freelancera, analizując ich portfolio pod kątem podobnych projektów w Twojej branży
+- [ ] Zatwierdź wireframe'y i przemyśl strukturę nawigacji – użytkownicy powinni dotrzeć do kluczowych informacji maksymalnie w trzech kliknięciach
+- [ ] Przeanalizuj i zaakceptuj projekty graficzne UX/UI, zwracając uwagę na spójność z identyfikacją wizualną marki
+- [ ] Przygotuj wszystkie materiały – teksty, zdjęcia wysokiej jakości, logo w różnych formatach oraz ewentualne filmy
+- [ ] Przetestuj responsywność na smartfonach, tabletach i różnych przeglądarkach internetowych
+- [ ] Przeprowadź dokładne testy funkcjonalności – sprawdź działanie formularzy, płatności online oraz wszystkich elementów interaktywnych
+- [ ] Wybierz i skonfiguruj odpowiedni hosting, zarejestruj domenę i skonfiguruj certyfikat SSL
+- [ ] Wykonaj kopię bezpieczeństwa i wgraj stronę na serwer produkcyjny, upewniając się, że przekierowania działają poprawnie
+- [ ] Monitoruj wydajność i działanie strony przez pierwsze dni po uruchomieniu – warto sprawdzać logi błędów i statystyki ruchu

@@ -1,19 +1,185 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Performance Media",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Performance Media",
-    "prompt": "Professional modern illustration for Performance Media",
-    "keywords": [],
-    "generated": true,
-    "local_path": "images/hero.png",
-    "generation_info": {
-      "provider": "dalle",
-      "model": "dall-e-3"
-    },
-    "revised_prompt": "Capture the dynamic essence of Performance Media in a professional modern style illustration. Visualize a stage set with bright lights and high-tech equipment. Include abstract elements representing various forms of media such as music, cinema, and theater. The whole scene should emanate an energetic and modern vibe, embodying the spirit of contemporary performance art."
+    "type": "illustration",
+    "title": "Hero image - Performance Media Dashboard",
+    "description": "Minimalistyczna kompozycja z laptopem pokazującym dashboard Performance Media z metrykami ROAS i konwersji",
+    "alt_text": "Dashboard Performance Media z metrykami ROAS, CPA i wykresami konwersji na laptopie",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying performance marketing dashboard with ROAS charts, conversion metrics, and campaign data, white wooden desk, smartphone, yellow notebook with black pen, coffee cup, natural daylight from side, muted colors black white gray with subtle yellow accents, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "performance media",
+      "dashboard",
+      "ROAS",
+      "marketing"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "marketing dashboard laptop workspace analytics",
+      "pexels_query": "digital marketing workspace computer analytics",
+      "keywords_for_search": [
+        "performance marketing dashboard",
+        "analytics workspace",
+        "marketing metrics laptop"
+      ],
+      "style_notes": "Modern workspace, flat lay perspective, marketing dashboard visible, professional setting"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "comparison_chart",
+      "section": "Sekcja: Podstawowe założenia Performance Media",
+      "title": "Porównanie tradycyjnej reklamy vs Performance Media",
+      "description": "Wykres porównawczy pokazujący różnice między tradycyjnym marketingiem a Performance Media",
+      "alt_text": "Wykres porównania tradycyjnej reklamy vs Performance Media - płatności i rezultaty",
+      "prompt": "Clean comparison infographic showing traditional advertising vs performance media, two columns with icons and metrics, CPM vs CPA comparison, professional design with black gray and yellow accents, minimalist business style, clear typography",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "performance media",
+        "tradycyjny marketing",
+        "porównanie",
+        "CPA"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business comparison infographic marketing",
+        "pexels_query": "marketing comparison chart data",
+        "keywords_for_search": [
+          "before after marketing",
+          "advertising comparison",
+          "business infographic"
+        ],
+        "style_notes": "Clean comparison design, two-column layout, professional business colors"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Główne kanały Performance Media",
+      "title": "Mapa kanałów Performance Media",
+      "description": "Infografika pokazująca główne kanały Performance Media z ikonami i charakterystykami",
+      "alt_text": "Infografika kanałów Performance Media: Google Ads, Facebook, programmatic, affiliate",
+      "prompt": "Circular infographic showing performance media channels: Google Ads, Facebook Ads, programmatic, affiliate marketing, retargeting. Each channel with distinct icon and key characteristics, connected with subtle lines, professional design with black white gray colors and yellow highlights, clean modern style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "kanały performance media",
+        "Google Ads",
+        "Facebook Ads",
+        "programmatic"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "digital marketing channels infographic ecosystem",
+        "pexels_query": "marketing platform icons diagram",
+        "keywords_for_search": [
+          "marketing ecosystem",
+          "digital channels diagram",
+          "advertising platforms"
+        ],
+        "style_notes": "Circular or hub-and-spoke design showing interconnected marketing channels"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "funnel_chart",
+      "section": "Sekcja: Jak zaplanować skuteczną kampanię",
+      "title": "Lejek planowania kampanii Performance Media",
+      "description": "Diagram lejka pokazujący etapy planowania od celów biznesowych do optymalizacji",
+      "alt_text": "Lejek planowania kampanii Performance Media - od celów do optymalizacji w 5 etapach",
+      "prompt": "Marketing funnel diagram showing 5 stages of performance media campaign planning: business goals, KPIs, targeting, creative content, optimization. Clean funnel shape with icons for each stage, arrows showing flow, professional colors black white gray with yellow accents",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "planowanie kampanii",
+        "lejek marketingowy",
+        "KPI",
+        "targetowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "marketing funnel diagram planning process",
+        "pexels_query": "business process funnel infographic",
+        "keywords_for_search": [
+          "marketing process flow",
+          "campaign planning diagram",
+          "business funnel"
+        ],
+        "style_notes": "Vertical funnel with clear stages, professional business infographic style"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "dashboard_mockup",
+      "section": "Sekcja: Analiza danych i optymalizacja",
+      "title": "Dashboard Google Analytics 4 z metrykami Performance",
+      "description": "Mockup dashboardu Google Analytics 4 pokazującego kluczowe metryki Performance Media",
+      "alt_text": "Dashboard Google Analytics 4 z metrykami CPA, ROAS i conversion rate",
+      "prompt": "Clean mockup of Google Analytics 4 dashboard interface showing performance media metrics: CPA, ROAS, conversion rates, attribution modeling. Professional UI design, realistic but clean interface, highlighted key metrics, modern dashboard aesthetic",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Google Analytics 4",
+        "metryki",
+        "dashboard",
+        "CPA",
+        "ROAS"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard interface mockup",
+        "pexels_query": "web analytics dashboard computer screen",
+        "keywords_for_search": [
+          "analytics interface",
+          "dashboard mockup",
+          "web analytics screen"
+        ],
+        "style_notes": "Clean dashboard interface, focus on metrics and charts, professional software UI"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "warning_infographic",
+      "section": "Sekcja: Najczęstsze błędy",
+      "title": "Infografika najczęstszych błędów w Performance Media",
+      "description": "Infografika przedstawiająca 5 najkosztowniejszych błędów w Performance Media z ikonami ostrzeżeń",
+      "alt_text": "5 najczęstszych błędów w Performance Media - tracking, metryki, testowanie",
+      "prompt": "Warning-style infographic showing 5 common performance media mistakes: poor tracking, wrong metrics optimization, rushed A/B testing, ignoring seasonality, channel silos. Red warning icons, clear typography, professional design with black white and red accent colors",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "błędy performance media",
+        "tracking",
+        "optymalizacja",
+        "A/B testing"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business mistakes warning infographic checklist",
+        "pexels_query": "error prevention business infographic",
+        "keywords_for_search": [
+          "business errors infographic",
+          "warning checklist",
+          "mistakes prevention"
+        ],
+        "style_notes": "Warning/alert style with red accents, clear numbered list format"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "trend_chart",
+      "section": "Sekcja: Trendy i przyszłość Performance Media",
+      "title": "Wykres trendów w Performance Media 2024-2025",
+      "description": "Wykres liniowy pokazujący trendy w Performance Media: cookieless, AI, privacy-first",
+      "alt_text": "Trendy Performance Media: wzrost cookieless marketing i AI w optymalizacji kampanii",
+      "prompt": "Modern line chart showing performance media trends 2024-2025: cookieless marketing growth, AI optimization adoption, privacy-first strategies. Clean design with multiple trend lines, professional colors, futuristic tech aesthetic with subtle gradients",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "trendy marketing",
+        "cookieless",
+        "AI",
+        "privacy-first"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "future technology trends chart graph",
+        "pexels_query": "business trends data visualization",
+        "keywords_for_search": [
+          "technology trends chart",
+          "future marketing graph",
+          "business forecast"
+        ],
+        "style_notes": "Modern, tech-forward design with clean lines and futuristic feel"
+      }
+    }
+  ],
+  "total_count": 7
 }

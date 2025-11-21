@@ -1,12 +1,185 @@
 {
   "hero_image": {
     "type": "photo",
-    "title": "Hero image - Dlaczego Warto",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Dlaczego Warto",
-    "prompt": "Professional modern illustration for Dlaczego Warto",
-    "keywords": []
+    "title": "Hero image - Profesjonalny workspace digitalny",
+    "description": "Minimalistyczny workspace z laptopem pokazującym dashboard biznesowy, bez ludzi w kadrze",
+    "alt_text": "Laptop z dashboardem biznesowym na minimalistycznym biurku w profesjonalnym biurze",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying business dashboard with analytics and website metrics, white wooden desk, smartphone, yellow pen on notebook, coffee cup, natural daylight from window, clean composition, muted colors black white gray with subtle yellow accents, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "strona internetowa",
+      "biznes",
+      "dashboard",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop business dashboard flat lay",
+      "pexels_query": "modern office desk laptop analytics",
+      "keywords_for_search": [
+        "business workspace",
+        "laptop dashboard",
+        "office flat lay",
+        "professional workspace"
+      ],
+      "style_notes": "Minimalist, clean workspace from above, natural lighting, muted colors with yellow accents matching digitalvantage.pl brand"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wstęp - Twoja firma w cyfrowym świecie",
+      "title": "Statystyki zachowań konsumentów online",
+      "description": "Wykres słupkowy pokazujący kluczowe statystyki: 97% szuka lokalnych firm online, 88% sprawdza opinie",
+      "alt_text": "Wykres statystyk zachowań konsumentów: 97% szuka firm online, 88% sprawdza opinie przed zakupem",
+      "prompt": "Clean professional bar chart showing consumer behavior statistics: 97% search local businesses online, 88% check reviews before purchase, 60% abandon businesses without websites. Blue and gray bars with yellow highlights, minimalist design, professional infographic style, white background",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "statystyki",
+        "konsumenci",
+        "zachowania online",
+        "lokalne firmy"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business statistics chart consumer behavior",
+        "pexels_query": "data visualization infographic chart",
+        "keywords_for_search": [
+          "consumer statistics",
+          "business data chart",
+          "market research graph"
+        ],
+        "style_notes": "Clean, professional chart design with brand colors. Consider using ChartJS or Canva templates."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Budowanie zaufania i wiarygodności",
+      "title": "Porównanie postrzegania firmy z stroną vs bez strony",
+      "description": "Wizualne porównanie dwóch firm - jedna z profesjonalną stroną, druga bez",
+      "alt_text": "Porównanie postrzegania firm: profesjonalna strona vs brak strony internetowej",
+      "prompt": "Split comparison illustration showing two business scenarios: left side shows professional website interface with trust elements, right side shows empty browser with 404 error. Clean minimalist design, black and white with yellow accents, professional business aesthetic, geometric shapes, no people",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "zaufanie",
+        "wiarygodność",
+        "strona internetowa",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website trust comparison professional business",
+        "pexels_query": "business credibility comparison visual",
+        "keywords_for_search": [
+          "trust comparison",
+          "website credibility",
+          "business professional"
+        ],
+        "style_notes": "Split-screen comparison layout, clean and professional design matching brand aesthetic"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Zwiększenie widoczności i dotarcie do nowych klientów",
+      "title": "Lokalne SEO - proces zwiększania widoczności",
+      "description": "Infografika pokazująca proces lokalnego SEO i jego wpływ na widoczność firmy",
+      "alt_text": "Infografika procesu lokalnego SEO: od Google My Business do pełnej strony internetowej",
+      "prompt": "Professional infographic showing local SEO process: Google My Business profile connecting to full website, arrows showing customer journey, search results visualization, clean design with icons, black white gray colors with yellow highlights, minimalist professional style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "lokalne SEO",
+        "widoczność",
+        "Google My Business",
+        "strona internetowa"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "local SEO business visibility infographic",
+        "pexels_query": "SEO marketing process visualization",
+        "keywords_for_search": [
+          "local SEO infographic",
+          "business visibility",
+          "Google My Business"
+        ],
+        "style_notes": "Process flow infographic, numbered steps with icons, professional and clean design"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Kontrola nad wizerunkiem firmy",
+      "title": "Wzrost zapytań po uruchomieniu strony - case study",
+      "description": "Wykres liniowy pokazujący 300% wzrost zapytań firmy remontowej po roku od uruchomienia strony",
+      "alt_text": "Wykres wzrostu zapytań firmy remontowej o 300% po uruchomieniu profesjonalnej strony",
+      "prompt": "Clean line chart showing 300% increase in business inquiries after website launch, timeline over 12 months, blue line with upward trend, professional design, grid background, values and percentages clearly marked, minimalist style",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "case study",
+        "wzrost zapytań",
+        "strona internetowa",
+        "firma remontowa"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart success story",
+        "pexels_query": "growth analytics line chart business",
+        "keywords_for_search": [
+          "business growth graph",
+          "success metrics",
+          "ROI visualization"
+        ],
+        "style_notes": "Professional line chart showing clear growth trend, suitable for case study presentation"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Oszczędność czasu i automatyzacja procesów",
+      "title": "Automatyzacja procesów w różnych branżach",
+      "description": "Infografika pokazująca przykłady automatyzacji dla 4 branż: salon, budownictwo, księgowość, gastronomia",
+      "alt_text": "Infografika automatyzacji procesów: salon fryzjerski, firma budowlana, biuro księgowe, restauracja",
+      "prompt": "Four-panel infographic showing automation examples for different industries: hair salon booking, construction calculator, accounting reminders, restaurant orders. Clean design with icons for each industry, organized in 2x2 grid, professional style, black white gray with yellow accents",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "automatyzacja",
+        "oszczędność czasu",
+        "różne branże",
+        "procesy"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business automation process infographic industries",
+        "pexels_query": "automation workflow different business types",
+        "keywords_for_search": [
+          "business automation",
+          "industry processes",
+          "workflow optimization"
+        ],
+        "style_notes": "Multi-panel layout showing different industries, clean icons and minimal text, professional design"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "roi_chart",
+      "section": "Długoterminowa inwestycja w rozwój firmy",
+      "title": "ROI inwestycji w stronę internetową - 6-12 miesięcy",
+      "description": "Wykres pokazujący typowy zwrot z inwestycji w stronę internetową wraz ze wzrostem klientów o 25-40%",
+      "alt_text": "Wykres ROI strony internetowej: zwrot inwestycji w 6-12 miesięcy, wzrost klientów 25-40%",
+      "prompt": "Professional ROI chart showing website investment return over 12 months, initial cost dip followed by positive ROI after 6 months, 25-40% client increase highlighted, green and blue colors, clean business chart design, grid background",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "ROI",
+        "zwrot inwestycji",
+        "strona internetowa",
+        "wzrost klientów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "ROI return investment chart business growth",
+        "pexels_query": "financial growth chart investment return",
+        "keywords_for_search": [
+          "ROI chart",
+          "investment return",
+          "business growth graph"
+        ],
+        "style_notes": "Professional financial chart showing positive ROI trend, suitable for business presentation"
+      }
+    }
+  ],
+  "total_count": 7
 }

@@ -46,7 +46,6 @@ Jednakże, prostota wizytówek niesie ze sobą pewne ograniczenia. Brak zaawanso
 
 Potencjał sprzedażowy wizytówek jest ograniczony do przekierowania kontaktu. Wizytówka może wzbudzić zainteresowanie klienta, jednak sama sprzedaż odbywa się poza stroną, na przykład przez telefon, e-mail lub podczas spotkania osobistego.
 
-```markdown
 ## Landing page - broń sprzedażowa w internecie
 
 ### Czym jest landing page i kiedy go używać
@@ -70,7 +69,6 @@ Kluczem do sukcesu landing page'a jest testowanie A/B. Polega ono na porównywan
 Profesjonalny landing page wymaga także integracji z narzędziami analitycznymi. Google Analytics pozwala śledzić źródła ruchu i zachowanie użytkowników. Systemy CRM automatycznie zapisują zgłoszenia i inicjują procesy sprzedażowe, a połączenie z platformami mailingowymi umożliwia prowadzenie automatycznych kampanii dla zebranych leadów.
 
 Koszt stworzenia profesjonalnego landing page'a waha się od 2000 do 8000 złotych, w zależności od złożoności projektu, liczby wersji do testowania i wymaganych integracji. Przy odpowiedniej optymalizacji i odpowiednim ruchu, dobry landing page może zwrócić się już w ciągu pierwszych miesięcy działania.
-```
 
 ## Portal internetowy - kompleksowe rozwiązanie dla większych firm
 
