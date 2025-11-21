@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Profesjonalne strony internetowe dla firm",
+    "description": "Minimalistyczna kompozycja z laptopem wyświetlającym nowoczesną stronę firmową, workspace z notesem i akcesoriami biurowymi",
+    "alt_text": "Laptop z nowoczesną stroną firmową na białym biurku z notatkami i akcesoriami biurowymi",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying modern business website with clean design, white wooden desk, yellow notebook with black pen, smartphone, coffee cup, natural daylight from side window, professional business aesthetic, muted colors black white gray with yellow accent, high quality, sharp focus, no people",
+    "keywords": [
+      "strona internetowa",
+      "firma",
+      "business",
+      "laptop"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "professional business website laptop workspace minimalist",
+      "pexels_query": "business website design laptop office desk",
+      "keywords_for_search": [
+        "business website mockup",
+        "professional workspace",
+        "laptop business site"
+      ],
+      "style_notes": "Clean minimalist office setup, laptop showing business website, neutral colors with subtle accents"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Wybór technologii",
+      "title": "Udział systemów CMS na rynku stron firmowych",
+      "description": "Wykres kołowy pokazujący dominację WordPressa (40%) oraz inne popularne systemy CMS",
+      "alt_text": "Wykres udziału systemów CMS - WordPress 40%, inne platformy w rynku stron firmowych",
+      "prompt": "Clean pie chart showing CMS market share, WordPress 40% in blue, other platforms in smaller segments, minimalist design, professional infographic style, gray and blue colors with subtle yellow accent, white background, clear labels",
+      "placement": "after_paragraph_2_section_3",
+      "keywords": [
+        "WordPress",
+        "CMS",
+        "systemy zarządzania",
+        "rynek"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "market share pie chart business analytics",
+        "pexels_query": "business data visualization chart",
+        "keywords_for_search": [
+          "cms comparison chart",
+          "market share visualization",
+          "technology statistics"
+        ],
+        "style_notes": "Professional business chart, clean design. Could create with Canva templates or chart libraries."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison_table",
+      "section": "Sekcja: Wybór technologii",
+      "title": "Porównanie kosztów WordPress vs konstruktory vs rozwiązania dedykowane",
+      "description": "Tabela porównująca koszty początkowe, miesięczne i rozwoju dla różnych opcji technologicznych",
+      "alt_text": "Tabela porównania kosztów WordPress, konstruktorów stron i rozwiązań dedykowanych dla firm",
+      "prompt": "Clean comparison table showing cost breakdown for WordPress vs website builders vs custom solutions, three columns, rows for initial cost, monthly fees, development costs, professional business style, black and white with yellow highlights, minimalist design",
+      "placement": "after_paragraph_4_section_3",
+      "keywords": [
+        "porównanie kosztów",
+        "WordPress",
+        "konstruktory stron",
+        "budżet"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison table professional",
+        "pexels_query": "pricing comparison chart business",
+        "keywords_for_search": [
+          "cost comparison infographic",
+          "pricing table design",
+          "business decision matrix"
+        ],
+        "style_notes": "Clean comparison table, professional layout. Canva has excellent table templates for this."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Podstawy techniczne",
+      "title": "Responsive design - statystyki urządzeń mobilnych",
+      "description": "Infografika pokazująca 60% ruchu z mobile i wpływ responsive design na konwersję (25-30%)",
+      "alt_text": "Infografika responsive design - 60% ruchu mobilnego zwiększa konwersję o 25-30% dla firm lokalnych",
+      "prompt": "Vertical infographic showing mobile usage statistics, 60% mobile traffic icon, responsive design concept with different screen sizes, conversion increase arrow showing 25-30%, clean minimalist design, gray and blue colors with yellow accents, professional business style",
+      "placement": "after_paragraph_2_section_4",
+      "keywords": [
+        "responsive design",
+        "mobile",
+        "konwersja",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "mobile responsive design infographic statistics",
+        "pexels_query": "mobile device usage business chart",
+        "keywords_for_search": [
+          "responsive web design",
+          "mobile statistics",
+          "device usage infographic"
+        ],
+        "style_notes": "Modern infographic showing mobile vs desktop usage, conversion statistics, clean professional design"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Migracja i przeprowadzka",
+      "title": "Proces migracji strony bez utraty SEO",
+      "description": "Diagram procesu migracji w krokach: audyt → testowe środowisko → przekierowania 301 → monitoring",
+      "alt_text": "Diagram procesu migracji strony internetowej bez utraty pozycji SEO w 4 krokach",
+      "prompt": "Horizontal flowchart showing 4-step website migration process: audit, staging environment, 301 redirects, monitoring. Connected with arrows, clean icons for each step, professional infographic style, gray and blue colors with yellow highlights, white background",
+      "placement": "after_paragraph_3_section_5",
+      "keywords": [
+        "migracja strony",
+        "SEO",
+        "proces",
+        "przekierowania 301"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website migration process flowchart diagram",
+        "pexels_query": "business process workflow diagram",
+        "keywords_for_search": [
+          "migration workflow",
+          "seo process diagram",
+          "technical flowchart"
+        ],
+        "style_notes": "Clean process diagram, step-by-step workflow. Could use Lucidchart or similar diagramming tools."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: SEO i widoczność",
+      "title": "Dashboard Google My Business",
+      "description": "Mockup interfejsu Google My Business pokazujący kluczowe metryki dla firm lokalnych",
+      "alt_text": "Interfejs Google My Business z metrykami widoczności lokalnej i statystykami firm",
+      "prompt": "Clean mockup of Google My Business dashboard interface showing local business metrics, search visibility statistics, customer actions, professional clean UI design, authentic looking interface elements, no personal data visible",
+      "placement": "after_paragraph_2_section_6",
+      "keywords": [
+        "Google My Business",
+        "SEO lokalne",
+        "dashboard",
+        "widoczność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google business dashboard local seo interface",
+        "pexels_query": "business analytics dashboard mobile app",
+        "keywords_for_search": [
+          "local business dashboard",
+          "seo analytics interface",
+          "google my business"
+        ],
+        "style_notes": "Professional business dashboard interface, clean design, authentic looking metrics and data"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Bezpieczeństwo i maintenance",
+      "title": "Czecklista bezpieczeństwa strony firmowej",
+      "description": "Pionowa infografika z 5 elementami: SSL, backup, aktualizacje, RODO, monitoring",
+      "alt_text": "Infografika bezpieczeństwa strony firmowej - SSL, backup, aktualizacje, RODO, monitoring",
+      "prompt": "Vertical security checklist infographic showing 5 elements: SSL certificate, backup system, security updates, RODO compliance, monitoring. Shield icons, checkmarks, clean professional design, blue and gray colors with yellow accents, business style",
+      "placement": "after_paragraph_1_section_7",
+      "keywords": [
+        "bezpieczeństwo",
+        "SSL",
+        "backup",
+        "RODO"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website security checklist infographic business",
+        "pexels_query": "cybersecurity business checklist design",
+        "keywords_for_search": [
+          "security checklist",
+          "website protection",
+          "business security infographic"
+        ],
+        "style_notes": "Professional security checklist, shield icons, numbered items. Canva has good security templates."
+      }
+    }
+  ],
+  "total_count": 7
+}
