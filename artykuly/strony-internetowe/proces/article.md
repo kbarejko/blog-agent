@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **Efektywność metodycznego podejścia** - Przyjęcie ustrukturyzowanego procesu może zmniejszyć koszty o 30-40%. Projekty bez takiego podejścia często przekraczają budżet o 67% i mogą się opóźniać o kilka miesięcy.
+- **Efektywność metodycznego podejścia** - Przyjęcie ustrukturyzowanego procesu może [zmniejszyć koszty o 30-40%](/artykuly/strony-internetowe/koszty). Projekty bez takiego podejścia często przekraczają budżet o 67% i mogą się opóźniać o kilka miesięcy.
 - **Znaczenie dobrze przygotowanego briefu** - Starannie opracowana specyfikacja pomaga uniknąć aż 80% późniejszych zmian i niejasności, które mogą pojawić się we współpracy z wykonawcą.
 - **Wireframing przed rozpoczęciem kodowania** - Testowanie koncepcji na papierze jest około 50 razy tańsze niż późniejsze modyfikacje już działającej strony internetowej.
 - **Pełny proces: od strategii do publikacji** - Przedstawiamy siedem kluczowych etapów, które prowadzą od analizy potrzeb aż po wdrożenie, wraz z zestawem narzędzi i list kontrolnych na każdym z tych kroków.
@@ -21,7 +21,7 @@ Metodyczne podejście działa jak GPS w nawigacji – wskazuje dokładnie, gdzie
 
 Dobrze zaplanowany proces przynosi wymierne korzyści: skraca czas realizacji nawet o 30%, redukuje liczbę zmian i poprawek oraz poprawia komunikację między zespołami. Najważniejsze jednak, że końcowy produkt rzeczywiście spełnia założenia biznesowe.
 
-Kompleksowy proces tworzenia strony internetowej składa się z siedmiu kluczowych etapów: strategii i planowania, projektowania UX/UI, przygotowania treści, implementacji technicznej, testowania, publikacji oraz optymalizacji po wdrożeniu. Każdy z tych etapów wymaga odpowiednich kompetencji, narzędzi i czasu. W kolejnych sekcjach przejdziemy przez wszystkie etapy, pokazując praktyczne aspekty realizacji i najczęstsze pułapki, których warto unikać.
+Kompleksowy proces [tworzenia strony internetowej](/artykuly/strony-internetowe/podstawy) składa się z siedmiu kluczowych etapów: strategii i planowania, [projektowania UX/UI](/artykuly/strony-internetowe/projektowanie), przygotowania treści, [implementacji technicznej](/artykuly/strony-internetowe/technologie), testowania, publikacji oraz optymalizacji po wdrożeniu. Każdy z tych etapów wymaga odpowiednich kompetencji, narzędzi i czasu. W kolejnych sekcjach przejdziemy przez wszystkie etapy, pokazując praktyczne aspekty realizacji i najczęstsze pułapki, których warto unikać.
 
 ## Strategia i planowanie projektu
 
