@@ -1,17 +1,17 @@
 categories:
-- slug: firma
-  title: Firma
-  path: firma
 - slug: rozwoj-oprogramowania
   title: Rozwój Oprogramowania
   path: rozwoj-oprogramowania
-- slug: strony-internetowe
-  title: Strony Internetowe
-  path: strony-internetowe
-- slug: projektowanie-ux-ui
-  title: Projektowanie UX/UI
-  path: strony-internetowe/projektowanie-ux-ui
 - slug: metodyki-tworzenia-oprogramowania
   title: Metodyki Tworzenia Oprogramowania
   path: rozwoj-oprogramowania/metodyki-tworzenia-oprogramowania
+- slug: planowanie-aplikacji-webowych
+  title: Planowanie aplikacji webowych
+  path: rozwoj-oprogramowania/planowanie-aplikacji-webowych
+- slug: strategia-it
+  title: Strategia IT
+  path: strategia-it
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
 count: 5
