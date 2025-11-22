@@ -1,17 +1,17 @@
 categories:
-- slug: rozwoj-oprogramowania
-  title: Rozwój Oprogramowania
-  path: rozwoj-oprogramowania
 - slug: technologie-dla-firm
   title: Technologie dla firm
   path: firma/technologie-dla-firm
-- slug: hosting-i-infrastruktura
-  title: Hosting i Infrastruktura
-  path: strony-internetowe/hosting-i-infrastruktura
 - slug: it-i-technologia
   title: IT i Technologia
   path: it-i-technologia
-- slug: backend-development
-  title: Backend Development
-  path: strony-internetowe/backend-development
+- slug: wordpress
+  title: Wordpress
+  path: strony-internetowe/content-management-systems-cms/wordpress
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
 count: 5
