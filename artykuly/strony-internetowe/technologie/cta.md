@@ -4,7 +4,7 @@
 
 **Odpowiedz na te pytania:**
 - [ ] Czy Twój obecny system ogranicza rozwój biznesu?
-- [ ] Czy masz budżet 10,000-30,000 PLN na wdrożenie w ciągu 2-3 miesiące?
+- [ ] Czy masz budżet 10,000-30,000 PLN na wdrożenie w ciągu 2-3 miesięcy?
 - [ ] Czy masz zespół IT (własny lub external) do wdrożenia?
 
 Jeśli odpowiedziałeś "tak" na 2+ pytania, headless architecture może być dobrym wyborem - zacznij od konsultacji z architektem.
@@ -12,8 +12,8 @@ Jeśli odpowiedziałeś "tak" na 2+ pytania, headless architecture może być do
 ### 📖 Pogłęb wiedzę:
 
 **Następne kroki lektury:**
-1. **[Poradniki stron internetowych dla firm](/artykuly/strony-internetowe/poradniki)** - dowiesz się jak założyć i prowadzić stronę internetową
-2. **[Podstawy stron internetowych dla firm](/artykuly/strony-internetowe/podstawy)** - poznasz fundamenty technologiczne niezbędne dla biznesu online
+1. **[Poradniki stron internetowych dla firm](/artykuly/strony-internetowe/poradniki)** - dowiedz się, jak skutecznie projektować i wdrażać rozwiązania dla e-commerce
+2. **[Koszty](/artykuly/strony-internetowe/koszty)** - szczegółowy breakdown kosztów dla różnych rozwiązań
 
 **Praktyczne zasoby:**
 - [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu
