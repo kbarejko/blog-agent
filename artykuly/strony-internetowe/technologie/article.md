@@ -3,7 +3,7 @@
 - **PHP może kosztować nawet 30% mniej niż JavaScript** - Dzięki większej dostępności programistów i krótszemu czasowi rozwoju, PHP na backendzie to często rozsądny wybór dla wielu firm.
 - **WordPress vs Headless CMS** - Jak ocenić, kiedy warto zainwestować w headless? Zazwyczaj przy ponad 10 tysiącach użytkowników miesięcznie może to być opłacalne, podczas gdy WordPress wystarczy w mniejszych projektach.
 - **Wpływ hostingu na konwersje** - Każda sekunda opóźnienia w ładowaniu strony może oznaczać aż 7% mniej sprzedaży. Inwestycja w lepszy serwer, kosztujący jedynie 50-100 zł więcej miesięcznie, może się zwrócić.
-- **Metodologia wyboru technologii** - Przedstawiamy gotowy zestaw 8 pytań, który pomoże Ci dokonać świadomego wyboru technologii, kierując się budżetem i celami biznesowymi, a nie chwilowymi trendami.
+- **Metodologia wyboru technologii** - Przedstawiamy [gotowy zestaw 8 pytań](/artykuly/strony-internetowe/poradniki), który pomoże Ci dokonać świadomego wyboru technologii, kierując się budżetem i celami biznesowymi, a nie chwilowymi trendami.
 
 ## Wprowadzenie - Dlaczego wybór technologii ma kluczowe znaczenie
 
@@ -13,13 +13,13 @@ Wyobraźmy sobie firmę, która w 2020 roku zdecydowała się na przestarzałe t
 
 ## Wprowadzenie - Dlaczego wybór technologii ma kluczowe znaczenie
 
-Technologia to podstawa każdego biznesu online. Nie chodzi tylko o to, czy strona działa – ale jak szybko się ładuje, jak łatwo można dodać nowe funkcje i ile kosztuje jej utrzymanie w perspektywie czasu.
+Technologia to podstawa każdego biznesu online. Nie chodzi tylko o to, czy strona działa – ale [jak szybko się ładuje](/artykuly/strony-internetowe/projektowanie), jak łatwo można dodać nowe funkcje i ile kosztuje jej utrzymanie w perspektywie czasu.
 
 Pomyłki w wyborze technologii mogą kosztować dziesiątki tysięcy złotych. Przykładowo, firma decyduje się na gotowy system sklepowy, który po dwóch latach nie wspiera niezbędnych integracji z magazynem. Co się dzieje? Konieczność przepisania całej platformy od podstaw.
 
 **Koszty długoterminowe mogą przewyższać początkowe oszczędności**
 
-To, co na początku wydaje się najtańszym rozwiązaniem, z czasem może okazać się najdroższe. System wymagający ciągłych poprawek i ograniczający skalowanie generuje ukryte koszty: przestoje, utracone sprzedaże, niezadowolenie klientów.
+To, co na początku wydaje się najtańszym rozwiązaniem, z czasem może okazać się najdroższe. System wymagający ciągłych poprawek i ograniczający skalowanie generuje ukryte koszty: [przestoje, utracone sprzedaże](/artykuly/strony-internetowe/bezpieczenstwo), niezadowolenie klientów.
 
 **Różne potrzeby wymagają różnych podejść**
 
@@ -31,11 +31,11 @@ W tym artykule przyjrzymy się podstawom technologicznym – od HTML i CSS po no
 
 Dowiesz się, jakie są różnice między PHP a JavaScript pod względem kosztów rozwoju, kiedy warto zainwestować w headless CMS, a kiedy wystarczy klasyczny WordPress. Zrozumiesz, jak wybór hostingu wpływa na konwersje i dlaczego czas ładowania strony to nie tylko kwestia techniczna, ale i biznesowa.
 
-**Strategiczne myślenie o technologii**
+**[Strategiczne myślenie o technologii](/artykuly/strony-internetowe/strategia)**
 
 Kluczowe jest dopasowanie rozwiązań do celów biznesowych. Nie ma uniwersalnych odpowiedzi – są za to przemyślane decyzje oparte na analizie potrzeb, budżetu i planów rozwoju.
 
-## Podstawy technologiczne - HTML, CSS i fundamenty
+## [podstawy technologiczne](/artykuly/strony-internetowe/podstawy) - HTML, CSS i fundamenty
 
 „Nie muszę znać technikaliów, mam od tego programistów" – często to słyszę. Jednak po miesiącu ten sam przedsiębiorca dzwoni, sfrustrowany, bo „coś się popsuło i nikt nie umie mi wyjaśnić co”.
 
