@@ -10,15 +10,15 @@
 
 # Technologie
 
-Wybór technologii webowej to jak wybór fundamentów dla domu – niewłaściwa decyzja na tym etapie może przynieść długotrwałe konsekwencje. Wielu przedsiębiorców podejmuje tę decyzję na podstawie intuicji, co często kończy się późniejszymi rozczarowaniami.
+Wybór technologii webowej to jak wybór [fundamentów dla domu](/artykuly/strony-internetowe/podstawy) – niewłaściwa decyzja na tym etapie może przynieść długotrwałe konsekwencje. Wielu przedsiębiorców podejmuje tę decyzję na podstawie intuicji, co często kończy się późniejszymi rozczarowaniami.
 
 ## Wprowadzenie - Dlaczego technologie mają znaczenie dla Twojego biznesu
 
-Technologia to nie tylko domena programistów; to istotna decyzja strategiczna dla każdej firmy. Odpowiedni wybór może przyspieszyć rozwój o miesiące, a błędny zmusić do kosztownej przebudowy.
+Technologia to nie tylko domena programistów; to [istotna decyzja strategiczna](/artykuly/strony-internetowe/strategia) dla każdej firmy. Odpowiedni wybór może przyspieszyć rozwój o miesiące, a błędny zmusić do kosztownej przebudowy.
 
 Wielu przedsiębiorców myśli tylko o najbliższej przyszłości. Wybierają najtańsze rozwiązania dostępne teraz, nie biorąc pod uwagę przyszłych kosztów utrzymania. Na przykład, strona internetowa za 2000 zł może w ciągu dwóch lat wygenerować koszty sięgające 15000 zł na poprawki i rozbudowę.
 
-Istnieje wiele popularnych mitów. Na przykład, że „wszystkie strony działają tak samo" lub „technologia to sprawa programisty". W rzeczywistości, wybór między WordPress a unikalnym rozwiązaniem może decydować o tym, czy Twój sklep internetowy przetrwa szczyt zakupów w Black Friday.
+Istnieje wiele popularnych mitów. Na przykład, że „wszystkie strony działają tak samo" lub „technologia to sprawa programisty". W rzeczywistości, wybór między WordPress a unikalnym rozwiązaniem może decydować o tym, czy Twój sklep internetowy [przetrwa szczyt zakupów w Black Friday](/artykuly/strony-internetowe/bezpieczenstwo).
 
 Innym powszechnym przekonaniem jest, że nowoczesne technologie są droższe. Często jest odwrotnie – wykorzystanie React lub Vue.js może być tańsze w długoterminowym utrzymaniu niż starsze systemy.
 
@@ -30,7 +30,7 @@ W tym przewodniku omówimy kluczowe technologie – od HTML i CSS, przez wybór 
 
 ### Dlaczego podstawy mają znaczenie dla biznesu
 
-HTML i CSS to nie tylko kwestie techniczne – to kluczowe elementy, które kształtują każdy aspekt Twojego biznesu online. Czyste, semantyczne znaczniki HTML mogą pomóc Google lepiej zrozumieć Twoją stronę, co z kolei przekłada się na lepsze pozycjonowanie w wyszukiwarkach.
+HTML i CSS to nie tylko kwestie techniczne – to kluczowe elementy, które [kształtują każdy aspekt Twojego biznesu online](/artykuly/strony-internetowe/projektowanie). Czyste, semantyczne znaczniki HTML mogą pomóc Google lepiej zrozumieć Twoją stronę, co z kolei przekłada się na lepsze pozycjonowanie w wyszukiwarkach.
 
 Nieoptymalny kod CSS może prowadzić do wolniejszego ładowania strony, a każda sekunda opóźnienia może oznaczać 7% mniej konwersji. W przypadku sklepu generującego 100 000 zł miesięcznie, oznacza to potencjalną stratę rzędu 7000 zł.
 
