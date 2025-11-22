@@ -11,7 +11,7 @@ categories:
 - slug: hosting-i-infrastruktura
   title: Hosting i Infrastruktura
   path: strony-internetowe/hosting-i-infrastruktura
-- slug: koszt-stron-internetowych
-  title: Koszt stron internetowych
-  path: strony-internetowe/koszt-stron-internetowych
+- slug: frontend-development
+  title: Frontend Development
+  path: strony-internetowe/frontend-development
 count: 5
