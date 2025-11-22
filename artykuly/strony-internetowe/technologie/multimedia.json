@@ -1,182 +1,180 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Nowoczesne technologie dla biznesu",
-    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard technologii i kodu",
-    "alt_text": "Minimalistyczne stanowisko pracy z laptopem pokazującym dashboard technologii webowych",
-    "prompt": "Clean minimalist workspace flat lay, laptop displaying modern web development dashboard with code snippets and analytics, white desk surface, smartphone, notebook with yellow pen, coffee cup, natural daylight from side, professional tech aesthetic, black white gray colors with subtle yellow accents, high quality, no people",
+    "type": "illustration",
+    "title": "Hero image - Technologie webowe dla biznesu",
+    "description": "Minimalistyczna kompozycja z laptopem wyświetlającym kod i elementy technologiczne",
+    "alt_text": "Laptop z kodem HTML CSS na ekranie w nowoczesnym workspace z elementami technologii webowych",
+    "prompt": "Clean minimalist workspace flat lay, laptop displaying HTML CSS code on screen, modern keyboard, smartphone showing web dashboard, notebook with yellow pen, geometric shapes representing web technologies, white desk surface, natural lighting from side, muted colors black white gray with subtle yellow accents, professional tech aesthetic, high quality, no people",
     "keywords": [
-      "technologie",
-      "rozwój stron",
-      "workspace",
-      "programowanie"
+      "technologie webowe",
+      "programowanie",
+      "HTML CSS",
+      "workspace"
     ],
     "stock_suggestions": {
-      "unsplash_query": "web development workspace laptop coding",
-      "pexels_query": "programming workspace technology laptop",
+      "unsplash_query": "web development laptop code workspace minimalist",
+      "pexels_query": "programming computer technology modern office",
       "keywords_for_search": [
-        "developer workspace",
-        "coding setup",
-        "tech workspace"
+        "web development workspace",
+        "coding laptop",
+        "tech minimalist setup"
       ],
-      "style_notes": "Minimalist workspace, natural lighting, professional tech setup without people"
+      "style_notes": "Clean workspace, modern tech setup, no people visible, minimalist aesthetic with muted colors"
     }
   },
   "section_media": [
     {
       "type": "chart",
-      "subtype": "comparison_chart",
-      "section": "Sekcja: Języki programowania - PHP vs JavaScript",
-      "title": "Porównanie kosztów PHP vs JavaScript",
-      "description": "Wykres słupkowy porównujący koszty rozwoju i utrzymania projektów PHP vs JavaScript",
-      "alt_text": "Wykres porównania kosztów programistów PHP vs JavaScript w Polsce 2024",
-      "prompt": "Clean comparison bar chart showing PHP vs JavaScript development costs, two-color bars (blue for PHP, green for JavaScript), values in PLN, categories: Junior, Mid, Senior developers, minimalist professional design, white background, clear labels",
-      "placement": "after_paragraph_2_in_section_3",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Koszty długoterminowe",
+      "title": "Wykres kosztów utrzymania różnych technologii",
+      "description": "Porównanie kosztów długoterminowych WordPress vs rozwiązania custom",
+      "alt_text": "Wykres porównania kosztów utrzymania WordPress versus rozwiązania dedykowane przez 3 lata",
+      "prompt": "Clean comparison bar chart showing WordPress vs custom solution costs over 3 years, two series of bars in blue and orange colors, values in PLN, minimalist professional design, white background, clear labels and legend, business infographic style",
+      "placement": "after_paragraph_2",
       "keywords": [
-        "PHP",
-        "JavaScript",
-        "koszty programistów",
-        "porównanie"
+        "koszty technologii",
+        "WordPress",
+        "porównanie kosztów"
       ],
       "stock_suggestions": {
-        "unsplash_query": "business comparison chart data visualization",
-        "pexels_query": "financial comparison graph statistics",
+        "unsplash_query": "business cost comparison chart professional",
+        "pexels_query": "financial chart business analytics",
         "keywords_for_search": [
           "cost comparison chart",
-          "salary comparison",
-          "tech comparison"
+          "business analytics graph",
+          "technology investment"
         ],
-        "style_notes": "Clean professional chart design, can be created with ChartJS or Canva templates"
+        "style_notes": "Clean professional chart, two-color scheme, clear data visualization for business context"
       }
     },
     {
       "type": "illustration",
-      "subtype": "infographic",
-      "section": "Sekcja: Wybór technologii - strategiczne podejście",
-      "title": "Metodologia wyboru technologii - 8 kluczowych pytań",
-      "description": "Infografika z 8 pytaniami strategicznymi do wyboru technologii dla biznesu",
-      "alt_text": "Infografika metodologii wyboru technologii - 8 pytań strategicznych dla biznesu",
-      "prompt": "Vertical infographic showing 8 strategic questions for technology selection, numbered circles with icons, flowchart style with arrows, professional business design, black and white with yellow accent highlights, clean typography, minimalist style",
-      "placement": "after_paragraph_1_in_section_7",
+      "subtype": "comparison",
+      "section": "Sekcja: PHP vs JavaScript",
+      "title": "Infografika porównanie PHP vs JavaScript",
+      "description": "Wizualne porównanie kosztów, dostępności programistów i zastosowań",
+      "alt_text": "Infografika porównanie PHP versus JavaScript koszty programistów i zastosowania biznesowe",
+      "prompt": "Split-screen infographic comparing PHP vs JavaScript, left side PHP with traditional web icons, right side JavaScript with modern app icons, clean minimalist design, blue and orange sections, key metrics like developer costs and use cases, professional business style, white background",
+      "placement": "after_paragraph_3",
       "keywords": [
-        "wybór technologii",
-        "metodologia",
-        "strategia biznesowa",
-        "decyzje"
+        "PHP vs JavaScript",
+        "porównanie technologii",
+        "koszty programistów"
       ],
       "stock_suggestions": {
-        "unsplash_query": "business decision flowchart methodology",
-        "pexels_query": "strategic planning infographic design",
+        "unsplash_query": "technology comparison infographic clean design",
+        "pexels_query": "programming languages comparison chart",
         "keywords_for_search": [
-          "decision making process",
-          "business methodology",
-          "strategic questions"
+          "tech comparison infographic",
+          "programming comparison",
+          "business technology choice"
         ],
-        "style_notes": "Vertical flowchart design with numbered steps, professional business infographic style"
+        "style_notes": "Split-screen layout, contrasting sections, professional infographic style with clear visual hierarchy"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "framework_overview",
+      "section": "Sekcja: Nowoczesne frameworki",
+      "title": "Diagram React vs Vue vs Next.js",
+      "description": "Schemat porównawczy nowoczesnych frameworki JavaScript z zastosowaniami biznesowymi",
+      "alt_text": "Diagram porównawczy React Vue Next.js z przykładami zastosowań w różnych typach projektów",
+      "prompt": "Three-column diagram showing React, Vue, and Next.js frameworks, each with characteristic logos and use case examples below, clean geometric design, modern tech aesthetic, consistent color coding for each framework, professional layout with connecting elements",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "React",
+        "Vue",
+        "Next.js",
+        "frameworki JavaScript"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "javascript framework comparison diagram modern",
+        "pexels_query": "web framework technology comparison",
+        "keywords_for_search": [
+          "javascript frameworks",
+          "react vue comparison",
+          "modern web development"
+        ],
+        "style_notes": "Clean diagram layout, modern tech aesthetic, color-coded sections for easy distinction"
       }
     },
     {
       "type": "chart",
-      "subtype": "line_chart",
-      "section": "Sekcja: Infrastruktura - hosting",
-      "title": "Wpływ czasu ładowania na konwersje",
-      "description": "Wykres liniowy pokazujący spadek konwersji wraz ze wzrostem czasu ładowania strony",
-      "alt_text": "Wykres wpływu czasu ładowania strony na konwersje w sklepach e-commerce",
-      "prompt": "Clean line graph showing page loading time impact on conversion rates, descending red line, x-axis showing seconds (1-6), y-axis showing conversion percentage, professional chart design, white background, clear grid lines",
-      "placement": "after_paragraph_3_in_section_6",
+      "subtype": "performance_chart",
+      "section": "Sekcja: Hosting jako strategia",
+      "title": "Wykres wpływu szybkości na konwersje",
+      "description": "Wykres liniowy pokazujący spadek konwersji wraz ze wzrostem czasu ładowania",
+      "alt_text": "Wykres wpływu czasu ładowania strony na współczynnik konwersji w e-commerce",
+      "prompt": "Line chart showing conversion rate decline as page loading time increases, red descending line from 100% at 1 second to 50% at 5 seconds, clean professional design, white background, clear axis labels, business metrics style",
+      "placement": "after_paragraph_1",
       "keywords": [
-        "czas ładowania",
+        "szybkość strony",
         "konwersje",
-        "wydajność",
-        "hosting"
+        "hosting",
+        "wydajność"
       ],
       "stock_suggestions": {
-        "unsplash_query": "website performance chart loading speed",
-        "pexels_query": "business performance graph declining",
+        "unsplash_query": "website performance chart loading time analytics",
+        "pexels_query": "business performance graph decline",
         "keywords_for_search": [
-          "conversion rate chart",
-          "website speed impact",
-          "performance metrics"
+          "performance metrics",
+          "website speed chart",
+          "conversion optimization"
         ],
-        "style_notes": "Declining line chart showing negative correlation, professional business chart style"
+        "style_notes": "Clean line chart with declining trend, professional business analytics style"
       }
     },
     {
       "type": "illustration",
-      "subtype": "comparison_table",
-      "section": "Sekcja: Systemy zarządzania treścią",
-      "title": "WordPress vs Headless CMS - porównanie funkcji",
-      "description": "Tabela porównawcza WordPress vs Headless CMS z kluczowymi kryteriami biznesowymi",
-      "alt_text": "Tabela porównania WordPress vs Headless CMS - funkcje, koszty, zastosowania",
-      "prompt": "Clean comparison table showing WordPress vs Headless CMS features, two-column layout with checkmarks and X marks, categories like cost, scalability, ease of use, professional design, black text on white background with subtle gray borders",
-      "placement": "after_paragraph_2_in_section_4",
+      "subtype": "process_flow",
+      "section": "Sekcja: Jak wybrać platformę",
+      "title": "Flowchart procesu wyboru technologii",
+      "description": "Diagram przepływu decyzyjnego dla wyboru odpowiedniej technologii webowej",
+      "alt_text": "Flowchart proces wyboru technologii webowej dla biznesu z pytaniami decyzyjnymi",
+      "prompt": "Decision flowchart for choosing web technology, starting with business goals at top, branching through questions like budget, timeline, scale, ending with technology recommendations, clean geometric design, arrows and decision diamonds, professional blue and gray colors",
+      "placement": "after_paragraph_2",
       "keywords": [
-        "WordPress",
-        "Headless CMS",
-        "porównanie",
-        "systemy CMS"
+        "wybór technologii",
+        "proces decyzyjny",
+        "flowchart",
+        "platformy webowe"
       ],
       "stock_suggestions": {
-        "unsplash_query": "comparison table design business decision",
-        "pexels_query": "feature comparison chart layout",
+        "unsplash_query": "business decision flowchart process diagram",
+        "pexels_query": "workflow diagram business process",
         "keywords_for_search": [
-          "comparison table",
-          "CMS comparison",
-          "feature matrix"
+          "decision tree diagram",
+          "business process flow",
+          "technology selection"
         ],
-        "style_notes": "Clean table design with clear visual hierarchy, checkmarks for features, professional business styling"
-      }
-    },
-    {
-      "type": "screenshot",
-      "subtype": "interface",
-      "section": "Sekcja: Nowoczesne technologie i frameworki",
-      "title": "Dashboard Next.js aplikacji - przykład interfejsu",
-      "description": "Mockup dashboardu nowoczesnej aplikacji Next.js z szybkim interfejsem",
-      "alt_text": "Dashboard aplikacji Next.js z nowoczesnym interfejsem i szybką nawigacją",
-      "prompt": "Modern web application dashboard mockup built with Next.js, clean UI with sidebar navigation, charts and data widgets, responsive design, professional business interface, dark mode toggle, React components visible, high quality screenshot style",
-      "placement": "after_paragraph_2_in_section_5",
-      "keywords": [
-        "Next.js",
-        "dashboard",
-        "nowoczesne aplikacje",
-        "interfejs"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "modern web application dashboard interface",
-        "pexels_query": "business dashboard software interface",
-        "keywords_for_search": [
-          "admin dashboard",
-          "web app interface",
-          "modern UI design"
-        ],
-        "style_notes": "Modern dashboard design with clean interface, professional business application style"
+        "style_notes": "Vertical flowchart with clear decision points, professional business diagram style"
       }
     },
     {
       "type": "illustration",
-      "subtype": "process_diagram",
-      "section": "Sekcja: Podstawy technologiczne - HTML, CSS",
-      "title": "Struktura współczesnej strony internetowej",
-      "description": "Diagram pokazujący warstwy nowoczesnej strony: HTML, CSS, JavaScript i backend",
-      "alt_text": "Diagram struktury nowoczesnej strony internetowej z warstwami HTML CSS JavaScript",
-      "prompt": "Layered diagram showing modern website structure, four horizontal layers labeled HTML (structure), CSS (styling), JavaScript (interactivity), Backend (data), clean geometric design, arrows showing connections, professional infographic style, muted colors",
-      "placement": "after_paragraph_1_in_section_2",
+      "subtype": "timeline",
+      "section": "Sekcja: Trendy i przyszłość",
+      "title": "Timeline rozwoju technologii webowych",
+      "description": "Oś czasu pokazująca ewolucję od podstawowych technologii po AI i PWA",
+      "alt_text": "Timeline ewolucji technologii webowych od HTML CSS przez frameworki do sztucznej inteligencji",
+      "prompt": "Horizontal timeline showing web technology evolution from HTML/CSS (2000s) through JavaScript frameworks (2010s) to AI and PWA (2020s+), minimalist design with icons for each era, clean modern aesthetic, future-focused visualization",
+      "placement": "after_paragraph_1",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "struktura strony"
+        "historia technologii",
+        "trendy webowe",
+        "przyszłość",
+        "ewolucja"
       ],
       "stock_suggestions": {
-        "unsplash_query": "web development layers diagram structure",
-        "pexels_query": "website architecture diagram technology",
+        "unsplash_query": "technology evolution timeline modern design",
+        "pexels_query": "tech development history infographic",
         "keywords_for_search": [
-          "web architecture",
-          "technology stack",
-          "development layers"
+          "technology timeline",
+          "web development evolution",
+          "future tech trends"
         ],
-        "style_notes": "Clean layered diagram showing technology stack, professional technical illustration style"
+        "style_notes": "Horizontal timeline with modern tech aesthetic, clean minimalist design with tech icons"
       }
     }
   ],
