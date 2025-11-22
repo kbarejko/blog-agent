@@ -64,7 +64,7 @@ blog-agent/
 │       ├── prompt_business_metadata.md
 │       └── prompt_schema_markup.md
 │
-├── categories.yaml                     # 147 kategorii hierarchicznych (git-friendly)
+├── categories.yaml                     # 146 kategorii hierarchicznych (git-friendly)
 ├── blog_agent.py                       # główny skrypt (do przebudowy)
 └── requirements.txt                    # zależności Python
 ```
@@ -134,7 +134,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 ## 4. Proces tworzenia artykułu
 
-### 4.1 Workflow (14 kroków)
+### 4.1 Workflow (19 kroków)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -297,33 +297,90 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
                   │
                   ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  KROK 14: KATEGORIE                                         │
-│  • AI analizuje gotowy artykuł (article.md)                 │
-│  • Wybiera 1-5 kategorii z categories.yaml (147 kat.)      │
-│  • Sugeruje nowe jeśli brak odpowiednich                    │
-│  • Output: categories.yaml (lub sekcja w outline.md)       │
-│  • Git commit: "[series/silo/slug] Assign categories"      │
+│  KROK 14: INTERNAL LINKING                                  │
+│  • AI analizuje artykuł i znajduje powiązane artykuły       │
+│  • Automatycznie dodaje 3-5 linków wewnętrznych             │
+│  • Linki do artykułów w tym samym silosie (AI-driven)       │
+│  • Output: zaktualizowany article.md z linkami              │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 15: GENERATE IMAGES (opcjonalne)                      │
+│  • Generuje obrazy z DALL-E 3 lub Stability AI              │
+│  • Hero image (automatycznie) + sugestie stock photos       │
+│  • Output: images/hero.png + multimedia.json (updated)      │
+│  • Domyślnie wyłączone (kosztuje $0.01-0.12 per artykuł)   │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 16: SOCIAL MEDIA                                      │
+│  • Generuje posty na Facebook/LinkedIn/Instagram            │
+│  • Hook-based post (80±5 znaków)                           │
+│  • 4 alternatywne tytuły z mocnymi hookami                  │
+│  • Pierwszy komentarz z bulletami i 10 hashtagami           │
+│  • Output: social_media.md (Markdown format)                │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 17: FAQ (jeśli w outline)                            │
+│  • Generuje FAQ z 5-8 pytaniami                             │
+│  • Semantic internal linking do powiązanych artykułów       │
+│  • Output: faq.md + faq_outline.md                          │
+│  • Odpowiedzi 50-70 słów każda                              │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 18: CHECKLIST (jeśli w outline)                      │
+│  • Generuje actionable checklist z 8-12 itemami             │
+│  • Humanizacja treści checklist                             │
+│  • Output: checklist.md + checklist_outline.md              │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 19: HEADERS ALTERNATIVES (opcjonalne)                 │
+│  • Generuje 3-4 alternatywy SEO dla H1/H2/H3                │
+│  • Long-tail warianty dla każdego nagłówka                  │
+│  • Output: headers_alternatives.md                          │
+│  • Domyślnie włączone                                       │
+│  • Git commit: "[series/silo/slug] Add SEO alternatives"   │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+**Uwaga:** Krok 13 (Categories) został przeniesiony wcześniej w workflow i nie jest już ostatnim krokiem.
 
 ### 4.2 Timing (szacunkowy)
 
 | Krok | Czas | % |
 |------|------|---|
-| Konspekt | ~30s | 8% |
-| Streszczenie "Co znajdziesz" | ~15s | 4% |
-| Internal linking | ~20s | 5% |
-| Pisanie sekcji (x5) | ~2m | 32% |
-| Review sekcji (x5) | ~1m | 16% |
-| SEO Review | ~20s | 5% |
-| Humanizacja | ~40s | 11% |
-| Multimedia suggestions | ~20s | 5% |
-| Business metadata | ~25s | 7% |
-| CTA/Next Steps | ~20s | 5% |
-| Schema.org markup | ~15s | 4% |
-| Kategorie | ~20s | 5% |
-| Git commits | ~20s | 5% |
-| **RAZEM** | **~6min 25s** | **100%** |
+| Init | ~5s | 1% |
+| Konspekt | ~30s | 6% |
+| Streszczenie "Co znajdziesz" | ~15s | 3% |
+| Pisanie sekcji (x5) | ~2m | 25% |
+| Review sekcji (x5) | ~1m | 13% |
+| Create draft | ~5s | 1% |
+| SEO Review | ~20s | 4% |
+| Humanizacja | ~40s | 9% |
+| Multimedia suggestions | ~20s | 4% |
+| Business metadata | ~25s | 5% |
+| CTA/Next Steps | ~20s | 4% |
+| Publish | ~5s | 1% |
+| Schema.org markup | ~15s | 3% |
+| Kategorie | ~20s | 4% |
+| Internal linking | ~25s | 5% |
+| Generate images (jeśli włączone) | ~30s | 6% |
+| Social media | ~30s | 6% |
+| FAQ (jeśli w outline) | ~45s | 9% |
+| Checklist (jeśli w outline) | ~20s | 4% |
+| Headers alternatives (jeśli włączone) | ~25s | 5% |
+| Git commits | ~20s | 4% |
+| **RAZEM** | **~7-8min** | **100%** |
+
+**Uwaga:** Czas zależy od włączonych opcjonalnych kroków (images, FAQ, checklist, headers alternatives)
 
 ### 4.3 Opcjonalne sekcje (AI decision)
 
@@ -946,7 +1003,7 @@ Każda sekcja musi spełniać:
 - Liczba artykułów
 - Pełna ścieżka URL
 
-**Liczba kategorii:** 147 (hierarchicznych)
+**Liczba kategorii:** 146 (hierarchicznych)
 
 **Przykłady:**
 ```
@@ -974,7 +1031,7 @@ Strony Internetowe
 
 **Input:**
 - Gotowy artykuł (article.md)
-- Lista kategorii z categories.yaml (147 kategorii)
+- Lista kategorii z categories.yaml (146 kategorii)
 
 **Proces:**
 1. AI analizuje treść artykułu

@@ -76,20 +76,25 @@ blog_agent/
 │   ├── workflow.py                 # Workflow Engine
 │   ├── steps/                      # Step implementations (callables)
 │   │   ├── __init__.py
-│   │   ├── step_01_outline.py
-│   │   ├── step_02_summary.py
-│   │   ├── step_03_linking.py
-│   │   ├── step_04_write_intro.py
-│   │   ├── step_05_write_sections.py
-│   │   ├── step_06_draft.py
-│   │   ├── step_07_seo_review.py
-│   │   ├── step_08_humanize.py
-│   │   ├── step_09_multimedia.py
-│   │   ├── step_10_business_metadata.py
-│   │   ├── step_11_cta.py
-│   │   ├── step_12_publish.py
-│   │   ├── step_13_schema.py
-│   │   └── step_14_categories.py
+│   │   ├── step_01_init.py
+│   │   ├── step_02_outline.py
+│   │   ├── step_03_summary.py
+│   │   ├── step_04_write_sections.py
+│   │   ├── step_05_create_draft.py
+│   │   ├── step_06_seo_review.py
+│   │   ├── step_07_humanize.py
+│   │   ├── step_08_multimedia.py
+│   │   ├── step_09_business_metadata.py
+│   │   ├── step_10_cta.py
+│   │   ├── step_11_publish.py
+│   │   ├── step_12_schema.py
+│   │   ├── step_13_categories.py
+│   │   ├── step_14_internal_linking.py
+│   │   ├── step_15_generate_images.py
+│   │   ├── step_16_social_media.py
+│   │   ├── step_17_faq.py
+│   │   ├── step_18_checklist.py
+│   │   └── step_19_headers_alternatives.py
 │   │
 │   └── services/                   # Domain services
 │       ├── __init__.py
@@ -1463,9 +1468,39 @@ workflow:
       git_commit: false
 
     - name: categories
-      function: core.steps.step_14_categories.execute_categories
+      function: core.steps.step_13_categories.execute_categories
       git_commit: true
       commit_message: "Assign categories"
+
+    - name: internal_linking
+      function: core.steps.step_14_internal_linking.execute_internal_linking
+      git_commit: false
+
+    - name: generate_images
+      function: core.steps.step_15_generate_images.execute_generate_images
+      git_commit: false
+      config:
+        enabled: false  # Optional - disabled by default (costs money)
+        provider: "stability"
+        model: "sdxl"
+
+    - name: social_media
+      function: core.steps.step_16_social_media.execute_social_media
+      git_commit: false
+
+    - name: faq
+      function: core.steps.step_17_faq.execute_faq
+      git_commit: false
+
+    - name: checklist
+      function: core.steps.step_18_checklist.execute_checklist
+      git_commit: false
+
+    - name: headers_alternatives
+      function: core.steps.step_19_headers_alternatives.execute_headers_alternatives
+      git_commit: false
+      config:
+        enabled: true  # Optional - enabled by default
 ```
 
 ### 6.2 providers.yaml - AI Providers
@@ -1941,7 +1976,7 @@ python cli.py create \
 ✅ Completed categories
 
 ✅ Article generated: artykuly/ecommerce/operacje/bezpieczenstwo-rodo/article.md
-📊 Stats: 6min 25s, ~3200 words, 14 steps, 4 git commits
+📊 Stats: 7-8min, ~3200 words, 19 steps, 4 git commits
 
 📤 Publishing to Payload CMS...
   ├─ Transforming to Payload format (markdown-based)
@@ -2103,7 +2138,7 @@ def _create_comparison_block(self, content):
 2. ⏳ **Setup project structure** (folders, __init__.py)
 3. ⏳ **Implement core domain** (Article, Value Objects)
 4. ⏳ **Implement infrastructure** (Claude provider, Git ops)
-5. ⏳ **Implement step functions** (14 steps)
+5. ⏳ **Implement step functions** (19 steps)
 6. ⏳ **Implement workflow engine**
 7. ⏳ **Implement CLI**
 8. ⏳ **Testing** (unit + integration)
