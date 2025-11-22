@@ -10,11 +10,11 @@
 
 # Technologie
 
-Wybór technologii webowej przypomina wybór fundamentów dla domu – jeśli na tym etapie popełnisz błąd, może on Cię kosztować przez lata. Większość przedsiębiorców podejmuje tę decyzję na podstawie intuicji, co często kończy się późniejszymi problemami.
+Wybór technologii webowej przypomina wybór [fundamentów dla domu](/artykuly/strony-internetowe/podstawy) – jeśli na tym etapie popełnisz błąd, może on Cię kosztować przez lata. Większość przedsiębiorców podejmuje tę decyzję na podstawie intuicji, co często kończy się późniejszymi problemami.
 
 ## Wprowadzenie - Dlaczego technologie mają znaczenie dla Twojego biznesu
 
-Technologia to nie tylko domena programistów – to strategiczna decyzja biznesowa. Odpowiedni wybór może przyspieszyć rozwój firmy nawet o kilka miesięcy, podczas gdy błędna decyzja zmusi do kosztownej przebudowy w przyszłości.
+Technologia to nie tylko domena programistów – to [strategiczna decyzja biznesowa](/artykuly/strony-internetowe/strategia). Odpowiedni wybór może przyspieszyć rozwój firmy nawet o kilka miesięcy, podczas gdy błędna decyzja zmusi do [kosztownej przebudowy w przyszłości](/artykuly/strony-internetowe/bezpieczenstwo).
 
 Wielu przedsiębiorców patrzy krótkoterminowo. Decydują się na najtańsze dostępne rozwiązanie, nie zastanawiając się nad kosztami utrzymania. Strona internetowa za 2000 zł może po dwóch latach kosztować nawet 15000 zł w poprawkach i rozbudowie.
 
@@ -24,7 +24,7 @@ Innym mitem jest przekonanie, że nowoczesne rozwiązania są droższe. Często 
 
 Skalowanie to również kluczowy aspekt. Rozwiązanie idealne dla startupu może stać się przeszkodą dla firmy obsługującej tysiące klientów każdego dnia.
 
-W tym przewodniku przeanalizujemy wszystkie kluczowe technologie – od HTML i CSS, poprzez wybór między PHP a JavaScript, aż po nowoczesne frameworki i systemy CMS. Wszystko to w sposób praktyczny i zrozumiały, bez technicznych zawiłości.
+W tym przewodniku przeanalizujemy [wszystkie kluczowe technologie](/artykuly/strony-internetowe/poradniki) – od HTML i CSS, poprzez wybór między PHP a JavaScript, aż po nowoczesne frameworki i systemy CMS. Wszystko to w sposób praktyczny i zrozumiały, bez technicznych zawiłości.
 
 ## Fundamenty: HTML, CSS i podstawy programowania
 
