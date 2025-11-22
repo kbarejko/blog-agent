@@ -1,31 +1,15 @@
-## Podstawy technologiczne - HTML, CSS i fundamenty
+## Fundamenty: HTML, CSS i podstawy programowania
 
-„Nie potrzebuję znać technikaliów, mam programistów" – słyszę to regularnie. Miesiąc później ten sam przedsiębiorca dzwoni sfrustrowany, bo „coś się zepsuło i nikt nie potrafi mi wytłumaczyć co".
+### Dlaczego podstawy mają znaczenie dla biznesu
 
-**Podstawy to język komunikacji z zespołem**
+HTML i CSS to nie tylko sprawa techniczna – to fundament, który wpływa na każdy aspekt Twojego biznesu online. Czyste, semantyczne znaczniki HTML sprawiają, że Google lepiej rozumie Twoją stronę. To przekłada się bezpośrednio na pozycje w wyszukiwarce.
 
-HTML i CSS to alfabetu internetu. Przedsiębiorca, który rozumie różnicę między semantycznym HTML a chaosem divów, potrafi zadać właściwe pytania. Wie, dlaczego jedna zmiana trwa godzinę, a druga tydzień.
+Słaby kod CSS oznacza wolne ładowanie strony. Każda sekunda opóźnienia to 7% mniej konwersji. W sklepie robiącym 100 000 zł miesięcznie to strata 7000 zł.
 
-Przykład z praktyki: klient chce „przenieść ten przycisk wyżej". Programista tłumaczy złożoność układu CSS, responsywność, wpływ na inne elementy. Przedsiębiorca z podstawową wiedzą rozumie problem i może podjąć świadomą decyzję biznesową.
+Strona zbudowana na kiepskich fundamentach wymaga ciągłych "łatek". Dodanie nowej funkcji, które w czystym kodzie zajęłoby godzinę, może zająć cały dzień. Programista musi najpierw zrozumieć bałagan, potem go naprawić.
 
-**Wpływ na SEO wykracza poza pozycjonowanie**
+Prawdziwy koszt ujawnia się przy skalowaniu. Firma z Krakowa chciała dodać system rezerwacji do swojej strony. Kod był tak zagmatwany, że łatwiej było zbudować wszystko od nowa. Koszt: 25 000 zł zamiast planowanych 8000 zł.
 
-Semantyczny HTML to nie fanaberia programistów – to bezpośredni wpływ na widoczność w wyszukiwarkach. Właściwe nagłówki H1, H2, strukturalne znaczniki article, section czy nav pomagają Google zrozumieć treść.
+Dobrze napisane HTML i CSS to także łatwiejsze utrzymanie. Zmiany w projekcie nie psują całej strony. Nowe funkcje dodaje się szybciej i taniej.
 
-CSS wpływa na wydajność strony. Źle napisane style spowalniają ładowanie, a każda sekunda opóźnienia to 7% mniej konwersji. Przedsiębiorca, który rozumie te zależności, alokuje budżet świadomie.
-
-**Optymalizacja wydajności jako przewaga konkurencyjna**
-
-Minifikacja CSS, kompresja obrazów, lazy loading – to nie techniczne gadżety, ale narzędzia zwiększające sprzedaż. Strona ładująca się w 2 sekundy konwertuje lepiej niż ta sama treść w 5 sekund.
-
-**Kontrola jakości i kosztów rozwoju**
-
-Znajomość podstaw chroni przed przepłacaniem za proste zmiany. Zamiana koloru przycisku nie powinna kosztować jak budowa całego modułu.
-
-Dobry programista doceni świadomego klienta, który rozumie ograniczenia techniczne. Komunikacja staje się efektywniejsza, projekty realizują się szybciej, a budżety są lepiej wykorzystywane.
-
-**Praktyczne podejście do nauki**
-
-Nie musisz zostać programistą. Wystarczy zrozumieć logikę: jak HTML strukturyzuje treść, jak CSS ją stylizuje, gdzie szukać problemów wydajnościowych.
-
-Poznaj szczegóły w przewodniku [HTML CSS Podstawy](/html-css-podstawy).
+Poznaj szczegóły w: [HTML CSS Podstawy](/html-css-podstawy)
