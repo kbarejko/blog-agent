@@ -1,12 +1,184 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Html Dla Poczatkujacych",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Html Dla Poczatkujacych",
-    "prompt": "Professional modern illustration for Html Dla Poczatkujacych",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - HTML dla początkujących przedsiębiorców",
+    "description": "Minimalistyczna kompozycja workspace z laptopem wyświetlającym kod HTML, notatkami i urządzeniami",
+    "alt_text": "Laptop z kodem HTML na ekranie, notatnik i smartfon na białym biurku - workspace przedsiębiorcy",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying HTML code editor with clean syntax highlighting, white wooden desk, yellow notebook with HTML tags sketched, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "HTML",
+      "przedsiębiorca",
+      "kod",
+      "nauka"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "HTML code laptop workspace developer desk",
+      "pexels_query": "programming code computer business",
+      "keywords_for_search": [
+        "HTML coding workspace",
+        "web development desk",
+        "programming laptop"
+      ],
+      "style_notes": "Clean workspace setup, natural lighting, focus on code editor screen"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Struktura dokumentu HTML",
+      "title": "Diagram struktury HTML - szkielet strony",
+      "description": "Wizualna reprezentacja struktury HTML jako szkielet budynku z tagami",
+      "alt_text": "Diagram struktury HTML pokazujący hierarchię tagów jako szkielet budynku",
+      "prompt": "Clean architectural diagram showing HTML structure as building framework, hierarchical layout with html, head, body tags as foundation and structure elements, minimalist line art style, black and white with yellow accent highlights, professional technical drawing aesthetic, labeled sections, geometric design",
+      "placement": "after_paragraph_2_in_section_2",
+      "keywords": [
+        "HTML",
+        "struktura",
+        "tagi",
+        "hierarchia"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website structure diagram wireframe",
+        "pexels_query": "web development hierarchy diagram",
+        "keywords_for_search": [
+          "HTML structure diagram",
+          "website architecture",
+          "web hierarchy"
+        ],
+        "style_notes": "Clean technical diagram, architectural style, hierarchical layout"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Najpopularniejsze tagi HTML",
+      "title": "Infografika - 10 najważniejszych tagów HTML",
+      "description": "Pionowa infografika z najważniejszymi tagami HTML i ich zastosowaniem biznesowym",
+      "alt_text": "Infografika 10 najważniejszych tagów HTML dla przedsiębiorców z przykładami użycia",
+      "prompt": "Vertical infographic showing 10 essential HTML tags: h1, p, div, img, a, ul, li, strong, em, section. Each tag with icon and business use case example, clean minimalist design, black text on white background with yellow accent highlights, professional typography, numbered layout",
+      "placement": "after_paragraph_1_in_section_3",
+      "keywords": [
+        "HTML",
+        "tagi",
+        "infografika",
+        "podstawy"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "HTML tags cheat sheet infographic",
+        "pexels_query": "web development guide visual",
+        "keywords_for_search": [
+          "HTML cheat sheet",
+          "coding infographic",
+          "web tags guide"
+        ],
+        "style_notes": "Vertical infographic, clean typography, numbered or categorized sections"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Narzędzia do nauki HTML",
+      "title": "Screenshot Visual Studio Code z kodem HTML",
+      "description": "Interface VS Code pokazujący prosty dokument HTML z podświetlaniem składni",
+      "alt_text": "Interface Visual Studio Code z prostym kodem HTML i podświetlaniem składni",
+      "prompt": "Clean screenshot mockup of Visual Studio Code interface showing simple HTML document with syntax highlighting, dark theme, file explorer visible, clean code structure with basic tags like html, head, body, h1, p, professional IDE interface design",
+      "placement": "after_paragraph_1_in_section_5",
+      "keywords": [
+        "Visual Studio Code",
+        "HTML",
+        "edytor",
+        "nauka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "visual studio code HTML programming interface",
+        "pexels_query": "code editor programming screen",
+        "keywords_for_search": [
+          "VS Code screenshot",
+          "HTML editor interface",
+          "programming IDE"
+        ],
+        "style_notes": "Clean IDE interface, focus on HTML code, syntax highlighting visible"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "browser_inspector",
+      "section": "Sekcja: Inspektor elementów w przeglądarce",
+      "title": "Screenshot inspektora elementów Chrome",
+      "description": "Inspektor elementów Chrome pokazujący kod HTML strony biznesowej",
+      "alt_text": "Inspektor elementów Chrome z kodem HTML strony firmowej i narzędziami deweloperskimi",
+      "prompt": "Clean screenshot of Chrome DevTools inspector showing HTML structure of business website, elements panel visible, highlighted HTML tags, clean interface design, professional browser developer tools, code structure clearly visible",
+      "placement": "after_paragraph_1_in_section_inspector",
+      "keywords": [
+        "inspektor elementów",
+        "Chrome",
+        "HTML",
+        "narzędzia"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "chrome developer tools HTML inspector",
+        "pexels_query": "browser developer tools programming",
+        "keywords_for_search": [
+          "DevTools screenshot",
+          "browser inspector",
+          "HTML debugging"
+        ],
+        "style_notes": "Clean browser interface, focus on HTML structure in inspector panel"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Sekcja: Praktyczne zastosowania HTML",
+      "title": "Porównanie przed/po - strona bez i z poprawną strukturą HTML",
+      "description": "Wizualne porównanie strony z chaotyczną strukturą HTML vs uporządkowaną",
+      "alt_text": "Porównanie strony internetowej przed i po poprawie struktury HTML",
+      "prompt": "Split screen comparison showing website layout, left side: messy unstructured content with poor hierarchy, right side: clean well-organized content with proper HTML structure, before and after style, professional web design, clean minimalist aesthetic, arrows showing improvement",
+      "placement": "after_paragraph_2_in_section_4",
+      "keywords": [
+        "struktura HTML",
+        "porównanie",
+        "optymalizacja",
+        "strona"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website design before after comparison",
+        "pexels_query": "web layout improvement comparison",
+        "keywords_for_search": [
+          "website redesign comparison",
+          "web structure improvement",
+          "before after web"
+        ],
+        "style_notes": "Split screen comparison, clear visual difference, professional web design"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Korzyści biznesowe HTML",
+      "title": "Wykres oszczędności z nauki HTML",
+      "description": "Wykres słupkowy pokazujący potencjalne oszczędności z samodzielnej edycji vs zlecanie",
+      "alt_text": "Wykres oszczędności finansowych z nauki podstaw HTML dla małych firm",
+      "prompt": "Clean bar chart comparing costs: outsourcing website updates vs self-editing with HTML knowledge, blue bars showing monthly savings, values in PLN, minimalist professional design, clear labels, business-focused visualization",
+      "placement": "after_paragraph_3_in_section_4",
+      "keywords": [
+        "oszczędności",
+        "HTML",
+        "koszty",
+        "biznes"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business savings chart financial comparison",
+        "pexels_query": "cost comparison bar chart business",
+        "keywords_for_search": [
+          "savings chart",
+          "cost comparison graph",
+          "business finances visualization"
+        ],
+        "style_notes": "Professional business chart, clear comparison, focus on savings/costs"
+      }
+    }
+  ],
+  "total_count": 7
 }

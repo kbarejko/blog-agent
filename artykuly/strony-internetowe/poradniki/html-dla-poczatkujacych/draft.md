@@ -1,3 +1,4 @@
+```markdown
 # Co znajdziesz w artykule?
 
 - **Znaczniki HTML** - konkretne tagi jak `<h1>`, `<img>`, `<a>`, które pozwolą Ci samodzielnie edytować treści na firmowej stronie i komunikować się z programistami
@@ -7,12 +8,6 @@
 - **Błędy kosztujące pozycje** - najczęstsze pomyłki w HTML, które szkodzą pozycjonowaniu i jak je rozpoznać podczas odbioru pracy od agencji
 
 ## Wprowadzenie - dlaczego właściciele firm powinni znać podstawy HTML
-
-# Html Dla Poczatkujacych
-
-Właściciel małej firmy budowlanej chciał samodzielnie zmienić cennik na swojej stronie. Zamiast czekać tydzień na programistę, zajęło mu to 10 minut. Wystarczyła podstawowa znajomość HTML.
-
-### Wprowadzenie - dlaczego właściciele firm powinni znać podstawy HTML
 
 HTML to język znaczników, który tworzy szkielet każdej strony internetowej. Określa strukturę treści – gdzie znajdują się nagłówki, akapity, linki czy obrazy. To fundament, na którym opiera się cała obecność online Twojej firmy.
 
@@ -159,3 +154,4 @@ Kiedy inwestować w profesjonalną pomoc? Gdy potrzeby przekraczają możliwośc
 Planuj budżet techniczny jak każdy aspekt biznesu. 500-2000 zł rocznie na drobne zmiany i utrzymanie, 5000-15000 zł na redesign co 2-3 lata. Znajomość HTML pozwala świadomie ocenić oferty i kontrolować koszty.
 
 Pierwsza lekcja: otwórz edytor tekstu i napisz `<h1>Moja firma</h1>`. Zapisz jako plik.html i kliknij dwukrotnie. To początek kontroli nad Twoją obecnością online.
+```
