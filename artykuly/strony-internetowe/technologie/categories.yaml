@@ -5,13 +5,13 @@ categories:
 - slug: it-i-technologia
   title: IT i Technologia
   path: it-i-technologia
-- slug: wordpress
-  title: Wordpress
-  path: strony-internetowe/content-management-systems-cms/wordpress
-- slug: hosting-i-infrastruktura
-  title: Hosting i Infrastruktura
-  path: strony-internetowe/hosting-i-infrastruktura
 - slug: rozwoj-oprogramowania
   title: Rozwój Oprogramowania
   path: rozwoj-oprogramowania
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: koszt-stron-internetowych
+  title: Koszt stron internetowych
+  path: strony-internetowe/koszt-stron-internetowych
 count: 5
