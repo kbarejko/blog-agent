@@ -1,13 +1,14 @@
-## Checklist: Pierwsze kroki z HTML dla Twojej firmy
+## Checklist: Pierwsze kroki z HTML dla właściciela firmy
 
-- [ ] Pobierz darmowy edytor Visual Studio Code i zainstaluj na swoim komputerze - to narzędzie znacznie ułatwi pracę z kodem
-- [ ] Otwórz obecną stronę swojej firmy w przeglądarce, następnie naciśnij F12, żeby zajrzeć pod maskę i zobaczyć kod HTML
-- [ ] Poszukaj na swojej stronie tagu `<h1>` z głównym nagłówkiem - sprawdź, czy rzeczywiście zawiera nazwę firmy lub kluczowe hasło
-- [ ] Przeanalizuj wszystkie zdjęcia na stronie - kliknij prawym przyciskiem, wybierz "Zbadaj element" i sprawdź, czy obrazy mają wypełniony atrybut `alt`
-- [ ] Utwórz pierwszy testowy plik HTML z podstawową strukturą: `<html>`, `<head>`, `<body>` i zapisz jako "test.html"
-- [ ] Do swojego testowego pliku dodaj nagłówki od `<h1>` do `<h3>` - umieść w nich nazwę firmy oraz opis głównych usług
-- [ ] Napisz akapit `<p>` opisujący Twoją firmę i wyróżnij najistotniejsze słowa używając tagu `<strong>`
-- [ ] Stwórz uporządkowaną listę swoich usług za pomocą tagów `<ul>` i `<li>` - może to być katalog produktów lub portfolio
-- [ ] Wstaw link prowadzący do głównej strony firmy, wykorzystując tag `<a href="...">` 
-- [ ] Dokładnie przeanalizuj hierarchię nagłówków na firmowej stronie - upewnij się, że układ H1→H2→H3 ma logiczny sens
-- [ ] Skontaktuj się z webmasterem lub osobą zarządzającą stroną i dowiedz się, czy możesz samodzielnie edytować podstawowe treści
+- [ ] Pobierz Visual Studio Code (darmowy edytor) i zainstaluj go na swoim komputerze - to prawdopodobnie najlepsze narzędzie dla początkujących
+- [ ] Wejdź na stronę swojej firmy i naciśnij Ctrl+U (Windows) lub Cmd+Option+U (Mac), żeby zajrzeć "pod maskę" - zobaczysz kod HTML, który tworzy twoją witrynę
+- [ ] Na pulpicie stwórz folder "test-html", a w nim plik o nazwie "index.html" - to będzie twój pierwszy eksperyment
+- [ ] Napisz prosty kod używając tagów `<h1>` dla nazwy firmy, `<p>` dla opisu i `<strong>` do wyróżnienia ważnych słów
+- [ ] Kliknij dwukrotnie na plik index.html - otworzy się w przeglądarce i zobaczysz efekt swojej pracy
+- [ ] Przeanalizuj nagłówki na stronie firmowej (H1 powinien być jeden, H2 i H3 mogą się powtarzać) i znajdź kilka miejsc, które wydają się wymagać poprawy
+- [ ] Sprawdź pięć obrazków na swojej witrynie - czy mają opisy alt? To kluczowe dla Google i osób niewidomych
+- [ ] W testowym pliku utwórz listę dziesięciu głównych produktów lub usług, używając `<ul>` i `<li>` - może to pomoże ci lepiej zrozumieć strukturę
+- [ ] Przejdź do sekcji kontaktowej i sprawdź, czy informacje jak godziny otwarcia są w odpowiednich znacznikach `<section>` zamiast zwykłych `<div>`
+- [ ] Dodaj do zakładek MDN Web Docs - to prawdziwa encyklopedia HTML. Przeczytaj o jednym tagu, który cię zaciekawi
+- [ ] Porozmawiaj z webmasterem lub agencją obsługującą twoją stronę o możliwościach wprowadzania drobnych zmian - czasem to prostsze niż się wydaje
+- [ ] Zarezerwuj pół godziny tygodniowo przez najbliższy miesiąc na poznawanie nowych tagów HTML - mała systematyczność może przynieść zaskakujące rezultaty

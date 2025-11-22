@@ -1,27 +1,27 @@
-### Czy muszę być programistą, żeby nauczyć się podstaw HTML?
+### Czy naprawdę muszę znać HTML, żeby prowadzić firmę online?
 
-Wcale nie musisz. HTML wydaje się być raczej językiem znaczników niż prawdziwym programowaniem. Wystarczy opanować kilka prostych reguł, żeby samodzielnie modyfikować zawartość witryny. To przypomina formatowanie dokumentu w Wordzie - potrzeba wprawy, ale każdy przedsiębiorca prawdopodobnie może to opanować.
+Ekspertem być nie musisz, ale podstawowa znajomość HTML może okazać się cennym atutem. Dzięki niej samodzielnie wymienisz tekst na stronie czy poprawisz błąd bez wzywania programisty. To oznacza większą niezależność i oszczędności - szczególnie gdy potrzebujesz szybkiej zmiany w godzinach wieczornych lub weekendach.
 
-### Ile czasu potrzebuję, żeby opanować podstawy HTML potrzebne w biznesie?
+### Jakie tagi HTML są najważniejsze dla właściciela firmy?
 
-Realistycznie rzecz biorąc, podstawy HTML prawdopodobnie opanujesz w 2-3 tygodnie przy 30 minutach nauki dziennie. W tym czasie poznasz kluczowe tagi do edycji tekstów, wstawiania obrazów czy tworzenia linków. Po miesiącu powinieneś bez problemu aktualizować treści na firmowej stronie.
+W praktyce najważniejsze wydają się nagłówki (h1-h6), które porządkują treść, oraz tagi **strong** i *em* do podkreślania kluczowych informacji. Tag **img** z opisem alt może znacząco wpłynąć na widoczność w wyszukiwarce. Warto też opanować podstawowe tagi list i linków - przydają się niemal codziennie.
 
-### Jakie korzyści finansowe da mi znajomość HTML?
+### Ile czasu zajmuje nauka podstaw HTML?
 
-Umiejętność edycji HTML pozwala samodzielnie zmieniać treści strony - od prostych poprawek tekstu po aktualizację oferty. Prawdopodobnie zaoszczędzisz 200-500 zł miesięcznie, które wcześniej wydawałeś na zlecenia webmasterowi. Będziesz też lepiej rozumiał wyceny programistów i unikniesz przepłacania.
+Podstawy HTML prawdopodobnie opanujesz w 2-3 tygodnie, poświęcając około godziny dziennie. Nie chodzi przecież o zostanie programistą - wystarczy poznać kilkanaście kluczowych tagów jak `<h1>`, `<p>` czy `<div>`, żeby swobodnie wprowadzać proste zmiany na stronie i lepiej rozumieć deweloperów.
 
 ### Czy znajomość HTML pomoże mi w pozycjonowaniu strony?
 
-Zdecydowanie tak. Gdy znasz HTML, możesz samodzielnie optymalizować strukturę nagłówków H1-H6, dodawać opisowe tagi alt do zdjęć czy poprawiać hierarchię treści. To oznacza większą niezależność – nie musisz czekać na programistę, żeby wprowadzić podstawowe zmiany SEO na swojej stronie.
+Absolutnie. Właściwa hierarchia nagłówków (H1, H2, H3), semantyczne znaczniki jak `<article>` czy `<section>`, oraz opisowe atrybuty alt przy zdjęciach znacząco ułatwiają robotom Google'a zrozumienie treści. Dzięki podstawom HTML możesz samodzielnie sprawdzić, czy struktura witryny wspiera jej widoczność w wynikach wyszukiwania.
 
-### Które tagi HTML są najważniejsze dla właściciela firmy?
+### Jakie narzędzia polecacie do nauki HTML?
 
-W praktyce prawdopodobnie najczęściej wykorzystasz nagłówki (H1-H6) do strukturyzowania treści oraz podstawowe tagi jak `<p>` dla tekstu, `<a>` dla linków i `<img>` dla zdjęć. Przydatne wydają się także `<ul>` i `<li>` do prezentacji oferty. Te elementy pokryją większość codziennych potrzeb Twojej strony biznesowej.
+Warto zacząć od Visual Studio Code - darmowego edytora z pomocnymi podpowiedziami. Do szybkich testów świetnie sprawdzi się CodePen, gdzie można eksperymentować bez instalowania niczego. MDN Web Docs pozostaje prawdopodobnie najlepszym źródłem dokumentacji. Użyteczną praktyką może być też podglądanie kodu innych stron przez opcję "Zbadaj element".
 
-### Czy mogę zepsuć stronę, edytując HTML?
+### Czy mogę zepsuć swoją stronę, ucząc się HTML?
 
-Większość platform jak WordPress czy Shopify oferuje funkcję podglądu - możesz zobaczyć zmiany przed ich publikacją. Jeśli coś pójdzie nie tak, prawdopodobnie bez problemu wrócisz do poprzedniej wersji. Zacznij od prostych edycji tekstu, a z czasem nabierzesz pewności w bardziej zaawansowanych modyfikacjach.
+Prawdopodobnie nie - ryzyko jest naprawdę niewielkie, gdy testujesz na kopii strony. Większość platform oferuje opcję cofnięcia zmian, więc możesz eksperymentować bez stresu. Zacznij od prostych rzeczy jak zmiana tekstu, potem przejdź do bardziej skomplikowanych elementów.
 
-### Jakie narzędzia potrzebuję do edycji HTML?
+### Kiedy powinienem zatrudnić programistę zamiast robić to sam?
 
-Na początek wystarczy Visual Studio Code – darmowy edytor, który prawdopodobnie pokryje większość Twoich potrzeb. Inspektor elementów w przeglądarce (klawisz F12) pozwoli sprawdzić, jak działa kod na żywych stronach. Do szybkich testów online sprawdzi się CodePen.
+Warto rozważyć zatrudnienie specjalisty przy skomplikowanych rozwiązaniach - sklepach internetowych, systemach płatności czy integracjach z zewnętrznymi API. Proste zmiany tekstów, wymiana zdjęć czy aktualizacja danych kontaktowych to zadania, z którymi prawdopodobnie poradzisz sobie sam. Gdy projekt może zająć ponad 20 godzin, inwestycja w profesjonalistę wydaje się rozsądniejszym wyborem.
