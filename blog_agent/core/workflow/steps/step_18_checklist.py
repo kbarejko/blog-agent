@@ -86,4 +86,13 @@ def execute_checklist(
     else:
         print(f"   📊 {item_count} pozycji - REKOMENDACJA: Dodaj więcej pozycji przed publikacją")
 
+    # Git commit
+    git = deps.get('git')
+    if git:
+        git.commit_article_stage(
+            article.path,
+            "checklist",
+            f"Add checklist ({item_count} items)"
+        )
+
     return article

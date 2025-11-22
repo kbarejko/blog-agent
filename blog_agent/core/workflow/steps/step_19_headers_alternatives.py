@@ -71,6 +71,15 @@ def execute_headers_alternatives(
     print(f"✅ Headers alternatives saved to headers_alternatives.md")
     print(f"   📊 {len(headers)} headers with 3-4 SEO alternatives each")
 
+    # Git commit
+    git = deps.get('git')
+    if git:
+        git.commit_article_stage(
+            article.path,
+            "headers_alternatives",
+            f"Add SEO header alternatives ({len(headers)} headers)"
+        )
+
     return article
 
 

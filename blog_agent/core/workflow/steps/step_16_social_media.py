@@ -85,6 +85,15 @@ def execute_social_media(
     print(f"      Alternative titles: {len(social_data.get('alternative_titles', []))}")
     print(f"      Hashtags: {len(social_data.get('first_comment', {}).get('hashtags', []))}")
 
+    # Git commit
+    git = deps.get('git')
+    if git:
+        git.commit_article_stage(
+            article.path,
+            "social_media",
+            "Add social media posts"
+        )
+
     return article
 
 

@@ -105,6 +105,15 @@ def execute_faq(
     else:
         print(f"   📊 {len(questions)} pytań - REKOMENDACJA: Dodaj więcej pytań przed publikacją")
 
+    # Git commit
+    git = deps.get('git')
+    if git:
+        git.commit_article_stage(
+            article.path,
+            "faq",
+            f"Add FAQ ({len(questions)} questions)"
+        )
+
     return article
 
 

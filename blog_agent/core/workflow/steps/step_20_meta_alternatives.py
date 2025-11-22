@@ -93,6 +93,15 @@ def execute_meta_alternatives(
             desc_len = len(alt.get('meta_description', ''))
             print(f"   Propozycja {i}: Title={title_len} chars, Desc={desc_len} chars")
 
+        # Git commit
+        git = deps.get('git')
+        if git:
+            git.commit_article_stage(
+                article.path,
+                "meta_alternatives",
+                f"Add meta alternatives ({len(alternatives)} proposals)"
+            )
+
     except Exception as e:
         print(f"   ❌ Error generating meta alternatives: {str(e)}")
         print("   Skipping step (not critical)")
