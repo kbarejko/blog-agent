@@ -144,6 +144,12 @@ steps:
     enabled: true  # Optional - enable to generate alternative header proposals
     provider: openai-gpt4o  # Use GPT-4o for SEO optimization
 
+  - name: meta_alternatives
+    module: blog_agent.core.workflow.steps.step_20_meta_alternatives
+    description: "Generate 2-3 alternative proposals for meta title and meta description"
+    enabled: true  # Enabled by default - cheap model, useful for SEO optimization
+    provider: openai-gpt4o-mini  # Use cheap model - works well with Polish
+
 # Quality Review Configuration
 review:
   min_words: 300      # Minimum words per section
@@ -154,7 +160,7 @@ review:
 
 # Metadata
 metadata:
-  version: "1.1"
-  total_steps: 19
+  version: "1.2"
+  total_steps: 20
   estimated_time: "7-8 minutes"
-  estimated_cost: "$0.10 (Claude Sonnet 4) + images if enabled + headers alternatives if enabled"
+  estimated_cost: "$0.10 (Claude Sonnet 4) + images if enabled + headers alternatives if enabled + meta alternatives (~$0.001)"

@@ -134,7 +134,7 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 
 ## 4. Proces tworzenia artykułu
 
-### 4.1 Workflow (19 kroków)
+### 4.1 Workflow (20 kroków)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -348,6 +348,17 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 │  • Output: headers_alternatives.md                          │
 │  • Domyślnie włączone                                       │
 │  • Git commit: "[series/silo/slug] Add SEO alternatives"   │
+└─────────────────┬───────────────────────────────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────────────────────────────┐
+│  KROK 20: META ALTERNATIVES                                 │
+│  • Generuje 2-3 propozycje meta title i meta description    │
+│  • Meta title różny od H1 (50-60 znaków)                    │
+│  • Meta description (140-160 znaków)                        │
+│  • Używa taniego modelu (openai-gpt4o-mini)                 │
+│  • Output: meta_alternatives.md                             │
+│  • Przydatne do A/B testingu i optymalizacji CTR            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -377,10 +388,11 @@ meta_description: "Dowiedz się jak zabezpieczyć sklep online i spełnić wymag
 | FAQ (jeśli w outline) | ~45s | 9% |
 | Checklist (jeśli w outline) | ~20s | 4% |
 | Headers alternatives (jeśli włączone) | ~25s | 5% |
+| Meta alternatives | ~15s | 3% |
 | Git commits | ~20s | 4% |
 | **RAZEM** | **~7-8min** | **100%** |
 
-**Uwaga:** Czas zależy od włączonych opcjonalnych kroków (images, FAQ, checklist, headers alternatives)
+**Uwaga:** Czas zależy od włączonych opcjonalnych kroków (images, FAQ, checklist, headers alternatives, meta alternatives)
 
 ### 4.3 Opcjonalne sekcje (AI decision)
 

@@ -4,7 +4,7 @@ AI-powered blog article generation system for Digital Vantage.
 
 ## Features
 
-- **Automated Article Generation**: 19-step workflow from outline to publication
+- **Automated Article Generation**: 20-step workflow from outline to publication
 - **Silo Article Support**: Special handling for category hub pages with automatic sub-article detection and FAQ
 - **FAQ/Checklist Pipeline**: Separate mini-article pipeline with humanization and internal linking (50-70 word answers)
 - **Per-Step Provider Configuration**: Use different AI models for different workflow steps (optimize cost vs. quality)
@@ -254,6 +254,7 @@ python test_stability_ai.py  # Test Stability AI (SDXL) integration
 17. **FAQ** - Generate FAQ section with 5-8 questions and semantic internal linking to related articles (separate faq.md file with faq_outline.md)
 18. **Checklist** - Generate actionable checklist with 8-12 items and humanization (separate checklist.md file with checklist_outline.md)
 19. **Headers Alternatives** - Generate 3-4 SEO-optimized alternatives for all H1/H2/H3 headers, including long-tail variants (optional, disabled by default)
+20. **Meta Alternatives** - Generate 2-3 alternative proposals for meta title and meta description for A/B testing and SEO optimization (uses cheap model: gpt-4o-mini)
 
 ### Advanced Workflow Control
 

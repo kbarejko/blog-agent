@@ -94,7 +94,8 @@ blog_agent/
 │   │   ├── step_16_social_media.py
 │   │   ├── step_17_faq.py
 │   │   ├── step_18_checklist.py
-│   │   └── step_19_headers_alternatives.py
+│   │   ├── step_19_headers_alternatives.py
+│   │   └── step_20_meta_alternatives.py
 │   │
 │   └── services/                   # Domain services
 │       ├── __init__.py
@@ -1501,6 +1502,12 @@ workflow:
       git_commit: false
       config:
         enabled: true  # Optional - enabled by default
+
+    - name: meta_alternatives
+      function: core.steps.step_20_meta_alternatives.execute_meta_alternatives
+      git_commit: false
+      config:
+        enabled: true  # Enabled by default - cheap model
 ```
 
 ### 6.2 providers.yaml - AI Providers
@@ -1976,7 +1983,7 @@ python cli.py create \
 ✅ Completed categories
 
 ✅ Article generated: artykuly/ecommerce/operacje/bezpieczenstwo-rodo/article.md
-📊 Stats: 7-8min, ~3200 words, 19 steps, 4 git commits
+📊 Stats: 7-8min, ~3200 words, 20 steps, 4 git commits
 
 📤 Publishing to Payload CMS...
   ├─ Transforming to Payload format (markdown-based)
@@ -2138,7 +2145,7 @@ def _create_comparison_block(self, content):
 2. ⏳ **Setup project structure** (folders, __init__.py)
 3. ⏳ **Implement core domain** (Article, Value Objects)
 4. ⏳ **Implement infrastructure** (Claude provider, Git ops)
-5. ⏳ **Implement step functions** (19 steps)
+5. ⏳ **Implement step functions** (20 steps)
 6. ⏳ **Implement workflow engine**
 7. ⏳ **Implement CLI**
 8. ⏳ **Testing** (unit + integration)
