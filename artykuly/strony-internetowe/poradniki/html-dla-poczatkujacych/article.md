@@ -10,15 +10,15 @@
 
 ### HTML dla początkujących
 
-Weźmy na przykład właściciela małej firmy budowlanej, który chciał szybko zaktualizować cennik na swojej stronie internetowej. Zamiast czekać tydzień na działania programisty, samodzielnie załatwił to w zaledwie 10 minut. Wszystko dzięki podstawowej wiedzy o HTML.
+Weźmy na przykład właściciela małej firmy budowlanej, który chciał szybko zaktualizować cennik na swojej [stronie internetowej](/artykuly/strony-internetowe/poradniki/wordpress-setup). Zamiast czekać tydzień na działania programisty, samodzielnie załatwił to w zaledwie 10 minut. Wszystko dzięki podstawowej wiedzy o HTML.
 
 ## Wprowadzenie - dlaczego właściciele firm powinni znać podstawy HTML
 
-HTML, czyli HyperText Markup Language, to podstawowy język, który nadaje strukturę każdej stronie internetowej. To dzięki niemu określamy, gdzie znajdują się nagłówki, akapity, linki czy obrazy. Można powiedzieć, że to fundament każdej działalności online.
+HTML, czyli HyperText Markup Language, to podstawowy język, który nadaje strukturę każdej stronie internetowej. To dzięki niemu określamy, gdzie znajdują się nagłówki, akapity, linki czy obrazy. Można powiedzieć, że to fundament każdej [działalności online](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc).
 
 Znajomość podstaw HTML niesie ze sobą realne korzyści dla biznesu. Możesz samodzielnie aktualizować godziny otwarcia, zmieniać opisy produktów, a nawet poprawiać drobne błędy w treści. Unikniesz zbędnych kosztów i zyskasz niezależność.
 
-Kontrola nad stroną firmową to również kontrola nad tym, jak klienci postrzegają Twoją firmę. Rozumiejąc podstawy HTML, możesz lepiej ocenić pracę programistów i świadomie podejmować decyzje techniczne. Zyskujesz pewność, że technologia nie jest już dla Ciebie "czarną magią".
+[kontrola nad stroną firmową](/artykuly/strony-internetowe/poradniki/migracja-strony) to również kontrola nad tym, jak klienci postrzegają Twoją firmę. Rozumiejąc podstawy HTML, możesz lepiej ocenić pracę programistów i świadomie podejmować decyzje techniczne. Zyskujesz pewność, że technologia nie jest już dla Ciebie "czarną magią".
 
 Często słyszy się, że HTML jest tylko dla programistów, ale to przekonanie może być mylące. HTML to bardziej sposób na nadanie znaczenia treściom niż programowanie. Jeśli potrafisz korzystać z edytora tekstu, takiego jak Word, z łatwością opanujesz podstawy HTML w krótkim czasie.
 
