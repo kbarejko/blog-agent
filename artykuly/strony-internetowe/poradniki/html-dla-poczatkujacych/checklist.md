@@ -1,14 +1,14 @@
-## Checklist: Pierwsze kroki z HTML dla właściciela firmy
+## Checklist: Pierwsze kroki w HTML dla właściciela firmy
 
-- [ ] Pobierz Visual Studio Code (darmowy edytor) i zainstaluj go na swoim komputerze - to prawdopodobnie najlepsze narzędzie dla początkujących
-- [ ] Wejdź na stronę swojej firmy i naciśnij Ctrl+U (Windows) lub Cmd+Option+U (Mac), żeby zajrzeć "pod maskę" - zobaczysz kod HTML, który tworzy twoją witrynę
-- [ ] Na pulpicie stwórz folder "test-html", a w nim plik o nazwie "index.html" - to będzie twój pierwszy eksperyment
-- [ ] Napisz prosty kod używając tagów `<h1>` dla nazwy firmy, `<p>` dla opisu i `<strong>` do wyróżnienia ważnych słów
-- [ ] Kliknij dwukrotnie na plik index.html - otworzy się w przeglądarce i zobaczysz efekt swojej pracy
-- [ ] Przeanalizuj nagłówki na stronie firmowej (H1 powinien być jeden, H2 i H3 mogą się powtarzać) i znajdź kilka miejsc, które wydają się wymagać poprawy
-- [ ] Sprawdź pięć obrazków na swojej witrynie - czy mają opisy alt? To kluczowe dla Google i osób niewidomych
-- [ ] W testowym pliku utwórz listę dziesięciu głównych produktów lub usług, używając `<ul>` i `<li>` - może to pomoże ci lepiej zrozumieć strukturę
-- [ ] Przejdź do sekcji kontaktowej i sprawdź, czy informacje jak godziny otwarcia są w odpowiednich znacznikach `<section>` zamiast zwykłych `<div>`
-- [ ] Dodaj do zakładek MDN Web Docs - to prawdziwa encyklopedia HTML. Przeczytaj o jednym tagu, który cię zaciekawi
-- [ ] Porozmawiaj z webmasterem lub agencją obsługującą twoją stronę o możliwościach wprowadzania drobnych zmian - czasem to prostsze niż się wydaje
-- [ ] Zarezerwuj pół godziny tygodniowo przez najbliższy miesiąc na poznawanie nowych tagów HTML - mała systematyczność może przynieść zaskakujące rezultaty
+- [ ] Pobierz i zainstaluj Visual Studio Code - to darmowy edytor, który sprawdzi się świetnie na początek
+- [ ] Utwórz pierwszy plik HTML (możesz go nazwać "test.html") i sprawdź, jak otwiera się w przeglądarce
+- [ ] Zajrzyj pod maskę własnej strony internetowej - wystarczy kliknąć prawym przyciskiem i wybrać "Pokaż źródło strony"
+- [ ] Poszukaj na swojej witrynie przynajmniej 5 różnych tagów HTML, takich jak h1, p, div, img czy a
+- [ ] Sprawdź, czy wszystkie zdjęcia i grafiki mają wypełniony atrybut "alt" - może się okazać, że część z nich go nie posiada
+- [ ] Przeanalizuj, czy nagłówki na głównej stronie układają się logicznie (h1 powinien być jeden, potem h2, h3...)
+- [ ] Spróbuj samodzielnie edytować prosty tekst w panelu administracyjnym swojej strony
+- [ ] Stwórz testową listę punktowaną (ul/li) z najważniejszymi usługami, jakie oferujesz
+- [ ] Otwórz swoją stronę na smartfonie i zobacz, czy wszystko wyświetla się prawidłowo - prawdopodobnie znajdziesz kilka rzeczy do poprawy
+- [ ] Porównaj strukturę nagłówków na stronie głównego konkurenta z tym, co masz u siebie
+- [ ] Na podstawie tego, czego się dowiedziałeś, przygotuj konkretną listę 3 usprawnień dla swojej witryny
+- [ ] Zapisz kontakt do sprawdzonego webdevelopera - może nie potrzebujesz go teraz, ale na pewno się przyda w przyszłości
