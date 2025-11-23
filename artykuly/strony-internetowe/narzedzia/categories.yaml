@@ -1,0 +1,17 @@
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: startup
+  title: Startup
+  path: firma/startup
+- slug: narzedzia-biznesowe
+  title: Narzędzia biznesowe
+  path: firma/narzedzia-biznesowe
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+count: 5
