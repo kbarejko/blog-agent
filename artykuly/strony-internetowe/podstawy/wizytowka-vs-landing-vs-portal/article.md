@@ -10,13 +10,13 @@
 
 # Wizytówka vs Landing Page vs Portal
 
-Kiedy klient dzwoni z pytaniem: "Potrzebuję strony internetowej, ale [nie wiem, jaka będzie najlepsza](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz)," to znak, że decyzja o wyborze nie jest prosta. Wiele osób prowadzących biznesy boryka się z tym samym dylematem. Źle dobrana strona internetowa to nie tylko koszty, które można było uniknąć, ale także [utracone szanse na rozwój firmy](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe).
+Kiedy klient dzwoni z pytaniem: "Potrzebuję strony internetowej, ale [[nie wiem, jaka będzie najlepsza](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz)](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz)," to znak, że decyzja o wyborze nie jest prosta. Wiele osób prowadzących biznesy boryka się z tym samym dylematem. Źle dobrana strona internetowa to nie tylko koszty, które można było uniknąć, ale także [[utracone szanse na rozwój firmy](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe)](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe).
 
 ## Wprowadzenie - Jak wybrać właściwy rodzaj strony dla Twojego biznesu
 
 Zastanawianie się nad rodzajem strony internetowej to częsty problem przedsiębiorców, którzy dopiero zaczynają swoją przygodę z obecnością w sieci. Często obserwuję, jak właściciele firm zadają sobie pytanie, czy potrzebują "zwykłej strony", czy może czegoś bardziej skomplikowanego, lecz nie zawsze wiedzą, czego dokładnie potrzebują.
 
-Decyzje podjęte bez odpowiedniej analizy mogą prowadzić do strat finansowych i [nieskutecznej obecności w internecie](/artykuly/strony-internetowe/podstawy/dlaczego-warto). Przykładowo, firma wydająca 40 tysięcy złotych na rozbudowany portal, gdy wystarczyłaby jej prosta wizytówka za 3 tysiące, przepłaca znacznie. Z kolei przedsiębiorca, który wybrał prostą wizytówkę zamiast funkcjonalnego portalu, może codziennie tracić nowych klientów.
+Decyzje podjęte bez odpowiedniej analizy mogą prowadzić do strat finansowych i [[nieskutecznej obecności w internecie](/artykuly/strony-internetowe/podstawy/dlaczego-warto)](/artykuly/strony-internetowe/podstawy/dlaczego-warto). Przykładowo, firma wydająca 40 tysięcy złotych na rozbudowany portal, gdy wystarczyłaby jej prosta wizytówka za 3 tysiące, przepłaca znacznie. Z kolei przedsiębiorca, który wybrał prostą wizytówkę zamiast funkcjonalnego portalu, może codziennie tracić nowych klientów.
 
 Na rynku dostępne są trzy główne rodzaje stron internetowych: wizytówka, landing page i portal. Każdy z tych typów ma swoje zastosowanie i jest skuteczny w różnych kontekstach biznesowych. Wizytówka pomaga budować wiarygodność, landing page koncentruje się na sprzedaży konkretnego produktu, a portal obsługuje złożone procesy biznesowe.
 
