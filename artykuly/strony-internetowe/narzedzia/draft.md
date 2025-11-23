@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **71% małych firm** ma strony internetowe, ale tylko 64% jest zadowolonych z wyboru narzędzi - poznasz koszt złych decyzji technologicznych
 - **Actionable insights vs vanity metrics** - różnica między danymi, które tylko wyglądają dobrze, a tymi które zwiększają przychody
@@ -6,14 +6,11 @@
 - **Headless CMS** pozwala publikować treści jednocześnie na stronie, w aplikacji i newsletterze z jednego źródła
 - **A/B testing** to standard biznesowy - każdy nietestowany element to potencjalnie utracone konwersje i przychody
 
-
 ## Wprowadzenie - ekosystem narzędzi webowych
-
-# Narzedzia
 
 Każdego dnia tysiące firm podejmuje decyzje o narzędziach webowych, które mogą zadecydować o sukcesie lub porażce ich obecności online. Niewłaściwy wybór oznacza nie tylko stracone pieniądze, ale przede wszystkim utracone okazje biznesowe.
 
-## Wprowadzenie - ekosystem narzędzi webowych
+### Wprowadzenie - ekosystem narzędzi webowych
 
 Jeszcze dekadę temu stworzenie strony internetowej wymagało znajomości kodu lub zatrudnienia programisty. Dziś ekosystem rozwiązań no-code i low-code umożliwia przedsiębiorcom samodzielne budowanie obecności online w ciągu godzin, nie miesięcy.
 

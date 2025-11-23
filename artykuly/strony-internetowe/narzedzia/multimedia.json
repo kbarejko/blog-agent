@@ -1,0 +1,210 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Ekosystem narzędzi webowych",
+    "description": "Minimalistyczny workspace z laptopem wyświetlającym dashboard z różnymi narzędziami webowymi",
+    "alt_text": "Minimalistyczny workspace z laptopem pokazującym dashboard narzędzi webowych na białym biurku",
+    "prompt": "Clean minimalist workspace top-down view, laptop displaying various web tools dashboard with analytics charts and CMS interface, white wooden desk, smartphone, notebook with yellow pen, coffee cup, natural daylight from window, professional business aesthetic, muted colors black white gray with subtle yellow accent, high quality, no people",
+    "keywords": [
+      "narzędzia webowe",
+      "dashboard",
+      "workspace",
+      "laptop"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop dashboard web tools",
+      "pexels_query": "clean desk laptop business tools",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop dashboard",
+        "business desk setup"
+      ],
+      "style_notes": "Minimalist, top-down view, natural lighting, muted colors with yellow accent"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Wprowadzenie - ekosystem narzędzi webowych",
+      "title": "Wykres satysfakcji z narzędzi webowych",
+      "description": "Wykres kołowy pokazujący statystyki satysfakcji małych firm z wybranych narzędzi webowych",
+      "alt_text": "Wykres kołowy: 64% firm zadowolonych z narzędzi webowych, 36% niezadowolonych",
+      "prompt": "Clean pie chart showing web tools satisfaction statistics, 64% satisfied (green), 36% dissatisfied (red), minimalist design, professional infographic style, black and white color scheme with colored segments, clear labels and percentages",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "satysfakcja",
+        "narzędzia webowe",
+        "statystyki",
+        "małe firmy"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business statistics pie chart infographic",
+        "pexels_query": "data visualization chart business",
+        "keywords_for_search": [
+          "pie chart design",
+          "business infographic",
+          "statistics visualization"
+        ],
+        "style_notes": "Clean, professional chart design. Green/red colors for satisfied/dissatisfied. Could use Canva templates."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Narzędzia analityczne",
+      "title": "Infografika - Vanity metrics vs Actionable insights",
+      "description": "Porównanie dwóch kolumn: vanity metrics (odsłony) vs actionable insights (konwersje, ROI)",
+      "alt_text": "Infografika porównująca vanity metrics z actionable insights w analytics",
+      "prompt": "Split comparison infographic showing vanity metrics vs actionable insights, left side showing page views and likes icons, right side showing conversion and revenue icons, arrows pointing from left to right, clean modern design, blue and green color scheme, professional style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "analytics",
+        "metryki",
+        "konwersje",
+        "ROI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "analytics data comparison infographic metrics",
+        "pexels_query": "business data visualization comparison",
+        "keywords_for_search": [
+          "analytics infographic",
+          "data comparison",
+          "metrics visualization"
+        ],
+        "style_notes": "Split-screen comparison design, use icons for different metrics, professional blue/green colors"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Konstruktory stron",
+      "title": "Wykres porównania kosztów - konstruktory vs custom development",
+      "description": "Wykres słupkowy porównujący koszty konstruktorów stron (50 zł/mies) vs custom development (15-50k zł)",
+      "alt_text": "Wykres kosztów konstruktorów stron vs custom development - różnica od 50 zł do 50 tys zł",
+      "prompt": "Bar chart comparing costs of website builders vs custom development, dramatic difference in height, left bar showing 50 PLN monthly, right bar showing 15000-50000 PLN, minimalist design with clear labels, professional color scheme",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konstruktory stron",
+        "koszty",
+        "custom development",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cost comparison bar chart business",
+        "pexels_query": "financial comparison chart data",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "business expenses graph",
+          "price difference visualization"
+        ],
+        "style_notes": "Dramatic height difference between bars to show cost gap, clean professional design"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Systemy CMS bez kodu",
+      "title": "Diagram headless CMS - multi-channel publishing",
+      "description": "Schemat pokazujący jak headless CMS publikuje treści do strony www, aplikacji mobilnej i newslettera",
+      "alt_text": "Diagram headless CMS publikującego treści do strony, aplikacji i newslettera z jednego źródła",
+      "prompt": "Clean diagram showing headless CMS architecture, central CMS hub connected to website, mobile app, and newsletter, arrows showing content flow, minimalist icons for each platform, professional blue and gray color scheme, modern tech illustration style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "headless CMS",
+        "multi-channel",
+        "publikowanie",
+        "architektura"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cms architecture diagram multi channel",
+        "pexels_query": "content management system flowchart",
+        "keywords_for_search": [
+          "CMS diagram",
+          "multi-channel publishing",
+          "headless architecture"
+        ],
+        "style_notes": "Clean flowchart style, central hub with arrows pointing to different platforms, modern tech aesthetic"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Narzędzia do testowania",
+      "title": "Mockup interfejsu A/B testing",
+      "description": "Screenshot lub mockup narzędzia A/B testing pokazujący porównanie dwóch wersji strony",
+      "alt_text": "Interface narzędzia A/B testing z porównaniem konwersji dwóch wersji landing page",
+      "prompt": "Clean A/B testing tool interface mockup showing split test results, two webpage variants side by side, conversion rates displayed, professional dashboard design, charts showing performance metrics, minimalist UI design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "A/B testing",
+        "interface",
+        "konwersje",
+        "dashboard"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "ab testing dashboard interface analytics",
+        "pexels_query": "website testing tool interface",
+        "keywords_for_search": [
+          "A/B testing dashboard",
+          "analytics interface",
+          "conversion testing tool"
+        ],
+        "style_notes": "Clean dashboard interface, split-screen comparison, professional analytics design"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Integracje i automatyzacja",
+      "title": "Schemat ekosystemu zintegrowanych narzędzi",
+      "description": "Flowchart pokazujący przepływ danych między analytics, CRM, email marketing i e-commerce",
+      "alt_text": "Schemat integracji narzędzi webowych - przepływ danych między CRM, analytics i email marketing",
+      "prompt": "Integration ecosystem flowchart showing data flow between web analytics, CRM, email marketing, and e-commerce platforms, connected with arrows and data flow lines, clean modern diagram style, professional color scheme with subtle yellow accents",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "integracje",
+        "automatyzacja",
+        "ekosystem narzędzi",
+        "przepływ danych"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software integration flowchart diagram",
+        "pexels_query": "business systems integration chart",
+        "keywords_for_search": [
+          "integration diagram",
+          "software ecosystem",
+          "data flow chart"
+        ],
+        "style_notes": "Clean flowchart with connected boxes, arrows showing data flow, modern tech diagram style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "timeline",
+      "section": "Sekcja: Budowanie stacku narzędzi",
+      "title": "Timeline rozwoju narzędzi według faz firmy",
+      "description": "Oś czasu pokazująca ewolucję potrzeb narzędziowych od startupu do korporacji",
+      "alt_text": "Timeline rozwoju narzędzi webowych - od startupu przez scale-up do korporacji",
+      "prompt": "Timeline infographic showing tool evolution from startup to corporation, three phases with different tool requirements, startup (simple tools), scale-up (integrations), corporation (enterprise), clean horizontal timeline design",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "rozwój firmy",
+        "narzędzia",
+        "startup",
+        "korporacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth timeline infographic",
+        "pexels_query": "company development phases chart",
+        "keywords_for_search": [
+          "business timeline",
+          "company growth phases",
+          "development stages"
+        ],
+        "style_notes": "Horizontal timeline with three distinct phases, icons representing different business stages"
+      }
+    }
+  ],
+  "total_count": 8
+}
