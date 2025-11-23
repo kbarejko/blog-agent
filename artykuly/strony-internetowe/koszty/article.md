@@ -3,7 +3,7 @@
 - **Prawdziwy koszt strony** - Czy wiesz, że rzeczywisty koszt stworzenia strony internetowej może być nawet 2-3 razy wyższy niż początkowa wycena? To wszystko przez ukryte opłaty i koszty operacyjne, które często są pomijane na początku. 
 - **Model abonamentowy vs jednorazowy** - Zastanawiasz się, kiedy bardziej opłaca się płacić miesięczne opłaty zamiast ponosić jednorazowy wydatek? Każdy z tych modeli inaczej wpływa na przepływ gotówki w firmie, i warto zastanowić się, który lepiej pasuje do Twojego biznesu.
 - **Kluczowe czynniki cenowe** - Które elementy mają największy wpływ na koszty? Na przykład, integracje mogą zwiększyć wydatki nawet o 300%, a wybór CMS może znacząco wpłynąć na [koszty utrzymania](/artykuly/strony-internetowe/utrzymanie). 
-- **Nieuniknione koszty cykliczne** - Hosting, domeny, aktualizacje i [wsparcie techniczne](/artykuly/strony-internetowe/bezpieczenstwo) to wydatki, których nie da się uniknąć. Generują one przeciętnie od 2000 do 5000 zł rocznie niezależnie od wielkości strony.
+- **Nieuniknione koszty cykliczne** - Hosting, domeny, aktualizacje i [[wsparcie techniczne](/artykuly/strony-internetowe/bezpieczenstwo)](/artykuly/strony-internetowe/bezpieczenstwo) to wydatki, których nie da się uniknąć. Generują one przeciętnie od 2000 do 5000 zł rocznie niezależnie od wielkości strony.
 - **Strategie optymalizacji budżetu** - Istnieją sprawdzone metody, które mogą pomóc obniżyć koszty o 30-50% bez utraty funkcjonalności. Czasem tańsze rozwiązania mogą być całkiem opłacalne. Na przykład, korzystanie z darmowych narzędzi do analizy ruchu na stronie może zaoszczędzić sporo pieniędzy.
 
 ## Wprowadzenie - dlaczego koszt strony to więcej niż jedna kwota
@@ -14,7 +14,7 @@ Zastanawiając się nad stworzeniem strony internetowej, wielu przedsiębiorców
 
 ## Wprowadzenie - dlaczego koszt strony to więcej niż jedna kwota
 
-Planowanie budżetu na stronę internetową można porównać do budowy domu. Poza oczywistymi kosztami projektu i jego realizacji, musimy uwzględnić również wydatki na fundamenty, wyposażenie, a także przyszłe utrzymanie.
+[Planowanie budżetu na stronę internetową](/artykuly/strony-internetowe/poradniki) można porównać do budowy domu. Poza oczywistymi kosztami projektu i jego realizacji, musimy uwzględnić również wydatki na fundamenty, wyposażenie, a także przyszłe utrzymanie.
 
 Wiele firm wpada w pułapkę, skupiając się wyłącznie na początkowych kosztach stworzenia strony, zapominając o takich aspektach jak domeny, hosting czy przyszłe aktualizacje. Skutek? Już w pierwszym roku funkcjonowania budżet może zostać znacznie przekroczony.
 
@@ -24,7 +24,7 @@ Pełny koszt strony internetowej obejmuje kilka kategorii. Do jednorazowych kosz
 
 Natomiast koszty cykliczne to hosting, wsparcie techniczne oraz rozwój funkcjonalności. Każda z tych kategorii niesie ze sobą unikalne wyzwania.
 
-Na przykład, [wybór technologii może wpływać](/artykuly/strony-internetowe/technologie) na początkową cenę, a [złożoność projektu zazwyczaj determinuje](/artykuly/strony-internetowe/projektowanie) czas realizacji. Dodatkowe wydatki mogą pojawić się też przy integracji z systemami zewnętrznymi. Nie można zapomnieć o kosztach związanych z wymaganiami SEO i wydajnościowymi.
+Na przykład, [wybór technologii może wpływać](/artykuly/strony-internetowe/technologie) na początkową cenę, a [[złożoność projektu zazwyczaj determinuje](/artykuly/strony-internetowe/projektowanie)](/artykuly/strony-internetowe/projektowanie) czas realizacji. Dodatkowe wydatki mogą pojawić się też przy integracji z systemami zewnętrznymi. Nie można zapomnieć o kosztach związanych z wymaganiami SEO i wydajnościowymi.
 
 Aby lepiej zrozumieć te kwestie, zapoznaj się ze szczegółami w artykule [Ile kosztuje strona](/ile-kosztuje-strona).
 
