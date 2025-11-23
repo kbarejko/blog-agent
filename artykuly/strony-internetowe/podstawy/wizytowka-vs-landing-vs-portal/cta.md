@@ -1,28 +1,28 @@
 ## Co dalej?
 
-### ✅ Jeśli planujesz wdrożenie w najbliższych 3-6 miesięcy:
+### 🎯 Oceń, czy Wizytówka, Landing Page czy Portal są dla Ciebie:
 
-**Pierwsze kroki:**
-1. **Przeanalizuj obecną stronę internetową** - Zidentyfikuj, jakie funkcje są niezbędne, aby wspierać Twój biznes.
-2. **Ustal budżet wdrożenia** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN. Uwzględnij bufór 20%.
-3. **Zdefiniuj grupę docelową** - Zrozum, jakie potrzeby mają Twoi klienci i jakiego rodzaju strony będą dla nich najbardziej odpowiednie.
+**Odpowiedz na te pytania:**
+- [ ] Czy Twój budżet na stronę internetową mieści się w przedziale 2000-100000 PLN?
+- [ ] Czy potrzebujesz strony do zwiększenia sprzedaży konkretnego produktu?
+- [ ] Czy Twoja firma planuje skalować działalność online w najbliższym czasie?
+- [ ] Czy Twoja obecna strona internetowa ogranicza rozwój biznesu?
 
-**Przydatne narzędzia:**
-- **Calculator TCO (Total Cost of Ownership)** - Oblicz rzeczywisty koszt strony na 3 lata (z licencjami i hostingiem).
-- **Platform comparison spreadsheet** - Porównaj 3-5 platform na podstawie Twoich wymagań.
+Jeśli odpowiedziałeś "tak" na 2+ pytania, rozważ wybór rozwiązania zgodnie z Twoimi potrzebami.
 
-**Potrzebujesz pomocy?**
-- [Umów bezpłatną konsultację]({{LINK}}) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
-- [Pobierz RFP template]({{LINK}}) - Gotowy brief do wysłania do agencji/dostawców.
+### 📖 Pogłęb wiedzę:
 
-### 📚 Jeśli jeszcze zbierasz wiedzę:
+**Następne kroki lektury:**
+1. **[Korzyści Biznesowe](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe)** - zrozum, jak strona internetowa może wspierać rozwój Twojego biznesu.
+2. **[Czym Jest Strona Internetowa](/artykuly/strony-internetowe/podstawy/czym-jest-strona-internetowa)** - poznaj podstawowe elementy i funkcje różnych typów stron.
 
-**Polecane artykuły:**
-- [Kiedy Potrzebujesz](/artykuly/strony-internetowe/podstawy/kiedy-potrzebujesz) - Dowiedz się, kiedy warto inwestować w nowe rozwiązania.
-- [Korzyści Biznesowe](/artykuly/strony-internetowe/podstawy/korzyści-biznesowe) - Zrozum, jakie korzyści może przynieść Twojej firmie odpowiednia strona internetowa.
+**Praktyczne zasoby:**
+- [Zapoznaj się z przewodnikiem po stronach internetowych]({{LINK}})
+- [Subskrybuj newsletter]({{LINK}}) - regularne artykuły i porady dotyczące obecności online.
 
-**Zasoby:**
-- [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu.
-- [Dołącz do webinaru]({{LINK}}) - Live Q&A z ekspertami.
+### 💬 Potrzebujesz pomocy w podjęciu decyzji?
 
-💡 **Wskazówka:** Wybór odpowiedniego typu strony internetowej to fundament dla wszystkich działań marketingowych online. Zadbaj o dopasowanie rozwiązania do Twoich rzeczywistych potrzeb, aby zaoszczędzić czas i pieniądze w przyszłości.
+- [Umów konsultację]({{LINK}}) - omówimy Twoją sytuację i pomożemy wybrać najlepsze rozwiązanie.
+- [Wypełnij ankietę potrzeb]({{LINK}}) - dostaniesz spersonalizowane rekomendacje.
+
+💡 **Wskazówka:** Wybór odpowiedniego typu strony internetowej powinien być zgodny z rzeczywistymi potrzebami Twojego biznesu. Zbyt ambitne lub zbyt oszczędne rozwiązanie może prowadzić do strat finansowych i nieskutecznej obecności w internecie.

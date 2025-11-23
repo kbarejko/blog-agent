@@ -1,64 +1,63 @@
 {
   "hero_image": {
     "type": "illustration",
-    "title": "Hero image - Porównanie typów stron internetowych",
-    "description": "Minimalistyczna kompozycja 3D z trzema ekranami przedstawiającymi różne typy stron internetowych",
-    "alt_text": "Trzy ekrany pokazujące wizytówkę, landing page i portal internetowy w minimalistycznym stylu",
-    "prompt": "Three floating laptop screens showing different website types: simple business card site, focused landing page, and complex portal dashboard. Minimalist 3D composition on light gray background, clean modern design, black white gray colors with subtle yellow accents, professional tech aesthetic, geometric arrangement, no people",
+    "title": "Hero image - Wybór typu strony internetowej",
+    "description": "Minimalistyczna kompozycja z laptopem pokazującym różne typy stron internetowych - wizytówkę, landing page i portal",
+    "alt_text": "Laptop z interfejsami różnych typów stron internetowych na minimalistycznym biurku",
+    "prompt": "Clean minimalist workspace flat lay, laptop displaying three different website types side by side - business card site, landing page, and portal interface, white wooden desk, notebook with yellow pen, smartphone, natural daylight from window, muted colors black white gray with yellow accents, professional business aesthetic, high quality, no people",
     "keywords": [
+      "strona internetowa",
       "wizytówka",
       "landing page",
-      "portal",
-      "strony internetowe"
+      "portal"
     ],
     "stock_suggestions": {
-      "unsplash_query": "multiple website mockups comparison modern",
-      "pexels_query": "web design mockup screens",
+      "unsplash_query": "website design comparison laptop workspace",
+      "pexels_query": "web development different layouts computer",
       "keywords_for_search": [
-        "website comparison",
-        "web design mockup",
-        "multiple screens display"
+        "website mockup",
+        "ui design comparison",
+        "digital workspace"
       ],
-      "style_notes": "Minimalist composition, multiple screen mockups, clean professional design, no people"
+      "style_notes": "Minimalist workspace, multiple website layouts visible, professional tech aesthetic"
     }
   },
   "section_media": [
     {
       "type": "chart",
-      "subtype": "bar_chart",
-      "section": "Sekcja: Analiza porównawcza - koszty",
-      "title": "Porównanie kosztów trzech typów stron",
-      "description": "Wykres słupkowy pokazujący przedziały cenowe dla wizytówki, landing page i portalu",
-      "alt_text": "Wykres kosztów wizytówki (1500-5000 zł), landing page (2000-8000 zł) i portalu (15000-100000 zł)",
-      "prompt": "Clean horizontal bar chart comparing website costs: business card 1500-5000 PLN, landing page 2000-8000 PLN, portal 15000-100000+ PLN. Professional infographic style, blue gradient bars, clear typography, minimalist design, white background with subtle grid",
-      "placement": "after_paragraph_1_in_comparison_section",
+      "subtype": "comparison_chart",
+      "section": "Analiza porównawcza - który typ wybrać",
+      "title": "Porównanie kosztów wizytówki, landing page i portalu",
+      "description": "Wykres słupkowy porównujący zakresy cenowe dla trzech typów stron internetowych",
+      "alt_text": "Wykres porównania kosztów wizytówki (1500-5000 zł), landing page (2000-8000 zł) i portalu (15000-100000 zł)",
+      "prompt": "Clean horizontal bar chart comparing website costs: business card site 1500-5000 PLN, landing page 2000-8000 PLN, portal 15000-100000 PLN, professional infographic style, blue gradient bars, black text, white background, minimalist design",
+      "placement": "after_paragraph_2",
       "keywords": [
-        "koszty",
-        "ceny",
-        "wizytówka",
-        "landing page",
-        "portal"
+        "koszty strony internetowej",
+        "cennik",
+        "porównanie",
+        "budżet"
       ],
       "stock_suggestions": {
-        "unsplash_query": "business cost comparison chart professional",
-        "pexels_query": "financial chart data visualization",
+        "unsplash_query": "business cost comparison chart infographic",
+        "pexels_query": "price comparison bar chart professional",
         "keywords_for_search": [
-          "price comparison chart",
-          "cost analysis visualization",
-          "business pricing infographic"
+          "cost analysis chart",
+          "pricing infographic",
+          "budget comparison"
         ],
-        "style_notes": "Clean professional chart design, horizontal bars showing price ranges"
+        "style_notes": "Clean horizontal bars showing price ranges, professional business infographic style"
       }
     },
     {
       "type": "illustration",
       "subtype": "infographic",
       "section": "Sekcja: Kryteria wyboru typu strony",
-      "title": "Infografika - 5 kryteriów wyboru strony internetowej",
-      "description": "Pionowa infografika przedstawiająca kluczowe kryteria wyboru z ikonami",
-      "alt_text": "Infografika 5 kryteriów wyboru strony: budżet, cele biznesowe, wielkość firmy, grupa docelowa, zasoby",
-      "prompt": "Vertical infographic showing 5 website selection criteria: 1) Budget with money icon, 2) Business goals with target icon, 3) Company size with building icon, 4) Target audience with users icon, 5) Resources with tools icon. Clean modern design, numbered steps, black and gray colors with yellow highlights, professional style",
-      "placement": "after_paragraph_2_criteria_section",
+      "title": "Infografika - 5 kryteriów wyboru typu strony",
+      "description": "Pionowa infografika przedstawiająca 5 kluczowych kryteriów: budżet, cele biznesowe, wielkość firmy, grupa docelowa, zasoby zarządzania",
+      "alt_text": "Infografika 5 kryteriów wyboru strony internetowej z ikonami i opisami",
+      "prompt": "Vertical infographic showing 5 website selection criteria with icons: 1) Budget (wallet icon), 2) Business goals (target icon), 3) Company size (building icon), 4) Target audience (people icon), 5) Management resources (gear icon), clean design, yellow accents, white background, professional style",
+      "placement": "after_paragraph_1",
       "keywords": [
         "kryteria wyboru",
         "strona internetowa",
@@ -66,93 +65,92 @@
         "infografika"
       ],
       "stock_suggestions": {
-        "unsplash_query": "business decision criteria infographic minimalist",
-        "pexels_query": "decision making process visual",
+        "unsplash_query": "business decision criteria infographic checklist",
+        "pexels_query": "selection process infographic design",
         "keywords_for_search": [
-          "business criteria infographic",
-          "decision framework visual",
-          "selection process chart"
+          "decision framework",
+          "business criteria",
+          "selection infographic"
         ],
-        "style_notes": "Vertical layout, numbered criteria with icons, professional minimalist design"
+        "style_notes": "Vertical layout with numbered criteria, icons for each point, clean professional design"
       }
     },
     {
       "type": "chart",
-      "subtype": "conversion_chart",
-      "section": "Sekcja: Landing page - skuteczność i ROI",
-      "title": "Wykres wskaźników konwersji landing page",
-      "description": "Wykres pokazujący typowe wskaźniki konwersji dla landing page w różnych kategoriach",
-      "alt_text": "Wykres konwersji landing page: średnia 2-5%, dobra 10-15%, najlepsza 20%+",
-      "prompt": "Clean area chart showing landing page conversion rates: average 2-5%, good 10-15%, excellent 20%+. Three colored zones (red, yellow, green), professional design, clear percentage labels, minimalist style with subtle grid background",
-      "placement": "after_paragraph_1_landing_effectiveness",
+      "subtype": "timeline",
+      "section": "Praktyczne wskazówki dotyczące wdrożenia",
+      "title": "Czas realizacji różnych typów stron",
+      "description": "Timeline porównujący czas realizacji: wizytówka (2-4 tygodnie), landing page (2-6 tygodni), portal (3-12 miesięcy)",
+      "alt_text": "Timeline czasu realizacji wizytówki, landing page i portalu internetowego",
+      "prompt": "Horizontal timeline infographic showing project duration: business card site 2-4 weeks, landing page 2-6 weeks, portal 3-12 months, clean design with timeline arrows, professional colors, minimalist style",
+      "placement": "after_paragraph_1",
       "keywords": [
-        "konwersja",
-        "landing page",
-        "skuteczność",
-        "ROI"
+        "czas realizacji",
+        "projekt strony",
+        "harmonogram",
+        "wdrożenie"
       ],
       "stock_suggestions": {
-        "unsplash_query": "conversion rate optimization chart analytics",
-        "pexels_query": "business performance metrics visualization",
+        "unsplash_query": "project timeline infographic business planning",
+        "pexels_query": "development timeline chart professional",
         "keywords_for_search": [
-          "conversion chart",
-          "performance metrics",
-          "success rate visualization"
+          "project schedule",
+          "development timeline",
+          "business planning"
         ],
-        "style_notes": "Clean chart design with color-coded performance zones"
+        "style_notes": "Horizontal timeline with clear duration markers, professional business style"
       }
     },
     {
       "type": "illustration",
-      "subtype": "comparison_table",
-      "section": "Sekcja: Analiza porównawcza",
-      "title": "Tabela porównawcza trzech typów stron",
-      "description": "Wizualna tabela porównująca wizytówkę, landing page i portal pod kątem funkcji, kosztów i zastosowań",
-      "alt_text": "Tabela porównawcza wizytówka vs landing page vs portal internetowy z funkcjami i kosztami",
-      "prompt": "Clean comparison table showing three website types with features, costs, and use cases. Modern design with alternating row colors, clear headers, icons for each type, professional typography, minimal style with subtle borders and shadows",
-      "placement": "after_paragraph_3_comparison_section",
+      "subtype": "process_diagram",
+      "section": "Współpraca z agencją interaktywną",
+      "title": "Schemat procesu projektowego",
+      "description": "Diagram przepływu pokazujący etapy współpracy: brief → mockupy → implementacja → testy → uruchomienie",
+      "alt_text": "Diagram procesu tworzenia strony internetowej w 5 etapach z agencją",
+      "prompt": "Clean flowchart diagram showing 5-step web development process: Brief → Mockups → Implementation → Testing → Launch, connected by arrows, modern infographic style, blue and gray colors with yellow highlights, professional design",
+      "placement": "after_paragraph_4",
       "keywords": [
-        "porównanie",
-        "tabela",
-        "wizytówka",
-        "landing page",
-        "portal"
+        "proces projektowy",
+        "agencja interaktywna",
+        "etapy tworzenia",
+        "współpraca"
       ],
       "stock_suggestions": {
-        "unsplash_query": "comparison table design professional clean",
-        "pexels_query": "business comparison chart template",
+        "unsplash_query": "business process flowchart development stages",
+        "pexels_query": "project workflow diagram professional",
         "keywords_for_search": [
-          "comparison table",
-          "feature comparison",
-          "service comparison chart"
+          "workflow diagram",
+          "process flowchart",
+          "development stages"
         ],
-        "style_notes": "Clean table design with clear categories and visual hierarchy"
+        "style_notes": "Clean flowchart with connected steps, modern business infographic style"
       }
     },
     {
       "type": "screenshot",
-      "subtype": "mockup",
-      "section": "Sekcja: Wizytówka internetowa",
-      "title": "Przykład wizytówki internetowej",
-      "description": "Mockup prostej wizytówki internetowej z typowymi sekcjami",
-      "alt_text": "Mockup wizytówki internetowej z sekcjami: strona główna, o nas, oferta, kontakt",
-      "prompt": "Clean website mockup showing simple business card website with navigation menu, hero section, about us, services, and contact sections. Modern minimal design, professional layout, desktop view, realistic browser frame, no people visible",
-      "placement": "after_paragraph_2_business_card_section",
+      "subtype": "interface_comparison",
+      "section": "Landing page - broń sprzedażowa",
+      "title": "Przykład skutecznego landing page",
+      "description": "Mockup landing page z wyróżnionymi kluczowymi elementami: headline, CTA, proof sociale",
+      "alt_text": "Mockup landing page z oznaczonymi elementami skutecznej konwersji",
+      "prompt": "Clean landing page mockup showing conversion elements: compelling headline, clear value proposition, prominent CTA button, social proof section, minimalist design, annotations highlighting key areas, professional web design",
+      "placement": "after_paragraph_2",
       "keywords": [
-        "wizytówka",
-        "mockup",
-        "strona internetowa",
-        "przykład"
+        "landing page",
+        "konwersja",
+        "CTA",
+        "elements"
       ],
       "stock_suggestions": {
-        "unsplash_query": "simple website mockup business card clean",
-        "pexels_query": "website template mockup professional",
+        "unsplash_query": "landing page design mockup conversion",
+        "pexels_query": "website interface design professional",
         "keywords_for_search": [
-          "business website mockup",
-          "simple website design",
-          "company website template"
+          "web design mockup",
+          "landing page template",
+          "ui design"
         ],
-        "style_notes": "Clean website mockup showing typical business card site structure"
+        "style_notes": "Clean web interface with highlighted conversion elements, professional design"
       }
     }
   ],
