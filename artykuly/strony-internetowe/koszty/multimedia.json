@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Planowanie budżetu na stronę internetową",
+    "description": "Minimalistyczny workspace z laptopem pokazującym kalkulator kosztów i dokumenty finansowe",
+    "alt_text": "Laptop z kalkulatorem kosztów strony internetowej na czystym biurku z dokumentami budżetowymi",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying cost calculator interface and budget planning documents, white wooden desk, smartphone, notebook with yellow pen, calculator, financial charts, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "koszty strony",
+      "budżet",
+      "planowanie",
+      "wycena"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business planning laptop calculator financial documents workspace",
+      "pexels_query": "budget planning workspace laptop calculator",
+      "keywords_for_search": [
+        "financial planning workspace",
+        "business budget calculator",
+        "cost analysis desk"
+      ],
+      "style_notes": "Modern office, natural lighting, minimalist workspace with financial elements, no people visible"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "comparison_chart",
+      "section": "Sekcja: Modele rozliczania - jednorazowo czy abonament?",
+      "title": "Porównanie kosztów: jednorazowo vs abonament",
+      "description": "Wykres porównawczy pokazujący koszty w czasie dla obu modeli płatności",
+      "alt_text": "Wykres porównania kosztów jednorazowych vs abonamentowych dla stron internetowych w okresie 3 lat",
+      "prompt": "Clean comparison chart showing one-time vs subscription costs over 3 years timeline, two colored bars (black and yellow), cost values in PLN, minimalist professional design, white background, clear labels in Polish, business infographic style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "model płatności",
+        "abonament",
+        "jednorazowo",
+        "porównanie kosztów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison chart financial analysis",
+        "pexels_query": "financial comparison infographic business",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "subscription vs one-time",
+          "business finance graph"
+        ],
+        "style_notes": "Clean comparison chart, professional business style, clear data visualization"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Czynniki kształtujące cenę strony",
+      "title": "Infografika - Czynniki wpływające na koszty",
+      "description": "Pionowa infografika z głównymi czynnikami wpływającymi na cenę strony i ich wpływ procentowy",
+      "alt_text": "Infografika czynników wpływających na koszty strony internetowej z ikonami i procentami",
+      "prompt": "Vertical infographic showing website cost factors: complexity (40%), technology choice (25%), integrations (20%), SEO requirements (10%), design (5%). Clean icons for each factor, percentage indicators, black and gray colors with yellow highlights for key elements, white background, professional business style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "czynniki cenowe",
+        "koszty strony",
+        "wycena",
+        "budżet"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost factors infographic minimalist design",
+        "pexels_query": "pricing factors business infographic",
+        "keywords_for_search": [
+          "cost breakdown infographic",
+          "pricing factors visual",
+          "business cost analysis"
+        ],
+        "style_notes": "Vertical layout, numbered factors with icons, clean professional design, suitable for Canva templates"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Koszty cykliczne i utrzymanie",
+      "title": "Rozkład kosztów cyklicznych strony",
+      "description": "Wykres kołowy pokazujący procentowy rozkład kosztów utrzymania strony",
+      "alt_text": "Wykres kołowy rozkładu kosztów utrzymania strony: hosting, wsparcie, aktualizacje, rozwój",
+      "prompt": "Clean pie chart showing monthly website maintenance costs breakdown: hosting 20%, technical support 40%, updates 15%, development 25%. Professional color scheme black white gray with yellow accents, clear labels in Polish, minimalist business design",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "koszty utrzymania",
+        "hosting",
+        "wsparcie techniczne",
+        "koszty cykliczne"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business expenses pie chart financial breakdown",
+        "pexels_query": "cost breakdown chart business analytics",
+        "keywords_for_search": [
+          "expense breakdown chart",
+          "business cost analysis",
+          "operational costs pie"
+        ],
+        "style_notes": "Professional pie chart with clear segments and labels, business color scheme"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "warning_graphic",
+      "section": "Sekcja: Pułapki i ukryte koszty",
+      "title": "Grafika ostrzeżenia - Ukryte koszty",
+      "description": "Ilustracja przedstawiająca iceberg kosztów z widocznymi i ukrytymi wydatkami",
+      "alt_text": "Ilustracja iceberga kosztów strony internetowej z ukrytymi opłatami pod powierzchnią",
+      "prompt": "Minimalist iceberg illustration showing visible website costs above water (design, development) and hidden costs below (changes, integrations, migration, licenses). Clean geometric style, black and white with yellow warning accent, professional business aesthetic, simple lines",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "ukryte koszty",
+        "pułapki",
+        "dodatkowe opłaty",
+        "nieprzewidziane wydatki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "iceberg metaphor business hidden costs concept",
+        "pexels_query": "business concept illustration hidden expenses",
+        "keywords_for_search": [
+          "cost iceberg concept",
+          "hidden expenses illustration",
+          "business warning graphic"
+        ],
+        "style_notes": "Conceptual illustration, clean minimalist style, suitable for business context"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Optymalizacja budżetu i oszczędności",
+      "title": "Wykres oszczędności w czasie",
+      "description": "Wykres liniowy pokazujący potencjalne oszczędności przy różnych strategiach",
+      "alt_text": "Wykres oszczędności budżetowych przy optymalizacji kosztów strony w okresie 2 lat",
+      "prompt": "Clean line chart showing cost savings over 24 months with different optimization strategies. Three lines: no optimization, basic optimization, advanced optimization. Professional design, black and gray lines with yellow highlight for best strategy, clear grid, Polish labels",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "oszczędności",
+        "optymalizacja kosztów",
+        "strategia budżetowa",
+        "redukcja wydatków"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business savings growth chart financial optimization",
+        "pexels_query": "cost reduction chart business growth",
+        "keywords_for_search": [
+          "savings trend chart",
+          "cost optimization graph",
+          "financial improvement"
+        ],
+        "style_notes": "Professional line chart showing positive trends, business color scheme"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "process_diagram",
+      "section": "Sekcja: Planowanie budżetu i proces wyceny",
+      "title": "Diagram procesu wyceny",
+      "description": "Schemat blokowy pokazujący etapy procesu wyceny strony internetowej",
+      "alt_text": "Diagram procesu wyceny strony internetowej w 5 etapach z briefingu do finalizacji",
+      "prompt": "Clean flowchart diagram showing 5-step website quoting process: briefing, technical analysis, detailed quote, negotiations, finalization. Connected boxes with arrows, minimalist design, black and gray boxes with yellow connectors, professional business style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "proces wyceny",
+        "briefing",
+        "analiza techniczna",
+        "etapy projektu"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart diagram steps",
+        "pexels_query": "workflow diagram business process",
+        "keywords_for_search": [
+          "business process flow",
+          "workflow diagram",
+          "project steps chart"
+        ],
+        "style_notes": "Horizontal flowchart, clear step progression, professional business design"
+      }
+    }
+  ],
+  "total_count": 7
+}

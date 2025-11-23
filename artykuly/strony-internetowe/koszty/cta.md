@@ -3,24 +3,26 @@
 ### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiącach:
 
 **Pierwsze kroki:**
-1. **Zdefiniuj rzeczywiste potrzeby swojego biznesu** - Przeanalizuj, które funkcjonalności są niezbędne dla Twojej strony internetowej, a które możesz dodać później.
-2. **Ustal budżet wdrożenia** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN. Pamiętaj o dodaniu bufora 20% na nieprzewidziane koszty.
-3. **Przygotuj listę potencjalnych integracji** - Zidentyfikuj systemy, które wymagają integracji z Twoją stroną, jak ERP, CRM czy systemy płatności.
+1. **Zdefiniuj pełny budżet projektu** - uwzględnij wszystkie koszty początkowe i cykliczne zgodnie z artykułem, zarezerwuj bufór 20% na nieprzewidziane wydatki.
+2. **Wybierz model rozliczeniowy** - zdecyduj, czy lepszy będzie dla Ciebie model jednorazowy, czy abonamentowy, analizując przepływ gotówki w firmie.
+3. **Przygotuj szczegółowy briefing** - określ funkcjonalności, które są kluczowe dla Twojej strony, z myślą o przyszłych potrzebach.
 
 **Przydatne narzędzia:**
-- [Kalkulator TCO (Total Cost of Ownership)](https://example.com) - Oblicz rzeczywisty koszt strony na 3 lata uwzględniając licencje, hosting i rozwój.
-- [Platform comparison spreadsheet](https://example.com) - Porównaj różne technologie i platformy w kontekście Twoich wymagań.
+- [Kalkulator kosztów całkowitych]({{LINK}}) - oblicz rzeczywisty koszt strony internetowej na przestrzeni 3 lat.
+- [Porównanie platform CMS]({{LINK}}) - dowiedz się, która platforma najlepiej pasuje do Twojego biznesu.
 
 **Potrzebujesz pomocy?**
-- [Umów bezpłatną konsultację](https://example.com) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
-- [Pobierz RFP template](https://example.com) - Gotowy brief do wysłania do agencji/dostawców.
+- [Umów bezpłatną konsultację]({{LINK}}) - omówimy Twój case i pomożemy zaplanować wdrożenie
+- [Pobierz RFP template]({{LINK}}) - gotowy brief do wysłania do agencji/dostawców
 
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Poradniki stron internetowych dla firm](/artykuly/strony-internetowe/poradniki) - Dowiedz się, jak efektywnie planować i wdrażać strony internetowe.
-- [Proces](/artykuly/strony-internetowe/proces) - Zrozum kluczowe etapy procesu tworzenia strony internetowej i jak je optymalizować.
+- [Strategia](/artykuly/strony-internetowe/strategia) - dowiedz się, jak stworzyć skuteczną strategię dla swojej strony internetowej.
+- [Projektowanie](/artykuly/strony-internetowe/projektowanie) - zrozum, jak projektowanie wpływa na koszty i efektywność strony.
 
 **Zasoby:**
-- [Subskrybuj newsletter](https://example.com) - Otrzymuj 1 artykuł tygodniowo z konkretną wiedzą bez spamu.
-- [Dołącz do webinaru](https://example.com) - Uczestnicz w sesji Q&A na żywo z ekspertami.
+- [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu
+- [Dołącz do webinaru]({{LINK}}) - live Q&A z ekspertami
+
+⚠️ **Ważne:** Inwestycja w stronę internetową to złożony proces, który wymaga przemyślanej strategii i dokładnej analizy kosztów. Upewnij się, że masz pełne zrozumienie wszystkich aspektów finansowych przed podjęciem ostatecznej decyzji.
