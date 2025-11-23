@@ -1,14 +1,14 @@
-## Checklist: Wybór optymalnego typu strony internetowej dla Twojego biznesu
+## Checklist: Wybór odpowiedniego typu strony internetowej dla Twojego biznesu
 
-- [ ] Określ główny cel strony internetowej - czy chcesz przede wszystkim budować wizerunek firmy, pozyskiwać potencjalnych klientów, sprzedawać produkty online, a może kompleksowo obsługiwać swoich odbiorców? Ten punkt wydaje się fundamentalny dla całego procesu
-- [ ] Ustaw realny budżet na cały projekt (zwykle 1500-5000 zł wystarczy na wizytówkę, 2000-8000 zł na landing page, natomiast za portal zapłacisz prawdopodobnie ponad 15000 zł)
-- [ ] Przeanalizuj dokładnie swoją grupę docelową i sprawdź, jak zachowuje się online - czy to lokalni klienci szukający usług w okolicy, specyficzny segment rynku, czy może szeroki, zróżnicowany rynek
-- [ ] Oceń realnie wielkość swojej oferty: kilka podstawowych usług może sugerować potrzebę wizytówki, jeden główny produkt wskazuje na landing page, szeroka i złożona oferta wymaga raczej pełnoprawnego portalu
-- [ ] Przeanalizuj strony 3-5 głównych konkurentów - przyjrzyj się ich podejściu, funkcjonalnościom i sposobowi prezentacji oferty
-- [ ] Określ szczerze swoje zasoby do zarządzania stroną: ile czasu możesz poświęcić, jakie masz umiejętności techniczne i jaki budżet planujesz na bieżącą obsługę
-- [ ] Na podstawie powyższych analiz wybierz najodpowiedniejszy typ strony - wizytówkę, landing page lub portal
-- [ ] Przygotuj listę 3-5 agencji interaktywnych, które mają w portfolio projekty podobne do Twojego typu strony
-- [ ] Zadaj agencjom kluczowe pytania dotyczące ich doświadczenia w Twojej branży, procesu realizacji projektu, oferowanych gwarancji oraz wsparcia po zakończeniu prac
-- [ ] Porównaj otrzymane propozycje pod względem ceny, zakresu usług, proponowanych terminów realizacji i warunków dalszej współpracy
-- [ ] Wybierz agencję i podpisz umowę, w której jasno określisz oczekiwane rezultaty (deliverables) oraz kamienie milowe projektu (milestones)
-- [ ] Zaplanuj cały proces wdrożenia - uwzględnij czas na przygotowanie treści, przeprowadzenie testów i oficjalne uruchomienie strony
+- [ ] Ustal realny budżet na stworzenie strony (wizytówka: 1500-5000 zł, landing page: 2000-8000 zł, rozbudowany portal: od 15000 zł wzwyż)
+- [ ] Zastanów się nad głównym celem: czy chcesz budować zaufanie klientów, zwiększać sprzedaż konkretnego produktu, czy może potrzebujesz kompleksowej platformy obsługi?
+- [ ] Oceń skalę swojej działalności - małe studio prawdopodobnie nie potrzebuje tak zaawansowanej strony jak sieć sklepów
+- [ ] Szczerze przeanalizuj swoje możliwości: ile czasu możesz poświęcić na zarządzanie stroną? Czy masz w zespole kogoś z doświadczeniem technicznym?
+- [ ] Sprawdź swoją obecną widoczność w sieci - może okazać się, że brakuje Ci głównie obecności w mediach społecznościowych, a nie nowej strony
+- [ ] Przejrzyj strony 3-5 głównych konkurentów, zwracając uwagę na to, co działa, a co wydaje się nieskuteczne
+- [ ] Narysuj portret idealnego klienta i zastanów się, czego będzie szukał na Twojej stronie w pierwszej kolejności
+- [ ] Wyszukaj 5-10 agencji webowych, analizując ich portfolio pod kątem projektów podobnych do Twojego
+- [ ] Przygotuj szczegółowy brief zawierający cele biznesowe, preferowany budżet i realny termin realizacji
+- [ ] Podczas rozmów z potencjalnymi wykonawcami pytaj o konkretne doświadczenia w Twojej branży, metodykę pracy i długoterminowe wsparcie
+- [ ] Porównaj otrzymane propozycje, zwracając uwagę nie tylko na cenę, ale też na zakres gwarancji i elastyczność w wprowadzaniu zmian
+- [ ] Podjąwszy decyzję, ustal jasny harmonogram: od szczegółowego briefu, przez projekty graficzne, aż po finalne testy i uruchomienie
