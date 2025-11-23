@@ -1,14 +1,14 @@
-## Checklist: Planowanie budżetu na stronę internetową
+## Checklist: Planowanie kosztów strony internetowej
 
-- [ ] Ustal górną granicę środków, które jesteś w stanie przeznaczyć na projekt – to pomoże Ci zawęzić opcje już na starcie
-- [ ] Rozważ, czy lepiej sprawdzi się u Ciebie jednorazowa inwestycja czy miesięczne opłaty rozłożone w czasie
-- [ ] Przygotuj szczegółową listę funkcji, które są dla Ciebie niezbędne – może to być sklep online, blog firmowy, formularz kontaktowy czy integracja z mediami społecznościowymi
-- [ ] Przeanalizuj strony swoich konkurentów i oceń, czy ich rozwiązania wydają się bardziej czy mniej skomplikowane od Twoich potrzeb
-- [ ] Uwzględnij stałe koszty – hosting zazwyczaj kosztuje 50-200 zł miesięcznie, a domena to wydatek 30-60 zł rocznie
-- [ ] Zarezerwuj dodatkowe 20-30% budżetu na nieprzewidziane wydatki – projekty webowe często przynoszą niespodzianki
-- [ ] Poproś o wyceny co najmniej trzech różnych agencji lub freelancerów – różnice w cenach mogą być naprawdę znaczące
-- [ ] Dokładnie przeczytaj każdą ofertę i zapytaj o ewentualne dodatkowe opłaty za wsparcie techniczne czy przyszłe aktualizacje
-- [ ] Wyjaśnij z wykonawcą, ile będą kosztować zmiany wprowadzane już po uruchomieniu strony
-- [ ] Zaplanuj budżet na pierwszy rok działania witryny – oprócz hostingu prawdopodobnie będziesz potrzebować drobnych poprawek czy aktualizacji treści
-- [ ] Uzgodnij etapowy system płatności, który pozwoli Ci śledzić postępy i reagować na ewentualne problemy
-- [ ] Upewnij się, że to Ty będziesz właścicielem domeny i będziesz miał dostęp do panelu hostingu – to uchroni Cię przed uzależnieniem od jednego dostawcy
+- [ ] Określ maksymalny budżet, który możesz realistycznie przeznaczyć na stronę – uwzględnij zarówno koszty jednorazowe, jak i wydatki na utrzymanie przez cały rok
+- [ ] Rozważ, który model finansowania lepiej pasuje do Twojej sytuacji: jednorazowa płatność czy comiesięczny abonament rozłożony w czasie
+- [ ] Przygotuj dokładny brief z opisem wszystkich funkcji, które będą Ci potrzebne – może to być sklep internetowy, blog firmowy, system rezerwacji czy formularz kontaktowy
+- [ ] Poproś wykonawców o transparentną wycenę, która uwzględnia wszystkie koszty – często pojawiają się dodatkowe opłaty, o których dowiadujemy się dopiero w trakcie realizacji
+- [ ] Sprawdź, ile rocznie będziesz płacić za domenę i hosting – koszty mogą się różnić w zależności od typu strony i przewidywanego ruchu
+- [ ] Ustaw z wykonawcą jasne zasady rozliczania zmian wprowadzanych podczas prac – bez tego każda modyfikacja może oznaczać nieprzewidziane wydatki
+- [ ] Zaplanuj budżet na regularne utrzymanie strony: aktualizacje zabezpieczeń, kopie zapasowe i bieżące wsparcie techniczne
+- [ ] Porównaj oferty co najmniej trzech różnych wykonawców – nie patrzeć tylko na cenę, ale także na zakres świadczonych usług i doświadczenie
+- [ ] Ustal harmonogram płatności powiązany z konkretnymi etapami projektu – dzięki temu unikniesz sytuacji, w której płacisz za nieukończone prace
+- [ ] Zarezerwuj dodatkowe 20-30% budżetu na nieprzewidziane koszty – prawdopodobnie będziesz chciał wprowadzić zmiany lub rozszerzyć funkcjonalności
+- [ ] Sprawdź warunki gwarancji i zapytaj o koszty wsparcia po jej zakończeniu – niektórzy wykonawcy oferują bezpłatne poprawki przez określony czas
+- [ ] Podpisz szczegółową umowę, która precyzyjnie określa zakres prac i ostateczną cenę – to Twoje zabezpieczenie przed nieoczekiwanymi doplatami
