@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Strategiczne planowanie strony internetowej",
+    "description": "Minimalistyczne ujęcie workspace z laptopem pokazującym dashboard strategiczny, notatkami biznesowymi i materiałami planistycznymi",
+    "alt_text": "Workspace z laptopem pokazującym dashboard strategii biznesowej i notatkami planistycznymi na biurku",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying business strategy dashboard with charts and KPI metrics, white wooden desk, notebook with yellow pen for notes, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "strategia",
+      "planowanie",
+      "dashboard",
+      "biznes"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business strategy workspace laptop dashboard planning",
+      "pexels_query": "workspace laptop business planning notebook",
+      "keywords_for_search": [
+        "strategic planning workspace",
+        "business dashboard laptop",
+        "minimalist office desk"
+      ],
+      "style_notes": "Clean minimalist workspace, natural lighting, professional business setting, avoid people in frame"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Wprowadzenie - różnice w konwersji",
+      "title": "Porównanie konwersji: strony z strategią vs. bez strategii",
+      "description": "Wykres słupkowy pokazujący różnicę w współczynniku konwersji między stronami strategicznymi a intuicyjnymi",
+      "alt_text": "Wykres porównujący konwersję stron ze strategią (12%) versus bez strategii (2%)",
+      "prompt": "Clean comparison bar chart showing conversion rates, two bars - strategic websites 12% vs intuitive websites 2%, professional infographic style, blue and gray colors with yellow highlights, minimalist design, values clearly labeled, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konwersja",
+        "strategia",
+        "statystyki",
+        "efektywność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business comparison chart statistics growth",
+        "pexels_query": "data visualization business chart",
+        "keywords_for_search": [
+          "comparison infographic",
+          "business statistics chart",
+          "conversion rate visualization"
+        ],
+        "style_notes": "Clean professional chart, contrasting colors to show difference, could use Canva templates"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Framework SMART dla celów",
+      "title": "Framework SMART - infografika 5 kryteriów",
+      "description": "Pionowa infografika przedstawiająca 5 elementów frameworku SMART z ikonami i przykładami",
+      "alt_text": "Infografika framework SMART z 5 kryteriami: Specific, Measurable, Achievable, Relevant, Time-bound",
+      "prompt": "Vertical infographic showing SMART framework with 5 criteria: Specific, Measurable, Achievable, Relevant, Time-bound. Each point has icon and brief description, clean professional design, black and gray colors with yellow highlights for key elements, numbered steps, white background",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "SMART",
+        "framework",
+        "cele",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "SMART goals framework infographic business",
+        "pexels_query": "goal setting infographic design",
+        "keywords_for_search": [
+          "SMART criteria visual",
+          "business framework infographic",
+          "goal planning design"
+        ],
+        "style_notes": "Vertical layout, numbered points with icons, professional business style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Customer journey w 4 etapach",
+      "title": "Diagram customer journey - 4 etapy",
+      "description": "Schemat przepływu pokazujący 4-etapową ścieżkę klienta od świadomości do zakupu",
+      "alt_text": "Diagram customer journey w 4 etapach: świadomość, rozważanie, decyzja, akcja",
+      "prompt": "Horizontal flowchart diagram showing customer journey in 4 stages: awareness, consideration, decision, action. Arrow flow connecting stages, icons for each stage, clean professional design, minimal color palette black white gray with yellow accent arrows, modern business infographic style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "customer journey",
+        "ścieżka klienta",
+        "proces",
+        "konwersja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "customer journey flowchart diagram business",
+        "pexels_query": "process flow diagram infographic",
+        "keywords_for_search": [
+          "customer journey map",
+          "sales funnel diagram",
+          "business process flow"
+        ],
+        "style_notes": "Horizontal flowchart, clear progression arrows, professional business aesthetic"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: ROI strategii 300%-500%",
+      "title": "ROI strategii internetowej w czasie",
+      "description": "Wykres liniowy pokazujący wzrost ROI strategii internetowej przez pierwsze 12 miesięcy",
+      "alt_text": "Wykres wzrostu ROI strategii internetowej od 0% do 400% w ciągu roku",
+      "prompt": "Clean line chart showing ROI growth of web strategy over 12 months, starting from 0% reaching 400%, smooth upward curve, professional design, blue line with yellow highlight points at key milestones, grid background, minimalist style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "ROI",
+        "zwrot inwestycji",
+        "strategia",
+        "wzrost"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart ROI investment return",
+        "pexels_query": "financial growth line chart",
+        "keywords_for_search": [
+          "investment return chart",
+          "business growth visualization",
+          "ROI timeline"
+        ],
+        "style_notes": "Upward trending line chart, professional financial style, clear growth visualization"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Sekcja: Wybór typu strony",
+      "title": "Porównanie typów stron: wizytówka vs landing vs portal",
+      "description": "Infografika porównawcza pokazująca różnice między trzema typami stron internetowych",
+      "alt_text": "Porównanie wizytówki, landing page i portalu biznesowego z funkcjami i zastosowaniami",
+      "prompt": "Three-column comparison infographic showing website types: business card site, landing page, and business portal. Each column has icon, key features list, and use cases. Clean professional design, consistent color scheme black white gray with yellow highlights, well-organized layout",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "typy stron",
+        "wizytówka",
+        "landing page",
+        "portal"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website types comparison business infographic",
+        "pexels_query": "web design comparison chart",
+        "keywords_for_search": [
+          "website comparison chart",
+          "business web options",
+          "site type infographic"
+        ],
+        "style_notes": "Side-by-side comparison layout, clear distinction between options, professional business style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "checklist",
+      "section": "Sekcja: Checklist decyzyjna",
+      "title": "Checklist 12 pytań decyzyjnych",
+      "description": "Wizualna lista kontrolna z 12 pytaniami pomocnymi w wyborze typu strony",
+      "alt_text": "Checklist 12 pytań decyzyjnych do wyboru między wizytówką, landing page i portalem",
+      "prompt": "Vertical checklist infographic with 12 decision questions, checkbox icons, clean typography, organized in sections, professional business design, black text on white background with yellow accent checkmarks, easy to scan layout",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "checklist",
+        "pytania decyzyjne",
+        "wybór strony",
+        "przewodnik"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business checklist infographic decision making",
+        "pexels_query": "checklist design template",
+        "keywords_for_search": [
+          "decision checklist",
+          "business evaluation list",
+          "website planning checklist"
+        ],
+        "style_notes": "Clean checklist format, checkbox icons, well-organized sections, printable design"
+      }
+    }
+  ],
+  "total_count": 7
+}
