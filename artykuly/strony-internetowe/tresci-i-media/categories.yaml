@@ -5,13 +5,13 @@ categories:
 - slug: content-marketing
   title: Content Marketing
   path: marketing-w-internecie/content-marketing
-- slug: blogowanie
-  title: Blogowanie
-  path: marketing-w-internecie/content-marketing/blogowanie
-- slug: tworzenie-tresci-wideo
-  title: Tworzenie Treści Wideo
-  path: marketing-w-internecie/content-marketing/tworzenie-tresci-wideo
 - slug: seo-i-optymalizacja-stron
   title: SEO i Optymalizacja Stron
   path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
 count: 5
