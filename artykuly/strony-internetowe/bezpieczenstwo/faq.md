@@ -1,31 +1,31 @@
 ### Ile kosztuje zabezpieczenie strony internetowej dla małej firmy?
 
-Podstawowa ochrona - SSL, firewall czy automatyczne kopie zapasowe - to wydatek rzędu 50-200 złotych miesięcznie. Jeśli zależy ci na całodobowym monitorowaniu i zaawansowanej ochronie, przygotuj się na koszt 500-1500 zł. Więcej o różnych poziomach ochrony znajdziesz w artykule [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia). Warto jednak pamiętać, że skuteczny cyberatak może kosztować dziesiątki tysięcy złotych strat.
+Podstawowe zabezpieczenia - takie jak certyfikat SSL, firewall czy regularne kopie zapasowe - to wydatek rzędu 200-500 zł miesięcznie. Zaawansowane rozwiązania z całodobowym monitoringiem mogą kosztować 800-2000 zł. Więcej o różnych metodach ochrony znajdziesz w artykule [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia). Warto jednak pamiętać, że średni koszt cyberataku na małą firmę sięga 50-100 tysięcy złotych.
 
-### Jak często powinienem aktualizować stronę internetową?
+### Czy moja strona na WordPressie jest bezpieczna domyślnie?
 
-Aktualizacje bezpieczeństwa wymagają natychmiastowej reakcji - zwłoka może oznaczać podatności na ataki. Pozostałe aktualizacje CMS-a czy wtyczek warto planować co 2-4 tygodnie, choć wszystko zależy od intensywności zmian u dostawców. Szczegóły dotyczące strategii aktualizowania znajdziesz w artykule [Aktualizacje](/artykuly/strony-internetowe/bezpieczenstwo/aktualizacje). Pamiętaj o testowaniu na kopii roboczej strony - unikniesz nieprzyjemnych niespodzianek na produkcji.
+WordPress wydaje się całkiem bezpieczny po instalacji, jednak prawdziwe zabezpieczenie wymaga ciągłej uwagi. Przestarzałe wtyczki czy hasła w stylu "123456" to prawdopodobnie najczęstsze przyczyny włamań. Bez elementarnych zabezpieczeń Twoja strona może stać się łatwym celem dla automatycznych ataków skanujących sieć. Więcej o tym, jak właściwie zabezpieczyć swoją stronę, znajdziesz w artykule [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia).
 
-### Czy moja strona bez sklepu internetowego też potrzebuje certyfikatu SSL?
+### Jak często powinienem robić kopie zapasowe strony?
 
-Zdecydowanie tak. Google prawdopodobnie obniży pozycję Twojej witryny w wynikach wyszukiwania, jeśli nie używasz szyfrowania. Przeglądarki mogą również ostrzegać użytkowników przed "niebezpieczną stroną". Więcej szczegółów o tym zagadnieniu znajdziesz w artykule [Ssl I Https](/artykuly/strony-internetowe/bezpieczenstwo/ssl-i-https). SSL wydaje się niezbędny nawet dla prostych formularzy kontaktowych czy logowania do panelu CMS.
+Sklepy internetowe z codziennymi aktualizacjami produktów prawdopodobnie wymagają codziennego zabezpieczania danych. Proste strony firmowe można zabezpieczać raz w tygodniu. Pamiętaj jednak - regularne testowanie przywracania kopii wydaje się kluczowe, bo uszkodzona kopia zapasowa równa się jej braku. Więcej o strategiach zabezpieczania znajdziesz w artykule [Backup I Awaryjne Odzyskiwanie](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie).
 
-### Co zrobić, jeśli moja strona została zhakowana?
+### Czy certyfikat SSL wpływa na pozycjonowanie w Google?
 
-W pierwszej kolejności należy natychmiast zmienić wszystkie hasła administratorów oraz tymczasowo ograniczyć dostęp użytkownikom do serwisu. Następnie warto przywrócić najnowszą, niezakażoną kopię zapasową - więcej o procesie odzyskiwania znajdziesz w artykule [Backup I Awaryjne Odzyskiwanie](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie). Po przywróceniu systemu zaktualizuj go wraz z wtyczkami. Jeżeli przetwarzasz dane osobowe klientów, prawdopodobnie będziesz musiał zgłosić incydent do UODO.
+Zdecydowanie tak - Google traktuje HTTPS jako oficjalny sygnał rankingowy już od 2014 roku. Strony bez certyfikatu SSL wyświetlają się użytkownikom jako "niebezpieczne", co może znacząco wpłynąć na zaufanie klientów. Więcej szczegółów o implementacji znajdziesz w artykule [Ssl I Https](/artykuly/strony-internetowe/bezpieczenstwo/ssl-i-https). W konkurencyjnych branżach różnica ta bywa szczególnie widoczna w wynikach wyszukiwania.
 
-### Jak często robić kopie zapasowe strony firmowej?
+### Co to znaczy być zgodnym z RODO w kontekście bezpieczeństwa?
 
-Częstotliwość backupów zależy od aktywności witryny. Sklepy internetowe czy blogi firmowe, które aktualizujesz codziennie, wymagają codziennych kopii. Statyczne strony wizytówki można zabezpieczać co kilka dni. Warto stosować sprawdzoną zasadę 3-2-1: trzy kopie na dwóch różnych nośnikach, z jedną w chmurze. Szczegóły znajdziesz w artykule [Backup I Awaryjne Odzyskiwanie](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie).
+Zgodność z RODO w obszarze bezpieczeństwa oznacza przede wszystkim właściwe zabezpieczenie danych osobowych przez szyfrowanie, ograniczenie dostępu i zbieranie wyłącznie niezbędnych informacji. W przypadku naruszenia ochrony danych, organizacja ma 72 godziny na zgłoszenie incydentu do UODO. Kary finansowe mogą osiągnąć nawet 4% rocznego obrotu przedsiębiorstwa. Szczegóły znajdziesz w artykule [Rodo I Privacy](/artykuly/strony-internetowe/bezpieczenstwo/rodo-i-privacy).
 
-### Czy hosting wpływa na bezpieczeństwo mojej strony?
+### Kiedy wiem, że moja strona została zaatakowana?
 
-Jakość hostingu może znacząco wpłynąć na bezpieczeństwo Twojej witryny. Warto wybierać dostawców z solidną reputacją, którzy oferują podstawowe [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia) jak firewall czy regularne kopie zapasowe. Najtańsze opcje często oznaczają kompromisy w kwestii bezpieczeństwa - sprawdź zawsze opinie innych użytkowników przed podjęciem decyzji.
+Pierwsze sygnały alarmowe mogą sugerować problem: nagle spada ruch w Google Analytics, pojawiają się niespodziewane przekierowania na podejrzane domeny, a strona ładuje się znacznie wolniej. Dodatkowo odwiedzający mogą zgłaszać ostrzeżenia z antywirusów, co prawdopodobnie oznacza wykrycie złośliwego kodu. Więcej o ochronie przed takimi atakami znajdziesz w artykule [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia).
 
-### Jakie dane muszę chronić zgodnie z RODO?
+### Czy mogę samodzielnie zabezpieczyć stronę firmy?
 
-RODO obejmuje wszystkie informacje pozwalające zidentyfikować konkretną osobę - od oczywistych jak imię czy adres email, po mniej widoczne jak adres IP czy ID sesji. Kluczem wydaje się być rozsądne podejście: zbieraj tylko niezbędne dane, szyfruj je odpowiednio i regularnie czyść niepotrzebne zasoby. Szczegółowe zasady omawiamy w artykule [Rodo I Privacy](/artykuly/strony-internetowe/bezpieczenstwo/rodo-i-privacy). Nie zapomnij o przejrzystej polityce prywatności.
+Podstawowe zabezpieczenia możesz wdrożyć własnoręcznie - certyfikaty SSL, regularne aktualizacje czy wieloskładnikowe uwierzytelnianie to rzeczy całkiem osiągalne. Więcej o kompleksowych metodach ochrony znajdziesz w artykule [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia). Dlatego większość przedsiębiorstw wybiera profesjonalnych dostawców hostingu lub współpracuje z firmami IT oferującymi dedykowane pakiety bezpieczeństwa.
 
-### Skąd będę wiedział, że ktoś atakuje moją stronę?
+### Co robić, gdy strona została zhakowana?
 
-Pierwsze sygnały alarmu to zwykle wolno ładująca się strona, podejrzane pliki w katalogu głównym czy dziwne przekierowania na obce domeny. System monitorowania może natychmiast powiadomić Cię o nietypowej aktywności. Warto także regularnie sprawdzać logi serwera – tam często kryją się ślady nieproszonych gości. Więcej o ochronie znajdziesz w [Zabezpieczenia](/artykuly/strony-internetowe/bezpieczenstwo/zabezpieczenia).
+Pierwszym krokiem jest zmiana wszystkich haseł administracyjnych i wykonanie pełnego skanowania pod kątem malware. Następnie należy przywrócić witrynę z czystej kopii zapasowej - więcej o tym procesie znajdziesz w artykule [Backup I Awaryjne Odzyskiwanie](/artykuly/strony-internetowe/bezpieczenstwo/backup-i-awaryjne-odzyskiwanie). Należy również poinformować użytkowników o potencjalnym naruszeniu. Jeśli przetwarzasz dane osobowe, pamiętaj o obowiązku zgłoszenia incydentu do UODO w ciągu 72 godzin zgodnie z wymogami RODO.
