@@ -2,16 +2,16 @@ categories:
 - slug: javascript
   title: JavaScript
   path: strony-internetowe/frontend-development/javascript
-- slug: marketing-w-internecie
-  title: Marketing w Internecie
-  path: marketing-w-internecie
+- slug: frontend-development
+  title: Frontend Development
+  path: strony-internetowe/frontend-development
 - slug: strony-internetowe
   title: Strony Internetowe
   path: strony-internetowe
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
 - slug: projektowanie-ux-ui
   title: Projektowanie UX/UI
   path: strony-internetowe/projektowanie-ux-ui
-- slug: rozwoj-oprogramowania
-  title: Rozwój Oprogramowania
-  path: rozwoj-oprogramowania
 count: 5
