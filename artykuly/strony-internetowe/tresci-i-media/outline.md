@@ -2,105 +2,96 @@
 
 ## 1. Wprowadzenie - Dlaczego treści i media decydują o sukcesie Twojej strony
 (~200 słów)
-- Rola treści w budowaniu zaufania i autorytetu firmy online
-- Statystyki: jak jakość treści wpływa na konwersje i pozycjonowanie
-- Ewolucja oczekiwań użytkowników - od tekstu do bogatych mediów
-- Zapowiedź głównych obszarów: copywriting, grafika, video, blog i SEO
-- Jak strategiczne podejście do treści przekłada się na ROI
+- Statystyki dotyczące wpływu jakości treści na czas spędzany na stronie
+- Rola multimediów w budowaniu zaufania klientów
+- Wpływ treści na pozycjonowanie w wyszukiwarkach
+- Zapowiedź głównych aspektów: copywriting, grafiki, video, blog
 
-## 2. Strategiczne planowanie treści dla biznesu
-(~180 słów)
-- Audit obecnych treści - co masz, czego potrzebujesz
-- Definiowanie celów biznesowych dla różnych typów treści
-- Mapowanie treści do customer journey
-- Planowanie kalendarza publikacji i budżetów
-- KPI i metryki skuteczności treści
+## 2. Blog i aktualności - Fundament komunikacji z klientami
+(~250 słów)
 
-### Przygotowanie strategii content marketingu
-- Analiza konkurencji i luk w treściach
-- **Miejsce na link:** Dowiedz się więcej o profesjonalnym [tworzeniu treści](/tworzenie-tresci) dla Twojej branży
+### Strategiczne znaczenie regularnych publikacji
+- Blog jako narzędzie budowania autorytetu branżowego
+- Wpływ świeżych treści na SEO i pozycjonowanie
+- Typy artykułów, które angażują odbiorców biznesowych
+- **Miejsce na link:** "Kompletny przewodnik znajdziesz w: [Blog i Aktualności](/blog-i-aktualnosci)"
 
-## 3. Copywriting i teksty sprzedażowe
-(~200 słów)
-- Różnice między copywritingiem a content writingiem
-- Psychologia sprzedaży w tekstach na stronie
-- Struktura skutecznych tekstów: nagłówki, benefity, CTA
-- Tone of voice - jak budować spójny wizerunek przez język
+## 3. Copywriting SEO - Pisanie, które sprzedaje i pozycjonuje
+(~280 słów)
 
-### Teksty zoptymalizowane pod SEO
-- Równoważenie potrzeb użytkowników i wyszukiwarek
-- Naturalne wplatanie słów kluczowych
-- **Miejsce na link:** Poznaj sekrety skutecznego [copywritingu SEO](/copywriting-seo)
+### Teksty, które łączą konwersję z SEO
+- Różnice między zwykłym copywritingiem a copywritingiem SEO
+- Optymalizacja treści pod kątem słów kluczowych bez utraty naturalności
+- Struktury tekstów sprzedażowych dla różnych branż
+- Call-to-action, które rzeczywiście prowadzą do działania
 
-## 4. Wizualizacja treści - zdjęcia, grafiki i elementy wizualne
-(~200 słów)
-- Znaczenie first impression - rola hero image i grafik
-- Spójność wizualna jako element brandingu
-- Optymalizacja obrazów dla web (rozmiar, format, SEO)
-- Grafiki informacyjne, ikony, ilustracje vs. zdjęcia stockowe
+### Techniczne aspekty copywritingu
+- Meta opisy, tytuły H1-H6, optymalizacja URL
+- **Miejsce na link:** "Szczegóły technik w: [Copywriting SEO](/copywriting-seo)"
 
-### Budowanie biblioteki materiałów wizualnych
-- Zasady kompozycji dla materiałów biznesowych
-- Narzędzia i zasoby dla małych firm
-- **Miejsce na link:** Kompleksowy przewodnik po [zdjęciach i grafikach](/zdjecia-i-grafiki) na stronach biznesowych
+## 4. Tworzenie treści - Od pomysłu do publikacji
+(~270 słów)
 
-## 5. Video marketing - treści wideo dla firm
-(~200 słów)
-- Dlaczego video zwiększa zaangażowanie i konwersje
-- Typy filmów biznesowych: prezentacyjne, edukacyjne, testimoniale
-- Optymalizacja wideo dla różnych kanałów (strona, social media, YouTube)
-- Budżetowe rozwiązania dla małych firm
+### Proces i metodyka tworzenia wartościowych treści
+- Badanie potrzeb i problemów grupy docelowej
+- Content plan i kalendarz publikacji
+- Narzędzia do research'u tematów i konkurencji
+- Optymalizacja treści pod różne etapy ścieżki klienta
 
-### Integracja video z pozostałymi treściami
-- Video jako wsparcie dla tekstów sprzedażowych
-- Filmowe FAQ i instruktaże
-- **Miejsce na link:** Praktyczne strategie [video marketingu](/video-marketing) dla Twojej firmy
+### Quality control i mierzenie skuteczności
+- KPI dla treści: engagement, time on page, konwersje
+- **Miejsce na link:** "Pełna metodologia w: [Tworzenie Treści](/tworzenie-tresci)"
 
-## 6. Blog i content marketing
-(~180 słów)
-- Blog jako narzędzie budowania autorytetu i SEO
-- Typy artykułów: edukacyjne, case studies, branżowe trendy
-- Częstotliwość publikacji vs. jakość treści
-- Promocja artykułów i dystrybucja treści
+## 5. Video Marketing - Treści, które angażują najskuteczniej
+(~280 słów)
 
-### Zarządzanie blogiem firmowym
-- Planowanie tematów i keyword research
-- Workflow tworzenia i publikacji
-- **Miejsce na link:** Jak prowadzić skuteczny [blog i aktualności](/blog-i-aktualnosci) firmowe
+### Rola wideo w nowoczesnym marketingu
+- Statystyki dotyczące skuteczności video marketingu
+- Typy filmów dla biznesu: prezentacje produktów, webinary, testimoniale
+- Techniczne aspekty: jakość, długość, optymalizacja pod platformy
 
-## 7. Integracja i spójność wszystkich treści
-(~200 słów)
-- Tworzenie spójnego ekosystemu treści
-- Cross-promocja między różnymi typami mediów
-- Repurposing - jak z jednej treści zrobić kilka formatów
-- Systemy zarządzania treścią (CMS) dla różnych potrzeb
+### Implementacja video na stronie firmowej
+- Wpływ filmów na SEO i czas spędzany na stronie
+- Hosting: YouTube vs. własny serwer - analiza kosztów i korzyści
+- **Miejsce na link:** "Kompletna strategia w: [Video Marketing](/video-marketing)"
 
-### Workflow i procesy
-- Role w zespole (kto za co odpowiada)
-- Kontrola jakości i brand guidelines
-- Backup i archiwizacja materiałów
+## 6. Zdjęcia i grafiki - Wizualna tożsamość marki
+(~280 słów)
 
-## 8. Mierzenie skuteczności i optymalizacja
-(~160 słów)
-- Analytics dla treści - co śledzić, jak interpretować
-- A/B testing różnych wersji treści
-- User experience i heat mapy
-- Iteracyjne ulepszanie na podstawie danych
+### Profesjonalna fotografia biznesowa
+- Znaczenie spójności wizualnej w budowaniu marki
+- Zdjęcia produktów, zespołu, siedziby - co i jak fotografować
+- Optymalizacja techniczna: formaty, rozmiary, kompresja
 
-### ROI z inwestycji w treści
-- Jak liczyć zwrot z content marketingu
-- Długoterminowe efekty vs. szybkie rezultaty
-- Case studies - przykłady firm, które odniosły sukces
+### Grafiki i elementy wizualne
+- Infografiki jako narzędzie edukacji klientów
+- Spójność kolorystyczna i typograficzna
+- Narzędzia do tworzenia grafik dla firm bez budżetu na grafika
+- **Miejsce na link:** "Praktyczne wskazówki w: [Zdjęcia i Grafiki](/zdjecia-i-grafiki)"
 
-## 9. Podsumowanie i dalsze kroki
-(~180 słów)
-- Kluczowe wnioski: dlaczego holistyczne podejście jest najważniejsze
-- Pierwsze kroki - od czego zacząć optymalizację treści
-- Budowanie długoterminowej strategii content marketingu
-- Zachęta do eksploracji szczegółowych przewodników w poszczególnych obszarach
-- Call to action: audyt obecnych treści jako punkt startowy ---
+## 7. Integracja treści i mediów - Spójna strategia content marketingowa
+(~240 słów)
 
-## 10. Propozycja tytułu H1:
-**"Treści i Media na Stronie Internetowej - Kompletny Przewodnik dla Przedsiębiorców 2024"** **Alternatywne tytuły:**
-- "Jak Tworzyć Skuteczne Treści i Media dla Firmy - Strategia Krok po Kroku"
-- "Content Marketing dla Biznesu - Treści, które Sprzedają i Budują Markę"
+### Synergię między różnymi typami treści
+- Jak łączyć blog, video i grafiki w jedną narrację
+- Repurposing treści - jeden temat, wiele formatów
+- Cross-promotion między różnymi kanałami komunikacji
+
+### Planowanie i koordynacja
+- Narzędzia do zarządzania kalendarzem treści
+- Budżetowanie na różne typy mediów
+- Outsourcing vs. tworzenie in-house
+
+## 8. Podsumowanie - Następne kroki w rozwijaniu treści
+(~150 słów)
+- Kluczowe wnioski dotyczące znaczenia treści w biznesie online
+- Prioritety: od czego zacząć przy ograniczonym budżecie
+- Zachęta do eksploracji szczegółowych przewodników w każdym obszarze
+- Call to action: konsultacja strategii treści --- **Propozycja tytułu H1:** "Treści i Media dla Firm - Kompletny Przewodnik po Content Marketingu" **Słowa kluczowe do naturalnego wplecenia:**
+- treści dla firm
+- content marketing
+- media dla biznesu
+- copywriting
+- video marketing
+- fotografia biznesowa
+- blog firmowy **Całkowita długość:** 1,600 słów
