@@ -3,13 +3,13 @@
 ### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiącach:
 
 **Pierwsze kroki:**
-1. **Przeanalizuj obecną platformę hostingową** - Zidentyfikuj, które aspekty wymagają poprawy, aby zapewnić lepszą wydajność i bezpieczeństwo.
-2. **Ustal budżet migracji** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20% na nieprzewidziane wydatki.
-3. **Przygotuj listę integracji** - Upewnij się, że wszystkie kluczowe systemy (ERP, CRM, płatności) są uwzględnione w planie migracji.
+1. **Przeprowadź audyt obecnej strony** - Zidentyfikuj kluczowe strony generujące ruch i wszystkie funkcjonalności, które muszą zostać przeniesione.
+2. **Przygotuj kopię zapasową** - Upewnij się, że masz pełną kopię zapasową wszystkich plików i bazy danych.
+3. **Zaplanuj migrację w odpowiednim czasie** - Wybierz moment, kiedy ruch na stronie jest najmniejszy, aby zminimalizować ryzyko strat.
 
 **Przydatne narzędzia:**
-- [Checklist Migracji Strony]({{LINK}}) - Pobierz pełną listę kontrolną, aby upewnić się, że żaden krok nie zostanie pominięty.
-- [Google Analytics]({{LINK}}) - Monitoruj ruch przed i po migracji, aby ocenić wpływ na SEO.
+- [Google Analytics](https://analytics.google.com) - Analiza ruchu na stronie, identyfikacja kluczowych stron.
+- [FileZilla](https://filezilla-project.org) - Bezpieczne przenoszenie plików przez FTP.
 
 **Potrzebujesz pomocy?**
 - [Umów bezpłatną konsultację]({{LINK}}) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
@@ -18,8 +18,8 @@
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Javascript Interaktywnosc](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) - Dowiedz się, jak interaktywność może wpłynąć na migrację strony.
-- [Html Dla Poczatkujacych](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych) - Podstawowe informacje, które mogą pomóc w zrozumieniu struktury strony.
+- [Javascript Interaktywnosc](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) - Dowiedz się, jak tworzyć dynamiczne elementy na stronie.
+- [CSS responsywny Dla Poczatkujacych](/artykuly/strony-internetowe/poradniki/css-responsywny) - Naucz się tworzyć strony dostosowane do różnych urządzeń.
 
 **Zasoby:**
 - [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu.

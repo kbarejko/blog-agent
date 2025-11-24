@@ -1,12 +1,185 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Migracja Strony",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Migracja Strony",
-    "prompt": "Professional modern illustration for Migracja Strony",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Migracja strony internetowej",
+    "description": "Minimalistyczna kompozycja przedstawiająca proces migracji strony - laptop z dashboardem analitycznym i elementy techniczne w clean workspace",
+    "alt_text": "Laptop z dashboardem migracji strony na minimalistycznym biurku z dokumentami i notatkami",
+    "prompt": "Clean minimalist workspace top-down view, laptop displaying website migration dashboard with progress indicators and analytics, white desk with notebook containing yellow pen, migration checklist document, coffee cup, natural window lighting, muted colors black white gray with subtle yellow accents, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "migracja strony",
+      "hosting",
+      "transfer danych",
+      "proces migracji"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "website migration dashboard laptop workspace",
+      "pexels_query": "business laptop analytics dashboard",
+      "keywords_for_search": [
+        "migration process",
+        "website transfer",
+        "business workspace",
+        "tech dashboard"
+      ],
+      "style_notes": "Minimalist workspace, tech-forward, business aesthetic zgodny z digitalvantage.pl - no people"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Planowanie migracji",
+      "title": "Diagram procesu planowania migracji",
+      "description": "Schemat flowchart pokazujący 7-etapowy proces planowania migracji strony od audytu do finalizacji",
+      "alt_text": "Diagram przepływu 7 etapów planowania migracji strony internetowej z ikonami i strzałkami",
+      "prompt": "Clean flowchart diagram showing 7-step website migration planning process, numbered circular steps connected by arrows, minimalist icons for each stage (audit, backup, transfer, DNS, testing, verification, monitoring), professional infographic style, black and gray colors with yellow highlights for key steps, white background, geometric shapes",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "proces migracji",
+        "planowanie",
+        "etapy migracji",
+        "metodyka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart diagram",
+        "pexels_query": "workflow diagram infographic",
+        "keywords_for_search": [
+          "process diagram",
+          "workflow chart",
+          "step-by-step infographic"
+        ],
+        "style_notes": "Clean, professional flowchart with numbered steps and connecting arrows"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Kopia zapasowa",
+      "title": "Infografika - Lista kontrolna backup'u",
+      "description": "Pionowa infografika z checklistą elementów kopii zapasowej: pliki, baza danych, konfiguracja, certyfikaty SSL",
+      "alt_text": "Infografika lista kontrolna kopii zapasowej przed migracją strony z ikonami i checkboxami",
+      "prompt": "Vertical checklist infographic showing backup essentials for website migration: files icon, database icon, SSL certificates, configuration files, each with checkbox and descriptive text, clean minimalist design, blue and gray colors with yellow checkmarks, professional business style, white background",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "kopia zapasowa",
+        "backup",
+        "bezpieczeństwo danych",
+        "lista kontrolna"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "backup checklist infographic minimalist",
+        "pexels_query": "data backup visual guide",
+        "keywords_for_search": [
+          "backup infographic",
+          "checklist design",
+          "data security visual"
+        ],
+        "style_notes": "Vertical checklist format with icons and checkboxes, clean professional design"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Proces techniczny migracji",
+      "title": "Screenshot panelu FTP podczas transferu",
+      "description": "Mockup interfejsu klienta FTP (FileZilla) pokazujący proces przesyłania plików na nowy serwer",
+      "alt_text": "Panel FileZilla z procesem transferu plików strony podczas migracji hostingu",
+      "prompt": "Clean mockup screenshot of FileZilla FTP client interface showing file transfer progress, folder structure on left and right panels, transfer queue at bottom with progress bars, professional software interface design, highlighted important elements, modern UI styling",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "transfer plików",
+        "FTP",
+        "FileZilla",
+        "przeniesienie danych"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "FTP client software interface",
+        "pexels_query": "file transfer software screen",
+        "keywords_for_search": [
+          "software interface",
+          "file manager",
+          "data transfer screen"
+        ],
+        "style_notes": "Clean software interface, professional tech aesthetic"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "timeline",
+      "section": "Sekcja: DNS i domeny",
+      "title": "Timeline propagacji DNS",
+      "description": "Wykres timeline pokazujący etapy propagacji DNS - od zmiany rekordów po pełną propagację (0-48h)",
+      "alt_text": "Timeline propagacji DNS podczas migracji strony od 0 do 48 godzin z kluczowymi punktami",
+      "prompt": "Horizontal timeline chart showing DNS propagation stages over 48 hours, key milestones marked with icons (DNS change, first servers update, regional propagation, full propagation), clean infographic style, blue timeline with yellow milestone markers, professional design",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "propagacja DNS",
+        "czas migracji",
+        "serwery DNS",
+        "timeline"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "timeline infographic business process",
+        "pexels_query": "process timeline visualization",
+        "keywords_for_search": [
+          "timeline design",
+          "process visualization",
+          "step timeline"
+        ],
+        "style_notes": "Horizontal timeline with milestone markers and time indicators"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Sekcja: SEO podczas migracji",
+      "title": "Porównanie SEO: przed vs po migracji",
+      "description": "Split-screen ilustracja pokazująca wpływ właściwej migracji na pozycje SEO - lewa strona problemy, prawa strona rozwiązania",
+      "alt_text": "Porównanie wpływu migracji na SEO - błędy vs prawidłowa implementacja z wykresami pozycji",
+      "prompt": "Split-screen comparison infographic showing SEO impact during migration, left side showing declining graph with red colors (problems), right side showing stable/growing graph with green colors (solutions), clean professional design, icons representing search rankings, arrows showing trends, minimalist style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "SEO migracja",
+        "pozycje Google",
+        "ranking strony",
+        "optymalizacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "SEO analytics comparison chart",
+        "pexels_query": "website analytics before after",
+        "keywords_for_search": [
+          "SEO comparison",
+          "analytics dashboard",
+          "ranking comparison"
+        ],
+        "style_notes": "Before/after comparison with charts and metrics, professional analytics aesthetic"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "checklist",
+      "section": "Sekcja: Testing i weryfikacja",
+      "title": "15-punktowa lista weryfikacyjna po migracji",
+      "description": "Kompaktowa infografika z 15-punktową checklistą rzeczy do sprawdzenia po migracji",
+      "alt_text": "Lista kontrolna 15 punktów do sprawdzenia po migracji strony internetowej",
+      "prompt": "Comprehensive checklist infographic showing 15 post-migration verification points in grid layout, each point with icon and brief text, checkboxes for completion tracking, organized in categories (functionality, performance, SEO), clean design with yellow accents for completed items, professional business style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "lista kontrolna",
+        "weryfikacja",
+        "testing",
+        "sprawdzenie migracji"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website testing checklist infographic",
+        "pexels_query": "quality assurance checklist",
+        "keywords_for_search": [
+          "testing checklist",
+          "QA infographic",
+          "verification list"
+        ],
+        "style_notes": "Grid-based checklist with icons and checkboxes, organized in logical categories"
+      }
+    }
+  ],
+  "total_count": 7
 }
