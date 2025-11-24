@@ -1,0 +1,210 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Strategiczne treści i media dla biznesu",
+    "description": "Minimalistyczny workspace z laptopem i dashboardem content marketingu",
+    "alt_text": "Laptop z dashboardem content marketingu na czystym biurku w minimalistycznym biurze",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying content marketing dashboard with analytics, editorial calendar on screen, white wooden desk, yellow notebook and pen, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "content marketing",
+      "treści",
+      "media",
+      "strategia"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "content marketing workspace laptop dashboard",
+      "pexels_query": "digital marketing workspace minimal",
+      "keywords_for_search": [
+        "content strategy workspace",
+        "marketing dashboard laptop",
+        "business workspace flat lay"
+      ],
+      "style_notes": "Minimalist workspace, natural lighting, professional business setting, flat lay perspective"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Strategiczne planowanie treści dla biznesu",
+      "title": "Wykres ROI z content marketingu",
+      "description": "Wykres słupkowy pokazujący średni zwrot z inwestycji w content marketing",
+      "alt_text": "Wykres ROI content marketing - firmy osiągające 300% zwrotu z inwestycji",
+      "prompt": "Clean bar chart showing content marketing ROI statistics, professional infographic style, bars showing 300% average return, black and white design with yellow accents, minimalist business chart aesthetic, clear labels, high quality",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "ROI",
+        "content marketing",
+        "zwrot inwestycji",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart ROI statistics",
+        "pexels_query": "marketing ROI data visualization",
+        "keywords_for_search": [
+          "ROI chart business",
+          "marketing statistics graph",
+          "investment return visualization"
+        ],
+        "style_notes": "Clean professional chart, could use Canva templates or chart libraries"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Copywriting i teksty sprzedażowe",
+      "title": "Infografika - Formuła AIDA w copywritingu",
+      "description": "Pionowa infografika przedstawiająca 4 etapy formuły AIDA z ikonami",
+      "alt_text": "Infografika formuła AIDA copywriting - Attention Interest Desire Action",
+      "prompt": "Vertical infographic showing AIDA formula for copywriting: Attention (eye icon), Interest (lightbulb icon), Desire (heart icon), Action (arrow icon). Clean minimalist design, black and white with yellow highlights, professional business style, numbered steps with connecting arrows",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "AIDA",
+        "copywriting",
+        "teksty sprzedażowe",
+        "formuła"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "AIDA formula copywriting infographic",
+        "pexels_query": "marketing formula visual design",
+        "keywords_for_search": [
+          "copywriting infographic",
+          "AIDA method visual",
+          "sales formula design"
+        ],
+        "style_notes": "Vertical infographic with icons for each AIDA step, minimalist design"
+      }
+    },
+    {
+      "type": "photo",
+      "subtype": "contextual",
+      "section": "Sekcja: Wizualizacja treści - zdjęcia, grafiki i elementy wizualne",
+      "title": "Przykłady optymalizacji obrazów - before/after",
+      "description": "Porównanie nieoptymalizowanego i zoptymalizowanego obrazu dla web",
+      "alt_text": "Porównanie optymalizacji obrazów web - rozmiar pliku przed i po kompresji",
+      "prompt": "Split screen comparison showing image optimization for web, left side showing large file size (2.5MB), right side showing optimized version (250KB), same image quality visible, technical overlay with file sizes, professional web development aesthetic, clean interface mockup style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "optymalizacja obrazów",
+        "kompresja",
+        "web",
+        "szybkość strony"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "image optimization web development comparison",
+        "pexels_query": "website speed optimization visual",
+        "keywords_for_search": [
+          "web optimization",
+          "file compression",
+          "website performance"
+        ],
+        "style_notes": "Split-screen comparison, technical overlay, clean web development aesthetic"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Video marketing - treści wideo dla firm",
+      "title": "Diagram typów filmów biznesowych",
+      "description": "Schemat pokazujący różne typy video i ich zastosowanie w lejku sprzedażowym",
+      "alt_text": "Diagram typów filmów biznesowych w lejku sprzedażowym video marketing",
+      "prompt": "Professional diagram showing different types of business videos in sales funnel: awareness stage (educational videos), consideration stage (product demos), decision stage (testimonials). Clean flowchart style, icons for each video type, arrows showing progression, minimalist black and white design with yellow accents",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "video marketing",
+        "typy filmów",
+        "lejek sprzedażowy",
+        "biznes"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "video marketing funnel diagram business",
+        "pexels_query": "marketing strategy flowchart",
+        "keywords_for_search": [
+          "video marketing strategy",
+          "sales funnel diagram",
+          "business video types"
+        ],
+        "style_notes": "Flowchart diagram with icons, professional business presentation style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Blog i content marketing",
+      "title": "Wykres wzrostu ruchu organicznego z bloga",
+      "description": "Wykres liniowy pokazujący wzrost ruchu organicznego przez content marketing",
+      "alt_text": "Wykres wzrostu ruchu organicznego blog content marketing przez 12 miesięcy",
+      "prompt": "Clean line chart showing organic traffic growth from blog content marketing over 12 months, upward trending line, professional data visualization, black line on white background with yellow data points, minimalist business chart style, months on x-axis, traffic numbers on y-axis",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "ruch organiczny",
+        "blog",
+        "content marketing",
+        "wzrost"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website traffic growth analytics chart",
+        "pexels_query": "blog traffic statistics visualization",
+        "keywords_for_search": [
+          "organic traffic growth",
+          "blog analytics chart",
+          "content marketing results"
+        ],
+        "style_notes": "Line chart showing steady growth, professional analytics style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "ecosystem",
+      "section": "Sekcja: Integracja i spójność wszystkich treści",
+      "title": "Schemat ekosystemu treści",
+      "description": "Diagram pokazujący jak różne typy treści się uzupełniają i wspierają",
+      "alt_text": "Schemat ekosystemu treści - blog video social media newsletter współpraca",
+      "prompt": "Circular ecosystem diagram showing content types interconnected: blog at center, connected to video, social media, newsletter, graphics. Arrows showing content flow between channels, clean minimalist design, icons for each content type, black and white with yellow connecting lines",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "ekosystem treści",
+        "integracja",
+        "content marketing",
+        "synergii"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "content marketing ecosystem diagram",
+        "pexels_query": "integrated marketing strategy visual",
+        "keywords_for_search": [
+          "content ecosystem",
+          "marketing integration",
+          "omnichannel content"
+        ],
+        "style_notes": "Circular diagram with interconnected elements, clean business diagram style"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "dashboard",
+      "section": "Sekcja: Mierzenie skuteczności i optymalizacja",
+      "title": "Dashboard Google Analytics 4 dla content marketingu",
+      "description": "Screenshot głównego dashboardu GA4 z metrykami treści",
+      "alt_text": "Dashboard Google Analytics 4 z metrykami content marketing i ruchem organicznym",
+      "prompt": "Clean mockup of Google Analytics 4 dashboard showing content marketing metrics: organic traffic, page views, engagement rate, top performing pages. Professional interface design, realistic data visualization, modern web dashboard aesthetic, highlighted important metrics",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "Google Analytics",
+        "metryki",
+        "dashboard",
+        "content marketing"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "Google Analytics dashboard content marketing",
+        "pexels_query": "web analytics dashboard interface",
+        "keywords_for_search": [
+          "analytics dashboard",
+          "website metrics",
+          "content performance tracking"
+        ],
+        "style_notes": "Clean dashboard interface, realistic analytics data, professional web application design"
+      }
+    }
+  ],
+  "total_count": 8
+}
