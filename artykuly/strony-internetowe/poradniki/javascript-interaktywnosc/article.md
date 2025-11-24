@@ -10,7 +10,7 @@
 
 # Interaktywność z JavaScriptem
 
-Kliknij, przewiń, wybierz – w ciągu kilku sekund użytkownik decyduje, czy zostanie na Twojej stronie. W świecie, gdzie Amazon potrafi zwiększyć zyski dzięki zmianie koloru przycisku, [statyczne strony](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych) to już przeszłość.
+Kliknij, przewiń, wybierz – w ciągu kilku sekund użytkownik decyduje, czy zostanie na Twojej stronie. W świecie, gdzie Amazon potrafi zwiększyć zyski dzięki zmianie koloru przycisku, [[statyczne strony](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych)](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych) to już przeszłość.
 
 ## Wprowadzenie - dlaczego JavaScript to klucz do sukcesu online
 
@@ -20,7 +20,7 @@ Współczesny internauta oczekuje natychmiastowych reakcji. Gdy najedzie myszką
 
 JavaScript pozwala tworzyć doświadczenia, które przyciągają uwagę i prowadzą do konwersji. Interaktywny kalkulator kosztów może zwiększyć liczbę zapytań nawet o 40%. Formularz z walidacją na żywo może zmniejszyć liczbę porzuceń o połowę. To nie są przypadkowe liczby – to efekty dobrze przemyślanej interaktywności.
 
-Konkurencyjność buduje się dziś na drobnych detalach. Podczas gdy Twoja konkurencja oferuje [statyczną stronę](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych) z numerem telefonu, Ty możesz dostarczyć klientom narzędzie do szybkiej wyceny usługi. Różnicę widać już od pierwszych chwil wizyty.
+Konkurencyjność buduje się dziś na drobnych detalach. Podczas gdy Twoja konkurencja oferuje [[statyczną stronę](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych)](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych) z numerem telefonu, Ty możesz dostarczyć klientom narzędzie do szybkiej wyceny usługi. Różnicę widać już od pierwszych chwil wizyty.
 
 Inwestycja w interaktywność to inwestycja w lepsze zrozumienie klientów, skrócenie ścieżki zakupowej i budowanie zaufania przez responsywność. W dalszej części artykułu przedstawię konkretne rozwiązania, które można wprowadzić już dziś – od prostych ulepszeń formularzy po zaawansowane narzędzia biznesowe.
 
