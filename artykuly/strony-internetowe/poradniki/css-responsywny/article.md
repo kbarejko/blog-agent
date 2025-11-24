@@ -24,7 +24,7 @@ Brak responsywności to realne straty. Od 2015 roku Google obniża pozycje niere
 
 Inwestycja w responsywny CSS może przynieść konkretne korzyści: lepsze pozycjonowanie w Google, wyższą konwersję, większe zaufanie klientów i przewagę nad konkurencją. Klient, który z łatwością znajdzie potrzebne informacje na Twojej stronie przez telefon, częściej zdecyduje się na zakup.
 
-W tym artykule przedstawię Ci konkretne techniki CSS, które pomogą sprawić, że Twoja strona będzie wyglądać świetnie na każdym urządzeniu. Bez konieczności używania skomplikowanych frameworków i bez przepisywania całej strony od nowa.
+W tym artykule przedstawię Ci konkretne techniki CSS, które pomogą sprawić, że Twoja strona będzie wyglądać świetnie na każdym urządzeniu. Bez konieczności używania [skomplikowanych frameworków](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) i bez [przepisywania całej strony od nowa](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych).
 
 ## Podstawy CSS responsywnego - co każdy przedsiębiorca powinien wiedzieć
 
