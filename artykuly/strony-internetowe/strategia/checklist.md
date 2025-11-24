@@ -1,14 +1,13 @@
-## Checklist: Strategia strony internetowej dla Twojego biznesu
+## Checklist: Budowa strategii strony internetowej
 
-- [ ] Zdefiniuj 3-5 konkretnych celów biznesowych, które Twoja strona ma wspierać. Możesz na przykład założyć zwiększenie sprzedaży o 20% w ciągu roku czy pozyskanie 100 nowych leadów miesięcznie
-- [ ] Określ mierzalne wskaźniki KPI dla każdego z tych celów. Warto też od razu ustalić, w jaki sposób będziesz je monitorować – czy przez Google Analytics, narzędzia CRM, a może inne platformy analityczne
-- [ ] Przeanalizuj dokładnie swoją grupę docelową i narysuj mapę ścieżki klienta. Ta mapa powinna pokazywać całą podróż od pierwszego kontaktu z Twoją marką aż po finalizację zakupu
-- [ ] Wybierz odpowiedni typ strony, który najlepiej pasuje do Twojego modelu biznesowego. To może być prosta wizytówka, dedykowany landing page lub rozbudowany portal – decyzja zależy od celów i dostępnego budżetu
-- [ ] Przeprowadź gruntowny research słów kluczowych i przygotuj listę 10-20 fraz, na które chcesz pozycjonować swoją stronę w wyszukiwarkach
-- [ ] Zaplanuj strukturę treści i nawigacji w taki sposób, żeby wspierała konwersję na każdym etapie ścieżki klienta. Pamiętaj, że użytkownik powinien intuicyjnie znaleźć to, czego szuka
-- [ ] Sprawdź dostępność swojej obecnej strony za pomocą narzędzi zgodnych ze standardami WCAG. Jeśli dopiero tworzysz stronę, od razu zaplanuj implementację tych standardów
-- [ ] Stwórz realistyczny harmonogram rozwoju strony na następne 12 miesięcy. Wpisz konkretne daty i przypisz budżet do poszczególnych etapów
-- [ ] Wybierz narzędzia, które pomogą Ci mierzyć ROI i skuteczność strategii – Google Analytics to podstawa, ale warto rozważyć też heatmapy czy testy A/B
-- [ ] Oceń uczciwie, czy Twoja obecna strona wymaga jedynie optymalizacji, czy jednak potrzebuje całkowitego przeprojektowania od podstaw
-- [ ] Ustal realny budżet na wdrożenie całej strategii i podziel go mądrze na poszczególne etapy realizacji. Czasami lepiej robić to stopniowo niż wszystko naraz
-- [ ] Zarezerwuj w kalendarzu czas na comiesięczne przeglądy wyników. Te regularne sesje pozwolą Ci na bieżąco optymalizować strategię i reagować na zmiany
+- [ ] Określ 3-5 konkretnych celów biznesowych, które da się zmierzyć - na przykład wzrost zapytań o 30% czy pozyskanie 50 nowych leadów każdego miesiąca
+- [ ] Dobierz rodzaj strony, który najlepiej pasuje do Twojego biznesu - może to być prosta wizytówka, skuteczny landing page albo rozbudowany portal, w zależności od tego, czego naprawdę potrzebują Twoi klienci
+- [ ] Narysuj ścieżkę, którą przemierza klient od momentu wejścia na stronę aż do finalizacji zakupu lub nawiązania kontaktu
+- [ ] Znajdź 10-15 kluczowych fraz, które Twoi potencjalni klienci wpisują w Google - te słowa staną się fundamentem Twojej widoczności
+- [ ] Sprawdź obecną stronę pod względem dostępności zgodnie z WCAG 2.1 - zbadaj kontrasty, nawigację za pomocą klawiatury oraz opisy alternatywne zdjęć
+- [ ] Oceń szczerze, czy Twoja strona wymaga drobnych poprawek czy może kompletnej przebudowy od podstaw
+- [ ] Skonfiguruj narzędzia pomiarowe jak Google Analytics, które pokażą Ci prawdziwą efektywność strony i pomogą śledzić realizację celów
+- [ ] Zaplanuj realny budżet na rozwój strony na kolejne 12 miesięcy - uwzględnij nie tylko koszty tworzenia, ale też bieżące utrzymanie
+- [ ] Zadbaj o to, żeby w każdej sekcji strony odwiedzający wiedział, jak może się z Tobą skontaktować - czy przez formularz, telefon, a może chat
+- [ ] Przygotuj listę około 20 pomysłów na artykuły i treści, które wzmocnią Twoją pozycję w wyszukiwarkach i pokażą ekspertyzę
+- [ ] Ustal regularne terminy przeglądu strategii - prawdopodobnie co 3-6 miesięcy będziesz musiał dostosować działania do zmieniającej się sytuacji rynkowej
