@@ -14,13 +14,13 @@ Otrzymałeś wiadomość od swojego dostawcy hostingu: czas przenieść firmową
 
 ## Wprowadzenie - Dlaczego migracja strony to więcej niż przeniesienie plików
 
-Migracja strony internetowej to coś więcej niż tylko [przenoszenie plików z jednego miejsca do drugiego](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych). To skomplikowany proces wymagający uwagi i precyzyjnego planowania. Dla właściciela firmy to często kwestia zachowania ciągłości biznesu online i utrzymania pozycji w wynikach wyszukiwania.
+Migracja strony internetowej to coś więcej niż tylko [[przenoszenie plików z jednego miejsca do drugiego](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych)](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych). To skomplikowany proces wymagający uwagi i precyzyjnego planowania. Dla właściciela firmy to często kwestia zachowania ciągłości biznesu online i utrzymania pozycji w wynikach wyszukiwania.
 
-Migracja jest często konieczna z różnych powodów: może być wynikiem konieczności przejścia na lepszy hosting, problemów z obecnym dostawcą lub chęci technologicznego rozwoju firmy. Czasem jest to wynik rebrandingu lub potrzeby zwiększenia wydajności strony.
+Migracja jest często konieczna z różnych powodów: może być wynikiem konieczności [przejścia na lepszy hosting](/artykuly/strony-internetowe/poradniki/wordpress-setup), problemów z obecnym dostawcą lub chęci technologicznego rozwoju firmy. Czasem jest to wynik rebrandingu lub potrzeby zwiększenia wydajności strony.
 
 Niepewność związana z migracją jest zrozumiała. Obawy o utratę danych, spadek pozycji w Google czy przerwy w działaniu strony są jak najbardziej uzasadnione. Jedna mała pomyłka może kosztować miesiące pracy nad odbudową.
 
-Jednak dobrze przeprowadzona migracja to szansa na poprawę: lepszą wydajność, większe bezpieczeństwo i czasem niższe koszty hostingu. Może to być też idealny moment na optymalizację i unowocześnienie witryny.
+Jednak dobrze przeprowadzona migracja to szansa na poprawę: lepszą wydajność, większe bezpieczeństwo i czasem niższe koszty hostingu. Może to być też idealny moment na [optymalizację i unowocześnienie witryny](/artykuly/strony-internetowe/poradniki/css-responsywny).
 
 W tym artykule przeprowadzę Cię przez cały proces krok po kroku. Dowiesz się, jak zaplanować migrację, zabezpieczyć swoje dane i przenieść stronę bez szkody dla ruchu i pozycji w SEO. Podzielę się również wskazówkami, jak unikać najczęstszych pułapek i co robić po zakończeniu przenosin.
 
