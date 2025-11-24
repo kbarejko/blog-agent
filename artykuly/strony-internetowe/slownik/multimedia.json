@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Słownik terminów internetowych",
+    "description": "Minimalistyczne workspace flat lay z laptopem, notatnikiem ze słownikiem terminów IT i żółtym długopisem",
+    "alt_text": "Workspace z laptopem pokazującym dashboard IT i notatnikiem ze słownikiem terminów internetowych",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying clean analytics dashboard interface, open notebook with handwritten IT terms and definitions, yellow pen highlighting keywords, white wooden desk, smartphone beside, natural daylight from window, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "słownik",
+      "terminy internetowe",
+      "komunikacja IT",
+      "przedsiębiorca"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business workspace laptop notebook IT terms glossary",
+      "pexels_query": "entrepreneur desk computer notes dictionary",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "business laptop notes",
+        "IT glossary workspace"
+      ],
+      "style_notes": "Clean minimalist workspace, natural lighting, muted colors with yellow accent pen"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Podstawy techniczne",
+      "title": "Diagram infrastruktury web - hosting, domena, serwer",
+      "description": "Prosty diagram pokazujący relacje między domeną, hostingiem i serwerem",
+      "alt_text": "Diagram relacji między domeną, hostingiem i serwerem w infrastrukturze internetowej",
+      "prompt": "Clean technical diagram showing relationship between domain, hosting and server, simple geometric shapes connected with arrows, labeled boxes in Polish, minimalist style with black text on white background, subtle gray shadows, professional infographic design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "hosting",
+        "domena",
+        "serwer",
+        "infrastruktura"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web infrastructure diagram hosting server",
+        "pexels_query": "technical diagram network infrastructure",
+        "keywords_for_search": [
+          "network diagram",
+          "web hosting illustration",
+          "server infrastructure"
+        ],
+        "style_notes": "Simple technical diagram, clean lines, minimalist. Can be created with draw.io or Canva"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "SEO i marketing",
+      "title": "Infografika różnic między pozycjonowaniem a indeksowaniem",
+      "description": "Porównanie wizualne pozycjonowania vs indeksowania z przykładami",
+      "alt_text": "Infografika różnic między pozycjonowaniem a indeksowaniem stron w Google",
+      "prompt": "Split comparison infographic showing indexing vs SEO positioning, left side shows Google knowing the page (indexed), right side shows high ranking (positioned), simple icons, arrows, before/after comparison, clean design black white gray with yellow highlights, professional style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "pozycjonowanie",
+        "indeksowanie",
+        "SEO",
+        "Google"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "SEO comparison infographic indexing ranking",
+        "pexels_query": "google search optimization comparison",
+        "keywords_for_search": [
+          "SEO infographic",
+          "before after comparison",
+          "search ranking visual"
+        ],
+        "style_notes": "Split-screen comparison design, simple icons, professional color scheme"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "funnel",
+      "section": "E-commerce",
+      "title": "Funnel porzucania koszyków e-commerce",
+      "description": "Diagram lejka pokazujący statystyki porzucania koszyków na każdym etapie",
+      "alt_text": "Funnel e-commerce pokazujący statystyki porzucania koszyków od produktu do płatności",
+      "prompt": "E-commerce conversion funnel diagram showing cart abandonment statistics, funnel shape with percentages, stages from product view to payment completion, clean infographic style, blue gradient colors, professional data visualization",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "abandoned cart",
+        "koszyk",
+        "konwersja",
+        "e-commerce"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "e-commerce funnel conversion chart shopping",
+        "pexels_query": "sales funnel diagram online shopping",
+        "keywords_for_search": [
+          "conversion funnel",
+          "e-commerce statistics",
+          "shopping cart abandonment"
+        ],
+        "style_notes": "Funnel-shaped diagram with percentages, professional blue color scheme"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "wireframe_comparison",
+      "section": "UX/UI i projektowanie",
+      "title": "Porównanie wireframe vs mockup vs prototyp",
+      "description": "Tri-panel showing evolution from wireframe to mockup to interactive prototype",
+      "alt_text": "Porównanie wireframe mockup prototyp w procesie projektowania UX UI",
+      "prompt": "Three-panel comparison showing wireframe mockup prototype evolution, left panel shows simple wireframe sketch, middle shows colorful mockup, right shows interactive prototype with hover states, clean progression illustration, labeled stages, minimalist design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "wireframe",
+        "mockup",
+        "prototyp",
+        "UX design"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "wireframe mockup prototype design process",
+        "pexels_query": "UX design stages wireframe prototype",
+        "keywords_for_search": [
+          "design process",
+          "UX workflow",
+          "wireframe evolution"
+        ],
+        "style_notes": "Three-stage progression, clean design process visualization"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "security_icons",
+      "section": "Bezpieczeństwo",
+      "title": "Ikony bezpieczeństwa - SSL, firewall, backup, RODO",
+      "description": "Zestaw ikon reprezentujących kluczowe elementy bezpieczeństwa online",
+      "alt_text": "Ikony bezpieczeństwa internetowego SSL firewall backup RODO dla przedsiębiorców",
+      "prompt": "Set of security icons in grid layout: SSL certificate shield, firewall barrier, backup cloud, GDPR compliance checkmark, clean minimalist icons, consistent style, black and gray on white background with subtle yellow accents, professional business iconography",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "bezpieczeństwo",
+        "SSL",
+        "firewall",
+        "RODO"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cybersecurity icons SSL firewall backup GDPR",
+        "pexels_query": "data security icons set minimalist",
+        "keywords_for_search": [
+          "security icons",
+          "cybersecurity symbols",
+          "data protection icons"
+        ],
+        "style_notes": "Minimalist icon set, consistent style, professional business aesthetic"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "google_analytics",
+      "section": "SEO i marketing",
+      "title": "Screenshot Google Analytics - kluczowe metryki",
+      "description": "Przykład dashboardu Google Analytics z zaznaczonymi kluczowymi metrykami",
+      "alt_text": "Dashboard Google Analytics z metrykami konwersji CTR dla przedsiębiorców",
+      "prompt": "Clean Google Analytics dashboard mockup showing key metrics like sessions, conversion rate, CTR, highlighted important sections with subtle overlays, professional interface design, realistic data but anonymized, clean screenshot style",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "Google Analytics",
+        "metryki",
+        "CTR",
+        "konwersje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard metrics interface",
+        "pexels_query": "web analytics dashboard computer screen",
+        "keywords_for_search": [
+          "analytics dashboard",
+          "web metrics interface",
+          "google analytics screen"
+        ],
+        "style_notes": "Professional analytics interface, clean dashboard view with highlighted metrics"
+      }
+    }
+  ],
+  "total_count": 7
+}
