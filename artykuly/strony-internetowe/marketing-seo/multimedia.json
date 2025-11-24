@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Marketing SEO ekosystem",
+    "description": "Minimalistyczna kompozycja przedstawiająca integrację różnych kanałów marketingu online",
+    "alt_text": "Laptop z dashboardem marketingu SEO pokazujący integrację kanałów online na minimalistycznym biurku",
+    "prompt": "Clean minimalist workspace flat lay, laptop displaying integrated marketing dashboard with SEO analytics, Google Ads interface, and social media metrics, white desk surface, yellow notebook with pen, smartphone, coffee cup, natural window lighting, professional business aesthetic, muted colors black white gray with yellow accent, high quality, no people",
+    "keywords": [
+      "marketing SEO",
+      "dashboard",
+      "integracja",
+      "kanały online"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "digital marketing workspace laptop dashboard analytics",
+      "pexels_query": "marketing analytics computer workspace minimal",
+      "keywords_for_search": [
+        "SEO dashboard",
+        "marketing workspace",
+        "digital analytics"
+      ],
+      "style_notes": "Minimalist workspace, modern tech aesthetic, clean composition with marketing tools visible on screen"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Wprowadzenie - dlaczego Marketing SEO to nie tylko pozycjonowanie",
+      "title": "Diagram - Marketing SEO vs tradycyjne SEO",
+      "description": "Porównawczy diagram pokazujący różnice między tradycyjnym SEO a holistycznym Marketing SEO",
+      "alt_text": "Diagram porównujący tradycyjne SEO z holistycznym podejściem Marketing SEO",
+      "prompt": "Split comparison diagram showing traditional SEO vs Marketing SEO approach, left side shows single SEO pillar, right side shows integrated ecosystem with SEO, ads, social media, email connected by arrows, minimalist infographic style, black and gray with yellow highlights, white background, professional design",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "Marketing SEO",
+        "tradycyjne SEO",
+        "porównanie",
+        "ekosystem"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business strategy diagram comparison infographic",
+        "pexels_query": "marketing strategy visual comparison",
+        "keywords_for_search": [
+          "strategy comparison",
+          "business diagram",
+          "marketing infographic"
+        ],
+        "style_notes": "Clean comparison diagram, two-column layout, professional business infographic style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Pozycjonowanie SEO - fundament widoczności online",
+      "title": "Wykres - Wzrost ruchu z kombinacji SEO + Google Ads",
+      "description": "Wykres słupkowy porównujący ruch z samego SEO, samych Ads i kombinacji obu",
+      "alt_text": "Wykres porównania ruchu z SEO, Google Ads i kombinacji obu kanałów marketingowych",
+      "prompt": "Clean bar chart comparing website traffic from SEO only, Google Ads only, and combined SEO+Ads strategy, three grouped bars showing significant increase for combined approach, professional chart design, blue and yellow color scheme, values as percentages, minimalist style",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "SEO",
+        "Google Ads",
+        "ruch organiczny",
+        "wzrost"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart marketing statistics",
+        "pexels_query": "data visualization marketing chart",
+        "keywords_for_search": [
+          "marketing chart",
+          "growth statistics",
+          "business data visualization"
+        ],
+        "style_notes": "Professional chart with clear data visualization, suitable for business presentation"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Google Analytics - dane jako podstawa decyzji marketingowych",
+      "title": "Screenshot - Dashboard Google Analytics dla Marketing SEO",
+      "description": "Zrzut ekranu pokazujący kluczowe metryki Analytics dla strategii Marketing SEO",
+      "alt_text": "Dashboard Google Analytics z metrykami ruchu organicznego i konwersji dla Marketing SEO",
+      "prompt": "Clean mockup of Google Analytics dashboard showing organic traffic metrics, conversion tracking, and audience segments, highlighted key metrics for SEO marketing strategy, professional interface design with annotations pointing to important sections",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Google Analytics",
+        "metryki SEO",
+        "ruch organiczny",
+        "konwersje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard marketing metrics",
+        "pexels_query": "web analytics dashboard computer screen",
+        "keywords_for_search": [
+          "analytics dashboard",
+          "marketing metrics",
+          "data dashboard"
+        ],
+        "style_notes": "Clean interface screenshot or mockup showing analytics data, professional presentation"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Social Media Marketing w służbie SEO",
+      "title": "Infografika - Jak social media wspierają SEO",
+      "description": "Pionowa infografika pokazująca 4 sposoby wpływu mediów społecznościowych na pozycjonowanie",
+      "alt_text": "Infografika 4 sposobów wpływu social media na pozycjonowanie SEO",
+      "prompt": "Vertical infographic showing 4 ways social media supports SEO: traffic increase, brand authority building, content distribution, natural link building. Icons for each point, arrows showing flow, professional design with black white gray colors and yellow accents, clean minimalist style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "social media",
+        "SEO",
+        "pozycjonowanie",
+        "media społecznościowe"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "social media marketing infographic SEO strategy",
+        "pexels_query": "digital marketing infographic social media",
+        "keywords_for_search": [
+          "social media infographic",
+          "SEO strategy visual",
+          "marketing process diagram"
+        ],
+        "style_notes": "Vertical infographic with numbered steps and icons, professional marketing design"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Planowanie strategii Marketing SEO - od czego zacząć",
+      "title": "Wykres kołowy - Podział budżetu Marketing SEO",
+      "description": "Wykres kołowy pokazujący przykładowy podział budżetu między SEO, Ads, social media i email marketing",
+      "alt_text": "Wykres podziału budżetu Marketing SEO na poszczególne kanały marketingowe",
+      "prompt": "Clean pie chart showing Marketing SEO budget allocation: 40% SEO, 30% Google Ads, 20% Social Media, 10% Email Marketing. Each segment labeled with percentages, professional color scheme with blue shades and yellow accent, minimalist design",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "budżet SEO",
+        "podział budżetu",
+        "strategia marketingowa",
+        "alokacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "marketing budget allocation pie chart",
+        "pexels_query": "business budget visualization chart",
+        "keywords_for_search": [
+          "budget chart",
+          "marketing allocation",
+          "business planning chart"
+        ],
+        "style_notes": "Professional pie chart design, suitable for business presentation and planning"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Conversion Optimization - zamiana ruchu SEO w zyski",
+      "title": "Diagram - Ścieżka konwersji z wyszukiwarek",
+      "description": "Flowchart pokazujący typową ścieżkę użytkownika od wyszukiwania do konwersji w Marketing SEO",
+      "alt_text": "Diagram ścieżki konwersji użytkownika od wyszukiwania Google do zakupu",
+      "prompt": "Horizontal flowchart showing user journey from Google search to conversion: search query → landing page → content consumption → email signup → remarketing → purchase decision. Connected with arrows, icons for each step, clean professional design, black and gray with yellow highlights",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "ścieżka konwersji",
+        "user journey",
+        "optymalizacja konwersji",
+        "SEO"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "customer journey flowchart user experience",
+        "pexels_query": "marketing funnel diagram process",
+        "keywords_for_search": [
+          "customer journey",
+          "conversion funnel",
+          "user flow diagram"
+        ],
+        "style_notes": "Horizontal flowchart with clear steps and arrows, professional UX/marketing style"
+      }
+    }
+  ],
+  "total_count": 7
+}

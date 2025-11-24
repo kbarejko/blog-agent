@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Holistyczne podejście** - Marketing SEO to połączenie pozycjonowania, reklam Google, social media i email marketingu w jeden skuteczny system, nie pojedyncze działania
 - **Strategia maksymalnej widoczności** - Kombinacja Google Ads + SEO pozwala zdominować pierwsze strony wyników wyszukiwania i zwiększyć ruch nawet o 300%
@@ -6,14 +6,13 @@
 - **Mierzalne efekty działań** - Kluczowe metryki Google Analytics pozwalają śledzić ROI z każdego kanału i podejmować decyzje oparte na danych, nie domysłach
 - **Plan wdrożenia od A do Z** - Konkretny harmonogram budowania zintegrowanej strategii z podziałem budżetu i unikaniem typowych błędów kosztujących tysiące złotych
 
-
 ## Wprowadzenie - dlaczego Marketing SEO to nie tylko pozycjonowanie
 
-# Marketing Seo
+### Marketing Seo
 
 Większość firm myśli o SEO jako o pozycjonowaniu stron w Google. To tylko wierzchołek góry lodowej. Marketing SEO to strategia, która łączy wszystkie kanały online w jeden spójny system.
 
-## Wprowadzenie - dlaczego Marketing SEO to nie tylko pozycjonowanie
+### Wprowadzenie - dlaczego Marketing SEO to nie tylko pozycjonowanie
 
 Tradycyjne SEO kończy się na wysokiej pozycji w Google. Marketing SEO zaczyna tam, gdzie klasyczne pozycjonowanie kończy.
 
