@@ -1,12 +1,192 @@
 {
   "hero_image": {
     "type": "photo",
-    "title": "Hero image - Javascript Interaktywnosc",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Javascript Interaktywnosc",
-    "prompt": "Professional modern illustration for Javascript Interaktywnosc",
-    "keywords": []
+    "title": "Hero image - JavaScript interaktywność na stronach biznesowych",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym interaktywny dashboard e-commerce bez postaci ludzkich",
+    "alt_text": "Laptop z interaktywnym dashboardem JavaScript na minimalistycznym biurku z notatkami biznesowymi",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying interactive e-commerce dashboard with JavaScript widgets, calculators and forms visible on screen, white wooden desk, yellow notebook with pen, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "JavaScript",
+      "interaktywność",
+      "dashboard",
+      "e-commerce"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "interactive dashboard laptop workspace minimalist",
+      "pexels_query": "business laptop dashboard modern office",
+      "keywords_for_search": [
+        "javascript dashboard",
+        "interactive workspace",
+        "e-commerce interface",
+        "business technology"
+      ],
+      "style_notes": "Modern minimalist workspace, laptop with dashboard visible, clean lighting, professional business setting, no people"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Wpływ interaktywności na biznes",
+      "title": "Wykres wzrostu konwersji dzięki interaktywnym elementom",
+      "description": "Wykres słupkowy porównujący konwersje stron statycznych vs interaktywnych",
+      "alt_text": "Wykres porównujący konwersje stron statycznych i interaktywnych JavaScript - wzrost do 40%",
+      "prompt": "Clean bar chart comparing conversion rates static vs interactive websites, showing 20-40% improvement with JavaScript elements, professional infographic style, black and gray bars with yellow highlights for interactive results, minimalist design, white background, business data visualization",
+      "placement": "after_paragraph_2_in_conversion_section",
+      "keywords": [
+        "konwersja",
+        "JavaScript",
+        "interaktywność",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart data visualization",
+        "pexels_query": "conversion rate statistics chart",
+        "keywords_for_search": [
+          "business chart",
+          "conversion statistics",
+          "growth data",
+          "performance metrics"
+        ],
+        "style_notes": "Clean professional chart, comparison bars, highlighting growth. Use Canva or ChartJS for creation."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Konkretne rozwiązania JavaScript",
+      "title": "Infografika - 5 typów interaktywnych rozwiązań JavaScript",
+      "description": "Pionowa infografika pokazująca kalkulatory, formularze, konfigurator, walidację i AJAX z ikonami",
+      "alt_text": "Infografika 5 rozwiązań JavaScript: kalkulatory, formularze, konfiguratory, walidacja, AJAX",
+      "prompt": "Vertical infographic showing 5 JavaScript solutions: 1) Interactive calculators with calculator icon, 2) Form validation with checkmark icon, 3) Product configurators with settings icon, 4) AJAX content with refresh icon, 5) Dynamic maps with location pin. Clean minimalist design, numbered steps, black and gray colors with yellow accents for icons, professional business style, white background",
+      "placement": "after_introduction_of_solutions_section",
+      "keywords": [
+        "JavaScript",
+        "rozwiązania",
+        "kalkulatory",
+        "formularze",
+        "konfiguratory"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "javascript solutions infographic minimalist",
+        "pexels_query": "web development infographic clean",
+        "keywords_for_search": [
+          "javascript infographic",
+          "web solutions visual",
+          "interactive elements diagram",
+          "development tools"
+        ],
+        "style_notes": "Vertical numbered infographic, clean icons for each solution type. Canva has excellent templates for this style."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface_comparison",
+      "section": "Sekcja: Interaktywne formularze",
+      "title": "Porównanie formularza statycznego vs interaktywnego",
+      "description": "Screenshot lub mockup pokazujący różnicę między zwykłym formularzem a formularzem z walidacją na żywo",
+      "alt_text": "Porównanie interfejsu formularza statycznego i interaktywnego z walidacją JavaScript na żywo",
+      "prompt": "Side by side comparison mockup of static form vs interactive form with live validation, left side showing basic form fields, right side showing form with green checkmarks, red error messages, progress indicators, modern UI design, clean interface, professional web design aesthetic, no people visible",
+      "placement": "after_form_validation_paragraph",
+      "keywords": [
+        "formularze",
+        "walidacja",
+        "JavaScript",
+        "interfejs"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web form interface design mockup",
+        "pexels_query": "website form validation interface",
+        "keywords_for_search": [
+          "form design",
+          "web interface",
+          "validation mockup",
+          "UI comparison"
+        ],
+        "style_notes": "Split screen comparison, modern form design, clear visual differences between static and interactive versions"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Implementacja",
+      "title": "Diagram procesu implementacji JavaScript - 5 kroków",
+      "description": "Flowchart pokazujący proces od planowania przez wybór rozwiązania do testowania i optymalizacji",
+      "alt_text": "Diagram procesu implementacji JavaScript w 5 krokach: planowanie, wybór, rozwój, testowanie, optymalizacja",
+      "prompt": "Clean horizontal flowchart diagram showing 5-step JavaScript implementation process: 1) Planning with clipboard icon, 2) Solution selection with comparison icon, 3) Development with code icon, 4) Testing with magnifying glass icon, 5) Optimization with graph icon. Connected with arrows, minimalist professional design, black and gray colors with yellow highlights for key steps, white background",
+      "placement": "at_beginning_of_implementation_section",
+      "keywords": [
+        "implementacja",
+        "JavaScript",
+        "proces",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "process flowchart diagram minimalist",
+        "pexels_query": "business process workflow diagram",
+        "keywords_for_search": [
+          "flowchart design",
+          "process diagram",
+          "implementation steps",
+          "workflow visualization"
+        ],
+        "style_notes": "Horizontal flowchart with connected steps, clean professional design. Draw.io or Lucidchart work well for this."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "cost_comparison",
+      "section": "Sekcja: Planowanie funkcjonalności",
+      "title": "Wykres kosztów różnych rozwiązań JavaScript",
+      "description": "Wykres słupkowy porównujący koszty prostych kalkulatorów, konfiguratorów i zaawansowanych systemów",
+      "alt_text": "Wykres kosztów implementacji rozwiązań JavaScript od 5 tys. zł za kalkulatory do 100 tys. zł za systemy",
+      "prompt": "Clean bar chart showing JavaScript solution costs in PLN: Simple calculator 5-15k, Product configurator 30-50k, Complex reservation system 100k+, professional infographic style, ascending bars in blue and gray with yellow accents for highest values, cost labels visible, minimalist design",
+      "placement": "after_budget_paragraph",
+      "keywords": [
+        "koszty",
+        "JavaScript",
+        "budżet",
+        "implementacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "budget planning chart business costs",
+        "pexels_query": "financial planning bar chart",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "budget visualization",
+          "investment planning",
+          "pricing chart"
+        ],
+        "style_notes": "Professional cost comparison chart, clear value labels, business-appropriate colors and styling"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "before_after",
+      "section": "Sekcja: Błędy do uniknięcia",
+      "title": "Porównanie - strona przeładowana vs zoptymalizowana",
+      "description": "Ilustracja pokazująca różnicę między stroną z nadmiarem animacji a stroną ze zbalansowaną interaktywnością",
+      "alt_text": "Porównanie strony internetowej przeładowanej animacjami JavaScript vs zoptymalizowanej wersji",
+      "prompt": "Split screen illustration comparing overloaded website (left) with too many animations, pop-ups, effects vs clean optimized website (right) with balanced interactivity, modern web design, clean interface mockups, professional aesthetic, no people, minimalist style with subtle yellow accents",
+      "placement": "in_overloading_functionality_section",
+      "keywords": [
+        "optymalizacja",
+        "JavaScript",
+        "błędy",
+        "UX"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "clean website design vs cluttered interface",
+        "pexels_query": "good bad website design comparison",
+        "keywords_for_search": [
+          "website comparison",
+          "UI design contrast",
+          "clean vs cluttered",
+          "web optimization"
+        ],
+        "style_notes": "Side-by-side website mockups showing contrast between overloaded and clean designs"
+      }
+    }
+  ],
+  "total_count": 7
 }
