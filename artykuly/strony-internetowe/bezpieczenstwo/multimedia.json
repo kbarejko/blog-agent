@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Cybersecurity workspace",
+    "description": "Minimalistyczny workspace z laptopem wyświetlającym dashboard bezpieczeństwa i metryki zabezpieczeń",
+    "alt_text": "Minimalistyczny workspace z laptopem pokazującym dashboard bezpieczeństwa strony internetowej",
+    "prompt": "Clean minimalist workspace flat lay, laptop displaying security dashboard with SSL certificate status, firewall metrics and backup indicators, white wooden desk, smartphone, yellow notebook, coffee cup, natural daylight, professional business aesthetic, muted colors black white gray with yellow accent, high quality, no people",
+    "keywords": [
+      "bezpieczeństwo",
+      "cybersecurity",
+      "dashboard",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "cybersecurity dashboard laptop workspace minimal",
+      "pexels_query": "computer security modern office desk",
+      "keywords_for_search": [
+        "security workspace",
+        "cyber protection desktop",
+        "business laptop security"
+      ],
+      "style_notes": "Minimalist, clean workspace, modern tech aesthetic, avoid people in frame"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - statystyki cyberataków",
+      "title": "Koszt cyberataku vs koszt zabezpieczeń",
+      "description": "Wykres porównujący średni koszt skutecznego cyberataku z rocznymi kosztami zabezpieczeń",
+      "alt_text": "Wykres porównania kosztów: cyberatak 12,5 mln zł vs zabezpieczenia 15 tys. zł rocznie",
+      "prompt": "Clean comparison bar chart showing cyberattack costs vs security investment costs, dramatic difference in scale, red bar for attack costs, green bar for security costs, values in Polish zloty, professional infographic style, minimalist design black white gray with yellow highlights",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "koszt",
+        "cyberatak",
+        "bezpieczeństwo",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "financial comparison chart business costs",
+        "pexels_query": "cost analysis bar chart infographic",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "financial infographic",
+          "business statistics"
+        ],
+        "style_notes": "Dramatic scale difference, use contrasting colors to emphasize the gap"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Podstawowe zabezpieczenia",
+      "title": "Warstwa ochrony - Defense in Depth",
+      "description": "Infografika przedstawiająca wielowarstwowy system zabezpieczeń jako koncentryczne kręgi ochrony",
+      "alt_text": "Infografika wielowarstwowego systemu zabezpieczeń strony internetowej - firewall, SSL, monitoring",
+      "prompt": "Circular defense in depth infographic showing security layers: outer ring firewall, middle ring SSL encryption, inner ring monitoring and backups, clean minimalist design, blue and gray gradients, professional cybersecurity illustration style, geometric shapes, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "defense in depth",
+        "zabezpieczenia",
+        "firewall",
+        "wielowarstwa"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cybersecurity layers protection infographic",
+        "pexels_query": "network security diagram circular",
+        "keywords_for_search": [
+          "security layers diagram",
+          "protection infographic",
+          "cybersecurity visualization"
+        ],
+        "style_notes": "Circular/concentric design, tech colors (blue, gray), geometric and clean"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Certyfikaty SSL",
+      "title": "Panel SSL w przeglądarce",
+      "description": "Screenshot pokazujący kłódkę SSL i informacje o certyfikacie w pasku adresu przeglądarce",
+      "alt_text": "Panel certyfikatu SSL w przeglądarce Chrome pokazujący zabezpieczone połączenie HTTPS",
+      "prompt": "Clean browser screenshot mockup showing SSL certificate details panel in Chrome, green padlock icon, certificate information popup, HTTPS in address bar, professional e-commerce website visible, clean interface design, highlighted security elements",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "SSL",
+        "certyfikat",
+        "HTTPS",
+        "przeglądarka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "browser SSL certificate security lock",
+        "pexels_query": "https secure website browser",
+        "keywords_for_search": [
+          "SSL certificate browser",
+          "secure website https",
+          "browser security"
+        ],
+        "style_notes": "Clean browser interface, focus on SSL indicators, professional website context"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Kopie zapasowe",
+      "title": "Strategia backup 3-2-1",
+      "description": "Diagram ilustrujący strategię 3-2-1: 3 kopie, 2 różne nośniki, 1 kopia offline",
+      "alt_text": "Diagram strategii backup 3-2-1 dla bezpiecznego przechowywania kopii zapasowych",
+      "prompt": "Clean flowchart diagram illustrating 3-2-1 backup strategy, three data copies connected by arrows, two different storage types icons (local drive and cloud), one offline copy highlighted, minimalist infographic style, blue and gray color scheme with yellow accents, professional IT diagram",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "backup",
+        "strategia 3-2-1",
+        "kopie zapasowe",
+        "przechowywanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data backup strategy diagram flowchart",
+        "pexels_query": "cloud storage backup infographic",
+        "keywords_for_search": [
+          "backup strategy infographic",
+          "data storage diagram",
+          "3-2-1 backup rule"
+        ],
+        "style_notes": "Clean diagram style, use icons for storage types, clear flow between elements"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "timeline",
+      "section": "RODO procedury",
+      "title": "Timeline reakcji na naruszenie RODO",
+      "description": "Oś czasu pokazująca 72-godzinny proces zgłaszania naruszenia danych do UODO",
+      "alt_text": "Timeline procedury zgłaszania naruszenia RODO - 72 godziny od wykrycia do zgłoszenia",
+      "prompt": "Horizontal timeline infographic showing RODO breach notification process, 72-hour deadline highlighted, key milestones: detection, assessment, notification to UODO, client communication, professional compliance design, red and blue color scheme, clean arrows and icons",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "RODO",
+        "naruszenie",
+        "timeline",
+        "zgłoszenie UODO"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "compliance timeline infographic GDPR",
+        "pexels_query": "business process timeline diagram",
+        "keywords_for_search": [
+          "GDPR compliance timeline",
+          "data breach response",
+          "regulatory timeline"
+        ],
+        "style_notes": "Horizontal timeline, emphasize 72-hour deadline, use compliance colors (official blue/red)"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "3d_render",
+      "section": "Monitorowanie zagrożeń",
+      "title": "Dashboard monitoringu 24/7",
+      "description": "3D render przedstawiający futurystyczny dashboard z alertami bezpieczeństwa i metrykami monitoringu",
+      "alt_text": "Dashboard monitoringu bezpieczeństwa z alertami i metrykami czasu rzeczywistego 24/7",
+      "prompt": "Modern 3D render of cybersecurity monitoring dashboard, floating holographic screens showing security alerts, real-time metrics, threat detection graphs, dark background with blue and yellow highlights, futuristic but professional aesthetic, clean geometric shapes, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "monitoring",
+        "dashboard",
+        "alerty",
+        "24/7"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cybersecurity monitoring dashboard interface",
+        "pexels_query": "security operations center SOC",
+        "keywords_for_search": [
+          "security monitoring",
+          "SOC dashboard",
+          "cyber threat detection"
+        ],
+        "style_notes": "Dark tech interface, blue/yellow highlights, professional monitoring aesthetic"
+      }
+    }
+  ],
+  "total_count": 7
+}
