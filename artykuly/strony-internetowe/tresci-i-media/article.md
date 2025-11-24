@@ -4,13 +4,13 @@
 - **Copywriting SEO** - Istnieją sposoby, by połączyć naturalne pisanie z optymalizacją pod kątem słów kluczowych. Dzięki temu można poprawić konwersje, nie wpływając negatywnie na pozycjonowanie strony.
 - **Video marketing** - Filmy wideo potrafią wydłużyć czas spędzany przez użytkowników na stronie o 88%. Co więcej, są one udostępniane 12 razy częściej niż teksty i grafiki razem wzięte.
 - **Fotografia biznesowa** - Profesjonalne zdjęcia produktów mogą zwiększyć sprzedaż online o 30%. Dodatkowo, spójna identyfikacja wizualna pomaga w budowaniu rozpoznawalności marki.
-- **Integracja treści** - Strategia przekształcania jednego tematu na 5-7 różnych formatów pozwala maksymalizować zwrot z inwestycji w content marketing. Dzięki temu można w pełni wykorzystać potencjał tworzonych treści.
+- **Integracja treści** - Strategia przekształcania jednego tematu na 5-7 różnych formatów pozwala maksymalizować [zwrot z inwestycji w content marketing](/artykuly/strony-internetowe/koszty). Dzięki temu można w pełni wykorzystać potencjał tworzonych treści.
 
 ## Wprowadzenie - Dlaczego treści i media mogą decydować o sukcesie Twojej strony
 
 # Treści i Media
 
-Masz tylko trzy sekundy, aby przyciągnąć uwagę odwiedzającego. Pierwsze wrażenie może zakończyć się sukcesem albo sprawić, że użytkownik szybko się rozmyśli i odejdzie. To właśnie treści i media mogą przesądzić o tym, jak potoczy się dalsza wizyta.
+Masz tylko [trzy sekundy, aby przyciągnąć uwagę](/artykuly/strony-internetowe/projektowanie) odwiedzającego. Pierwsze wrażenie może zakończyć się sukcesem albo sprawić, że użytkownik szybko się rozmyśli i odejdzie. To właśnie treści i media mogą przesądzić o tym, jak potoczy się dalsza wizyta.
 
 ## Wprowadzenie - Dlaczego treści i media mogą decydować o sukcesie Twojej strony
 
@@ -24,13 +24,13 @@ Google również to docenia. Algorytmy coraz lepiej identyfikują wartościowe t
 
 Content marketing obejmuje wiele aspektów. To nie tylko copywriting, który jednocześnie sprzedaje i pozycjonuje. To także blogi, które budują autorytet w branży, video marketing angażujący odbiorców, czy też profesjonalne zdjęcia wzmacniające wizerunek marki.
 
-Każdy z tych elementów ma swoje miejsce w strategii i razem tworzą spójną narrację, która przekonuje klientów i wspiera cele biznesowe.
+Każdy z tych elementów ma swoje miejsce w [strategii i razem tworzą spójną narrację](/artykuly/strony-internetowe/proces), która przekonuje klientów i wspiera cele biznesowe.
 
 W tym przewodniku przyjrzymy się wszystkim kluczowym aspektom treści i mediów dla firm. Od teorii po praktyczne wskazówki dotyczące wdrożenia.
 
 ## Blog i aktualności - Fundament komunikacji z klientami
 
-Blog firmowy to nie tylko dodatek do strony. To kluczowe narzędzie komunikacji, które przez miesiące, a nawet lata, buduje relacje z klientami.
+Blog firmowy to nie tylko dodatek do strony. To [kluczowe narzędzie komunikacji](/artykuly/strony-internetowe/narzedzia), które przez miesiące, a nawet lata, buduje relacje z klientami.
 
 ### Strategiczne znaczenie regularnych publikacji
 
