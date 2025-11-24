@@ -1,0 +1,17 @@
+categories:
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: google-ads
+  title: Google Ads
+  path: marketing-w-internecie/kampanie-ppc/google-ads
+- slug: kampanie-ppc
+  title: Kampanie PPC
+  path: marketing-w-internecie/kampanie-ppc
+- slug: social-media
+  title: Social Media
+  path: marketing-w-internecie/social-media
+count: 5
