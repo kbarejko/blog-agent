@@ -2,13 +2,16 @@ categories:
 - slug: strony-internetowe
   title: Strony Internetowe
   path: strony-internetowe
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
 - slug: hosting-i-infrastruktura
   title: Hosting i Infrastruktura
   path: strony-internetowe/hosting-i-infrastruktura
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
 - slug: rozwoj-oprogramowania
   title: Rozwój Oprogramowania
   path: rozwoj-oprogramowania
-- slug: strategia-it
-  title: Strategia IT
-  path: strategia-it
-count: 4
+count: 5
