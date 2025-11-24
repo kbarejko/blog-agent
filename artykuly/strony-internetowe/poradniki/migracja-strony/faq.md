@@ -1,27 +1,31 @@
 ### Ile czasu zajmuje migracja strony internetowej?
 
-Prosta strona wizytówka? To prawdopodobnie kwestia 2-4 godzin roboty. Rozbudowany sklep internetowy może jednak zająć kilka dni - szczególnie gdy mamy do czynienia ze skomplikowaną bazą danych czy niestandardowymi funkcjami. Dobrze przygotowany plan migracji to połowa sukcesu.
+Prosta strona wizytówka? To zazwyczaj kwestia 2-4 godzin. Sklep internetowy czy rozbudowany portal może wymagać już 1-2 dni intensywnej pracy. Czas prawdopodobnie zależy od skali projektu, stopnia skomplikowania funkcjonalności oraz liczby nieoczekiwanych problemów technicznych, które mogą się pojawić po drodze.
 
-### Czy podczas migracji moja strona będzie niedostępna?
+### Czy podczas migracji stracę pozycje w Google?
 
-Dobrze zaplanowana migracja minimalizuje przestoje do zaledwie kilku minut. Najlepiej przygotować stronę na nowym serwerze, a następnie błyskawicznie zmienić DNS. W razie potrzeby warto również przygotować prostą stronę informującą odwiedzających o trwających pracach.
-
-### Ile kosztuje migracja strony internetowej?
-
-Cena migracji może wahać się od 500 zł za podstawową stronę wizytówkową po około 5000 zł za rozbudowane sklepy internetowe czy portale korporacyjne. Prostsze projekty prawdopodobnie można przeprowadzić we własnym zakresie, choć przy skomplikowanych systemach warto skorzystać z pomocy specjalistów.
-
-### Czy migracja wpłynie negatywnie na pozycje w Google?
-
-Dobrze zaplanowana migracja prawdopodobnie nie zaszkodzi Twojemu SEO. Najważniejsze to skonfigurować przekierowania 301, odświeżyć mapę witryny i poinformować Google Search Console o zmianach. Pierwszy tydzień może przynieść delikatny spadek ruchu – to całkiem normalne zjawisko, które szybko się stabilizuje.
-
-### Jakie dane muszę zabezpieczyć przed migracją?
-
-Przede wszystkim wykonaj kompletne kopie zapasowe plików witryny, bazy danych oraz konfiguracji poczty elektronicznej. Warto także zapisać hasła dostępowe, ustawienia DNS i wykaz wszystkich wtyczek. Pamiętaj, że każdy backup powinien być dokładnie przetestowany jeszcze przed rozpoczęciem procesu migracji.
+Dobrze przeprowadzona migracja z odpowiednimi przekierowaniami 301 i szybkim zgłoszeniem w Google Search Console prawdopodobnie nie zaszkodzi Twoim pozycjom. Możesz spodziewać się krótkotrwałych wahań w rankingu - to zupełnie normalne zjawisko, które zwykle ustabilizuje się po 2-4 tygodniach.
 
 ### Kiedy najlepiej przeprowadzić migrację strony?
 
-Najrozsądniej wydaje się zaplanować migrację na weekendy lub późne godziny wieczorne, kiedy ruch na stronie naturalnie spada. Warto unikać okresów przed świętami czy podczas kampanii reklamowych - wtedy każda awaria może kosztować sprzedaż. Zarezerwuj sobie przynajmniej 2-3 dni na wyłapanie nieoczekiwanych problemów.
+Idealny moment to okresy o niskim ruchu - weekendy lub wieczorne godziny wydają się najbardziej odpowiednie. Warto unikać dni promocyjnych, świąt czy ważnych kampanii marketingowych. Planowanie z wyprzedzeniem daje przestrzeń na reakcję w przypadku nieprzewidzianych komplikacji.
 
-### Co robić, gdy migracja się nie udała?
+### Czy mogę przeprowadzić migrację samodzielnie?
 
-Najlepiej przygotować plan B jeszcze przed rozpoczęciem całego procesu. Jeśli coś pójdzie nie tak, szybko przywróć backup na poprzednim serwerze i cofnij DNS-y. Gdy awaria jest tylko częściowa, wyłącz problematyczne elementy i naprawiaj je krok po kroku. Warto mieć pod ręką kontakt do doświadczonego administratora.
+Podstawową stronę firmową prawdopodobnie zvládniesz sam, jeśli masz choćby elementarną wiedzę techniczną. Złożone projekty - jak sklep z wieloma produktami czy system do zarządzania klientami - wydają się jednak zbyt ryzykowne do samodzielnych eksperymentów. Lepiej powierzyć je doświadczonym specjalistom.
+
+### Co się stanie jeśli coś pójdzie nie tak podczas migracji?
+
+Z tego powodu zawsze wykonujemy kompletną kopię zapasową przed rozpoczęciem procesu - umożliwia ona błyskawiczny powrót do stabilnej wersji systemu. Warto też wcześniej skrócić TTL w rekordach DNS, co pozwala na szybkie wycofanie się z wprowadzonych zmian, gdy sytuacja wymknie się spod kontroli.
+
+### Ile kosztuje profesjonalna migracja strony?
+
+Ceny profesjonalnej migracji wahają się zazwyczaj od 500-1500 zł dla podstawowej strony wizytówkowej do 3000-8000 zł w przypadku rozbudowanego sklepu internetowego. Ostateczny koszt zależy głównie od wielkości projektu, liczby funkcjonalności oraz dodatkowych usług – takich jak optymalizacja SEO czy konfiguracja zabezpieczeń.
+
+### Czy po migracji muszę aktualizować coś w Google Analytics?
+
+Gdy domena pozostaje ta sama, Analytics prawdopodobnie będzie działać bez problemów. Jednak przy zmianie adresu domeny konieczne wydaje się zaktualizowanie kodu śledzenia oraz ustawienie odpowiednich filtrów w raportach - to pozwoli na precyzyjne monitorowanie ruchu na nowej stronie.
+
+### Jak długo po migracji powinienem monitorować stronę?
+
+Pierwszych siedem dni wymaga szczególnej uwagi - codziennie weryfikuj działanie formularzy kontaktowych, funkcje e-commerce czy inne kluczowe elementy. W kolejnych tygodniach warto śledzić pozycje w Google oraz czasy ładowania strony, żeby ewentualne problemy wyłapać na wczesnym etapie.
