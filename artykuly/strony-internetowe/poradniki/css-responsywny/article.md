@@ -3,7 +3,7 @@
 - **Statystyki mobilne** - Czy wiesz, że ponad 60% ruchu w polskich sklepach internetowych pochodzi teraz z urządzeń mobilnych? Jeśli twoja strona nie jest responsywna, możesz tracić nawet 40% potencjalnych klientów.  
 - **Media queries bez tajemnic** - Trzy kluczowe punkty przełamania (768px, 1024px, 1200px) mogą pokryć 95% najpopularniejszych urządzeń. To wystarczy większości firm, by obsłużyć szerokie spektrum użytkowników.  
 - **Flexbox dla biznesu** - Zastanawiasz się, jak stworzyć responsywne menu lub galerię produktów bez głębokiej znajomości CSS? Flexbox dostarcza gotowe rozwiązania, które można wdrożyć z łatwością.  
-- **ROI responsywności** - Inwestycja w przepisywanie strony firmowej na responsywną, kosztująca od 3000 do 8000 zł, może się zwrócić w ciągu 3-6 miesięcy. Lepsze konwersje robią różnicę.  
+- **ROI responsywności** - Inwestycja w [przepisywanie strony firmowej na responsywną](/artykuly/strony-internetowe/poradniki/wordpress-setup), kosztująca od 3000 do 8000 zł, może się zwrócić w ciągu 3-6 miesięcy. Lepsze konwersje robią różnicę.  
 - **Narzędzia do testowania** - Istnieją darmowe sposoby na sprawdzenie, czy twoja strona jest responsywna w przeglądarce, oraz pięć topowych aplikacji do testowania na rzeczywistych urządzeniach.  
 
 ---
@@ -24,7 +24,7 @@ Brak responsywności to realne straty. Od 2015 roku Google obniża pozycje niere
 
 Inwestycja w responsywny CSS może przynieść konkretne korzyści: lepsze pozycjonowanie w Google, wyższą konwersję, większe zaufanie klientów i przewagę nad konkurencją. Klient, który z łatwością znajdzie potrzebne informacje na Twojej stronie przez telefon, częściej zdecyduje się na zakup.
 
-W tym artykule przedstawię Ci konkretne techniki CSS, które pomogą sprawić, że Twoja strona będzie wyglądać świetnie na każdym urządzeniu. Bez konieczności używania [skomplikowanych frameworków](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) i bez [przepisywania całej strony od nowa](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych).
+W tym artykule przedstawię Ci konkretne techniki CSS, które pomogą sprawić, że Twoja strona będzie wyglądać świetnie na każdym urządzeniu. Bez konieczności używania [[skomplikowanych frameworków](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc)](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) i bez [[przepisywania całej strony od nowa](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych)](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych).
 
 ## Podstawy CSS responsywnego - co każdy przedsiębiorca powinien wiedzieć
 
