@@ -1,0 +1,17 @@
+categories:
+- slug: responsywne-strony
+  title: Responsywne Strony
+  path: it-i-technologia/mobilne-technologie/responsywne-strony
+- slug: it-i-technologia
+  title: IT i Technologia
+  path: it-i-technologia
+- slug: frontend-development
+  title: Frontend Development
+  path: strony-internetowe/frontend-development
+- slug: css
+  title: CSS
+  path: strony-internetowe/frontend-development/css
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+count: 5
