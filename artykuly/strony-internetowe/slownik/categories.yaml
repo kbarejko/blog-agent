@@ -1,7 +1,7 @@
 categories:
-- slug: hosting-i-infrastruktura
-  title: Hosting i Infrastruktura
-  path: strony-internetowe/hosting-i-infrastruktura
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
 - slug: bezpieczenstwo
   title: Bezpieczeństwo
   path: bezpieczenstwo
@@ -11,7 +11,7 @@ categories:
 - slug: it-i-technologia
   title: IT i Technologia
   path: it-i-technologia
-- slug: strategia-it
-  title: Strategia IT
-  path: strategia-it
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
 count: 5
