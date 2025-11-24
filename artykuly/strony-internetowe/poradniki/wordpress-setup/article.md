@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **43% wszystkich stron** działa na WordPressie, co prawdopodobnie czyni go najbezpieczniejszym wyborem dla tych, którzy myślą o długofalowym rozwoju swojej firmy.
-- Dzięki **automatycznej instalacji jednym kliknięciem**, dostępnej w większości usług hostingowych, możesz uruchomić swoją stronę w zaledwie 10 minut, nawet jeśli [nie znasz się na programowaniu](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych).
+- Dzięki **automatycznej instalacji jednym kliknięciem**, dostępnej w większości usług hostingowych, możesz uruchomić swoją stronę w zaledwie 10 minut, nawet jeśli [[nie znasz się na programowaniu](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych)](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych).
 - **SSL i optymalne permalinki** mogą znacznie podnieść pozycję w Google i zbudować zaufanie klientów już od pierwszego dnia.
 - **5 kluczowych wtyczek**, takich jak Yoast SEO, UpdraftPlus, czy Wordfence, wydaje się zabezpieczać stronę przed aż 90% typowych zagrożeń i awarii.
 - Odpowiednia **struktura treści z nagłówkami H1-H6** oraz wewnętrzne linkowanie mogą zwiększyć ruch organiczny o nawet 40-60% w pierwszym roku.
@@ -18,9 +18,9 @@ Statystyki są nieubłagane – WordPress obsługuje obecnie 43% wszystkich stro
 
 Dlaczego przedsiębiorcy tak chętnie wybierają WordPress? Powodów jest wiele, ale trzy z nich wyróżniają się szczególnie.
 
-Po pierwsze, elastyczność. WordPress umożliwia stworzenie niemal wszystkiego – od prostych wizytówek firmowych, przez rozbudowane portale korporacyjne, po sklepy internetowe z tysiącami produktów. Jedna platforma oferuje [nieskończone możliwości](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc).
+Po pierwsze, elastyczność. WordPress umożliwia stworzenie niemal wszystkiego – od prostych wizytówek firmowych, przez rozbudowane portale korporacyjne, po sklepy internetowe z tysiącami produktów. Jedna platforma oferuje [[nieskończone możliwości](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc)](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc).
 
-Po drugie, koszty. Podczas gdy [stworzenie strony od zera może kosztować dziesiątki tysięcy złotych](/artykuly/strony-internetowe/poradniki/migracja-strony), profesjonalną stronę na WordPressie można uruchomić za ułamek tej kwoty. Sam system jest darmowy, a jedyne koszty to hosting, domena i ewentualnie premium motywy czy wtyczki.
+Po drugie, koszty. Podczas gdy [[stworzenie strony od zera może kosztować dziesiątki tysięcy złotych](/artykuly/strony-internetowe/poradniki/migracja-strony)](/artykuly/strony-internetowe/poradniki/migracja-strony), profesjonalną stronę na WordPressie można uruchomić za ułamek tej kwoty. Sam system jest darmowy, a jedyne koszty to hosting, domena i ewentualnie premium motywy czy wtyczki.
 
 Po trzecie, wsparcie społeczności. Miliony deweloperów na całym świecie tworzą rozwiązania dla WordPressa. Dzięki temu prawie każdy problem, na jaki napotkacie, ktoś już wcześniej rozwiązał.
 
