@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Treści to 70% sukcesu strony** - jak strategiczne podejście do copywritingu, grafik i video przekłada się na wyższe konwersje i ROI
-- **Customer journey mapowanie** - praktyczny system dopasowywania różnych typów treści do etapów ścieżki zakupowej klienta
-- **Budżetowe rozwiązania video** - konkretne narzędzia i techniki tworzenia profesjonalnych filmów biznesowych bez wielkich inwestycji
-- **Blog jako generator leadów** - sprawdzone strategie planowania tematów i keyword research, które przyciągają klientów przez lata
-- **Ekosystem treści w praktyce** - jak repurposować jeden materiał w 5 formatów i mierzyć skuteczność każdego kanału
+- **Blog firmowy** - Regularne publikacje zwiększają ruch organiczny o 55% i budują autorytet branżowy przez edukację klientów
+- **Copywriting SEO** - Techniki łączenia naturalnego pisania z optymalizacją pod słowa kluczowe, które zwiększają konwersje bez szkody dla pozycjonowania
+- **Video marketing** - Filmy zwiększają czas spędzany na stronie o 88% i generują 12x więcej udostępnień niż tekst i grafiki razem wzięte
+- **Fotografia biznesowa** - Profesjonalne zdjęcia produktów zwiększają sprzedaż online o 30%, a spójna identyfikacja wizualna buduje rozpoznawalność marki
+- **Integracja treści** - Strategia repurposingu pozwala z jednego tematu stworzyć 5-7 różnych formatów, maksymalizując zwrot z inwestycji w content marketing
