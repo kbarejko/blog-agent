@@ -8,7 +8,7 @@
 
 - **Mierzalne efekty działań** - Dzięki kluczowym metrykom Google Analytics, można precyzyjnie śledzić ROI z każdego kanału. Pozwala to podejmować decyzje oparte na danych, co jest o wiele bardziej skuteczne niż działanie na podstawie intuicji.
 
-- **Plan wdrożenia od A do Z** - Przedstawiamy konkretny harmonogram budowy zintegrowanej strategii. Zawiera on podział budżetu oraz wskazówki, jak unikać typowych błędów, które mogą kosztować tysiące złotych.
+- **Plan wdrożenia od A do Z** - Przedstawiamy [konkretny harmonogram budowy zintegrowanej strategii](/artykuly/strony-internetowe/proces). Zawiera on [podział budżetu](/artykuly/strony-internetowe/koszty) oraz wskazówki, jak unikać typowych błędów, które mogą kosztować tysiące złotych.
 
 ## Wprowadzenie - dlaczego Marketing SEO to nie tylko pozycjonowanie
 
@@ -18,7 +18,7 @@ Wielu przedsiębiorców kojarzy SEO głównie z pozycjonowaniem stron w Google. 
 
 ## Wprowadzenie - dlaczego Marketing SEO to nie tylko pozycjonowanie
 
-Tradycyjne SEO skupia się na osiągnięciu wysokiej pozycji w wynikach wyszukiwania Google. Z kolei marketing SEO zaczyna działać tam, gdzie klasyczne pozycjonowanie kończy swoją pracę.
+Tradycyjne SEO skupia się na osiągnięciu [wysokiej pozycji w wynikach wyszukiwania Google](/artykuly/strony-internetowe/czy-twoja-strona-internetowa-przyciaga-klientow-czy-ich-odstrasza). Z kolei marketing SEO zaczyna działać tam, gdzie klasyczne pozycjonowanie kończy swoją pracę.
 
 Różnica jest znacząca. Standardowe SEO koncentruje się na słowach kluczowych i linkach zwrotnych. Natomiast marketing SEO ma szerszy zakres. Analizuje, jak SEO wpływa na efektywność reklam, sprawdza, czy media społecznościowe wspierają pozycjonowanie, i bada, jak email marketing może zwiększać ruch organiczny na stronie.
 
@@ -26,7 +26,7 @@ Statystyki mogą wiele powiedzieć. Aż 93% doświadczeń online rozpoczyna się
 
 To podejście, które można nazwać holistycznym. SEO nie działa w izolacji. Wysoka pozycja w Google to dopiero start. Prawdziwe korzyści pojawiają się, gdy różne kanały współpracują ze sobą.
 
-Marketing SEO traktuje pozycjonowanie jako solidną podstawę. Na tej bazie budowane są kampanie reklamowe Google Ads, optymalizowane dzięki Google Analytics. Media społecznościowe są zintegrowane z celami SEO, a email marketing wspiera wzrost ruchu na stronie.
+Marketing SEO traktuje pozycjonowanie jako solidną podstawę. Na tej bazie budowane są kampanie reklamowe Google Ads, optymalizowane [dzięki Google Analytics](/artykuly/strony-internetowe/narzedzia). Media społecznościowe są zintegrowane z celami SEO, a email marketing wspiera wzrost ruchu na stronie.
 
 W tym przewodniku omówimy siedem kluczowych elementów: pozycjonowanie, analitykę, reklamy, media społecznościowe, email marketing, optymalizację konwersji. Każdy z tych elementów wzmacnia pozostałe.
 
