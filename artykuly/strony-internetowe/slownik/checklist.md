@@ -1,13 +1,14 @@
-## Checklist: Wdrożenie terminologii internetowej w firmie
+## Checklist: Wdrażanie słownika terminów IT w firmie
 
-- [ ] Sporządź kompletną listę wszystkich projektów IT, które obecnie prowadzi Twoja firma - może to być strona korporacyjna, e-sklep czy dedykowane aplikacje mobilne
-- [ ] Zidentyfikuj najważniejszych partnerów technologicznych: deweloperów, agencje interaktywne, freelancerów lub firmy software'owe, z którymi regularnie współpracujesz
-- [ ] Opracuj praktyczny słownik 20 kluczowych terminów, które prawdopodobnie będą pojawiać się podczas spotkań z zespołem IT - to znacząco ułatwi komunikację
-- [ ] Sprawdź podstawowe parametry techniczne swojej strony: typ hostingu, ważność certyfikatu SSL oraz rzeczywistą szybkość ładowania podstron
-- [ ] Zainstaluj Google Analytics (jeśli jeszcze go nie masz) i poświęć czas na poznanie najważniejszych wskaźników wydajności
-- [ ] Wykonaj szczegółowy audit SEO, wykorzystując terminologię z artykułu - przeanalizuj meta opisy, sprawdź strukturę nagłówków od H1 do H6
-- [ ] Zweryfikuj zgodność Twojej witryny z przepisami RODO: aktualna polityka prywatności, prawidłowa obsługa cookies oraz mechanizmy ochrony danych użytkowników
-- [ ] Przetestuj funkcjonalność strony na różnych urządzeniach mobilnych i upewnij się, że responsive design działa bezproblemowo
-- [ ] Zorganizuj spotkanie robocze z zespołem IT, podczas którego świadomie wykorzystasz nową terminologię do omówienia bieżących projektów
-- [ ] Przygotuj wewnętrzny dokument zawierający definicje terminów charakterystycznych dla Twojej branży - może się okazać nieoceniony
-- [ ] Zaplanuj cykliczne przeglądy kluczowych wskaźników (CTR, współczynniki konwersji, pozycje w wynikach Google), używając odpowiedniej terminologii przy analizie wyników
+- [ ] Sporządź kompletną listę partnerów technologicznych - od deweloperów i agencji internetowych po specjalistów SEO, z którymi regularnie współpracujesz
+- [ ] Wysłuchaj uważnie ostatnich rozmów z zespołem IT i wyłów 5 terminów, które pojawiają się najczęściej, ale brzmi dla Ciebie jak czarna magia
+- [ ] Przejrzyj dokumentację techniczną dotyczącą hostingu, domeny i certyfikatów SSL - jeśli czujesz się jak podczas czytania instrukcji w języku klingońskim, czas to zmienić
+- [ ] Otwórz ostatni raport z Google Analytics i uczciwie zaznacz wszystkie terminy, które wywołują u Ciebie dezorientację
+- [ ] Przetestuj responsywność strony na różnych urządzeniach - może okazać się, że Twoja "mobilna" witryna wcale nie jest taka przyjazna smartfonom
+- [ ] Jeśli prowadzisz e-commerce, prześledzij całą ścieżkę zakupową oczami klienta - od dodania produktu do koszyka po finalizację płatności, zwracając uwagę na terminy techniczne
+- [ ] Upewnij się, że rozumiesz różnicę między SEO a pozycjonowaniem w kontekście swojej branży - to może być kluczowe dla Twoich decyzji marketingowych
+- [ ] Sprawdź aktualny status certyfikatu SSL na stronie i przeanalizuj, jak jego ewentualny brak może wpływać na zaufanie klientów
+- [ ] Stwórz praktyczny glossariusz 10 najistotniejszych terminów IT, które przewijają się w codziennej działalności Twojej firmy
+- [ ] Zarezerwuj w kalendarzu comiesięczne spotkanie z zespołem technicznym, dedykując część czasu na wyjaśnianie nowo pojawiających się pojęć
+- [ ] Dodaj do zakładek sprawdzony słownik terminów internetowych - prawdopodobnie będziesz z niego korzystać częściej niż myślisz
+- [ ] Wprowadź z zespołem IT prostą zasadę: każdy nowy termin podczas prezentacji projektu musi zostać wyjaśniony w zrozumiały sposób
