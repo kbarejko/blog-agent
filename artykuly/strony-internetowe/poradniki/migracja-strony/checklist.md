@@ -1,14 +1,14 @@
 ## Checklist: Migracja strony internetowej
 
-- [ ] Stwórz kompletną kopię zapasową wszystkich plików strony oraz bazy danych, następnie sprawdź czy możesz z niej skorzystać w przypadku problemów
-- [ ] Przeanalizuj dokładnie obecną stronę - zanotuj wszystkie funkcje, dodatki i elementy techniczne, które muszą działać po migracji
-- [ ] Sporządź listę wszystkich ważnych adresów URL i przygotuj plan przekierowań 301 dla linków, które zmienią swoją lokalizację
-- [ ] Na 24-48 godzin przed migracją zmniejsz TTL rekordów DNS do 300 sekund - dzięki temu zmiany rozprzestrzenią się szybciej
-- [ ] Ustaw nowe środowisko hostingowe i przetestuj działanie strony na domenie testowej, na przykład test.twojastrona.pl
-- [ ] Prześlij pliki i bazę danych na nowy serwer, a następnie zaktualizuj pliki konfiguracyjne z nowymi parametrami połączenia
-- [ ] Przekieruj DNS na nowe serwery i uruchom wszystkie zaplanowane przekierowania 301
-- [ ] Sprawdź dokładnie kluczowe funkcje: czy działają formularze kontaktowe, system płatności, logowanie użytkowników oraz wersja mobilna
-- [ ] W Google Search Console dodaj nową wersję witryny i prześlij aktualną mapę XML - to pomoże Google szybciej zindeksować zmiany
-- [ ] Upewnij się, że wszystkie subdomeny (jak blog.twojastrona.pl) oraz poczta elektroniczna funkcjonują bez zakłóceń
-- [ ] W pierwszym tygodniu codziennie monitoruj: ruch z wyszukiwarki, błędy 404, prędkość ładowania i ogólną dostępność witryny
-- [ ] Po siedmiu dniach przeanalizuj pozycje w Google Search Console i rozwiąż ewentualne problemy z indeksowaniem stron
+- [ ] Zrób szczegółową inwentaryzację wszystkich plików, baz danych i funkcji obecnej witryny. Może wydawać się to oczywiste, ale właśnie ten krok najczęściej jest przeoczany
+- [ ] Przeanalizuj statystyki w Google Analytics i zidentyfikuj kluczowe strony generujące największy ruch - to one będą wymagały szczególnej uwagi
+- [ ] Wykonaj kompletną kopię zapasową plików (przez FTP) oraz całej bazy danych, a następnie koniecznie przetestuj, czy backup rzeczywiście się odtworzy
+- [ ] Obniż TTL rekordów DNS do 300 sekund, najlepiej 24-48 godzin przed planowaną migracją - pozwoli to na szybszą propagację zmian
+- [ ] Przenieś wszystkie pliki na nowy serwer używając FTP lub SFTP, następnie zaimportuj bazę danych do nowego środowiska
+- [ ] Zaktualizuj pliki konfiguracyjne - szczególnie parametry połączenia z bazą danych i ścieżki do katalogów, a także ustaw właściwe uprawnienia do folderów
+- [ ] Przygotuj kompletną listę krytycznych URL-i i skonfiguruj przekierowania 301 dla wszystkich zmienionych adresów - to prawdopodobnie najważniejszy element z punktu widzenia SEO
+- [ ] Zmień wskazania DNS na nowy serwer i systematycznie monitoruj propagację zmian w różnych regionach
+- [ ] Dokładnie przetestuj wszystkie kluczowe funkcjonalności: formularze kontaktowe, system płatności, logowanie użytkowników oraz responsywność na różnych urządzeniach
+- [ ] Wygeneruj aktualną mapę strony XML i prześlij ją do Google Search Console - pomoże to przyspieszyć reindeksację
+- [ ] Jeśli zmieniasz domenę, powiadom Google Search Console o zmianie adresu witryny korzystając z dedykowanego narzędzia
+- [ ] Intensywnie monitoruj przez pierwszy tydzień: ruch organiczny, proces indeksowania, potencjalne błędy 404 oraz ogólną wydajność strony
