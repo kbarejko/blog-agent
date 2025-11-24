@@ -1,210 +1,186 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Strategiczne treści i media dla biznesu",
-    "description": "Minimalistyczny workspace z laptopem i dashboardem content marketingu",
-    "alt_text": "Laptop z dashboardem content marketingu na czystym biurku w minimalistycznym biurze",
-    "prompt": "Minimalist workspace flat lay view, laptop displaying content marketing dashboard with analytics, editorial calendar on screen, white wooden desk, yellow notebook and pen, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "type": "illustration",
+    "title": "Hero image - Content marketing dla firm",
+    "description": "Minimalistyczny workspace z laptopem wyświetlającym analytics dashboard i narzędzia content marketingu",
+    "alt_text": "Workspace z laptopem pokazującym dashboard content marketingu i narzędzia analityczne",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying content marketing dashboard with blog analytics, charts and social media metrics, white wooden desk, notebook with yellow pen, smartphone, coffee cup, natural daylight from side, professional composition, muted colors black white gray with subtle yellow accents, high quality, sharp focus, no people",
     "keywords": [
       "content marketing",
-      "treści",
-      "media",
-      "strategia"
+      "treści dla firm",
+      "dashboard",
+      "workspace"
     ],
     "stock_suggestions": {
-      "unsplash_query": "content marketing workspace laptop dashboard",
-      "pexels_query": "digital marketing workspace minimal",
+      "unsplash_query": "content marketing workspace laptop dashboard flat lay",
+      "pexels_query": "digital marketing workspace computer analytics",
       "keywords_for_search": [
-        "content strategy workspace",
-        "marketing dashboard laptop",
-        "business workspace flat lay"
+        "marketing workspace",
+        "content creation desk",
+        "business analytics laptop",
+        "digital marketing tools"
       ],
-      "style_notes": "Minimalist workspace, natural lighting, professional business setting, flat lay perspective"
+      "style_notes": "Minimalist flat lay, natural lighting, professional business aesthetic, muted colors with yellow accent",
+      "brand_style_notes": "Zgodne z digitalvantage.pl - workspace bez ludzi, minimalistyczny, żółty akcent"
     }
   },
   "section_media": [
     {
       "type": "chart",
       "subtype": "bar_chart",
-      "section": "Sekcja: Strategiczne planowanie treści dla biznesu",
-      "title": "Wykres ROI z content marketingu",
-      "description": "Wykres słupkowy pokazujący średni zwrot z inwestycji w content marketing",
-      "alt_text": "Wykres ROI content marketing - firmy osiągające 300% zwrotu z inwestycji",
-      "prompt": "Clean bar chart showing content marketing ROI statistics, professional infographic style, bars showing 300% average return, black and white design with yellow accents, minimalist business chart aesthetic, clear labels, high quality",
-      "placement": "after_paragraph_3",
+      "section": "Wprowadzenie - Dlaczego treści i media decydują o sukcesie",
+      "title": "Wykres wpływu treści na metryki strony",
+      "description": "Wykres słupkowy pokazujący wpływ jakościowych treści na kluczowe metryki: czas na stronie, indeksowane strony, linki wchodzące",
+      "alt_text": "Wykres wzrostu metryk strony dzięki jakościowym treściom content marketingu",
+      "prompt": "Clean professional bar chart showing content impact metrics: 70% increase in time on page, 434% more indexed pages, 97% more backlinks. Blue bars with yellow accents, minimalist design, white background, clear labels in Polish, professional infographic style",
+      "placement": "after_paragraph_2",
       "keywords": [
-        "ROI",
+        "treści",
+        "statystyki",
         "content marketing",
-        "zwrot inwestycji",
-        "statystyki"
+        "SEO"
       ],
       "stock_suggestions": {
-        "unsplash_query": "business growth chart ROI statistics",
-        "pexels_query": "marketing ROI data visualization",
+        "unsplash_query": "business growth chart statistics marketing",
+        "pexels_query": "data visualization marketing metrics",
         "keywords_for_search": [
-          "ROI chart business",
-          "marketing statistics graph",
-          "investment return visualization"
+          "marketing statistics",
+          "content performance chart",
+          "business growth graph"
         ],
-        "style_notes": "Clean professional chart, could use Canva templates or chart libraries"
+        "style_notes": "Professional chart design, blue and yellow colors, clean layout. Can be created with Canva templates or chart libraries."
       }
     },
     {
       "type": "illustration",
       "subtype": "infographic",
-      "section": "Sekcja: Copywriting i teksty sprzedażowe",
-      "title": "Infografika - Formuła AIDA w copywritingu",
-      "description": "Pionowa infografika przedstawiająca 4 etapy formuły AIDA z ikonami",
-      "alt_text": "Infografika formuła AIDA copywriting - Attention Interest Desire Action",
-      "prompt": "Vertical infographic showing AIDA formula for copywriting: Attention (eye icon), Interest (lightbulb icon), Desire (heart icon), Action (arrow icon). Clean minimalist design, black and white with yellow highlights, professional business style, numbered steps with connecting arrows",
-      "placement": "after_paragraph_2",
+      "section": "Blog i aktualności - Fundament komunikacji",
+      "title": "Infografika - Typy artykułów dla biznesu",
+      "description": "Pionowa infografika przedstawiająca 6 typów artykułów blogowych z ikonami: przewodniki, case studies, branżowe, FAQ, trendy, rozwiązania problemów",
+      "alt_text": "Infografika 6 typów artykułów blogowych dla firm z ikonami i opisami",
+      "prompt": "Vertical infographic showing 6 types of business blog articles: how-to guides, case studies, industry insights, FAQ answers, trend analysis, problem solutions. Each with distinctive icon, numbered layout, professional design, black and white with yellow highlights, minimalist style",
+      "placement": "after_paragraph_4",
       "keywords": [
-        "AIDA",
-        "copywriting",
-        "teksty sprzedażowe",
-        "formuła"
+        "blog firmowy",
+        "artykuły",
+        "content marketing",
+        "typy treści"
       ],
       "stock_suggestions": {
-        "unsplash_query": "AIDA formula copywriting infographic",
-        "pexels_query": "marketing formula visual design",
+        "unsplash_query": "blog content types infographic minimalist",
+        "pexels_query": "content marketing infographic design",
         "keywords_for_search": [
-          "copywriting infographic",
-          "AIDA method visual",
-          "sales formula design"
+          "blog infographic",
+          "content types visual",
+          "marketing strategy diagram"
         ],
-        "style_notes": "Vertical infographic with icons for each AIDA step, minimalist design"
-      }
-    },
-    {
-      "type": "photo",
-      "subtype": "contextual",
-      "section": "Sekcja: Wizualizacja treści - zdjęcia, grafiki i elementy wizualne",
-      "title": "Przykłady optymalizacji obrazów - before/after",
-      "description": "Porównanie nieoptymalizowanego i zoptymalizowanego obrazu dla web",
-      "alt_text": "Porównanie optymalizacji obrazów web - rozmiar pliku przed i po kompresji",
-      "prompt": "Split screen comparison showing image optimization for web, left side showing large file size (2.5MB), right side showing optimized version (250KB), same image quality visible, technical overlay with file sizes, professional web development aesthetic, clean interface mockup style",
-      "placement": "after_paragraph_3",
-      "keywords": [
-        "optymalizacja obrazów",
-        "kompresja",
-        "web",
-        "szybkość strony"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "image optimization web development comparison",
-        "pexels_query": "website speed optimization visual",
-        "keywords_for_search": [
-          "web optimization",
-          "file compression",
-          "website performance"
-        ],
-        "style_notes": "Split-screen comparison, technical overlay, clean web development aesthetic"
-      }
-    },
-    {
-      "type": "illustration",
-      "subtype": "diagram",
-      "section": "Sekcja: Video marketing - treści wideo dla firm",
-      "title": "Diagram typów filmów biznesowych",
-      "description": "Schemat pokazujący różne typy video i ich zastosowanie w lejku sprzedażowym",
-      "alt_text": "Diagram typów filmów biznesowych w lejku sprzedażowym video marketing",
-      "prompt": "Professional diagram showing different types of business videos in sales funnel: awareness stage (educational videos), consideration stage (product demos), decision stage (testimonials). Clean flowchart style, icons for each video type, arrows showing progression, minimalist black and white design with yellow accents",
-      "placement": "after_paragraph_2",
-      "keywords": [
-        "video marketing",
-        "typy filmów",
-        "lejek sprzedażowy",
-        "biznes"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "video marketing funnel diagram business",
-        "pexels_query": "marketing strategy flowchart",
-        "keywords_for_search": [
-          "video marketing strategy",
-          "sales funnel diagram",
-          "business video types"
-        ],
-        "style_notes": "Flowchart diagram with icons, professional business presentation style"
+        "style_notes": "Vertical infographic with icons for each content type. Canva has excellent templates for content marketing infographics."
       }
     },
     {
       "type": "chart",
       "subtype": "line_chart",
-      "section": "Sekcja: Blog i content marketing",
-      "title": "Wykres wzrostu ruchu organicznego z bloga",
-      "description": "Wykres liniowy pokazujący wzrost ruchu organicznego przez content marketing",
-      "alt_text": "Wykres wzrostu ruchu organicznego blog content marketing przez 12 miesięcy",
-      "prompt": "Clean line chart showing organic traffic growth from blog content marketing over 12 months, upward trending line, professional data visualization, black line on white background with yellow data points, minimalist business chart style, months on x-axis, traffic numbers on y-axis",
-      "placement": "after_paragraph_1",
+      "section": "Video Marketing - Treści, które angażują najskuteczniej",
+      "title": "Wykres wzrostu popularności video marketingu",
+      "description": "Wykres liniowy pokazujący wzrost wykorzystania video w marketingu oraz jego wpływu na konwersje",
+      "alt_text": "Wykres wzrostu wykorzystania video marketingu przez firmy 2020-2024",
+      "prompt": "Professional line chart showing video marketing adoption growth from 2020 to 2024, rising from 60% to 85% business usage, second line showing conversion rate improvements, clean design with blue and yellow lines, white background, Polish labels",
+      "placement": "after_paragraph_2",
       "keywords": [
-        "ruch organiczny",
-        "blog",
-        "content marketing",
-        "wzrost"
+        "video marketing",
+        "statystyki",
+        "konwersje",
+        "trendy"
       ],
       "stock_suggestions": {
-        "unsplash_query": "website traffic growth analytics chart",
-        "pexels_query": "blog traffic statistics visualization",
+        "unsplash_query": "video marketing growth chart statistics",
+        "pexels_query": "digital marketing trends graph",
         "keywords_for_search": [
-          "organic traffic growth",
-          "blog analytics chart",
-          "content marketing results"
+          "video marketing stats",
+          "digital trends chart",
+          "marketing growth graph"
         ],
-        "style_notes": "Line chart showing steady growth, professional analytics style"
+        "style_notes": "Line chart showing upward trends, professional design suitable for business presentations."
       }
     },
     {
       "type": "illustration",
-      "subtype": "ecosystem",
-      "section": "Sekcja: Integracja i spójność wszystkich treści",
-      "title": "Schemat ekosystemu treści",
-      "description": "Diagram pokazujący jak różne typy treści się uzupełniają i wspierają",
-      "alt_text": "Schemat ekosystemu treści - blog video social media newsletter współpraca",
-      "prompt": "Circular ecosystem diagram showing content types interconnected: blog at center, connected to video, social media, newsletter, graphics. Arrows showing content flow between channels, clean minimalist design, icons for each content type, black and white with yellow connecting lines",
+      "subtype": "diagram",
+      "section": "Integracja treści i mediów - Spójna strategia",
+      "title": "Diagram integracji różnych formatów treści",
+      "description": "Schemat pokazujący jak jeden temat może być przekształcony w różne formaty: blog, video, infografika, social media, email, webinar",
+      "alt_text": "Diagram transformacji jednego tematu na różne formaty content marketingu",
+      "prompt": "Clean flowchart diagram showing content repurposing strategy, central topic branching into 6 formats: blog article, video, infographic, social posts, email newsletter, webinar. Arrows showing connections, minimalist design, black lines with yellow highlights, professional layout",
       "placement": "after_paragraph_1",
       "keywords": [
-        "ekosystem treści",
-        "integracja",
+        "integracja treści",
+        "repurposing",
         "content marketing",
-        "synergii"
+        "strategia"
       ],
       "stock_suggestions": {
-        "unsplash_query": "content marketing ecosystem diagram",
-        "pexels_query": "integrated marketing strategy visual",
+        "unsplash_query": "content marketing strategy diagram flowchart",
+        "pexels_query": "marketing strategy visual diagram",
         "keywords_for_search": [
-          "content ecosystem",
-          "marketing integration",
-          "omnichannel content"
+          "content strategy diagram",
+          "marketing flowchart",
+          "repurposing visual"
         ],
-        "style_notes": "Circular diagram with interconnected elements, clean business diagram style"
+        "style_notes": "Professional flowchart design, clear arrows and connections, suitable for business presentations."
       }
     },
     {
       "type": "screenshot",
-      "subtype": "dashboard",
-      "section": "Sekcja: Mierzenie skuteczności i optymalizacja",
-      "title": "Dashboard Google Analytics 4 dla content marketingu",
-      "description": "Screenshot głównego dashboardu GA4 z metrykami treści",
-      "alt_text": "Dashboard Google Analytics 4 z metrykami content marketing i ruchem organicznym",
-      "prompt": "Clean mockup of Google Analytics 4 dashboard showing content marketing metrics: organic traffic, page views, engagement rate, top performing pages. Professional interface design, realistic data visualization, modern web dashboard aesthetic, highlighted important metrics",
-      "placement": "after_paragraph_1",
+      "subtype": "interface",
+      "section": "Narzędzia, które mogą pomóc",
+      "title": "Screenshot interfejsu Canva do tworzenia grafik",
+      "description": "Zrzut ekranu interfejsu Canva pokazujący tworzenie infografiki dla content marketingu",
+      "alt_text": "Interface Canva z szablonem infografiki content marketingu",
+      "prompt": "Clean screenshot mockup of Canva interface showing infographic template creation, content marketing elements visible, professional UI design, realistic browser frame, highlighted important features, clean and organized layout",
+      "placement": "after_paragraph_3",
       "keywords": [
-        "Google Analytics",
-        "metryki",
-        "dashboard",
-        "content marketing"
+        "Canva",
+        "narzędzia",
+        "grafiki",
+        "interface"
       ],
       "stock_suggestions": {
-        "unsplash_query": "Google Analytics dashboard content marketing",
-        "pexels_query": "web analytics dashboard interface",
+        "unsplash_query": "graphic design software interface canva",
+        "pexels_query": "design tool interface computer screen",
         "keywords_for_search": [
-          "analytics dashboard",
-          "website metrics",
-          "content performance tracking"
+          "design software interface",
+          "canva screenshot",
+          "graphic design tool"
         ],
-        "style_notes": "Clean dashboard interface, realistic analytics data, professional web application design"
+        "style_notes": "Clean software interface, professional design tool, modern UI. Could be actual Canva screenshot or similar design tool."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "workflow",
+      "section": "Tworzenie treści - Od pomysłu do publikacji",
+      "title": "Schemat procesu tworzenia treści",
+      "description": "Horyzontalna infografika pokazująca 5-etapowy proces: research → planowanie → tworzenie → publikacja → analiza",
+      "alt_text": "Proces tworzenia treści w 5 etapach od researchu do analizy wyników",
+      "prompt": "Horizontal workflow diagram showing 5-step content creation process: research, planning, creation, publication, analysis. Each step with icon, arrows connecting stages, professional infographic style, black and white with yellow process highlights, clean design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "proces",
+        "tworzenie treści",
+        "workflow",
+        "metodologia"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "content creation process workflow diagram",
+        "pexels_query": "business process infographic steps",
+        "keywords_for_search": [
+          "workflow diagram",
+          "process infographic",
+          "content strategy steps"
+        ],
+        "style_notes": "Horizontal workflow with clear steps and arrows, professional business process design."
       }
     }
   ],
-  "total_count": 8
+  "total_count": 7
 }
