@@ -3,26 +3,26 @@
 ### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiącach:
 
 **Pierwsze kroki:**
-1. **Przeanalizuj obecną stronę pod kątem responsywności** - Skorzystaj z narzędzi deweloperskich, aby zidentyfikować obszary wymagające optymalizacji.
-2. **Ustal budżet na wdrożenie responsywnego CSS** - Na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20%.
-3. **Zbuduj zespół projektowy** - Zatrudnij 2-3 osoby do pracy nad wdrożeniem, w tym programistę CSS i specjalistę ds. UX.
+1. **Przeanalizuj obecną stronę internetową** - zrób listę elementów, które potrzebują poprawy w zakresie responsywności.
+2. **Ustal budżet wdrożenia** - na podstawie artykułu orientacyjny budżet to 10,000-30,000 PLN - uwzględnij bufór 20%.
+3. **Zbuduj zespół projektowy** - rozważ zaangażowanie 2-3 osób z odpowiednim doświadczeniem.
 
 **Przydatne narzędzia:**
-- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Sprawdź, czy Twoja strona jest przyjazna dla urządzeń mobilnych.
-- [Responsinator.com](http://www.responsinator.com/) - Zobacz, jak Twoja strona wygląda na różnych urządzeniach.
+- [Responsinator.com](https://www.responsinator.com/) - sprawdź, jak Twoja strona wygląda na różnych urządzeniach.
+- [Browser Stack](https://www.browserstack.com/) - testuj stronę na rzeczywistych urządzeniach.
 
 **Potrzebujesz pomocy?**
-- [Umów bezpłatną konsultację]({{LINK}}) - Omówimy Twój case i pomożemy zaplanować wdrożenie.
-- [Pobierz RFP template]({{LINK}}) - Gotowy brief do wysłania do agencji/dostawców.
+- [Umów bezpłatną konsultację]({{LINK}}) - omówimy Twój case i pomożemy zaplanować wdrożenie.
+- [Pobierz RFP template]({{LINK}}) - gotowy brief do wysłania do agencji/dostawców.
 
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Javascript Interaktywnosc](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) - Dowiedz się, jak dodać interaktywność do swojej strony.
-- [Wordpress Setup](/artykuly/strony-internetowe/poradniki/wordpress-setup) - Przewodnik po instalacji i konfiguracji WordPressa.
+- [Javascript Interaktywnosc](/artykuly/strony-internetowe/poradniki/javascript-interaktywnosc) - poznaj, jak dodać interaktywne elementy do swojej strony.
+- [Html Dla Poczatkujacych](/artykuly/strony-internetowe/poradniki/html-dla-poczatkujacych) - odśwież podstawy HTML, które są fundamentem responsywności.
 
 **Zasoby:**
 - [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu.
-- [Dołącz do webinaru]({{LINK}}) - Live Q&A z ekspertami.
+- [Dołącz do webinaru]({{LINK}}) - live Q&A z ekspertami.
 
-💡 **Wskazówka:** Sukces wdrożenia CSS responsywnego to w 70% change management, a w 30% technologia. Zadbaj o komunikację, szkolenia i buy-in od zespołu od pierwszego dnia.
+💡 **Wskazówka:** Sukces wdrożenia CSS responsywny Dla Poczatkujacych to w 70% change management, a w 30% technologia. Zadbaj o komunikację, szkolenia i buy-in od zespołu od pierwszego dnia.

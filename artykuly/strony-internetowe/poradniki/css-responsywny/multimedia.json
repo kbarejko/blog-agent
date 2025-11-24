@@ -1,13 +1,185 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - CSS responsywny Dla Poczatkujacych",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "CSS responsywny Dla Poczatkujacych",
-    "prompt": "Professional modern illustration for CSS responsywny Dla Poczatkujacych",
-    "keywords": [],
-    "stock_suggestions": {}
+    "type": "illustration",
+    "title": "Hero image - CSS Responsywny dla Początkujących",
+    "description": "Minimalistyczna kompozycja z laptopem i tabletami pokazująca responsywne designowanie CSS",
+    "alt_text": "Workspace z laptopem, tabletem i telefonem pokazujący responsywny design CSS na różnych ekranach",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying CSS code and responsive design grid, tablet and smartphone showing same website layout adapted to different screen sizes, white wooden desk, yellow notebook, natural daylight from window, muted colors black white gray with yellow accent, professional web development aesthetic, high quality, no people",
+    "keywords": [
+      "CSS responsywny",
+      "responsive design",
+      "web development",
+      "mobile-first"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "responsive web design multiple devices mockup",
+      "pexels_query": "laptop tablet smartphone website design",
+      "keywords_for_search": [
+        "responsive design",
+        "multi device mockup",
+        "web development workspace",
+        "css coding"
+      ],
+      "style_notes": "Clean, minimalist, multiple devices showing same website adapted to different screen sizes"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Wprowadzenie",
+      "title": "Wykres udziału ruchu mobilnego w e-commerce",
+      "description": "Wykres kołowy pokazujący podział ruchu: 60% mobile, 35% desktop, 5% tablet",
+      "alt_text": "Wykres kołowy ruchu w polskim e-commerce: 60% urządzenia mobilne, 35% desktop, 5% tablety",
+      "prompt": "Clean pie chart showing mobile traffic distribution in Polish e-commerce, 60% mobile devices in blue, 35% desktop in gray, 5% tablets in yellow, professional infographic style, minimalist design, clear labels, business colors matching brand guidelines",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "ruch mobilny",
+        "e-commerce",
+        "statystyki",
+        "responsywność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "mobile traffic statistics pie chart",
+        "pexels_query": "business analytics mobile usage chart",
+        "keywords_for_search": [
+          "mobile statistics",
+          "e-commerce data",
+          "traffic analytics chart"
+        ],
+        "style_notes": "Professional pie chart with clear percentages, business color scheme"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Podstawy CSS responsywnego",
+      "title": "Screenshot Chrome DevTools - Responsive Testing",
+      "description": "Zrzut ekranu narzędzi deweloperskich Chrome z włączonym trybem responsywnym",
+      "alt_text": "Chrome DevTools z trybem responsywnym pokazujący testowanie strony na różnych rozdzielczościach",
+      "prompt": "Clean screenshot of Chrome Developer Tools with responsive design mode active, showing website layout testing on different screen sizes, device selector dropdown visible, highlighted mobile view, professional browser interface, clear and readable",
+      "placement": "after_paragraph_3_in_subsection",
+      "keywords": [
+        "Chrome DevTools",
+        "responsive testing",
+        "narzędzia deweloperskie",
+        "testowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web developer browser testing tools",
+        "pexels_query": "chrome developer tools screenshot",
+        "keywords_for_search": [
+          "browser devtools",
+          "web development testing",
+          "responsive design tools"
+        ],
+        "style_notes": "Clean browser interface screenshot, focused on responsive testing features"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Media queries",
+      "title": "Infografika - Kluczowe breakpoints CSS",
+      "description": "Pionowa infografika pokazująca 4 główne punkty przełamania: 320px, 768px, 1024px, 1200px",
+      "alt_text": "Infografika breakpoints CSS: 320px telefony, 768px tablety, 1024px laptopy, 1200px desktopy",
+      "prompt": "Vertical infographic showing CSS breakpoints with device icons: 320px smartphone, 768px tablet, 1024px laptop, 1200px desktop. Clean minimalist design, numbered steps, device silhouettes, professional color scheme black white gray with yellow accents, clear typography",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "breakpoints",
+        "media queries",
+        "CSS",
+        "responsive design"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "responsive breakpoints infographic devices",
+        "pexels_query": "css media queries visual guide",
+        "keywords_for_search": [
+          "responsive design guide",
+          "device breakpoints",
+          "css infographic"
+        ],
+        "style_notes": "Clean infographic with device icons and pixel measurements, vertical layout"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Flexbox",
+      "title": "Diagram Flexbox - przed i po",
+      "description": "Porównanie układu elementów: tradycyjny float vs Flexbox",
+      "alt_text": "Diagram porównujący tradycyjny układ CSS float z nowoczesnym Flexbox layout",
+      "prompt": "Split comparison diagram showing traditional CSS float layout versus modern Flexbox layout, before and after style, geometric shapes representing elements, arrows showing alignment and distribution, clean technical illustration, black and gray colors with yellow highlights",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "Flexbox",
+        "CSS layout",
+        "float",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "css flexbox layout comparison diagram",
+        "pexels_query": "web development layout comparison",
+        "keywords_for_search": [
+          "flexbox diagram",
+          "css layout comparison",
+          "web design illustration"
+        ],
+        "style_notes": "Technical diagram style, before/after comparison, clean geometric shapes"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "code_example",
+      "section": "Sekcja: CSS Grid",
+      "title": "Przykład kodu CSS Grid",
+      "description": "Screenshot edytora kodu z przykładem implementacji CSS Grid dla galerii produktów",
+      "alt_text": "Kod CSS Grid w edytorze pokazujący tworzenie responsywnej galerii produktów",
+      "prompt": "Clean code editor screenshot showing CSS Grid implementation for product gallery, syntax highlighting, dark theme editor like VS Code, grid-template-columns and grid-gap properties visible, professional developer environment, readable font",
+      "placement": "after_code_block",
+      "keywords": [
+        "CSS Grid",
+        "kod CSS",
+        "galeria produktów",
+        "programowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "css code editor grid layout programming",
+        "pexels_query": "web developer coding css grid",
+        "keywords_for_search": [
+          "css grid code",
+          "programming editor",
+          "web development code"
+        ],
+        "style_notes": "Dark theme code editor, clean syntax highlighting, focused on CSS Grid properties"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Narzędzia i frameworki",
+      "title": "Wykres kosztów implementacji responsywności",
+      "description": "Wykres słupkowy porównujący koszty: własny programista vs agencja vs freelancer",
+      "alt_text": "Wykres porównania kosztów implementacji responsywnego CSS: programista, agencja, freelancer",
+      "prompt": "Horizontal bar chart comparing costs of responsive CSS implementation: in-house developer 8000 PLN/month, agency 150-300 PLN/hour, freelancer 80-150 PLN/hour. Professional business chart, blue bars with values, clean minimal design, currency in PLN",
+      "placement": "after_paragraph_2_in_subsection",
+      "keywords": [
+        "koszty",
+        "responsywność",
+        "implementacja",
+        "programista"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business costs comparison chart bar graph",
+        "pexels_query": "financial comparison chart business",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "business expenses graph",
+          "budget comparison"
+        ],
+        "style_notes": "Professional horizontal bar chart, clear cost comparisons in PLN currency"
+      }
+    }
+  ],
+  "total_count": 7
 }
