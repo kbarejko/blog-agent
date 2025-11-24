@@ -1,14 +1,14 @@
 ## Checklist: WordPress Setup dla Twojej Firmy
 
-- [ ] Znajdź hosting oferujący 99,9% uptime ze wsparciem dla WordPress. Jednocześnie zarejestruj domenę, która będzie odzwierciedlać charakter Twojego biznesu
-- [ ] Wdróż certyfikat SSL – to fundament bezpieczeństwa. Następnie ustaw automatyczne przekierowanie ruchu na bezpieczną wersję HTTPS
-- [ ] Przeprowadź instalację WordPress. Możesz skorzystać z wygodnego instalatora w panelu hostingu lub pobrać najnowszą wersję i zainstalować ją ręcznie
-- [ ] Zastąp domyślny login administratora ("admin") unikalną nazwą użytkownika. Połącz to z hasłem składającym się z minimum 12 znaków, liter, cyfr i symboli
-- [ ] Dostosuj kluczowe ustawienia WordPress: wprowadź tytuł strony i jej opis, ustaw właściwą strefę czasową oraz wybierz przyjazną dla SEO strukturę permalinków
-- [ ] Wzmocnij bezpieczeństwo instalując wtyczkę pokroju Wordfence Security. Równolegle skonfiguruj automatyczne kopie zapasowe – UpdraftPlus sprawdzi się doskonale
-- [ ] Wybierz motyw pasujący do Twojej branży. Po instalacji dostosuj kolorystykę do identyfikacji wizualnej marki i dodaj swoje logo
-- [ ] Doinstaluj kluczowe wtyczki: narzędzie SEO (Yoast SEO lub RankMath), plugin do formularzy kontaktowych oraz Google Analytics dla monitorowania ruchu
-- [ ] Stwórz niezbędne podstrony – "O nas", "Kontakt", "Polityka prywatności". Następnie zbuduj intuicyjne menu nawigacyjne, które poprowadzi użytkowników przez Twoją witrynę
-- [ ] Przyspiesz działanie strony instalując wtyczkę cache'ującą (np. W3 Total Cache) oraz narzędzie do kompresji obrazów, które może znacząco zmniejszyć czas ładowania
-- [ ] Ustaw harmonogram automatycznych kopii zapasowych – najlepiej codziennych. Pamiętaj, aby przetestować proces odtwarzania danych z backupu
-- [ ] Przeprowadź test szybkości w Google PageSpeed Insights. Wyniki prawdopodobnie wskażą konkretne obszary do optymalizacji – warto je systematycznie poprawiać
+- [ ] Wybierz i wykup hosting z gwarancją działania min. 99,9% uptime – zwróć uwagę, żeby certyfikat SSL był już wliczony w cenę
+- [ ] Zarejestruj domenę dla swojej firmy i skonfiguruj ustawienia DNS u wybranego dostawcy hostingu
+- [ ] Zainstaluj WordPress – większość hostingów oferuje instalację jednym kliknięciem przez panel, choć możesz też zrobić to ręcznie przez FTP
+- [ ] Usuń domyślne konto "admin" i stwórz nowego użytkownika z unikalną nazwą oraz naprawdę silnym hasłem (minimum 12 znaków z kombinacją liter, cyfr i znaków specjalnych)
+- [ ] Ustaw podstawowe opcje witryny: tytuł, krótki opis działalności, właściwą strefę czasową i czytelną strukturę adresów URL
+- [ ] Zainstaluj wtyczkę bezpieczeństwa – Wordfence wydaje się być najpopularniejszym wyborem, ale Sucuri Security też sprawdzi się świetnie
+- [ ] Wybierz motyw graficzny, który odzwierciedla charakter Twojej firmy – może to być darmowy szablon lub warto zainwestować w premium
+- [ ] Zainstaluj kluczowe wtyczki: Yoast SEO do optymalizacji, wtyczkę do cache'owania (np. WP Rocket) i Contact Form 7 do formularzy
+- [ ] Skonfiguruj automatyczne backupy przez UpdraftPlus lub podobne rozwiązanie – prawdopodobnie uratuje Ci to nerwy w przyszłości
+- [ ] Stwórz podstawowe podstrony: "O nas", "Kontakt" i obowiązkową "Politykę prywatności"
+- [ ] Zbuduj przejrzyste menu nawigacyjne i dodaj je do swojego motywu
+- [ ] Podłącz Google Analytics do śledzenia ruchu i przetestuj, czy formularz kontaktowy działa prawidłowo
