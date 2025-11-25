@@ -22,9 +22,9 @@ Wyobraź sobie prowadzenie biznesu z zasłoniętymi oczami. Nie wiesz, ilu klien
 
 Statystyki mówią same za siebie: aż 87% małych i średnich przedsiębiorstw nie ma ustalonych żadnych celów w Google Analytics. Działają na zasadzie „mam stronę, więc klienci się znajdą". To jak strzelanie na oślep i liczenie na łut szczęścia.
 
-Różnica między „mam stronę” a [strategicznym podejściem do obecności w sieci](/artykuly/strony-internetowe/strategia/dlaczego-warto) jest kolosalna. Pierwsza grupa wydaje pieniądze na redesign co dwa lata, bo „coś nie działa". Druga grupa systematycznie [zwiększa liczbę klientów](/artykuly/strony-internetowe/strategia/korzysci), bo dokładnie wie, które elementy strony generują zapytania, a które hamują sprzedaż.
+Różnica między „mam stronę” a [[strategicznym podejściem do obecności w sieci](/artykuly/strony-internetowe/strategia/dlaczego-warto)](/artykuly/strony-internetowe/strategia/dlaczego-warto) jest kolosalna. Pierwsza grupa wydaje pieniądze na redesign co dwa lata, bo „coś nie działa". Druga grupa systematycznie [[zwiększa liczbę klientów](/artykuly/strony-internetowe/strategia/korzysci)](/artykuly/strony-internetowe/strategia/korzysci), bo dokładnie wie, które elementy strony generują zapytania, a które hamują sprzedaż.
 
-KPI (Key Performance Indicators) to nie nudne cyferki dla analityków. To kompas, który wskazuje, czy Twoja [strona zarabia, czy tylko generuje koszty](/artykuly/strony-internetowe/strategia/korzysci). To różnica między domysłami a wiedzą.
+KPI (Key Performance Indicators) to nie nudne cyferki dla analityków. To kompas, który wskazuje, czy Twoja [[strona zarabia, czy tylko generuje koszty](/artykuly/strony-internetowe/strategia/korzysci)](/artykuly/strony-internetowe/strategia/korzysci). To różnica między domysłami a wiedzą.
 
 W tym artykule otrzymasz konkretny framework do definiowania celów biznesowych i przekładania ich na mierzalne wskaźniki. Poznasz praktyczne narzędzia, które ujawnią prawdę o Twojej stronie – czasem bolesną, ale zawsze wartościową.
 
