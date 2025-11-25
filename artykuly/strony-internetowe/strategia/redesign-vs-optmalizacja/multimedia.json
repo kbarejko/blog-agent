@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Redesign vs Optymalizacja",
+    "description": "Minimalistyczna kompozycja z laptopem wyświetlającym dashboard analityczny z wykresami konwersji i optymalizacji",
+    "alt_text": "Laptop z dashboardem analitycznym pokazującym metryki redesign vs optymalizacja strony",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying split-screen dashboard with redesign and optimization metrics, conversion charts, performance graphs, white wooden desk, notebook with yellow pen, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "redesign",
+      "optymalizacja",
+      "dashboard",
+      "metryki"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "website analytics dashboard laptop workspace",
+      "pexels_query": "web design optimization metrics computer",
+      "keywords_for_search": [
+        "web analytics",
+        "optimization dashboard",
+        "redesign metrics"
+      ],
+      "style_notes": "Clean workspace, laptop with analytics, minimalist office, professional lighting"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "comparison_chart",
+      "section": "Sekcja: Czym różni się redesign od optymalizacji?",
+      "title": "Porównanie: Redesign vs Optymalizacja",
+      "description": "Split-screen infografika porównująca redesign i optymalizację: czas, koszty, zasoby, rezultaty",
+      "alt_text": "Porównanie redesign vs optymalizacja: czas realizacji, koszty, zasoby zespołu",
+      "prompt": "Clean comparison infographic split in two columns, left side redesign with revolution icon and 3-8 months timeline, right side optimization with iteration icon and ongoing timeline, minimal design, black white gray with yellow accents, professional style, icons and arrows",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "redesign",
+        "optymalizacja",
+        "porównanie",
+        "różnice"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison infographic design template",
+        "pexels_query": "versus comparison chart design",
+        "keywords_for_search": [
+          "comparison chart",
+          "vs infographic",
+          "two column design"
+        ],
+        "style_notes": "Two-column layout, clear visual separation, icons for each approach"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "warning_signals",
+      "section": "Sekcja: Kiedy wybierać redesign? Sygnały ostrzegawcze",
+      "title": "8 sygnałów ostrzegawczych redesignu",
+      "description": "Infografika z 8 wskaźnikami sugerującymi potrzebę redesignu: techniczne i biznesowe przesłanki",
+      "alt_text": "Infografika 8 sygnałów ostrzegawczych redesignu strony internetowej",
+      "prompt": "Warning signals infographic with 8 icons arranged in circular pattern, technical warnings (speed, security, mobile) and business warnings (rebranding, competition), red and orange alert colors with black text, clean professional design, warning triangle elements",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "sygnały",
+        "redesign",
+        "ostrzeżenie",
+        "wskaźniki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "warning signs infographic business alerts",
+        "pexels_query": "alert icons design infographic",
+        "keywords_for_search": [
+          "warning infographic",
+          "alert signs design",
+          "business indicators"
+        ],
+        "style_notes": "Warning theme with red/orange accents, clear icons, alert-style design"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "cost_comparison",
+      "section": "Sekcja: Analiza kosztów: redesign vs optymalizacja",
+      "title": "Porównanie kosztów: Redesign vs Optymalizacja",
+      "description": "Wykres słupkowy porównujący koszty redesignu (jednorazowe) vs optymalizacji (miesięczne) w czasie",
+      "alt_text": "Wykres porównania kosztów redesign vs optymalizacja w perspektywie 12 miesięcy",
+      "prompt": "Professional cost comparison chart showing redesign one-time cost versus optimization monthly costs over 12 months, blue bars for redesign, green bars for optimization, cumulative cost line, clean grid design, values in PLN, minimalist style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "koszty",
+        "redesign",
+        "optymalizacja",
+        "budżet"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cost comparison chart business budget",
+        "pexels_query": "financial comparison graph business",
+        "keywords_for_search": [
+          "budget chart",
+          "cost analysis",
+          "financial comparison"
+        ],
+        "style_notes": "Professional financial chart, blue and green colors, clear data visualization"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "decision_framework",
+      "section": "Sekcja: Framework decyzyjny",
+      "title": "Macierz decyzyjna - Framework wyboru",
+      "description": "Diagram przepływu z 4 kluczowymi kryteriami decyzyjnymi: budżet, czas, zasoby, pilność biznesowa",
+      "alt_text": "Framework decyzyjny redesign vs optymalizacja z 4 kryteriami oceny",
+      "prompt": "Decision matrix flowchart with 4 evaluation criteria boxes (budget, time, resources, urgency) leading to three outcomes (redesign, optimization, hybrid), arrows connecting elements, professional diagram style, blue and gray colors with yellow highlights, clean geometric design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "framework",
+        "decyzja",
+        "kryteria",
+        "macierz"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "decision making framework flowchart business",
+        "pexels_query": "business process diagram decision tree",
+        "keywords_for_search": [
+          "decision matrix",
+          "business framework",
+          "evaluation criteria"
+        ],
+        "style_notes": "Clean flowchart design, decision tree structure, professional business style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "phases_timeline",
+      "section": "Sekcja: Hybrydowe podejście: etapowa transformacja",
+      "title": "3-etapowa strategia hybrydowa",
+      "description": "Timeline pokazujący 3 fazy hybrydowego podejścia: optymalizacja → redesign kluczowych stron → migracja technologiczna",
+      "alt_text": "Timeline 3-etapowej strategii transformacji strony: optymalizacja, redesign, migracja",
+      "prompt": "Horizontal timeline infographic showing 3 phases of hybrid approach: Phase 1 optimization (green), Phase 2 redesign (blue), Phase 3 migration (purple), arrows between phases, duration indicators, milestone icons, clean professional design, white background",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "etapy",
+        "hybrydowe",
+        "strategia",
+        "transformacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "project timeline phases business roadmap",
+        "pexels_query": "development phases timeline infographic",
+        "keywords_for_search": [
+          "project timeline",
+          "development phases",
+          "business roadmap"
+        ],
+        "style_notes": "Horizontal timeline, 3 distinct phases, progress arrows, milestone markers"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "roi_timeline",
+      "section": "Sekcja: Analiza kosztów - Kalkulacja ROI",
+      "title": "ROI w czasie: Redesign vs Optymalizacja",
+      "description": "Wykres liniowy pokazujący zwrot z inwestycji dla obu podejść w perspektywie 24 miesięcy",
+      "alt_text": "Wykres ROI redesign vs optymalizacja w perspektywie 24 miesięcy",
+      "prompt": "Professional line chart showing ROI comparison over 24 months, redesign line starting negative then climbing steeply after month 6, optimization line showing steady gradual growth from month 1, intersection point highlighted, grid background, values in percentage",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "ROI",
+        "zwrot",
+        "inwestycja",
+        "perspektywa"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "ROI growth chart business investment",
+        "pexels_query": "investment return timeline graph",
+        "keywords_for_search": [
+          "ROI chart",
+          "investment timeline",
+          "business growth graph"
+        ],
+        "style_notes": "Professional financial chart, growth curves, intersection point highlighting"
+      }
+    }
+  ],
+  "total_count": 7
+}
