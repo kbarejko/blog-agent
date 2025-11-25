@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Architektura headless** - jak rozdzielenie frontendu od backendu zwiększa elastyczność firmy i pozwala prezentować treści na wielu kanałach jednocześnie
 - **Headless CMS vs tradycyjny** - dlaczego systemy jak WordPress ograniczają rozwój biznesu i kiedy przejście na headless przynosi wymierne korzyści
@@ -6,14 +6,13 @@
 - **Konkretne narzędzia** - przegląd najlepszych platform (Strapi, Contentful, Shopify Plus) z kryteriami wyboru odpowiedniego rozwiązania dla Twojej firmy
 - **ROI i koszty implementacji** - rzeczywiste przypadki zwrotu z inwestycji z polskiego rynku oraz profil firmy, dla której headless jest opłacalny
 
-
 ## Wprowadzenie - Czym jest architektura headless i dlaczego rewolucjonizuje świat biznesu
 
-# Headless
+### Headless
 
 Wyobraź sobie, że prowadzisz sklep, ale zamiast jednej witryny masz możliwość wystawienia swoich produktów jednocześnie w galerii handlowej, na targu, w aplikacji mobilnej i na billboardach cyfrowych. To właśnie oferuje architektura headless – uwolnienie od ograniczeń tradycyjnych systemów.
 
-## Wprowadzenie - Czym jest architektura headless i dlaczego rewolucjonizuje świat biznesu
+#### Wprowadzenie - Czym jest architektura headless i dlaczego rewolucjonizuje świat biznesu
 
 Architektura headless to podejście, w którym oddzielamy „mózg" systemu (backend z danymi i logiką) od „twarzy" (frontend, czyli to co widzi użytkownik). Tradycyjne systemy są jak sklep stacjonarny – wszystko jest ze sobą na stałe połączone. Headless działa jak marketplace – masz jeden magazyn z produktami, ale możesz je sprzedawać przez różne kanały.
 

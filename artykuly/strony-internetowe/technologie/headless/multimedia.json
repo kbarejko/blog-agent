@@ -1,0 +1,186 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Architektura headless",
+    "description": "Minimalistyczna kompozycja z laptopem pokazującym architektury headless vs traditional",
+    "alt_text": "Laptop z porównaniem architektury headless i tradycyjnej na czystym biurku",
+    "prompt": "Clean minimalist workspace top-down view, laptop showing split-screen comparison of headless architecture (separated frontend/backend blocks) vs traditional monolithic system, white desk, minimal items, natural window lighting from side, muted colors black white gray, subtle yellow accent on notebook, professional business aesthetic, high quality, shallow depth of field, no people",
+    "keywords": [
+      "headless",
+      "architektura",
+      "e-commerce",
+      "technologia"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist laptop workspace technology dashboard",
+      "pexels_query": "clean office setup computer business",
+      "keywords_for_search": [
+        "tech workspace",
+        "minimalist office",
+        "modern business setup"
+      ],
+      "style_notes": "Clean workspace, no people, modern minimalist aesthetic matching digitalvantage.pl brand"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Wprowadzenie - architektura headless",
+      "title": "Diagram architektury headless vs tradycyjnej",
+      "description": "Schemat porównujący tradycyjną architekturę monolityczną z architekturą headless",
+      "alt_text": "Diagram porównania architektury headless z oddzielonym frontendem i backendem",
+      "prompt": "Professional technical diagram showing traditional monolithic architecture on left (single connected block) versus headless architecture on right (separated frontend and backend blocks connected by API), clean minimalist design, black and gray colors with yellow highlights for API connections, white background, professional infographic style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "architektura",
+        "headless",
+        "backend",
+        "frontend",
+        "API"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "technical architecture diagram minimalist",
+        "pexels_query": "system architecture flowchart clean",
+        "keywords_for_search": [
+          "technical diagram",
+          "system architecture",
+          "flowchart design"
+        ],
+        "style_notes": "Clean technical diagram, professional style, minimalist colors matching brand"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Headless CMS vs tradycyjny",
+      "title": "Porównanie CMS - tradycyjny vs headless",
+      "description": "Infografika zestawiająca kluczowe różnice między tradycyjnym CMS a headless CMS",
+      "alt_text": "Infografika porównanie tradycyjny CMS WordPress vs headless CMS Strapi",
+      "prompt": "Split comparison infographic showing traditional CMS (WordPress icon, coupled frontend/backend) versus headless CMS (Strapi/Contentful icons, separated API-first architecture), professional design with icons and bullet points, black white gray color scheme with yellow accents, clean minimalist layout",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "CMS",
+        "headless",
+        "WordPress",
+        "Strapi",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison infographic business technology",
+        "pexels_query": "vs comparison chart design",
+        "keywords_for_search": [
+          "comparison chart",
+          "vs infographic",
+          "technology comparison"
+        ],
+        "style_notes": "Split-screen comparison design, professional icons, clean typography"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Korzyści headless commerce",
+      "title": "Wykres wpływu szybkości ładowania na konwersję",
+      "description": "Wykres słupkowy pokazujący spadek konwersji w zależności od czasu ładowania strony",
+      "alt_text": "Wykres wpływu czasu ładowania strony na współczynnik konwersji w e-commerce",
+      "prompt": "Clean bar chart showing conversion rate decrease with page loading time, x-axis showing seconds (1s, 2s, 3s, 5s, 7s), y-axis showing conversion percentage, declining blue bars, professional minimalist design, values clearly labeled",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konwersja",
+        "szybkość",
+        "ładowanie",
+        "e-commerce"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business performance chart data visualization",
+        "pexels_query": "analytics chart statistics business",
+        "keywords_for_search": [
+          "performance chart",
+          "conversion statistics",
+          "business analytics"
+        ],
+        "style_notes": "Clean professional chart, can be created with ChartJS or Canva templates"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Narzędzia i platformy headless",
+      "title": "Interfejs Strapi CMS",
+      "description": "Screenshot panelu administracyjnego Strapi pokazujący zarządzanie treścią",
+      "alt_text": "Panel administracyjny Strapi CMS z interfejsem zarządzania treścią headless",
+      "prompt": "Clean screenshot mockup of Strapi CMS admin panel showing content management interface, collection types sidebar, content entries list, modern dark theme UI, professional software interface design, highlighted important navigation elements",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "Strapi",
+        "CMS",
+        "panel",
+        "interfejs"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cms interface dashboard clean modern",
+        "pexels_query": "admin panel software interface",
+        "keywords_for_search": [
+          "CMS dashboard",
+          "admin interface",
+          "content management"
+        ],
+        "style_notes": "Modern software interface, clean design, could use official Strapi screenshots or create mockup"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Proces migracji",
+      "title": "Flowchart procesu migracji na headless",
+      "description": "Schemat krok-po-kroku procesu migracji z tradycyjnego CMS na headless",
+      "alt_text": "Schemat 5-etapowego procesu migracji na architekturę headless",
+      "prompt": "Professional flowchart showing 5-step migration process to headless: 1) Audit, 2) Choose platform, 3) MVP development, 4) Content migration, 5) Full launch. Connected arrows, numbered steps with icons, minimalist design, black gray colors with yellow highlights",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "migracja",
+        "proces",
+        "headless",
+        "implementacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart migration steps",
+        "pexels_query": "workflow diagram professional clean",
+        "keywords_for_search": [
+          "process flowchart",
+          "migration workflow",
+          "step by step diagram"
+        ],
+        "style_notes": "Linear flowchart with numbered steps, professional business style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Koszty i ROI",
+      "title": "Porównanie kosztów - tradycyjny vs headless (5 lat)",
+      "description": "Wykres liniowy porównujący całkowite koszty posiadania przez 5 lat",
+      "alt_text": "Wykres kosztów TCO tradycyjny CMS vs headless przez 5 lat działalności",
+      "prompt": "Professional line chart comparing total cost of ownership over 5 years, two lines - traditional CMS (steeper growth) vs headless (initial higher cost, then slower growth), intersection point around year 2, clean design with legend, values in PLN",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "koszty",
+        "ROI",
+        "porównanie",
+        "TCO"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "financial comparison chart growth business",
+        "pexels_query": "investment roi chart data",
+        "keywords_for_search": [
+          "ROI chart",
+          "cost comparison",
+          "financial growth"
+        ],
+        "style_notes": "Professional financial chart, two contrasting lines, clear intersection point"
+      }
+    }
+  ],
+  "total_count": 7
+}
