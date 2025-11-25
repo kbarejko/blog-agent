@@ -14,37 +14,37 @@
 
 ### Propozycja 1
 
-**Approach:** Skupienie na decyzji między obiema opcjami oraz korzyściach finansowych.
+**Approach:** Fokus na praktyczne narzędzie decyzyjne z konkretnymi parametrami biznesowymi
 
-**Meta Title:** Redesign czy Optymalizacja? Sprawdź, co wybrać
-- Długość: 46 znaków ⚠️
+**Meta Title:** Redesign czy optymalizacja strony? Framework decyzyjny
+- Długość: 54 znaków ✅
 
-**Meta Description:** Poznaj decyzję między redesignem a optymalizacją. Zobacz przykłady ROI i zminimalizuj ryzyko. Sprawdź nasze wskazówki!
-- Długość: 118 znaków ⚠️
+**Meta Description:** Framework decyzyjny dla budżetów 10-30k PLN i zespołów 2-3 osoby. Kiedy wybrać redesign vs optymalizację? 8 kroków + analiza kosztów w 2-3 miesiące.
+- Długość: 148 znaków ✅
 
 ---
 
 ### Propozycja 2
 
-**Approach:** Porównanie kosztów i strategii, z naciskiem na opłacalność.
+**Approach:** Problem-solution approach z naciskiem na identyfikację potrzeb
 
-**Meta Title:** Optymalizacja vs Redesign: Który krok opłacalny?
-- Długość: 48 znaków ⚠️
+**Meta Title:** Strona wymaga zmiany? Porównanie redesign vs optymalizacja
+- Długość: 58 znaków ✅
 
-**Meta Description:** Odkryj, kiedy warto postawić na redesign, a kiedy na optymalizację. Porównanie kosztów i strategii dla Twojej strony.
-- Długość: 117 znaków ⚠️
+**Meta Description:** Sprawdź różnice między redesignem a optymalizacją strony. Budżet 10-30k PLN, realizacja 2-3 miesiące. Poznaj sygnały ostrzegawcze i framework wyboru.
+- Długość: 149 znaków ✅
 
 ---
 
 ### Propozycja 3
 
-**Approach:** Koncentracja na sygnałach ostrzegawczych i decyzjach dotyczących przebudowy strony.
+**Approach:** Fokus na analizę kosztów i rozwiązania hybrydowe dla konkretnych typów firm
 
-**Meta Title:** Strona w przebudowie: Redesign czy optymalizacja?
-- Długość: 49 znaków ⚠️
+**Meta Title:** Koszt redesign vs optymalizacja: przewodnik dla firm
+- Długość: 52 znaków ✅
 
-**Meta Description:** Dowiedz się, kiedy Twoja strona potrzebuje redesignu, a kiedy wystarczy optymalizacja. Poznaj sygnały ostrzegawcze i strategie.
-- Długość: 127 znaków ⚠️
+**Meta Description:** Analiza kosztów redesignu vs optymalizacji dla startupów i scale-upów. Budżet 10-30k PLN, zespół 2-3 osoby. Hybrydowe podejście + etapowa transformacja.
+- Długość: 152 znaków ✅
 
 ---
 
