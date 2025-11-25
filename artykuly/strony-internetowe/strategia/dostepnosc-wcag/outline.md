@@ -125,4 +125,7 @@
 - Pierwsze kroki do podjęcia już dziś
 - Długoterminowa wizja dostępnej firmy
 - Call to action - zachęta do działania
-- Kontakt z ekspertami Digital Vantage --- **Propozycja tytułu H1:** "WCAG dla przedsiębiorców: jak dostępność strony zwiększa sprzedaż i chroni przed karami prawnymi" **Docelowa długość artykułu:** ~2500 słów
+- Kontakt z ekspertami Digital Vantage --- 
+
+**Propozycja tytułu H1:** "WCAG dla przedsiębiorców: jak dostępność strony zwiększa sprzedaż i chroni przed karami prawnymi" 
+**Docelowa długość artykułu:** ~2500 słów

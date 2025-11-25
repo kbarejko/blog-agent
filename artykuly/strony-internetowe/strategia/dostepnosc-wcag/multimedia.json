@@ -1,12 +1,184 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Dostepnosc Wcag",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Dostepnosc Wcag",
-    "prompt": "Professional modern illustration for Dostepnosc Wcag",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Dostępność WCAG w biznesie",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard dostępności i narzędzia WCAG",
+    "alt_text": "Workspace z laptopem pokazującym narzędzia audytu dostępności WCAG i dashboard analytics",
+    "prompt": "Clean minimalist workspace flat lay, laptop displaying accessibility audit dashboard with WCAG compliance metrics, white desk with notebook and yellow pen, smartphone showing mobile accessibility, natural window lighting, muted colors black white gray with yellow accent, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "WCAG",
+      "dostępność",
+      "audyt",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "web accessibility dashboard laptop workspace minimalist",
+      "pexels_query": "computer interface accessibility tools",
+      "keywords_for_search": [
+        "digital accessibility",
+        "web development workspace",
+        "UI dashboard"
+      ],
+      "style_notes": "Minimalist workspace, clean interface design, professional business setting"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - dlaczego dostępność to nie opcja",
+      "title": "Wykres siły nabywczej osób z niepełnosprawnościami",
+      "description": "Wykres słupkowy pokazujący siłę nabywczą osób z niepełnosprawnościami w różnych regionach",
+      "alt_text": "Wykres siły nabywczej osób z niepełnosprawnościami globalnie - 13 bilionów dolarów rocznie",
+      "prompt": "Professional bar chart showing purchasing power of people with disabilities by region, blue and gray bars, clean infographic style, values in trillions USD, minimalist design with white background, business presentation quality",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "niepełnosprawności",
+        "siła nabywcza",
+        "statystyki",
+        "rynek"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "market statistics chart business growth",
+        "pexels_query": "financial data visualization infographic",
+        "keywords_for_search": [
+          "market size chart",
+          "demographics infographic",
+          "business statistics"
+        ],
+        "style_notes": "Clean professional chart design, business presentation style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Czym są wytyczne WCAG - Podstawy WCAG 2.1",
+      "title": "Infografika - 4 zasady WCAG",
+      "description": "Pionowa infografika przedstawiająca 4 główne zasady WCAG z ikonami i opisami",
+      "alt_text": "Infografika 4 zasad WCAG: percepcyjna, obsługiwalna, zrozumiała, solidna z ikonami",
+      "prompt": "Vertical infographic showing 4 WCAG principles: perceivable (eye icon), operable (keyboard icon), understandable (brain icon), robust (shield icon). Clean minimalist design, black text on white background with subtle yellow accents, professional typography",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "WCAG",
+        "zasady",
+        "dostępność",
+        "infografika"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "accessibility principles infographic design",
+        "pexels_query": "web guidelines visual design",
+        "keywords_for_search": [
+          "WCAG infographic",
+          "accessibility principles",
+          "web standards visual"
+        ],
+        "style_notes": "Vertical layout, numbered principles with icons, clean typography"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Jak przeprowadzić audyt - Narzędzia do samodzielnej oceny",
+      "title": "Screenshot narzędzia WAVE Web Accessibility Evaluator",
+      "description": "Zrzut ekranu interfejsu WAVE pokazujący wykryte błędy dostępności na przykładowej stronie",
+      "alt_text": "Interface narzędzia WAVE pokazujący audyt dostępności strony z wykrytymi błędami",
+      "prompt": "Clean screenshot mockup of WAVE Web Accessibility Evaluator interface showing accessibility errors and warnings on a sample webpage, highlighted problem areas, sidebar with error list, professional tool interface design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "WAVE",
+        "audyt dostępności",
+        "narzędzie",
+        "interfejs"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web development tools interface screenshot",
+        "pexels_query": "software testing dashboard computer",
+        "keywords_for_search": [
+          "accessibility testing tool",
+          "web audit interface",
+          "developer tools"
+        ],
+        "style_notes": "Clean software interface, highlighted problem areas, professional tools design"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Implementacja WCAG krok po kroku",
+      "title": "Diagram procesu implementacji WCAG",
+      "description": "Flowchart pokazujący proces wdrażania WCAG od audytu po monitoring",
+      "alt_text": "Diagram procesu implementacji WCAG w 6 krokach od audytu do ciągłego monitoringu",
+      "prompt": "Clean flowchart diagram showing WCAG implementation process: audit → quick wins → medium changes → long-term strategy → testing → monitoring. Connected with arrows, minimalist design, black and gray with yellow highlights, professional infographic style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "implementacja WCAG",
+        "proces",
+        "diagram",
+        "wdrażanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart diagram",
+        "pexels_query": "workflow diagram infographic",
+        "keywords_for_search": [
+          "process diagram",
+          "implementation flowchart",
+          "step by step visual"
+        ],
+        "style_notes": "Clean flowchart design, connected steps with arrows, professional business style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Korzyści biznesowe - Zwiększenie zasięgu i konwersji",
+      "title": "Wykres wzrostu ruchu po wdrożeniu WCAG",
+      "description": "Wykres liniowy pokazujący wzrost ruchu organicznego przed i po wdrożeniu WCAG",
+      "alt_text": "Wykres wzrostu ruchu organicznego o 20% po wdrożeniu standardów dostępności WCAG",
+      "prompt": "Line chart showing organic traffic growth before and after WCAG implementation, blue line with clear upward trend after implementation point, professional design with grid, labeled axes, clean minimalist style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "ruch organiczny",
+        "wzrost",
+        "WCAG",
+        "korzyści"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website analytics growth chart",
+        "pexels_query": "business growth statistics line chart",
+        "keywords_for_search": [
+          "organic traffic chart",
+          "website performance graph",
+          "SEO results visualization"
+        ],
+        "style_notes": "Clean line chart design, clear trend visualization, business analytics style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Najczęstsze bariery dostępności",
+      "title": "Porównanie przed/po - problemy z kontrastem",
+      "description": "Wizualne porównanie przykładu tekstu z złym i dobrym kontrastem kolorów",
+      "alt_text": "Porównanie czytelności tekstu przed i po poprawie kontrastu kolorów zgodnie z WCAG",
+      "prompt": "Side by side comparison showing text readability: left side with poor contrast (light gray text on white), right side with good contrast (dark text on white). Labels showing contrast ratios, checkmarks and X marks, clean educational design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "kontrast",
+        "czytelność",
+        "WCAG",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "text contrast comparison accessibility",
+        "pexels_query": "typography readability before after",
+        "keywords_for_search": [
+          "contrast ratio example",
+          "accessibility comparison",
+          "text readability"
+        ],
+        "style_notes": "Before/after comparison, clear visual difference, educational design"
+      }
+    }
+  ],
+  "total_count": 7
 }
