@@ -1,9 +1,9 @@
 ## Co znajdziesz w artykule?
 
 - **Audyt 15 kluczowych elementów** - praktyczna lista kontrolna, która pomoże Ci ocenić Twoją obecną stronę internetową. Może ujawnić ukryte problemy, które blokują sprzedaż.
-- **Metoda SMART dla celów online** - odkryjesz, jak powiązać cele swojej strony z przychodami firmy. Dowiesz się, jak ustalić [mierzalne KPI](/artykuly/strony-internetowe/strategia/kpi-i-cele), które prawdopodobnie pokażą realny zwrot z inwestycji.
+- **Metoda SMART dla celów online** - odkryjesz, jak powiązać cele swojej strony z przychodami firmy. Dowiesz się, jak ustalić [[mierzalne KPI](/artykuly/strony-internetowe/strategia/kpi-i-cele)](/artykuly/strony-internetowe/strategia/kpi-i-cele), które prawdopodobnie pokażą realny zwrot z inwestycji.
 - **Mapowanie treści do lejka sprzedaży** - znajdziesz praktyczne wskazówki, jak dopasować treści do każdego etapu decyzji klienta, od świadomości problemu po finalizację zakupu.
-- **5 krytycznych integracji biznesowych** - dowiesz się, jak połączyć swoją stronę z CRM, systemami płatności i analityką. Te integracje mogą zautomatyzować procesy i [zwiększyć konwersję](/artykuly/strony-internetowe/strategia/korzysci).
+- **5 krytycznych integracji biznesowych** - dowiesz się, jak połączyć swoją stronę z CRM, systemami płatności i analityką. Te integracje mogą zautomatyzować procesy i [[zwiększyć konwersję](/artykuly/strony-internetowe/strategia/korzysci)](/artykuly/strony-internetowe/strategia/korzysci).
 - **Checklistę pre-launch 23 punktów** - kompletny przewodnik do testowania przed uruchomieniem, który pomoże Ci uniknąć kosztownych błędów.
 
 ## Wprowadzenie - Dlaczego strategia strony internetowej to fundament Twojego biznesu online
@@ -16,7 +16,7 @@ Codziennie wielu przedsiębiorców uruchamia nowe strony internetowe, z nadziej�
 
 Czy brzmi to znajomo? Inwestujesz w najnowsze narzędzia marketingowe, zmieniasz grafiki, poprawiasz treści, a efekty wciąż nie są zadowalające. Problem niekoniecznie leży w braku działań – często robimy zbyt wiele, ale bez jasno określonego planu.
 
-Bez solidnej strategii Twoja strona internetowa może stać się jedynie [kosztowną wizytówką](/artykuly/strony-internetowe/strategia/dlaczego-warto), zamiast maszyną do generowania zysków. Działania są chaotyczne, a budżet rozprasza się na wiele różnych inicjatyw, co sprawia, że zespół nie wie, które zadania są najważniejsze.
+Bez solidnej strategii Twoja strona internetowa może stać się jedynie [[kosztowną wizytówką](/artykuly/strony-internetowe/strategia/dlaczego-warto)](/artykuly/strony-internetowe/strategia/dlaczego-warto), zamiast maszyną do generowania zysków. Działania są chaotyczne, a budżet rozprasza się na wiele różnych inicjatyw, co sprawia, że zespół nie wie, które zadania są najważniejsze.
 
 Dobrze przemyślana strategia strony internetowej może zwiększyć konwersję nawet o 200-300%. Firmy z jasno określonymi celami i spójnie prowadzoną komunikacją zazwyczaj osiągają średnio 5 razy wyższy zwrot z inwestycji w działania digitalowe niż te, które działają bez planu.
 
