@@ -1,14 +1,14 @@
 ## Checklist: Wdrażanie KPI i celów dla strony internetowej
 
-- [ ] Określ 1-3 główne cele biznesowe według zasady SMART (konkretne wartości liczbowe, precyzyjne terminy realizacji, wymierne efekty)
-- [ ] Zainstaluj Google Analytics 4 na swojej witrynie i skonfiguruj kluczowe wydarzenia konwersji (wysłanie formularza, połączenie telefoniczne, finalizacja zamówienia)
-- [ ] Wybierz podstawowy wskaźnik sukcesu (KPI) - może to być koszt akwizycji klienta, wskaźnik konwersji albo średnia wartość transakcji
-- [ ] Wdróż narzędzie do analizy zachowań odwiedzających (Hotjar lub Microsoft Clarity wydają się najlepszymi opcjami)
-- [ ] Przygotuj comiesięczny raport zawierający 5 najistotniejszych metryk dostosowanych do specyfiki Twojego biznesu
-- [ ] Wykryj największe "wąskie gardło" w procesie konwersji użytkowników na Twojej stronie
-- [ ] Skonfiguruj automatyczne alerty w GA4 informujące o spadku ruchu przekraczającym 20% lub wzroście konwersji ponad 30%
-- [ ] Zaplanuj pierwszy test A/B kluczowego elementu witryny (główny nagłówek, przycisk call-to-action lub formularz kontaktowy)
-- [ ] Wylicz aktualny koszt pozyskania jednego klienta za pośrednictwem strony internetowej (uwzględniając ruch organiczny i płatne kampanie)
-- [ ] Ustaw docelowy przyrost głównego KPI na nadchodzące 3 miesiące (przykładowo: wzrost konwersji o 25%)
-- [ ] Zarezerwuj pół godziny tygodniowo na interpretację danych i planowanie działań optymalizacyjnych
-- [ ] Opracuj przejrzysty system dokumentowania modyfikacji strony oraz ich rzeczywistego wpływu na współczynniki konwersji
+- [ ] Przeanalizuj dokładnie swoją obecną aktywność online i znajdź wszystkie punkty, w których odwiedzający mogą wykonać konkretne działanie - formularz kontaktowy, numer telefonu, zapisywanie się do newslettera czy proces zakupowy
+- [ ] Określ jeden, główny cel biznesowy dla swojej strony (przykładowo: "chcemy pozyskać 25% więcej nowych klientów B2B w ciągu najbliższych 6 miesięcy")
+- [ ] Przepisz ten główny cel według metodologii SMART i wylicz, ile dokładnie konwersji miesięcznie będziesz potrzebować, żeby go osiągnąć
+- [ ] Zainstaluj Google Analytics 4 i skonfiguruj przynajmniej 3 najważniejsze zdarzenia konwersji - może to być wysyłka formularza, pobieranie cennika czy wykonanie połączenia telefonicznego
+- [ ] Ustaw te zdarzenia w GA4 jako konwersje i sprawdź przez minimum tydzień, czy wszystkie dane napływają prawidłowo
+- [ ] Oblicz swój obecny współczynnik konwersji (liczba konwersji podzielona przez liczbę użytkowników, razy 100) - będzie to punkt wyjścia do dalszych analiz
+- [ ] Wybierz 3-5 kluczowych wskaźników do cotygodniowego monitorowania i przygotuj prosty arkusz kalkulacyjny do ich śledzenia
+- [ ] Wdróż narzędzie analizujące zachowania użytkowników - Hotjar czy Microsoft Clarity sprawdzą się doskonale na najważniejszych stronach konwersji
+- [ ] Skonfiguruj automatyczny raport w GA4 z najważniejszymi metrykami, który będzie wysyłany na email raz w tygodniu
+- [ ] Znajdź największe "dziury" w ścieżce konwersji, czyli strony z najwyższym współczynnikiem odejść, i zaplanuj pierwsze ulepszenia
+- [ ] Ustal minimalny próg ruchu oraz czas niezbędny do wiarygodnego testowania zmian - zazwyczaj to minimum 100 konwersji miesięcznie lub 4 tygodnie gromadzenia danych
+- [ ] Zaplanuj pierwsze spotkanie przeglądowe wyników za 4 tygodnie i od razu wpisz je do swojego kalendarza
