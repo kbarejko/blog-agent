@@ -2,7 +2,7 @@
 
 - **Architektura headless** - Zastanawiasz się, jak rozdzielenie frontendu od backendu może zwiększyć elastyczność Twojej firmy? Okazuje się, że takie podejście pozwala na jednoczesne prezentowanie treści na różnych kanałach. To prawdziwy game-changer!
 
-- **Headless CMS vs tradycyjny** - Tradycyjne systemy, jak WordPress, mogą ograniczać rozwój biznesu. Czy wiesz, kiedy przejście na headless może przynieść wymierne korzyści? Sprawdź, co warto wziąć pod uwagę przy podejmowaniu tej decyzji.
+- **Headless CMS vs tradycyjny** - [Tradycyjne systemy, jak WordPress, mogą ograniczać rozwój biznesu](/artykuly/strony-internetowe/technologie/cms-wordpress-vs-headless). Czy wiesz, kiedy przejście na headless może przynieść wymierne korzyści? Sprawdź, co warto wziąć pod uwagę przy podejmowaniu tej decyzji.
 
 - **Headless commerce** - Czy pełna kontrola nad doświadczeniem klienta to coś, co Cię interesuje? Dowiedz się, jak to wpływa na szybsze ładowanie sklepu, lepsze SEO i wyższe konwersje. Może to być dokładnie to, czego potrzebujesz!
 
