@@ -1,14 +1,14 @@
-## Checklist: Wdrażanie WCAG w Twojej firmie
+## Checklist: Wdrożenie WCAG w Twojej firmie
 
-- [ ] Przeprowadź podstawowy audyt swojej strony używając bezpłatnych narzędzi jak WAVE czy axe DevTools. Zapisz najważniejsze problemy, które odkryjesz – to będzie twoja mapa drogowa do poprawy
-- [ ] Sprawdź kontrast kolorów na całej witrynie za pomocą narzędzi online. Popraw wszystkie miejsca, gdzie kontrast spadnie poniżej 4.5:1 – może się okazać, że szary tekst na białym tle nie jest wcale tak czytelny, jak myślałeś
-- [ ] Dodaj przemyślane opisy alternatywne do wszystkich grafik, logo i ikon. Pamiętaj, że tekst alt powinien opisywać funkcję, nie wygląd – zamiast "czerwone logo" napisz "logo firmy XYZ"
-- [ ] Przetestuj nawigację wyłącznie klawiaturą – odłóż mysz i spróbuj poruszać się po stronie używając Tab, Enter i strzałek. Wszystkie funkcje powinny być dostępne również w ten sposób
-- [ ] Uporządkuj strukturę nagłówków w logicznej kolejności H1→H2→H3. Każda strona powinna mieć dokładnie jeden H1 – to fundament, na którym czytniki ekranu budują mapę treści
-- [ ] Zadbaj o czytelne etykiety w formularzach i przemyślane komunikaty o błędach. Użytkownik powinien od razu wiedzieć, co wypełnił nieprawidłowo i jak to naprawić
-- [ ] Pobierz darmowy czytnik ekranu NVDA i przetestuj swoją stronę. Na początku może wydawać się to dziwne, ale szybko zrozumiesz, jak osoby niewidzące odbierają twoją treść
-- [ ] Upewnij się, że materiały wideo mają napisy lub transkrypcję, a automatyczne odtwarzanie jest wyłączone. Nagłe dźwięki mogą być problematyczne dla wielu użytkowników
-- [ ] Stwórz realny plan napraw – prawdopodobnie nie załatwisz wszystkiego za jednym razem. Zacznij od problemów krytycznych, które blokują dostęp do najważniejszych funkcji
-- [ ] Oszacuj koszt wdrożenia i znajdź partnera technicznego z prawdziwym doświadczeniem w dostępności. Warto zapytać o konkretne projekty, które wcześniej realizował
-- [ ] Zaplanuj regularne przeglądy dostępności co 6 miesięcy i włącz testy WCAG do rutynowego procesu aktualizacji. To może wydawać się dodatkowym obciążeniem, ale w długiej perspektywie oszczędzi ci problemów
-- [ ] Przygotuj swój zespół – wyznacz konkretną osobę odpowiedzialną za dostępność i zorganizuj podstawowe szkolenie dla redaktorów. Najlepsze rozwiązania techniczne nie pomogą, jeśli treści będą tworzone bez świadomości potrzeb użytkowników
+- [ ] Przeprowadź kompleksowy audyt dostępności swojej strony wykorzystując bezpłatne rozszerzenia przeglądarki - axe lub WAVE sprawdzą się doskonale do pierwszej oceny
+- [ ] Zweryfikuj kontrast kolorów używając walidatora kontrastu. Wszystkie elementy tekstowe powinny osiągnąć minimum 4.5:1, choć wyższe wartości znacznie poprawią czytelność
+- [ ] Uzupełnij opisowe teksty alternatywne dla obrazów niosących informacje merytoryczne. Pamiętaj - obrazy dekoracyjne mogą mieć pusty atrybut alt=""
+- [ ] Przetestuj całkowitą funkcjonalność strony używając wyłącznie klawiatury. Przejście przez formularz kontaktowy czy menu główne powinno być płynne i intuicyjne
+- [ ] Uporządkuj strukturę nagłówków zgodnie z logiczną hierarchią - jeden H1 na stronie, następnie H2, H3 bez przeskoków między poziomami
+- [ ] Wyposażyć wszystkie pola formularzy w jednoznaczne etykiety oraz komunikaty błędów. Użytkownik musi wiedzieć, co wypełnił nieprawidłowo i jak to naprawić
+- [ ] Uruchom czytnik ekranu NVDA i przesłuchaj kluczowe sekcje strony. To może być prawdziwe objawienie - niektóre elementy mogą okazać się kompletnie nieczytelne
+- [ ] Sprawdź multimedia z automatycznym odtwarzaniem. Film prezentujący firmę nie powinien startować bez zgody użytkownika, a możliwość zatrzymania musi być łatwo dostępna
+- [ ] Zastąp ogólne teksty linków konkretnymi opisami. Zamiast "kliknij tutaj" użyj "pobierz katalog produktów PDF" lub "zapisz się na webinar o RODO"
+- [ ] Zaimplementuj odpowiednie znaczniki ARIA dla interaktywnych komponentów. Rozwijane menu, datepickery czy slajdery wymagają dodatkowych informacji dla technologii asystujących
+- [ ] Ustanów procedury kontroli dostępności przed publikacją nowych treści. Każda aktualizacja strony powinna przejść przez podstawowe testy
+- [ ] Zarezerwuj budżet na profesjonalne audyty dostępności przeprowadzane co 6-12 miesięcy. Regularne przeglądy pozwolą uniknąć kosztownych poprawek w przyszłości
