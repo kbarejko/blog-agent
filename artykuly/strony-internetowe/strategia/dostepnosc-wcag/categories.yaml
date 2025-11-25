@@ -1,17 +1,17 @@
 categories:
-- slug: firma
-  title: Firma
-  path: firma
-- slug: strategia-it
-  title: Strategia IT
-  path: strategia-it
-- slug: projektowanie-ux-ui
-  title: Projektowanie UX/UI
-  path: strony-internetowe/projektowanie-ux-ui
 - slug: strony-internetowe
   title: Strony Internetowe
   path: strony-internetowe
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
 - slug: seo-i-optymalizacja-stron
   title: SEO i Optymalizacja Stron
   path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
 count: 5
