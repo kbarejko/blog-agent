@@ -1,12 +1,210 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Przewodnik",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Przewodnik",
-    "prompt": "Professional modern illustration for Przewodnik",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Strategia strony internetowej",
+    "description": "Minimalistyczna kompozycja 3D z laptopem wyświetlającym dashboard strategii online i elementami planowania",
+    "alt_text": "Laptop z dashboardem strategii internetowej na minimalistycznym biurku z notatkami planowania",
+    "prompt": "3D render composition, laptop displaying web strategy dashboard with analytics charts and planning elements, floating geometric shapes around, minimalist design on light gray background, black white gray color scheme with subtle yellow accents, clean professional tech aesthetic, high quality render, no people",
+    "keywords": [
+      "strategia internetowa",
+      "planowanie online",
+      "dashboard",
+      "biznes online"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business strategy planning workspace laptop dashboard",
+      "pexels_query": "digital strategy planning minimalist desk",
+      "keywords_for_search": [
+        "business planning workspace",
+        "strategy dashboard",
+        "minimal office setup"
+      ],
+      "style_notes": "Minimalist workspace flat lay, no people, clean desk with laptop and planning materials, natural lighting"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - Dlaczego strategia strony internetowej to fundament",
+      "title": "Wykres wzrostu konwersji dzięki strategii",
+      "description": "Wykres słupkowy porównujący konwersje firm z strategią vs bez strategii",
+      "alt_text": "Wykres porównania konwersji firm z przemyślaną strategią internetową i bez niej",
+      "prompt": "Clean comparison bar chart showing conversion rates, two groups: 'Z strategią' vs 'Bez strategii', blue and gray bars, professional infographic style, minimalist design, values in percentages, white background with subtle grid",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "konwersja",
+        "strategia internetowa",
+        "ROI",
+        "efektywność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart comparison statistics",
+        "pexels_query": "data visualization business analytics",
+        "keywords_for_search": [
+          "conversion rate chart",
+          "business comparison graph",
+          "growth statistics"
+        ],
+        "style_notes": "Clean professional chart, comparison bars, could use Canva templates or generate with ChartJS"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Analiza sytuacji wyjściowej - Audyt obecnej strony",
+      "title": "Checklist audytu strony - 15 elementów",
+      "description": "Infografika checklist z 15 kluczowymi elementami audytu strony internetowej",
+      "alt_text": "Checklist audytu strony internetowej z 15 kluczowymi elementami do sprawdzenia",
+      "prompt": "Vertical checklist infographic showing 15 website audit elements, checkbox icons, numbered list format, professional clean design, black and white with yellow checkmark highlights, minimal flat design style, easy to scan layout",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "audyt strony",
+        "checklist",
+        "analiza witryny",
+        "kontrola jakości"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website audit checklist infographic minimalist",
+        "pexels_query": "business checklist design template",
+        "keywords_for_search": [
+          "audit checklist design",
+          "numbered list infographic",
+          "website analysis visual"
+        ],
+        "style_notes": "Vertical checklist design with checkboxes, numbered items, clean typography. Canva has excellent templates."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Definiowanie celów biznesowych - SMART cele",
+      "title": "Diagram metodyki SMART dla celów online",
+      "description": "Schemat kółkowy pokazujący 5 elementów metodyki SMART w kontekście celów internetowych",
+      "alt_text": "Diagram metodyki SMART dla ustalania celów strony internetowej i biznesu online",
+      "prompt": "Circular diagram showing SMART methodology for online business goals, 5 connected elements: Specific, Measurable, Achievable, Relevant, Time-bound, center logo area, clean professional infographic style, blue and gray color scheme with yellow accents",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "cele SMART",
+        "metodyka",
+        "planowanie biznesowe",
+        "KPI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "SMART goals methodology diagram circular",
+        "pexels_query": "business planning methodology infographic",
+        "keywords_for_search": [
+          "SMART goals visual",
+          "business methodology diagram",
+          "goal setting infographic"
+        ],
+        "style_notes": "Circular or flowchart design showing 5 SMART elements, professional business infographic style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Planowanie architektury informacji - Lejek sprzedażowy",
+      "title": "Mapa treści w lejku sprzedażowym",
+      "description": "Schemat przepływu pokazujący dopasowanie treści do 3 etapów lejka sprzedażowego",
+      "alt_text": "Schemat mapowania treści do etapów lejka sprzedażowego od świadomości po decyzję",
+      "prompt": "Funnel flowchart diagram showing content mapping to sales stages: Awareness, Consideration, Decision. Each stage with content types and arrows flowing down, professional infographic style, clean lines, blue gradient funnel shape",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "lejek sprzedażowy",
+        "content marketing",
+        "mapowanie treści",
+        "customer journey"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "sales funnel diagram content marketing",
+        "pexels_query": "marketing funnel infographic business",
+        "keywords_for_search": [
+          "sales funnel visual",
+          "content mapping diagram",
+          "customer journey flowchart"
+        ],
+        "style_notes": "Funnel-shaped diagram with 3 stages, arrows showing flow, content types listed for each stage"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "comparison_table",
+      "section": "Wybór rozwiązań technicznych - CMS, hosting",
+      "title": "Porównanie platform CMS - WordPress vs Drupal vs Webflow",
+      "description": "Tabela porównawcza trzech popularnych platform CMS z ocenami w różnych kategoriach",
+      "alt_text": "Tabela porównania WordPress Drupal Webflow pod kątem łatwości użycia ceny i funkcji",
+      "prompt": "Clean comparison table showing WordPress vs Drupal vs Webflow, rating stars for categories like ease of use, cost, SEO features, customization, professional table design, minimal styling with subtle borders",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "porównanie CMS",
+        "WordPress",
+        "Drupal",
+        "Webflow"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software comparison table professional design",
+        "pexels_query": "business comparison chart template",
+        "keywords_for_search": [
+          "CMS comparison table",
+          "software evaluation chart",
+          "platform comparison visual"
+        ],
+        "style_notes": "Clean table design with star ratings, professional business style, easy to scan layout"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Monitorowanie rezultatów - Google Analytics",
+      "title": "Dashboard Google Analytics 4 dla e-commerce",
+      "description": "Screenshot przykładowego dashboardu GA4 z kluczowymi metrykami dla sklepu internetowego",
+      "alt_text": "Dashboard Google Analytics 4 z metrykami konwersji i ruchu dla sklepu e-commerce",
+      "prompt": "Clean mockup of Google Analytics 4 dashboard showing e-commerce metrics, conversion rates, traffic sources, professional interface design, realistic but anonymized data, highlighted key metrics areas",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Google Analytics",
+        "dashboard",
+        "metryki e-commerce",
+        "analityka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard interface mockup",
+        "pexels_query": "web analytics dashboard screenshot",
+        "keywords_for_search": [
+          "analytics dashboard",
+          "GA4 interface",
+          "web metrics screenshot"
+        ],
+        "style_notes": "Professional interface screenshot or mockup, could use GA4 demo account or create mockup in Figma"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "timeline",
+      "section": "Implementacja i wdrażanie strategii - Harmonogram",
+      "title": "Timeline wdrażania strategii - 3 fazy",
+      "description": "Oś czasu pokazująca 3 fazy wdrażania strategii z kluczowymi milestone'ami",
+      "alt_text": "Timeline wdrażania strategii strony internetowej w 3 fazach po 6-8 tygodni każda",
+      "prompt": "Horizontal timeline infographic showing 3 implementation phases over 18-24 weeks, milestone markers, phase descriptions, professional project management style, blue and gray color scheme, clean linear design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "harmonogram wdrożenia",
+        "timeline",
+        "fazy projektu",
+        "implementacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "project timeline infographic professional",
+        "pexels_query": "business project phases timeline",
+        "keywords_for_search": [
+          "project timeline visual",
+          "implementation phases",
+          "business roadmap timeline"
+        ],
+        "style_notes": "Horizontal timeline with 3 distinct phases, milestone markers, professional project management aesthetic"
+      }
+    }
+  ],
+  "total_count": 8
 }

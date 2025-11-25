@@ -3,27 +3,27 @@
 ### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiące:
 
 **Pierwsze kroki:**
-1. **Przeprowadź audyt obecnej strony internetowej** - skorzystaj z checklisty, aby zidentyfikować główne problemy i potencjalne obszary do poprawy.
-2. **Ustal mierzalne cele SMART dla strony** - zdefiniuj konkretne KPI, które chcesz osiągnąć, np. zwiększenie liczby leadów o 30% w ciągu pół roku.
-3. **Zbuduj zespół projektowy** - określ, jakie zasoby i umiejętności będą potrzebne do realizacji strategii (np. specjalista SEO, analityk danych).
+1. **Przeprowadź audyt obecnej strony** - zidentyfikuj kluczowe problemy i obszary do poprawy.
+2. **Ustal SMART cele dla swojej strony** - określ mierzalne KPI i zdefiniuj, jak strona ma wspierać cele biznesowe.
+3. **Zaplanuj mapowanie treści do lejka sprzedażowego** - dostosuj treści do różnych etapów ścieżki zakupowej klienta.
 
 **Przydatne narzędzia:**
-- Google PageSpeed Insights - do analizy szybkości ładowania strony i identyfikacji obszarów do optymalizacji.
-- Ahrefs - do analizy SEO i identyfikacji słów kluczowych.
+- Google PageSpeed Insights - ocena wydajności strony
+- Ahrefs lub Semrush - analiza słów kluczowych i konkurencji
 
 **Potrzebujesz pomocy?**
-- [Umów bezpłatną konsultację](#) - omówimy Twój case i pomożemy zaplanować wdrożenie.
-- [Pobierz RFP template](#) - gotowy brief do wysłania do agencji/dostawców.
+- [Umów bezpłatną konsultację]({{LINK}}) - omówimy Twój case i pomożemy zaplanować wdrożenie
+- [Pobierz RFP template]({{LINK}}) - gotowy brief do wysłania do agencji/dostawców
 
 ### 📚 Jeśli jeszcze zbierasz wiedzę:
 
 **Polecane artykuły:**
-- [Pozycjonowanie SEO](/artykuly/strony-internetowe/strategia/pozycjonowanie-seo) - dowiedz się, jak poprawić widoczność swojej strony w wynikach wyszukiwania.
-- [Dostępność WCAG](/artykuly/strony-internetowe/strategia/dostepnosc-wcag) - zrozum, jak zapewnić dostępność strony dla wszystkich użytkowników.
-- [KPI i Cele](/artykuly/strony-internetowe/strategia/kpi-i-cele) - naucz się definiować i mierzyć cele biznesowe dla swojej strony.
+- [Dostępność WCAG](/artykuly/strony-internetowe/strategia/dostepnosc-wcag) - dowiedz się, jak dostosować stronę do potrzeb osób niepełnosprawnych
+- [KPI i Cele](/artykuly/strony-internetowe/strategia/kpi-i-cele) - odkryj, jak mierzyć sukces swojej strategii online
+- [Korzyści](/artykuly/strony-internetowe/strategia/korzysci) - poznaj, jakie korzyści przynosi dobrze zaplanowana strategia strony
 
 **Zasoby:**
-- [Subskrybuj newsletter](#) - 1 artykuł/tydzień, konkretna wiedza bez spamu.
-- [Dołącz do webinaru](#) - live Q&A z ekspertami.
+- [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu
+- [Dołącz do webinaru]({{LINK}}) - live Q&A z ekspertami
 
 💡 **Wskazówka:** Sukces wdrożenia strategii strony internetowej to w 70% change management, a w 30% technologia. Zadbaj o komunikację, szkolenia i buy-in od zespołu od pierwszego dnia.
