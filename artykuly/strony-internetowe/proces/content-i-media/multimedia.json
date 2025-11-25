@@ -1,12 +1,184 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Content I Media",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Content I Media",
-    "prompt": "Professional modern illustration for Content I Media",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Content & Media strategy",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard content marketingu",
+    "alt_text": "Minimalistyczne biurko z laptopem wyświetlającym dashboard content marketingu i analytics",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying content marketing dashboard with analytics charts and content calendar, white wooden desk, notebook with yellow pen, smartphone, coffee cup, natural daylight from window, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "content marketing",
+      "dashboard",
+      "workspace",
+      "strategia treści"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "content marketing workspace laptop dashboard analytics",
+      "pexels_query": "digital marketing workspace computer analytics",
+      "keywords_for_search": [
+        "content strategy workspace",
+        "marketing analytics desk",
+        "business laptop dashboard"
+      ],
+      "style_notes": "Minimalist workspace, clean composition, natural lighting, professional business aesthetic"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Mapowanie contentu do customer journey",
+      "title": "Diagram customer journey z typami contentu",
+      "description": "Flowchart pokazujący 3 etapy customer journey z przypisanymi typami treści",
+      "alt_text": "Diagram customer journey: świadomość, rozważanie, decyzja z przypisanymi typami contentu",
+      "prompt": "Clean horizontal flowchart diagram showing 3-stage customer journey: Awareness (blog articles, guides), Consideration (case studies, comparisons), Decision (testimonials, demos). Minimalist design, arrows connecting stages, icons for each content type, black and gray colors with yellow highlights, white background, professional infographic style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "customer journey",
+        "content mapping",
+        "strategia treści",
+        "etapy sprzedaży"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "customer journey mapping diagram flowchart",
+        "pexels_query": "business process diagram flowchart",
+        "keywords_for_search": [
+          "customer journey infographic",
+          "sales funnel diagram",
+          "marketing process chart"
+        ],
+        "style_notes": "Horizontal flowchart, clean design, professional business infographic style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Copywriting zorientowany na konwersje",
+      "title": "Wykres wpływu jakości contentu na konwersje",
+      "description": "Wykres słupkowy pokazujący różnice w konwersji między treściami podstawowymi a przemyślanymi",
+      "alt_text": "Wykres porównania konwersji: treści podstawowe vs przemyślane treści w content marketingu",
+      "prompt": "Clean bar chart comparing conversion rates: basic content (2-3%) vs strategic content (12-18%), professional infographic style, blue and yellow bars, clear labels in Polish, minimalist design, white background, business presentation style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "konwersje",
+        "content marketing",
+        "ROI treści",
+        "skuteczność contentu"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart conversion rate analytics",
+        "pexels_query": "marketing analytics chart statistics",
+        "keywords_for_search": [
+          "conversion rate chart",
+          "marketing roi graph",
+          "business analytics visualization"
+        ],
+        "style_notes": "Clean bar chart, professional business style, could be created with Canva or ChartJS"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Strategia fotografii biznesowej",
+      "title": "Infografika - Sesja profesjonalna vs zdjęcia stock",
+      "description": "Porównanie kosztów i korzyści profesjonalnej sesji zdjęciowej vs zdjęć stockowych",
+      "alt_text": "Infografika porównująca sesję fotograficzną i zdjęcia stockowe: koszty, jakość, unikalność",
+      "prompt": "Split comparison infographic showing professional photo session vs stock photos. Left side: camera icon, 3-8k PLN cost, unique images. Right side: stock icon, 50 PLN per photo, generic look. Clean design, icons for each point, gray and yellow color scheme, professional layout",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "fotografia biznesowa",
+        "sesja zdjęciowa",
+        "zdjęcia stock",
+        "koszty fotografii"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "photography equipment business comparison infographic",
+        "pexels_query": "professional photography vs stock photos",
+        "keywords_for_search": [
+          "photography business infographic",
+          "cost comparison chart",
+          "professional vs stock"
+        ],
+        "style_notes": "Split comparison layout, use icons and clear cost breakdowns"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Planowanie i tworzenie contentu tekstowego",
+      "title": "Screenshot narzędzi content planowania",
+      "description": "Interfejs narzędzia do planowania treści (Trello, Notion lub kalendarz content)",
+      "alt_text": "Interfejs narzędzia do planowania contentu z kalendarzem publikacji i statusami artykułów",
+      "prompt": "Clean screenshot mockup of content planning tool interface showing editorial calendar with article titles, publication dates, and status columns (draft, review, published), modern UI design, organized layout, highlighted important elements",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "planowanie treści",
+        "kalendarz publikacji",
+        "content management",
+        "narzędzia content"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "content planning tool interface calendar",
+        "pexels_query": "project management software dashboard",
+        "keywords_for_search": [
+          "editorial calendar interface",
+          "content management dashboard",
+          "planning tool screenshot"
+        ],
+        "style_notes": "Clean interface design, organized layout, modern software UI aesthetic"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Pomiar efektywności contentu",
+      "title": "Wykres ROI content marketingu w czasie",
+      "description": "Wykres liniowy pokazujący wzrost ROI z content marketingu w perspektywie 12 miesięcy",
+      "alt_text": "Wykres wzrostu ROI content marketingu przez pierwsze 12 miesięcy wdrażania strategii",
+      "prompt": "Clean line chart showing content marketing ROI growth over 12 months, starting negative and becoming positive around month 6, reaching 300% ROI by month 12, professional business chart style, blue line with data points, gray background grid",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "ROI content marketing",
+        "zwrot z inwestycji",
+        "metryki contentu",
+        "skuteczność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart timeline roi analytics",
+        "pexels_query": "financial growth chart line graph",
+        "keywords_for_search": [
+          "roi growth chart",
+          "business analytics timeline",
+          "marketing return investment"
+        ],
+        "style_notes": "Professional line chart showing growth over time, business presentation style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Outsourcing vs. in-house",
+      "title": "Porównanie modeli współpracy przy contencie",
+      "description": "Tabela porównawcza outsourcing vs in-house z kosztami i korzyściami",
+      "alt_text": "Tabela porównująca outsourcing i zatrudnienie in-house copywritera: koszty, korzyści, wady",
+      "prompt": "Clean comparison table showing outsourcing vs in-house content creation. Two columns with icons, costs (3-5k PLN vs 8-12k PLN), pros and cons for each approach, professional infographic style, gray and yellow accents, organized layout",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "outsourcing contentu",
+        "copywriter in-house",
+        "koszty content marketing",
+        "model współpracy"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business decision comparison table outsourcing",
+        "pexels_query": "business model comparison chart",
+        "keywords_for_search": [
+          "outsourcing vs inhouse infographic",
+          "business model comparison",
+          "cost benefit analysis"
+        ],
+        "style_notes": "Clean comparison table layout, professional business infographic style"
+      }
+    }
+  ],
+  "total_count": 7
 }

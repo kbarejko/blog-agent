@@ -1,27 +1,29 @@
 ## Co dalej?
 
-### 🎯 Oceń czy Content I Media jest dla Ciebie:
+### ✅ Jeśli planujesz wdrożenie w najbliższych 2-3 miesiące:
 
-**Odpowiedz na te pytania:**
-- [ ] Czy twoje obecne treści generują zbyt mało konwersji?
-- [ ] Czy masz budżet 10,000-30,000 PLN na wdrożenie strategii contentowej w ciągu 2-3 miesięcy?
-- [ ] Czy posiadasz zespół (lub planujesz go zbudować) do realizacji strategii contentowej?
+**Pierwsze kroki:**
+1. **Przeprowadź audyt obecnych treści** - sprawdź, które treści są skuteczne i które wymagają aktualizacji.
+2. **Zdefiniuj cele content marketingowe** - określ, jakie metryki chcesz poprawić (np. konwersje, ruch organiczny).
+3. **Zbuduj zespół projektowy** - zdecyduj, kto będzie odpowiedzialny za tworzenie i zarządzanie treściami.
 
-Jeśli odpowiedziałeś "tak" na 2+ pytania, Content I Media może być odpowiednim rozwiązaniem dla Twojego biznesu.
+**Przydatne narzędzia:**
+- Google Analytics - do monitorowania efektywności treści i ruchu na stronie.
+- SEMrush - do analizy konkurencji i planowania strategii SEO.
 
-### 📖 Pogłęb wiedzę:
+**Potrzebujesz pomocy?**
+- [Umów bezpłatną konsultację]({{LINK}}) - omówimy Twój case i pomożemy zaplanować wdrożenie
+- [Pobierz RFP template]({{LINK}}) - gotowy brief do wysłania do agencji/dostawców
 
-**Następne kroki lektury:**
-1. **[Brief](/artykuly/strony-internetowe/proces/brief)** - dowiedz się, jak skutecznie przygotować brief dla agencji contentowej
-2. **[Integracje ERP w e-commerce](link)** - dowiesz się, jak połączyć platformę z systemem magazynowym
+### 📚 Jeśli jeszcze zbierasz wiedzę:
 
-**Praktyczne zasoby:**
+**Polecane artykuły:**
+- [Publikacja](/artykuly/strony-internetowe/proces/publikacja) - dowiedz się, jak efektywnie publikować treści na stronie
+- [Projektowanie Ux Ui](/artykuly/strony-internetowe/proces/projektowanie-ux-ui) - zrozum, jak projektowanie UX/UI wpływa na odbiór contentu
+- [Wireframing](/artykuly/strony-internetowe/proces/wireframing) - poznaj podstawy planowania struktury strony
+
+**Zasoby:**
 - [Subskrybuj newsletter]({{LINK}}) - 1 artykuł/tydzień, konkretna wiedza bez spamu
 - [Dołącz do webinaru]({{LINK}}) - live Q&A z ekspertami
 
-### 💬 Potrzebujesz pomocy w podjęciu decyzji?
-
-- [Umów konsultację]({{LINK}}) - omówimy Twój case i pomożemy wybrać najlepsze rozwiązanie
-- [Wypełnij ankietę potrzeb]({{LINK}}) - dostaniesz spersonalizowane rekomendacje
-
-⚠️ **Ważne:** Content I Media to inwestycja, która wymaga odpowiedniego planowania i analizy. Zalecamy konsultację z ekspertem przed podjęciem decyzji, aby maksymalnie wykorzystać potencjał treści w Twojej firmie.
+⚠️ **Ważne:** Content I Media to inwestycja, która wymaga przemyślanej strategii i zaangażowania zespołu. Nie spiesz się z decyzjami – dobrze przemyślany plan pozwoli uniknąć kosztownych błędów w przyszłości.

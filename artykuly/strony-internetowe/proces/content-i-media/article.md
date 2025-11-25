@@ -6,7 +6,6 @@
 - **ROI content marketingu** - Odkryjesz, jakie metryki i narzędzia mogą pomóc w mierzeniu zwrotu z inwestycji w treści. To pozwoli Ci podejmować bardziej świadome decyzje biznesowe.
 - **Model outsourcing vs. in-house** - Otrzymasz jasne wskazówki, które pomogą Ci zdecydować, czy lepiej zatrudnić copywriterów wewnętrznie, czy współpracować z agencjami. Dowiesz się także, jak efektywnie planować budżet na długoterminową strategię contentową.
 
-```markdown
 ## Wprowadzenie
 
 # Content I Media
@@ -22,7 +21,6 @@ Jakość treści ma bezpośredni wpływ na konwersje. Strony, które oferują st
 Niestety, wielu przedsiębiorców popełnia podstawowe błędy. Postrzegają content jako koszt zamiast inwestycji, kopiują treści od konkurencji lub tworzą je w pośpiechu. Często używają zdjęć z banków obrazów, zamiast pokazać prawdziwą twarz firmy. Ignorują potrzeby klientów, skupiając się wyłącznie na sobie.
 
 Ten artykuł to [praktyczny przewodnik po strategii content & media](/artykuly/strony-internetowe/proces/brief). Dowiesz się, [jak planować treści, które wspierają sprzedaż](/artykuly/strony-internetowe/proces/brief), kiedy warto zainwestować w profesjonalne zdjęcia, oraz czy video jest konieczne w Twojej branży. Pokażemy także, jak mierzyć skuteczność contentu i kiedy warto zlecić go na zewnątrz.
-```
 
 ## Strategia contentu - od celów biznesowych do treści
 
