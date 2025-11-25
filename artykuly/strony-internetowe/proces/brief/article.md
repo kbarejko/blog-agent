@@ -1,6 +1,6 @@
 ## Co znajdziesz w artykule?
 
-- **Szablon do pobrania** - Przygotowaliśmy dla Ciebie gotowy szablon briefu z checklistą, który od razu możesz wykorzystać, planując swoją stronę internetową.
+- **Szablon do pobrania** - Przygotowaliśmy dla Ciebie [gotowy szablon briefu](/artykuly/strony-internetowe/proces/content-i-media) z checklistą, który od razu możesz wykorzystać, planując swoją stronę internetową.
 - **Konkretne metryki sukcesu** - Jak przekształcić ogólne cele, takie jak "ładna strona", w mierzalne KPI, które rzeczywiście mogą wpłynąć na wzrost sprzedaży.
 - **Oszczędność 30-50% budżetu** - Dowiedz się, dlaczego dobrze przygotowany brief może pomóc uniknąć kosztownych poprawek i przeciągania terminów.
 - **Analiza must-have vs nice-to-have** - Praktyczne podejście do ustalania priorytetów funkcjonalności, dzięki któremu nie przepłacisz za zbędne rozwiązania.
@@ -10,11 +10,11 @@
 
 # Brief
 
-Często tworzenie stron internetowych przypomina budowanie domu bez solidnych fundamentów – szybko, bez planu, z nadzieją, że wszystko jakoś się uda. Co z tego wynika? Projekty potrafią przekroczyć założony budżet o 50-100%, strony są trudne do znalezienia w Google, a właściciele firm po roku muszą zaczynać od nowa.
+Często [tworzenie stron internetowych](/artykuly/strony-internetowe/proces/jak-zrobic) przypomina budowanie domu bez solidnych fundamentów – szybko, bez planu, z nadzieją, że wszystko jakoś się uda. Co z tego wynika? Projekty potrafią przekroczyć założony budżet o 50-100%, strony są trudne do znalezienia w Google, a właściciele firm po roku muszą zaczynać od nowa.
 
 ## Wprowadzenie - dlaczego brief to fundament każdej udanej strony internetowej
 
-Brief to dokument, który szczegółowo opisuje cele, wymagania i oczekiwania dotyczące nowej strony internetowej. To jak mapa drogowa, prowadząca od pomysłu do gotowego produktu.
+[Brief to dokument, który szczegółowo opisuje](/artykuly/strony-internetowe/proces/wireframing) cele, wymagania i oczekiwania dotyczące nowej strony internetowej. To jak mapa drogowa, prowadząca od pomysłu do gotowego produktu.
 
 Bez briefu projekt może przypominać rozmowę dwóch osób, które się nie rozumieją. Klient marzy o eleganckiej wizytówce firmy, a agencja tworzy rozbudowany sklep internetowy. Albo na odwrót.
 
@@ -40,7 +40,7 @@ Wyobraź sobie architekta projektującego dom bez rozmowy z klientem. Może stwo
 
 ### Definicja i podstawowe założenia
 
-Brief strony internetowej to dokument, który określa cele biznesowe, wymagania funkcjonalne i oczekiwania wobec przyszłej witryny. Odpowiada na pytania: dlaczego ta strona ma powstać, kto będzie z niej korzystać i co ma osiągnąć.
+Brief strony internetowej to dokument, który określa cele biznesowe, [wymagania funkcjonalne i oczekiwania wobec przyszłej witryny](/artykuly/strony-internetowe/proces/projektowanie-ux-ui). Odpowiada na pytania: dlaczego ta strona ma powstać, kto będzie z niej korzystać i co ma osiągnąć.
 
 Są dwa główne typy briefów. Brief marketingowy skupia się na celach biznesowych, grupie docelowej i komunikacji. Brief techniczny koncentruje się na funkcjonalnościach, integracjach i wymaganiach wydajnościowych. Najlepsze projekty łączą oba podejścia.
 
