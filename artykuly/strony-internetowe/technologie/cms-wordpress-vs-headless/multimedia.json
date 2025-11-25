@@ -1,0 +1,185 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - WordPress vs Headless CMS",
+    "description": "Minimalistyczna kompozycja przedstawiająca porównanie dwóch architektur - tradycyjna vs headless",
+    "alt_text": "Porównanie architektury WordPress vs Headless CMS z dashboardami i urządzeniami mobilnymi",
+    "prompt": "Split screen composition showing traditional monolithic architecture on left vs headless architecture on right, clean 3D geometric shapes representing systems, laptops displaying different dashboards, minimal design with black white gray colors and subtle yellow accents, professional tech aesthetic, high quality render, no people",
+    "keywords": [
+      "WordPress",
+      "headless CMS",
+      "architektura",
+      "porównanie"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "web development architecture diagram comparison tech",
+      "pexels_query": "technology comparison systems architecture",
+      "keywords_for_search": [
+        "web architecture",
+        "CMS comparison",
+        "tech decision"
+      ],
+      "style_notes": "Minimalist, professional, geometric shapes representing different architectures"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Porównanie wydajności i skalowalności",
+      "title": "Wykres porównania prędkości ładowania",
+      "description": "Wykres liniowy pokazujący różnice w czasie ładowania między WordPress a headless CMS",
+      "alt_text": "Wykres porównania czasów ładowania WordPress vs Headless CMS przy różnej liczbie użytkowników",
+      "prompt": "Clean line chart comparing WordPress vs Headless CMS loading times, two colored lines showing performance metrics, Y-axis showing seconds, X-axis showing concurrent users, professional infographic style, blue and orange lines, minimalist grid design, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "wydajność",
+        "prędkość ładowania",
+        "benchmark",
+        "skalowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "performance analytics chart website speed",
+        "pexels_query": "data visualization performance metrics",
+        "keywords_for_search": [
+          "website performance chart",
+          "loading speed graph",
+          "tech analytics"
+        ],
+        "style_notes": "Clean line chart design, professional data visualization style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Koszty całkowite - analiza TCO",
+      "title": "Infografika porównania kosztów TCO",
+      "description": "Infografika pokazująca rozkład kosztów WordPress vs Headless w perspektywie 5 lat",
+      "alt_text": "Infografika Total Cost of Ownership WordPress vs Headless CMS w perspektywie 5 lat",
+      "prompt": "Professional infographic comparing TCO costs, two vertical columns showing WordPress vs Headless expenses over 5 years, stacked bar elements, icons for hosting licensing development, clean minimalist design black white gray with yellow highlights, business style layout",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "TCO",
+        "koszty",
+        "inwestycja",
+        "porównanie kosztów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison infographic minimalist",
+        "pexels_query": "financial comparison chart infographic",
+        "keywords_for_search": [
+          "cost analysis infographic",
+          "TCO comparison",
+          "business investment chart"
+        ],
+        "style_notes": "Vertical comparison infographic, stacked elements showing different cost categories"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Headless CMS - Przyszłość zarządzania treścią",
+      "title": "Diagram architektury headless CMS",
+      "description": "Schemat pokazujący oddzielenie backend od frontend z API jako połączeniem",
+      "alt_text": "Diagram architektury headless CMS z API łączącym backend z różnymi frontend aplikacjami",
+      "prompt": "Clean architectural diagram showing headless CMS structure, backend database connected via API to multiple frontend applications web mobile smartwatch, geometric shapes and arrows, professional technical illustration style, muted colors with connection lines, minimalist design",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "headless",
+        "architektura",
+        "API",
+        "frontend",
+        "backend"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "system architecture diagram API connections",
+        "pexels_query": "technical diagram system architecture",
+        "keywords_for_search": [
+          "API architecture",
+          "headless system diagram",
+          "tech infrastructure"
+        ],
+        "style_notes": "Clean technical diagram style, geometric shapes representing system components"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Bezpieczeństwo i utrzymanie",
+      "title": "Wykres statystyk ataków na CMS",
+      "description": "Wykres słupkowy pokazujący procent ataków na różne systemy CMS",
+      "alt_text": "Wykres procentowy ataków hakerskich na WordPress vs inne systemy CMS",
+      "prompt": "Professional bar chart showing cybersecurity attacks on different CMS platforms, WordPress showing highest percentage, clean design with red bars for high risk orange for medium blue for low, percentage values visible, minimalist professional style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "bezpieczeństwo",
+        "ataki",
+        "WordPress",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cybersecurity statistics chart data breach",
+        "pexels_query": "security analytics chart visualization",
+        "keywords_for_search": [
+          "cybersecurity chart",
+          "security statistics",
+          "data breach analytics"
+        ],
+        "style_notes": "Professional security-themed chart with color coding for risk levels"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "decision_tree",
+      "section": "Sekcja: Kiedy wybrać WordPress, a kiedy headless CMS",
+      "title": "Drzewo decyzyjne wyboru CMS",
+      "description": "Flowchart z pytaniami pomocnymi w wyborze między WordPress a headless CMS",
+      "alt_text": "Drzewo decyzyjne wyboru CMS z pytaniami o budżet zespół i wymagania techniczne",
+      "prompt": "Clean decision tree flowchart with yes/no questions leading to WordPress or Headless CMS recommendations, diamond shapes for questions rectangular for decisions, arrows connecting elements, professional infographic style black and white with yellow highlights for final recommendations",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "drzewo decyzyjne",
+        "wybór CMS",
+        "decision tree",
+        "flowchart"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "decision flowchart business process diagram",
+        "pexels_query": "decision tree flowchart infographic",
+        "keywords_for_search": [
+          "business decision tree",
+          "flowchart diagram",
+          "decision process"
+        ],
+        "style_notes": "Clean flowchart design with diamond shapes for questions, clear yes/no paths"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "workspace",
+      "section": "Sekcja: Migracja i hybrydowe rozwiązania",
+      "title": "Workspace z planem migracji",
+      "description": "Minimalistyczne ujęcie biurka z laptopem pokazującym timeline migracji",
+      "alt_text": "Workspace z laptopem wyświetlającym harmonogram migracji z WordPress na headless CMS",
+      "prompt": "Clean minimalist workspace flat lay, laptop displaying migration timeline with project phases, white desk with notebook yellow pen coffee cup, natural lighting from side, professional business aesthetic muted colors black white gray with yellow accent, high quality shallow depth, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "migracja",
+        "harmonogram",
+        "workspace",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business planning workspace laptop timeline",
+        "pexels_query": "project management workspace planning",
+        "keywords_for_search": [
+          "business workspace",
+          "project planning",
+          "migration timeline"
+        ],
+        "style_notes": "Top-down workspace view, minimalist clean desk setup, no people visible"
+      }
+    }
+  ],
+  "total_count": 7
+}

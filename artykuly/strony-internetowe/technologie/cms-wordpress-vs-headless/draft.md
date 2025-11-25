@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Rzeczywiste koszty TCO** - Szczegółowa analiza wydatków na WordPress vs headless CMS w perspektywie 3-5 lat, uwzględniająca ukryte opłaty za integracje i wsparcie techniczne
 - **Testy wydajności i wpływ na sprzedaż** - Konkretne benchmarki prędkości ładowania i ich bezpośredni wpływ na konwersje oraz pozycjonowanie w Google
@@ -6,10 +6,9 @@
 - **Bezpieczna ścieżka migracji** - Praktyczny plan przejścia z WordPress na headless bez utraty ruchu SEO i funkcjonalności, z realnym timeline i budżetem
 - **Case study kosztów** - Rzeczywisty przykład wdrożenia e-commerce 50-500 produktów z porównaniem inwestycji początkowej i kosztów operacyjnych obu rozwiązań
 
+# Wprowadzenie - Rewolucja w zarządzaniu treścią
 
-## Wprowadzenie - Rewolucja w zarządzaniu treścią
-
-# Cms Wordpress Vs Headless
+## Cms Wordpress Vs Headless
 
 Jeszcze pięć lat temu wybór systemu CMS był prosty – WordPress albo konkurencja, która i tak przegrywała. Dziś przedsiębiorcy stają przed dylematem, który może zadecydować o przyszłości ich biznesu online.
 
@@ -204,8 +203,6 @@ Pierwsze kroki z WordPress: wybór hostingu, instalacja, konfiguracja motywu. Z 
 Nie musisz decydować sam. Technologia to inwestycja na lata, a błędny wybór kosztuje dziesiątki tysięcy złotych. W Digital Vantage analizujemy potrzeby biznesowe przez pryzmat rzeczywistych możliwości technicznych.
 
 Umów bezpłatną konsultację i otrzymaj spersonalizowane rekomendacje z analizą kosztów TCO dla Twojego projektu.
-
-## Propozycja tytułu H1:
 
 # Podsumowanie: Jak wybrać CMS dla swojego biznesu
 
