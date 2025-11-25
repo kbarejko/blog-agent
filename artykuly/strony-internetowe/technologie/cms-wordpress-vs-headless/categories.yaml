@@ -1,0 +1,17 @@
+categories:
+- slug: content-management-systems-cms
+  title: Content Management Systems (CMS)
+  path: strony-internetowe/content-management-systems-cms
+- slug: headless-cms
+  title: Headless CMS
+  path: strony-internetowe/headless-cms
+- slug: koszty-i-budzetowanie-it
+  title: Koszty i budżetowanie IT
+  path: strategia-it/koszty-i-budzetowanie-it
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
+count: 5
