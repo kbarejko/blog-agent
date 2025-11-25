@@ -1,12 +1,184 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Brief",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Brief",
-    "prompt": "Professional modern illustration for Brief",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - Brief strony internetowej",
+    "description": "Minimalistyczna kompozycja z laptopem pokazującym szablon briefu i workspace z dokumentami planistycznymi",
+    "alt_text": "Laptop z szablonem briefu strony internetowej na minimalistycznym biurku z dokumentami planistycznymi",
+    "prompt": "Clean minimalist workspace top-down view, laptop showing website brief template document on screen, white desk with planning documents, notepad with yellow pen, coffee cup, geometric elements, natural window lighting from side, muted colors black white gray with subtle yellow accents, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "brief",
+      "strona internetowa",
+      "planowanie",
+      "szablon"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "website planning workspace laptop documents",
+      "pexels_query": "web design brief planning business",
+      "keywords_for_search": [
+        "website planning",
+        "project brief workspace",
+        "web design documents"
+      ],
+      "style_notes": "Minimalist workspace, clean desk setup, planning documents visible, modern business aesthetic"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Wprowadzenie - dlaczego brief to fundament",
+      "title": "Porównanie: Projekt z briefem vs projekt na żywioł",
+      "description": "Ilustracja porównująca uporządkowany proces z briefem vs chaotyczny proces bez briefu",
+      "alt_text": "Porównanie projektu strony z briefem i bez briefu - organizacja versus chaos",
+      "prompt": "Split screen comparison illustration, left side shows organized project workflow with clear steps and documents, right side shows chaotic scattered elements and confused arrows, minimalist line art style, black and gray colors with yellow highlights for organized side, clean professional design, geometric shapes",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "brief",
+        "organizacja",
+        "chaos",
+        "projekt"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "organized vs chaotic workflow business process",
+        "pexels_query": "project management comparison organization",
+        "keywords_for_search": [
+          "workflow comparison",
+          "organized vs chaos",
+          "business process diagram"
+        ],
+        "style_notes": "Clean comparison visual, before/after style, professional business illustration"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - korzyści briefu",
+      "title": "Oszczędności dzięki briefowi - statystyki projektów",
+      "description": "Wykres słupkowy pokazujący oszczędności budżetu i czasu w projektach z briefem vs bez briefu",
+      "alt_text": "Wykres porównania oszczędności budżetu i czasu w projektach z briefem versus bez briefu",
+      "prompt": "Clean bar chart comparing project efficiency with brief vs without brief, showing budget savings 30-50% and time savings, blue and green bars for 'with brief', red bars for 'without brief', minimalist professional design, values in percentages, white background",
+      "placement": "after_paragraph_5",
+      "keywords": [
+        "oszczędności",
+        "brief",
+        "efektywność",
+        "projekt"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business efficiency chart comparison statistics",
+        "pexels_query": "cost savings graph business data",
+        "keywords_for_search": [
+          "efficiency chart",
+          "cost comparison graph",
+          "business statistics"
+        ],
+        "style_notes": "Clean professional chart design, comparison bars, could use chart creation tools like Canva"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Kluczowe elementy briefu",
+      "title": "Infografika - 5 kluczowych elementów briefu",
+      "description": "Pionowa infografika pokazująca 5 głównych sekcji briefu z ikonami i krótkimi opisami",
+      "alt_text": "Infografika 5 kluczowych elementów briefu strony internetowej z ikonami",
+      "prompt": "Vertical infographic showing 5 key brief elements: business goals, target audience, competition, technical requirements, budget. Each with distinct icon, connected with flow arrows, professional design black and gray colors with yellow accents, clean minimalist style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "elementy briefu",
+        "cele biznesowe",
+        "grupa docelowa",
+        "wymagania"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business planning infographic elements checklist",
+        "pexels_query": "project planning visual guide infographic",
+        "keywords_for_search": [
+          "planning infographic",
+          "business elements visual",
+          "checklist design"
+        ],
+        "style_notes": "Vertical infographic with icons, numbered or connected elements, professional business style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Proces tworzenia briefu krok po kroku",
+      "title": "Diagram procesu tworzenia briefu",
+      "description": "Flowchart pokazujący 6 kroków tworzenia briefu od warsztatów wewnętrznych po finalizację",
+      "alt_text": "Diagram procesu tworzenia briefu strony internetowej w 6 krokach",
+      "prompt": "Clean flowchart diagram showing 6-step brief creation process: internal workshop, audit, material gathering, agency selection, briefing call, iterations. Connected with arrows, rounded rectangles for steps, icons for each stage, professional business style, black gray and yellow color scheme",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "proces briefu",
+        "kroki",
+        "workflow",
+        "metodyka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart workflow diagram",
+        "pexels_query": "project workflow steps diagram",
+        "keywords_for_search": [
+          "process diagram",
+          "workflow chart",
+          "business steps visual"
+        ],
+        "style_notes": "Professional flowchart, connected steps with arrows, business process visualization"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "template",
+      "section": "Template briefu - praktyczne narzędzie",
+      "title": "Screenshot szablonu briefu do pobrania",
+      "description": "Podgląd gotowego szablonu briefu pokazujący strukturę dokumentu i przykładowe pytania",
+      "alt_text": "Podgląd szablonu briefu strony internetowej z przykładowymi sekcjami i pytaniami",
+      "prompt": "Clean document template mockup showing website brief structure, sections with sample questions visible, professional document layout, form fields and checkboxes, minimalist design on laptop screen or as printed document, business template aesthetic",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "szablon briefu",
+        "template",
+        "dokument",
+        "formularz"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "document template form business questionnaire",
+        "pexels_query": "business form template document layout",
+        "keywords_for_search": [
+          "business template",
+          "document form",
+          "questionnaire layout"
+        ],
+        "style_notes": "Professional document template, form-like structure, business questionnaire appearance"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "warning_graphic",
+      "section": "Najczęstsze błędy w briefach",
+      "title": "Grafika - 7 najczęstszych błędów briefingu",
+      "description": "Infografika ostrzegawcza pokazująca typowe pułapki w procesie briefingu",
+      "alt_text": "Infografika 7 najczęstszych błędów w briefingu stron internetowych",
+      "prompt": "Warning-style infographic showing 7 common briefing mistakes with red warning icons, crossed-out symbols for wrong approaches, professional design with red accents for warnings, black and gray base colors, clear numbered list format",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "błędy briefu",
+        "pułapki",
+        "ostrzeżenia",
+        "mistakes"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business mistakes warning infographic red",
+        "pexels_query": "warning signs business errors graphic",
+        "keywords_for_search": [
+          "business warnings",
+          "mistake prevention graphic",
+          "error infographic"
+        ],
+        "style_notes": "Warning-style graphic with red accents, mistake prevention theme, professional caution design"
+      }
+    }
+  ],
+  "total_count": 7
 }
