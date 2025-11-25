@@ -15,7 +15,7 @@ Właściciele stron internetowych często stają przed pytaniem: czy zainwestowa
 
 ## Wprowadzenie – kiedy Twoja strona potrzebuje zmiany?
 
-To dylemat wielu przedsiębiorców, szczególnie gdy zauważają spadki w wynikach swojej witryny. Na pierwszy rzut oka, obie opcje wydają się rozsądne.
+To dylemat wielu przedsiębiorców, szczególnie gdy zauważają [spadki w wynikach swojej witryny](/artykuly/strony-internetowe/strategia/kpi-i-cele). Na pierwszy rzut oka, obie opcje wydają się rozsądne.
 
 Modernizacja może oznaczać systematyczną poprawę tego, co już działa. Może jednak sugerować konieczność budowy od podstaw, czyli całkowitą rewolucję w wyglądzie i funkcjonalności strony.
 
@@ -23,9 +23,9 @@ Podejścia te różnią się znacząco. Redesign to proces, który wymaga kilku 
 
 Koszty również się różnią. Redesign wiąże się z jednorazową, dużą inwestycją, natomiast optymalizacja to regularne, mniejsze wydatki rozłożone w czasie.
 
-Czas realizacji to kolejny istotny aspekt. Redesign oznacza miesiące oczekiwania na efekty, podczas gdy optymalizacja może przynieść pierwsze rezultaty już po kilku tygodniach.
+Czas realizacji to kolejny istotny aspekt. Redesign oznacza miesiące oczekiwania na efekty, podczas gdy optymalizacja może przynieść [pierwsze rezultaty już po kilku tygodniach](/artykuly/strony-internetowe/strategia/korzysci).
 
-Każda z tych decyzji wpływa inaczej na biznes. Redesign może zakłócić bieżące działania marketingowe i wpłynąć na pozycjonowanie w Google, przynajmniej czasowo. Optymalizacja zazwyczaj nie powoduje takich turbulencji.
+Każda z tych decyzji wpływa inaczej na biznes. Redesign może zakłócić bieżące działania marketingowe i wpłynąć na [pozycjonowanie w Google](/artykuly/strony-internetowe/strategia/przewodnik), przynajmniej czasowo. Optymalizacja zazwyczaj nie powoduje takich turbulencji.
 
 Wybór strategii może wpłynąć na całą firmę. Redesign często wymaga zmian w procesach wewnętrznych, podczas gdy optymalizacja pozwala na zachowanie status quo w większości obszarów.
 
@@ -34,7 +34,7 @@ W tym artykule znajdziesz jasne kryteria, które pomogą Ci podjąć właściwą
 
 ## Czym różni się redesign od optymalizacji?
 
-Na pierwszy rzut oka można pomyśleć, że różnica tkwi tylko w skali. W rzeczywistości jednak, to dwa zupełnie różne podejścia do rozwoju strony internetowej.
+Na pierwszy rzut oka można pomyśleć, że różnica tkwi tylko w skali. W rzeczywistości jednak, to dwa zupełnie różne podejścia do [rozwoju strony internetowej](/artykuly/strony-internetowe/strategia/dlaczego-warto).
 
 ### Definicja i zakres redesignu
 
