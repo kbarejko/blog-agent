@@ -75,4 +75,6 @@
 - Kluczowe wnioski - kiedy headless ma sens biznesowy
 - Pierwszy krok - jak zacząć planowanie migracji
 - Najważniejsze pytania do zadania przed podjęciem decyzji
-- Zaproszenie do konsultacji z ekspertami Digital Vantage --- **Propozycja tytułu H1 wspierającego SEO:**
+- Zaproszenie do konsultacji z ekspertami Digital Vantage --- 
+
+**Propozycja tytułu H1 wspierającego SEO:**
