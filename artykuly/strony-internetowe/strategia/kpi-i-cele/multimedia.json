@@ -1,12 +1,184 @@
 {
   "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Kpi I Cele",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Kpi I Cele",
-    "prompt": "Professional modern illustration for Kpi I Cele",
-    "keywords": []
+    "type": "illustration",
+    "title": "Hero image - KPI i pomiary sukcesu online",
+    "description": "Minimalistyczna kompozycja workspace z laptopem wyświetlającym dashboard analytics i KPI",
+    "alt_text": "Laptop z dashboardem KPI i analytics na czystym biurku, notatnik z celami biznesowymi",
+    "prompt": "Clean minimalist workspace top-down view, laptop displaying analytics dashboard with KPI metrics and charts, white desk, notebook with business goals written, calculator, yellow pen as accent, natural window lighting from side, muted colors black white gray with subtle yellow highlights, professional business aesthetic, high quality, shallow depth of field, no people",
+    "keywords": [
+      "KPI",
+      "analytics",
+      "cele biznesowe",
+      "dashboard"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "business analytics dashboard laptop workspace minimalist",
+      "pexels_query": "data analytics computer workspace professional",
+      "keywords_for_search": [
+        "business metrics workspace",
+        "analytics dashboard laptop",
+        "KPI computer screen"
+      ],
+      "style_notes": "Minimalist workspace, clean desk, natural lighting, black/white/gray with yellow accent"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Anatomia skutecznych celów biznesowych online",
+      "title": "Infografika - Hierarchia celów SMART",
+      "description": "Pionowa infografika pokazująca hierarchię celów od strategicznych do operacyjnych z przykładami SMART",
+      "alt_text": "Infografika hierarchia celów SMART dla biznesu online - strategiczne, operacyjne, mierzalne",
+      "prompt": "Vertical infographic showing goal hierarchy pyramid: Strategic goals at top, Operational goals middle, SMART metrics at bottom. Clean minimalist design, numbered steps with icons, black and gray colors with yellow accents for key elements, professional business style, arrows connecting levels",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "cele SMART",
+        "hierarchia celów",
+        "strategia biznesowa",
+        "KPI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business goals hierarchy pyramid infographic minimalist",
+        "pexels_query": "goal setting business strategy diagram",
+        "keywords_for_search": [
+          "SMART goals infographic",
+          "business hierarchy pyramid",
+          "strategic planning visual"
+        ],
+        "style_notes": "Pyramid structure, clean lines, numbered hierarchy, professional colors"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "comparison_chart",
+      "section": "Rodzaje KPI dla różnych typów biznesów",
+      "title": "Porównanie KPI dla różnych modeli biznesowych",
+      "description": "Tabela porównawcza pokazująca kluczowe KPI dla firm usługowych, e-commerce i B2B",
+      "alt_text": "Tabela porównanie KPI dla firm usługowych, e-commerce i B2B z kluczowymi metrykami",
+      "prompt": "Clean comparison table showing KPI types for different business models: Service companies, E-commerce, B2B. Three columns with metrics listed, professional chart design, minimal colors black white gray with yellow headers, organized rows, business infographic style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "KPI",
+        "porównanie",
+        "modele biznesowe",
+        "metryki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business metrics comparison table clean design",
+        "pexels_query": "data comparison chart professional",
+        "keywords_for_search": [
+          "KPI comparison table",
+          "business metrics chart",
+          "professional data table"
+        ],
+        "style_notes": "Clean table design, organized columns, minimal professional styling"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Google Analytics 4 – Twój główny instrument pomiarowy",
+      "title": "Screenshot GA4 - Konfiguracja celów i konwersji",
+      "description": "Zrzut ekranu interfejsu Google Analytics 4 pokazujący sekcję Events i Conversions",
+      "alt_text": "Interface Google Analytics 4 z konfiguracją celów i zdarzeń konwersji",
+      "prompt": "Clean screenshot mockup of Google Analytics 4 interface showing Events and Conversions setup page, professional dashboard design, highlighted important sections like conversion toggle, clean UI elements, realistic but simplified for clarity",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Google Analytics 4",
+        "GA4",
+        "konfiguracja celów",
+        "konwersje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard interface screenshot",
+        "pexels_query": "web analytics dashboard computer screen",
+        "keywords_for_search": [
+          "analytics interface",
+          "dashboard screenshot",
+          "web metrics screen"
+        ],
+        "style_notes": "Clean dashboard interface, professional analytics screen, clear visibility"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Proces optymalizacji oparty na danych",
+      "title": "Diagram cyklu optymalizacji",
+      "description": "Koło/flowchart pokazujący cykl Measure → Analyze → Optimize → Repeat",
+      "alt_text": "Diagram cyklu optymalizacji: pomiar, analiza, optymalizacja, powtarzanie procesu",
+      "prompt": "Circular flowchart diagram showing optimization cycle: Measure → Analyze → Optimize → Repeat. Four connected sections with arrows, clean minimalist design, icons for each step, professional color scheme black gray with yellow accents, business infographic style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "cykl optymalizacji",
+        "proces analizy",
+        "data-driven",
+        "ciągłe doskonalenie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process cycle diagram optimization",
+        "pexels_query": "circular workflow diagram professional",
+        "keywords_for_search": [
+          "process improvement cycle",
+          "optimization workflow",
+          "continuous improvement diagram"
+        ],
+        "style_notes": "Circular flow design, arrows showing continuous cycle, clean professional look"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Case study: transformacja 6-miesięczna",
+      "title": "Wykres wzrostu leadów - case study",
+      "description": "Wykres liniowy pokazujący wzrost leadów firmy szkoleniowej przed i po optymalizacji",
+      "alt_text": "Wykres wzrostu leadów firmy szkoleniowej z 12 do 50 miesięcznie w 6 miesięcy",
+      "prompt": "Clean line chart showing lead growth over 6 months: flat line around 10 leads for first 3 months, then sharp upward trend to 50 leads. Professional chart design, blue line with data points, minimal grid, clear labels, business presentation style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "case study",
+        "wzrost leadów",
+        "rezultaty",
+        "optymalizacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart success metrics",
+        "pexels_query": "upward trend line chart professional",
+        "keywords_for_search": [
+          "growth metrics chart",
+          "success trend line",
+          "business improvement graph"
+        ],
+        "style_notes": "Clean upward trend line, professional business chart styling"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "workspace",
+      "section": "Dodatkowe narzędzia pomiarowe poza Google",
+      "title": "Workspace z narzędziami analytics",
+      "description": "Minimalistyczne biurko z laptopem i ekranami pokazującymi różne narzędzia: GA4, Hotjar, Clarity",
+      "alt_text": "Workspace z narzędziami analytics - laptop z Hotjar, tablet z Google Analytics, notatki",
+      "prompt": "Modern minimalist workspace setup showing multiple analytics tools, laptop displaying Hotjar heatmap, tablet showing Google Analytics dashboard, smartphone with website metrics, clean white desk, yellow notebook with analytics notes, professional business environment, natural lighting, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "narzędzia analytics",
+        "Hotjar",
+        "Google Analytics",
+        "workspace"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "multiple devices analytics tools workspace professional",
+        "pexels_query": "business analytics multiple screens desk",
+        "keywords_for_search": [
+          "analytics workspace setup",
+          "multiple analytics tools",
+          "data analysis desk"
+        ],
+        "style_notes": "Clean multi-device setup, professional workspace, analytics screens visible"
+      }
+    }
+  ],
+  "total_count": 7
 }
