@@ -6,7 +6,7 @@
 
 - **Vue.js dla średnich firm** - Vue.js charakteryzuje się łagodną krzywą uczenia, co skraca czas wdrożenia nowych programistów z trzech miesięcy do zaledwie czterech tygodni. Dla średnich firm, które potrzebują szybko zwiększyć swoje zespoły, może to być idealne rozwiązanie.
 
-- **Next.js zwiększa konwersje** - Server-side rendering w Next.js poprawia SEO oraz czas ładowania strony, co ma bezpośredni wpływ na sprzedaż w e-commerce. Wyższe pozycje w wyszukiwarkach mogą sugerować większą widoczność, a co za tym idzie, lepsze wyniki sprzedażowe.
+- **Next.js zwiększa konwersje** - Server-side rendering w Next.js poprawia SEO oraz [czas ładowania strony](/artykuly/strony-internetowe/technologie/hosting), co ma bezpośredni wpływ na sprzedaż w e-commerce. Wyższe pozycje w wyszukiwarkach mogą sugerować większą widoczność, a co za tym idzie, lepsze wyniki sprzedażowe.
 
 - **Matryca decyzyjna** - W artykule znajdziesz konkretne kryteria, które pomogą Ci wybrać odpowiednią technologię, uwzględniając budżet, wielkość zespołu i cele biznesowe. Uniknięcie błędów na tym polu może oszczędzić firmie miliony.
 
@@ -14,7 +14,7 @@
 
 # Javascript, React, Vue, NextJS
 
-Każdego dnia tysiące firm stają przed wyborem technologii, która wpłynie na ich przyszłość przez wiele lat. Wybór niewłaściwej technologii frontendowej może prowadzić do kosztów sięgających setek tysięcy złotych i znacznych opóźnień.
+Każdego dnia tysiące firm stają przed [wyborem technologii, która wpłynie na ich przyszłość](/artykuly/strony-internetowe/technologie/wybor-platformy) przez wiele lat. Wybór niewłaściwej technologii frontendowej może prowadzić do kosztów sięgających setek tysięcy złotych i znacznych opóźnień.
 
 ## Wprowadzenie - Technologie, które napędzają nowoczesny biznes online
 
@@ -22,7 +22,7 @@ Decyzja o wyborze technologii frontendowej nie jest tylko kwestią dla programis
 
 Dobrze dobrana technologia może skrócić czas wejścia na rynek, a zła decyzja może skutkować koniecznością przepisywania projektu od zera w przyszłości.
 
-**JavaScript** jest nadal podstawą - wszechstronny język, który obsługuje frontend, backend i aplikacje mobilne. **React** zdobył zaufanie firm takich jak Netflix czy Uber dzięki swojej komponentowej architekturze. **Vue.js** może być prostszym rozwiązaniem dla firm, które dynamicznie się rozwijają. **Next.js** oferuje dodatkowe możliwości, takie jak renderowanie po stronie serwera, co dodaje projektom dodatkowej mocy.
+**JavaScript** jest nadal podstawą - wszechstronny język, który obsługuje frontend, backend i aplikacje mobilne. **React** zdobył zaufanie firm takich jak Netflix czy Uber dzięki swojej [komponentowej architekturze](/artykuly/strony-internetowe/technologie/headless). **Vue.js** może być prostszym rozwiązaniem dla firm, które dynamicznie się rozwijają. **Next.js** oferuje dodatkowe możliwości, takie jak [renderowanie po stronie serwera](/artykuly/strony-internetowe/technologie/cms-wordpress-vs-headless), co dodaje projektom dodatkowej mocy.
 
 Różnice między tymi technologiami to nie tylko kwestia techniczna, ale również różnice w kosztach developmentu, czasie potrzebnym na szkolenie zespołu oraz długoterminowe możliwości rozwoju.
 
