@@ -1,0 +1,17 @@
+categories:
+- slug: content-management-systems-cms
+  title: Content Management Systems (CMS)
+  path: strony-internetowe/content-management-systems-cms
+- slug: wordpress
+  title: Wordpress
+  path: strony-internetowe/content-management-systems-cms/wordpress
+- slug: headless-cms
+  title: Headless CMS
+  path: strony-internetowe/headless-cms
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+- slug: koszty-i-budzetowanie-it
+  title: Koszty i budżetowanie IT
+  path: strategia-it/koszty-i-budzetowanie-it
+count: 5
