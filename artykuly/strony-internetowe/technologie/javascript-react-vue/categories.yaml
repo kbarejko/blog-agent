@@ -1,0 +1,17 @@
+categories:
+- slug: frontend-development
+  title: Frontend Development
+  path: strony-internetowe/frontend-development
+- slug: frameworki-frontendowe-next-react-angular-vue-js
+  title: Frameworki Frontendowe (Next, React, Angular, Vue.js)
+  path: strony-internetowe/frontend-development/frameworki-frontendowe-next-react-angular-vue-js
+- slug: technologie-aplikacji-webowych
+  title: Technologie aplikacji webowych
+  path: rozwoj-oprogramowania/technologie-aplikacji-webowych
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+count: 5
