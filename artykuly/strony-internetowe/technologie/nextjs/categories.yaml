@@ -1,0 +1,17 @@
+categories:
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+- slug: rozwoj-oprogramowania
+  title: Rozwój Oprogramowania
+  path: rozwoj-oprogramowania
+- slug: frameworki
+  title: Frameworki
+  path: rozwoj-oprogramowania/frameworki
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+count: 5
