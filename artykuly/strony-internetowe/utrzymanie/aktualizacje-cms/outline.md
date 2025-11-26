@@ -86,7 +86,7 @@
 - Kryteria wyboru partnera do zarządzania CMS
 - SLA i gwarancje - na co zwracać uwagę w umowach
 
-## 7. Przyszłość aktualizacji CMS - trendy na 2024-2025
+## 7. Przyszłość aktualizacji CMS - trendy na 2025-2026
 (~200 słów)
 - Automatyzacja i AI w zarządzaniu aktualizacjami
 - Headless jako standard dla nowych projektów
@@ -98,4 +98,5 @@
 - Kluczowe wnioski dla różnych typów biznesów
 - Pierwsze kroki do wdrożenia strategii aktualizacji
 - Call to action - audit obecnego stanu aktualizacji
-- Zaproszenie do konsultacji z ekspertami Digital Vantage --- **Propozycja tytułu H1:** "Aktualizacje CMS dla biznesu: WordPress, Headless i strategie które chronią Twoją firmę w 2024"
+- Zaproszenie do konsultacji z ekspertami Digital Vantage 
+--- **Propozycja tytułu H1:** "Aktualizacje CMS dla biznesu: WordPress, Headless i strategie które chronią Twoją firmę w 2025"
