@@ -1,0 +1,14 @@
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: marketing-w-internecie
+  title: Marketing w Internecie
+  path: marketing-w-internecie
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+- slug: koszt-stron-internetowych
+  title: Koszt stron internetowych
+  path: strony-internetowe/koszt-stron-internetowych
+count: 4
