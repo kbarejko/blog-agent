@@ -1,0 +1,161 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - JavaScript technologie frontendowe",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym kod JavaScript i technologie frontendowe",
+    "alt_text": "Laptop z kodem JavaScript na biurku z dokumentacją React Vue Next.js w minimalistycznym biurze",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying JavaScript code editor with React Vue Next.js frameworks visible on screen, white wooden desk, technical documentation, notebook with yellow pen, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional tech aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "JavaScript",
+      "React",
+      "Vue",
+      "Next.js",
+      "frontend",
+      "technologie"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "developer workspace laptop code javascript clean",
+      "pexels_query": "programming workspace laptop coding setup",
+      "keywords_for_search": [
+        "javascript coding",
+        "web development workspace",
+        "frontend programming"
+      ],
+      "style_notes": "Clean workspace with laptop showing code, minimalist setup, natural lighting, no people visible"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: JavaScript - Fundament nowoczesnych aplikacji webowych",
+      "title": "Wykres popularności języków programowania",
+      "description": "Wykres słupkowy pokazujący liczbę programistów używających różnych języków programowania na świecie",
+      "alt_text": "Wykres popularności języków programowania - JavaScript prowadzi z 17 milionami deweloperów",
+      "prompt": "Clean professional bar chart showing programming language popularity, JavaScript leading with 17 million developers, Python 15.7M, Java 12M, TypeScript 8M, C# 7M, minimalist design with black bars and yellow highlights for JavaScript, white background, professional infographic style",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "JavaScript",
+        "popularność",
+        "programiści",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "programming statistics chart data visualization",
+        "pexels_query": "technology statistics infographic chart",
+        "keywords_for_search": [
+          "developer statistics",
+          "programming language chart",
+          "tech infographic"
+        ],
+        "style_notes": "Professional chart design, clean bars, highlight for JavaScript. Use Canva or ChartJS."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Sekcja: React vs Vue.js - porównanie",
+      "title": "Infografika porównawcza React vs Vue.js",
+      "description": "Infografika porównująca React i Vue.js pod kątem krzywej uczenia, kosztów, wielkości zespołu",
+      "alt_text": "Porównanie React vs Vue.js - krzywa uczenia, koszty developmentu, rozmiar zespołu",
+      "prompt": "Professional comparison infographic React vs Vue.js, two-column layout, icons for learning curve (3 months vs 4 weeks), team size (10+ vs 5+), cost indicators, clean minimalist design, black and gray colors with yellow accents, geometric shapes, business style infographic",
+      "placement": "after_paragraph_1_in_vue_section",
+      "keywords": [
+        "React",
+        "Vue.js",
+        "porównanie",
+        "koszty",
+        "zespół"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business comparison infographic vs template",
+        "pexels_query": "comparison chart business decision",
+        "keywords_for_search": [
+          "technology comparison",
+          "business infographic",
+          "vs comparison design"
+        ],
+        "style_notes": "Two-column comparison layout, professional icons, clean design. Canva has great vs templates."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Next.js zwiększa konwersje",
+      "title": "Wykres wpływu szybkości ładowania na konwersje",
+      "description": "Wykres liniowy pokazujący spadek konwersji w zależności od czasu ładowania strony",
+      "alt_text": "Wykres spadku konwersji e-commerce wraz ze wzrostem czasu ładowania strony",
+      "prompt": "Professional line chart showing e-commerce conversion rate decline with page loading time increase, red declining line from 100% at 1 second to 30% at 5 seconds, clean grid background, professional business chart style, black and red colors with yellow highlights",
+      "placement": "after_paragraph_1_in_nextjs_section",
+      "keywords": [
+        "konwersje",
+        "szybkość ładowania",
+        "Next.js",
+        "wydajność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business performance chart declining graph",
+        "pexels_query": "website conversion rate analytics chart",
+        "keywords_for_search": [
+          "performance metrics",
+          "conversion analytics",
+          "website speed chart"
+        ],
+        "style_notes": "Declining line chart, professional business analytics style. Use Google Charts or Excel."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "decision_matrix",
+      "section": "Sekcja: Matryca decyzyjna",
+      "title": "Matryca wyboru technologii frontendowej",
+      "description": "Tabela decyzyjna pokazująca które technologie wybierać dla różnych typów projektów",
+      "alt_text": "Matryca decyzyjna wyboru technologii JavaScript React Vue Next.js dla różnych projektów",
+      "prompt": "Professional decision matrix table showing frontend technology selection, rows for project types (corporate websites, web apps, prototypes, enterprise), columns for JavaScript React Vue Next.js, checkmarks and ratings, clean business infographic style, black white gray with yellow highlights",
+      "placement": "after_paragraph_1_in_decision_section",
+      "keywords": [
+        "matryca decyzyjna",
+        "wybór technologii",
+        "projekty",
+        "frontend"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business decision matrix table comparison",
+        "pexels_query": "comparison table business infographic",
+        "keywords_for_search": [
+          "decision matrix",
+          "comparison table",
+          "business planning grid"
+        ],
+        "style_notes": "Clean table format with checkmarks and ratings. Excel or Canva table templates work well."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "cost_comparison",
+      "section": "Sekcja: Koszty i ROI",
+      "title": "Porównanie kosztów developmentu różnych technologii",
+      "description": "Wykres słupkowy porównujący stawki programistów i całkowite koszty projektów",
+      "alt_text": "Porównanie kosztów programistów JavaScript React Vue Next.js - stawki godzinowe",
+      "prompt": "Professional cost comparison bar chart showing hourly rates for JavaScript 80-100 PLN, React 120-150 PLN, Vue 100-130 PLN, Next.js 130-165 PLN, clean business chart with currency symbols, professional color scheme black gray with yellow accents",
+      "placement": "after_paragraph_2_in_costs_section",
+      "keywords": [
+        "koszty",
+        "stawki",
+        "programiści",
+        "budżet"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison chart money",
+        "pexels_query": "financial comparison chart costs",
+        "keywords_for_search": [
+          "cost analysis chart",
+          "budget comparison",
+          "financial planning graph"
+        ],
+        "style_notes": "Professional financial chart with currency symbols. Clean business aesthetic."
+      }
+    }
+  ],
+  "total_count": 6
+}
