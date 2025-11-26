@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Infrastruktura techniczna dla biznesu",
+    "description": "Minimalistyczna kompozycja 3D przedstawiająca elementy infrastruktury online - serwery, chmura, dashboard",
+    "alt_text": "3D kompozycja infrastruktury online - serwery, chmura i dashboard analytics na czystym tle",
+    "prompt": "3D render composition of modern tech infrastructure elements: floating servers, cloud symbols, laptop with analytics dashboard, minimalist geometric design on light gray gradient background, clean lines, muted colors black white gray with subtle yellow accents, professional tech aesthetic, high quality render, no people",
+    "keywords": [
+      "hosting",
+      "infrastruktura",
+      "technologia",
+      "biznes"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist tech workspace laptop dashboard",
+      "pexels_query": "modern technology infrastructure servers",
+      "keywords_for_search": [
+        "tech infrastructure",
+        "server room minimalist",
+        "cloud hosting concept"
+      ],
+      "style_notes": "Clean minimalist, tech-focused, no people, modern workspace aesthetic"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - Dlaczego hosting ma znaczenie",
+      "title": "Wykres wpływu szybkości ładowania na konwersje",
+      "description": "Wykres słupkowy pokazujący spadek konwersji wraz ze wzrostem czasu ładowania strony",
+      "alt_text": "Wykres spadku konwersji e-commerce w zależności od czasu ładowania strony od 1 do 5 sekund",
+      "prompt": "Clean bar chart showing e-commerce conversion rates vs page loading time, bars decreasing from left to right, 1-5 seconds on x-axis, conversion percentage on y-axis, professional design with black and gray colors, yellow highlight on optimal performance zone, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konwersje",
+        "szybkość",
+        "ładowanie",
+        "e-commerce"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website performance analytics chart",
+        "pexels_query": "conversion rate optimization graph",
+        "keywords_for_search": [
+          "performance metrics",
+          "web analytics chart",
+          "conversion data visualization"
+        ],
+        "style_notes": "Clean professional chart design, could use business infographic template"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison_table",
+      "section": "Podstawy hostingu dla biznesu - Typy hostingu",
+      "title": "Porównanie typów hostingu dla biznesu",
+      "description": "Tabela porównawcza hosting współdzielony vs VPS vs serwer dedykowany vs cloud",
+      "alt_text": "Tabela porównania hosting współdzielony VPS serwer dedykowany cloud z cenami i parametrami",
+      "prompt": "Professional comparison table showing 4 hosting types: shared, VPS, dedicated, cloud. Clean grid layout with icons, pricing, features comparison, black headers, gray alternating rows, yellow highlights for recommended options, minimalist business design, readable typography",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "hosting",
+        "porównanie",
+        "VPS",
+        "cloud"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison chart business decision table",
+        "pexels_query": "hosting comparison infographic",
+        "keywords_for_search": [
+          "comparison table design",
+          "hosting plans visual",
+          "business decision matrix"
+        ],
+        "style_notes": "Professional table design with clear categorization and visual hierarchy"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Cloudflare jako przełom dla Twojej strony",
+      "title": "Dashboard Cloudflare - główny widok",
+      "description": "Screenshot panelu Cloudflare pokazujący kluczowe metryki bezpieczeństwa i wydajności",
+      "alt_text": "Panel Cloudflare z metrykami ruchu, zabezpieczeń i wydajności dla strony e-commerce",
+      "prompt": "Clean mockup of Cloudflare dashboard interface showing security metrics, performance analytics, traffic stats, blocked threats counter, modern web UI design, professional software interface with charts and numbers, highlighted security features",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "Cloudflare",
+        "dashboard",
+        "bezpieczeństwo",
+        "CDN"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web dashboard analytics interface mockup",
+        "pexels_query": "software dashboard security metrics",
+        "keywords_for_search": [
+          "CDN dashboard",
+          "security analytics interface",
+          "web performance metrics"
+        ],
+        "style_notes": "Professional software interface, clean modern design, focus on metrics and security"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Migracja i zmiany bez przestojów",
+      "title": "Flowchart procesu migracji hostingu",
+      "description": "Diagram 12-krokowego procesu migracji hostingu bez przestojów",
+      "alt_text": "Diagram procesu migracji hostingu w 12 krokach z backup i testowaniem bez przestojów",
+      "prompt": "Vertical flowchart showing 12-step website migration process, numbered circular steps connected by arrows, icons for backup, testing, DNS change, monitoring phases, clean minimalist design with black text, gray connecting lines, yellow highlights for critical steps, professional infographic style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "migracja",
+        "hosting",
+        "proces",
+        "bezpieczeństwo"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart diagram",
+        "pexels_query": "step by step process infographic",
+        "keywords_for_search": [
+          "migration process diagram",
+          "technical workflow",
+          "business process visual"
+        ],
+        "style_notes": "Clean flowchart design with numbered steps and clear visual hierarchy"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Koszty i budżetowanie infrastruktury online",
+      "title": "Wykres skalowania kosztów hostingu",
+      "description": "Wykres liniowy pokazujący wzrost kosztów infrastruktury wraz z rozwojem biznesu",
+      "alt_text": "Wykres wzrostu kosztów hostingu od startup przez małą firmę do enterprise",
+      "prompt": "Line chart showing hosting costs scaling with business growth, three lines for startup (50 PLN), small business (500 PLN), enterprise (3000 PLN), x-axis shows business stages, y-axis shows monthly costs in PLN, clean design with black lines and yellow accent color",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "koszty",
+        "budżet",
+        "skalowanie",
+        "hosting"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth cost chart analytics",
+        "pexels_query": "financial planning line graph",
+        "keywords_for_search": [
+          "cost scaling chart",
+          "business growth graph",
+          "budget planning visual"
+        ],
+        "style_notes": "Professional financial chart design with clear cost progression visualization"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "workspace_flat_lay",
+      "section": "Domeny jako fundament obecności online",
+      "title": "Workspace z planowaniem strategii domenowej",
+      "description": "Widok z góry na biurko z notatkami o strategii domenowej i laptopem",
+      "alt_text": "Biurko z laptopem, notatkami o strategii domenowej i planowaniem marki online",
+      "prompt": "Flat lay view of modern workspace, laptop showing domain registration interface, notebook with handwritten domain strategy notes, yellow pen, coffee cup, smartphone, clean white desk surface, natural window lighting, minimalist composition, professional business aesthetic, muted colors with yellow accent, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "domeny",
+        "strategia",
+        "marka",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "domain planning workspace flat lay laptop",
+        "pexels_query": "business planning desk top view",
+        "keywords_for_search": [
+          "domain strategy planning",
+          "business workspace flatlay",
+          "brand planning desk"
+        ],
+        "style_notes": "Clean flat lay composition, business planning theme, natural lighting, minimal aesthetic"
+      }
+    }
+  ],
+  "total_count": 7
+}
