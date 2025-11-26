@@ -14,7 +14,7 @@ Wyobraź sobie, że budzisz się rano i odkrywasz, że Twoja strona internetowa 
 
 ## Wprowadzenie – Dlaczego opieka techniczna to inwestycja, nie koszt
 
-Opieka techniczna to coś więcej niż tylko "pilnowanie" strony internetowej. Obecnie jest to całościowy system działań, który utrzymuje witrynę w najlepszej kondycji – od zabezpieczeń i wydajności, przez aktualizacje oraz kopie zapasowe, aż po monitoring i szybkie reagowanie na problemy.
+Opieka techniczna to coś więcej niż tylko "pilnowanie" strony internetowej. Obecnie jest to całościowy system działań, który utrzymuje witrynę w najlepszej kondycji – od zabezpieczeń i wydajności, przez [aktualizacje oraz kopie zapasowe](/artykuly/strony-internetowe/utrzymanie/aktualizacje-cms), aż po [monitoring i szybkie reagowanie na problemy](/artykuly/strony-internetowe/utrzymanie/monitoring-strony).
 
 Statystyki nie kłamią. Według badań IBM, godzina przestoju może kosztować przeciętną firmę około 5 600 dolarów. Dla sklepów internetowych straty mogą być jeszcze bardziej dotkliwe – mówi się, że Amazon traci około 66 240 dolarów za każdą minutę niedostępności. Choć Twoja firma może być mniejsza, proporcjonalne straty także mogą znacząco obciążyć budżet.
 
