@@ -1,0 +1,210 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Wybór platformy dla stron internetowych",
+    "description": "Minimalistyczne biuro z laptopem wyświetlającym porównanie platform, dokumenty z analizą technologii",
+    "alt_text": "Laptop z porównaniem platform WordPress Webflow na biurku z dokumentami analizy technologii",
+    "prompt": "Modern minimalist workspace flat lay view, laptop displaying platform comparison dashboard with WordPress vs Webflow interfaces, white wooden desk, business documents with technology analysis notes, yellow pen and notebook, coffee cup, natural daylight from window, clean composition, muted colors black white gray with subtle yellow accent, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "platformy stron",
+      "WordPress",
+      "Webflow",
+      "technologie"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "laptop technology comparison business workspace",
+      "pexels_query": "business person computer platform selection",
+      "keywords_for_search": [
+        "web development workspace",
+        "platform comparison",
+        "technology decision"
+      ],
+      "style_notes": "Modern workspace, natural lighting, tech-focused composition with clean aesthetic"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "comparison_table",
+      "section": "Sekcja: Porównanie platform",
+      "title": "Tabela porównawcza platform - budżet vs funkcjonalność",
+      "description": "Macierz porównawcza pokazująca WordPress, Webflow, Headless i Custom pod kątem kosztów i możliwości",
+      "alt_text": "Tabela porównawcza kosztów i funkcjonalności WordPress Webflow Headless Custom development",
+      "prompt": "Clean comparison matrix table showing WordPress vs Webflow vs Headless vs Custom development, budget ranges, functionality scores, timeline estimates, professional infographic style, blue and gray color scheme with yellow highlights, minimalist design, business presentation format",
+      "placement": "after_paragraph_2_section_framework",
+      "keywords": [
+        "porównanie platform",
+        "koszty wdrożenia",
+        "budżet",
+        "WordPress Webflow"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business comparison chart matrix decision",
+        "pexels_query": "infographic comparison table professional",
+        "keywords_for_search": [
+          "decision matrix",
+          "platform comparison",
+          "business analysis chart"
+        ],
+        "style_notes": "Professional comparison matrix, clean design. Canva has excellent templates for decision matrices."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Framework wyboru platformy",
+      "title": "Diagram decyzyjny - Jak wybrać platformę",
+      "description": "Flowchart z pytaniami kluczowymi prowadzący do rekomendacji platformy",
+      "alt_text": "Diagram decyzyjny wyboru platformy internetowej z pytaniami o budżet zespół i cele",
+      "prompt": "Decision tree flowchart diagram showing platform selection process, numbered steps with questions about budget, team skills, business goals, arrows leading to WordPress Webflow Headless Custom recommendations, clean infographic style, professional blue gray colors with yellow decision points, minimalist design",
+      "placement": "after_paragraph_1_section_framework",
+      "keywords": [
+        "framework decyzyjny",
+        "wybór platformy",
+        "proces selekcji",
+        "decision tree"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart decision tree",
+        "pexels_query": "workflow diagram infographic design",
+        "keywords_for_search": [
+          "decision flowchart",
+          "business process diagram",
+          "workflow visualization"
+        ],
+        "style_notes": "Clean flowchart with decision points, arrows and outcomes. Professional business style."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "cost_breakdown",
+      "section": "Sekcja: Całkowity koszt utrzymania",
+      "title": "Wykres kosztów całkowitych platform w 3 lata",
+      "description": "Wykres słupkowy pokazujący TCO (Total Cost of Ownership) dla różnych platform w okresie 3 lat",
+      "alt_text": "Wykres kosztów całkowitych utrzymania WordPress Webflow Headless Custom przez 3 lata",
+      "prompt": "Professional stacked bar chart showing 3-year Total Cost of Ownership for WordPress, Webflow, Headless, Custom platforms, breakdown by development, hosting, maintenance, team costs, clean design with blue gradients and yellow accents, business presentation style",
+      "placement": "after_paragraph_2_wordpress_section",
+      "keywords": [
+        "TCO",
+        "koszty utrzymania",
+        "budżet platform",
+        "ROI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost analysis chart financial",
+        "pexels_query": "financial planning chart budget visualization",
+        "keywords_for_search": [
+          "cost analysis",
+          "budget planning chart",
+          "financial comparison"
+        ],
+        "style_notes": "Professional financial chart, clear data visualization with cost breakdown elements."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Webflow - edytor wizualny",
+      "title": "Screenshot interfejsu Webflow Designer",
+      "description": "Interface Webflow Designer pokazujący edycję responsywną bez kodu",
+      "alt_text": "Interface Webflow Designer z edytorem wizualnym i panelami responsive design",
+      "prompt": "Clean screenshot mockup of Webflow Designer interface showing visual editor, responsive design panels, element properties, canvas with modern website design, professional UI design, annotated key features, high quality interface screenshot",
+      "placement": "after_paragraph_2_webflow_section",
+      "keywords": [
+        "Webflow Designer",
+        "edytor wizualny",
+        "responsive design",
+        "no-code"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web design interface editor screen mockup",
+        "pexels_query": "website builder interface design tool",
+        "keywords_for_search": [
+          "web design software",
+          "visual editor interface",
+          "no-code platform"
+        ],
+        "style_notes": "Clean software interface, modern design tool aesthetic, professional workspace view."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "architecture_diagram",
+      "section": "Sekcja: Headless CMS architektura",
+      "title": "Diagram architektury Headless CMS",
+      "description": "Schemat pokazujący rozdzielenie backend/frontend w architekturze headless",
+      "alt_text": "Diagram architektury headless CMS z podziałem backend frontend i komunikacją API",
+      "prompt": "Technical architecture diagram showing headless CMS structure, separated backend and frontend components, API connections, multiple front-end channels (web, mobile, app), clean technical illustration style, blue and gray colors with connecting arrows, professional system design",
+      "placement": "after_paragraph_1_headless_section",
+      "keywords": [
+        "headless CMS",
+        "architektura",
+        "API",
+        "backend frontend"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "system architecture diagram technical illustration",
+        "pexels_query": "software architecture network diagram",
+        "keywords_for_search": [
+          "headless architecture",
+          "API diagram",
+          "system design illustration"
+        ],
+        "style_notes": "Technical diagram style, clear component separation, professional system architecture aesthetic."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Najczęstsze błędy",
+      "title": "Infografika - 5 najczęstszych błędów przy wyborze platformy",
+      "description": "Pionowa infografika z ikonami pokazująca typowe pułapki w wyborze technologii",
+      "alt_text": "Infografika 5 błędów przy wyborze platformy internetowej z ikonami ostrzeżeń",
+      "prompt": "Vertical warning infographic showing 5 common platform selection mistakes: focusing only on initial cost, overestimating technical skills, ignoring scalability, choosing without consultation, skipping testing phase. Red warning icons, professional design, numbered points, clean layout",
+      "placement": "after_paragraph_1_podsumowanie_section",
+      "keywords": [
+        "błędy wyboru platformy",
+        "pułapki technologiczne",
+        "mistakes",
+        "warning"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business mistakes warning infographic design",
+        "pexels_query": "warning signs business errors illustration",
+        "keywords_for_search": [
+          "business mistakes infographic",
+          "warning checklist",
+          "error prevention visual"
+        ],
+        "style_notes": "Warning-style infographic with red accents, clear numbered points, professional business design."
+      }
+    },
+    {
+      "type": "photo",
+      "subtype": "contextual",
+      "section": "Sekcja: Custom development zespół",
+      "title": "Obraz zespołu programistycznego workspace",
+      "description": "Workspace zespołu deweloperskiego z wieloma monitorami, kodem, dokumentacją projektową",
+      "alt_text": "Workspace programistów z monitorami kodem i dokumentacją projektów custom development",
+      "prompt": "Professional development workspace with multiple monitors showing code editors, system architecture diagrams, project documentation, modern office setup, clean desk organization, natural lighting, tech startup aesthetic, muted colors with yellow notebook accent, no people visible, high quality workspace photography",
+      "placement": "after_paragraph_3_custom_section",
+      "keywords": [
+        "custom development",
+        "zespół programistów",
+        "workspace",
+        "development"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "developer workspace multiple monitors code",
+        "pexels_query": "programming office setup development team",
+        "keywords_for_search": [
+          "development workspace",
+          "programmer office",
+          "coding environment"
+        ],
+        "style_notes": "Professional development workspace, multiple screens, clean setup, modern tech office aesthetic."
+      }
+    }
+  ],
+  "total_count": 8
+}
