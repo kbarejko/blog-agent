@@ -2,16 +2,16 @@ categories:
 - slug: strony-internetowe
   title: Strony Internetowe
   path: strony-internetowe
-- slug: technologie-dla-firm
-  title: Technologie dla firm
-  path: firma/technologie-dla-firm
-- slug: firma
-  title: Firma
-  path: firma
+- slug: wordpress
+  title: Wordpress
+  path: strony-internetowe/content-management-systems-cms/wordpress
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
 - slug: koszt-stron-internetowych
   title: Koszt stron internetowych
   path: strony-internetowe/koszt-stron-internetowych
-- slug: rozwoj-oprogramowania
-  title: Rozwój Oprogramowania
-  path: rozwoj-oprogramowania
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
 count: 5
