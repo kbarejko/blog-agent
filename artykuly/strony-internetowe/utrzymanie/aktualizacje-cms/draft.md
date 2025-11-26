@@ -1,11 +1,10 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Rzeczywiste koszty zaniedbań** - nieaktualne CMS-y generują średnio 10x wyższe koszty niż regularne aktualizacje (włączając straty z włamań i spadek w Google)
 - **Headless CMS jako przewaga biznesowa** - separacja frontendu od backendu eliminuje 80% konfliktów aktualizacji i daje przewidywalność kosztów IT
 - **Konkretna strategia dla każdego biznesu** - od automatycznych aktualizacji WordPress dla małych firm po enterprise'owe procesy testowania w środowiskach staging
 - **Kalkulacja ROI outsourcingu** - kiedy zlecenie aktualizacji na zewnątrz jest tańsze niż zespół wewnętrzny (ze szczegółową analizą kosztów)
 - **Gotowe narzędzia i procesy** - lista sprawdzonych rozwiązań do backupów, testowania i monitorowania, które możesz wdrożyć już dziś
-
 
 ## Wprowadzenie - Dlaczego aktualizacje CMS to strategiczna decyzja biznesowa
 
@@ -95,7 +94,7 @@ Kiedy automatyzacja ma sens? Firmowa strona wizytówka, blog, prosty sklep bez s
 
 Kiedy nie? E-commerce z custom płatnościami, strony z unikalnymi funkcjami, systemy z wieloma integracjami. Tu każda aktualizacja to potencjalny problem.
 
-**Outsourcing vs. własna wiedza**
+### Outsourcing vs. własna wiedza
 
 Zespół wewnętrzny może nauczyć się podstaw. Tworzenie kopii zapasowych, testowanie na staging, przywracanie z backup. To 2-3 dni szkolenia, nie miesiące.
 
@@ -103,13 +102,13 @@ Outsourcing ma sens przy skomplikowanych projektach. Agencja ma doświadczenie z
 
 Środowisko testowe nie jest luksusem. To konieczność. Klonujesz stronę, testujesz aktualizacje, sprawdzasz czy wszystko działa. Dopiero potem aplikujesz na produkcji.
 
-**Timing ma znaczenie**
+### Timing ma znaczenie
 
 Harmonogram dopasuj do biznesu. E-commerce aktualizuje po weekendach, gdy ruch spada. B2B może w każdy wtorek o 10. Restauracja unika godzin zamówień.
 
 Headless CMS daje przewagę czasową. Frontend działa podczas aktualizacji backendu. Możesz aktualizować o każdej porze.
 
-**Enterprise potrzebuje procesów**
+### Enterprise potrzebuje procesów
 
 Duże firmy nie mogą sobie pozwolić na eksperyment. Każda aktualizacja przechodzi przez testy. Zespół QA sprawdza funkcjonalności. IT testuje integracje.
 
@@ -133,7 +132,7 @@ Docker idzie krok dalej. Tworzysz identyczne środowisko lokalnie. Aktualizujesz
 
 Automatyzacja testów to przyszłość, która działa już dziś. Cypress sprawdza czy formularz kontaktowy działa. Playwright testuje ścieżkę zakupową. Jeden skrypt łapie problemy przed klientami.
 
-**Backup to nie tylko pliki**
+### Backup to nie tylko pliki
 
 Większość firm kopii zapasowych robi źle. Zapisują pliki, zapominają o bazie danych. Albo odwrotnie. Pełna kopia zapasowa to:
 - Wszystkie pliki WordPress/CMS
@@ -147,7 +146,7 @@ Testowanie przywracania to kluczowa praktyka, którą pomijają wszyscy. Backup 
 
 Cloud backupy wygrywają z lokalnymi. Pożar w serwerowni może zniszczyć główną stronę i lokalne kopie jednocześnie. Amazon S3, Google Drive, Dropbox – wybierz cokolwiek poza tym samym serwerem.
 
-**Monitoring i alerty**
+### Monitoring i alerty
 
 UptimeRobot sprawdza dostępność strony co minutę. Pingdom mierzy szybkość ładowania. Pierwszy problem = natychmiastowa wiadomość SMS.
 
@@ -227,7 +226,7 @@ Inwestuj w narzędzia, które rosną z firmą. Dzisiejsze decyzje wpłyną na ak
 
 Strategia aktualizacji to nie kwestia technologii, ale modelu biznesowego. Małe firmy mogą startować z automatycznymi aktualizacjami WordPress i podstawowym monitoringiem. Średnie przedsiębiorstwa potrzebują środowisk testowych i procesów backup. Korporacje wymagają pełnej automatyzacji z human oversight.
 
-**Pierwszy krok: audit obecnego stanu**
+### Pierwszy krok: audit obecnego stanu
 
 Sprawdź co masz dziś. Ile systemów wymaga aktualizacji? Które wtyczki nie były dotykane od roku? Czy masz kopie zapasowe i czy działają? Lista może przerazić, ale to punkt startowy.
 
@@ -235,7 +234,7 @@ Przetestuj procedurę przywracania z backup. Najlepiej na kopii strony. Jeśli n
 
 Zmierz realny koszt obecnego podejścia. Ile godzin miesięcznie zespół wydaje na aktualizacje? Jakie są koszty awarii? Często outsourcing okazuje się tańszy od chaosu wewnętrznego.
 
-**Plan na najbliższe 30 dni**
+### Plan na najbliższe 30 dni
 
 Ustaw podstawowy monitoring. UptimeRobot sprawdzi czy strona działa. WP Security Audit Log pokaże co się dzieje w WordPress. To minimum bezpieczeństwa za darmo.
 
@@ -245,7 +244,7 @@ Wdróż harmonogram. Wtorki po południu to dobry moment. Poniedziałki są chao
 
 Jeśli rozważasz headless CMS, zacznij od audytu wymagań. Czy potrzebujesz złożonych funkcji WordPress? Może prosty blog na Gatsby wystarczy? Payload sprawdzi się przy skomplikowanych projektach.
 
-**Kiedy szukać pomocy**
+### Kiedy szukać pomocy
 
 Jeśli zespół wydaje więcej niż 10 godzin miesięcznie na aktualizacje, potrzebujesz automatyzacji lub outsourcingu. Jeśli miałeś awarię przez zaniedbane aktualizacje, potrzebujesz profesjonalnego wsparcia.
 

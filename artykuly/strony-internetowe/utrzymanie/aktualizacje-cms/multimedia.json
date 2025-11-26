@@ -1,0 +1,186 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Aktualizacje CMS jako strategia biznesowa",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard CMS z metrykami aktualizacji",
+    "alt_text": "Laptop z dashboardem CMS pokazującym status aktualizacji na czystym biurku w nowoczesnym biurze",
+    "prompt": "Clean minimalist workspace flat lay, laptop displaying CMS dashboard with update notifications and security metrics, white wooden desk, notebook with yellow pen, smartphone, natural window lighting, muted colors black white gray with subtle yellow accents, professional tech aesthetic, high quality, no people",
+    "keywords": [
+      "CMS",
+      "aktualizacje",
+      "dashboard",
+      "bezpieczeństwo"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "laptop dashboard workspace minimalist flat lay",
+      "pexels_query": "modern workspace computer analytics dashboard",
+      "keywords_for_search": [
+        "CMS dashboard",
+        "website management",
+        "tech workspace",
+        "business laptop"
+      ],
+      "style_notes": "Minimalist workspace, natural lighting, professional business setting, avoid people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "comparison_chart",
+      "section": "Sekcja: Koszty rzeczywiste vs. koszty ukryte",
+      "title": "Porównanie kosztów regularnych aktualizacji vs. odbudowy po ataku",
+      "description": "Wykres słupkowy porównujący koszty regularnych aktualizacji (300 zł/miesiąc) z kosztami odbudowy po cyberataku (50-200k zł)",
+      "alt_text": "Wykres porównania kosztów aktualizacji CMS z kosztami odbudowy po cyberataku",
+      "prompt": "Clean comparison bar chart showing monthly CMS updates cost (300 PLN) versus cyber attack recovery cost (50-200k PLN), dramatic visual difference in bar heights, professional infographic style, blue and red colors, minimalist design with clear labels",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "koszty",
+        "aktualizacje",
+        "cyberatak",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison chart infographic",
+        "pexels_query": "financial data visualization chart",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "business infographic",
+          "financial chart"
+        ],
+        "style_notes": "Clean professional chart, dramatic visual contrast between values"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Anatomia różnych typów CMS",
+      "title": "Diagram porównania WordPress vs Headless CMS",
+      "description": "Schemat architektury pokazujący różnice między monolitycznym WordPress a headless CMS z oddzielonym frontendem",
+      "alt_text": "Diagram architektury WordPress vs headless CMS pokazujący separację frontend od backend",
+      "prompt": "Technical architecture diagram comparing WordPress monolithic structure versus headless CMS separated frontend and backend, clean lines, arrows showing data flow, geometric shapes, professional blue and gray color scheme, minimalist technical illustration style",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "WordPress",
+        "headless CMS",
+        "architektura",
+        "frontend"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software architecture diagram technical illustration",
+        "pexels_query": "system architecture flowchart",
+        "keywords_for_search": [
+          "technical diagram",
+          "software architecture",
+          "system flow",
+          "web development"
+        ],
+        "style_notes": "Clean technical diagram, geometric shapes, professional color scheme"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Koszty rzeczywiste vs. koszty ukryte",
+      "title": "Wpływ opóźnienia strony na konwersje",
+      "description": "Wykres liniowy pokazujący spadek konwersji o 7% za każdą sekundę opóźnienia ładowania strony",
+      "alt_text": "Wykres spadku konwersji e-commerce w zależności od czasu ładowania strony",
+      "prompt": "Clean line chart showing conversion rate decline with page loading time, x-axis showing seconds (1-5s), y-axis showing conversion percentage, declining red line, professional data visualization style, clear grid and labels",
+      "placement": "after_paragraph_5",
+      "keywords": [
+        "konwersje",
+        "czas ładowania",
+        "wydajność",
+        "e-commerce"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website performance analytics chart dashboard",
+        "pexels_query": "web analytics conversion rate chart",
+        "keywords_for_search": [
+          "performance analytics",
+          "conversion chart",
+          "website metrics"
+        ],
+        "style_notes": "Professional analytics dashboard style, clean data visualization"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Praktyczne narzędzia",
+      "title": "Interface WP Staging Plugin",
+      "description": "Screenshot panelu WP Staging pokazujący proces klonowania strony do środowiska testowego",
+      "alt_text": "Panel WP Staging z opcjami klonowania strony WordPress do środowiska testowego",
+      "prompt": "Clean mockup of WP Staging plugin interface showing staging site creation process, WordPress admin dashboard style, highlighted clone button and settings, professional UI design, clear navigation elements",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "WP Staging",
+        "WordPress",
+        "środowisko testowe",
+        "klonowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "wordpress admin dashboard plugin interface",
+        "pexels_query": "website management dashboard screenshot",
+        "keywords_for_search": [
+          "wordpress dashboard",
+          "plugin interface",
+          "web development tools"
+        ],
+        "style_notes": "Clean WordPress admin interface, professional plugin UI"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Strategia aktualizacji",
+      "title": "Infografika - Strategia aktualizacji według wielkości firmy",
+      "description": "Pionowa infografika z 3 sekcjami: małe firmy (automatyzacja), średnie (procesy), duże (enterprise)",
+      "alt_text": "Infografika strategii aktualizacji CMS dla małych, średnich i dużych firm",
+      "prompt": "Vertical infographic showing 3-tier CMS update strategy: small business (automation icons), medium enterprise (process flowcharts), large corporation (enterprise architecture), clean design with icons, blue and gray color scheme, professional business style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "strategia",
+        "aktualizacje",
+        "małe firmy",
+        "enterprise"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business strategy infographic three levels",
+        "pexels_query": "company size comparison infographic",
+        "keywords_for_search": [
+          "business strategy visual",
+          "company tiers infographic",
+          "process comparison"
+        ],
+        "style_notes": "Tiered infographic design, professional business aesthetic with icons"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "roi_calculator",
+      "section": "Sekcja: Outsourcing vs. zarządzanie wewnętrzne",
+      "title": "Kalkulator ROI: Developer wewnętrzny vs Outsourcing",
+      "description": "Tabela porównawcza kosztów rocznych: developer wewnętrzny (180k zł) vs outsourcing (18k zł)",
+      "alt_text": "Porównanie kosztów rocznych developera wewnętrznego z outsourcingiem aktualizacji CMS",
+      "prompt": "Professional comparison table showing annual costs breakdown: internal developer (180k PLN total) versus outsourcing (18k PLN), detailed cost categories, calculator-style layout, green and red indicators, clean business table design",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "ROI",
+        "outsourcing",
+        "developer",
+        "koszty"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost calculator comparison table",
+        "pexels_query": "financial roi calculation spreadsheet",
+        "keywords_for_search": [
+          "cost comparison table",
+          "ROI calculator",
+          "business analysis"
+        ],
+        "style_notes": "Clean professional table design, calculator aesthetic with clear numbers"
+      }
+    }
+  ],
+  "total_count": 7
+}
