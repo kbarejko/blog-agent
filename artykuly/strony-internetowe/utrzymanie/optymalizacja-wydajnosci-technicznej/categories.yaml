@@ -1,0 +1,17 @@
+categories:
+- slug: optymalizacja-techniczna
+  title: Optymalizacja Techniczna
+  path: marketing-w-internecie/seo-i-optymalizacja-stron/optymalizacja-techniczna
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+- slug: it-i-technologia
+  title: IT i Technologia
+  path: it-i-technologia
+count: 5
