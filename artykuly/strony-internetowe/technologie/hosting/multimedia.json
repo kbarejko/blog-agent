@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Hosting dla różnych technologii",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard wyboru hostingu",
+    "alt_text": "Workspace z laptopem wyświetlającym dashboard porównania typów hostingu dla firm",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying hosting comparison dashboard with different server types icons, white wooden desk, notebook with yellow pen, smartphone, coffee cup, natural daylight from window, clean composition, muted colors black white gray with yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "hosting",
+      "porównanie",
+      "technologie",
+      "dashboard"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop dashboard technology",
+      "pexels_query": "modern workspace computer technology setup",
+      "keywords_for_search": [
+        "hosting workspace",
+        "server dashboard",
+        "technology desk setup"
+      ],
+      "style_notes": "Minimalist, clean workspace, muted colors with yellow accents, professional business setting"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "comparison_chart",
+      "section": "Sekcja: Hosting współdzielony",
+      "title": "Porównanie kosztów hostingu współdzielonego vs VPS",
+      "description": "Wykres słupkowy porównujący miesięczne koszty różnych typów hostingu",
+      "alt_text": "Wykres porównania kosztów hostingu: współdzielony 15-50 zł, VPS 80-200 zł, dedykowany 800-2000 zł",
+      "prompt": "Clean comparison bar chart showing hosting costs: shared hosting 15-50 PLN, VPS 80-200 PLN, dedicated 800-2000 PLN, minimalist design, blue and gray colors with yellow highlights, professional infographic style, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "hosting",
+        "koszty",
+        "porównanie",
+        "VPS"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison chart infographic",
+        "pexels_query": "price comparison data visualization",
+        "keywords_for_search": [
+          "cost analysis chart",
+          "hosting comparison",
+          "price infographic"
+        ],
+        "style_notes": "Clean, professional chart design. Could use Canva templates or ChartJS library with brand colors."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: VPS - elastyczność dla rozwijających się firm",
+      "title": "Infografika - Kiedy przejść z hostingu współdzielonego na VPS",
+      "description": "Pionowa infografika z sygnałami wskazującymi na potrzebę upgrade'u hostingu",
+      "alt_text": "Infografika sygnałów przejścia na VPS: wolne ładowanie, przekroczenie limitów, więcej niż 1000 użytkowników",
+      "prompt": "Vertical infographic showing 5 signs to upgrade from shared hosting to VPS: slow loading times, CPU limit exceeded, 1000+ monthly users, need custom software, security requirements. Clean icons for each point, blue and white design with yellow accents, professional minimalist style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "VPS",
+        "upgrade",
+        "sygnały",
+        "hosting"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "server upgrade infographic minimalist design",
+        "pexels_query": "technology upgrade checklist infographic",
+        "keywords_for_search": [
+          "hosting upgrade signs",
+          "VPS infographic",
+          "server comparison visual"
+        ],
+        "style_notes": "Vertical infographic, numbered signs with icons. Use brand colors: black, white, gray with yellow accents."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Cloud hosting - przyszłość elastycznego skalowania",
+      "title": "Diagram skalowania zasobów cloud hostingu",
+      "description": "Schemat pokazujący automatyczne skalowanie zasobów w zależności od ruchu",
+      "alt_text": "Diagram automatycznego skalowania cloud hostingu podczas Black Friday i normalnego ruchu",
+      "prompt": "Clean diagram showing cloud hosting auto-scaling: normal traffic with 2 servers, Black Friday peak with 8 servers, arrows indicating scaling up and down, minimalist design, blue and gray servers with yellow scaling indicators, professional technical illustration",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "cloud",
+        "skalowanie",
+        "Black Friday",
+        "elastyczność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "cloud computing scaling diagram technical",
+        "pexels_query": "server network diagram illustration",
+        "keywords_for_search": [
+          "cloud architecture",
+          "server scaling",
+          "technical diagram"
+        ],
+        "style_notes": "Technical diagram, clean lines, geometric server representations. Use brand colors for highlights."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Hosting pod konkretne technologie",
+      "title": "Porównanie paneli WordPress vs Magento hosting",
+      "description": "Screenshot porównujący różne panele hostingu dla różnych technologii",
+      "alt_text": "Porównanie interfejsów hostingu WordPress managed i Magento z różnymi konfiguracjami",
+      "prompt": "Clean mockup comparison of WordPress managed hosting panel vs Magento hosting configuration interface, showing different resource allocations, cache settings, database configurations, professional UI design, side by side layout",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "WordPress",
+        "Magento",
+        "hosting",
+        "panel"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "wordpress hosting panel interface screenshot",
+        "pexels_query": "web hosting dashboard interface",
+        "keywords_for_search": [
+          "hosting control panel",
+          "wordpress dashboard",
+          "web admin interface"
+        ],
+        "style_notes": "Clean, modern hosting interface. Could use existing hosting provider screenshots or create mockups."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "checklist",
+      "section": "Sekcja: Kryteria wyboru hostingu - praktyczny checklist",
+      "title": "12-punktowy checklist wyboru hostingu",
+      "description": "Wizualna lista kontrolna z 12 najważniejszymi kryteriami wyboru hostingu",
+      "alt_text": "Checklist wyboru hostingu: uptime, bezpieczeństwo, wsparcie, cena, lokalizacja serwerów",
+      "prompt": "Professional checklist infographic with 12 hosting selection criteria: uptime guarantee, security features, technical support, transparent pricing, server location, backup frequency, SSL certificates, scalability options, money-back guarantee, performance metrics, each with checkboxes and icons, clean design, black and white with yellow checkmarks",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "checklist",
+        "wybór hostingu",
+        "kryteria",
+        "wskazówki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business checklist infographic professional",
+        "pexels_query": "hosting criteria checklist design",
+        "keywords_for_search": [
+          "technical checklist",
+          "hosting guide",
+          "selection criteria infographic"
+        ],
+        "style_notes": "Clean checklist design with checkboxes. Use brand colors with yellow checkmarks for completed items."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Podsumowanie",
+      "title": "Wykres wzrostu potrzeb hostingowych wraz z rozwojem firmy",
+      "description": "Wykres liniowy pokazujący ewolucję potrzeb hostingowych w czasie",
+      "alt_text": "Wykres rozwoju potrzeb hostingowych: od współdzielonego przez VPS do cloud w miarę wzrostu firmy",
+      "prompt": "Clean line chart showing hosting needs evolution over time: shared hosting for startup, VPS for growing business, dedicated/cloud for enterprise, timeline 0-5 years, ascending curve, professional design with blue line and yellow data points",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "rozwój",
+        "skalowanie",
+        "ewolucja hostingu",
+        "biznes"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth timeline chart professional",
+        "pexels_query": "company development line graph",
+        "keywords_for_search": [
+          "growth timeline",
+          "business evolution chart",
+          "hosting scalability graph"
+        ],
+        "style_notes": "Professional growth chart, clean design with brand colors. Show progression over time."
+      }
+    }
+  ],
+  "total_count": 7
+}
