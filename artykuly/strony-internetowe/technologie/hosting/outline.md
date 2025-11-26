@@ -88,7 +88,7 @@
 - Integracje z systemami płatności
 
 ### Hosting dla aplikacji webowych
-- Wsparcie dla Node.js, Python, PHP w różnych wersjach
+- Wsparcie dla Node.js, Python, PHP, NextJS w różnych wersjach
 - Bazy danych: MySQL, PostgreSQL, MongoDB
 - Kontenery i Docker w hostingu
 
