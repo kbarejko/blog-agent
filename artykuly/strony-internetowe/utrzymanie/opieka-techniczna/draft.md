@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Koszt bezczynności strony** - Każda godzina awarii może kosztować małą firmę 1300-8000 zł w utraconych przychodach i pozycjach SEO
 - **5 kluczowych trendów 2025** - AI do predykcyjnej diagnostyki problemów, automatyczne optymalizacje Core Web Vitals i nowe standardy bezpieczeństwa SSL/TLS
@@ -6,10 +6,9 @@
 - **Checklistę wyboru partnera** - 12 pytań do zadania agencji plus czerwone flagi, które oznaczają problematycznego wykonawcę
 - **Kalkulację ROI z opieki** - Jak udowodnić sobie, że 1000 zł miesięcznie za opiekę zwróci się poprzez uniknięte awarie i lepsze pozycje w Google
 
+# Wprowadzenie – Dlaczego opieka techniczna to inwestycja, nie koszt
 
-## Wprowadzenie – Dlaczego opieka techniczna to inwestycja, nie koszt
-
-# Opieka Techniczna Stron Internetowych w 2025
+## Opieka Techniczna Stron Internetowych w 2025
 
 Wyobraź sobie, że budzisz się rano i dowiadujesz się, że Twoja strona internetowa nie działa od kilku godzin. Klienci nie mogą złożyć zamówień, kontrahenci nie mają dostępu do ważnych informacji, a konkurencja właśnie przejmuje Twoich potencjalnych klientów. To scenariusz, którego doświadcza rocznie 23% firm w Polsce.
 

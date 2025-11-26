@@ -1,0 +1,180 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Opieka techniczna stron internetowych",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard monitoringu strony internetowej",
+    "alt_text": "Laptop z dashboardem monitoringu strony internetowej na minimalistycznym biurku",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying website monitoring dashboard with uptime graphs and security metrics, white wooden desk, smartphone, yellow notebook with pen, coffee cup, natural daylight from window, muted colors black white gray with yellow accent, professional tech aesthetic, high quality, no people",
+    "keywords": [
+      "opieka techniczna",
+      "monitoring strony",
+      "dashboard",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "website monitoring dashboard laptop workspace minimalist",
+      "pexels_query": "computer dashboard analytics workspace",
+      "keywords_for_search": [
+        "tech workspace",
+        "monitoring dashboard",
+        "website analytics",
+        "minimalist desk"
+      ],
+      "style_notes": "Minimalist workspace, no people, clean aesthetic, muted colors with yellow accents"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Koszty zaniedbania vs. inwestycja w opiekę",
+      "title": "Porównanie kosztów awarii vs. opieki proaktywnej",
+      "description": "Wykres słupkowy porównujący koszty naprawy awaryjnej z kosztami proaktywnej opieki technicznej",
+      "alt_text": "Wykres porównania kosztów naprawy awaryjnej versus proaktywna opieka techniczna",
+      "prompt": "Professional bar chart comparing reactive repair costs versus proactive maintenance costs, two distinct colored bars showing significant cost difference, clean minimalist design, black and gray colors with yellow highlights, values in PLN, business infographic style",
+      "placement": "after_paragraph_2_in_cost_section",
+      "keywords": [
+        "koszty opieki",
+        "naprawa awaryjna",
+        "proaktywna opieka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison chart professional",
+        "pexels_query": "financial comparison data visualization",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "business analytics",
+          "financial graph"
+        ],
+        "style_notes": "Clean professional chart design, could use Canva templates or create with ChartJS"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Składniki profesjonalnej opieki technicznej",
+      "title": "Infografika - Składniki opieki technicznej",
+      "description": "Pionowa infografika przedstawiająca kluczowe elementy profesjonalnej opieki technicznej",
+      "alt_text": "Infografika składników profesjonalnej opieki technicznej stron internetowych",
+      "prompt": "Vertical infographic showing key components of professional website maintenance: monitoring, security, backups, performance optimization, updates. Clean icons for each element, numbered steps, professional design with black white gray color scheme and yellow accents, minimalist business style",
+      "placement": "after_paragraph_1_in_components_section",
+      "keywords": [
+        "składniki opieki",
+        "monitoring",
+        "bezpieczeństwo",
+        "optymalizacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website maintenance infographic professional clean",
+        "pexels_query": "technical support infographic design",
+        "keywords_for_search": [
+          "website maintenance visual",
+          "tech support infographic",
+          "numbered process design"
+        ],
+        "style_notes": "Vertical layout, numbered components with icons, professional color scheme"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Trendy w opiece technicznej na 2025",
+      "title": "Wzrost adopcji AI w opiece technicznej",
+      "description": "Wykres liniowy pokazujący prognozowany wzrost wykorzystania AI w usługach opieki technicznej",
+      "alt_text": "Wykres wzrostu wykorzystania sztucznej inteligencji w opiece technicznej 2022-2025",
+      "prompt": "Clean line chart showing AI adoption growth in technical maintenance services from 2022 to 2025, ascending blue line with data points, percentage values on Y-axis, professional chart design, minimalist style with gray background",
+      "placement": "after_ai_automation_paragraph",
+      "keywords": [
+        "AI w IT",
+        "trendy technologiczne",
+        "automatyzacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "AI technology growth chart professional",
+        "pexels_query": "artificial intelligence trend graph",
+        "keywords_for_search": [
+          "AI adoption chart",
+          "technology trends",
+          "growth statistics"
+        ],
+        "style_notes": "Clean line chart with ascending trend, professional business style"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Monitoring i bezpieczeństwo",
+      "title": "Dashboard monitoringu uptime",
+      "description": "Screenshot przykładowego dashboardu monitoringu dostępności strony z metrykami uptime",
+      "alt_text": "Dashboard monitoringu uptime strony internetowej z wykresami dostępności",
+      "prompt": "Clean website monitoring dashboard interface showing uptime metrics, response times, server status indicators, green/yellow/red status lights, professional UI design, dark theme with highlighted metrics, realistic software interface mockup",
+      "placement": "after_monitoring_description",
+      "keywords": [
+        "monitoring uptime",
+        "dashboard",
+        "dostępność strony"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website monitoring dashboard interface dark",
+        "pexels_query": "server monitoring software interface",
+        "keywords_for_search": [
+          "monitoring dashboard",
+          "server status interface",
+          "uptime dashboard"
+        ],
+        "style_notes": "Professional software interface, dark theme preferred, clean metrics display"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison",
+      "section": "Sekcja: Wewnętrzna opieka vs. outsourcing",
+      "title": "Porównanie wewnętrzny zespół vs. outsourcing",
+      "description": "Wizualne porównanie zalet i wad wewnętrznego zespołu IT versus outsourcingu",
+      "alt_text": "Porównanie wewnętrzny zespół IT versus outsourcing opieki technicznej",
+      "prompt": "Split-screen comparison illustration showing internal IT team versus outsourcing, left side showing office workspace with computers, right side showing cloud services and external support symbols, clean minimalist design, professional icons, balanced composition",
+      "placement": "beginning_of_comparison_section",
+      "keywords": [
+        "outsourcing IT",
+        "wewnętrzny zespół",
+        "porównanie rozwiązań"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "IT outsourcing versus internal team comparison",
+        "pexels_query": "business decision comparison visual",
+        "keywords_for_search": [
+          "IT outsourcing",
+          "internal team",
+          "business comparison"
+        ],
+        "style_notes": "Split-screen or versus-style comparison, professional business aesthetic"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Planowanie budżetu",
+      "title": "Rozkład kosztów opieki technicznej",
+      "description": "Wykres kołowy pokazujący podział budżetu na różne składniki opieki technicznej",
+      "alt_text": "Wykres rozkładu kosztów składników opieki technicznej stron internetowych",
+      "prompt": "Clean pie chart showing technical maintenance budget breakdown: monitoring 25%, security 30%, backups 15%, optimization 20%, support 10%, professional colors with percentages labeled, minimalist design",
+      "placement": "after_budget_breakdown_paragraph",
+      "keywords": [
+        "budżet opieki",
+        "koszty utrzymania",
+        "składniki kosztów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "budget breakdown pie chart professional",
+        "pexels_query": "business budget allocation chart",
+        "keywords_for_search": [
+          "budget pie chart",
+          "cost breakdown",
+          "financial allocation"
+        ],
+        "style_notes": "Clean pie chart with clear percentages and labels, professional business style"
+      }
+    }
+  ],
+  "total_count": 7
+}
