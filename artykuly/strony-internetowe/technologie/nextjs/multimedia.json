@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Next.js nowoczesny development",
+    "description": "Minimalistyczna kompozycja z laptopem pokazującym kod Next.js i dashboard analytics na czystym workspace",
+    "alt_text": "Laptop z kodem Next.js i dashboardem analytics na minimalistycznym biurku workspace",
+    "prompt": "Minimalist workspace flat lay view, laptop displaying Next.js code and analytics dashboard with performance metrics, white wooden desk, notebook with yellow pen, coffee cup, smartphone, natural daylight from window, clean composition, muted colors black white gray with subtle yellow accent, professional tech aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "next.js",
+      "development",
+      "workspace",
+      "nowoczesne technologie"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "developer workspace laptop code modern office",
+      "pexels_query": "programming workspace clean desk setup",
+      "keywords_for_search": [
+        "web development workspace",
+        "coding setup",
+        "tech workspace"
+      ],
+      "style_notes": "Clean minimalist workspace, natural lighting, professional tech aesthetic, no people visible"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Dlaczego Next.js dominuje rynek w 2025",
+      "title": "Wykres adopcji Next.js vs konkurencja 2024-2025",
+      "description": "Porównawczy wykres słupkowy pokazujący wzrost popularności Next.js względem innych frameworków",
+      "alt_text": "Wykres porównawczy popularności Next.js Angular Vue React w 2024-2025",
+      "prompt": "Clean comparative bar chart showing Next.js adoption growth vs Angular, Vue, React from 2024 to 2025, professional infographic style, black and gray bars with yellow accent for Next.js, percentage values, minimalist design, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "next.js",
+        "popularność",
+        "frameworki",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "technology comparison chart framework statistics",
+        "pexels_query": "business chart data visualization growth",
+        "keywords_for_search": [
+          "framework comparison chart",
+          "technology adoption graph",
+          "software statistics"
+        ],
+        "style_notes": "Clean professional chart design, can use ChartJS library or Canva templates"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Next.js App Router - przełom w budowaniu nowoczesnych stron",
+      "title": "Diagram architektury App Router",
+      "description": "Schema pokazujący różnice między Server Components i Client Components w Next.js 13+",
+      "alt_text": "Diagram architektury Next.js App Router z Server Components i Client Components",
+      "prompt": "Clean architectural diagram showing Next.js App Router structure, Server Components on left side connected to Client Components on right, arrows showing data flow, minimalist design with black lines and shapes on white background, yellow accents for key elements, professional technical illustration",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "next.js",
+        "app router",
+        "architektura",
+        "components"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software architecture diagram clean minimal",
+        "pexels_query": "technical diagram system architecture",
+        "keywords_for_search": [
+          "system architecture diagram",
+          "software flow chart",
+          "technical illustration"
+        ],
+        "style_notes": "Clean technical diagram, minimalist lines and shapes, professional software architecture style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Wydajność biznesowa - dlaczego Next.js zwiększa ROI",
+      "title": "Wykres ROI Next.js w czasie",
+      "description": "Liniowy wykres pokazujący wzrost ROI po wdrożeniu Next.js w okresie 12 miesięcy",
+      "alt_text": "Wykres wzrostu ROI po wdrożeniu Next.js w firmie przez 12 miesięcy",
+      "prompt": "Clean line chart showing ROI growth after Next.js implementation over 12 months, ascending trend line in yellow on white background, percentage scale, professional business chart style, minimal grid lines, black text labels",
+      "placement": "after_paragraph_4",
+      "keywords": [
+        "ROI",
+        "next.js",
+        "wydajność",
+        "biznes"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth chart upward trend line",
+        "pexels_query": "financial chart roi growth visualization",
+        "keywords_for_search": [
+          "business growth graph",
+          "roi chart",
+          "financial performance"
+        ],
+        "style_notes": "Clean ascending line chart, business-focused design, can create in Excel or Google Sheets"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: SEO i marketing - Next.js jako narzędzie do wzrostu",
+      "title": "Infografika - Funkcje SEO Next.js",
+      "description": "Pionowa infografika pokazująca 5 kluczowych funkcji SEO wbudowanych w Next.js",
+      "alt_text": "Infografika funkcji SEO Next.js meta tags sitemap robots structured data",
+      "prompt": "Vertical infographic showing 5 key Next.js SEO features: meta tags, sitemap generation, robots.txt, structured data, Core Web Vitals. Clean icons for each feature, numbered list design, black and gray colors with yellow highlights, professional minimalist style, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "SEO",
+        "next.js",
+        "optymalizacja",
+        "wyszukiwarki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "seo optimization infographic checklist icons",
+        "pexels_query": "digital marketing infographic design",
+        "keywords_for_search": [
+          "seo infographic",
+          "web optimization visual",
+          "marketing checklist"
+        ],
+        "style_notes": "Vertical numbered infographic with icons, Canva has excellent SEO templates"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "comparison",
+      "section": "Sekcja: Koszty i zwrot z inwestycji - analiza finansowa",
+      "title": "Porównanie kosztów Next.js vs tradycyjne rozwiązania",
+      "description": "Tabela porównawcza kosztów development, hosting i maintenance",
+      "alt_text": "Tabela porównania kosztów Next.js versus tradycyjne rozwiązania webowe",
+      "prompt": "Clean comparison table showing costs of Next.js vs traditional solutions, three columns: Development, Hosting, Maintenance, rows for each solution type, green and red indicators for cost levels, professional business table design, black text on white background",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "koszty",
+        "next.js",
+        "porównanie",
+        "budżet"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost comparison table spreadsheet",
+        "pexels_query": "financial comparison chart business",
+        "keywords_for_search": [
+          "cost comparison table",
+          "business budget chart",
+          "financial analysis"
+        ],
+        "style_notes": "Professional business table design, can create in Excel/Google Sheets or HTML/CSS"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Praktyczny przewodnik wdrożenia Next.js w firmie",
+      "title": "Screenshot Vercel deployment dashboard",
+      "description": "Mockup panelu Vercel pokazujący proces deployment aplikacji Next.js",
+      "alt_text": "Panel Vercel z procesem wdrożenia aplikacji Next.js deployment dashboard",
+      "prompt": "Clean mockup of Vercel deployment dashboard interface showing Next.js project deployment process, modern UI design, deployment status indicators, build logs, domain settings, professional software interface aesthetic, highlighted deploy button",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "vercel",
+        "deployment",
+        "next.js",
+        "hosting"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software dashboard interface deployment cloud",
+        "pexels_query": "web hosting dashboard modern interface",
+        "keywords_for_search": [
+          "deployment dashboard",
+          "cloud hosting interface",
+          "software control panel"
+        ],
+        "style_notes": "Modern software interface, clean dashboard design, professional hosting panel aesthetic"
+      }
+    }
+  ],
+  "total_count": 7
+}
