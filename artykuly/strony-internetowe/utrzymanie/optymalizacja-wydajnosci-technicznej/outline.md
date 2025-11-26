@@ -88,4 +88,6 @@
 - 3 najważniejsze działania do natychmiastowego wdrożenia
 - Kiedy warto skorzystać z pomocy specjalistów
 - ROI z optymalizacji wydajności - jak mierzyć zwrot z inwestycji
-- Call to action - audyt wydajności strony --- **Proponowany tytuł H1:** "Optymalizacja Wydajności Technicznej Strony - Praktyczny Przewodnik dla Właścicieli Firm"
+- Call to action - audyt wydajności strony 
+
+--- **Proponowany tytuł H1:** "Optymalizacja Wydajności Technicznej Strony - Praktyczny Przewodnik dla Właścicieli Firm"

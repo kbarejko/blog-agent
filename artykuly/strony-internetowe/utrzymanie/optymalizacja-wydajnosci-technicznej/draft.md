@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **40% użytkowników opuszcza stronę** po 3 sekundach ładowania, co bezpośrednio przekłada się na utracone sprzedaże i niższe pozycje w Google.
 - **Google PageSpeed Insights i Core Web Vitals** to darmowe narzędzia, które w 5 minut pokażą Ci główne przyczyny spowolnień Twojej strony.
@@ -6,10 +6,9 @@
 - **CDN i hosting SSD** to inwestycje, które zwracają się już przy 1000 odwiedzających miesięcznie poprzez lepsze konwersje i pozycjonowanie.
 - **3 natychmiastowe działania optymalizacyjne** możesz wdrożyć dziś bez pomocy programisty i zobaczyć efekty w ciągu tygodnia.
 
-
 ## Wprowadzenie - Dlaczego wydajność techniczna to podstawa biznesu online
 
-# Optymalizacja Wydajnosci Technicznej
+# Optymalizacja Wydajności Technicznej
 
 Jedna sekunda może kosztować tysiące złotych. W świecie e-commerce każda zwłoka w ładowaniu strony przekłada się bezpośrednio na utracone transakcje i frustrację klientów. Amazon wyliczył, że spowolnienie o jedną sekundę może oznaczać straty rzędu 1,6 miliarda dolarów rocznie.
 

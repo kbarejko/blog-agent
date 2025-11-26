@@ -1,0 +1,186 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Optymalizacja wydajności technicznej",
+    "description": "Minimalistyczna kompozycja z laptopem wyświetlającym dashboard wydajności strony",
+    "alt_text": "Laptop z dashboardem analityki wydajności strony na czystym biurku w minimalistycznym workspace",
+    "prompt": "Clean minimalist workspace flat lay view, laptop displaying website performance analytics dashboard with speed metrics and charts, white wooden desk, smartphone, notebook with yellow pen, coffee cup, natural window lighting from side, muted colors black white gray with subtle yellow accent, professional business aesthetic, high quality, shallow depth of field, no people",
+    "keywords": [
+      "wydajność",
+      "optymalizacja",
+      "dashboard",
+      "analytics"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "website analytics dashboard laptop workspace minimalist",
+      "pexels_query": "computer performance metrics business desk",
+      "keywords_for_search": [
+        "website optimization",
+        "performance analytics",
+        "business workspace",
+        "laptop dashboard"
+      ],
+      "style_notes": "Minimalist workspace, muted colors with yellow accents, natural lighting, top-down or side angle"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - Dlaczego wydajność techniczna to podstawa biznesu online",
+      "title": "Wpływ czasu ładowania na bounce rate",
+      "description": "Wykres słupkowy pokazujący wzrost bounce rate wraz z wydłużaniem się czasu ładowania strony",
+      "alt_text": "Wykres wzrostu bounce rate w zależności od czasu ładowania strony od 1 do 5 sekund",
+      "prompt": "Professional bar chart showing bounce rate increase with loading time, clean minimalist design, bars in gradient from green to red, values from 1-5 seconds loading time, percentage on Y-axis, white background, modern infographic style, black and gray text with yellow highlights",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "bounce rate",
+        "czas ładowania",
+        "wydajność",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business chart statistics performance metrics",
+        "pexels_query": "data visualization bar chart analytics",
+        "keywords_for_search": [
+          "performance chart",
+          "website statistics",
+          "bounce rate visualization"
+        ],
+        "style_notes": "Clean bar chart, professional colors, easy to read labels. Can be created with ChartJS or Canva"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Diagnoza wydajności - Gdzie szukać problemów",
+      "title": "Interface Google PageSpeed Insights",
+      "description": "Screenshot interfejsu Google PageSpeed Insights pokazujący wyniki analizy wydajności",
+      "alt_text": "Interface Google PageSpeed Insights z wynikami analizy wydajności strony 67 punktów",
+      "prompt": "Clean mockup screenshot of Google PageSpeed Insights interface showing performance score of 67 points, core web vitals metrics visible, opportunities section expanded, mobile and desktop tabs, professional UI design, realistic but clean interface",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "Google PageSpeed Insights",
+        "analiza wydajności",
+        "narzędzia",
+        "diagnostyka"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "google analytics dashboard interface mockup",
+        "pexels_query": "website analytics tool interface",
+        "keywords_for_search": [
+          "PageSpeed Insights",
+          "google tools",
+          "web analytics interface"
+        ],
+        "style_notes": "Clean interface mockup, Google's Material Design style, actual tool appearance"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Optymalizacja obrazów i mediów",
+      "title": "Porównanie formatów obrazów WebP vs JPEG vs PNG",
+      "description": "Infografika porównująca rozmiary plików i jakość różnych formatów obrazów",
+      "alt_text": "Infografika porównanie formatów WebP JPEG PNG z rozmiarem plików i zastosowaniem",
+      "prompt": "Clean comparison infographic showing three image formats WebP JPEG PNG, file size comparison with same image example, usage recommendations for each format, icons and visual examples, professional design with black white gray colors and yellow accents, minimalist layout",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "WebP",
+        "JPEG",
+        "PNG",
+        "kompresja",
+        "formaty obrazów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "file format comparison infographic design",
+        "pexels_query": "image compression visual comparison",
+        "keywords_for_search": [
+          "file format infographic",
+          "WebP comparison",
+          "image optimization visual"
+        ],
+        "style_notes": "Side-by-side comparison layout, clean icons for each format, professional infographic style"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Wybór i konfiguracja hostingu",
+      "title": "Diagram wyboru typu hostingu",
+      "description": "Flowchart pomagający wybrać odpowiedni typ hostingu w zależności od potrzeb",
+      "alt_text": "Diagram przepływu wyboru hostingu współdzielony VPS dedykowany w zależności od ruchu",
+      "prompt": "Clean decision flowchart for choosing hosting type, starting with website traffic volume, branches leading to shared hosting VPS or dedicated server, simple icons for each hosting type, arrows connecting decision points, minimalist design black white gray with yellow highlights",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "hosting",
+        "VPS",
+        "serwer dedykowany",
+        "wybór hostingu"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "decision tree flowchart business process",
+        "pexels_query": "hosting comparison diagram infographic",
+        "keywords_for_search": [
+          "flowchart template",
+          "decision tree",
+          "hosting comparison"
+        ],
+        "style_notes": "Vertical flowchart with decision diamonds and process rectangles, clean professional style"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Cache'owanie i optymalizacja kodu",
+      "title": "Porównanie czasu ładowania przed i po cache",
+      "description": "Wykres liniowy pokazujący różnicę w czasie ładowania strony przed i po wdrożeniu cache",
+      "alt_text": "Wykres porównanie czasu ładowania strony przed i po wdrożeniu cache w ciągu tygodnia",
+      "prompt": "Clean line chart comparing page load times before and after cache implementation over 7 days, two lines - red for before cache and green for after cache, dramatic improvement visible, professional chart design with grid, white background",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "cache",
+        "czas ładowania",
+        "optymalizacja",
+        "wydajność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website performance improvement chart analytics",
+        "pexels_query": "line chart performance metrics before after",
+        "keywords_for_search": [
+          "performance chart",
+          "before after comparison",
+          "website speed improvement"
+        ],
+        "style_notes": "Two-line comparison chart, contrasting colors (red vs green), clear legend and labels"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Monitoring i utrzymanie wydajności",
+      "title": "Checklist optymalizacji wydajności",
+      "description": "Infografika z listą kontrolną najważniejszych działań optymalizacyjnych",
+      "alt_text": "Checklist optymalizacji wydajności strony z 8 kluczowymi punktami kontrolnymi",
+      "prompt": "Vertical checklist infographic showing 8 key website optimization tasks with checkboxes, clean minimalist design, numbered items with small icons, black text on white background with yellow checkmarks and accents, professional business style",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "checklist",
+        "optymalizacja",
+        "monitoring",
+        "wydajność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business checklist infographic minimalist design",
+        "pexels_query": "task list professional infographic",
+        "keywords_for_search": [
+          "checklist design",
+          "business infographic",
+          "task list visual"
+        ],
+        "style_notes": "Vertical layout, checkboxes with yellow checkmarks, numbered items, clean professional design"
+      }
+    }
+  ],
+  "total_count": 7
+}
