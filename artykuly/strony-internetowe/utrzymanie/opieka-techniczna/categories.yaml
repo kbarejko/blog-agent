@@ -1,0 +1,17 @@
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: technologie-dla-firm
+  title: Technologie dla firm
+  path: firma/technologie-dla-firm
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+count: 5
