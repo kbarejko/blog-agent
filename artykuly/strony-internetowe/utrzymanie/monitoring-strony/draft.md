@@ -1,11 +1,10 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Koszt awarii strony** - Dlaczego godzina niedostępności może kosztować więcej niż roczny monitoring i jak to wpływa na pozycję w Google
 - **5 kluczowych wskaźników** - Core Web Vitals, uptime i czas ładowania, które bezpośrednio decydują o konwersjach i przychodach Twojej firmy
 - **Konkretne narzędzia i ich ceny** - Porównanie UptimeRobot, Pingdom, New Relic z funkcjami potrzebnymi małym i średnim firmom
 - **System powiadomień bez chaosu** - Jak ustawić alerty, żeby wiedzieć o problemach natychmiast, ale nie dostawać niepotrzebnych powiadomień w nocy
 - **Plan reakcji krok po kroku** - Gotowy scenariusz działań od wykrycia problemu po komunikację z klientami i kalkulację strat
-
 
 ## Wprowadzenie – Dlaczego monitoring strony to inwestycja, nie koszt
 
@@ -100,10 +99,6 @@ Eskalacja alertów działa jak system alarmowy w banku. Pierwszy alert trafia do
 Okresy maintenance to moment, kiedy monitoring powinien "zasnąć". Planowane aktualizacje o 3:00 w nocy nie wymagają paniki zespołu. Zaawansowane systemy pozwalają tworzyć okna serwisowe z wyprzedzeniem, automatycznie wstrzymując alerty w określonym czasie.
 
 Skuteczne powiadomienia informują o problemie, jego lokalizacji i sugerują pierwsze kroki. Zamiast "Strona nie odpowiada" – "Sklep internetowy niedostępny z Warszawy, czas odpowiedzi >30s, sprawdź serwer główny".
-
-## Plan działania w przypadku problemów – Od wykrycia do rozwiązania
-
----
 
 ## Plan działania w przypadku problemów – Od wykrycia do rozwiązania
 

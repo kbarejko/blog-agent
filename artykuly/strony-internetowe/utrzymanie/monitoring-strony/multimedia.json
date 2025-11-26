@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Monitoring strony internetowej",
+    "description": "Minimalistyczna kompozycja workspace z laptopem pokazującym dashboard monitoringu strony",
+    "alt_text": "Laptop z dashboardem monitoringu strony na minimalistycznym biurku w nowoczesnym biurze",
+    "prompt": "Clean minimalist workspace top-down view, laptop displaying website monitoring dashboard with uptime graphs and performance metrics, white wooden desk, smartphone, notebook with yellow pen, coffee cup, natural window lighting, muted colors black white gray with subtle yellow accent, professional business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "monitoring strony",
+      "dashboard",
+      "uptime",
+      "wydajność"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "website monitoring dashboard laptop workspace",
+      "pexels_query": "computer analytics dashboard modern office",
+      "keywords_for_search": [
+        "web analytics workspace",
+        "monitoring dashboard",
+        "business laptop setup"
+      ],
+      "style_notes": "Minimalist workspace, natural lighting, professional tech aesthetic with muted colors"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Wprowadzenie - koszty awarii",
+      "title": "Wykres kosztów przestoju strony według wielkości firmy",
+      "description": "Wykres słupkowy pokazujący średnie koszty godziny przestoju dla różnych typów firm",
+      "alt_text": "Wykres kosztów przestoju strony internetowej - od 8000 zł dla małych firm do 300000 zł dla korporacji",
+      "prompt": "Clean bar chart showing website downtime costs by company size, ascending bars from small business to enterprise, values in PLN, professional infographic style, black and gray bars with yellow highlights, white background, minimalist design, clear labels",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "koszty awarii",
+        "przestój strony",
+        "straty finansowe",
+        "downtime"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business cost analysis chart statistics",
+        "pexels_query": "financial loss data visualization",
+        "keywords_for_search": [
+          "cost analysis chart",
+          "business statistics",
+          "financial infographic"
+        ],
+        "style_notes": "Professional chart design with emphasis on cost progression. Use tools like Canva or ChartJS."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Kluczowe wskaźniki wydajności",
+      "title": "Infografika - 5 kluczowych wskaźników monitoringu",
+      "description": "Pionowa infografika przedstawiająca kluczowe metryki: uptime, czas ładowania, Core Web Vitals, formularze, płatności",
+      "alt_text": "Infografika 5 kluczowych wskaźników monitoringu strony: uptime, szybkość, Core Web Vitals, formularze, płatności",
+      "prompt": "Vertical infographic showing 5 key website monitoring metrics: uptime percentage, loading speed stopwatch, Core Web Vitals gauge, forms checkmark, payments shield. Clean icons for each metric, numbered steps 1-5, professional design with black gray white colors and yellow accents, minimalist layout",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "wskaźniki monitoringu",
+        "Core Web Vitals",
+        "uptime",
+        "metryki wydajności"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website performance metrics infographic",
+        "pexels_query": "web analytics key indicators design",
+        "keywords_for_search": [
+          "KPI infographic",
+          "website metrics visual",
+          "performance indicators"
+        ],
+        "style_notes": "Vertical layout with numbered icons, professional tech aesthetic. Canva has excellent KPI templates."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Najlepsze narzędzia do monitoringu",
+      "title": "Screenshot interfejsu UptimeRobot",
+      "description": "Zrzut ekranu dashboardu UptimeRobot pokazujący monitoring wielu stron",
+      "alt_text": "Dashboard UptimeRobot z listą monitorowanych stron i statusem uptime 99.9%",
+      "prompt": "Clean UptimeRobot dashboard interface screenshot showing multiple websites being monitored, uptime percentages, green status indicators, professional monitoring tool interface, organized layout with clear metrics",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "UptimeRobot",
+        "narzędzia monitoringu",
+        "dashboard",
+        "uptime"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "monitoring software dashboard interface",
+        "pexels_query": "analytics dashboard computer screen",
+        "keywords_for_search": [
+          "uptime monitoring tool",
+          "web dashboard interface",
+          "monitoring software"
+        ],
+        "style_notes": "Clean software interface, professional monitoring tool aesthetic. Consider creating demo account for authentic screenshot."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "comparison_table",
+      "section": "Najlepsze narzędzia do monitoringu",
+      "title": "Tabela porównawcza narzędzi monitoringu",
+      "description": "Porównanie funkcji i cen popularnych narzędzi: UptimeRobot, Pingdom, New Relic",
+      "alt_text": "Tabela porównawcza narzędzi monitoringu stron - UptimeRobot, Pingdom, New Relic z cenami i funkcjami",
+      "prompt": "Professional comparison table showing monitoring tools (UptimeRobot, Pingdom, New Relic) with features and pricing, clean grid layout, checkmarks for included features, pricing in PLN, minimalist design with black white gray colors and yellow highlights",
+      "placement": "after_paragraph_5",
+      "keywords": [
+        "porównanie narzędzi",
+        "monitoring tools",
+        "Pingdom",
+        "New Relic"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software comparison table professional",
+        "pexels_query": "business comparison chart tools",
+        "keywords_for_search": [
+          "comparison table design",
+          "software comparison",
+          "tool selection chart"
+        ],
+        "style_notes": "Clean professional table design. Could use Canva comparison templates or create in Google Sheets."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Plan działania w przypadku problemów",
+      "title": "Diagram przepływu - procedura reagowania na awarie",
+      "description": "Flowchart pokazujący krok po kroku proces reagowania na wykryty problem",
+      "alt_text": "Diagram przepływu procedury reagowania na awarie strony - od alertu do rozwiązania problemu",
+      "prompt": "Professional flowchart diagram showing incident response process: alert received → problem assessment → team notification → escalation path → resolution → documentation. Clean arrows connecting steps, decision diamonds, professional process diagram style, black and gray with yellow accents",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "plan awaryjny",
+        "procedury",
+        "reagowanie na problemy",
+        "incident response"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business process flowchart diagram",
+        "pexels_query": "workflow diagram professional",
+        "keywords_for_search": [
+          "process flowchart",
+          "incident response diagram",
+          "business workflow"
+        ],
+        "style_notes": "Professional process diagram with clear decision points. Tools like Lucidchart or Draw.io work well."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "roi_chart",
+      "section": "ROI monitoringu strony",
+      "title": "Wykres ROI monitoringu vs koszt awarii",
+      "description": "Wykres pokazujący zwrot z inwestycji w monitoring w porównaniu do kosztów awarii",
+      "alt_text": "Wykres ROI monitoringu strony - 500% zwrot z inwestycji vs koszty awarii bez monitoringu",
+      "prompt": "Professional ROI comparison chart showing monitoring investment vs downtime costs over 12 months, green bars for ROI gains, red bars for potential losses, clear percentage labels, minimalist financial chart design with black gray white and yellow accent colors",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "ROI monitoring",
+        "zwrot z inwestycji",
+        "koszty awarii",
+        "oszczędności"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "ROI return investment chart business",
+        "pexels_query": "financial return chart analytics",
+        "keywords_for_search": [
+          "ROI chart",
+          "investment return visualization",
+          "cost benefit analysis"
+        ],
+        "style_notes": "Professional financial chart emphasizing positive ROI. Green for gains, red for costs/losses."
+      }
+    }
+  ],
+  "total_count": 7
+}
