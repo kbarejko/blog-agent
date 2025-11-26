@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
-- **Redukcja kosztów hostingu** - Cloudflare CDN może obniżyć rachunki za transfer danych nawet o 60% dzięki cache'owaniu treści
-- **Przyspieszenie strony o 40-70%** - Sieć CDN dostarcza treści z najbliższego użytkownikowi serwera, skracając czas ładowania
-- **Ochrona przed atakami DDoS** - Cloudflare automatycznie blokuje złośliwy ruch, chroniąc Twoją stronę przed awarią i utratą klientów
-- **Wybór odpowiedniego hostingu** - Kryteria oceny dostawców uwzględniające uptime, wsparcie techniczne i skalowalność dla rosnących firm
-- **Konfiguracja SSL i bezpieczeństwa** - Praktyczne kroki zabezpieczenia domeny, które zwiększają zaufanie klientów i pozycję w Google
+- **Konkretne koszty przestojów** - jedna godzina offline w e-commerce to średnio 5-15% dziennych obrotów, dlatego hosting to inwestycja, nie wydatek
+- **Jasne kryteria wyboru hostingu** - kiedy współdzielony wystarczy (do 10k odwiedzin), a kiedy potrzebujesz VPS lub cloud (powyżej 50k odwiedzin miesięcznie)
+- **Darmowe SSL i ochrona DDoS** - Cloudflare eliminuje 99,9% złośliwego ruchu bez kosztów i poprawia szybkość ładowania o 20-40%
+- **ROI z wdrożenia CDN** - jak obliczyć zwrot z inwestycji w Content Delivery Network i czy Twoja firma na tym zyska
+- **Plan migracji bez strat** - checklist 12 kroków przeniesienia strony na nowy hosting bez przestojów i utraty pozycji w Google

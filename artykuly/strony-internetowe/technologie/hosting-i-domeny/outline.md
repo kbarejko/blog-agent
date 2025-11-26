@@ -90,6 +90,8 @@
 - Audit obecnej infrastruktury - checklist
 - Priorytetyzacja zmian
 - Kiedy warto skonsultować się ze specjalistą
-- Długoterminowa strategia rozwoju infrastruktury --- **Proponowany tytuł H1:** "Hosting, domeny i CDN dla firm - Praktyczny przewodnik po infrastrukturze, która wspiera Twój biznes" **Alternatywne tytuły H1:**
+- Długoterminowa strategia rozwoju infrastruktury 
+
+--- **Proponowany tytuł H1:** "Hosting, domeny i CDN dla firm - Praktyczny przewodnik po infrastrukturze, która wspiera Twój biznes" **Alternatywne tytuły H1:**
 - "Jak wybrać hosting i domenę dla firmy + bonus: Cloudflare jako akcelerator biznesu"
 - "Infrastruktura online dla przedsiębiorców - Hosting, domeny i CDN bez technicznego żargonu"
