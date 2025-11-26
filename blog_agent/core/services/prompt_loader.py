@@ -6,6 +6,7 @@ Loads and renders prompt templates with variable substitution.
 from pathlib import Path
 from typing import Dict, Any
 import re
+from datetime import datetime
 
 
 class PromptLoader:
@@ -39,6 +40,7 @@ class PromptLoader:
         Render prompt template with variables
 
         Replaces {{VARIABLE_NAME}} with values from variables dict.
+        Automatically injects CURRENT_YEAR and CURRENT_DATE if not provided.
 
         Args:
             template: Prompt template
@@ -47,6 +49,14 @@ class PromptLoader:
         Returns:
             Rendered prompt
         """
+        # Automatically add current date/year if not provided
+        now = datetime.now()
+        variables_with_date = {
+            'CURRENT_YEAR': str(now.year),
+            'CURRENT_DATE': now.strftime('%Y-%m-%d'),
+            **variables  # User variables override defaults
+        }
+
         rendered = template
 
         # Find all variables in template
@@ -55,8 +65,8 @@ class PromptLoader:
 
         # Replace each variable
         for var_name in found_vars:
-            if var_name in variables:
-                value = variables[var_name]
+            if var_name in variables_with_date:
+                value = variables_with_date[var_name]
                 # Convert to string if not already
                 if not isinstance(value, str):
                     value = str(value)

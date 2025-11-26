@@ -102,7 +102,6 @@ Nie zapomnij o plikach .htaccess – często zawierają ważne przekierowania i 
 
 Przetestuj wszystkie kluczowe funkcje przed ogłoszeniem sukcesu. Sprawdź formularze kontaktowe, systemy płatności, logowanie użytkowników. Błąd w konfiguracji może być niewidoczny od razu, ale ujawnić się dopiero przy konkretnej akcji użytkownika.
 
-```markdown
 ## DNS i domeny - Płynne przekierowanie ruchu
 
 Przenoszenie plików to jedno, ale prawdziwe emocje pojawiają się, gdy musimy skierować ruch na nowy serwer. To trochę jak przeprowadzka całej firmy, ale z działaniem bez przestojów.
@@ -128,7 +127,6 @@ Subdomeny są często pomijane przy migracji. Blog na blog.twojadomena.pl, sklep
 Sprawdź działanie poczty elektronicznej już w pierwszym dniu po zmianie DNS. Rekordy MX zwykle pozostają bez zmian, ale jeśli hosting oferuje zintegrowaną pocztę, może to wymagać aktualizacji. Przetestuj wysyłanie i odbieranie wiadomości na wszystkich firmowych kontach.
 
 Jeśli korzystasz z zewnętrznych usług pocztowych jak Gmail czy Outlook, upewnij się, że rekordy SPF, DKIM i DMARC nadal wskazują na właściwe serwery.
-```
 
 ## SEO podczas migracji - Zachowanie pozycji w wyszukiwarkach
 

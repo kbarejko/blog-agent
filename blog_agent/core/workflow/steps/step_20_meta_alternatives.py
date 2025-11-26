@@ -33,12 +33,27 @@ def execute_meta_alternatives(
     if not article.final_content:
         raise ValueError("Article must be finalized before generating meta alternatives")
 
+    # Try to get SEO data - if not available, create from config
     if not article.seo_data:
-        raise ValueError("SEO data must exist before generating alternatives")
+        # Try to load from config.yaml meta fields
+        if hasattr(article.config, 'meta_title') and hasattr(article.config, 'meta_description'):
+            from ...domain.value_objects import SEOData
+            article.seo_data = SEOData(
+                meta_title=article.config.meta_title,
+                meta_description=article.config.meta_description,
+                focus_keyword=getattr(article.config, 'focus_keyword', None),
+                additional_keywords=getattr(article.config, 'additional_keywords', [])
+            )
+            print("   ℹ️  Loaded SEO data from config.yaml")
+        else:
+            raise ValueError("SEO data must exist before generating alternatives")
 
     ai = deps['ai']
     prompts = deps['prompts']
     storage = deps['storage']
+
+    # Load additional data from files if not in article object
+    _load_missing_data(article, storage)
 
     print("🔄 Generating meta alternatives...")
 
@@ -46,18 +61,44 @@ def execute_meta_alternatives(
     current_meta_title = article.seo_data.meta_title
     current_meta_description = article.seo_data.meta_description
 
-    # Limit content length for context (first 3000 chars is enough)
-    content_preview = article.final_content[:3000]
+    # Prepare context data for prompt
+    context = {
+        'TYTUL_ARTYKULU': article.config.title,
+        'CURRENT_META_TITLE': current_meta_title,
+        'CURRENT_META_DESCRIPTION': current_meta_description,
+        'TARGET_AUDIENCE': article.config.target_audience,
+    }
+
+    # Build keywords section
+    keywords_parts = []
+    if article.seo_data.focus_keyword:
+        keywords_parts.append(f"**Główne słowo kluczowe:** {article.seo_data.focus_keyword}")
+    if article.seo_data.additional_keywords:
+        keywords_parts.append(f"**Dodatkowe słowa kluczowe:** {', '.join(article.seo_data.additional_keywords)}")
+    context['KEYWORDS_SECTION'] = "\n".join(keywords_parts) if keywords_parts else ""
+
+    # Build summary section
+    if article.summary:
+        summary_bullets = "\n".join([f"- {point}" for point in article.summary.points])
+        context['SUMMARY_SECTION'] = f"**Co znajdziesz w artykule (kluczowe wartości):**\n{summary_bullets}"
+    else:
+        context['SUMMARY_SECTION'] = ""
+
+    # Build outline section
+    if article.outline:
+        outline_text = []
+        for i, section in enumerate(article.outline.sections[:10], 1):  # Limit to first 10 sections
+            outline_text.append(f"{i}. {section['title']}")
+        context['OUTLINE_SECTION'] = f"**Struktura artykułu (główne sekcje):**\n" + "\n".join(outline_text)
+    else:
+        context['OUTLINE_SECTION'] = ""
+
+    # Business metadata is not included - meta should reflect article content, not force template data
 
     # Load and render prompt
     prompt = prompts.load_and_render(
         "audyt/prompt_meta_alternatives.md",
-        {
-            'TYTUL_ARTYKULU': article.config.title,
-            'CURRENT_META_TITLE': current_meta_title,
-            'CURRENT_META_DESCRIPTION': current_meta_description,
-            'ARTICLE_CONTENT': content_preview,
-        }
+        context
     )
 
     # Generate alternatives with cheap model (defined in workflow.yaml)
@@ -238,3 +279,60 @@ def _format_output(
     ])
 
     return '\n'.join(lines)
+
+
+def _load_missing_data(article: Article, storage) -> None:
+    """
+    Load summary and business metadata from files if not in article object
+
+    Args:
+        article: Article object
+        storage: Storage service
+    """
+    import yaml
+    from ...domain.value_objects import Summary, BusinessMetadata
+
+    # Load summary if not present
+    if not article.summary:
+        summary_path = article.path / "summary.md"
+        if summary_path.exists():
+            try:
+                content = storage.read_file(summary_path)
+                # Parse summary points (lines starting with -)
+                points = [
+                    line.strip('- ').strip()
+                    for line in content.split('\n')
+                    if line.strip().startswith('-')
+                ]
+                if points:
+                    article.summary = Summary(points=points)
+            except Exception:
+                pass  # Ignore errors - summary is optional
+
+    # Load business metadata if not present
+    if not article.business_metadata:
+        bm_path = article.path / "business_metadata.yaml"
+        if bm_path.exists():
+            try:
+                content = storage.read_file(bm_path)
+                data = yaml.safe_load(content)
+                article.business_metadata = BusinessMetadata(
+                    target_business=data.get('target_business', []),
+                    industry=data.get('industry', []),
+                    project_phase=data.get('project_phase', ''),
+                    investment_level=data.get('investment', {}).get('level', ''),
+                    investment_range=data.get('investment', {}).get('range', ''),
+                    investment_breakdown=data.get('investment', {}).get('breakdown', {}),
+                    timeline_estimate=data.get('timeline', {}).get('estimate', ''),
+                    timeline_phases=data.get('timeline', {}).get('phases', []),
+                    complexity_technical=data.get('complexity', {}).get('technical', ''),
+                    complexity_organizational=data.get('complexity', {}).get('organizational', ''),
+                    complexity_factors=data.get('complexity', {}).get('factors', []),
+                    team_size=data.get('team', {}).get('size', ''),
+                    team_roles=data.get('team', {}).get('roles', []),
+                    roi_breakeven=data.get('roi', {}).get('breakeven'),
+                    roi_savings=data.get('roi', {}).get('savings'),
+                    roi_factors=data.get('roi', {}).get('factors', [])
+                )
+            except Exception:
+                pass  # Ignore errors - business metadata is optional

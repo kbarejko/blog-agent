@@ -148,7 +148,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_20_meta_alternatives
     description: "Generate 2-3 alternative proposals for meta title and meta description"
     enabled: true  # Enabled by default - cheap model, useful for SEO optimization
-    provider: openai-gpt4o-mini  # Use cheap model - works well with Polish
+    provider: openai-gpt4o  # Use cheap model - works well with Polish
 
 # Quality Review Configuration
 review:

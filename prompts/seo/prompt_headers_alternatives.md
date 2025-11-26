@@ -1,5 +1,7 @@
 # Zadanie: Wygeneruj alternatywne propozycje nagłówków SEO
 
+**Aktualna data:** {{CURRENT_DATE}} (rok: {{CURRENT_YEAR}})
+
 Artykuł: **{{ARTICLE_TITLE}}**
 
 ## Aktualne nagłówki w artykule:
@@ -73,8 +75,10 @@ Dla KAŻDEGO nagłówka zwróć w formacie:
 **Propozycje SEO:**
 1. Ile kosztuje wdrożenie platformy e-commerce?
 2. Budżet i koszty wdrożenia sklepu online
-3. Ile musisz przeznaczyć na wdrożenie profesjonalnego sklepu internetowego w 2024 roku? (LONG TAIL)
+3. Ile musisz przeznaczyć na wdrożenie profesjonalnego sklepu internetowego w {{CURRENT_YEAR}} roku? (LONG TAIL)
 4. Koszty wdrożenia: 5 rzeczy które wpływają na finalny budżet
+
+**UWAGA:** Jeśli dodajesz rok do nagłówka, ZAWSZE używaj aktualnego roku ({{CURRENT_YEAR}}), nie starych dat!
 
 ---
 
