@@ -110,7 +110,11 @@ class OpenAIProvider(BaseAIProvider):
             if self._is_gpt5_model():
                 print(f"   🐛 GPT-5 Debug:")
                 print(f"      Model: {self.model}")
+                print(f"      Token limit used: {token_limit}")
+                print(f"      Default max_tokens: {self.default_max_tokens}")
                 print(f"      Request params: {list(request_params.keys())}")
+                if 'max_completion_tokens' in request_params:
+                    print(f"      max_completion_tokens: {request_params['max_completion_tokens']}")
                 print(f"      Response ID: {response.id}")
                 print(f"      Finish reason: {response.choices[0].finish_reason}")
                 print(f"      Has content: {response.choices[0].message.content is not None}")
