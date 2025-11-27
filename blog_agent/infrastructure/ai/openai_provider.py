@@ -30,6 +30,26 @@ class OpenAIProvider(BaseAIProvider):
         self.default_max_tokens = config.get('max_tokens', 4000)
         self.default_temperature = config.get('temperature', 0.7)
 
+    def _uses_max_completion_tokens(self) -> bool:
+        """
+        Check if model uses max_completion_tokens parameter
+
+        GPT-5.x, GPT-4o and newer models use max_completion_tokens.
+        Older models (GPT-4, GPT-3.5) use max_tokens.
+
+        Returns:
+            True if model uses max_completion_tokens
+        """
+        model_lower = self.model.lower()
+        # GPT-5.x models
+        if model_lower.startswith('gpt-5') or model_lower.startswith('gpt5'):
+            return True
+        # GPT-4o models
+        if 'gpt-4o' in model_lower or 'gpt4o' in model_lower:
+            return True
+        # Default to max_tokens for older models
+        return False
+
     def generate(
         self,
         prompt: str,
@@ -50,15 +70,24 @@ class OpenAIProvider(BaseAIProvider):
             Generated text
         """
         try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ],
-                max_tokens=max_tokens or self.default_max_tokens,
-                temperature=temperature if temperature is not None else self.default_temperature,
+            # Determine which token limit parameter to use
+            token_limit = max_tokens or self.default_max_tokens
+
+            # Build request parameters
+            request_params = {
+                "model": self.model,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": temperature if temperature is not None else self.default_temperature,
                 **kwargs
-            )
+            }
+
+            # Use appropriate token limit parameter based on model
+            if self._uses_max_completion_tokens():
+                request_params["max_completion_tokens"] = token_limit
+            else:
+                request_params["max_tokens"] = token_limit
+
+            response = self.client.chat.completions.create(**request_params)
 
             # Extract text from response
             return response.choices[0].message.content
