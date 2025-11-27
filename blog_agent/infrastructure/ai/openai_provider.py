@@ -62,6 +62,43 @@ class OpenAIProvider(BaseAIProvider):
         model_lower = self.model.lower()
         return model_lower.startswith('gpt-5') or model_lower.startswith('gpt5')
 
+    def _adjust_tokens_for_gpt5(self, requested_tokens: int) -> int:
+        """
+        Adjust token limit for GPT-5 reasoning models
+
+        GPT-5 uses reasoning tokens before output. If the limit is too low,
+        all tokens are consumed by reasoning and output is empty.
+
+        Strategy: Multiply requested tokens by 5-10x for GPT-5 to leave room
+        for both reasoning and output.
+
+        Args:
+            requested_tokens: Original token limit from step
+
+        Returns:
+            Adjusted token limit for GPT-5 (or original if not GPT-5)
+        """
+        if not self._is_gpt5_model():
+            return requested_tokens
+
+        # Multipliers based on requested amount
+        if requested_tokens < 1000:
+            # Small requests (200-800): multiply by 10x
+            # e.g., 800 → 8000
+            return requested_tokens * 10
+        elif requested_tokens < 3000:
+            # Medium requests (1000-3000): multiply by 6x
+            # e.g., 2500 → 15000
+            return requested_tokens * 6
+        elif requested_tokens < 6000:
+            # Large requests (3000-6000): multiply by 4x
+            # e.g., 4000 → 16000
+            return requested_tokens * 4
+        else:
+            # Very large requests (6000+): multiply by 2x
+            # e.g., 8000 → 16000
+            return requested_tokens * 2
+
     def generate(
         self,
         prompt: str,
@@ -83,7 +120,10 @@ class OpenAIProvider(BaseAIProvider):
         """
         try:
             # Determine which token limit parameter to use
-            token_limit = max_tokens or self.default_max_tokens
+            requested_limit = max_tokens or self.default_max_tokens
+
+            # Auto-adjust for GPT-5 reasoning models
+            token_limit = self._adjust_tokens_for_gpt5(requested_limit)
 
             # Build request parameters
             request_params = {
@@ -110,8 +150,8 @@ class OpenAIProvider(BaseAIProvider):
             if self._is_gpt5_model():
                 print(f"   🐛 GPT-5 Debug:")
                 print(f"      Model: {self.model}")
-                print(f"      Token limit used: {token_limit}")
-                print(f"      Default max_tokens: {self.default_max_tokens}")
+                print(f"      Requested tokens: {requested_limit}")
+                print(f"      Adjusted tokens: {token_limit} (x{token_limit/requested_limit:.1f})")
                 print(f"      Request params: {list(request_params.keys())}")
                 if 'max_completion_tokens' in request_params:
                     print(f"      max_completion_tokens: {request_params['max_completion_tokens']}")

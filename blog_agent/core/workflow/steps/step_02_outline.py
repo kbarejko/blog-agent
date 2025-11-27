@@ -100,14 +100,8 @@ def execute_outline(
     # Generate outline with AI
     # Silo articles need more tokens (more sections, FAQ required, links to articles)
     # Gemini models may need more tokens due to different tokenization
-    # GPT-5 reasoning models need MUCH more tokens (reasoning consumes most of budget)
-    model_name = ai.get_model_name().lower()
-    if 'gpt-5' in model_name or 'gpt5' in model_name:
-        # GPT-5 reasoning models - need high limit for reasoning + output
-        max_tokens = 20000 if is_silo_article else 15000
-    else:
-        # Other models
-        max_tokens = 5000 if is_silo_article else 2500
+    # Note: GPT-5 token limits are auto-adjusted in OpenAIProvider
+    max_tokens = 5000 if is_silo_article else 2500
     response = ai.generate(prompt, max_tokens=max_tokens)
 
     # Parse outline from response
