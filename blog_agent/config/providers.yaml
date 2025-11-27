@@ -37,67 +37,74 @@ providers:
     max_tokens: 4000
     temperature: 0.7
 
-  # OpenAI - GPT-5.1 (latest flagship model, most capable)
-  openai-gpt5-1:
+  # OpenAI - GPT-5 (latest flagship model, most capable)
+  # Released: August 7, 2025
+  openai-gpt5:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5.1
+    model: gpt-5-2025-08-07
     max_tokens: 8000
     temperature: 0.7
 
-  # OpenAI - GPT-5 Mini (faster and cheaper than GPT-5.1)
+  # OpenAI - GPT-5 Mini (faster and cheaper than GPT-5)
   openai-gpt5-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini
+    model: gpt-5-mini-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
   # OpenAI - GPT-5 Nano (smallest and cheapest GPT-5 variant)
   openai-gpt5-nano:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-nano
+    model: gpt-5-nano-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
   # Aliases for convenience (all naming variants)
   gpt5:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5.1
+    model: gpt-5-2025-08-07
+    max_tokens: 8000
+    temperature: 0.7
+
+  gpt-5:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5-2025-08-07
     max_tokens: 8000
     temperature: 0.7
 
   gpt-5.1:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5.1
+    model: gpt-5-2025-08-07
     max_tokens: 8000
     temperature: 0.7
 
   gpt5-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini
+    model: gpt-5-mini-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
   gpt-5-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini
+    model: gpt-5-mini-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
   gpt-5.1-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini
+    model: gpt-5-mini-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
   gpt5-nano:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-nano
+    model: gpt-5-nano-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
   gpt-5-nano:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-nano
+    model: gpt-5-nano-2025-08-07
     max_tokens: 4000
     temperature: 0.7
 
