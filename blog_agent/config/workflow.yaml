@@ -9,14 +9,24 @@
 # If not specified, uses the default provider passed via CLI (--provider) or article config.
 #
 # Available OpenAI models:
-#   - gpt-5.1 / gpt5 / openai-gpt5-1 (latest flagship model, most capable)
+#   GPT-5 Series (Reasoning Models - Released Aug 2025):
+#   - gpt-5.1 / gpt5 / gpt-5 / openai-gpt5 (flagship reasoning model)
 #   - gpt-5-mini / gpt5-mini / openai-gpt5-mini (faster and cheaper)
 #   - gpt-5-nano / gpt5-nano / openai-gpt5-nano (smallest and cheapest)
+#
+#   GPT-5 Notes:
+#   - Uses internal reasoning tokens before generating output
+#   - Only supports temperature=1.0 (custom temperature not supported)
+#   - Token limits auto-adjusted 5-10x for reasoning (e.g., 800 → 8000)
+#   - Model name: gpt-5-2025-08-07, gpt-5-mini-2025-08-07, etc.
+#   - Uses max_completion_tokens parameter (not max_tokens)
+#
+#   GPT-4o Series (Standard Models):
 #   - gpt-4o / openai-gpt4o (previous generation, still capable)
 #   - gpt-4o-mini / openai-gpt4o-mini (fast and cheap)
 #
 # Example use cases:
-#   - outline: gemini-2.5-flash (fast and cheap for structure)
+#   - outline: gemini-2.5-flash or gpt5-nano (fast and cheap for structure)
 #   - write_sections: claude-sonnet-4 or gpt5 (best quality for content)
 #   - humanize: gpt-4o or gpt5-mini (excellent at natural language refinement)
 #   - faq: gemini-2.5-flash or gpt5-nano (good for Q&A generation)
@@ -38,13 +48,13 @@ steps:
     module: blog_agent.core.workflow.steps.step_03_summary
     description: "Generate article summary (Co znajdziesz w artykule?)"
     enabled: true
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
   - name: write_sections
     module: blog_agent.core.workflow.steps.step_04_write_sections
     description: "Write all article sections with AI review"
     enabled: true
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
     #provider: claude  # Optional: use Claude for high-quality content
 
   - name: create_draft
@@ -57,13 +67,13 @@ steps:
     module: blog_agent.core.workflow.steps.step_06_seo_review
     description: "SEO review and heading fixes"
     enabled: true
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
   - name: humanize
     module: blog_agent.core.workflow.steps.step_07_humanize
     description: "Humanize content (natural language)"
     enabled: true
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
   - name: multimedia
     module: blog_agent.core.workflow.steps.step_08_multimedia
@@ -81,7 +91,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_10_cta
     description: "Generate CTA/Next Steps section"
     enabled: true
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
 
   - name: publish
@@ -105,7 +115,7 @@ steps:
   - name: internal_linking
     module: blog_agent.core.workflow.steps.step_14_internal_linking
     description: "Add internal links to related articles in the same silo"
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
     enabled: true
 
   - name: generate_images
@@ -141,7 +151,7 @@ steps:
     module: blog_agent.core.workflow.steps.step_16_social_media
     description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
     enabled: true
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
   - name: faq
     module: blog_agent.core.workflow.steps.step_17_faq
@@ -159,13 +169,13 @@ steps:
     module: blog_agent.core.workflow.steps.step_19_headers_alternatives
     description: "Generate SEO-optimized alternative headers (H1/H2/H3)"
     enabled: true  # Optional - enable to generate alternative header proposals
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
   - name: meta_alternatives
     module: blog_agent.core.workflow.steps.step_20_meta_alternatives
     description: "Generate 2-3 alternative proposals for meta title and meta description"
     enabled: true  # Enabled by default - cheap model, useful for SEO optimization
-    provider:  gpt-5.1
+    provider:  gpt-5.1-mini
 
 # Quality Review Configuration
 review:

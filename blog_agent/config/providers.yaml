@@ -39,8 +39,14 @@ providers:
 
   # OpenAI - GPT-5 (latest flagship model, most capable)
   # Released: August 7, 2025
-  # Note: GPT-5 only supports temperature=1.0 (default)
-  # Note: GPT-5 uses reasoning tokens internally, so needs higher limit
+  #
+  # GPT-5 Reasoning Model Notes:
+  # - Only supports temperature=1.0 (custom temperature rejected by API)
+  # - Uses internal reasoning tokens before output
+  # - Token limits auto-adjusted in OpenAIProvider (e.g., 800 → 8000)
+  # - Actual API model name: gpt-5-2025-08-07
+  # - Uses max_completion_tokens (not max_tokens)
+  # - Supports up to 128K output tokens
   openai-gpt5:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-2025-08-07
@@ -48,6 +54,7 @@ providers:
     temperature: 1.0
 
   # OpenAI - GPT-5 Mini (faster and cheaper than GPT-5)
+  # Same reasoning model characteristics as GPT-5
   openai-gpt5-mini:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-mini-2025-08-07
@@ -55,6 +62,7 @@ providers:
     temperature: 1.0
 
   # OpenAI - GPT-5 Nano (smallest and cheapest GPT-5 variant)
+  # Same reasoning model characteristics as GPT-5
   openai-gpt5-nano:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-nano-2025-08-07

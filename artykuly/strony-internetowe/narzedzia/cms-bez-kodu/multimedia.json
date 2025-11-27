@@ -1,0 +1,185 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image — Minimalist workspace z dashboardem CMS",
+    "description": "Fotorealistyczne, minimalistyczne ujęcie top‑down: laptop z otwartym dashboardem CMS, notatnik z żółtym akcentem, czyste biurko. Bez ludzi.",
+    "alt_text": "Minimalistyczne workspace: laptop z dashboardem 'CMS bez kodu', wykresy wydajności i notatnik z żółtym akcentem na białym tle",
+    "prompt": "Flat lay minimalist workspace, laptop showing a no-code CMS dashboard with analytics charts, notebook with yellow accent, smartphone, white desk, natural side light, professional clean aesthetic, muted black white gray palette with subtle yellow highlights, high quality photo, no people",
+    "keywords": [
+      "CMS bez kodu",
+      "dashboard",
+      "workspace",
+      "analytics"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimal workspace laptop analytics dashboard",
+      "pexels_query": "minimal desk laptop analytics",
+      "keywords_for_search": [
+        "minimal workspace",
+        "laptop dashboard",
+        "analytics desk"
+      ],
+      "style_notes": "Top‑down flat lay, neutral whites and grays, subtle yellow accent, natural lighting, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "grouped_bar_chart",
+      "section": "Sekcja: Core Web Vitals i czysty kod",
+      "title": "Porównanie Core Web Vitals (LCP / CLS / INP) dla typowych platform no‑code",
+      "description": "Grupowany wykres słupkowy pokazujący przykładowe wartości LCP (ms), CLS, INP dla Webflow, Framer, Squarespace, Wix i Notion.",
+      "alt_text": "Porównanie Core Web Vitals (LCP, CLS, INP) dla platform no‑code: Webflow, Framer, Squarespace, Wix i Notion",
+      "prompt": "Clean grouped bar chart comparing Core Web Vitals (LCP ms, CLS score, INP ms) for Webflow, Framer, Squarespace, Wix, Notion; minimalist infographic style, neutral black white gray with subtle yellow highlights for best performer, high resolution, professional, no people",
+      "placement": "after_paragraph_2_in_section",
+      "keywords": [
+        "Core Web Vitals",
+        "LCP",
+        "CLS",
+        "INP",
+        "wydajność"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart clean design",
+        "pexels_query": "data chart infographic modern",
+        "keywords_for_search": [
+          "data visualization",
+          "bar chart infographic",
+          "performance chart"
+        ],
+        "style_notes": "Minimalistyczne wykresy, czytelne etykiety, neutralna paleta z żółtymi akcentami dla wyróżnień"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Migracja i wdrożenie — plan 4–6 tygodni",
+      "title": "Infografika: Plan migracji 4–6 tygodni",
+      "description": "Pionowa infografika timeline z etapami tygodniowymi: inwentaryzacja, kolekcje i makiety, compliance i tracking, importy i przekierowania, optymalizacja i QA, publikacja i monitoring.",
+      "alt_text": "Infografika planu migracji CMS 4–6 tygodni: inwentaryzacja, mapowanie kolekcji, import danych, testy, publikacja i monitoring",
+      "prompt": "Vertical timeline infographic showing a 4‑6 week CMS migration plan: Week 1 inventory, Week 2 collections and mockups, Week 3 compliance and tracking, Week 4 imports and redirects, Week 5 QA and optimization, Week 6 go‑live and monitoring; numbered steps with icons, clean minimalist style, white background, black gray text and subtle yellow highlights, professional business look, no people",
+      "placement": "after_section_heading",
+      "keywords": [
+        "migracja",
+        "plan 4‑6 tygodni",
+        "timeline",
+        "CMS"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "timeline infographic clean design",
+        "pexels_query": "project timeline infographic modern",
+        "keywords_for_search": [
+          "migration timeline infographic",
+          "project plan visual",
+          "week by week timeline"
+        ],
+        "style_notes": "Vertical step‑by‑step infographic, simple icons per step, consistent spacing, brand accent yellow"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "radar_chart",
+      "section": "Sekcja: Vendor lock‑in i eksport danych",
+      "title": "Porównanie możliwości eksportu i limitów API",
+      "description": "Radar chart oceniający platformy no‑code pod kątem: eksport danych, media export, limity API, wersjonowanie, wielojęzyczność — pomocne przy ocenie ryzyka vendor lock‑in.",
+      "alt_text": "Porównanie możliwości eksportu treści i limitów API między platformami no‑code pomocne w ocenie vendor lock‑in",
+      "prompt": "Radar chart comparing no-code platforms on export capabilities, media export, API limits, versioning, multilingual support; Webflow Framer Squarespace Wix Softr as series, minimalist infographic style, neutral colors with yellow accents for strengths, high resolution, no people",
+      "placement": "after_paragraph_2_in_section",
+      "keywords": [
+        "vendor lock-in",
+        "eksport danych",
+        "API limits",
+        "porównanie platform"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data radar chart infographic",
+        "pexels_query": "comparison chart infographic",
+        "keywords_for_search": [
+          "radar chart",
+          "platform comparison",
+          "capabilities matrix"
+        ],
+        "style_notes": "Czytelna legenda, kontrastowe linie, neutralne tło, yellow highlight for best values"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Projekt i treści, które sprzedają",
+      "title": "Schemat struktury treści i kolekcji (content model)",
+      "description": "Diagram architektury contentu: kolekcje Oferta, Case Study, Blog, FAQ, relacje (Oferta ↔ Case Study), pola wspierające personalizację i CTA.",
+      "alt_text": "Schemat struktury treści CMS: kolekcje Oferta, Case Study, Blog, FAQ z relacjami, polami personalizacji i polami CTA",
+      "prompt": "Clean architecture diagram of a content model: collections Offer, Case Study, Blog, FAQ, relations arrows, sample fields (persona, stage, CTA), modular components icons, minimalist black white gray with yellow accents, high clarity for documentation, no people",
+      "placement": "after_paragraph_1_in_section",
+      "keywords": [
+        "content model",
+        "kolekcje",
+        "architektura treści",
+        "relacje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "content architecture diagram clean",
+        "pexels_query": "information architecture diagram",
+        "keywords_for_search": [
+          "content model diagram",
+          "information architecture",
+          "collections schema"
+        ],
+        "style_notes": "Block boxes with arrows, readable fonts, consistent spacing, yellow accent for CTA fields"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Szybsze wdrożenie — edytory wizualne",
+      "title": "Screenshot mockup: edytor drag‑and‑drop (bez ludzi)",
+      "description": "Mockup interfejsu edytora drag‑and‑drop: lewy panel komponentów, główny canvas z hero i formularzem, prawy panel ustawień. Styl minimalny, bez osób.",
+      "alt_text": "Widok edytora drag‑and‑drop w no‑code CMS: panel komponentów, canvas z hero i formularzem oraz panel ustawień po prawej",
+      "prompt": "Mockup screenshot of a drag-and-drop no-code CMS editor, left block library, center canvas with hero and form, right settings panel, clear labels and subtle annotations, minimalist UI in black white gray with yellow CTA accents, high fidelity mockup style, no people",
+      "placement": "after_first_tool_mention",
+      "keywords": [
+        "edytor wizualny",
+        "drag-and-drop",
+        "CMS UI",
+        "panel komponentów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website builder editor mockup",
+        "pexels_query": "web editor interface mockup",
+        "keywords_for_search": [
+          "cms editor mockup",
+          "drag and drop builder",
+          "web design UI"
+        ],
+        "style_notes": "High fidelity mockup look, annotated elements, neutral palette with yellow CTAs, no people"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: ROI i przykłady z praktyki",
+      "title": "Wykres ROI: czas publikacji vs konwersja (przykładowy case)",
+      "description": "Dwuosiowy wykres liniowy: czas od briefu do publikacji (dni) maleje po migracji, a konwersja demo/signup rośnie — przykładowe wartości miesięczne pokazujące efekt no‑code.",
+      "alt_text": "Wykres ROI pokazujący skrócenie czasu publikacji i wzrost konwersji po wdrożeniu no‑code CMS na przykładzie SaaS",
+      "prompt": "Dual axis line chart showing months on X axis, time-to-publish (days) decreasing and conversion rate (%) increasing after no-code migration; clean minimalist style, muted greys with yellow highlight for conversion line, professional infographic, no people",
+      "placement": "after_case_study_paragraph",
+      "keywords": [
+        "ROI",
+        "czas publikacji",
+        "konwersja",
+        "case study"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business growth line chart infographic",
+        "pexels_query": "conversion rate chart infographic",
+        "keywords_for_search": [
+          "ROI chart",
+          "conversion rate graph",
+          "time to publish chart"
+        ],
+        "style_notes": "Dual axis clarity, distinct color for conversion (yellow accent), no clutter"
+      }
+    }
+  ],
+  "total_count": 7
+}

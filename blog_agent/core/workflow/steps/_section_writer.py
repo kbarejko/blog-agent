@@ -7,27 +7,63 @@ from typing import Dict, Any, Optional, List, Tuple
 import re
 
 
-def _inject_h3_structure(content: str, expected_structure: str) -> str:
+def _inject_headers_structure(content: str, expected_structure: str) -> str:
     """
-    Inject H3 headers from outline into generated content
+    Inject H3 and H4 headers from outline into generated content
 
     Args:
-        content: Generated content (may be missing H3)
-        expected_structure: Structure from outline with H3 headers
+        content: Generated content (may be missing H3/H4)
+        expected_structure: Structure from outline with H3 and H4 headers
 
     Returns:
-        Content with H3 headers injected
+        Content with H3/H4 headers injected
     """
-    # Extract H3 headers from expected structure
-    h3_headers = re.findall(r'^### (.+)$', expected_structure, re.MULTILINE)
+    # Parse header structure from outline (H3 and H4 with hierarchy)
+    # Returns list of dicts: [{'level': 3, 'title': 'Header', 'h4_children': [...]}, ...]
+    header_structure = []
+    current_h3 = None
 
-    if not h3_headers:
-        # No H3 in outline, return as-is
+    for line in expected_structure.split('\n'):
+        line = line.strip()
+
+        # Match H3 header
+        h3_match = re.match(r'^### (.+)$', line)
+        if h3_match:
+            # Save previous H3 if any
+            if current_h3:
+                header_structure.append(current_h3)
+            # Start new H3
+            current_h3 = {
+                'level': 3,
+                'title': h3_match.group(1).strip(),
+                'h4_children': []
+            }
+            continue
+
+        # Match H4 header (only if we're inside an H3)
+        h4_match = re.match(r'^#### (.+)$', line)
+        if h4_match and current_h3:
+            current_h3['h4_children'].append(h4_match.group(1).strip())
+            continue
+
+    # Save last H3
+    if current_h3:
+        header_structure.append(current_h3)
+
+    # If no headers in outline, return as-is
+    if not header_structure:
         return content
 
-    # Check if content already has H3
-    if content.count('###') >= len(h3_headers):
-        # Already has H3, return as-is
+    # Count total headers in structure (H3 + H4)
+    total_headers_expected = sum(1 + len(h3['h4_children']) for h3 in header_structure)
+
+    # Check if content already has all headers
+    h3_count = content.count('\n### ') + (1 if content.startswith('### ') else 0)
+    h4_count = content.count('\n#### ') + (1 if content.startswith('#### ') else 0)
+    total_headers_present = h3_count + h4_count
+
+    if total_headers_present >= total_headers_expected:
+        # Already has headers, return as-is
         return content
 
     # Split content into paragraphs
@@ -49,34 +85,78 @@ def _inject_h3_structure(content: str, expected_structure: str) -> str:
 
     # Skip H2 header if present
     start_idx = 0
-    if paragraphs and paragraphs[0].startswith('##'):
+    if paragraphs and paragraphs[0].startswith('##') and not paragraphs[0].startswith('###'):
         start_idx = 1
 
-    # Calculate how many paragraphs per H3 section
+    # Get content paragraphs (excluding H2)
     content_paragraphs = paragraphs[start_idx:]
     if len(content_paragraphs) == 0:
         return content
 
-    paragraphs_per_h3 = max(1, len(content_paragraphs) // len(h3_headers))
+    # Calculate how to distribute paragraphs among headers
+    # Each H3 gets equal share, then H4s split that share
+    paragraphs_per_h3 = max(1, len(content_paragraphs) // len(header_structure))
 
-    # Inject H3 headers
+    # Inject headers
     result = []
     if start_idx == 1:
         result.append(paragraphs[0])  # Keep H2 header
         result.append('')
 
-    for i, h3 in enumerate(h3_headers):
+    para_idx = 0
+
+    for h3_idx, h3_info in enumerate(header_structure):
         # Add H3 header
-        result.append(f"### {h3}")
+        result.append(f"### {h3_info['title']}")
         result.append('')
 
-        # Add paragraphs for this H3
-        start = i * paragraphs_per_h3
-        end = start + paragraphs_per_h3 if i < len(h3_headers) - 1 else len(content_paragraphs)
+        # Calculate paragraphs for this H3 section
+        is_last_h3 = (h3_idx == len(header_structure) - 1)
+        if is_last_h3:
+            # Last H3 gets all remaining paragraphs
+            h3_para_count = len(content_paragraphs) - para_idx
+        else:
+            h3_para_count = paragraphs_per_h3
 
-        for j in range(start, min(end, len(content_paragraphs))):
-            result.append(content_paragraphs[j])
-            result.append('')
+        # If this H3 has H4 children, distribute paragraphs among them
+        h4_children = h3_info['h4_children']
+
+        if h4_children:
+            # Distribute paragraphs: some before first H4, then split among H4s
+            paras_before_h4 = max(1, h3_para_count // (len(h4_children) + 1))
+            paras_per_h4 = max(1, (h3_para_count - paras_before_h4) // len(h4_children))
+
+            # Add paragraphs before first H4
+            for _ in range(paras_before_h4):
+                if para_idx < len(content_paragraphs):
+                    result.append(content_paragraphs[para_idx])
+                    result.append('')
+                    para_idx += 1
+
+            # Add H4 sections
+            for h4_idx, h4_title in enumerate(h4_children):
+                result.append(f"#### {h4_title}")
+                result.append('')
+
+                # Add paragraphs for this H4
+                is_last_h4 = (h4_idx == len(h4_children) - 1)
+                if is_last_h4:
+                    # Last H4 in this H3 gets remaining paragraphs for this H3
+                    h4_end = para_idx + (h3_para_count - (para_idx - (para_idx - paras_before_h4)))
+                else:
+                    h4_end = para_idx + paras_per_h4
+
+                while para_idx < h4_end and para_idx < len(content_paragraphs):
+                    result.append(content_paragraphs[para_idx])
+                    result.append('')
+                    para_idx += 1
+        else:
+            # No H4 children - add all paragraphs directly under H3
+            for _ in range(h3_para_count):
+                if para_idx < len(content_paragraphs):
+                    result.append(content_paragraphs[para_idx])
+                    result.append('')
+                    para_idx += 1
 
     return '\n'.join(result).strip()
 
@@ -267,8 +347,8 @@ def write_section_with_review(
 
         if review_result['valid']:
             print(f"   ✅ Section passed review")
-            # Inject H3 structure if missing
-            content = _inject_h3_structure(content, expected_structure)
+            # Inject H3/H4 structure if missing
+            content = _inject_headers_structure(content, expected_structure)
             # Add H2 header from outline (if not already present)
             content = _ensure_section_header(content, section['title'])
             return content
@@ -285,8 +365,8 @@ def write_section_with_review(
     best_content, best_result = _select_best_attempt(attempts, target_words)
     print(f"   ⚠️  Max retries reached. Selected attempt closest to requirements: {', '.join(best_result['issues'])}")
 
-    # Inject H3 structure if missing
-    content = _inject_h3_structure(best_content, expected_structure)
+    # Inject H3/H4 structure if missing
+    content = _inject_headers_structure(best_content, expected_structure)
     # Add H2 header from outline (if not already present)
     content = _ensure_section_header(content, section['title'])
     return content

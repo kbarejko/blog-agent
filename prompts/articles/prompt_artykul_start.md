@@ -38,6 +38,7 @@ Napisz sekcję zgodnie z tą strukturą:
 
 **Jak pisać:**
 - Jeśli widzisz `### Nagłówek` - UŻYJ tego nagłówka w tekście jako ### (NIE pisz o nim, użyj go!)
+- Jeśli widzisz `#### Nagłówek` - UŻYJ tego nagłówka w tekście jako #### (to podsekcja H3)
 - Bullet points (- tekst) to tematy do omówienia w akapitach
 
 ---

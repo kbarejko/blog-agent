@@ -1,4 +1,6 @@
-## Co znajdziesz w artykule?
+POPRAWIONY ARTYKUŁ (zachowaj całą treść, popraw tylko nagłówki):
+
+# Co znajdziesz w artykule?
 
 - **Szybsze wdrożenie** - Jak skrócić czas publikacji z tygodni do dni dzięki edytorom wizualnym i gotowym kolekcjom, zmniejszając zależność od zespołu deweloperskiego.
 - **Techniczna lista kryteriów** - Konkretne metryki do porównania platform: Core Web Vitals, eksport danych, DPA/GDPR, limity API i kolekcji oraz wpływ na TCO i vendor‑lock‑in.
@@ -9,7 +11,7 @@
 
 ## Wprowadzenie: dlaczego dziś warto myśleć o CMS bez kodu
 
-# Cms Bez Kodu
+## Cms Bez Kodu
 
 Zamiast tygodni oczekiwania na programistę, pozwól zespołowi marketingu uruchamiać kampanie w godzinach. CMS bez kodu obiecuje przyspieszenie pracy, mniejsze koszty i większą niezależność — ale nie jest rozwiązaniem dla każdego problemu.
 

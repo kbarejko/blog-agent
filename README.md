@@ -11,7 +11,7 @@ AI-powered blog article generation system for Digital Vantage.
 - **Flexible Workflow Control**: Skip steps or step groups (writing, metadata, post-processing)
 - **Target Word Count**: Per-article length control (e.g., 2000, 3500, 5000 words) - automatically adjusts sections
 - **Auto-Load Existing Files**: Skipped steps automatically load existing content (outline.md, draft.md, etc.)
-- **Multi-Model Support**: Claude, OpenAI (GPT-4), Google Gemini, Ollama (local)
+- **Multi-Model Support**: Claude, OpenAI (GPT-4, GPT-5), Google Gemini, Ollama (local)
 - **AI Review**: Automatic quality checks (readability, word count, SEO)
 - **Git Versioning**: Commits at key milestones
 - **Hierarchical Categories**: 146 categories from YAML
@@ -66,6 +66,8 @@ blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/confi
 
 # Using specific provider (explicit)
 blog-agent create --config path/to/config.yaml --provider claude
+blog-agent create --config path/to/config.yaml --provider gpt5            # GPT-5 (latest)
+blog-agent create --config path/to/config.yaml --provider gpt5-mini       # GPT-5 Mini
 blog-agent create --config path/to/config.yaml --provider openai-gpt4o     # GPT-4o
 blog-agent create --config path/to/config.yaml --provider openai-gpt4o-mini # GPT-4o Mini
 blog-agent create --config path/to/config.yaml --provider gemini
@@ -78,10 +80,12 @@ The system automatically detects the provider from the `model` field in your art
 
 ```yaml
 # config.yaml
-model: gpt-4o         # Auto-detects openai-gpt4o provider
-model: gpt-4o-mini    # Auto-detects openai-gpt4o-mini provider
-model: gpt-4-turbo    # Auto-detects openai provider
-model: gemini-2.5-pro # Auto-detects gemini provider
+model: gpt-5-2025-08-07      # Auto-detects gpt5 provider (GPT-5)
+model: gpt-5-mini-2025-08-07 # Auto-detects gpt5-mini provider
+model: gpt-4o                # Auto-detects openai-gpt4o provider
+model: gpt-4o-mini           # Auto-detects openai-gpt4o-mini provider
+model: gpt-4-turbo           # Auto-detects openai provider
+model: gemini-2.5-pro        # Auto-detects gemini provider
 model: claude-sonnet-4-20250514 # Uses claude provider (default)
 ```
 
@@ -150,6 +154,16 @@ steps:
   - name: humanize
     provider: claude
 # Cost: ~$0.15 per article
+
+# GPT-5 Reasoning: Best quality, higher cost
+steps:
+  - name: outline
+    provider: gpt5-nano  # Fast and cheap for structure
+  - name: write_sections
+    provider: gpt5       # Highest quality reasoning
+  - name: humanize
+    provider: gpt5-mini  # Good balance for refinement
+# Cost: ~$0.20-0.30 per article (reasoning models use more tokens)
 ```
 
 If a step doesn't specify a provider/model, it uses the default from CLI (`--provider`) or article config.
@@ -160,12 +174,17 @@ If a step doesn't specify a provider/model, it uses the default from CLI (`--pro
 | Provider | Model | Quality | Speed | Cost |
 |----------|-------|---------|-------|------|
 | `claude` | Claude Sonnet 4 | ⭐⭐⭐⭐⭐ | Fast | $$ |
+| `gpt5` / `gpt-5` | GPT-5 (reasoning) | ⭐⭐⭐⭐⭐ | Slow | $$$ |
+| `gpt5-mini` / `gpt-5-mini` | GPT-5 Mini (reasoning) | ⭐⭐⭐⭐ | Medium | $$ |
+| `gpt5-nano` / `gpt-5-nano` | GPT-5 Nano (reasoning) | ⭐⭐⭐⭐ | Fast | $ |
 | `openai-gpt4o` | GPT-4o | ⭐⭐⭐⭐⭐ | Fast | $$ |
 | `openai-gpt4o-mini` | GPT-4o Mini | ⭐⭐⭐⭐ | Very Fast | $ |
 | `openai` | GPT-4 Turbo | ⭐⭐⭐⭐ | Medium | $$ |
 | `gemini` | Gemini 1.5 Pro | ⭐⭐⭐⭐ | Fast | $ |
 | `gemini-flash` | Gemini 1.5 Flash | ⭐⭐⭐⭐ | Very Fast | $ |
 | `ollama` | Llama 3 | ⭐⭐ | Slow | Free |
+
+**Note:** GPT-5 models are reasoning models that use internal reasoning tokens before generating output. Token limits are automatically adjusted 5-10x higher. See [GPT-5 Guide](docs/GPT-5-GUIDE.md) for details.
 
 Configure providers in `blog_agent/config/providers.yaml`
 

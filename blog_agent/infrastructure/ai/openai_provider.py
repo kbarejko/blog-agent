@@ -146,21 +146,6 @@ class OpenAIProvider(BaseAIProvider):
 
             response = self.client.chat.completions.create(**request_params)
 
-            # Debug logging for GPT-5 models
-            if self._is_gpt5_model():
-                print(f"   🐛 GPT-5 Debug:")
-                print(f"      Model: {self.model}")
-                print(f"      Requested tokens: {requested_limit}")
-                print(f"      Adjusted tokens: {token_limit} (x{token_limit/requested_limit:.1f})")
-                print(f"      Request params: {list(request_params.keys())}")
-                if 'max_completion_tokens' in request_params:
-                    print(f"      max_completion_tokens: {request_params['max_completion_tokens']}")
-                print(f"      Response ID: {response.id}")
-                print(f"      Finish reason: {response.choices[0].finish_reason}")
-                print(f"      Has content: {response.choices[0].message.content is not None}")
-                if response.choices[0].message.content:
-                    print(f"      Content length: {len(response.choices[0].message.content)} chars")
-
             # Extract text from response
             content = response.choices[0].message.content
 
