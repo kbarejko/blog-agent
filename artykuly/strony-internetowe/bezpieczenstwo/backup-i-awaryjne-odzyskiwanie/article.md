@@ -6,7 +6,6 @@
 - **Plan disaster recovery** - Oferujemy gotowe procedury awaryjne, które zawierają podział ról, priorytetyzację systemów oraz strategię komunikacji z klientami w przypadku awarii. To wszystko, byś mógł działać szybko i skutecznie.
 - **Compliance z RODO** - Omawiamy wymagania prawne dotyczące backupu, w tym okresy retencji danych i ograniczenia geograficzne dotyczące ich przechowywania w różnych branżach. To pozwoli Ci lepiej zrozumieć, jakie są obowiązki Twojej firmy w tym zakresie.
 
-```markdown
 ## Wprowadzenie: Dlaczego backup to nie tylko opcja, ale konieczność biznesowa
 
 # Backup i Awaryjne Odzyskiwanie
@@ -24,7 +23,6 @@ Backup to proces regularnego tworzenia kopii zapasowych danych. Z kolei disaster
 Jaka jest różnica? Backup przywraca pliki. Disaster recovery przywraca życie Twojemu biznesowi.
 
 W tym artykule znajdziesz praktyczne rozwiązania: jak audyt danych może pomóc w zaplanowaniu strategii, jakie narzędzia wybrać w zależności od budżetu i jak stworzyć plan awaryjny, który naprawdę działa. Dowiesz się również, jak uzasadnić koszty przed zarządem i jak uniknąć najczęstszych błędów.
-```
 
 ## Podstawy strategii backup - od czego zacząć
 

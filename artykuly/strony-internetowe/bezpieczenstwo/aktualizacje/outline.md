@@ -79,4 +79,5 @@
 - Checklist do wdrożenia w firmie
 - Pierwsze działania do podjęcia już dziś
 - Kiedy rozważyć zmianę obecnego podejścia
-- Zaproszenie do konsultacji z Digital Vantage --- **Proponowany tytuł H1:** "Aktualizacje strony internetowej: Przewodnik dla firm po bezpiecznej i systematycznej konserwacji witryny"
+- Zaproszenie do konsultacji z Digital Vantage 
+--- **Proponowany tytuł H1:** "Aktualizacje strony internetowej: Przewodnik dla firm po bezpiecznej i systematycznej konserwacji witryny"

@@ -107,4 +107,6 @@
 - Kluczowe pytania do zadania wykonawcy
 - Checklist czynników do porównania ofert
 - Rekomendacje dotyczące wyboru wykonawcy
-- Zachęta do konsultacji z ekspertami Digital Vantage --- **Proponowany tytuł H1:** "Czynniki wpływające na koszt strony internetowej - kompletny przewodnik dla przedsiębiorców 2024" **Całkowita długość:** ~2800 słów
+- Zachęta do konsultacji z ekspertami Digital Vantage 
+
+--- **Proponowany tytuł H1:** "Czynniki wpływające na koszt strony internetowej - kompletny przewodnik dla przedsiębiorców 2024" **Całkowita długość:** ~2800 słów
