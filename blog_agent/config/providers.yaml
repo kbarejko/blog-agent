@@ -39,74 +39,75 @@ providers:
 
   # OpenAI - GPT-5 (latest flagship model, most capable)
   # Released: August 7, 2025
+  # Note: GPT-5 only supports temperature=1.0 (default)
   openai-gpt5:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-2025-08-07
     max_tokens: 8000
-    temperature: 0.7
+    temperature: 1.0
 
   # OpenAI - GPT-5 Mini (faster and cheaper than GPT-5)
   openai-gpt5-mini:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-mini-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   # OpenAI - GPT-5 Nano (smallest and cheapest GPT-5 variant)
   openai-gpt5-nano:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-nano-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   # Aliases for convenience (all naming variants)
   gpt5:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-2025-08-07
     max_tokens: 8000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt-5:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-2025-08-07
     max_tokens: 8000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt-5.1:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-2025-08-07
     max_tokens: 8000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt5-mini:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-mini-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt-5-mini:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-mini-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt-5.1-mini:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-mini-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt5-nano:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-nano-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   gpt-5-nano:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-nano-2025-08-07
     max_tokens: 4000
-    temperature: 0.7
+    temperature: 1.0
 
   # Google Gemini 2.5 Pro (recommended, most capable)
   gemini:

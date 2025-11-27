@@ -50,6 +50,18 @@ class OpenAIProvider(BaseAIProvider):
         # Default to max_tokens for older models
         return False
 
+    def _is_gpt5_model(self) -> bool:
+        """
+        Check if model is GPT-5 series
+
+        GPT-5 models don't support custom temperature (only default 1.0)
+
+        Returns:
+            True if model is GPT-5
+        """
+        model_lower = self.model.lower()
+        return model_lower.startswith('gpt-5') or model_lower.startswith('gpt5')
+
     def generate(
         self,
         prompt: str,
@@ -77,9 +89,14 @@ class OpenAIProvider(BaseAIProvider):
             request_params = {
                 "model": self.model,
                 "messages": [{"role": "user", "content": prompt}],
-                "temperature": temperature if temperature is not None else self.default_temperature,
                 **kwargs
             }
+
+            # GPT-5 doesn't support temperature parameter at all (uses default 1.0)
+            # Other models support custom temperature
+            if not self._is_gpt5_model():
+                temp_value = temperature if temperature is not None else self.default_temperature
+                request_params["temperature"] = temp_value
 
             # Use appropriate token limit parameter based on model
             if self._uses_max_completion_tokens():
