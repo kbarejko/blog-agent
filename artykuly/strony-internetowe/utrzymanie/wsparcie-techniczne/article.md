@@ -6,9 +6,9 @@
 
 - **Model kosztowy** - Wybór między abonamentem, pakietami godzin a pay‑as‑you‑go powinien zależeć od sezonowości ruchu i charakteru biznesu; rekomendacja brzmi: szybki audyt plus 90‑dniowy pilotaż przed zobowiązaniem długoterminowym. Przykład praktyczny: sklep sezonowy prawdopodobnie skorzysta z elastycznego rozliczania, podczas gdy SaaS o stałym ruchu może preferować abonament.
 
-- **Wydajność i konwersja** - Optymalizacje Core Web Vitals, strategii cache i kompresji mediów często przekładają się na wzrost konwersji już w ciągu dwóch tygodni, głównie przez skrócenie LCP i TTFB. Małe, konkretne zmiany — np. lazy‑loading obrazów i serwowanie zasobów z CDN — mogą szybko poprawić doświadczenie użytkownika i wskaźniki biznesowe.
+- **Wydajność i konwersja** - [Optymalizacje Core Web Vitals](/artykuly/strony-internetowe/utrzymanie/optymalizacja-wydajnosci-technicznej), strategii cache i kompresji mediów często przekładają się na wzrost konwersji już w ciągu dwóch tygodni, głównie przez skrócenie LCP i TTFB. Małe, konkretne zmiany — np. lazy‑loading obrazów i serwowanie zasobów z CDN — mogą szybko poprawić doświadczenie użytkownika i wskaźniki biznesowe.
 
-- **Onboarding i kontrola** - Przejrzysta inwentaryzacja dostępów, jasne zasady dotyczące własności kodu, podpisane NDA oraz miesięczne raporty z changelogiem zapewniają bezpieczne przejęcie wsparcia i lepszą kontrolę nad ryzykiem. W praktyce oznacza to: lista kont i uprawnień, transfer repozytoriów oraz comiesięczny przegląd zmian i incydentów.
+- **Onboarding i kontrola** - [Przejrzysta inwentaryzacja dostępów](/artykuly/strony-internetowe/utrzymanie/opieka-techniczna), jasne zasady dotyczące własności kodu, podpisane NDA oraz miesięczne raporty z changelogiem zapewniają bezpieczne przejęcie wsparcia i lepszą kontrolę nad ryzykiem. W praktyce oznacza to: lista kont i uprawnień, transfer repozytoriów oraz comiesięczny przegląd zmian i incydentów.
 
 ---
 
@@ -20,7 +20,7 @@ Strona internetowa to nie jednorazowy projekt — to żywy system, który potrze
 
 ## Wprowadzenie: czym naprawdę jest wsparcie techniczne dla Twojej strony
 
-Wsparcie techniczne to zestaw działań mających na celu utrzymanie strony w działaniu i zabezpieczenie jej przed problemami. Obejmuje bieżące utrzymanie (aktualizacje, backupy), szybkie reagowanie na awarie, działania proaktywne (monitoring, optymalizacje) oraz doradztwo przy wyborach technologicznych. Nie chodzi tylko o „naprawianie” — to również zapobieganie problemom i planowanie rozwoju.
+Wsparcie techniczne to zestaw działań mających na celu utrzymanie strony w działaniu i zabezpieczenie jej przed problemami. Obejmuje [bieżące utrzymanie (aktualizacje, backupy)](/artykuly/strony-internetowe/utrzymanie/aktualizacje-cms), szybkie reagowanie na awarie, [działania proaktywne (monitoring, optymalizacje)](/artykuly/strony-internetowe/utrzymanie/monitoring-strony) oraz doradztwo przy wyborach technologicznych. Nie chodzi tylko o „naprawianie” — to również zapobieganie problemom i planowanie rozwoju.
 
 Traktowanie wsparcia jako jedynie kosztu IT to częsta pułapka. Solidne utrzymanie zmniejsza ryzyko przerw w sprzedaży, chroni wizerunek firmy i ułatwia przewidywanie kosztów operacyjnych. Przykład z życia: awaria płatności podczas weekendowej kampanii może zniweczyć cały ROI kampanii reklamowej — to nie tylko wydatek na IT, to realna strata przychodu. Innym przykładem: jedna nieprzetestowana aktualizacja wtyczki (np. w sklepie WooCommerce) potrafi zablokować koszyk w najgorszym możliwym momencie.
 
