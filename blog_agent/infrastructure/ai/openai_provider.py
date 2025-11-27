@@ -106,6 +106,17 @@ class OpenAIProvider(BaseAIProvider):
 
             response = self.client.chat.completions.create(**request_params)
 
+            # Debug logging for GPT-5 models
+            if self._is_gpt5_model():
+                print(f"   🐛 GPT-5 Debug:")
+                print(f"      Model: {self.model}")
+                print(f"      Request params: {list(request_params.keys())}")
+                print(f"      Response ID: {response.id}")
+                print(f"      Finish reason: {response.choices[0].finish_reason}")
+                print(f"      Has content: {response.choices[0].message.content is not None}")
+                if response.choices[0].message.content:
+                    print(f"      Content length: {len(response.choices[0].message.content)} chars")
+
             # Extract text from response
             content = response.choices[0].message.content
 
@@ -114,7 +125,7 @@ class OpenAIProvider(BaseAIProvider):
                 # Check if there's a refusal reason
                 if hasattr(response.choices[0].message, 'refusal') and response.choices[0].message.refusal:
                     raise RuntimeError(f"OpenAI API refused to generate: {response.choices[0].message.refusal}")
-                raise RuntimeError(f"OpenAI API returned empty response. Model: {self.model}, Finish reason: {response.choices[0].finish_reason}")
+                raise RuntimeError(f"OpenAI API returned empty response. Model: {self.model}, Finish reason: {response.choices[0].finish_reason}, Response ID: {response.id}")
 
             return content
 
