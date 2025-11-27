@@ -1,0 +1,158 @@
+{
+  "hero_image": {
+    "type": "illustration",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem",
+    "description": "Minimalistyczny hero pokazujący laptop z panelem metryk (uptime, RTO, RPO, LCP) na czystym biurku bez ludzi.",
+    "alt_text": "Minimalistyczne workspace z laptopem pokazującym dashboard SLA, metryki wydajności i backupy dla e‑commerce",
+    "prompt": "Minimalist workspace flat lay with laptop displaying a clean SLA and performance dashboard (uptime, RTO, RPO, LCP), white desk, subtle yellow notebook accent, natural window light, modern professional aesthetic, high quality, no people",
+    "keywords": [
+      "wsparcie techniczne",
+      "dashboard",
+      "SLA",
+      "e‑commerce"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "laptop analytics dashboard modern workspace",
+      "pexels_query": "minimalist workspace laptop analytics",
+      "keywords_for_search": [
+        "analytics dashboard laptop",
+        "minimal workspace",
+        "business tech desk"
+      ],
+      "style_notes": "Top-down or slight angle, white/light gray background, muted palette with subtle yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Bezpieczeństwo i ciągłość działania",
+      "title": "Wykres: RTO i RPO dla poziomów krytyczności",
+      "description": "Porównanie docelowych RTO i RPO dla incydentów P1–P3 (ilustruje wymagania SLA i priorytety reakcji).",
+      "alt_text": "Wykres porównujący docelowe RTO i RPO dla priorytetów P1, P2 i P3 w umowie SLA dla serwisów e‑commerce",
+      "prompt": "Clean bar chart comparing target RTO (hours) and RPO (minutes) for incident priorities P1, P2, P3. Minimalist infographic style, grayscale bars with subtle yellow highlights for P1, white background, professional and readable, no people",
+      "placement": "after_paragraph_2_in_section",
+      "keywords": [
+        "RTO",
+        "RPO",
+        "SLA",
+        "incydenty"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data chart infographic minimalist",
+        "pexels_query": "data visualization bar chart business",
+        "keywords_for_search": [
+          "SLA chart",
+          "incident priority chart",
+          "RTO RPO graph"
+        ],
+        "style_notes": "Simple grouped bars, labels clear, grayscale with one yellow accent color; suitable for corporate blog"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Kopie zapasowe i odtworzenia",
+      "title": "Infografika: Zasada 3‑2‑1 i fire‑drill",
+      "description": "Pionowa infografika ilustrująca zasadę 3‑2‑1, off‑site storage, szyfrowanie i kwartalne testy odtworzeniowe.",
+      "alt_text": "Infografika przedstawiająca zasadę 3‑2‑1 backup: 3 kopie, 2 nośniki, 1 off‑site plus kwartalne testy odtworzeniowe",
+      "prompt": "Vertical infographic illustrating 3‑2‑1 backup principle: three copies, two media types, one offsite, plus quarterly restore drills. Clean icons, black/white/gray palette with yellow highlights, minimalist professional style, no people",
+      "placement": "after_first_paragraph_in_backup_section",
+      "keywords": [
+        "backup",
+        "3‑2‑1",
+        "disaster recovery",
+        "odtworzenie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "backup infographic minimal",
+        "pexels_query": "data backup infographic",
+        "keywords_for_search": [
+          "backup infographic",
+          "disaster recovery visual",
+          "3-2-1 backup diagram"
+        ],
+        "style_notes": "Portrait layout, numbered steps, simple flat icons, brand colors: grayscale + yellow accent"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Wydajność i doświadczenie użytkownika",
+      "title": "Wykres: Wpływ optymalizacji na konwersję (przykład)",
+      "description": "Liniowy wykres pokazujący przykładowy wzrost konwersji po wdrożeniu CDN, optymalizacji obrazów i skróceniu TTFB w 2 tygodnie.",
+      "alt_text": "Wykres liniowy ilustrujący przyrost konwersji po optymalizacjach: CDN, compress images, cache i skrócenie TTFB w 2 tygodnie",
+      "prompt": "Line chart showing conversion uplift over 14 days after implementing CDN, image optimization, and caching. Clean minimalist style, gray grid, yellow highlight for interventions, readable labels, professional business aesthetic, no people",
+      "placement": "after_paragraph_quick_wins",
+      "keywords": [
+        "konwersja",
+        "wydajność",
+        "CDN",
+        "optimizacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data line chart business growth",
+        "pexels_query": "analytics chart graph",
+        "keywords_for_search": [
+          "conversion chart",
+          "performance line chart",
+          "analytics visualization"
+        ],
+        "style_notes": "Subtle grid, one yellow accent for interventions; clean and corporate"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Narzędzia i monitoring",
+      "title": "Screenshot mockup: Grafana dashboard (LCP, TTFB, 5xx, JS errors)",
+      "description": "Mockup screenshot panelu z kluczowymi metrykami: LCP, TTFB, 5xx rate, JS error spike oraz alerty statusu.",
+      "alt_text": "Mockup dashboard Grafana z metrykami LCP, TTFB, 5xx i alertami SLA dla monitoringu strony e‑commerce",
+      "prompt": "High quality mockup of Grafana-like dashboard showing LCP, TTFB, 5xx rate, JS error spikes and uptime, clean panels, gray background, subtle yellow alert badges, professional monitoring interface, no people",
+      "placement": "after_paragraph_tools_list",
+      "keywords": [
+        "Grafana",
+        "monitoring",
+        "LCP",
+        "TTFB"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "dashboard analytics ui mockup",
+        "pexels_query": "analytics dashboard mockup",
+        "keywords_for_search": [
+          "monitoring dashboard",
+          "grafana mockup",
+          "analytics UI"
+        ],
+        "style_notes": "Interface style, dark or light panels acceptable, include clear metric labels and small yellow alert badges"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Onboarding i wybór dostawcy",
+      "title": "Infografika: Plan 30/90 dni i checklista onboardingu",
+      "description": "Płaska infografika z harmonogramem 30/90 dni: audyt, hotfixy, stabilizacja, optymalizacje i pilotaż SLA.",
+      "alt_text": "Infografika harmonogram 30/90 dni: szybki audyt, naprawy krytyczne, stabilizacja środowiska i pilotaż SLA dla nowego dostawcy",
+      "prompt": "Horizontal timeline infographic showing 30/90 day onboarding: 0-14 days hotfixes, 30 days stabilization, 90 days optimizations and SLA pilot. Clean icons, monochrome with yellow milestones, modern business style, no people",
+      "placement": "after_paragraph_onboarding",
+      "keywords": [
+        "onboarding",
+        "90 dni",
+        "audyt",
+        "plan"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "timeline infographic business roadmap",
+        "pexels_query": "project timeline infographic",
+        "keywords_for_search": [
+          "30 90 day plan infographic",
+          "onboarding timeline",
+          "project roadmap visual"
+        ],
+        "style_notes": "Horizontal timeline with 3‑4 milestones, grayscale base and yellow milestone markers, corporate look"
+      }
+    }
+  ],
+  "total_count": 6
+}

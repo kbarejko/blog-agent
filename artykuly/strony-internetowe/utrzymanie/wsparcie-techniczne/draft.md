@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Backup i DR** - Wdrożenie zasady 3‑2‑1 z off‑site snapshotami i kwartalnymi testami odtworzeniowymi gwarantuje RPO ≤15 min dla krytycznych danych.
 - **SLA i dostępność** - SLA z określonymi priorytetami (P1–P4) i metrykami — np. dostępność 99,9% oraz RTO 2–4 h dla P1 — minimalizuje przestoje i straty sprzedaży.
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie: czym naprawdę jest wsparcie techniczne dla Twojej strony
 
-# Wsparcie Techniczne
+## Wsparcie Techniczne
 
 Strona internetowa to nie jednorazowy projekt — to system, który wymaga stałej opieki. Brak wsparcia technicznego widać dopiero wtedy, gdy klienci nie mogą zapłacić albo strona przestaje się ładować.
 
