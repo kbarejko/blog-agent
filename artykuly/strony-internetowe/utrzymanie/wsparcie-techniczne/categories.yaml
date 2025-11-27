@@ -1,0 +1,17 @@
+categories:
+- slug: backup-i-odzyskiwanie-danych
+  title: Backup i Odzyskiwanie Danych
+  path: bezpieczenstwo/backup-i-odzyskiwanie-danych
+- slug: strategia-backupow
+  title: Strategia Backupów
+  path: bezpieczenstwo/backup-i-odzyskiwanie-danych/strategia-backupow
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: utrzymanie-i-rozwoj-systemow
+  title: Utrzymanie i rozwój systemów
+  path: strategia-it/utrzymanie-i-rozwoj-systemow
+- slug: wybor-wykonawcy-i-modelu-wspolpracy
+  title: Wybór wykonawcy i modelu współpracy
+  path: strategia-it/wybor-wykonawcy-i-modelu-wspolpracy
+count: 5
