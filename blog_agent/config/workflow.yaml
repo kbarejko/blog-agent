@@ -26,78 +26,86 @@ steps:
     module: blog_agent.core.workflow.steps.step_01_init
     description: "Initialize article structure"
     enabled: true
-    provider:  openai-gpt4o-mini
+    provider:  gpt-5-nano
     
   - name: outline
     module: blog_agent.core.workflow.steps.step_02_outline
     description: "Generate article outline"
+    provider:  gpt-5.1
     enabled: true
   
   - name: summary
     module: blog_agent.core.workflow.steps.step_03_summary
     description: "Generate article summary (Co znajdziesz w artykule?)"
     enabled: true
+    provider:  gpt-5.1
 
   - name: write_sections
     module: blog_agent.core.workflow.steps.step_04_write_sections
     description: "Write all article sections with AI review"
     enabled: true
-    provider: claude  # Optional: use Claude for high-quality content
+    provider:  gpt-5.1
+    #provider: claude  # Optional: use Claude for high-quality content
 
   - name: create_draft
     module: blog_agent.core.workflow.steps.step_05_create_draft
     description: "Create draft by combining summary + sections"
+    provider:  gpt-5-mini
     enabled: true
 
   - name: seo_review
     module: blog_agent.core.workflow.steps.step_06_seo_review
     description: "SEO review and heading fixes"
     enabled: true
-    provider: openai-gpt4o
+    provider:  gpt-5.1
 
   - name: humanize
     module: blog_agent.core.workflow.steps.step_07_humanize
     description: "Humanize content (natural language)"
     enabled: true
-    provider: openai-gpt4o  # Optional: use GPT-4o for humanization
+    provider:  gpt-5.1
 
   - name: multimedia
     module: blog_agent.core.workflow.steps.step_08_multimedia
     description: "Generate multimedia suggestions"
+    provider:  gpt-5-mini
     enabled: true  # Enabled for multimedia.json generation
 
   - name: business_metadata
     module: blog_agent.core.workflow.steps.step_09_business_metadata
     description: "Generate business metadata"
+    provider:  gpt-5-nano
     enabled: true
 
   - name: cta
     module: blog_agent.core.workflow.steps.step_10_cta
     description: "Generate CTA/Next Steps section"
     enabled: true
-    provider: openai-gpt4o  # Optional: use GPT-4o for humanization
+    provider:  gpt-5.1
 
 
   - name: publish
     module: blog_agent.core.workflow.steps.step_11_publish
     description: "Publish article"
+    provider:  gpt-5-mini
     enabled: true
 
   - name: schema
     module: blog_agent.core.workflow.steps.step_12_schema
     description: "Generate Schema.org markup"
     enabled: true
-    provider: openai-gpt4o-mini
+    provider:  gpt-5.1-mini
 
   - name: categories
     module: blog_agent.core.workflow.steps.step_13_categories
     description: "Assign categories from categories.yaml"
     enabled: true
-    provider: openai-gpt4o-mini
+    provider:  gpt-5.1-mini
 
   - name: internal_linking
     module: blog_agent.core.workflow.steps.step_14_internal_linking
     description: "Add internal links to related articles in the same silo"
+    provider:  gpt-5.1
     enabled: true
 
   - name: generate_images
@@ -133,29 +141,31 @@ steps:
     module: blog_agent.core.workflow.steps.step_16_social_media
     description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
     enabled: true
-    provider: openai-gpt4o  # Optional: use GPT-4o for humanization
+    provider:  gpt-5.1
 
   - name: faq
     module: blog_agent.core.workflow.steps.step_17_faq
     description: "Generate FAQ section (if in outline)"
     enabled: true
+    provider:  gpt-5.1-mini
 
   - name: checklist
     module: blog_agent.core.workflow.steps.step_18_checklist
     description: "Generate Checklist section (if in outline)"
     enabled: true
+    provider:  gpt-5.1-mini
 
   - name: headers_alternatives
     module: blog_agent.core.workflow.steps.step_19_headers_alternatives
     description: "Generate SEO-optimized alternative headers (H1/H2/H3)"
     enabled: true  # Optional - enable to generate alternative header proposals
-    provider: openai-gpt4o  # Use GPT-4o for SEO optimization
+    provider:  gpt-5.1
 
   - name: meta_alternatives
     module: blog_agent.core.workflow.steps.step_20_meta_alternatives
     description: "Generate 2-3 alternative proposals for meta title and meta description"
     enabled: true  # Enabled by default - cheap model, useful for SEO optimization
-    provider: openai-gpt4o  # Use cheap model - works well with Polish
+    provider:  gpt-5.1
 
 # Quality Review Configuration
 review:

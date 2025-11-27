@@ -59,6 +59,12 @@ class ProviderRegistry:
                     provider_class = cls._providers[prefix]
                     return provider_class(config)
 
+        # Special case: gpt* models → openai
+        if name.startswith('gpt') or name.startswith('gpt-'):
+            if 'openai' in cls._providers:
+                provider_class = cls._providers['openai']
+                return provider_class(config)
+
         # No match found
         available = ', '.join(cls._providers.keys())
         raise ValueError(f"Unknown provider '{name}'. Available: {available} (or variants like openai-*, gemini-*, etc.)")
