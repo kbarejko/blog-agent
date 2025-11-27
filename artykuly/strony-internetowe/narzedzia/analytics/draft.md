@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Mierzalne KPI i rytm pracy** - Przekształcenie OKR w jedno North Star i 2–3 sub‑KPI z progami alarmowymi oraz cotygodniowym monitoringiem, by szybko wychwycić odchylenia i priorytetyzować działania.
 - **Plan pomiaru i nazewnictwo** - Gotowy plan data layer, standard nazewnictwa eventów i schemat UTM z kryteriami akceptacji, pozwalający na jednoznaczne zliczanie konwersji i automatyzację kampanii.
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie
 
-# Analytics
+## Analytics
 
 Masz dane. Masz też poczucie, że część budżetu marketingowego paruje gdzieś bokiem. Analytics jest tym, co zamienia przeczucia w liczby, a liczby w decyzje, które widać na przychodach.
 

@@ -1,0 +1,191 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem analytics",
+    "description": "Hero image wprowadzający czytelnika w temat analityki: czysty workspace z laptopem pokazującym dashboard KPI.",
+    "alt_text": "Minimalistyczne biurko z laptopem pokazującym dashboard analytics z KPI LTV, CAC i konwersji w neutralnej palecie kolorów",
+    "prompt": "Minimalist workspace flat lay, laptop displaying analytics dashboard with charts and KPIs (LTV, CAC, conversions), white desk, notebook with subtle yellow accent, smartphone, natural window lighting, modern professional aesthetic, high quality, clean composition, muted black white gray palette, no people",
+    "keywords": [
+      "analytics",
+      "dashboard",
+      "workspace",
+      "LTV",
+      "CAC"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "analytics dashboard workspace flat lay",
+      "pexels_query": "minimalist workspace laptop dashboard",
+      "keywords_for_search": [
+        "analytics dashboard",
+        "workspace flat lay",
+        "laptop charts"
+      ],
+      "style_notes": "Modern, minimalist, natural light, black/white/gray with small yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Od celu do implementacji",
+      "title": "Infografika - Piramida KPI i North Star Metric",
+      "description": "Wizualna piramida KPI: North Star na szczycie, 2–3 sub‑KPI, wskaźniki taktyczne i rytm monitoringu.",
+      "alt_text": "Piramida KPI z North Star Metric na górze, podział na sub‑KPI i wskaźniki taktyczne oraz rytm monitoringu tygodniowo/miesięcznie",
+      "prompt": "Clean vertical pyramid infographic illustrating North Star metric at top, 2-3 supporting KPIs middle tier and tactical metrics base, simple icons for each level, black white gray palette with subtle yellow highlights, minimal professional vector style, clear labels and guardrails, high quality, no people",
+      "placement": "after_paragraph_2_in_section",
+      "keywords": [
+        "KPI",
+        "North Star",
+        "piramida",
+        "infografika",
+        "monitoring"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business infographic pyramid clean design",
+        "pexels_query": "minimalist infographic design business",
+        "keywords_for_search": [
+          "KPI pyramid infographic",
+          "north star metric visual",
+          "business metrics infographic"
+        ],
+        "style_notes": "Vector/flat style, numbered levels, black/white/gray with thin yellow accents, readable labels"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Plan data layer i taksonomia zdarzeń",
+      "title": "Schemat data layer i taksonomii eventów",
+      "description": "Diagram pokazujący przykładowy dataLayer: logowanie, add_to_cart, purchase z kluczowymi parametrami i event_id.",
+      "alt_text": "Diagram dataLayer pokazujący flow zdarzeń: login, add_to_cart, begin_checkout, purchase z kluczowymi parametrami i event_id",
+      "prompt": "Minimalist flowchart diagram of dataLayer events: login -> add_to_cart -> begin_checkout -> purchase, show key params (user_id, event_id, item_id, value), arrows and simple icons, clean vector style, black white gray with yellow highlights for keys, professional tech aesthetic, high quality, no people",
+      "placement": "after_paragraph_1_in_section",
+      "keywords": [
+        "dataLayer",
+        "events",
+        "diagram",
+        "taksonomia",
+        "event_id"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data flow diagram vector",
+        "pexels_query": "workflow diagram clean design",
+        "keywords_for_search": [
+          "data layer diagram",
+          "event taxonomy diagram",
+          "analytics event flow"
+        ],
+        "style_notes": "Technical vector diagram, readable labels, monochrome with yellow accents, exportable SVG/PNG"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Integracje i zwrot z inwestycji",
+      "title": "Wykres bar - LTV:CAC per kanał (przykładowy)",
+      "description": "Porównanie LTV:CAC dla wybranych kanałów (przykładowe dane) ułatwiające decyzje budżetowe i priorytetyzację.",
+      "alt_text": "Wykres słupkowy porównujący LTV:CAC na kanałach marketingowych, pomaga priorytetyzować budżet według rentowności",
+      "prompt": "Clean bar chart comparing LTV to CAC by channel (Search, Meta, Email, Affiliate, Organic), clear labels, minimalist professional infographic style, black white gray palette with yellow highlight for best channel, high quality, no people",
+      "placement": "after_paragraph_2_in_section",
+      "keywords": [
+        "LTV",
+        "CAC",
+        "ROAS",
+        "kanały",
+        "bar_chart"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart business",
+        "pexels_query": "business chart infographic",
+        "keywords_for_search": [
+          "LTV CAC chart",
+          "marketing performance chart",
+          "bar chart data visualization"
+        ],
+        "style_notes": "Simple bars, legible labels, highlight best channel in yellow, monochrome base"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "architecture_diagram",
+      "section": "Sekcja: Stos narzędzi i server-side tagging",
+      "title": "Architektura: GTM Server-side i integracje Ads",
+      "description": "Schemat architektury: przeglądarka -> GTM Server -> BigQuery / Google Ads / Meta CAPI, z deduplikacją event_id.",
+      "alt_text": "Architektura server-side tagging: przeglądarka wysyła event do GTM Server, dalej do GA4, Google Ads i Meta CAPI z deduplikacją event_id",
+      "prompt": "Clean technical architecture diagram showing browser -> GTM Server (subdomain) -> destinations (GA4, Google Ads, Meta CAPI, BigQuery), include event_id deduplication and proxy layer, minimalist vector style, black white gray with yellow callouts for critical points, high quality, no people",
+      "placement": "after_paragraph_3_in_section",
+      "keywords": [
+        "server-side",
+        "GTM",
+        "architecture",
+        "BigQuery",
+        "CAPI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "architecture diagram cloud data flow",
+        "pexels_query": "technical diagram data pipeline",
+        "keywords_for_search": [
+          "server side tagging diagram",
+          "GTM server architecture",
+          "data pipeline diagram"
+        ],
+        "style_notes": "Technical, clear arrows, labeled components, monochrome with yellow accents"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Debugowanie i QA",
+      "title": "Screenshot: GTM Preview z payloadem eventu",
+      "description": "Przykładowy screenshot z podglądu GTM (Preview) pokazujący event generate_lead z parametrami i event_id.",
+      "alt_text": "GTM Preview pokazujący payload eventu generate_lead z parametrami form_id, event_id, source i wartościami do QA",
+      "prompt": "Clean screenshot mockup of Google Tag Manager Preview mode showing a generate_lead event payload with parameters (form_id, event_id, source, value), highlighted fields for QA, professional UI mockup style, high resolution, no people",
+      "placement": "after_paragraph_1_in_section",
+      "keywords": [
+        "GTM",
+        "preview",
+        "event_payload",
+        "debug",
+        "QA"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "software interface screenshot mockup",
+        "pexels_query": "computer screen dashboard screenshot",
+        "keywords_for_search": [
+          "GTM preview screenshot",
+          "analytics debug UI",
+          "tag manager preview mockup"
+        ],
+        "style_notes": "High resolution UI mockup, annotate important fields, monochrome with yellow highlights"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Podsumowanie i następne kroki",
+      "title": "Infografika 30–60–90 dni: plan wdrożenia MVP",
+      "description": "Pionowa infografika przedstawiająca plan 30/60/90 dni z kluczowymi zadaniami i szybkim priorytetowaniem.",
+      "alt_text": "Infografika 30-60-90 dni z zadaniami: audyt danych, wdrożenie MVP, dashboardy, eksperymenty i priorytety",
+      "prompt": "Vertical 30-60-90 days roadmap infographic dividing tasks into three sections: audit, MVP implementation, dashboards & experiments, icons for each task, clean minimalist vector design, black white gray with yellow accents for priorities, high quality, no people",
+      "placement": "after_section_summary",
+      "keywords": [
+        "30-60-90",
+        "roadmap",
+        "infographic",
+        "MVP",
+        "plan"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "roadmap infographic clean design",
+        "pexels_query": "timeline infographic professional",
+        "keywords_for_search": [
+          "30 60 90 infographic",
+          "onboarding roadmap visual",
+          "implementation plan graphic"
+        ],
+        "style_notes": "Vertical roadmap, numbered sections, concise text, monochrome with yellow highlights"
+      }
+    }
+  ],
+  "total_count": 7
+}
