@@ -90,7 +90,16 @@ class OpenAIProvider(BaseAIProvider):
             response = self.client.chat.completions.create(**request_params)
 
             # Extract text from response
-            return response.choices[0].message.content
+            content = response.choices[0].message.content
+
+            # Handle None content (some models might return refusal or empty response)
+            if content is None:
+                # Check if there's a refusal reason
+                if hasattr(response.choices[0].message, 'refusal') and response.choices[0].message.refusal:
+                    raise RuntimeError(f"OpenAI API refused to generate: {response.choices[0].message.refusal}")
+                raise RuntimeError(f"OpenAI API returned empty response. Model: {self.model}, Finish reason: {response.choices[0].finish_reason}")
+
+            return content
 
         except Exception as e:
             # Wrap exceptions with more context
