@@ -3,16 +3,23 @@
 #
 # Per-Step AI Provider Configuration:
 # Each step can optionally specify its own AI provider or model:
-#   provider: "gemini"          # Use specific provider (gemini, claude, openai-gpt4o, etc.)
+#   provider: "gemini"          # Use specific provider (gemini, claude, openai-gpt4o, gpt5, etc.)
 #   model: "gemini-2.5-flash"   # Auto-detect provider from model name
 #
 # If not specified, uses the default provider passed via CLI (--provider) or article config.
 #
+# Available OpenAI models:
+#   - gpt-5.1 / gpt5 / openai-gpt5-1 (latest flagship model, most capable)
+#   - gpt-5-mini / gpt5-mini / openai-gpt5-mini (faster and cheaper)
+#   - gpt-5-nano / gpt5-nano / openai-gpt5-nano (smallest and cheapest)
+#   - gpt-4o / openai-gpt4o (previous generation, still capable)
+#   - gpt-4o-mini / openai-gpt4o-mini (fast and cheap)
+#
 # Example use cases:
 #   - outline: gemini-2.5-flash (fast and cheap for structure)
-#   - write_sections: claude-sonnet-4 (best quality for content)
-#   - humanize: gpt-4o (excellent at natural language refinement)
-#   - faq: gemini-2.5-flash (good for Q&A generation)
+#   - write_sections: claude-sonnet-4 or gpt5 (best quality for content)
+#   - humanize: gpt-4o or gpt5-mini (excellent at natural language refinement)
+#   - faq: gemini-2.5-flash or gpt5-nano (good for Q&A generation)
 
 steps:
   - name: init

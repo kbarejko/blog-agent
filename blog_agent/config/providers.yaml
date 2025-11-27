@@ -37,6 +37,46 @@ providers:
     max_tokens: 4000
     temperature: 0.7
 
+  # OpenAI - GPT-5.1 (latest flagship model, most capable)
+  openai-gpt5-1:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5.1
+    max_tokens: 8000
+    temperature: 0.7
+
+  # OpenAI - GPT-5 Mini (faster and cheaper than GPT-5.1)
+  openai-gpt5-mini:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5-mini
+    max_tokens: 4000
+    temperature: 0.7
+
+  # OpenAI - GPT-5 Nano (smallest and cheapest GPT-5 variant)
+  openai-gpt5-nano:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5-nano
+    max_tokens: 4000
+    temperature: 0.7
+
+  # Aliases for convenience
+  gpt5:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5.1
+    max_tokens: 8000
+    temperature: 0.7
+
+  gpt5-mini:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5-mini
+    max_tokens: 4000
+    temperature: 0.7
+
+  gpt5-nano:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5-nano
+    max_tokens: 4000
+    temperature: 0.7
+
   # Google Gemini 2.5 Pro (recommended, most capable)
   gemini:
     api_key: ${GOOGLE_API_KEY}  # Set via environment variable
