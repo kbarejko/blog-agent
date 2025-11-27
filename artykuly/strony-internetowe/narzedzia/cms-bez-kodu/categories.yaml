@@ -1,0 +1,14 @@
+categories:
+- slug: content-management-systems-cms
+  title: Content Management Systems (CMS)
+  path: strony-internetowe/content-management-systems-cms
+- slug: decyzje-strategiczne-it
+  title: Decyzje strategiczne IT
+  path: strategia-it/decyzje-strategiczne-it
+- slug: content-marketing
+  title: Content Marketing
+  path: marketing-w-internecie/content-marketing
+- slug: saas
+  title: Saas
+  path: firma/narzedzia-biznesowe/saas
+count: 4
