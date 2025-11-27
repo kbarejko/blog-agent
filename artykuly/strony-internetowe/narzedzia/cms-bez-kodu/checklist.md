@@ -1,0 +1,16 @@
+## Checklist: Wdrożenie CMS bez kodu — kroki do wykonania
+
+- [ ] Zdefiniuj cele i KPI projektu (maks. 3): np. czas publikacji <48h, wzrost miesięcznego ruchu organicznego o 15% w 6 mies., CR landing page ≥Y% — ustal ownera i konkretny termin weryfikacji. Te wskaźniki mają pomóc w podejmowaniu decyzji, a nie być celem samym w sobie — mogą sugerować priorytety dla zespołu redakcyjnego.
+- [ ] Zrób audyt obecnej strony: wyeksportuj sitemapę, wyciągnij top 20 stron wg ruchu i/lub konwersji (GA4/Search Console), zapisz aktualne URL, meta title i pozycje kluczowych fraz. Taki snapshot wydaje się niezbędny do porównania przed i po migracji.
+- [ ] Wykonaj inwentaryzację treści do CSV: typ treści, slug, właściciel, data publikacji, liczba multimediów, priorytet (A/B/C) — zaznacz zasadę 80/20 (najważniejsze strony). Przykład praktyczny: oznacz jako A wszystkie strony generujące 80% ruchu lub leadów.
+- [ ] Skompletuj shortlist 2–3 platform no-code i oceń je punktowo wg kryteriów: kontrola SEO (meta, hreflang), eksport danych, wielojęzyczność, integracje (CRM/MA), backupy/SLA, koszty — wpisz wynik i wybierz lidera. Możesz rozważyć np. Webflow, DatoCMS, Editor X — ocena powinna być mierzalna i porównywalna.
+- [ ] Zrób proof‑of‑concept: zbuduj w wybranej platformie 1 landing page reklamowy (z formularzem, UTM i trackingiem) i 1 wpis blogowy z szablonem kolekcji; zmierz czas od briefu do publikacji oraz wygodę edycji. To szybko pokaże realne ograniczenia i zalety platformy.
+- [ ] Zaprojektuj strukturę kolekcji i pola w CMS: dla ofert/case/artykułów zdefiniuj slug, meta title/description, pola SEO, relacje (klient, branża), pola tłumaczeń i wymagane walidacje. Ustal też domyślne wartości i przykłady użycia — to ułatwi onboard nowych redaktorów.
+- [ ] Przygotuj środowisko: skonfiguruj domenę i SSL (DNS, CNAME/TXT), uruchom staging/preview, utwórz role użytkowników i politykę uprawnień. Warto dodać krótką instrukcję kto ma prawo publikować i kto zatwierdza zmiany.
+- [ ] Zaimportuj treści i media: mapuj pola CSV → kolekcje, przeładuj obrazy zoptymalizowane (webp/kompresja), uzupełnij alt texty i pola meta; sprawdź poprawność importu na 10 losowych stronach. Jeśli importuje się duże ilości, zrób najpierw próbny batch, żeby uniknąć niespodzianek.
+- [ ] Wdroż przekierowania i canonicale: przygotuj mapę 301 dla wszystkich zmienionych URL, ustaw tagi canonical i sprawdź brak duplikatów przed publikacją. Ma to zapobiec utracie ruchu i problemom z indeksacją.
+- [ ] Skonfiguruj analitykę, tag manager i zgody cookies: GA4, Pixel, Tag Manager, cookie consent z zapisem DPA; podłącz integracje CRM (Webhook/Zapier/Make) i testuj formularze leadów. Prawdopodobnie trzeba będzie też zweryfikować poprawność zdarzeń i parametrów.
+- [ ] Przeprowadź QA przed publikacją: testy mobilne, Core Web Vitals (LCP/FID/CLS), dostępność WCAG (kontrast, aria-labels), testy formularzy, uprawnień i procesów publikacji; zanotuj akceptowalne progi. Dobrze jest mieć checklistę z kryteriami "go/no‑go".
+- [ ] Publikacja i monitoring: opublikuj w ustalonym oknie wdrożeniowym, uruchom monitoring uptime/404/crawl errors, ustaw alerty, zaplanuj rollback (backup + kroki), przeszkól redaktorów i zaplanuj harmonogram publikacji na 30 dni. Nawet proste procedury rollbacku mogą zaoszczędzić dużo nerwów.
+
+---
