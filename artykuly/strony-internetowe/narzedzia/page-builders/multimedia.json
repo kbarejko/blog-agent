@@ -1,0 +1,163 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image – Page builder workspace (flat‑lay)",
+    "description": "Minimalistyczne flat‑lay ujęcie biurka z laptopem pokazującym dashboard page buildera i elementami design tokens.",
+    "alt_text": "Minimalistyczne flat‑lay: laptop z panelem page builder, dashboard metryk, design tokens, biurko w szarościach z żółtym akcentem",
+    "prompt": "Minimalist workspace flat‑lay, laptop showing page builder dashboard with analytics and component library, white/light gray desk, notebook with subtle yellow accent, clean natural light, modern professional B2B aesthetic, high quality photo, no people",
+    "keywords": [
+      "page builder",
+      "dashboard",
+      "workspace",
+      "design tokens",
+      "analytics"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "workspace flat lay laptop dashboard modern",
+      "pexels_query": "laptop analytics workspace flat lay",
+      "keywords_for_search": [
+        "workspace flatlay",
+        "laptop dashboard",
+        "minimal office desk"
+      ],
+      "style_notes": "Clean minimalist top‑down view, white/light gray background, subtle yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Plusy i minusy - obciążenie JS/CSS",
+      "title": "Porównanie payloadu JS (gzip) dla popularnych builderów",
+      "description": "Wykres słupkowy ilustrujący rozmiar wyniku JS (gzip) różnych page builderów na przykładzie realnej strony.",
+      "alt_text": "Porównanie rozmiaru JS gzip dla popularnych page builderów pokazujące różnice w payloadzie i potencjalnym bloatcie",
+      "prompt": "Clean bar chart comparing gzipped JS payload sizes for popular page builders (Elementor, Divi, Webflow, Bricks), minimalist infographic style, black/gray bars with subtle yellow highlight for best performer, white background, professional business look, no people",
+      "placement": "after_paragraph_2_in_performance_section",
+      "keywords": [
+        "payload",
+        "JS",
+        "page builder",
+        "performance",
+        "Core Web Vitals"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart clean infographic",
+        "pexels_query": "statistics chart infographic minimal",
+        "keywords_for_search": [
+          "bar chart data visualization",
+          "infographic chart minimal",
+          "performance chart"
+        ],
+        "style_notes": "Minimalist chart design, clear labels, black/gray palette with yellow accent, high legibility"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "line_chart",
+      "section": "Sekcja: Koszt i ROI",
+      "title": "Model TCO/ROI na 36 miesięcy – Builder vs Custom",
+      "description": "Liniowy wykres porównujący skumulowane koszty TCO dla scenariusza użycia page buildera i custom developmentu przez 36 miesięcy.",
+      "alt_text": "Model TCO na 36 miesięcy porównujący koszty buildera i custom developmentu (licencje, hosting, utrzymanie, praca)",
+      "prompt": "Professional line chart showing cumulative TCO over 36 months comparing 'Builder' vs 'Custom Development', clean minimalist style, gray lines with yellow highlight for builder, labeled cost categories, white background, business infographic feel, no people",
+      "placement": "after_paragraph_1_in_cost_section",
+      "keywords": [
+        "TCO",
+        "ROI",
+        "cost model",
+        "builder vs custom",
+        "36 months"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "financial chart line chart business infographic",
+        "pexels_query": "cost comparison chart infographic",
+        "keywords_for_search": [
+          "TCO chart",
+          "cost model line chart",
+          "business comparison graph"
+        ],
+        "style_notes": "Minimal clean line chart, clear legend, black/gray palette with yellow accent"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Framework decyzyjny",
+      "title": "Infografika – Ramka decyzyjna: kiedy builder, kiedy custom",
+      "description": "Pionowy flowchart z kryteriami decyzyjnymi i progiem punktowym: szybkość publikacji, ruch, złożoność integracji, budżet.",
+      "alt_text": "Schemat decyzyjny do wyboru page builder vs custom z punktami: czas publikacji, ruch, integracje, budżet i rekomendacją",
+      "prompt": "Vertical decision flowchart infographic showing criteria for choosing page builder vs custom: speed, traffic, integration complexity, budget, score thresholds, clean icons, minimal black/gray palette with yellow highlights, white background, modern business style, no people",
+      "placement": "after_paragraph_1_in_decision_framework",
+      "keywords": [
+        "decision framework",
+        "page builder",
+        "infographic",
+        "choice matrix",
+        "scorecard"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "decision infographic minimal",
+        "pexels_query": "flowchart infographic clean design",
+        "keywords_for_search": [
+          "decision flowchart",
+          "infographic decision tree",
+          "scorecard visual"
+        ],
+        "style_notes": "Vertical flowchart, numbered steps, icons per criterion, brand colors: black/gray + subtle yellow accents"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Operacje i skalowanie",
+      "title": "Schemat architektury hybrydowej (builder + custom + headless)",
+      "description": "Diagram pokazujący integrację: marketingowy page builder, headless CMS, custom components, API, CDN i monitoring RUM.",
+      "alt_text": "Diagram architektury hybrydowej: page builder dla marketingu, headless CMS, custom components, API, CDN i monitoring Web Vitals",
+      "prompt": "Clean architecture diagram showing hybrid setup: visual page builder for marketing, headless CMS, custom components/services, API layer, CDN, RUM monitoring, minimal geometric icons, black/gray palette with yellow connectors, professional tech infographic, no people",
+      "placement": "after_paragraph_2_in_operations_section",
+      "keywords": [
+        "hybrid architecture",
+        "headless",
+        "page builder",
+        "API",
+        "CDN"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "system architecture diagram minimal",
+        "pexels_query": "technology diagram infographic",
+        "keywords_for_search": [
+          "architecture diagram",
+          "headless cms diagram",
+          "hybrid setup visual"
+        ],
+        "style_notes": "Minimal geometric icons, clear labels, brand palette black/gray with yellow highlights"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Przegląd rozwiązań (narzędzia)",
+      "title": "Mockup: biblioteka komponentów w page builderze",
+      "description": "Screenshot‑style mockup pokazujący bibliotekę sekcji i ograniczenia widgetów (bez ludzi, bez rzeczywistych UI copyrighted).",
+      "alt_text": "Mockup interfejsu page builder: biblioteka komponentów, ograniczenia widgetów, workflow staging→review→production, bez osób",
+      "prompt": "High quality screenshot mockup of a page builder component library UI showing sections (hero, CTA, form), controls for widget limits and versioning, clean minimalist interface, gray/white palette with yellow accent, realistic admin panel style, no people",
+      "placement": "after_first_tool_mention_in_tools_section",
+      "keywords": [
+        "page builder UI",
+        "component library",
+        "staging workflow",
+        "mockup"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "admin dashboard ui mockup clean",
+        "pexels_query": "web app dashboard mockup",
+        "keywords_for_search": [
+          "component library UI",
+          "admin panel mockup",
+          "builder interface"
+        ],
+        "style_notes": "Sanitized admin UI mockup, no brand/copyrighted screens, minimal colors, emphasize controls and labels"
+      }
+    }
+  ],
+  "total_count": 6
+}

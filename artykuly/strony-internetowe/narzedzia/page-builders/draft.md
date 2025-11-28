@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Ramka decyzyjna** - Konkretne kryteria i progi (szybkość publikacji, ruch, złożoność integracji, budżet), które mówią, kiedy warto wybrać page builder, a kiedy iść w custom dev.
 - **Wydajność i SEO** - Jasne wskazówki, jak różne typy builderów wpływają na Core Web Vitals, strukturę nagłówków i indeksację oraz praktyczne kroki minimalizujące „bloat” (CDN, lazy‑loading, design tokens).
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie: Page buildery – skrót do biznesowego efektu czy techniczny kompromis?
 
-# Page Builders
+## Page Builders
 
 Page builder to obietnica: szybciej, taniej, bez czekania na zespół developerski. Dla wielu firm oznacza to realne przyspieszenie kampanii — ale czasami kosztuje to późniejsze kłopoty z wydajnością i migracją.
 
@@ -139,22 +139,22 @@ Metody wersjonowania i kontroli zmian
 
 Przejście od kryteriów decyzyjnych do konkretów: poniżej porównanie narzędzi, które najczęściej pojawiają się w briefach marketingu i product‑ownerów. Skupiam się na rzeczywistych zaletach/ograniczeniach i sygnałach, które pomogą wybrać.
 
-#### Gutenberg (Full Site Editing)
+### Gutenberg (Full Site Editing)
 Gutenberg to natywny blokowy edytor WordPressa z rosnącym wsparciem dla Full Site Editing. Zalety: relatywnie lekki output, zgodność ze standardami WP i brak dodatkowego lock‑inu do zewnętrznego pluginu. Dobrze działa, gdy chcecie zachować kontrolę nad strukturą treści i mieć prosty model aktualizacji. Ograniczenia: ekosystem bloków wciąż dojrzewa — niektóre bloki są niedopracowane, a krzywa uczenia dla niestandardowych bloków bywa stroma.
 
-#### Elementor
+### Elementor
 Elementor to synonim szybkiego prototypowania i ogromnego marketplace’u gotowych widgetów. Dla marketerów to ogromna wygoda: drag‑and‑drop, gotowe sekcje i integracje. Główne minusy to nadmiar CSS/JS generowany przez widgety oraz ryzyko lock‑inu (szablony i shortcody). Przy dużej stronie trzeba liczyć się z pracą optymalizacyjną.
 
-#### Bricks / Oxygen / Beaver Builder / Divi
+### Bricks / Oxygen / Beaver Builder / Divi
 Te narzędzia różnią się filozofią: Bricks i Oxygen celują w performance‑first — czystszy kod, mniejszy bloat, większe możliwości programistyczne. Divi i Beaver to UX‑first: szybkie tworzenie szablonów, bogate UI, mniejsza krzywa dla non‑dev. Kto powinien czego użyć? Jeśli CWV to KPI — rozważ Bricks/Oxygen. Jeśli priorytetem jest szybkość wdrożeń i duży katalog gotowych modułów — Divi/Beaver.
 
-#### Webflow
+### Webflow
 Webflow to zintegrowane środowisko: edytor wizualny + hosting + CMS. Generuje schludny kod, daje dobre wyjście pod względem performance i dostępności, oraz prostą obsługę CMS‑ową bez WP. Ograniczenia: koszty rosną z ruchem i funkcjami, backendowe ograniczenia (logika, złożone e‑commerce) i migracje — eksport HTML/CSS jest możliwy, ale przeniesienie CMS i logiki wymaga pracy.
 
-#### Wix Studio / Editor X / Framer Sites
+### Wix Studio / Editor X / Framer Sites
 Te platformy są świetne na kampanie, portfolio i microsites — szybkie prototypy, hosting i prostota. Zwykle mniej elastyczne pod kątem integracji z backendem i skalowalności.
 
-#### WooCommerce vs Webflow e‑commerce; scenariusze headless
+### WooCommerce vs Webflow e‑commerce; scenariusze headless
 WooCommerce + builder sprawdzi się dla sklepów z szerokim katalogiem i niestandardową logiką. Webflow e‑commerce działa dobrze przy mniejszym asortymencie i prostych procesach sprzedaży. Headless ma sens, gdy potrzebujesz skalowalnego API, wielokanałowej publikacji lub gdy planujesz migrację frontu bez rezygnacji z istniejącego CMS.
 
 Licencje i migracje
@@ -186,40 +186,40 @@ Te liczby pozwolą oszacować payback i podjąć świadomą decyzję przed choic
 
 Przechodzimy od decyzji technologicznej do codziennej pracy zespołu. Tu rozstrzyga się, czy builder naprawdę przyspieszy wydania, czy stanie się źródłem bałaganu. Klucz to proste, powtarzalne procesy.
 
-#### Workflow: staging → review → production, role i uprawnienia
+### Workflow: staging → review → production, role i uprawnienia
 Każda zmiana musi przechodzić przez staging. Tam robi się QA, SEO i testy a11y. Role: content editor (tworzy treści), designer (szablony), developer (blok‑y i integracje), release manager (akceptuje). Ogranicz uprawnienia edytorów — pozwól na edycję treści, nie na zmiany komponentów.
 
-#### Szablony stron i “guardrails” dla spójności brandu
+### Szablony stron i “guardrails” dla spójności brandu
 Zdefiniuj szablony: home, landing, produkt, blog. Wprowadź guardrails — ograniczenia dostępnych widgetów, maksymalna liczba kolumn, zasady typografii. To zapobiega „kreatywnemu chaosowi” i zmniejsza regresje wizualne.
 
-#### Biblioteka sekcji: hero, CTA, formularze, FAQ, case studies
+### Biblioteka sekcji: hero, CTA, formularze, FAQ, case studies
 Zbuduj bibliotekę gotowych sekcji. Każda sekcja ma wersje i opis użycia. Marketing wybiera gotowe bloki zamiast kopiować layouty. To przyspiesza pracę i upraszcza refaktory.
 
-#### Style globalne, tokens (kolory, typografia, spacing)
+### Style globalne, tokens (kolory, typografia, spacing)
 Wprowadź tokens: kolory, skale typograficzne, spacing. Trzymaj je w jednym miejscu. Aktualizacja tokena powinna propagować się automatycznie. To największa korzyść przy rebrandingu.
 
-#### Reużywalne komponenty vs. “kopiuj‑wklej”
+### Reużywalne komponenty vs. “kopiuj‑wklej”
 Wymuszaj użycie komponentów. Kopiuj‑wklej generuje drift stylów i zwiększa czas utrzymania. Każdy komponent ma wersję i changelog.
 
-#### Dokumentacja i zasady naming convention
+### Dokumentacja i zasady naming convention
 Dokumentuj komponenty, ich warianty i przypadki użycia. Naming: [component]__[variant]--v1. To pomaga w debugowaniu i migracji.
 
-#### Checkpointy SEO/a11y/CWV przed publikacją
+### Checkpointy SEO/a11y/CWV przed publikacją
 Przed publikacją: meta/OG, struktura nagłówków, alt‑text, aria, Lighthouse threshold (np. performance ≥ 80). Automatyczne skany plus manualne sprawdzenie klawiaturą.
 
-#### Testy regresji wizualnej i monitorowanie wydajności
+### Testy regresji wizualnej i monitorowanie wydajności
 Wprowadź visual regression (np. Percy). Dodaj RUM i syntetyczne testy CWV. Alerty przy spadku wskaźników.
 
-#### Polityka aktualizacji i roll‑back
+### Polityka aktualizacji i roll‑back
 Aktualizacje co ustalony cykl. Najpierw canary na stagingu, potem production. Miej rollback plan — snapshot/staging i 301 maps gotowe na wypadek awarii.
 
-#### Plan migracji bez utraty SEO
+### Plan migracji bez utraty SEO
 Mapuj URL, przygotuj 301, zaktualizuj sitemapę i przetestuj indeksację (Fetch as Google). Migrację wykonuj etapami, monitorując ruch i pozycje.
 
-#### Ekstrakcja do customu i architektura headless
+### Ekstrakcja do customu i architektura headless
 Kiedy wypakować komponent do kodu? Gdy komponent obniża CWV, wymaga niestandardowej logiki albo skaluje się poza możliwości buildera. Headless to kolejny etap: separacja treści i frontu ułatwia wielokanałowość.
 
-#### Własność i metryki
+### Własność i metryki
 Właścicielem biblioteki powinna być rola DesignOps lub Frontend Lead. Mierzymy jakość: % przejść QA, liczba regresji wizualnych, średni czas cyklu (idea → live). Gdy aktualizacja psuje layout — szybki rollback, hotfix, analiza przyczyn i aktualizacja testów oraz dokumentacji.
 
 ## Podsumowanie i następne kroki
@@ -241,3 +241,5 @@ Rekomendowane “quick wins” na start
 
 Call to action: plan 90 dniowy
 Wybierz 1–2 kandydatów i zrób test porównawczy: tydzień konfiguracji + 4 tygodnie pilotażu (landing + integracje) + 4 tygodnie pomiaru i optymalizacji. Cel 90 dni: działający design system (tokens), biblioteka komponentów, baseline CWV i procedury release. Na koniec oceń: czy przyspieszenie publikacji rekompensuje koszty optymalizacji i ryzyko migracji. To konkretne kryteria, które pozwolą przejść od decyzji „intuicyjnej” do biznesowo uzasadnionej.
+
+POPRAWIONY ARTYKUŁ (zachowaj całą treść, popraw tylko nagłówki):
