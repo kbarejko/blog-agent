@@ -1,0 +1,17 @@
+categories:
+- slug: strony-internetowe
+  title: Strony Internetowe
+  path: strony-internetowe
+- slug: frontend-development
+  title: Frontend Development
+  path: strony-internetowe/frontend-development
+- slug: content-management-systems-cms
+  title: Content Management Systems (CMS)
+  path: strony-internetowe/content-management-systems-cms
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+count: 5
