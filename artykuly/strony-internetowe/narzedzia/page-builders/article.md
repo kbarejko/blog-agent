@@ -6,7 +6,7 @@
 
 - **Ryzyka i lock‑in** - Ocena głównych wektorów ryzyka (wtyczki, aktualizacje, zewnętrzne zależności) z listą zasad, które pomagają ograniczać lock‑in. Dodatkowo proponuję prostą metodę szacowania kosztu migracji — co trzeba uwzględnić i jak oszacować nakład pracy (może sugerować kilka tygodni dewelopera w zależności od skali).
 
-- **Koszt i ROI** - Przejrzysty model TCO/ROI na 24–36 miesięcy, obejmujący licencje, hosting, koszty pracy i utrzymania, oraz progi zwrotu przy założonym wzroście konwersji. Zawiera przykładowe scenariusze — np. ile warto zainwestować, jeśli spodziewasz się wzrostu konwersji o 3–10% — oraz wskazówki, które koszty są najłatwiejsze do optymalizacji.
+- **Koszt i ROI** - [Przejrzysty model TCO/ROI](/artykuly/strony-internetowe/narzedzia/analytics) na 24–36 miesięcy, obejmujący licencje, hosting, koszty pracy i utrzymania, oraz progi zwrotu przy założonym wzroście konwersji. Zawiera przykładowe scenariusze — np. ile warto zainwestować, jeśli spodziewasz się wzrostu konwersji o 3–10% — oraz wskazówki, które koszty są najłatwiejsze do optymalizacji.
 
 - **Operacje i skalowanie** - Praktyczne procedury wdrożeniowe: design tokens i ich wersjonowanie, biblioteka komponentów, standardowy workflow staging→review→prod, testy regresji oraz kryteria, kiedy warto „wyprowadzić” komponenty do kodu. Zawiera też realistyczne przykłady: jak zamienić często zmieniany blok contentowy w komponent front‑endowy i jakie daje to oszczędności przy skalowaniu.
 
@@ -14,13 +14,13 @@
 
 # Page Builders
 
-Page builder to obietnica: szybciej, taniej, bez czekania na zespół developerski. Dla wielu firm rzeczywiście przyspiesza wdrożenie kampanii — czasem w kilka godzin zamiast tygodni — ale bywa też źródłem późniejszych problemów z wydajnością i migracją.
+Page builder to obietnica: [szybciej, taniej, bez czekania na zespół developerski](/artykuly/strony-internetowe/narzedzia/cms-bez-kodu). Dla wielu firm rzeczywiście przyspiesza [wdrożenie kampanii](/artykuly/strony-internetowe/narzedzia/cms-bez-kodu) — czasem w kilka godzin zamiast tygodni — ale bywa też źródłem późniejszych problemów z wydajnością i migracją.
 
 ## Wprowadzenie: Page buildery – skrót do biznesowego efektu czy techniczny kompromis?
 
 Temat page builderów pojawia się zawsze przy większej modernizacji strony, bo to jedno z najszybszych narzędzi do zamiany pomysłu marketingowego w działający landing. Dla właściciela firmy lub kierownika marketingu to pytanie o priorytety: czy ważniejsza jest błyskawiczna realizacja i autonomia zespołu, czy jednak kontrola nad wydajnością i długoterminowa elastyczność? Większość decyzji prawdopodobnie wyląduje gdzieś pomiędzy tymi skrajnościami.
 
-Co zyskasz czytając ten artykuł? Daję ci proste ramy decyzyjne: jak porównywać narzędzia, jakie koszty uwzględnić w TCO i jak ocenić ROI. Omówimy typowe ryzyka — od narastającego „bloatu” po lock‑in — i zaproponuję praktyczne rekomendacje operacyjne, które zmniejszają szansę, że „tanio teraz” zamieni się w „drogo później”.
+Co zyskasz czytając ten artykuł? Daję ci proste ramy decyzyjne: jak porównywać narzędzia, [jakie koszty uwzględnić w TCO](/artykuly/strony-internetowe/narzedzia/analytics) i jak ocenić ROI. Omówimy typowe ryzyka — od narastającego „bloatu” po lock‑in — i zaproponuję praktyczne rekomendacje operacyjne, które zmniejszają szansę, że „tanio teraz” zamieni się w „drogo później”.
 
 Dla kogo to jest przydatne? Przede wszystkim dla MŚP, sklepów e‑commerce, marek B2B oraz zespołów marketingu bez stałego wsparcia developerskiego. Jeśli twoje tempo pracy to częste kampanie, wiele szybkich landingów i częste zmiany treści, page builder może realnie skrócić cykl idea → publikacja. Przykład: mały sklep sezonowy może wystawić landing promocyjny w kilka godzin bez angażowania deweloperów. Natomiast jeśli prowadzisz aplikację z niestandardową logiką, duży sklep z milionami odsłon lub firmę z surowymi wymaganiami compliance, warto podejść do tematu ostrożnie — tu page builder może sugerować kompromisy, które będą kosztowne w długiej perspektywie.
 
