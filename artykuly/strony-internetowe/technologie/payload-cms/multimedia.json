@@ -1,0 +1,191 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem Payload",
+    "description": "Fotorealistyczny flat‑lay nawiązujący do tematu headless CMS: laptop z widocznym panelem analitycznym, czyste biurko i subtelny żółty akcent.",
+    "alt_text": "Minimalistyczne ujęcie workspace z laptopem pokazującym dashboard Payload, akcent żółty, styl biznesowy",
+    "prompt": "Minimalist workspace flat lay with laptop showing a Payload admin dashboard and analytics graphs, white desk, notebook with subtle yellow accent, natural window lighting, high quality photorealistic style, clean black white gray palette, modern business-to-business aesthetic, no people",
+    "keywords": [
+      "Payload",
+      "dashboard",
+      "workspace",
+      "analytics",
+      "headless CMS"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "laptop dashboard workspace minimalist modern office",
+      "pexels_query": "laptop analytics dashboard clean workspace",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop dashboard",
+        "minimal office desk"
+      ],
+      "style_notes": "Photorealistic flat‑lay, natural daylight, muted black/white/gray palette, subtle yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "architecture_diagram",
+      "section": "Wprowadzenie / Architektura",
+      "title": "Schemat architektury: Payload jako centralny hub",
+      "description": "Infografika obrazująca Payload jako centralne źródło treści dostarczające dane do frontendu WWW, aplikacji mobilnych i systemów e‑commerce oraz integracje z zewnętrznymi API i CDN.",
+      "alt_text": "Schemat architektury: Payload jako centralny hub dostarczający treści do web, mobile i e‑commerce, integracje API",
+      "prompt": "Clean system architecture infographic showing Payload CMS as a central hub connecting to web frontends, mobile apps, e-commerce platforms, third-party APIs and CDN. Minimalist vector style, black white gray with yellow highlights, clear icons and arrows, professional tech business look, no people",
+      "placement": "after_paragraph_2_of_introduction",
+      "keywords": [
+        "architektura",
+        "Payload",
+        "headless CMS",
+        "integracje",
+        "API"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "system architecture infographic clean design",
+        "pexels_query": "architecture diagram technology infographic",
+        "keywords_for_search": [
+          "system architecture diagram",
+          "cms architecture",
+          "infographic tech"
+        ],
+        "style_notes": "Vector infographic style, clear icons/arrows, black/white/gray colors, subtle yellow highlights, minimalist and corporate"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Realny koszt wdrożenia",
+      "title": "Wykres: Szacowane oszczędności kosztów wdrożenia z Payload",
+      "description": "Wykres słupkowy pokazujący przybliżone procentowe oszczędności w kosztach developmentu przy użyciu Payload dla małych, średnich i dużych firm.",
+      "alt_text": "Wykres słupkowy oszczędności kosztów wdrożenia z Payload dla małych, średnich i dużych firm (procentowo)",
+      "prompt": "Professional bar chart showing estimated development cost savings using Payload for small, medium and large companies (percent values), minimalist infographic style, muted black white gray colors with yellow accent highlighting key bar, clean labels and legend, high resolution, no people",
+      "placement": "after_paragraph_2_of_cost_section",
+      "keywords": [
+        "koszty",
+        "oszczędności",
+        "TCO",
+        "ROI",
+        "Payload"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "financial chart bar graph data visualization",
+        "pexels_query": "business chart infographic statistics",
+        "keywords_for_search": [
+          "bar chart infographic",
+          "cost savings chart",
+          "data visualization business"
+        ],
+        "style_notes": "Clean, easy-to-read axes and labels, black/white/gray palette, yellow accent for emphasis; prefer SVG/PNG export for web"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Kluczowe funkcjonalności / Korzyści",
+      "title": "Infografika: 5 kluczowych korzyści Payload dla biznesu",
+      "description": "Pionowa infografika przedstawiająca 5 najważniejszych korzyści: elastyczność, skalowalność, TypeScript, bezpieczeństwo i oszczędność kosztów, każda z prostą ikoną.",
+      "alt_text": "Infografika 5 kluczowych korzyści Payload: elastyczność, skalowalność, TypeScript, bezpieczeństwo, oszczędność kosztów",
+      "prompt": "Vertical infographic with five numbered benefit cards for Payload: flexibility, scalability, TypeScript, security, cost savings. Simple icons for each card, clean typography, black white gray palette with subtle yellow accents, portrait layout for blog sidebar, professional and minimalist, no people",
+      "placement": "after_paragraph_1_of_key_features",
+      "keywords": [
+        "korzyści",
+        "infografika",
+        "TypeScript",
+        "skalowalność",
+        "bezpieczeństwo"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business infographic clean modern",
+        "pexels_query": "vertical infographic design minimal",
+        "keywords_for_search": [
+          "benefits infographic",
+          "vertical list infographic",
+          "business numbered list"
+        ],
+        "style_notes": "Portrait format, numbered cards, matching brand palette, clear icons and short captions"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Administrator panel i zarządzanie treścią",
+      "title": "Mockup screenshot panelu administratora Payload",
+      "description": "High‑fidelity mockup panelu admina: lista kolekcji, edytor typu treści, media library i preview. Użyj anonimowych danych, zachowując czytelność interfejsu.",
+      "alt_text": "Mockup panelu administratora Payload z listą typów treści, zarządzaniem mediami i podglądem schematu danych (bez ludzi)",
+      "prompt": "High-fidelity mockup screenshot of a Payload admin panel showing collections list, content type editor, media library and preview pane. Clean UI mockup, realistic but anonymized data, black white gray palette with yellow accents, screenshot-style illustration suitable for docs, high resolution, no people",
+      "placement": "after_paragraph_2_of_admin_panel_section",
+      "keywords": [
+        "admin panel",
+        "Payload UI",
+        "dashboard mockup",
+        "media library",
+        "CMS"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web app dashboard mockup clean UI",
+        "pexels_query": "software interface mockup dashboard",
+        "keywords_for_search": [
+          "admin dashboard mockup",
+          "cms interface mockup",
+          "webapp UI screenshot"
+        ],
+        "style_notes": "Prefer mockup from Figma/Sketch with anonymized data; maintain brand palette and good contrast for accessibility"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Wdrożenie / Proces migracji",
+      "title": "Flowchart migracji do Payload - krok po kroku",
+      "description": "Poziomy diagram procesu migracji: planowanie, środowisko testowe, import treści, migracja mediów, mapowanie URL, testy i uruchomienie produkcyjne.",
+      "alt_text": "Schemat migracji do Payload: etapowanie importu treści, migracja mediów, mapowanie URL, testy i uruchomienie produkcyjne",
+      "prompt": "Horizontal flowchart infographic illustrating migration process to Payload: plan, test environment, import content, migrate media, map URLs, QA, go-live. Simple arrows, numbered steps, icon per step, clean minimalist style, black white gray with yellow highlights, suitable for presentations, no people",
+      "placement": "after_paragraph_1_of_migration_section",
+      "keywords": [
+        "migracja",
+        "flowchart",
+        "proces wdrożenia",
+        "import danych",
+        "Payload"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "process flowchart infographic minimal",
+        "pexels_query": "workflow diagram clean design",
+        "keywords_for_search": [
+          "migration flowchart",
+          "process infographic",
+          "project steps diagram"
+        ],
+        "style_notes": "Landscape flowchart, numbered steps, icons and arrows, brand color accents; export as SVG/PNG"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "comparison_infographic",
+      "section": "Payload CMS vs konkurencja",
+      "title": "Porównanie: Payload vs Strapi vs Contentful",
+      "description": "Łatwa do zeskanowania grafika porównawcza prezentująca kluczowe różnice (TypeScript, open-source, czas wdrożenia, funkcje enterprise, koszty) oraz rekomendacje zastosowań.",
+      "alt_text": "Tabela porównawcza Payload vs Strapi vs Contentful: TypeScript, open source, koszty, gotowe funkcje, rekomendacje zastosowań",
+      "prompt": "Clean comparison infographic table for Payload vs Strapi vs Contentful highlighting TypeScript support, open-source status, time-to-market, enterprise features and cost. Minimalist cards, icons, checkmarks, black white gray colors with subtle yellow accents, easy-to-scan layout for decision makers, no people",
+      "placement": "after_paragraph_2_of_comparison_section",
+      "keywords": [
+        "porównanie",
+        "Payload",
+        "Strapi",
+        "Contentful",
+        "headless CMS"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison infographic clean design",
+        "pexels_query": "comparison table infographic minimal",
+        "keywords_for_search": [
+          "comparison infographic",
+          "vs chart",
+          "product comparison visual"
+        ],
+        "style_notes": "Simple table/cards, clear icons for features, black/white/gray palette and yellow for 'recommended' badges"
+      }
+    }
+  ],
+  "total_count": 7
+}
