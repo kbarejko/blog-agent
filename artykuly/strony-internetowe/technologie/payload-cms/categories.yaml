@@ -1,0 +1,11 @@
+categories:
+- slug: payload
+  title: Payload
+  path: strony-internetowe/content-management-systems-cms/payload
+- slug: headless-cms
+  title: Headless CMS
+  path: strony-internetowe/headless-cms
+- slug: content-management-systems-cms
+  title: Content Management Systems (CMS)
+  path: strony-internetowe/content-management-systems-cms
+count: 3
