@@ -1,6 +1,6 @@
 # Post
 
-Zmniejsz koszty projektów o 40%! Dowiedz się, jak to zrobić!
+Zmniejsz koszty projektów stron o 40%! Dowiedz się, jak to zrobić!
 
 ## Alternatywne tytuły
 
