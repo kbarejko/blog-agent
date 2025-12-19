@@ -1,0 +1,191 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem",
+    "description": "Minimalistyczny flat‑lay workspace z laptopem pokazującym dashboard z metrykami strony (ruch, uptime, koszty). Bez ludzi — wprowadzenie wizualne do tematu domeny i hostingu.",
+    "alt_text": "Minimalistyczne flat‑lay: laptop z panelem analitycznym e‑commerce, biały biurko, subtelny akcent żółty",
+    "prompt": "Minimalist workspace flat lay, laptop displaying analytics dashboard with charts and hosting metrics, white desk, notebook with subtle yellow accent, natural daylight, clean modern business aesthetic, high quality, sharp focus, no people",
+    "keywords": [
+      "hosting",
+      "dashboard",
+      "workspace",
+      "analytics",
+      "e-commerce"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "laptop analytics workspace flat lay",
+      "pexels_query": "laptop analytics desk minimalist",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "analytics dashboard laptop",
+        "minimalist office"
+      ],
+      "style_notes": "Photorealistic, clean, white or light gray background, subtle yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Ile kosztuje domena i hosting w 2024 roku",
+      "title": "Porównanie kosztów domen i hostingu w 2024 (rocznie, PLN)",
+      "description": "Słupkowy wykres porównujący roczne koszty domen (.pl, .com, .eu) oraz przybliżone roczne koszty hostingu (współdzielony, VPS, dedykowany, chmura) ułatwiający szybkie zrozumienie skali wydatków.",
+      "alt_text": "Porównanie rocznych kosztów domen (.pl/.com/.eu) i hostingu (współdzielony, VPS, dedykowany, chmura) w PLN",
+      "prompt": "Clean bar chart comparing annual costs in PLN: domain extensions and hosting types, minimalist infographic style, white background, black/gray bars with subtle yellow highlight for key items, clear labels and values, professional data visualization, no people",
+      "placement": "after_paragraph_2_in_cost_section",
+      "keywords": [
+        "koszty",
+        "domena",
+        "hosting",
+        "2024",
+        "cennik"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data chart infographic clean",
+        "pexels_query": "business chart data visualization",
+        "keywords_for_search": [
+          "cost comparison chart",
+          "annual cost infographic",
+          "bar chart business"
+        ],
+        "style_notes": "Minimalist data viz, white background, readable labels, subtle yellow accent for emphasis"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Typy hostingu – który wybrać dla swojego biznesu",
+      "title": "Infografika - Porównanie typów hostingu",
+      "description": "Pionowa infografika porównująca hosting współdzielony, VPS, serwer dedykowany i chmurę. Każdy blok zawiera krótki opis, typowe koszty i rekomendowane zastosowania.",
+      "alt_text": "Infografika porównująca hosting współdzielony, VPS, serwer dedykowany i chmurę — zalety, koszty, rekomendacje",
+      "prompt": "Vertical infographic comparing shared hosting, VPS, dedicated server and cloud hosting; each block with icon, short bullets for pros/cons, price ranges in PLN, clean minimalist style, black white gray palette with yellow highlights, professional business infographic, no people",
+      "placement": "after_paragraph_1_in_hosting_types",
+      "keywords": [
+        "hosting",
+        "VPS",
+        "dedicated",
+        "cloud",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "hosting infographic comparison",
+        "pexels_query": "technology infographic clean",
+        "keywords_for_search": [
+          "hosting comparison infographic",
+          "VPS vs shared infographic",
+          "cloud hosting visual"
+        ],
+        "style_notes": "Minimalist vertical infographic, numbered sections, icons, black/white/gray with yellow accent"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Kwestie prawne i bezpieczeństwa / Certyfikat SSL",
+      "title": "Screenshot (mockup) - Instalacja Let's Encrypt SSL",
+      "description": "Mockup panelu instalacji certyfikatu Let's Encrypt z zaznaczonymi krokami weryfikacji domeny i przyciskiem instalacji — praktyczna ściąga dla czytelników.",
+      "alt_text": "Mockup panelu instalacji certyfikatu Let's Encrypt z krokami walidacji domeny i przyciskiem instalacji",
+      "prompt": "Mockup of Let's Encrypt SSL installation panel showing domain validation step, actionable buttons and highlighted important notes, clean UI mockup style, grayscale with yellow accent, clear labels, high resolution, no people",
+      "placement": "after_paragraph_2_in_ssl_section",
+      "keywords": [
+        "SSL",
+        "Let's Encrypt",
+        "instalacja",
+        "certyfikat",
+        "security"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "web admin panel mockup",
+        "pexels_query": "dashboard mockup interface",
+        "keywords_for_search": [
+          "SSL installation mockup",
+          "admin panel UI",
+          "website security panel"
+        ],
+        "style_notes": "UI mockup style, clear annotations, black/white/gray palette with yellow highlights, no people"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Jak wybrać dostawcę domeny i hostingu (uptime/SLA)",
+      "title": "Wykres: Godziny przestoju rocznie przy różnych SLA",
+      "description": "Szybki wykres obrazujący, ile godzin przestoju rocznie oznaczają poziomy SLA: 99.5%, 99.9% i 99.99% — pomaga zrozumieć rzeczywisty wpływ procentów uptime.",
+      "alt_text": "Wykres pokazujący godziny przestoju rocznie dla SLA 99.5%, 99.9% i 99.99% — wpływ na dostępność strony",
+      "prompt": "Minimal bar chart showing annual downtime hours for SLA levels 99.5%, 99.9%, 99.99%; clean professional infographic, white background, gray bars with yellow highlight on recommended SLA, readable labels, no people",
+      "placement": "after_paragraph_1_in_sla_section",
+      "keywords": [
+        "SLA",
+        "uptime",
+        "przestój",
+        "dostępność",
+        "hosting"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "uptime chart infographic",
+        "pexels_query": "data visualization uptime",
+        "keywords_for_search": [
+          "SLA downtime chart",
+          "uptime infographic",
+          "availability graph"
+        ],
+        "style_notes": "Clean chart, exact numeric labels, black/gray with yellow emphasis"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Kwestie prawne i bezpieczeństwa",
+      "title": "Infografika - 5 kluczowych wymogów RODO i bezpieczeństwa",
+      "description": "Pionowa infografika z 5 punktami: polityka prywatności, zgoda na cookies, szyfrowanie (SSL), backupy i prawo do usunięcia. Ikony i krótkie wskazówki przy każdym punkcie.",
+      "alt_text": "Infografika 5 wymogów RODO dla sklepu: polityka prywatności, cookies, szyfrowanie, backup, prawo do usunięcia",
+      "prompt": "Vertical infographic listing 5 GDPR and security requirements: privacy policy, cookie consent, data encryption, backups, right to deletion; icons, short tips, clean design, black white gray with yellow highlights, professional compliance visual, no people",
+      "placement": "after_paragraph_1_in_legal_section",
+      "keywords": [
+        "RODO",
+        "compliance",
+        "bezpieczeństwo",
+        "backup",
+        "certyfikat SSL"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "gdpr infographic compliance icons",
+        "pexels_query": "privacy policy infographic design",
+        "keywords_for_search": [
+          "GDPR checklist infographic",
+          "privacy compliance visual",
+          "data protection infographic"
+        ],
+        "style_notes": "Minimalist vertical infographic, numbered points, icons, brand palette: black/white/gray + yellow accents"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Jak wybrać dostawcę domeny i hostingu",
+      "title": "Flowchart - Jak wybrać dostawcę domeny i hostingu",
+      "description": "Diagram decyzji prowadzący czytelnika krok po kroku: lokalizacja serwera → SLA → wsparcie → backupy → migracja/skalowalność. Pomaga zorganizować proces wyboru dostawcy.",
+      "alt_text": "Diagram decyzji przy wyborze dostawcy hostingu: lokalizacja serwera, wsparcie, SLA, backupy i skalowalność",
+      "prompt": "Flowchart diagram for choosing hosting provider: start -> server location -> support quality -> SLA -> backups -> scalability options; clean nodes, arrows, simple icons, minimalist business style, black/white/gray with yellow decision highlights, no people",
+      "placement": "after_paragraph_2_in_how_to_choose_section",
+      "keywords": [
+        "flowchart",
+        "wybór dostawcy",
+        "hosting",
+        "SLA",
+        "backup"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "decision flowchart diagram clean",
+        "pexels_query": "process flow infographic",
+        "keywords_for_search": [
+          "hosting decision flowchart",
+          "provider selection diagram",
+          "comparison flowchart"
+        ],
+        "style_notes": "Simple flowchart style, clear decision nodes, brand color accents, no people"
+      }
+    }
+  ],
+  "total_count": 7
+}

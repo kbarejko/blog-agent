@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Różnica między domeną a hostingiem** - jasne wyjaśnienie dwóch podstawowych elementów każdej strony firmowej i ich wpływu na wiarygodność biznesu
 - **Konkretne ceny w 2024 roku** - szczegółowe koszty rejestracji domen (.pl 50-80 zł, .com 40-60 zł) oraz hostingu (50-500 zł miesięcznie w zależności od typu)
@@ -9,7 +9,7 @@
 
 ## Co to jest domena i hosting – podstawy dla przedsiębiorcy
 
-# Domena I Hosting
+### Domena I Hosting
 
 Każdego dnia tysiące przedsiębiorców staje przed tym samym dylematem: jak zacząć swoją obecność w internecie, nie wydając majątku na coś, czego nie rozumieją? Prawda jest taka, że domena i hosting to fundament każdego biznesu online – i wcale nie musi kosztować fortuny.
 
