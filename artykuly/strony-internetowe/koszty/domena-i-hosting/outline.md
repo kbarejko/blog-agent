@@ -1,81 +1,92 @@
 # Konspekt artykułu
 
-## 1. Wprowadzenie - dlaczego domena i hosting to fundament Twojego biznesu online
-(~200 słów)
-- Analogia: domena i hosting jak adres i działka pod dom
-- Wpływ na wiarygodność firmy i pierwsze wrażenie klientów
-- Koszty jako inwestycja, nie wydatek - perspektywa ROI
-- Zapowiedź: praktyczny przewodnik po wyborach i kosztach
+## 1. Co to jest domena i hosting – podstawy dla przedsiębiorcy
+(~250 słów)
+- Wyjaśnienie różnicy między domeną a hostingiem w prostych słowach
+- Dlaczego każdy biznes potrzebuje własnej domeny i hostingu
+- Pierwsze wrażenie klienta a profesjonalny adres internetowy
+- Wpływ na wiarygodność firmy i pozycjonowanie w Google
+- Co czytelnik zyska z tego artykułu – praktyczna wiedza o kosztach i wyborze
 
-## 2. Domena - Twoja cyfrowa wizytówka i jej rzeczywiste koszty
+## 2. Rodzaje domen i ich wpływ na biznes
 (~300 słów)
 
-### Rodzaje domen i ich cennik
-- Porównanie kosztów: .pl (.com, .eu) vs rozszerzenia premium
-- Domeny brandowe vs domeny z słowami kluczowymi
-- Ukryte koszty: odnowienie, transfer, usługi dodatkowe
+### Domeny krajowe vs międzynarodowe
+- Różnice między .pl, .com, .eu i innymi rozszerzeniami
+- Kiedy wybrać domenę krajową, a kiedy międzynarodową
+- Wpływ wyboru domeny na SEO i zasięg biznesu
 
-### Strategia wyboru domeny dla biznesu
-- Kryteria doboru: brandowalność, zapamiętywanie, SEO
-- Najczęstsze błędy przedsiębiorców przy wyborze domeny
-- Kiedy warto kupić kilka wariantów domeny
+### Domeny premium i ich wartość dla firmy
+- Co to są domeny premium i czy warto w nie inwestować
+- Jak krótka, łatwa do zapamiętania domena wpływa na marketing
+- Przykłady dobrych i złych wyborów nazw domen
 
-## 3. Hosting - serce Twojej strony internetowej
+## 3. Typy hostingu – który wybrać dla swojego biznesu
 (~350 słów)
 
-### Rodzaje hostingu i dopasowanie do potrzeb biznesowych
-- Hosting współdzielony: kiedy wystarczy i ile kosztuje
-- VPS i serwery dedykowane: dla rozwijających się firm
-- Hosting w chmurze: elastyczność vs koszty
+### Hosting współdzielony vs VPS vs serwer dedykowany
+- Charakterystyka każdego typu hostingu
+- Dla jakiej wielkości biznesu odpowiedni jest dany typ
+- Zalety i wady poszczególnych rozwiązań
 
-### Kluczowe parametry hostingu wpływające na biznes
-- Czas dostępności (uptime) a stracone transakcje
-- Szybkość ładowania stron vs konwersje i SEO
-- Lokalizacja serwerów a pozycjonowanie lokalne
-- Backup i bezpieczeństwo - koszt ubezpieczenia biznesu
+### Hosting w chmurze – nowoczesne rozwiązanie
+- Czym różni się cloud hosting od tradycyjnego
+- Skalowalność i elastyczność dla rozwijających się firm
+- Kiedy warto rozważyć migrację do chmury
 
-## 4. Ukryte koszty i pułapki - o czym dostawcy nie mówią wprost
-(~280 słów)
+## 4. Ile kosztuje domena i hosting w 2024 roku
+(~400 słów)
 
-### Dodatkowe opłaty, które mogą zaskoczyć
-- Certyfikaty SSL: darmowe vs płatne rozwiązania
-- Przekroczenia limitów: transfer, bazy danych, e-maile
-- Migracje i wsparcie techniczne - kiedy są płatne
+### Szczegółowa analiza kosztów domeny
+- Ceny rejestracji różnych rozszerzeń (.pl, .com, .eu)
+- Koszty odnowienia vs pierwotnej rejestracji
+- Dodatkowe usługi: WhoisGuard, przekierowania, certyfikaty SSL
 
-### Pułapki marketingowe firm hostingowych
-- Promocyjne ceny pierwszego roku vs rzeczywiste koszty odnowienia
-- Pakiety "all-inclusive" - czy zawsze się opłacają
-- Analizowanie regulaminów przed podpisaniem umowy
+### Rzeczywiste koszty hostingu dla firm
+- Cenniki hostingu współdzielonego (50-200 zł/mies)
+- Koszty VPS (100-500 zł/mies) i serwerów dedykowanych
+- Ukryte koszty: backupy, wsparcie techniczne, migracje
+- Porównanie cen głównych polskich i zagranicznych dostawców
 
-## 5. Optymalizacja kosztów - jak płacić mniej, a otrzymać więcej
+## 5. Jak wybrać dostawcę domeny i hostingu
+(~350 słów)
+
+### Kluczowe kryteria wyboru dostawcy
+- Lokalizacja serwerów i wpływ na szybkość strony
+- Jakość wsparcia technicznego – dlaczego to kluczowe
+- Gwarancje uptime i SLA – co oznaczają w praktyce
+- Opinie klientów i reputacja dostawcy
+
+### Najczęstsze błędy przy wyborze hostingu
+- Kierowanie się tylko ceną
+- Ignorowanie lokalizacji dostawcy i serwerów
+- Brak sprawdzenia warunków przenoszenia domeny
+- Nieuwzględnienie planów rozwoju firmy
+
+## 6. Optymalizacja kosztów – jak nie przepłacać
+(~300 słów)
+
+### Strategiczne planowanie zakupów
+- Kiedy warto kupować hosting na dłuższy okres
+- Jak wykorzystać promocje i rabaty dla nowych klientów
+- Bundling usług – czy pakiety są opłacalne
+
+### Skalowanie w górę – kiedy zmienić plan
+- Sygnały, że hosting stał się za mały dla firmy
+- Jak planować upgrade bez przestojów w działaniu
+- Negocjowanie cen przy dłuższych kontraktach
+
+## 7. Kwestie prawne i bezpieczeństwa
 (~250 słów)
+- Ważność rejestracji domeny i konsekwencje jej utraty
+- Backup danych – dlaczego to odpowiedzialność właściciela
+- RODO i hosting – co musisz wiedzieć
+- Certyfikaty SSL jako standard, nie opcja
+- Ubezpieczenie strony internetowej
 
-### Strategiczne podejście do wydatków
-- Planowanie wieloletnie vs płatności roczne
-- Kiedy warto zmienić dostawcę hostingu
-- Negocjowanie cen dla firm z większym ruchem
-
-### Bezpieczne oszczędzanie na hostingu
-- Jakich "oszczędności" unikać za wszelką cenę
-- Monitoring kosztów vs wydajności
-- Skalowanie hostingu wraz z rozwojem firmy
-
-## 6. Praktyczny przewodnik wyboru - krok po kroku
-(~220 słów)
-
-### Ocena potrzeb Twojej firmy
-- Checklist przed wyborem hostingu
-- Analiza obecnego i przewidywanego ruchu
-- Wymagania techniczne vs budżet
-
-### Proces selekcji dostawców
-- Kryteria oceny firm hostingowych
-- Pytania do zadania przed podpisaniem umowy
-- Test wydajności i wsparcia technicznego
-
-## 7. Podsumowanie i następne kroki
+## 8. Podsumowanie – praktyczny plan działania
 (~150 słów)
-- Kluczowe wnioski: domena i hosting jako strategiczna inwestycja
-- Najważniejsze zasady przy wyborze dostawców
-- Praktyczne następne kroki dla czytelnika
-- Zachęta do regularnego przeglądu kosztów i potrzeb --- **Proponowany tytuł H1:** "Domena i Hosting - Kompletny Przewodnik po Kosztach dla Przedsiębiorców [2024]"
+- Checklist przed wyborem domeny i hostingu
+- Budżet na pierwszy rok działania strony firmowej
+- Kiedy warto skonsultować się z ekspertem
+- Następne kroki po zakupie domeny i hostingu --- **Proponowany tytuł H1:**
