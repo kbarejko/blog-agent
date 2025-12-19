@@ -1,10 +1,10 @@
 # Workflow Guide - Blog Agent
 
-This document describes the 15-step article generation workflow and how to control it.
+This document describes the 20-step article generation workflow and how to control it.
 
 ## 📋 Workflow Steps
 
-The blog-agent follows a 15-step workflow to generate complete articles:
+The blog-agent follows a 20-step workflow to generate complete articles:
 
 > **Note:** When you skip a step (using `--skip`), the system automatically loads existing files (like `outline.md`, `draft.md`, `article.md`) so subsequent steps can continue without errors.
 
@@ -56,6 +56,35 @@ Adds links to related articles in the same silo.
 ### 15. **generate_images** - Generate Images
 (Disabled by default) Generates images using DALL-E or Stability AI.
 
+### 16. **social_media** - Generate Social Media Posts
+Creates `social_media.md` with posts for Facebook, LinkedIn, and Instagram.
+- Hook-based post (80±5 characters)
+- 4 alternative titles with strong hooks
+- First comment with bullets and 10 hashtags
+
+### 17. **faq** - Generate FAQ Section
+Creates `faq.md` with 5-8 frequently asked questions.
+- Separate file from main article
+- Semantic internal linking to related articles
+- 50-70 word answers each
+
+### 18. **checklist** - Generate Checklist Section
+Creates `checklist.md` with 8-12 actionable items.
+- Separate file from main article
+- Humanized checklist content
+- Creates `checklist_outline.md` first
+
+### 19. **headers_alternatives** - Generate SEO Header Alternatives
+Creates `headers_alternatives.md` with 3-4 SEO-optimized alternatives for each H1/H2/H3 header.
+- Long-tail keyword variants
+- Useful for A/B testing titles
+
+### 20. **meta_alternatives** - Generate Meta Alternatives
+Creates `meta_alternatives.md` with 2-3 alternative proposals for meta title and meta description.
+- Meta title variants (50-60 characters, different from H1)
+- Meta description variants (140-160 characters)
+- Useful for CTR optimization and A/B testing
+
 ## 🎯 Controlling Workflow Execution
 
 ### Basic Usage
@@ -96,6 +125,7 @@ For convenience, you can use predefined step groups:
 | **writing** | outline, summary, write_sections, create_draft | Skip all content creation (use existing drafts) |
 | **post-processing** | seo_review, humanize | Skip content refinement |
 | **metadata** | multimedia, business_metadata, schema, categories, internal_linking | Skip all metadata generation |
+| **content-extras** | social_media, faq, checklist, headers_alternatives, meta_alternatives | Skip additional content generation |
 | **all-except-outline** | All steps except outline | Keep existing outline, regenerate everything else |
 
 ### Group Usage Examples
@@ -183,7 +213,7 @@ Silo articles (category hub pages) have special handling:
 2. **Article Detection**: Automatically finds sub-articles in the silo
 3. **Natural Linking**: Includes links to all sub-articles
 4. **More Tokens**: Gets 3500 tokens vs 2000 for regular articles
-5. **FAQ/Checklist**: Generated separately in steps 17-18 (not part of main outline)
+5. **FAQ/Checklist**: Generated separately in steps 17-18 as separate files (faq.md, checklist.md)
 
 ### Creating a Silo Article
 

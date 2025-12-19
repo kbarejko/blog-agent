@@ -388,7 +388,7 @@ When using `./create_articles_tree.sh -c`, config.yaml is created with:
 
 ### workflow.yaml
 
-Defines 15-step workflow with module paths and descriptions.
+Defines 20-step workflow with module paths and descriptions.
 
 **Quality Review Configuration:**
 
@@ -811,10 +811,10 @@ python test_gemini.py
   - Targets non-technical business owners (25-55)
   - Outputs to social_media.md (readable Markdown format)
   - Test script: test_social_media.py
-- ✅ **E2E Workflow**: Complete 1-16 workflow validated
+- ✅ **E2E Workflow**: Complete 1-20 workflow validated
   - Tested with claude-3-haiku-20240307 (cheap model)
   - Generated article: 4410 words, Flesch 39.1, 3 categories
-  - All 14 steps completed successfully (~15 minutes)
+  - All 20 steps completed successfully (~7-8 minutes)
   - Step 15 (images) is optional add-on
 - ✅ **Ollama Integration**: Tested with llama3:latest
   - Provider connection working
@@ -861,8 +861,9 @@ python test_gemini.py
 
 ## Documentation
 
-- `REQUIREMENTS.md` - Complete specification (15 sections, 14-step workflow)
+- `REQUIREMENTS.md` - Complete specification (15 sections, 20-step workflow)
 - `ARCHITECTURE.md` - Design patterns, DDD, SOLID principles
+- `WORKFLOW.md` - Workflow guide with step descriptions and groups
 - `SESSION_NOTES.md` - Development history and decisions
 
 ## License
