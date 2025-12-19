@@ -1,10 +1,10 @@
 ## Co znajdziesz w artykule?
 
 - **Różnica między domeną a hostingiem** - proste i praktyczne wyjaśnienie, czym dokładnie różni się adres strony (domena) od miejsca, gdzie ona „mieszka” (hosting), oraz jak oba elementy wpływają na postrzeganie firmy przez klientów. Przykład: lokalna piekarnia może lepiej wypaść przy domenie .pl, a marka planująca sprzedaż zagraniczną — przy .com.
-- **Konkretne ceny w 2024 roku** - orientacyjne koszty rejestracji domen (.pl: 50–80 zł rocznie, .com: 40–60 zł rocznie) oraz widełki cenowe hostingu (od około 50 zł do 500 zł miesięcznie, w zależności od rodzaju usługi). Dodatkowo podajemy przykładowe scenariusze budżetowe dla małego sklepu i średniej firmy.
-- **Wybór odpowiedniego typu hostingu** - kiedy hosting współdzielony będzie wystarczający (np. blog, prosty sklep z kilkoma produktami), a kiedy warto rozważyć VPS lub serwer dedykowany (rosnący ruch, aplikacje wymagające większych zasobów).
-- **Kryteria wyboru dostawcy** - na co zwrócić uwagę przy wyborze firmy hostingowej: lokalizacja serwerów (może wpływać na szybkość ładowania), gwarantowane uptime (99,9% to dziś standard, ale trzeba czytać SLA) oraz jakość wsparcia technicznego — przykładowo szybka reakcja w weekend może uratować sprzedaż przy promocji.
-- **Praktyczny checklist** - lista kroków do wykonania przed zakupem (rejestracja domeny, wybór hostingu, kopie zapasowe, certyfikat SSL) oraz propozycja budżetu na pierwszy rok działania strony firmowej, uwzględniająca rejestrację, hosting i podstawowe narzędzia.
+- **[Konkretne ceny w 2024 roku](/artykuly/strony-internetowe/koszty/czynniki-wplywajace)** - orientacyjne koszty rejestracji domen (.pl: 50–80 zł rocznie, .com: 40–60 zł rocznie) oraz widełki cenowe hostingu (od około 50 zł do 500 zł miesięcznie, w zależności od rodzaju usługi). Dodatkowo podajemy przykładowe scenariusze budżetowe dla małego sklepu i średniej firmy.
+- **[Wybór odpowiedniego typu hostingu](/artykuly/strony-internetowe/koszty/czynniki-wplywajace)** - kiedy hosting współdzielony będzie wystarczający (np. blog, prosty sklep z kilkoma produktami), a kiedy warto rozważyć VPS lub serwer dedykowany (rosnący ruch, aplikacje wymagające większych zasobów).
+- **[Kryteria wyboru dostawcy](/artykuly/strony-internetowe/koszty/czynniki-wplywajace)** - na co zwrócić uwagę przy wyborze firmy hostingowej: lokalizacja serwerów (może wpływać na szybkość ładowania), gwarantowane uptime (99,9% to dziś standard, ale trzeba czytać SLA) oraz jakość wsparcia technicznego — przykładowo szybka reakcja w weekend może uratować sprzedaż przy promocji.
+- **Praktyczny checklist** - lista kroków do wykonania przed zakupem (rejestracja domeny, wybór hostingu, kopie zapasowe, certyfikat SSL) oraz [propozycja budżetu na pierwszy rok działania strony firmowej](/artykuly/strony-internetowe/koszty/abonament-vs-jednorazowo), uwzględniająca rejestrację, hosting i podstawowe narzędzia.
 
 ---
 
