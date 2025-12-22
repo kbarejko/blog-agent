@@ -32,162 +32,161 @@
 #   - faq: gemini-2.5-flash or gpt5-nano (good for Q&A generation)
 
 steps:
-  - name: init
-    module: blog_agent.core.workflow.steps.step_01_init
-    description: "Initialize article structure"
-    enabled: true
-    provider:  gpt-5-nano
-    
-  - name: outline
-    module: blog_agent.core.workflow.steps.step_02_outline
-    description: "Generate article outline"
-    provider:  gpt-5.1
-    enabled: true
-  
-  - name: summary
-    module: blog_agent.core.workflow.steps.step_03_summary
-    description: "Generate article summary (Co znajdziesz w artykule?)"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: init
+      module: blog_agent.core.workflow.steps.step_01_init
+      description: "Initialize article structure"
+      enabled: true
+      provider: gpt-5-nano
 
-  - name: write_sections
-    module: blog_agent.core.workflow.steps.step_04_write_sections
-    description: "Write all article sections with AI review"
-    enabled: true
-    provider:  gpt-5.1-mini
-    #provider: claude  # Optional: use Claude for high-quality content
+    - name: outline
+      module: blog_agent.core.workflow.steps.step_02_outline
+      description: "Generate article outline"
+      provider: claude
+      enabled: true
 
-  - name: create_draft
-    module: blog_agent.core.workflow.steps.step_05_create_draft
-    description: "Create draft by combining summary + sections"
-    provider:  gpt-5-mini
-    enabled: true
+    - name: summary
+      module: blog_agent.core.workflow.steps.step_03_summary
+      description: "Generate article summary (Co znajdziesz w artykule?)"
+      enabled: true
+      provider: claude
 
-  - name: seo_review
-    module: blog_agent.core.workflow.steps.step_06_seo_review
-    description: "SEO review and heading fixes"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: write_sections
+      module: blog_agent.core.workflow.steps.step_04_write_sections
+      description: "Write all article sections with AI review"
+      enabled: true
+      provider: claude
+      #provider: claude  # Optional: use Claude for high-quality content
 
-  - name: humanize
-    module: blog_agent.core.workflow.steps.step_07_humanize
-    description: "Humanize content (natural language)"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: create_draft
+      module: blog_agent.core.workflow.steps.step_05_create_draft
+      description: "Create draft by combining summary + sections"
+      provider: gpt-5-mini
+      enabled: true
 
-  - name: multimedia
-    module: blog_agent.core.workflow.steps.step_08_multimedia
-    description: "Generate multimedia suggestions"
-    provider:  gpt-5-mini
-    enabled: true  # Enabled for multimedia.json generation
+    - name: seo_review
+      module: blog_agent.core.workflow.steps.step_06_seo_review
+      description: "SEO review and heading fixes"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: business_metadata
-    module: blog_agent.core.workflow.steps.step_09_business_metadata
-    description: "Generate business metadata"
-    provider:  gpt-5-nano
-    enabled: true
+    - name: humanize
+      module: blog_agent.core.workflow.steps.step_07_humanize
+      description: "Humanize content (natural language)"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: cta
-    module: blog_agent.core.workflow.steps.step_10_cta
-    description: "Generate CTA/Next Steps section"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: multimedia
+      module: blog_agent.core.workflow.steps.step_08_multimedia
+      description: "Generate multimedia suggestions"
+      provider: gpt-5-mini
+      enabled: true # Enabled for multimedia.json generation
 
+    - name: business_metadata
+      module: blog_agent.core.workflow.steps.step_09_business_metadata
+      description: "Generate business metadata"
+      provider: gpt-5-nano
+      enabled: true
 
-  - name: publish
-    module: blog_agent.core.workflow.steps.step_11_publish
-    description: "Publish article"
-    provider:  gpt-5-mini
-    enabled: true
+    - name: cta
+      module: blog_agent.core.workflow.steps.step_10_cta
+      description: "Generate CTA/Next Steps section"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: schema
-    module: blog_agent.core.workflow.steps.step_12_schema
-    description: "Generate Schema.org markup"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: publish
+      module: blog_agent.core.workflow.steps.step_11_publish
+      description: "Publish article"
+      provider: gpt-5-mini
+      enabled: true
 
-  - name: categories
-    module: blog_agent.core.workflow.steps.step_13_categories
-    description: "Assign categories from categories.yaml"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: schema
+      module: blog_agent.core.workflow.steps.step_12_schema
+      description: "Generate Schema.org markup"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: internal_linking
-    module: blog_agent.core.workflow.steps.step_14_internal_linking
-    description: "Add internal links to related articles in the same silo"
-    provider:  gpt-5.1-mini
-    enabled: true
+    - name: categories
+      module: blog_agent.core.workflow.steps.step_13_categories
+      description: "Assign categories from categories.yaml"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: generate_images
-    module: blog_agent.core.workflow.steps.step_15_generate_images
-    description: "Generate hero image (auto) + stock photo suggestions for others"
-    enabled: false  # Optional - set to true to auto-generate hero images
-    # Cost: ~$0.01-0.12 per article (hero only)
-    #
-    # Provider settings (auto-detected from env vars if not specified):
-    provider: "stability"  # "stability" (cheap) or "dalle" (quality)
-    model: "sdxl"  # Stability: sdxl, sd3, sd3-medium | DALL-E: dall-e-2, dall-e-3
-    skip_existing: true  # Skip if hero.png already exists
-    #
-    # Stability AI settings (default provider - cheapest):
-    # provider: "stability"
-    # model: "sdxl"           # sdxl ($0.011), sd3 ($0.037), sd3-large-turbo
-    # width: 1024             # multiple of 64
-    # height: 1024            # multiple of 64
-    # steps: 40               # diffusion steps (more = better quality)
-    # cfg_scale: 7.0          # guidance scale (how closely to follow prompt)
-    #
-    # DALL-E settings (alternative - better quality but more expensive):
-    # provider: "dalle"
-    # model: "dall-e-3"       # dall-e-2 ($0.020), dall-e-3 ($0.040-0.120)
-    # size: "1792x1024"       # 1024x1024, 1792x1024, 1024x1792
-    # quality: "standard"     # standard ($0.040-0.080), hd ($0.080-0.120)
-    #
-    # To enable: Set API key in environment
-    # - Stability AI: export STABILITY_API_KEY=sk-...
-    # - DALL-E:       export OPENAI_API_KEY=sk-...
+    - name: internal_linking
+      module: blog_agent.core.workflow.steps.step_14_internal_linking
+      description: "Add internal links to related articles in the same silo"
+      provider: gpt-5.1-mini
+      enabled: true
 
-  - name: social_media
-    module: blog_agent.core.workflow.steps.step_16_social_media
-    description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: generate_images
+      module: blog_agent.core.workflow.steps.step_15_generate_images
+      description: "Generate hero image (auto) + stock photo suggestions for others"
+      enabled: false # Optional - set to true to auto-generate hero images
+      # Cost: ~$0.01-0.12 per article (hero only)
+      #
+      # Provider settings (auto-detected from env vars if not specified):
+      provider: "stability" # "stability" (cheap) or "dalle" (quality)
+      model: "sdxl" # Stability: sdxl, sd3, sd3-medium | DALL-E: dall-e-2, dall-e-3
+      skip_existing: true # Skip if hero.png already exists
+      #
+      # Stability AI settings (default provider - cheapest):
+      # provider: "stability"
+      # model: "sdxl"           # sdxl ($0.011), sd3 ($0.037), sd3-large-turbo
+      # width: 1024             # multiple of 64
+      # height: 1024            # multiple of 64
+      # steps: 40               # diffusion steps (more = better quality)
+      # cfg_scale: 7.0          # guidance scale (how closely to follow prompt)
+      #
+      # DALL-E settings (alternative - better quality but more expensive):
+      # provider: "dalle"
+      # model: "dall-e-3"       # dall-e-2 ($0.020), dall-e-3 ($0.040-0.120)
+      # size: "1792x1024"       # 1024x1024, 1792x1024, 1024x1792
+      # quality: "standard"     # standard ($0.040-0.080), hd ($0.080-0.120)
+      #
+      # To enable: Set API key in environment
+      # - Stability AI: export STABILITY_API_KEY=sk-...
+      # - DALL-E:       export OPENAI_API_KEY=sk-...
 
-  - name: faq
-    module: blog_agent.core.workflow.steps.step_17_faq
-    description: "Generate FAQ section (if in outline)"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: social_media
+      module: blog_agent.core.workflow.steps.step_16_social_media
+      description: "Generate social media posts (Facebook/LinkedIn/Instagram)"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: checklist
-    module: blog_agent.core.workflow.steps.step_18_checklist
-    description: "Generate Checklist section (if in outline)"
-    enabled: true
-    provider:  gpt-5.1-mini
+    - name: faq
+      module: blog_agent.core.workflow.steps.step_17_faq
+      description: "Generate FAQ section (if in outline)"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: headers_alternatives
-    module: blog_agent.core.workflow.steps.step_19_headers_alternatives
-    description: "Generate SEO-optimized alternative headers (H1/H2/H3)"
-    enabled: true  # Optional - enable to generate alternative header proposals
-    provider:  gpt-5.1-mini
+    - name: checklist
+      module: blog_agent.core.workflow.steps.step_18_checklist
+      description: "Generate Checklist section (if in outline)"
+      enabled: true
+      provider: gpt-5.1-mini
 
-  - name: meta_alternatives
-    module: blog_agent.core.workflow.steps.step_20_meta_alternatives
-    description: "Generate 2-3 alternative proposals for meta title and meta description"
-    enabled: true  # Enabled by default - cheap model, useful for SEO optimization
-    provider:  gpt-5.1-mini
+    - name: headers_alternatives
+      module: blog_agent.core.workflow.steps.step_19_headers_alternatives
+      description: "Generate SEO-optimized alternative headers (H1/H2/H3)"
+      enabled: true # Optional - enable to generate alternative header proposals
+      provider: gpt-5.1-mini
+
+    - name: meta_alternatives
+      module: blog_agent.core.workflow.steps.step_20_meta_alternatives
+      description: "Generate 2-3 alternative proposals for meta title and meta description"
+      enabled: true # Enabled by default - cheap model, useful for SEO optimization
+      provider: gpt-5.1-mini
 
 # Quality Review Configuration
 review:
-  min_words: 300      # Minimum words per section
-  max_words: 400      # Maximum words per section
-  min_flesch: 40      # Minimum Flesch Reading Ease (40 = college level)
-  max_flesch: 60      # Maximum Flesch Reading Ease (60 = 8th-9th grade)
-  tolerance_percent: 10  # Tolerance margin (e.g., 10 = +/-10% flexibility on limits)
+    min_words: 300 # Minimum words per section
+    max_words: 400 # Maximum words per section
+    min_flesch: 40 # Minimum Flesch Reading Ease (40 = college level)
+    max_flesch: 60 # Maximum Flesch Reading Ease (60 = 8th-9th grade)
+    tolerance_percent: 10 # Tolerance margin (e.g., 10 = +/-10% flexibility on limits)
 
 # Metadata
 metadata:
-  version: "1.2"
-  total_steps: 20
-  estimated_time: "7-8 minutes"
-  estimated_cost: "$0.10 (Claude Sonnet 4) + images if enabled + headers alternatives if enabled + meta alternatives (~$0.001)"
+    version: "1.2"
+    total_steps: 20
+    estimated_time: "7-8 minutes"
+    estimated_cost: "$0.10 (Claude Sonnet 4) + images if enabled + headers alternatives if enabled + meta alternatives (~$0.001)"
