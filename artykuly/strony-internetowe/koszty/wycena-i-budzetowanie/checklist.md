@@ -1,0 +1,14 @@
+## Checklist: Wycena i budżetowanie strony internetowej
+
+- [ ] Zdefiniuj cele biznesowe strony i przypisz 2–3 mierzalne KPI (np. liczba leadów/miesiąc — np. 50, współczynnik konwersji 2–5%, średni czas sesji 2–3 min). Konkretne liczby ułatwią późniejsze porównania i mogą sugerować priorytety w projekcie.
+- [ ] Sporządź szczegółową listę funkcjonalności, rozdzielając je na "must-have" i "nice-to-have"; dla każdej pozycji wpisz przybliżoną liczbę podstron/sekcji. Przykład: sklep — katalog produktów (50), koszyk, proces zamówienia; landing B2B — 5 stron informacyjnych + formularz kontaktu.
+- [ ] Określ MVP: wybierz funkcjonalności do pierwszego wdrożenia i opisz minimalny zakres potrzebny do uruchomienia. W praktyce może to być prosty landing z formularzem i CMS, a resztę dodawać etapami — to wydaje się najbardziej efektywne przy ograniczonym budżecie.
+- [ ] Przeprowadź badanie rynku: zbierz minimum 3 oferty/wyceny od wykonawców lub agencji, zapisz zakres, koszty i terminy realizacji. Porównuj nie tylko cenę, ale też termin, zakres prac i sposób rozliczeń; prawdopodobnie zobaczysz duże rozbieżności w detalach.
+- [ ] Utwórz arkusz budżetowy z kategoriami (koszty jednorazowe, cykliczne, dodatkowe), dodaj kolumny "plan" i "rzeczywiste" oraz rezerwę 10–20%. Przykład pozycji: projekt graficzny (jednorazowo), hosting (miesięcznie), wsparcie techniczne (abonament) — rezerwa pokryje nieprzewidziane zmiany.
+- [ ] Wybierz model rozliczeń (fixed price vs time & material) i wpisz uzasadnienie, proponowane kamienie milowe oraz warunki płatności. Zazwyczaj fixed price działa przy dobrze zdefiniowanym zakresie; T&M jest lepsze, gdy zakres może ewoluować — uwzględnij zalety i ryzyka obu modeli.
+- [ ] Zweryfikuj wykonawców: sprawdź portfolio, poproś o min. 2 referencje i case study, oceniaj dotychczasowe projekty pod kątem podobnej skali i technologii. Dobrze jest zobaczyć przykłady projektów z podobnym ruchem użytkowników lub integracjami (np. system płatności, ERP).
+- [ ] Przygotuj projekt umowy lub zakresu prac: precyzuj deliverables, akceptację kamieni milowych, procedurę change request, prawa autorskie i kary za opóźnienia. Ustal też harmonogram płatności (np. 30% zaliczki, 40% przy wersji beta, 30% po wdrożeniu) — to wydaje się klarowne dla obu stron.
+- [ ] Zaplanuj koszty eksploatacyjne i infrastrukturalne: wybierz hosting, domenę, certyfikat SSL, backup, monitoring i podaj koszty roczne/miesięczne. Dla przykładu: hosting zarządzany 100–500 PLN/mies., certyfikat Let's Encrypt — darmowy, backup i monitoring — dodatkowo 50–200 PLN/mies.
+- [ ] Opracuj plan post-launch: harmonogram aktualizacji, działania SEO i contentowe, szkolenie zespołu z CMS oraz sposób raportowania KPI i monitoringu ROI. Praktyczny harmonogram może zawierać tygodniowe aktualizacje treści, miesięczne raporty analityczne i kwartalne przeglądy funkcjonalności.
+
+---
