@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Różnice w kosztach** - Dlaczego wybór między WordPress, custom development a platformami no-code może oznaczać różnicę 5 000 zł vs 150 000+ zł w całkowitych kosztach projektu
 - **Ukryte wydatki** - Jakie dodatkowe koszty (hosting, bezpieczeństwo, integracje, wsparcie) mogą stanowić nawet 70% budżetu na stronę internetową w perspektywie 3-letniej
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie - dlaczego technologia ma znaczenie dla Twojego biznesu
 
-# Porównanie Technik i wpływ na koszty tworzenia stron internetowych
+## Porównanie Technik i wpływ na koszty tworzenia stron internetowych
 
 Kiedy właściciel firmy usługowej dowiedział się, że jego nowa strona internetowa będzie kosztować 80 000 zł zamiast przewidywanych 15 000 zł, zrozumiał bolesną prawdę: wybór technologii to nie kwestia techniczna, lecz biznesowa. A błędy w tym obszarze mogą kosztować fortunę.
 
