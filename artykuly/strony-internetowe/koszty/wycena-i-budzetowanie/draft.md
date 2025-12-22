@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Ukryte koszty strony** - Poznasz 10-20% dodatkowych wydatków, których nie uwzględniają standardowe wyceny (certyfikaty, premium wtyczki, migracja danych)
 - **Gotowy arkusz budżetowy** - Otrzymasz szablon do śledzenia kosztów planowanych vs. rzeczywistych z kalkulacją ROI dla projektu
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie – planowanie budżetu na stronę internetową
 
-# Wycena I Budzetowanie
+## Wycena I Budzetowanie
 
 „Strona będzie kosztować około 5 tysięcy" – brzmi znajomo? Miesiąc później rachunek wynosi już 12 tysięcy, a projekt wciąż nie jest skończony. To jeden z najczęstszych scenariuszy w branży webdev, który frustruje zarówno klientów, jak i wykonawców.
 
@@ -193,7 +193,7 @@ Potrzebujesz pomocy w przygotowaniu budżetu lub ocenie otrzymanych ofert? Skont
 
 ## Propozycja tytułu H1:
 
-# Wycena i budżetowanie strony internetowej – kompletny przewodnik dla przedsiębiorców 2024
+### Wycena i budżetowanie strony internetowej – kompletny przewodnik dla przedsiębiorców 2024
 
 Świadome budżetowanie strony internetowej w 2024 roku wymaga zrozumienia dynamicznie zmieniającego się rynku technologicznego. Nowe trendy, rosnące wymagania użytkowników i ewolucja standardów bezpieczeństwa wpływają na każdy aspekt wyceny projektów webowych.
 
