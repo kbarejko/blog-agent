@@ -1,14 +1,15 @@
-## Checklist: Świadomy wybór wykonawcy strony internetowej
+## Checklist: Przygotowanie i wybór oferty na stronę internetową
 
-- [ ] Określ dokładny typ strony (wizytówka/sklep/platforma) i oszacuj liczbę podstron, która będzie Ci potrzebna
-- [ ] Przygotuj szczegółową listę funkcjonalności - od prostych formularzy kontaktowych po złożone integracje z zewnętrznymi systemami
-- [ ] Zaplanuj budżet całkowity, uwzględniając nie tylko koszt wykonania, ale także wydatki na pierwszy rok działania: hosting, domeny, ewentualne wsparcie techniczne
-- [ ] Przemyśl, czy potrzebujesz unikalnego projektu graficznego, czy może wystarczy Ci dobrze dopasowany szablon premium
-- [ ] Przejrzyj portfolio wykonawcy i poszukaj przynajmniej trzech realizacji w branży podobnej do Twojej - to może sugerować jego doświadczenie w danej dziedzinie
-- [ ] Dopytaj o technologię, na której zostanie oparta strona (WordPress, Drupal, rozwiązanie dedykowane) i poproś o uzasadnienie tego wyboru
-- [ ] Wyjaśnij kwestię treści - czy przygotowujesz je samodzielnie, czy wykonawca zajmie się także copywritingiem (i ile to będzie kosztować)
-- [ ] Ustal sprawę materiałów wizualnych: czy zdjęcia i grafiki są wliczone w cenę, czy stanowią dodatkowy koszt
-- [ ] Sprawdź, co dokładnie kryje się pod hasłem "optymalizacja SEO" - czasem to tylko podstawowe ustawienia techniczne, a nie kompleksowa strategia
-- [ ] Dopilnuj, żeby zakres projektu został precyzyjnie opisany na piśmie - to zabezpieczy Cię przed niespodziankami w postaci dopłat "które nie były przewidziane"
-- [ ] Zapytaj o gwarancję na wykonane prace, okres bezpłatnego wsparcia po uruchomieniu oraz koszty ewentualnych poprawek w przyszłości
-- [ ] Porównaj oferty kompleksowo, biorąc pod uwagę wszystkie ukryte koszty - najniższa cena podstawowa nie zawsze oznacza najkorzystniejszą opcję
+- [ ] Zdefiniuj 3–5 konkretnych celów biznesowych i powiązanych KPI (np. liczba leadów/miesiąc, % konwersji, przychód ze sprzedaży) i zapisz je w dokumencie projektu — np. 50 leadów/miesiąc, konwersja 3% lub 20 000 PLN przychodu/miesiąc. To może sugerować priorytety w funkcjach i marketingu.
+- [ ] Określ typ i złożoność strony: wybierz kategorię (one‑page / wizytówka / katalog / sklep / platforma) i spisz listę sekcji/stron oraz dokładną liczbę podstron. Na przykład: katalog produktowy — 12 podstron (kategorie + karty produktów) lub sklep z 200 SKU — struktura kategorii + filtrowanie; to wydaje się istotne dla wyceny.
+- [ ] Sporządź listę wymaganych funkcjonalności (formularze, rejestracja, płatności, integracje z CRM/ERP, galerie, wyszukiwarka) i wyraźnie oznacz, które są „must have”, a które „nice to have”. Przykład: integracja z CRM (must), chat na stronie (nice to have), płatności online (must).
+- [ ] Zdecyduj o podejściu etapowym (MVP vs pełna wersja) i wypisz funkcje do pierwszego etapu oraz funkcje do kolejnych etapów rozwoju. Możesz np. zaczynać od prostego sklepu z checkoutem, a dodawać rekomendacje i program lojalnościowy później.
+- [ ] Ustal realistyczny budżet jako widełki: koszt projektu + roczne koszty utrzymania (hosting, licencje, wsparcie, aktualizacje) i zapisz go w PLN. Przykładowa orientacja: 30 000–60 000 PLN za wdrożenie + 5 000–15 000 PLN/rok utrzymania — to prawdopodobnie ułatwi negocjacje.
+- [ ] Przygotuj lub zleć przygotowanie treści: spis wszystkich stron, przykładowe opisy (min. 5), decyzję o zdjęciach (stock vs sesja produktowa) oraz listę grafik/ikon do zamówienia. Na przykład: opisy dla strony głównej, o nas, oferta, FAQ, kontakt — a do katalogu 10 zdjęć produktowych z profesjonalnej sesji.
+- [ ] Sprawdź preferowane technologie: poproś wykonawców o proponowany CMS/stack, krótkie uzasadnienie wyboru i przewidywane koszty utrzymania i skalowania. Może to obejmować porównanie WordPress + WooCommerce vs headless Next.js z headless CMS — wykonawca powinien krótko wyjaśnić zalety i ograniczenia.
+- [ ] Poproś min. 3 wykonawców o szczegółowy kosztorys rozbity na etapy (design, development, integracje, copy, zdjęcia, testy, SEO, hosting, licencje) wraz z harmonogramem. Dobrze, gdy każdy kosztorys zawiera terminy etapów, np. design 3–4 tygodnie, development 6–8 tygodni; to pomaga porównać oferty.
+- [ ] Zweryfikuj wykonawców: przejrzyj portfolio (min. 3 podobne projekty), poproś o referencje i konkretne wyniki (KPI, czas wdrożenia) — zapisz oceny porównawcze. Przykład: portfolio z projektami B2B i e‑commerce, referencje potwierdzające wzrost konwersji o X% — to może sugerować wiarygodność.
+- [ ] Ustal warunki w umowie: zakres prac, terminy etapów, kryteria akceptacji, limit bezpłatnych poprawek, zasady change control, terminarz płatności i SLA na wsparcie/backup. Na przykład: 3 bezpłatne rundy poprawek w ramach designu i SLA 48h na krytyczne awarie; to wydaje się rozsądne w praktyce.
+- [ ] Zaplanuj testy i uruchomienie: lista testów (responsywność, szybkość, formularze, integracje, bezpieczeństwo), osoby odpowiedzialne, środowisko staging oraz plan monitoringu i pierwszych 3 miesięcy optymalizacji + KPI do monitorowania. Przykładowe KPI: czas ładowania < 2s, wskaźnik błędów formularzy < 1%, konwersja leadów — te metryki prawdopodobnie pokażą, które elementy wymagają szybkiej poprawy.
+
+---
