@@ -42,7 +42,7 @@ Każda strona potrzebuje miejsca na serwerze i czytelnego adresu w sieci. To dwi
 
 ### Koszty hostingu webowego
 
-Najtańszą opcją jest hosting współdzielony. Zwykle kosztuje około 10–30 zł miesięcznie. Dzielisz zasoby serwera z wieloma innymi stronami. To rozwiązanie sprawdza się dla prostych wizytówek, blogów czy małych sklepów z ograniczonym ruchem (np. sklep z kilkudziesięcioma produktami i kilkoma zamówieniami dziennie).
+Najtańszą opcją jest [hosting współdzielony](/artykuly/strony-internetowe/koszty/domena-i-hosting). Zwykle kosztuje około 10–30 zł miesięcznie. Dzielisz zasoby serwera z wieloma innymi stronami. To rozwiązanie sprawdza się dla prostych wizytówek, blogów czy małych sklepów z ograniczonym ruchem (np. sklep z kilkudziesięcioma produktami i kilkoma zamówieniami dziennie).
 
 Gdy strona rośnie, zaczynają się ograniczenia. Więcej odwiedzających to większe obciążenie i dłuższe czasy ładowania. Klient, który czeka np. 5 sekund, często rezygnuje i trafia do konkurencji — to może sugerować konieczność zmiany planu hostingowego.
 
@@ -84,7 +84,7 @@ Wtyczka do kopii zapasowych może kosztować 100–200 zł rocznie (np. wersje p
 
 Elementor Pro jest dziś często wybierany przez projektantów i kosztuje około 200 zł rocznie. Ułatwia tworzenie nowoczesnych landing page’y i modularnych layoutów, choć nie zawsze jest absolutnie konieczny. WooCommerce jest darmowy, ale wartości dodane — płatne rozszerzenia jak bramki płatnicze, narzędzia do wysyłek czy integracje z ERP — potrafią kosztować od 50 do 500 zł za każde rozszerzenie.
 
-Platformy SaaS mają inne modele. Shopify to wydatek rzędu 100–300 zł miesięcznie w zależności od planu — otrzymujesz wiele gotowych funkcji, ale jednocześnie stajesz się zależny od platformy. Przeniesienie sklepu na inną platformę prawdopodobnie będzie wymagać znacznej pracy i często oznacza budowę od zera. Webflow kosztuje około 50–150 zł miesięcznie i jest cenione przez designerów za elastyczność; jednak przy rozbudowanym e-commerce może się okazać, że potrzebne będzie dodatkowe wsparcie. Squarespace (około 80–200 zł miesięcznie) jest proste w obsłudze, choć ma ograniczenia przy niestandardowych funkcjach — dodanie specyficznego rozwiązania może być trudne lub kosztowne.
+Platformy SaaS mają inne modele. [Shopify to wydatek rzędu 100–300 zł miesięcznie](/artykuly/strony-internetowe/koszty/porownanie-technik) w zależności od planu — otrzymujesz wiele gotowych funkcji, ale jednocześnie stajesz się zależny od platformy. Przeniesienie sklepu na inną platformę prawdopodobnie będzie wymagać znacznej pracy i często oznacza budowę od zera. Webflow kosztuje około 50–150 zł miesięcznie i jest cenione przez designerów za elastyczność; jednak przy rozbudowanym e-commerce może się okazać, że potrzebne będzie dodatkowe wsparcie. Squarespace (około 80–200 zł miesięcznie) jest proste w obsłudze, choć ma ograniczenia przy niestandardowych funkcjach — dodanie specyficznego rozwiązania może być trudne lub kosztowne.
 
 Motywy premium to koszt jednorazowy rzędu 200–800 zł. Warto pamiętać, że niektóre z nich wymagają rocznej licencji na aktualizacje i wsparcie — dodatkowe 100–200 zł rocznie może być konieczne, jeśli chcemy mieć pewność kompatybilności z nowymi wersjami CMS.
 
@@ -110,7 +110,7 @@ WordPress wypuszcza łatki bezpieczeństwa średnio co miesiąc, a wtyczki jeszc
 
 Przykład z życia: jedna firma z Krakowa zignorowała aktualizacje przez pół roku. Efekt? Złośliwy kod przekierowywał klientów na konkurencyjne strony. Przywrócenie pozycji w Google zajęło im około 8 miesięcy — i nie była to jedynie kwestia techniczna, ale też odbudowy zaufania klientów.
 
-Aktualizacje często wydają się proste — kliknij „Aktualizuj” i gotowe. Problem zaczyna się, gdy coś przestanie działać. Wtedy pojawia się pośpiech i konieczność szukania specjalisty na szybko, co zwykle oznacza stawki interwencyjne rzędu 200–300 zł za godzinę. Z kolei profesjonalna stała obsługa kosztuje zwykle 150–500 zł miesięcznie. Taki specjalista przetestuje zmiany na kopii strony przed wdrożeniem. Jeśli coś pójdzie nie tak, potrafi przywrócić poprzednią wersję w kilka minut.
+Aktualizacje często wydają się proste — kliknij „Aktualizuj” i gotowe. Problem zaczyna się, gdy coś przestanie działać. Wtedy pojawia się pośpiech i konieczność szukania specjalisty na szybko, co zwykle oznacza stawki interwencyjne rzędu 200–300 zł za godzinę. Z kolei [profesjonalna stała obsługa](/artykuly/strony-internetowe/koszty/abonament-vs-jednorazowo) kosztuje zwykle 150–500 zł miesięcznie. Taki specjalista przetestuje zmiany na kopii strony przed wdrożeniem. Jeśli coś pójdzie nie tak, potrafi przywrócić poprzednią wersję w kilka minut.
 
 Kopie zapasowe to ubezpieczenie — czasem niedoceniane. Darmowe rozwiązania robią backup raz w tygodniu i często trzymają go na tym samym serwerze. Gdy serwer padnie, ryzyko utraty danych jest realne. Automatyczne kopie w chmurze kosztują zwykle 50–150 zł miesięcznie; tworzą backup codziennie i przechowują go w bezpiecznym miejscu. Przywrócenie strony z takiego backupu może zająć 30 minut zamiast kilku dni żmudnej odbudowy.
 
