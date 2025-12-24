@@ -5,13 +5,13 @@ categories:
 - slug: wybor-wykonawcy-i-modelu-wspolpracy
   title: Wybór wykonawcy i modelu współpracy
   path: strategia-it/wybor-wykonawcy-i-modelu-wspolpracy
-- slug: projektowanie-ux-ui
-  title: Projektowanie UX/UI
-  path: strony-internetowe/projektowanie-ux-ui
-- slug: strony-internetowe
-  title: Strony Internetowe
-  path: strony-internetowe
-- slug: marketing-w-internecie
-  title: Marketing w Internecie
-  path: marketing-w-internecie
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: utrzymanie-i-rozwoj-systemow
+  title: Utrzymanie i rozwój systemów
+  path: strategia-it/utrzymanie-i-rozwoj-systemow
+- slug: koszty-i-budzetowanie-it
+  title: Koszty i budżetowanie IT
+  path: strategia-it/koszty-i-budzetowanie-it
 count: 5
