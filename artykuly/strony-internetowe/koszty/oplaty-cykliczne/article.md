@@ -20,7 +20,7 @@ To nie jest próba „wydłużenia faktury”, tylko realne koszty utrzymania do
 
 ## Wprowadzenie - Ukryte koszty, które mogą zaskoczyć właściciela firmy
 
-Strona internetowa to inwestycja długoterminowa. Po zapłacie za projekt zaczynają się regularne wydatki, które warto uwzględnić w budżecie z góry.
+Strona internetowa to inwestycja długoterminowa. Po zapłacie za projekt zaczynają się regularne wydatki, które warto uwzględnić [w budżecie z góry](/artykuly/strony-internetowe/koszty/wycena-i-budzetowanie).
 
 Hosting to fundament — bez niego strona nie jest dostępna w sieci. Domena wymaga corocznego odnowienia, inaczej stracisz adres. Certyfikat SSL odpowiada za szyfrowanie danych; jeśli wygaśnie, przeglądarki mogą oznaczyć witrynę jako „niebezpieczną”, co prawdopodobnie odstraszy klientów.
 
@@ -84,7 +84,7 @@ Wtyczka do kopii zapasowych może kosztować 100–200 zł rocznie (np. wersje p
 
 Elementor Pro jest dziś często wybierany przez projektantów i kosztuje około 200 zł rocznie. Ułatwia tworzenie nowoczesnych landing page’y i modularnych layoutów, choć nie zawsze jest absolutnie konieczny. WooCommerce jest darmowy, ale wartości dodane — płatne rozszerzenia jak bramki płatnicze, narzędzia do wysyłek czy integracje z ERP — potrafią kosztować od 50 do 500 zł za każde rozszerzenie.
 
-Platformy SaaS mają inne modele. [Shopify to wydatek rzędu 100–300 zł miesięcznie](/artykuly/strony-internetowe/koszty/porownanie-technik) w zależności od planu — otrzymujesz wiele gotowych funkcji, ale jednocześnie stajesz się zależny od platformy. Przeniesienie sklepu na inną platformę prawdopodobnie będzie wymagać znacznej pracy i często oznacza budowę od zera. Webflow kosztuje około 50–150 zł miesięcznie i jest cenione przez designerów za elastyczność; jednak przy rozbudowanym e-commerce może się okazać, że potrzebne będzie dodatkowe wsparcie. Squarespace (około 80–200 zł miesięcznie) jest proste w obsłudze, choć ma ograniczenia przy niestandardowych funkcjach — dodanie specyficznego rozwiązania może być trudne lub kosztowne.
+Platformy SaaS mają inne modele. [[Shopify to wydatek rzędu](/artykuly/strony-internetowe/koszty/porownanie-technik) 100–300 zł miesięcznie](/artykuly/strony-internetowe/koszty/porownanie-technik) w zależności od planu — otrzymujesz wiele gotowych funkcji, ale jednocześnie stajesz się zależny od platformy. Przeniesienie sklepu na inną platformę prawdopodobnie będzie wymagać znacznej pracy i często oznacza budowę od zera. Webflow kosztuje około 50–150 zł miesięcznie i jest cenione przez designerów za elastyczność; jednak przy rozbudowanym e-commerce może się okazać, że potrzebne będzie dodatkowe wsparcie. Squarespace (około 80–200 zł miesięcznie) jest proste w obsłudze, choć ma ograniczenia przy niestandardowych funkcjach — dodanie specyficznego rozwiązania może być trudne lub kosztowne.
 
 Motywy premium to koszt jednorazowy rzędu 200–800 zł. Warto pamiętać, że niektóre z nich wymagają rocznej licencji na aktualizacje i wsparcie — dodatkowe 100–200 zł rocznie może być konieczne, jeśli chcemy mieć pewność kompatybilności z nowymi wersjami CMS.
 
