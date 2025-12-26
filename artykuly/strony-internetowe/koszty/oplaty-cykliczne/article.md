@@ -170,7 +170,7 @@ Biznes rośnie — a wraz z nim rosną wymagania wobec strony. To, co wystarcza�
 
 ### Rozwój funkcjonalności strony
 
-Przykłady? Proste. Portal rezerwacyjny małego hotelu może potrzebować kalendarza dostępności z synchronizacją z serwisami typu Booking.com. E-sklep często wymaga rozbudowanego systemu rabatów dla stałych klientów i programów lojalnościowych. Firma B2B prawdopodobnie będzie chciała zautomatyzować generowanie ofert i cenników na podstawie danych klienta. Każda z tych funkcji to praca programisty i zazwyczaj koszt rzędu 3000–15 000 zł, zależnie od złożoności.
+Przykłady? Proste. Portal rezerwacyjny małego hotelu może potrzebować kalendarza dostępności z synchronizacją z serwisami typu Booking.com. E-sklep często wymaga rozbudowanego systemu rabatów dla stałych klientów i programów lojalnościowych. Firma B2B prawdopodobnie będzie chciała zautomatyzować generowanie ofert i cenników na podstawie danych klienta. Każda z tych funkcji to praca programisty i zazwyczaj koszt rzędu 3000–15 000 zł, [zależnie od złożoności](/artykuly/strony-internetowe/koszty/czynniki-wplywajace).
 
 Integracja z CRM łączy stronę z bazą klientów — leady z formularzy trafiają od razu do działu sprzedaży, historyczne dane klienta są widoczne przy kolejnym kontakcie. To usprawnienie sprzedaży, ale też inwestycja: zwykle 5000–20 000 zł plus miesięczne opłaty za korzystanie z API i utrzymanie.
 
