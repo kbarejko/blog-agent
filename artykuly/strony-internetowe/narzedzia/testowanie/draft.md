@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Koszty błędów** - Firmy tracą 70% potencjalnych klientów z powodu problemów technicznych strony, a naprawa po wdrożeniu kosztuje 10x więcej niż wcześniejsze testy
 - **5 kluczowych obszarów testowania** - Formularze, responsywność, szybkość ładowania, kompatybilność z przeglądarkami i bezpieczeństwo wymagają regularnej kontroli
