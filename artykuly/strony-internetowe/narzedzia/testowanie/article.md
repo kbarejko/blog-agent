@@ -2,7 +2,7 @@
 
 - **Koszty błędów** - Firmy mogą tracić nawet 70% potencjalnych klientów z powodu problemów technicznych na stronie. Naprawianie usterek po wdrożeniu zwykle kosztuje około 10 razy więcej niż wykrycie ich wcześniej podczas testów — przykładowo awaria koszyka w sklepie internetowym może zamienić się w realną stratę przychodów.
 - **5 kluczowych obszarów testowania** - Formularze (np. rejestracja, zamówienia), responsywność na urządzeniach mobilnych, szybkość ładowania, zgodność z różnymi przeglądarkami oraz bezpieczeństwo — wszystkie te elementy wymagają regularnej kontroli i aktualizacji. Zaniedbanie któregokolwiek z nich prawdopodobnie odbije się na konwersji.
-- **Darmowe narzędzia Google** - PageSpeed Insights i Core Web Vitals pokazują, co dokładnie może spowalniać stronę (np. zbyt duże obrazy, blokujące skrypty) i jaki może mieć to wpływ na pozycjonowanie. Te raporty często sugerują konkretne priorytety napraw.
+- **Darmowe narzędzia Google** - [PageSpeed Insights](/artykuly/strony-internetowe/narzedzia/analytics) i Core Web Vitals pokazują, co dokładnie może spowalniać stronę (np. zbyt duże obrazy, blokujące skrypty) i jaki może mieć to wpływ na pozycjonowanie. Te raporty często sugerują konkretne priorytety napraw.
 - **Gotowa check-lista testów** - Szablon kontrolny z harmonogramem, który możesz wdrożyć w swojej firmie już dziś. Przydatny przy kwartalnych przeglądach; dzięki niemu łatwiej ustalisz, kto i kiedy wykonuje konkretne testy.
 - **Kryteria wyboru agencji** - Konkretne pytania i orientacyjne budżety na sytuacje, gdy testy wewnętrzne nie wystarczą i potrzebny jest zewnętrzny audyt (np. doświadczenie z e‑commerce, referencje, zakres raportu technicznego).
 
@@ -50,7 +50,7 @@ Wiesz już, dlaczego warto testować. Teraz pora przejść do praktyki. Nie musi
 
 ### Kluczowe obszary wymagające testowania
 
-**Formularze to serce konwersji.** Kontaktowy, zamówieniowy, zapisu do newslettera — jeden błąd może oznaczać utratę klienta. Sprawdź, czy formularze w ogóle wysyłają dane, czy potwierdzenia trafiają na e‑mail, czy walidacja działa poprawnie i czy wiadomości błędów są zrozumiałe. Przykłady: płatność odrzucona po wpisaniu numeru karty, brak potwierdzenia zapisu do newslettera (brak double opt‑in), czy pole do wgrywania pliku blokujące proces zamówienia. Klient, który nie może dokończyć zakupu, często po prostu odchodzi do konkurencji.
+**[Formularze to serce konwersji.](/artykuly/strony-internetowe/narzedzia/cms-bez-kodu)** Kontaktowy, zamówieniowy, zapisu do newslettera — jeden błąd może oznaczać utratę klienta. Sprawdź, czy formularze w ogóle wysyłają dane, czy potwierdzenia trafiają na e‑mail, czy walidacja działa poprawnie i czy wiadomości błędów są zrozumiałe. Przykłady: płatność odrzucona po wpisaniu numeru karty, brak potwierdzenia zapisu do newslettera (brak double opt‑in), czy pole do wgrywania pliku blokujące proces zamówienia. Klient, który nie może dokończyć zakupu, często po prostu odchodzi do konkurencji.
 
 **Responsywność decyduje o pierwszym wrażeniu.** Ponad 60% ruchu może pochodzić z urządzeń mobilnych. Strona, która źle wyświetla się na telefonie, to jak sklep z zamkniętymi drzwiami. Testuj różne rozdzielczości i orientacje — np. iPhone SE, średniej klasy Android, tablet — i klikaj palcem, nie myszką. Upewnij się, że menu nie znika poza ekranem, że pola formularzy są łatwe do wypełnienia i że interaktywne elementy mają odpowiedni rozmiar dotykowy.
 
@@ -108,7 +108,7 @@ Szybka strona to podstawa, ale sama prędkość nie wystarczy — użytkownik mu
 
 **Hotjar to jak kamera przemysłowa dla twojej strony.** Nagrania sesji odsłaniają, jak ludzie faktycznie poruszają się po witrynie — gdzie klikają, jak przewijają, gdzie się zatrzymują. Widzisz frustrację w czasie rzeczywistym: ktoś próbuje kliknąć element, który nie jest linkiem, albo szuka przycisku tam, gdzie go nie ma. Przykład: użytkownik klika zdjęcie produktu myśląc, że to przycisk dodania do koszyka — otwiera się lightbox zamiast koszyka, i porzuca proces.
 
-Mapy ciepła ujawniają jeszcze więcej. Czerwone obszary pokazują miejsca przyciągające uwagę — czy rzeczywiście tam chcesz prowadzić wzrok? Czasem okazuje się, że użytkownicy ignorują główne CTA, a klikają dekoracyjne grafiki. To może sugerować, że projekt strony wprowadza w błąd albo priorytety treści są nieczytelne.
+[Mapy ciepła](/artykuly/strony-internetowe/narzedzia/page-builders) ujawniają jeszcze więcej. Czerwone obszary pokazują miejsca przyciągające uwagę — czy rzeczywiście tam chcesz prowadzić wzrok? Czasem okazuje się, że użytkownicy ignorują główne CTA, a klikają dekoracyjne grafiki. To może sugerować, że projekt strony wprowadza w błąd albo priorytety treści są nieczytelne.
 
 **Crazy Egg działa podobnie, ale ma lepsze narzędzia do segmentacji.** Możesz porównać zachowanie użytkowników z różnych źródeł ruchu — ci z Google’a zachowują się inaczej niż z Facebooka lub e-maila. To ważne przy planowaniu kampanii: reklamy kierujące ruch z social często potrzebują innego układu strony niż ruch organiczny.
 
