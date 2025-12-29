@@ -14,11 +14,11 @@
 
 # Jednorazowe koszty stron internetowych
 
-Planowanie budżetu na stronę internetową to jedno z większych wyzwań dla przedsiębiorców. Ile faktycznie trzeba przeznaczyć na profesjonalną stronę? Dlaczego propozycje cenowe potrafią się tak bardzo różnić?
+Planowanie budżetu na stronę internetową to jedno z większych wyzwań dla przedsiębiorców. [Ile faktycznie trzeba przeznaczyć](/artykuly/strony-internetowe/koszty/wycena-i-budzetowanie) na profesjonalną stronę? Dlaczego propozycje cenowe potrafią się tak bardzo różnić?
 
 ## Wprowadzenie – Co składa się na jednorazowe koszty strony internetowej?
 
-Jednorazowe koszty to wydatki, które ponosisz raz — w fazie tworzenia witryny. To nie są koszty cykliczne jak hosting czy odnowienie domeny. Mówimy tu o projektowaniu, programowaniu, konfiguracji i wdrożeniu.
+Jednorazowe koszty to wydatki, które ponosisz raz — w fazie tworzenia witryny. To nie są [koszty cykliczne](/artykuly/strony-internetowe/koszty/oplaty-cykliczne) jak hosting czy odnowienie domeny. Mówimy tu o projektowaniu, programowaniu, konfiguracji i wdrożeniu.
 
 W praktyce wiele firm ma dość niejasny obraz tych wydatków. Widzą jedną sumę na końcu oferty i koniec historii. Problem w tym, że każdy wykonawca wyceni to inaczej. Jeden może zawrzeć w cenie prosty hosting, inny policzy go osobno. Jeden użyje gotowego szablonu, a inny zaprojektuje wszystko od zera — i to znacząco wpływa na rachunek.
 
@@ -32,7 +32,7 @@ Infrastruktura - hosting, domeny, certyfikaty SSL oraz konfiguracja serwerów i 
 
 Treści i SEO - copywriting, zdjęcia, optymalizacja pod wyszukiwarki. To także ustawienia meta tagów i narzędzia analityczne jak Google Analytics. Koszt: 2 000 - 8 000 zł. Małe firmy mogą zacząć od podstawowego pakietu copywriterskiego; firmy planujące wzrost prawdopodobnie potrzebują bardziej rozbudowanej strategii treści.
 
-Integracje specjalne - płatności, CRM, systemy do e-mail marketingu. Różnice są tu największe. Od ~1 000 zł za prosty formularz kontaktowy do nawet 20 000 zł za pełnoprawny sklep internetowy z integracjami. Na przykład prosta integracja z PayU będzie znacznie tańsza niż rozbudowany system subskrypcji z automatyzacją sprzedaży.
+Integracje specjalne - płatności, CRM, systemy do e-mail marketingu. Różnice są tu największe. Od ~1 000 zł za prosty [formularz kontaktowy](/artykuly/strony-internetowe/koszty/czynniki-wplywajace) do nawet 20 000 zł za pełnoprawny sklep internetowy z integracjami. Na przykład prosta integracja z PayU będzie znacznie tańsza niż rozbudowany system subskrypcji z automatyzacją sprzedaży.
 
 Strona wizytówka firmy kosztuje inaczej niż portal branżowy. Prosta strona firmowa zwykle to 8 000 - 15 000 zł. Sklep internetowy zaczyna się od około 20 000 zł. Portal z wieloma funkcjami i dużym ruchem może kosztować nawet 100 000 zł.
 
@@ -48,7 +48,7 @@ Zanim programista napisze pierwszą linijkę kodu, projekt strony musi istnieć 
 
 Dobry wykonawca zaczyna od pytań. Kim są twoi klienci? Jak ich szukasz w sieci? Co robi konkurencja? To nie są pytania na pokaz — to fundament, od którego zależą wszystkie dalsze wybory projektowe.
 
-Analiza konkurencji zwykle zajmuje 8–15 godzin pracy. Sprawdzamy strony liderów branży, ich słowa kluczowe, strukturę treści i sposób prezentacji oferty. Można tu podać prosty przykład: jeśli konkurencja ma rozbudowaną sekcję FAQ i dużo treści poradnikowych, może to sugerować, że warto zainwestować w content marketing. Koszt: 2 000–4 000 zł za solidny audyt.
+[Analiza konkurencji](/artykuly/strony-internetowe/koszty/porownanie-technik) zwykle zajmuje 8–15 godzin pracy. Sprawdzamy strony liderów branży, ich słowa kluczowe, strukturę treści i sposób prezentacji oferty. Można tu podać prosty przykład: jeśli konkurencja ma rozbudowaną sekcję FAQ i dużo treści poradnikowych, może to sugerować, że warto zainwestować w content marketing. Koszt: 2 000–4 000 zł za solidny audyt.
 
 Określenie celów biznesowych brzmi może nudno, ale to klucz. Strona ma generować leady, sprzedawać produkty, czy budować wizerunek? Od odpowiedzi zależy architektura witryny — ile sekcji, jakie funkcje i gdzie umieścić formularz kontaktowy lub przycisk „Kup teraz”. Dla przykładu: sklep z rękodziełem prawdopodobnie potrzebuje rozbudowanego koszyka i filtrów produktów, a firma usługowa — szybkie CTA i formularz zgłoszeniowy.
 
@@ -100,7 +100,7 @@ Masz kod i projekt. Teraz potrzebujesz miejsca, gdzie to wszystko będzie dział
 
 ### Hosting i domena
 
-Wybór hostingu to nie tylko cena. Strona wizytówkowa zachowa się zupełnie inaczej niż sklep z kilkoma tysiącami produktów. Hosting współdzielony potrafi kosztować 10–30 zł miesięcznie i bywa wystarczający dla prostych stron, ale ma ograniczenia wydajności i bezpieczeństwa. VPS w przedziale 50–150 zł miesięcznie daje większą kontrolę. Serwer dedykowany zaczyna się zwykle od ~300 zł i więcej — sensowny przy dużym obciążeniu.
+Wybór hostingu to nie tylko cena. Strona wizytówkowa zachowa się zupełnie inaczej niż sklep z kilkoma tysiącami produktów. [Hosting współdzielony](/artykuly/strony-internetowe/koszty/domena-i-hosting) potrafi kosztować 10–30 zł miesięcznie i bywa wystarczający dla prostych stron, ale ma ograniczenia wydajności i bezpieczeństwa. VPS w przedziale 50–150 zł miesięcznie daje większą kontrolę. Serwer dedykowany zaczyna się zwykle od ~300 zł i więcej — sensowny przy dużym obciążeniu.
 
 Konfiguracja serwera to osobny koszt: 500–1 500 zł w zależności od zakresu. Potrzebne jest ustawienie środowiska, instalacja bibliotek, konfiguracja bazy danych. Przykład praktyczny: sklep z 10 000 produktów może wymagać specyficznej konfiguracji PHP, optymalizacji MySQL i cache’u, co wydłuża czas pracy administratora.
 
@@ -120,7 +120,7 @@ Monitoring i alerty informują o problemach zanim zauważą je użytkownicy. Upt
 
 ---
 
-## Treści i optymalizacja SEO – Wartość dodana dla wyszukiwarek
+## Treści i [Optymalizacja SEO](/artykuly/strony-internetowe/koszty/abonament-vs-jednorazowo) – Wartość dodana dla wyszukiwarek
 
 Najpiękniejsza strona świata niewiele znaczy, jeśli nikt jej nie znajdzie. Treści i SEO to inwestycja, która zwykle zwraca się przez lata, choć przygotowanie wszystkiego od zera bywa kosztowne.
 
