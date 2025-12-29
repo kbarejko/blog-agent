@@ -1,12 +1,158 @@
 {
   "hero_image": {
     "type": "photo",
-    "title": "Hero image - Wireframe",
-    "description": "Professional illustration related to article topic",
-    "alt_text": "Wireframe",
-    "prompt": "Professional modern illustration for Wireframe",
-    "keywords": []
+    "title": "Hero image - Minimalistyczne workspace z wireframe'em",
+    "description": "Minimalistyczne zdjęcie flat-lay biurka z laptopem wyświetlającym prosty wireframe i wykresy metryk konwersji, bez ludzi.",
+    "alt_text": "Minimalistyczne biurko z laptopem pokazującym wireframe i metryki konwersji, estetyka B2B czarno-biała z żółtym akcentem",
+    "prompt": "Minimalist workspace flat lay, laptop showing a clean wireframe and conversion metrics dashboard, white desk, notebook with subtle yellow accent, smartphone, natural daylight, high quality, professional business aesthetic, muted black white gray palette, no people",
+    "keywords": [
+      "wireframe",
+      "workspace",
+      "dashboard",
+      "B2B"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimal workspace laptop dashboard flat lay",
+      "pexels_query": "laptop desk flat lay minimal",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop dashboard",
+        "minimal office"
+      ],
+      "style_notes": "Clean, minimalist, natural light, black/white/gray palette, small yellow accent allowed, no people"
+    }
   },
-  "section_media": [],
-  "total_count": 1
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Wireframe vs. mockup i prototyp",
+      "title": "Infografika porównawcza: Wireframe vs Mockup vs Prototyp",
+      "description": "Pionowa infografika porównująca trzy narzędzia: wireframe (funkcja), mockup (wygląd), prototyp (interakcja) z ikonami i krótkimi opisami.",
+      "alt_text": "Porównanie wireframe mockup prototyp z ikonami i krótkimi opisami pokazujące różnice funkcjonalne i etap projektu",
+      "prompt": "Vertical infographic comparing wireframe, mockup, and prototype: three stacked panels with simple icons, one-line benefits, arrows indicating sequence, clean minimalist style, black white gray palette with yellow highlights for key terms, professional design, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "wireframe",
+        "mockup",
+        "prototyp",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "infographic comparison minimal design",
+        "pexels_query": "comparison infographic clean",
+        "keywords_for_search": [
+          "process comparison infographic",
+          "wireframe mockup prototype infographic",
+          "minimal infographic"
+        ],
+        "style_notes": "Vertical layout, numbered or stacked panels, crisp icons, black/white/gray, subtle yellow accent"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Miejsce wireframe'u w procesie tworzenia strony",
+      "title": "Diagram procesu: od briefu do prototypu z miejscem wireframe'u",
+      "description": "Poziomy flowchart pokazujący kroki projektu: analiza -> wireframe -> mockup -> prototyp -> development, z notatkami o kosztach i możliwościach zmian na każdym etapie.",
+      "alt_text": "Flowchart procesu projektowego: analiza, wireframe, mockup, prototyp, development z zaznaczonymi kosztami zmian na każdym etapie",
+      "prompt": "Horizontal flowchart diagram showing project stages: research, wireframe, mockup, prototype, development. Include small notes about cost and flexibility at each stage, clean lines, minimalist icons, black white gray with yellow callouts for wireframe stage, professional business infographic, no people",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "proces",
+        "wireframe",
+        "flowchart",
+        "projektowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "process flowchart minimal design",
+        "pexels_query": "workflow diagram clean",
+        "keywords_for_search": [
+          "project flowchart",
+          "design process diagram",
+          "stages infographic"
+        ],
+        "style_notes": "Horizontal layout, clear arrows, small explanatory labels, brand colors: black/white/gray + yellow highlights"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Rodzaje wireframe'ów i ich zastosowanie (Wireframes responsywne)",
+      "title": "Screenshot: przykładowy responsywny wireframe (desktop/tablet/mobile)",
+      "description": "Mockup-screenshot pokazujący ten sam ekran w trzech breakpoints: 320px, 768px, 1200px — układ elementów, menu hamburger, formularz above-the-fold.",
+      "alt_text": "Przykładowy responsywny wireframe w trzech widokach: mobile 320px, tablet 768px i desktop 1200px z zaznaczonymi CTA i formularzem above the fold",
+      "prompt": "Mockup screenshot showing the same page wireframe in three responsive layouts: mobile 320px (hamburger menu), tablet 768px, desktop 1200px with CTA and contact form highlighted, clean grayscale wireframes with yellow accents, high quality, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "responsywne",
+        "wireframe",
+        "mobile",
+        "breakpoints"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "responsive web design mockup three devices",
+        "pexels_query": "website mockup devices flat lay",
+        "keywords_for_search": [
+          "responsive mockup",
+          "three breakpoints mockup",
+          "wireframe devices"
+        ],
+        "style_notes": "Wireframe-style screenshots, grayscale with yellow highlights, clear device frames, no people"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Jak czytać i oceniać wireframe swojej strony",
+      "title": "Checklist-infografika: pytania do projektanta przed akceptacją wireframe'u",
+      "description": "Pionowa checklist-infografika ze 10 kluczowymi pytaniami/punktami kontroli (hierarchia, CTA, ścieżki użytkownika, formularze, mobile), każdemu punktowi towarzyszy ikona i krótka instrukcja.",
+      "alt_text": "Checklistę do oceny wireframe'u: 10 pytań kontrolnych dotyczących hierarchii, CTA, ścieżek użytkownika, formularzy i responsywności",
+      "prompt": "Vertical checklist infographic with 10 evaluation questions for wireframes: hierarchy, CTA visibility, contact form placement, navigation depth, mobile behavior, each item with simple icon, clean minimalist style, black white gray with yellow checkmarks, professional B2B look, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "checklist",
+        "wireframe",
+        "ocena",
+        "UX"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "checklist infographic minimal",
+        "pexels_query": "checklist design clean",
+        "keywords_for_search": [
+          "evaluation checklist infographic",
+          "wireframe checklist",
+          "UX checklist"
+        ],
+        "style_notes": "Vertical checklist, numbered items, icons, subtle yellow checkmarks, professional minimalist"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Wpływ wireframe'u na sukces biznesowy strony",
+      "title": "Wykres: wpływ wireframe'u na konwersje (przykłady biznesowe)",
+      "description": "Wykres słupkowy prezentujący procentowy wzrost konwersji po wprowadzeniu poprawnych wireframe'ów w trzech przykładach (średnio, case kursy online, case numer telefonu).",
+      "alt_text": "Wykres słupkowy pokazujący procentowy wzrost konwersji po zastosowaniu wireframe'u: średnio 200%, case kursy 340%, case telefon 60%",
+      "prompt": "Clean bar chart showing percent increase in conversions after implementing wireframes: Average +200%, Online course case +340%, Contact number visibility case +60%. Minimalist infographic style, black white gray with yellow accent on bars, professional business look, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "konwersje",
+        "wzrost",
+        "wireframe",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business chart infographic clean",
+        "pexels_query": "data visualization business chart",
+        "keywords_for_search": [
+          "conversion uplift chart",
+          "business bar chart",
+          "data infographic"
+        ],
+        "style_notes": "Simple bars, clear labels, use brand palette (grayscale + yellow accent), readable numbers"
+      }
+    }
+  ],
+  "total_count": 6
 }

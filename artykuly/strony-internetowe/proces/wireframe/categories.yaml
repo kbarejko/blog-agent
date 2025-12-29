@@ -2,16 +2,10 @@ categories:
 - slug: projektowanie-ux-ui
   title: Projektowanie UX/UI
   path: strony-internetowe/projektowanie-ux-ui
-- slug: strony-internetowe
-  title: Strony Internetowe
-  path: strony-internetowe
-- slug: rozwoj-oprogramowania
-  title: Rozwój Oprogramowania
-  path: rozwoj-oprogramowania
-- slug: narzedzia-biznesowe
-  title: Narzędzia biznesowe
-  path: firma/narzedzia-biznesowe
-- slug: technologie-dla-firm
-  title: Technologie dla firm
-  path: firma/technologie-dla-firm
-count: 5
+- slug: najlepsze-praktyki-ux
+  title: Najlepsze Praktyki UX
+  path: strony-internetowe/projektowanie-ux-ui/najlepsze-praktyki-ux
+- slug: responsywne-strony
+  title: Responsywne Strony
+  path: it-i-technologia/mobilne-technologie/responsywne-strony
+count: 3
