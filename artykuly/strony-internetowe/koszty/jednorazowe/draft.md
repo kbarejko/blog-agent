@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Ukryte koszty projektów** - Dlaczego rzeczywiste wydatki często przewyższają wstępne wyceny o 30-50% i jak tego uniknąć
 - **Konkretne stawki za każdy etap** - Ile kosztuje projektowanie UX/UI, programowanie, hosting i integracje w zależności od złożoności strony
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie – Co składa się na jednorazowe koszty strony internetowej?
 
-# Jednorazowe koszty stron internetowych
+## Jednorazowe koszty stron internetowych
 
 Planowanie budżetu na stronę internetową to jeden z największych bólów głowy przedsiębiorców. Ile naprawdę kosztuje stworzenie profesjonalnej strony? Dlaczego oferty różnią się tak drastycznie?
 
