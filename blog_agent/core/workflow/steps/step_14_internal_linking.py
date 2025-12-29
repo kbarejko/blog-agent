@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Dict, Any, List
 import yaml
 import re
+import random
 
 
 def execute_internal_linking(article: Any, deps: Dict[str, Any], config: Dict[str, Any]) -> Any:
@@ -172,6 +173,44 @@ def _extract_excerpt(content: str) -> str:
     return content[:300]
 
 
+def _split_into_sections(content: str) -> List[Dict[str, str]]:
+    """
+    Split article content into sections based on ## headers.
+
+    Returns:
+        List of dicts with 'title' and 'content' keys
+    """
+    sections = []
+
+    # Split by ## headers
+    parts = re.split(r'\n## ', content)
+
+    for i, part in enumerate(parts):
+        if i == 0:
+            # First part before any ## header
+            if part.strip():
+                sections.append({
+                    'title': 'Wprowadzenie',
+                    'content': part.strip()
+                })
+        else:
+            # Extract title from first line
+            lines = part.split('\n', 1)
+            title = lines[0].strip()
+            content_text = lines[1].strip() if len(lines) > 1 else ''
+
+            # Skip "Co znajdziesz w artykule?" section for linking
+            if 'znajdziesz' in title.lower():
+                continue
+
+            sections.append({
+                'title': title,
+                'content': content_text
+            })
+
+    return sections
+
+
 def _select_and_place_links(
     content: str,
     related_articles: List[Dict[str, str]],
@@ -181,6 +220,7 @@ def _select_and_place_links(
 ) -> List[Dict[str, Any]]:
     """
     Use AI to select best related articles and suggest where to place links
+    distributed throughout the entire article (not just at the beginning).
 
     Args:
         content: Current article content
@@ -198,41 +238,58 @@ def _select_and_place_links(
         for i, art in enumerate(related_articles[:10])  # Limit to 10
     ])
 
+    # Split article into sections for better distribution
+    sections = _split_into_sections(content)
+    sections_context = "\n\n---\n\n".join([
+        f"SEKCJA {i+1} ({section['title']}):\n{section['content'][:1500]}"
+        for i, section in enumerate(sections[:8])  # Limit to first 8 sections
+    ])
+
+    # Random number of links (3-6) for natural distribution
+    min_links = 3
+    max_links = min(6, len(related_articles))
+    target_links = random.randint(min_links, max_links)
+
     # Build prompt
     prompt = f"""Jesteś ekspertem SEO specjalizującym się w internal linkingu dla blogów.
 
 Masz artykuł "{current_title}" i listę powiązanych artykułów w tym samym silosie tematycznym.
 
 Twoim zadaniem jest:
-1. Przeczytać dokładnie treść bieżącego artykułu
+1. Przeczytać CAŁY artykuł (podzielony na sekcje poniżej)
 2. Znaleźć konkretne frazy/zdania które już istnieją w artykule
-3. Dopasować te istniejące frazy do powiązanych artykułów (3-5 linków max)
+3. ROZŁOŻYĆ linki RÓWNOMIERNIE przez różne sekcje artykułu (nie wszystkie na początku!)
 
-KRYTYCZNE: Anchor text MUSI być dokładnym fragmentem tekstu z bieżącego artykułu (skopiuj go dosłownie).
-NIE wymyślaj nowego tekstu. NIE parafrazuj. Użyj dokładnie tego samego tekstu co w artykule.
+KRYTYCZNE WYMAGANIA:
+- Anchor text MUSI być dokładnym fragmentem tekstu z artykułu (skopiuj go dosłownie, 2-8 słów)
+- NIE wymyślaj nowego tekstu. NIE parafrazuj.
+- Linki MUSZĄ być w RÓŻNYCH sekcjach artykułu (np. sekcja 2, 4, 5, 7 - nie wszystkie w sekcji 1!)
+- Unikaj sekcji "Co znajdziesz w artykule?" - ta sekcja NIE powinna mieć linków
+- Nie linkuj nagłówków (##)
 
 ARTYKUŁY POWIĄZANE:
 {articles_context}
 
-TREŚĆ BIEŻĄCEGO ARTYKUŁU:
-{content[:3000]}
+TREŚĆ BIEŻĄCEGO ARTYKUŁU (podzielona na sekcje):
+{sections_context}
 
-Zwróć odpowiedź w formacie:
+Zwróć dokładnie {target_links} linków w formacie:
 
 LINK 1
+Sekcja: [numer sekcji gdzie znalazłeś frazę, np. 3]
 Tytuł: [tytuł powiązanego artykułu]
 URL: [url]
-Anchor: [DOKŁADNA kopia fragmentu tekstu z artykułu powyżej - 2-8 słów]
+Anchor: [DOKŁADNA kopia fragmentu tekstu z artykułu - 2-8 słów]
 Context: [dlaczego ten link pasuje tematycznie]
 
 LINK 2
 ...
 
 Reguły:
-- Maksymalnie 5 linków
-- Anchor text musi być DOKŁADNIE skopiowany z artykułu (2-8 słów)
+- Dokładnie {target_links} linków
+- Każdy link w INNEJ sekcji (rozproszone przez artykuł)
+- Anchor text musi być DOKŁADNIE skopiowany z artykułu
 - Wybieraj frazy które naturalnie odnoszą się do tematu powiązanego artykułu
-- Nie linkuj nagłówków (##)
 """
 
     try:
@@ -265,7 +322,9 @@ def _parse_link_suggestions(response: str, related_articles: List[Dict[str, str]
 
         for line in lines:
             line = line.strip()
-            if line.startswith('Tytuł:'):
+            if line.startswith('Sekcja:'):
+                link['section'] = line.replace('Sekcja:', '').strip()
+            elif line.startswith('Tytuł:'):
                 link['title'] = line.replace('Tytuł:', '').strip()
             elif line.startswith('URL:'):
                 link['url'] = line.replace('URL:', '').strip()
@@ -310,11 +369,16 @@ def _insert_links(content: str, links: List[Dict[str, Any]]) -> tuple[str, int]:
     for link in links:
         anchor = link['anchor']
         url = link['url']
-        title = link.get('title', '')
+        section = link.get('section', '?')
 
-        # Check if anchor text exists in content
-        if anchor.lower() not in content.lower():
-            print(f"   ⚠️  Anchor text not found in article: '{anchor[:50]}...'")
+        # Check if anchor text exists in content (and not already linked)
+        if anchor.lower() not in updated_content.lower():
+            print(f"   ⚠️  Anchor text not found: '{anchor[:50]}...'")
+            continue
+
+        # Check if anchor is already a link (avoid double-linking)
+        if f"[{anchor}]" in updated_content or f"({anchor})" in updated_content:
+            print(f"   ⚠️  Anchor already linked: '{anchor[:40]}...'")
             continue
 
         # Create markdown link
@@ -328,7 +392,7 @@ def _insert_links(content: str, links: List[Dict[str, Any]]) -> tuple[str, int]:
 
         if updated_content != before:
             inserted_count += 1
-            print(f"   ✓ Inserted link: '{anchor[:40]}...' → {url}")
+            print(f"   ✓ [Sekcja {section}] '{anchor[:35]}...' → {url.split('/')[-1]}")
 
     if inserted_count == 0:
         print(f"   ℹ️  No links were inserted (anchor texts not found in content)")
