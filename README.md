@@ -180,8 +180,8 @@ If a step doesn't specify a provider/model, it uses the default from CLI (`--pro
 | `openai-gpt4o` | GPT-4o | ⭐⭐⭐⭐⭐ | Fast | $$ |
 | `openai-gpt4o-mini` | GPT-4o Mini | ⭐⭐⭐⭐ | Very Fast | $ |
 | `openai` | GPT-4 Turbo | ⭐⭐⭐⭐ | Medium | $$ |
-| `gemini` | Gemini 1.5 Pro | ⭐⭐⭐⭐ | Fast | $ |
-| `gemini-flash` | Gemini 1.5 Flash | ⭐⭐⭐⭐ | Very Fast | $ |
+| `gemini` | Gemini 2.5 Pro | ⭐⭐⭐⭐ | Fast | $ |
+| `gemini-flash` | Gemini 2.5 Flash | ⭐⭐⭐⭐ | Very Fast | $ |
 | `ollama` | Llama 3 | ⭐⭐ | Slow | Free |
 
 **Note:** GPT-5 models are reasoning models that use internal reasoning tokens before generating output. Token limits are automatically adjusted 5-10x higher. See [GPT-5 Guide](docs/GPT-5-GUIDE.md) for details.
@@ -356,15 +356,17 @@ meta_description: ""
 
 **Model Options:**
 - `claude-sonnet-4-20250514` - Claude Sonnet 4 (best quality, recommended)
-- `gpt-4o` - OpenAI GPT-4o (latest, excellent quality)
+- `gpt-5-2025-08-07` - OpenAI GPT-5 (flagship reasoning model)
+- `gpt-5-mini-2025-08-07` - OpenAI GPT-5 Mini (faster reasoning)
+- `gpt-5-nano-2025-08-07` - OpenAI GPT-5 Nano (cheapest reasoning)
+- `gpt-4o` - OpenAI GPT-4o (previous generation, still capable)
 - `gpt-4o-mini` - OpenAI GPT-4o Mini (faster, cheaper)
-- `gpt-4-turbo` - OpenAI GPT-4 Turbo
-- `gpt-3.5-turbo` - OpenAI GPT-3.5 (cheapest)
-- `gemini-1.5-pro` - Google Gemini 2.5 Pro (most capable)
+- `gemini-2.5-pro` - Google Gemini 2.5 Pro (most capable)
 - `gemini-2.5-flash` - Google Gemini 2.5 Flash (fast, cheap)
-
-⚠️ **Note:** Gemini 1.x models (gemini-1.5-pro, gemini-1.5-flash, gemini-pro) are deprecated as of April 2025. Use Gemini 2.x models instead.
+- `gemini-2.0-flash` - Google Gemini 2.0 Flash (recommended for Polish content)
 - `llama3:latest` - Local Ollama (requires setup, free)
+
+⚠️ **Note:** Gemini 2.5 models may block Polish educational content due to safety filters. Use `gemini-2.0-flash` for Polish content.
 
 **Tone Guidelines:**
 - `ekspercki, ale naturalny i rozmowny` - Expert but conversational (default)
@@ -626,15 +628,19 @@ python generate_headers_alternatives_all.py artykuly/ecommerce/seo
 |----------|-------|--------------|-------|---------|-------|
 | **Claude** | Sonnet 4 | $0.09 | Fast | ⭐⭐⭐⭐⭐ | Best quality |
 | **Claude** | Haiku | $0.02 | Very Fast | ⭐⭐⭐⭐ | Cheap, good |
-| **OpenAI** | GPT-4 Turbo | $0.30 | Fast | ⭐⭐⭐⭐⭐ | Expensive |
-| **OpenAI** | GPT-3.5 | $0.015 | Very Fast | ⭐⭐⭐ | Cheapest cloud |
-| **Gemini** | 1.5 Pro | $0.10 | Fast | ⭐⭐⭐⭐ | Large context |
-| **Gemini** | 1.5 Flash | $0.01 | Very Fast | ⭐⭐⭐⭐ | Best value! |
+| **OpenAI** | GPT-5 | $0.20 | Medium | ⭐⭐⭐⭐⭐ | Reasoning model |
+| **OpenAI** | GPT-5 Mini | $0.10 | Fast | ⭐⭐⭐⭐⭐ | Cost-effective reasoning |
+| **OpenAI** | GPT-5 Nano | $0.05 | Very Fast | ⭐⭐⭐⭐ | Cheapest reasoning |
+| **OpenAI** | GPT-4o | $0.15 | Fast | ⭐⭐⭐⭐⭐ | Previous generation |
+| **Gemini** | 2.5 Pro | $0.10 | Fast | ⭐⭐⭐⭐ | Large context |
+| **Gemini** | 2.5 Flash | $0.01 | Very Fast | ⭐⭐⭐⭐ | Best value! |
+| **Gemini** | 2.0 Flash | $0.01 | Very Fast | ⭐⭐⭐⭐ | Best for Polish |
 | **Ollama** | llama3 | Free | Slow | ⭐⭐⭐ | Offline, free |
 
 **Recommendation (Text):**
-- **Production**: Claude Sonnet 4 (best quality)
-- **Budget**: Gemini 1.5 Flash (best value)
+- **Production**: Claude Sonnet 4 or GPT-5 Mini (best quality)
+- **Budget**: Gemini 2.5 Flash (best value)
+- **Polish content**: Gemini 2.0 Flash (avoids safety blocks)
 - **Testing**: Ollama llama3 (free, offline)
 
 ### Image Provider Comparison
@@ -836,7 +842,7 @@ python test_gemini.py
 
 ### Known Issues
 
-- None currently (all previous issues resolved)
+- **Gemini 2.5 blocks Polish content**: Gemini 2.5 (Flash & Pro) may block Polish educational content with empty safety_ratings. Use `gemini-2.0-flash` as a workaround (older model, stable, no false positives).
 
 ### Future Enhancements
 

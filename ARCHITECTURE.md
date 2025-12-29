@@ -41,6 +41,10 @@
 - **Infrastructure** - konkretne implementacje (AI, Git, CMS)
 - **Adapters** - porty wejścia/wyjścia (CLI, API)
 
+**⚠️ Known limitation:** Core layer (factory.py, services/) imports Infrastructure directly.
+This is a pragmatic deviation from pure clean architecture for simplicity.
+Future improvement: introduce abstract interfaces in Core with implementations in Infrastructure.
+
 ### 1.2 SOLID Principles
 
 1. **Single Responsibility** - każdy step function robi jedną rzecz
@@ -64,14 +68,10 @@ blog_agent/
 │   ├── domain/                     # Domain model (DDD)
 │   │   ├── __init__.py
 │   │   ├── article.py              # Article (Aggregate Root)
-│   │   ├── value_objects/
-│   │   │   ├── __init__.py
-│   │   │   ├── outline.py          # Outline VO
-│   │   │   ├── seo_data.py         # SEOData VO
-│   │   │   ├── summary.py          # Summary VO
-│   │   │   ├── business_metadata.py # BusinessMetadata VO
-│   │   │   └── related_article.py  # RelatedArticle VO
-│   │   └── exceptions.py           # Custom exceptions
+│   │   ├── config.py               # ArticleConfig
+│   │   └── value_objects.py        # All Value Objects in single file:
+│   │       # - Outline, SEOData, Summary, BusinessMetadata
+│   │       # - InternalLinks, CTASection, MultimediaSuggestion, SchemaMarkup
 │   │
 │   ├── workflow.py                 # Workflow Engine
 │   ├── steps/                      # Step implementations (callables)
@@ -108,11 +108,11 @@ blog_agent/
 │   ├── ai/
 │   │   ├── __init__.py
 │   │   ├── base_provider.py        # AIProvider Protocol
-│   │   ├── claude_provider.py      # Claude implementation
-│   │   ├── openai_provider.py      # OpenAI implementation (GPT-4o, GPT-5)
-│   │   ├── gemini_provider.py      # Google Gemini implementation
-│   │   ├── ollama_provider.py      # Local Ollama implementation
-│   │   └── provider_registry.py    # Provider factory
+│   │   ├── claude_provider.py      # Claude implementation (Sonnet 4)
+│   │   ├── openai_provider.py      # OpenAI implementation (GPT-4o, GPT-5, GPT-5-Mini, GPT-5-Nano)
+│   │   ├── gemini_provider.py      # Google Gemini implementation (2.5 Pro, 2.5 Flash, 2.0 Flash)
+│   │   ├── ollama_provider.py      # Local Ollama implementation (llama3, mistral, codellama)
+│   │   └── provider_registry.py    # Provider factory with prefix matching
 │   ├── storage/
 │   │   ├── __init__.py
 │   │   └── file_storage.py         # File system operations

@@ -28,9 +28,16 @@ Infrastructure (AI Providers, Git, Storage in infrastructure/)
 ### Multi-Provider AI System
 
 **Provider Registry** (`infrastructure/ai/provider_registry.py`):
-- Supports prefix matching: `openai-gpt4o`, `gemini-flash`, etc.
-- Auto-detects from model names: `gpt-4o` → `openai-gpt4o`
+- Supports prefix matching: `openai-gpt4o`, `gemini-flash`, `gpt5`, etc.
+- Auto-detects from model names: `gpt-4o` → `openai-gpt4o`, `gpt-5` → `openai-gpt5`
 - Per-step provider override in `workflow.yaml`
+
+**GPT-5 Models** (Released Aug 2025):
+- `gpt-5` / `gpt5` / `openai-gpt5` - flagship reasoning model
+- `gpt-5-mini` / `gpt5-mini` - faster and cheaper
+- `gpt-5-nano` / `gpt5-nano` - smallest and cheapest
+- GPT-5 uses internal reasoning tokens, supports only `temperature=1.0`
+- Token limits auto-adjusted 5-10x for reasoning (e.g., 800 → 8000)
 
 **Important:** Use `gemini-2.0-flash` for Polish content (2.5 has safety blocking issues documented in TODO.md).
 
@@ -93,7 +100,7 @@ artykuly/[series]/[silo]/[slug]/
 Example: [ecommerce/operacje/bezpieczenstwo] Publish article (2811 words)
 ```
 
-Commits occur at 4 milestones: outline, draft, publish, categories.
+Commits occur at key milestones: outline, draft, publish, categories, internal_linking, social_media.
 
 ## Development Commands
 
@@ -104,7 +111,7 @@ Commits occur at 4 milestones: outline, draft, publish, categories.
 python -m blog_agent create --config artykuly/ecommerce/operacje/slug/config.yaml
 
 # With specific provider
-python -m blog_agent create --config path/config.yaml --provider openai-gpt4o
+python -m blog_agent create --config path/config.yaml --provider gpt5-mini
 
 # Skip steps (for resume)
 python -m blog_agent create --config path/config.yaml --skip outline,summary
@@ -264,6 +271,7 @@ assert (article.path / "outline.md").exists()
 - step_13_categories (categories)
 - step_14_internal_linking (internal links)
 - step_15_generate_images (hero image, if enabled)
+- step_16_social_media (social media posts)
 
 **Pattern:**
 ```python
@@ -281,15 +289,17 @@ This creates commit: `[series/silo/slug] Action`
 **Article** (`core/domain/article.py`):
 - Aggregate Root with status tracking
 - Methods: `set_outline()`, `add_section()`, `set_seo_data()`, etc.
-- Status flow: initialized → outline_created → draft_ready → published
+- Status flow: initialized → outline_created → writing → draft_ready → seo_reviewed → humanized → published
 
 **Value Objects** (`core/domain/value_objects.py`):
-- **Outline** - Section structure
+- **Outline** - Section structure with FAQ/Checklist flags
 - **SEOData** - Meta title (<60 chars), description (<160 chars)
 - **Summary** - 3-5 bullet points
-- **BusinessMetadata** - Investment, timeline, complexity
+- **BusinessMetadata** - Investment, timeline, complexity, team, ROI
 - **InternalLinks** - Related article URLs with anchor text
 - **CTASection** - Call-to-action with recommended articles
+- **MultimediaSuggestion** - Hero image + section media suggestions
+- **SchemaMarkup** - Schema.org JSON-LD (Article, FAQPage, HowTo)
 
 **ArticleConfig** (`core/domain/config.py`):
 - User input: title, target_audience, tone, model, target_word_count
@@ -298,7 +308,7 @@ This creates commit: `[series/silo/slug] Action`
 ## Performance Characteristics
 
 - **Time:** 7-8 minutes per article (Claude Sonnet 4)
-- **Cost:** ~$0.09 (Claude) to $0.30 (GPT-4) per article
+- **Cost:** ~$0.09 (Claude), ~$0.10-0.20 (GPT-5 variants), ~$0.01 (Gemini Flash) per article
 - **Quality:** Automatic review with 2-3 retry attempts
 - **Word Preservation:** 110-182% in humanization step
 - **Concurrency:** Can run parallel articles with GNU parallel
