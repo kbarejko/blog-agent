@@ -1,0 +1,187 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image – Minimalistyczne workspace z dashboardem",
+    "description": "Top‑down minimalny widok biurka z laptopem pokazującym dashboard content marketingu i kalendarz redakcyjny, czyste tło z żółtym akcentem.",
+    "alt_text": "Minimalistyczny top‑down widok biurka z laptopem pokazującym dashboard content marketingu i kalendarz redakcyjny, lekki akcent żółty",
+    "prompt": "Minimalist workspace flat lay, laptop showing content marketing analytics and editorial calendar, white desk, notebook with subtle yellow accent, modern clean style, soft natural lighting, black white gray palette, professional business aesthetic, high quality, no people",
+    "keywords": [
+      "content marketing",
+      "dashboard",
+      "editorial calendar",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop analytics editorial calendar",
+      "pexels_query": "workspace flat lay laptop dashboard clean",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop analytics",
+        "editorial calendar",
+        "minimalist office"
+      ],
+      "style_notes": "White or light gray background, natural light, muted black/gray tones with a single subtle yellow accent."
+    }
+  },
+  "section_media": [
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Typy treści i ich zastosowanie",
+      "title": "Infografika – 8 typów treści konwertujących",
+      "description": "Przejrzysta infografika przedstawiająca 8 typów treści (how‑to, listy, porównania, webinary, infografiki, case studies, landing pages, newslettery) z ikonami i krótkimi benefitami.",
+      "alt_text": "Infografika przedstawiająca 8 typów treści konwertujących z ikonami i krótkimi korzyściami dla firmy, minimalistyczny styl",
+      "prompt": "Vertical infographic listing eight converting content types: how-to, listicles, comparisons, webinars, infographics, case studies, landing pages, newsletters. Clean icons, numbered blocks, white background, black gray palette, subtle yellow highlights, modern minimalist design, high quality, no people",
+      "placement": "after_section_heading",
+      "keywords": [
+        "content types",
+        "infographic",
+        "how-to",
+        "case studies",
+        "webinars"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "minimalist infographic design numbered list icons",
+        "pexels_query": "business infographic clean layout icons",
+        "keywords_for_search": [
+          "content types infographic",
+          "marketing infographic",
+          "numbered list design"
+        ],
+        "style_notes": "Prefer vertical layout, simple line icons, white background, black/gray text, subtle yellow accents to mark key items."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Proces tworzenia treści – od A do Z",
+      "title": "Diagram przepływu – Proces tworzenia treści (A→Z)",
+      "description": "Flowchart pokazujący etapy: pomysł → brief → pisanie → edycja → publikacja → promocja → analiza, z checkami i czasami realizacji.",
+      "alt_text": "Diagram przepływu procesu tworzenia treści: pomysł, brief, pisanie, edycja, publikacja, promocja, analiza, minimalistyczne ikony i strzałki",
+      "prompt": "Clean flowchart diagram for content creation process: idea, brief, draft, edit, publish, promote, analyze. Simple connected boxes, numbered steps, minimal icons, white background, black gray lines, subtle yellow accents for key steps, modern business style, high quality, no people",
+      "placement": "after_paragraph_1_in_process_section",
+      "keywords": [
+        "content workflow",
+        "flowchart",
+        "process",
+        "editorial workflow"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "minimalist flowchart diagram business process",
+        "pexels_query": "process flowchart clean design",
+        "keywords_for_search": [
+          "workflow diagram",
+          "editorial workflow",
+          "process flowchart"
+        ],
+        "style_notes": "Use clear arrows, numbered steps, neutral palette with a single yellow highlight for emphasis."
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Planowanie i organizacja procesu tworzenia treści",
+      "title": "Screenshot – Szablon kalendarza redakcyjnego w Notion",
+      "description": "Screenshot pokazujący szablon Notion/Airtable z kolumnami: pomysł, w trakcie, do edycji, do publikacji, opublikowane; widok listy i kalendarza.",
+      "alt_text": "Screenshot szablonu kalendarza redakcyjnego w Notion z kolumnami: pomysł, w trakcie, do edycji, do publikacji, opublikowane; czytelny układ",
+      "prompt": "Clean screenshot mockup of Notion editorial calendar template showing columns idea, in progress, editing, scheduled, published and calendar view, minimal UI, white background, readable typography, subtle yellow accent on due dates, high quality, no people",
+      "placement": "after_paragraph_describing_calendar",
+      "keywords": [
+        "Notion",
+        "editorial calendar",
+        "content planning",
+        "template"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "notion template calendar workspace screenshot",
+        "pexels_query": "project management board screenshot clean",
+        "keywords_for_search": [
+          "editorial calendar screenshot",
+          "notion editorial",
+          "content calendar template"
+        ],
+        "style_notes": "Prefer clean UI screenshots; blur any personal data. Use white/light gray backgrounds and subtle yellow markers."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Wprowadzenie / SEO w praktyce / Metryki sukcesu",
+      "title": "Wykres słupkowy – Wzrost ruchu organicznego dzięki contentowi (przykład)",
+      "description": "Bar chart ilustrujący przykładowy wzrost ruchu organicznego w % przez 12 miesięcy po wdrożeniu strategii content marketingowej (przyjęty scenariusz +300% rok do roku).",
+      "alt_text": "Wykres słupkowy ilustrujący przykładowy wzrost ruchu organicznego w procentach w ciągu 12 miesięcy po wdrożeniu strategii content marketingowej",
+      "prompt": "Clean bar chart showing monthly organic traffic growth over 12 months after content strategy implementation, minimal gridlines, black/gray bars with subtle yellow highlight for peak months, professional infographic style, white background, high quality, no people",
+      "placement": "after_paragraph_discussing_traffic_growth",
+      "keywords": [
+        "ruch organiczny",
+        "wzrost",
+        "content marketing",
+        "statystyki"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart clean infographic",
+        "pexels_query": "statistics chart data visualization",
+        "keywords_for_search": [
+          "organic traffic chart",
+          "growth chart infographic",
+          "monthly growth bars"
+        ],
+        "style_notes": "Simple bars, readable labels, white background, emphasize key months with yellow accents."
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Podsumowanie – budżet i zasoby",
+      "title": "Wykres kołowy – Proponowany podział budżetu na content (20/60/20)",
+      "description": "Pie chart ilustrujący sugerowany podział budżetu: 20% narzędzia, 60% outsourcing pisania, 20% promocja i reklama.",
+      "alt_text": "Wykres kołowy pokazujący zalecany podział budżetu na content marketing: 20% narzędzia, 60% outsourcing, 20% promocja, prosty czytelny układ",
+      "prompt": "Minimal pie chart showing budget allocation: 20% tools, 60% content outsourcing, 20% promotion. Clean labels, black gray palette, yellow slice accent for outsourcing, white background, modern infographic look, high quality, no people",
+      "placement": "after_paragraph_about_budget",
+      "keywords": [
+        "budget",
+        "content budget",
+        "outsourcing",
+        "promotion"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "budget pie chart infographic clean",
+        "pexels_query": "financial infographic pie chart",
+        "keywords_for_search": [
+          "budget allocation chart",
+          "marketing budget pie",
+          "content budget infographic"
+        ],
+        "style_notes": "Use flat colors, one yellow accent slice, clear legend and labels."
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Mierzenie skuteczności i KPI",
+      "title": "Infografika – Dashboard KPI content marketingu",
+      "description": "Kompaktowa wizualizacja najważniejszych KPI: ruch organiczny, średni czas na stronie, CTR, MQL, konwersje z treści, ROI — z prostymi ikonami i progiem optymalnym.",
+      "alt_text": "Infografika dashboard KPI: ruch organiczny, średni czas na stronie, CTR, liczba leadów (MQL), konwersje i ROI, czytelne ikony i wskazania progów",
+      "prompt": "Compact KPI dashboard infographic for content marketing: organic traffic, avg time on page, CTR, MQLs, conversions, ROI. Small icons, clear numbers, black gray palette with yellow highlights for targets, modern minimalist style, high quality, no people",
+      "placement": "after_paragraph_listing_KPIs",
+      "keywords": [
+        "KPI",
+        "dashboard",
+        "content metrics",
+        "MQL",
+        "ROI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data dashboard infographic metrics minimal",
+        "pexels_query": "analytics dashboard infographic clean",
+        "keywords_for_search": [
+          "kpi dashboard infographic",
+          "marketing metrics visual",
+          "content metrics dashboard"
+        ],
+        "style_notes": "Flat icons, numeric emphasis, white background, black/gray text and yellow highlights for goal values."
+      }
+    }
+  ],
+  "total_count": 7
+}

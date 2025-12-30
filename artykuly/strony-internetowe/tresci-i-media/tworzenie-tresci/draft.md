@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Strategia content marketingu** - Jak określić cele biznesowe dla treści i stworzyć skuteczny kalendarz publikacji, który zwiększy widoczność Twojej firmy w internecie.
 - **8 typów treści konwertujących** - Konkretne formaty treści (od artykułów blogowych po case studies), które budują autorytet marki i przekładają się na sprzedaż.
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie – dlaczego treści to fundament Twojego biznesu online
 
-# Tworzenie Treści dla Firm
+## Tworzenie Treści dla Firm
 
 Każdego dnia miliony firm walczą o uwagę potencjalnych klientów w internecie. Te, które wygrywają tę batalię, łączy jedna wspólna cecha – świetne treści, które edukują, inspirują i przekonują.
 
