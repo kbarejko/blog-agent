@@ -66,8 +66,8 @@ blog-agent create --config artykuly/ecommerce/operacje/bezpieczenstwo-rodo/confi
 
 # Using specific provider (explicit)
 blog-agent create --config path/to/config.yaml --provider claude
-blog-agent create --config path/to/config.yaml --provider gpt5            # GPT-5 (latest)
-blog-agent create --config path/to/config.yaml --provider gpt5-mini       # GPT-5 Mini
+blog-agent create --config path/to/config.yaml --provider gpt5            # GPT-5.2 (latest)
+blog-agent create --config path/to/config.yaml --provider gpt5-mini       # GPT-5.2 Mini
 blog-agent create --config path/to/config.yaml --provider openai-gpt4o     # GPT-4o
 blog-agent create --config path/to/config.yaml --provider openai-gpt4o-mini # GPT-4o Mini
 blog-agent create --config path/to/config.yaml --provider gemini
@@ -80,8 +80,8 @@ The system automatically detects the provider from the `model` field in your art
 
 ```yaml
 # config.yaml
-model: gpt-5-2025-08-07      # Auto-detects gpt5 provider (GPT-5)
-model: gpt-5-mini-2025-08-07 # Auto-detects gpt5-mini provider
+model: gpt-5.2      # Auto-detects gpt5 provider (GPT-5.2)
+model: gpt-5.2-mini # Auto-detects gpt5-mini provider
 model: gpt-4o                # Auto-detects openai-gpt4o provider
 model: gpt-4o-mini           # Auto-detects openai-gpt4o-mini provider
 model: gpt-4-turbo           # Auto-detects openai provider
@@ -174,9 +174,9 @@ If a step doesn't specify a provider/model, it uses the default from CLI (`--pro
 | Provider | Model | Quality | Speed | Cost |
 |----------|-------|---------|-------|------|
 | `claude` | Claude Sonnet 4 | ⭐⭐⭐⭐⭐ | Fast | $$ |
-| `gpt5` / `gpt-5` | GPT-5 (reasoning) | ⭐⭐⭐⭐⭐ | Slow | $$$ |
-| `gpt5-mini` / `gpt-5-mini` | GPT-5 Mini (reasoning) | ⭐⭐⭐⭐ | Medium | $$ |
-| `gpt5-nano` / `gpt-5-nano` | GPT-5 Nano (reasoning) | ⭐⭐⭐⭐ | Fast | $ |
+| `gpt5` / `gpt-5.2` | GPT-5.2 (reasoning) | ⭐⭐⭐⭐⭐ | Slow | $$$ |
+| `gpt5-mini` / `gpt-5.2-mini` | GPT-5.2 Mini (reasoning) | ⭐⭐⭐⭐ | Medium | $$ |
+| `gpt5-nano` / `gpt-5.2-nano` | GPT-5.2 Nano (reasoning) | ⭐⭐⭐⭐ | Fast | $ |
 | `openai-gpt4o` | GPT-4o | ⭐⭐⭐⭐⭐ | Fast | $$ |
 | `openai-gpt4o-mini` | GPT-4o Mini | ⭐⭐⭐⭐ | Very Fast | $ |
 | `openai` | GPT-4 Turbo | ⭐⭐⭐⭐ | Medium | $$ |
@@ -356,9 +356,9 @@ meta_description: ""
 
 **Model Options:**
 - `claude-sonnet-4-20250514` - Claude Sonnet 4 (best quality, recommended)
-- `gpt-5-2025-08-07` - OpenAI GPT-5 (flagship reasoning model)
-- `gpt-5-mini-2025-08-07` - OpenAI GPT-5 Mini (faster reasoning)
-- `gpt-5-nano-2025-08-07` - OpenAI GPT-5 Nano (cheapest reasoning)
+- `gpt-5.2` - OpenAI GPT-5.2 (flagship reasoning model)
+- `gpt-5.2-mini` - OpenAI GPT-5.2 Mini (faster reasoning)
+- `gpt-5.2-nano` - OpenAI GPT-5.2 Nano (cheapest reasoning)
 - `gpt-4o` - OpenAI GPT-4o (previous generation, still capable)
 - `gpt-4o-mini` - OpenAI GPT-4o Mini (faster, cheaper)
 - `gemini-2.5-pro` - Google Gemini 2.5 Pro (most capable)

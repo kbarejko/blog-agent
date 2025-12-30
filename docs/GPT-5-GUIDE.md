@@ -2,27 +2,34 @@
 
 ## Overview
 
-GPT-5 is OpenAI's latest generation AI model series, released on August 7, 2025. GPT-5 models are **reasoning models** that use internal reasoning tokens before generating output, making them particularly effective for complex tasks like coding and agentic workflows.
+GPT-5 is OpenAI's latest generation AI model series. GPT-5 models are **reasoning models** that use internal reasoning tokens before generating output, making them particularly effective for complex tasks like coding and agentic workflows.
+
+**Current version:** GPT-5.2 (December 2025)
 
 ## Available Models
 
-### GPT-5 (Flagship)
-- **Model ID:** `gpt-5-2025-08-07`
-- **Aliases:** `gpt5`, `gpt-5`, `gpt-5.1`, `openai-gpt5`
+### GPT-5.2 (Flagship) - Current
+- **Model ID:** `gpt-5.2`
+- **Aliases:** `gpt5`, `gpt-5`, `gpt-5.2`, `openai-gpt5`
 - **Best for:** Complex content generation, high-quality writing, reasoning tasks
 - **Max output tokens:** 128K (including reasoning tokens)
 
-### GPT-5 Mini
-- **Model ID:** `gpt-5-mini-2025-08-07`
-- **Aliases:** `gpt5-mini`, `gpt-5-mini`, `gpt-5.1-mini`, `openai-gpt5-mini`
+### GPT-5.2 Mini
+- **Model ID:** `gpt-5.2-mini`
+- **Aliases:** `gpt5-mini`, `gpt-5-mini`, `gpt-5.2-mini`, `openai-gpt5-mini`
 - **Best for:** Humanization, SEO optimization, summaries
-- **Faster and cheaper than GPT-5**
+- **Faster and cheaper than GPT-5.2**
 
-### GPT-5 Nano
-- **Model ID:** `gpt-5-nano-2025-08-07`
-- **Aliases:** `gpt5-nano`, `gpt-5-nano`, `openai-gpt5-nano`
+### GPT-5.2 Nano
+- **Model ID:** `gpt-5.2-nano`
+- **Aliases:** `gpt5-nano`, `gpt-5-nano`, `gpt-5.2-nano`, `openai-gpt5-nano`
 - **Best for:** FAQ generation, quick tasks, metadata generation
 - **Smallest and cheapest variant**
+
+### Legacy GPT-5.1 (August 2025)
+- **Model ID:** `gpt-5-2025-08-07`
+- **Aliases:** `gpt-5.1`, `gpt-5.1-mini`, `gpt-5.1-nano`
+- **Note:** Use explicit `gpt-5.1` alias to use legacy version
 
 ## Key Characteristics
 
@@ -133,7 +140,7 @@ steps:
 ```yaml
 title: "My Article"
 target_audience: "developers"
-model: gpt-5-2025-08-07  # Use GPT-5 for this article
+model: gpt-5.2  # Use GPT-5.2 for this article
 ```
 
 ## Setup
@@ -198,3 +205,4 @@ source ~/.bashrc
 
 - **August 2025:** GPT-5, GPT-5 Mini, GPT-5 Nano released
 - **November 2025:** GPT-5.1 released (improved adaptive reasoning)
+- **December 2025:** GPT-5.2 released (current default)

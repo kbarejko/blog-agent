@@ -32,10 +32,11 @@ Infrastructure (AI Providers, Git, Storage in infrastructure/)
 - Auto-detects from model names: `gpt-4o` → `openai-gpt4o`, `gpt-5` → `openai-gpt5`
 - Per-step provider override in `workflow.yaml`
 
-**GPT-5 Models** (Released Aug 2025):
-- `gpt-5` / `gpt5` / `openai-gpt5` - flagship reasoning model
-- `gpt-5-mini` / `gpt5-mini` - faster and cheaper
-- `gpt-5-nano` / `gpt5-nano` - smallest and cheapest
+**GPT-5.2 Models** (Current, December 2025):
+- `gpt-5` / `gpt5` / `gpt-5.2` / `openai-gpt5` - flagship reasoning model
+- `gpt-5-mini` / `gpt5-mini` / `gpt-5.2-mini` - faster and cheaper
+- `gpt-5-nano` / `gpt5-nano` / `gpt-5.2-nano` - smallest and cheapest
+- Legacy: `gpt-5.1`, `gpt-5.1-mini`, `gpt-5.1-nano` (August 2025)
 - GPT-5 uses internal reasoning tokens, supports only `temperature=1.0`
 - Token limits auto-adjusted 5-10x for reasoning (e.g., 800 → 8000)
 
