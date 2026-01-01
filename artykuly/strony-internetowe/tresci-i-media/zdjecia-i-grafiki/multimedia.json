@@ -1,0 +1,158 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem",
+    "description": "Fotorealistyczne flat‑lay: laptop z panelem analitycznym (metryki strony), czyste biurko i subtelny żółty akcent — bez ludzi.",
+    "alt_text": "Minimalistyczne flat‑lay: laptop z dashboardem e‑commerce na białym biurku, naturalne światło, subtelny żółty akcent.",
+    "prompt": "Minimalist workspace flat‑lay, laptop showing analytics dashboard with charts and KPIs, white desk, notebook with subtle yellow accent, natural window light, clean photorealistic composition, high quality, modern business aesthetic, no people",
+    "keywords": [
+      "dashboard",
+      "workspace",
+      "analytics",
+      "e-commerce"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "laptop analytics dashboard flat lay white desk",
+      "pexels_query": "laptop analytics dashboard minimal workspace",
+      "keywords_for_search": [
+        "analytics dashboard",
+        "flat lay laptop",
+        "minimal workspace"
+      ],
+      "style_notes": "Photorealistic flat‑lay, white/light gray background, muted black/gray tones, subtle yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Co znajdziesz w artykule? - Statystyki zachowań użytkowników",
+      "title": "Wykres: Wpływ profesjonalnych grafik na kluczowe KPI",
+      "description": "Wykres słupkowy pokazujący procentowy wzrost kluczowych wskaźników po wdrożeniu profesjonalnych grafik (pageviews, time on site, konwersje).",
+      "alt_text": "Wykres słupkowy: wzrost odsłon, czasu na stronie i konwersji po wdrożeniu profesjonalnych grafik, wartości procentowe.",
+      "prompt": "Clean bar chart infographic showing percent increases after professional visuals: pageviews +94%, time on site +160%, conversions +85%. Minimalist vector style, black white gray palette with yellow highlights, professional presentation, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "statystyki",
+        "konwersje",
+        "pageviews",
+        "KPI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart minimalist",
+        "pexels_query": "infographic bar chart business statistics",
+        "keywords_for_search": [
+          "data visualization",
+          "business infographic",
+          "statistic chart"
+        ],
+        "style_notes": "Vector‑style chart, clear labels, black/gray base with yellow accent for emphasis, minimal decorations"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Strategiczny wybór zdjęć - Autentyczne zdjęcia vs. stockowe",
+      "title": "Infografika: Decyzja — stock vs. własna sesja",
+      "description": "Vertical flowchart: kiedy użyć stocka, a kiedy zainwestować w sesję własną. Pięć kryteriów z ikonami i rekomendacją ROI/priorytetem.",
+      "alt_text": "Infografika decyzji: kiedy stosować zdjęcia stockowe, a kiedy inwestować w sesję własną — 5 kryteriów i rekomendacje ROI.",
+      "prompt": "Vertical decision flowchart infographic 'Stock vs Custom Photos' with five criteria steps, simple icons for each step, arrows connecting decisions, clean minimalist layout, black white gray with subtle yellow highlights, modern vector style, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "stock vs custom",
+        "infografika",
+        "strategia",
+        "ROI"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "decision flowchart infographic minimalist",
+        "pexels_query": "flowchart infographic business design",
+        "keywords_for_search": [
+          "decision infographic",
+          "flowchart design",
+          "stock photo vs custom"
+        ],
+        "style_notes": "Vertical numbered steps, icons, white/light gray background, consistent stroke widths, yellow highlights for recommended choices"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Techniczne aspekty grafik - Optymalizacja rozmiaru i jakości",
+      "title": "Wykres porównawczy: JPEG vs WebP vs AVIF (rozmiar pliku)",
+      "description": "Porównanie rozmiarów przykładowego zdjęcia w formatach JPEG, WebP i AVIF, pokazujące oszczędność transferu przy zachowaniu jakości.",
+      "alt_text": "Porównanie rozmiarów plików: JPEG 150 KB, WebP 110 KB, AVIF 80 KB — wizualizacja oszczędności transferu i optymalizacji obrazów.",
+      "prompt": "Clean bar chart comparing image format sizes: JPEG 150KB, WebP 110KB, AVIF 80KB, labeled bars with KB units, minimalist professional design, black gray base with yellow accent on best option, no people",
+      "placement": "after_paragraph_1",
+      "keywords": [
+        "WebP",
+        "AVIF",
+        "optymalizacja",
+        "rozmiar pliku"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data comparison chart minimalist",
+        "pexels_query": "file size comparison infographic",
+        "keywords_for_search": [
+          "file size chart",
+          "format comparison",
+          "image optimization chart"
+        ],
+        "style_notes": "Simple labeled bars, clear units, emphasis (yellow) on smallest size, readable typography"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Techniczne aspekty grafik - Lazy loading i responsive images",
+      "title": "Screenshot (mockup) panelu CMS z opcjami obrazów",
+      "description": "Mockup interfejsu CMS pokazujący ustawienia responsive images (srcset), WebP fallback i toggle lazy‑loading — z adnotacjami.",
+      "alt_text": "Mockup panelu CMS pokazujący ustawienia srcset, WebP fallback i opcję lazy‑loading dla obrazów w sklepie internetowym.",
+      "prompt": "High fidelity mockup screenshot of CMS image settings panel showing srcset inputs, WebP fallback toggle, lazy‑loading checkbox, annotated highlights, clean UI, grayscale with yellow accents, modern admin interface, no people",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "CMS",
+        "srcset",
+        "lazy-loading",
+        "WebP"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "admin dashboard settings panel mockup",
+        "pexels_query": "website admin panel mockup",
+        "keywords_for_search": [
+          "CMS settings mockup",
+          "admin panel screenshot",
+          "web settings interface"
+        ],
+        "style_notes": "Clean admin UI, light gray background, focused on controls (toggles/inputs), yellow accents for highlights, no people"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "brand_kit_mockup",
+      "section": "Sekcja: Budowanie spójnej identyfikacji wizualnej",
+      "title": "Mockup brand‑kit: paleta, typografia i logo",
+      "description": "Isometryczny 3D/flat mockup materiałów brandowych: próbki kolorów, zestaw fontów, warianty logotypu i przykładowy szablon postu.",
+      "alt_text": "Mockup brand kit: paleta kolorów, próbki typografii, warianty logo i przykładowy szablon posta w stylu minimalistycznym.",
+      "prompt": "Isometric brand kit mockup showing color swatches, typography samples, logo variations and a social post template, minimalist professional layout, light gray background with subtle yellow accents, high quality render, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "brand kit",
+        "paleta kolorów",
+        "typografia",
+        "logo"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "brand identity mockup flat lay color swatches",
+        "pexels_query": "brand kit mockup typography color palette",
+        "keywords_for_search": [
+          "brand kit mockup",
+          "identity mockup",
+          "color palette mockup"
+        ],
+        "style_notes": "Minimalist composition, white/light gray background, clear swatches and typography samples, subtle yellow highlight, no people"
+      }
+    }
+  ],
+  "total_count": 6
+}

@@ -1,0 +1,23 @@
+target_business:
+- startup
+- scale-up
+industry:
+- ecommerce
+- saas
+project_phase: wdrożenie
+investment:
+  level: medium
+  range: 10,000-30,000 PLN
+  breakdown: {}
+timeline:
+  estimate: 2-3 miesiące
+  phases: []
+complexity:
+  technical: medium
+  organizational: medium
+  factors: []
+team:
+  size: 2-3 osoby
+  roles:
+  - developer
+  - project manager

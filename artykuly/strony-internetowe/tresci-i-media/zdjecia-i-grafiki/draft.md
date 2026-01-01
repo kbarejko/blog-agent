@@ -1,4 +1,4 @@
-## Co znajdziesz w artykule?
+# Co znajdziesz w artykule?
 
 - **Statystyki zachowań użytkowników** - pierwsze wrażenie o stronie formuje się w 0,05 sekundy, a profesjonalne grafiki zwiększają czas spędzony na stronie nawet o 300%.
 - **Strategię autentyczności wizualnej** - kiedy inwestować w własną sesję fotograficzną (ROI 400-600%), a kiedy rozpoznawalne stock photos niszczą wiarygodność marki.
@@ -9,7 +9,7 @@
 
 ## Wprowadzenie - Dlaczego jakość wizualna ma znaczenie
 
-# Profesjonalne Zdjęcia i Grafiki, które Wzmacniają Twoją Stronę Internetową
+## Profesjonalne Zdjęcia i Grafiki, które Wzmacniają Twoją Stronę Internetową
 
 Wyobraź sobie, że potencjalny klient odwiedza Twoją stronę. Ma 50 milisekund na podjęcie decyzji – zostać czy odejść. W tym momencie nie liczy się tekst ani oferta. Liczy się to, co widzi.
 
@@ -117,7 +117,7 @@ Adobe Creative Suite ma sens, gdy grafika to serce Twojego biznesu. Agencja rekl
 
 Photoshop, Illustrator, InDesign – to profesjonalny standard. Automatyzacja zadań, zaawansowane narzędzia retuszu, precyzyjna kontrola nad każdym pikselem. Ale czy naprawdę tego potrzebujesz?
 
-Shutterstock kontra Getty Images to wybór między ilością a ekskluzywności. Shutterstock ma więcej opcji w niższej cenie. Getty Images oferuje unikalne, często niedostępne gdzie indziej zdjęcia. Dla większości firm Shutterstock wystarcza.
+Shutterstock kontra Getty Images to wybór między ilością a ekskluzywnością. Shutterstock ma więcej opcji w niższej cenie. Getty Images oferuje unikalne, często niedostępne gdzie indziej zdjęcia. Dla większości firm Shutterstock wystarcza.
 
 Kiedy zlecić pracę na zewnątrz? Gdy czas to pieniądz. Freelancer za 200-500 złotych przygotuje profesjonalne grafiki szybciej niż Ty nauczysz się obsługi programów. Agencja ma sens przy większych projektach – rebranding, kampanie reklamowe, kompleksowe sesje produktowe.
 
