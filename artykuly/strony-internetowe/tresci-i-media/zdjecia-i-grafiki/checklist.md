@@ -1,0 +1,16 @@
+## Checklist: Profesjonalne zdjęcia i grafiki dla Twojej strony
+
+- [ ] Przeprowadź audyt aktualnych grafik — sporządź listę wszystkich obrazów (URL lub lokalizacja), zapisz format, rozdzielczość i rozmiar pliku (KB/MB). Dobrą praktyką jest dodanie przykładu przy każdym wpisie (np. /images/hero.jpg — JPEG, 1920×800, 180 KB). Duże pliki mogą sugerować problemy z wydajnością strony.
+- [ ] Sporządź krótki brand brief: wypisz paletę kolorów (HEX), wybierz 2 główne kroje pisma, określ pożądany styl zdjęć (np. naturalne lifestyle, minimalistyczne packshoty) i dołącz 3 referencje wizualne (linki lub zrzuty ekranu). To ułatwi spójność materiałów.
+- [ ] Zmapuj wymagane typy grafik i rozmiary: dla każdego elementu podaj docelowe wymiary (np. hero 1920×800, produkt 800×800, thumbnail 400×250) oraz maksymalny rozmiar pliku (np. hero <200 KB, thumb <80 KB). Możesz też dopisać sugerowane proporcje (16:9, 1:1).
+- [ ] Zdecyduj, które zdjęcia wymagają sesji własnej, a które można pobrać ze stocku; do sesji przygotuj brief (lista ujęć, liczba zdjęć, sceny, modele, moodboard) wraz z terminem i budżetem. Przykład: sesja produktowa — 30 ujęć, 1 dzień, 2 modeli, budżet ~2 500 zł; taka konkretność pomaga w wycenie.
+- [ ] Wyselekcjonuj i zakup licencje stockowe tam, gdzie to konieczne; dla każdego pliku zanotuj źródło, typ licencji i dozwolone użycie (online, druk, czas trwania). To zapobiega późniejszym problemom prawno‑licencyjnym.
+- [ ] Przygotuj i obrób zdjęcia źródłowe: kadruj, koryguj ekspozycję i kolory, usuwaj tło gdy potrzeba. Eksportuj materiały zgodnie z przeznaczeniem (JPEG/WebP dla zdjęć; PNG dla grafik z przezroczystością) z opisowymi nazwami plików i ustawieniem jakości (np. JPEG quality 75–85). Przykładowe nazwy: nazwa-produktu-biala-front-800x800.jpg.
+- [ ] Wdróż responsywne obrazy: dodaj srcset/sizes i generuj co najmniej 3 rozdzielczości (np. 400, 800, 1600 px). Dostarczaj WebP z fallbackem do JPEG/PNG — to zazwyczaj poprawia czas ładowania i kompatybilność.
+- [ ] Uzupełnij SEO i dostępność: nadaj plikom opisowe nazwy (np. nazwa-produktu-czarny.jpg) i wprowadź alt texty — krótkie, opisowe, do ~125 znaków, zawierające najważniejsze informacje. Dobre alty pomagają zarówno SEO, jak i użytkownikom korzystającym z czytników ekranu.
+- [ ] Zoptymalizuj wydajność strony: kompresuj obrazy (narzędzia np. Squoosh, TinyPNG, ImageOptim), włącz lazy‑loading dla elementów poza foldem i przetestuj stronę w Lighthouse/GTmetrix. Celuj w LCP <2.5s i minimalną wagę obrazów wyświetlanych above‑the‑fold — duże pliki prawdopodobnie będą tego przeszkodą.
+- [ ] Stwórz szablony/gotowe komponenty graficzne w CMS (hero, karta produktu, galerie) z ustalonymi proporcjami i jasną instrukcją użycia. Dzięki temu designerzy i redaktorzy łatwiej będą trzymać się standardów.
+- [ ] Zorganizuj bibliotekę zasobów: ustal strukturę folderów i konwencję nazewnictwa, przechowuj master files (PSD/RAW/AI) oraz dokument z informacją o licencjach; zapewnij regularne backupy (np. chmura + offline). To oszczędza czas przy aktualizacjach.
+- [ ] Zaplanuj utrzymanie: ustaw kwartalny audyt grafik, prowadź listę poprawek i zorganizuj szkolenie dla osoby odpowiedzialnej (lub zapisz kontakt do freelancera/agencji). Przygotuj harmonogram aktualizacji materiałów — nawet prosty kalendarz pomoże uniknąć przestarzałych treści.
+
+---
