@@ -1,0 +1,14 @@
+categories:
+- slug: projektowanie-ux-ui
+  title: Projektowanie UX/UI
+  path: strony-internetowe/projektowanie-ux-ui
+- slug: seo-i-optymalizacja-stron
+  title: SEO i Optymalizacja Stron
+  path: marketing-w-internecie/seo-i-optymalizacja-stron
+- slug: responsywne-strony
+  title: Responsywne Strony
+  path: it-i-technologia/mobilne-technologie/responsywne-strony
+- slug: e-commerce
+  title: E-commerce
+  path: strony-internetowe/content-management-systems-cms/e-commerce
+count: 4
