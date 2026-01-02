@@ -28,7 +28,7 @@
 
 # Blog i aktualnosci na Twojej stronie internetowej
 
-Twoja strona wygląda profesjonalnie, ale ostatni wpis w sekcji "Aktualności" ma datę sprzed sześciu miesięcy. Klienci wchodzą, patrzą i... często przechodzą do konkurencji, która wygląda na bardziej aktywną i zaangażowaną. Taki brak aktualizacji może sugerować, że firma stoi w miejscu — nawet jeśli w praktyce działa prężnie.
+[Twoja strona wygląda profesjonalnie](/artykuly/strony-internetowe/tresci-i-media/zdjecia-i-grafiki), ale ostatni wpis w sekcji "Aktualności" ma datę sprzed sześciu miesięcy. Klienci wchodzą, patrzą i... często przechodzą do konkurencji, która wygląda na bardziej aktywną i zaangażowaną. Taki brak aktualizacji może sugerować, że firma stoi w miejscu — nawet jeśli w praktyce działa prężnie.
 
 ## Wprowadzenie - Dlaczego Twoja firma potrzebuje bloga w 2024 roku?
 
