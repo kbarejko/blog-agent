@@ -1,0 +1,158 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem",
+    "description": "Minimalistyczny hero image: flat‑lay workspace z laptopem pokazującym dashboard wydajności i bezpieczeństwa strony.",
+    "alt_text": "Minimalistyczny workspace top‑down z laptopem pokazującym dashboard wydajności i Core Web Vitals, czystość, profesjonalny wygląd",
+    "prompt": "Minimalist workspace flat lay, laptop showing performance and security dashboard with charts and Core Web Vitals, white desk, gray notebook with subtle yellow accent, modern professional aesthetic, natural window light, clean composition, high quality, no people",
+    "keywords": [
+      "dashboard",
+      "wydajność",
+      "Core Web Vitals",
+      "workspace"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimal workspace laptop analytics dashboard",
+      "pexels_query": "minimal workspace laptop dashboard analytics",
+      "keywords_for_search": [
+        "analytics dashboard",
+        "workspace flat lay",
+        "performance metrics laptop"
+      ],
+      "style_notes": "Top‑down flat lay, white/gray background, subtle yellow accent, natural light, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Kary za naruszenie RODO",
+      "title": "Wykres słupkowy - Wzrost kar RODO 2020–2024",
+      "description": "Wykres słupkowy ilustrujący rosnące kwoty kar RODO na przestrzeni lat, pomocny przy uzasadnianiu działań compliance.",
+      "alt_text": "Wykres słupkowy pokazujący wzrost kar RODO w e‑commerce od 2020 do 2024 w PLN, czytelny i minimalistyczny design",
+      "prompt": "Clean bar chart showing GDPR penalties growth for e‑commerce 2020 to 2024 in PLN, five bars with values and a subtle red trend line, minimalist professional infographic style, white background with gray and black elements and small yellow highlight, high resolution",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "RODO",
+        "kary",
+        "statystyki",
+        "compliance"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart infographic",
+        "pexels_query": "financial chart data visualization",
+        "keywords_for_search": [
+          "gdpr penalties chart",
+          "data infographic",
+          "bar chart statistics"
+        ],
+        "style_notes": "Minimalistyczny wykres, białe tło, czytelne etykiety, akcent żółty dla wyróżnień"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Harmonogram testów / Check‑lista",
+      "title": "Infografika - 5‑etapowy proces testowania strony",
+      "description": "Pionowa infografika przedstawiająca prosty 5‑etapowy proces testowania (przed uruchomieniem, regularne kontrole, po zmianie, monitoring, reakcja).",
+      "alt_text": "Infografika 5 etapów procesu testowania strony: przygotowanie, testy przed uruchomieniem, audyty miesięczne, testy po zmianie, monitoring i reakcja",
+      "prompt": "Vertical infographic with five numbered steps: prepare, pre‑launch tests, monthly audits, post‑change quick checks, monitoring and incident response. Simple icons for each step, clean lines, white background, black and gray text, subtle yellow highlights for key actions, professional flat design, no people",
+      "placement": "after_paragraph_2_in_section_Harmonogram_testow",
+      "keywords": [
+        "checklist",
+        "testowanie strony",
+        "proces",
+        "infografika"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "process infographic checklist minimalist",
+        "pexels_query": "business infographic steps design",
+        "keywords_for_search": [
+          "testing checklist infographic",
+          "5 step process infographic",
+          "workflow visual"
+        ],
+        "style_notes": "Vertical numbered layout, flat icons, black/white/gray palette, subtle yellow accents"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "waterfall_chart",
+      "section": "Sekcja: GTmetrix i analiza szybkości",
+      "title": "Waterfall chart - przykładowa analiza zasobów",
+      "description": "Schemat waterfall pokazujący ładowanie zasobów: duży hero image, font, zewnętrzny skrypt reklamowy, czas serwera.",
+      "alt_text": "Przykładowy wykres waterfall z GTmetrix ilustrujący opóźnienia ładowania: duży obraz hero, font, zewnętrzne skrypty, czas serwera",
+      "prompt": "Detailed waterfall chart mockup showing sequential resource loading: large hero image, webfont download, third‑party script, server TTFB, with colored bars for slow items, minimalist annotations, white background, professional monitoring dashboard style, no people",
+      "placement": "after_paragraph_2_in_section_GTmetrix",
+      "keywords": [
+        "waterfall",
+        "GTmetrix",
+        "wydajność",
+        "analiza zasobów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization waterfall chart web performance",
+        "pexels_query": "website performance chart waterfall",
+        "keywords_for_search": [
+          "waterfall chart",
+          "web performance visualization",
+          "resource timing graph"
+        ],
+        "style_notes": "Dashboard style, horizontal bars with color coding, clear labels, white/gray background"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Google PageSpeed Insights i Core Web Vitals",
+      "title": "Screenshot - PageSpeed Insights (przykład raportu)",
+      "description": "Mockup screenshot raportu PageSpeed Insights (desktop i mobile) z zaznaczonymi Core Web Vitals i rekomendacjami.",
+      "alt_text": "Screenshot PageSpeed Insights pokazujący oceny desktop i mobile oraz Core Web Vitals z rekomendacjami optymalizacji obrazów i skryptów",
+      "prompt": "Screenshot style mockup of Google PageSpeed Insights report showing mobile and desktop scores, Core Web Vitals metrics, and prioritized recommendations like image optimization and remove render‑blocking scripts, clean UI, high resolution, no people",
+      "placement": "after_paragraph_1_in_section_PageSpeed",
+      "keywords": [
+        "PageSpeed",
+        "Core Web Vitals",
+        "screenshot",
+        "raport"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website performance report screenshot",
+        "pexels_query": "analytics dashboard screenshot",
+        "keywords_for_search": [
+          "pagespeed insights screenshot",
+          "web vitals report",
+          "site performance UI"
+        ],
+        "style_notes": "UI screenshot look, annotated highlights, white background, brand colors used sparingly"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Sekcja: Monitorowanie i reagowanie na problemy",
+      "title": "Diagram - System alertów i procesu eskalacji",
+      "description": "Diagram pokazujący kanały monitoringu, progi alertów i ścieżkę eskalacji (UptimeRobot/SMS → Slack → on‑call).",
+      "alt_text": "Diagram procesu alertów: monitorowanie uptime, progi alertowe, powiadomienia SMS/Slack, procedura eskalacji i działania kryzysowe",
+      "prompt": "Flow diagram of monitoring and alerting process: synthetic checks, thresholds, SMS and Slack notifications, on‑call escalation steps, backup restore flow, clean minimal diagram, black/gray lines with yellow highlight nodes, professional tech style, no people",
+      "placement": "after_paragraph_2_in_section_Monitorowanie",
+      "keywords": [
+        "monitoring",
+        "alerting",
+        "escalation",
+        "uptime"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "system diagram workflow monitoring",
+        "pexels_query": "flow chart monitoring system",
+        "keywords_for_search": [
+          "alert workflow diagram",
+          "incident response flowchart",
+          "monitoring architecture"
+        ],
+        "style_notes": "Minimal flowchart, clear nodes, black/gray lines, yellow highlights for critical steps"
+      }
+    }
+  ],
+  "total_count": 6
+}

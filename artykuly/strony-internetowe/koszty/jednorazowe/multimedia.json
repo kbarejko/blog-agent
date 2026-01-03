@@ -1,0 +1,184 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image – Minimalistyczne workspace z dashboardem kosztów",
+    "description": "Fotorealistyczny top‑down shot biurka z laptopem pokazującym dashboard kosztów i KPI projektu, czysty układ, żółty akcent.",
+    "alt_text": "Minimalistyczny workspace z laptopem pokazującym dashboard wydatków projektu i KPI, czarne-białe tonacje z żółtym akcentem",
+    "prompt": "Top-down minimalist workspace flat lay, laptop displaying project cost dashboard with charts and KPIs, white desk, notebook with subtle yellow accent, modern tech-forward business aesthetic, clean natural light, muted black white gray palette, high quality, professional, no people",
+    "keywords": [
+      "jednorazowe koszty",
+      "budżet strony",
+      "dashboard",
+      "koszty projektu"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop dashboard",
+      "pexels_query": "workspace flat lay laptop analytics",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop dashboard",
+        "minimalist office"
+      ],
+      "style_notes": "Top-down composition, white/gray background, subtle yellow accent, natural lighting, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Ukryte koszty projektów",
+      "title": "Wykres: Rzeczywiste przekroczenia budżetu (przykład)",
+      "description": "Wykres słupkowy pokazujący różnicę między wstępną wyceną a rzeczywistym kosztem (przykład: 20 000 zł -> 26 000–30 000 zł).",
+      "alt_text": "Wykres słupkowy pokazujący różnicę między wstępną wyceną 20000 zł a rzeczywistym kosztem 26000–30000 zł z oznaczeniem procentowym",
+      "prompt": "Clean bar chart comparing initial estimate vs actual final cost for a sample landing project: initial 20000 PLN, final 26000-30000 PLN range, minimalist infographic style, white background, black and gray bars with subtle yellow highlight for overrun, professional, high quality, no people",
+      "placement": "after_paragraph_2_in_section_Ukryte_koszty_projektow",
+      "keywords": [
+        "przekroczenia budżetu",
+        "ukryte koszty",
+        "koszty strony",
+        "case study"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart minimal",
+        "pexels_query": "financial chart infographic clean",
+        "keywords_for_search": [
+          "bar chart infographic",
+          "budget comparison chart",
+          "cost overrun graph"
+        ],
+        "style_notes": "Minimalistyczny wykres, czytelne wartości, white background, yellow accent for overrun"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "donut_chart",
+      "section": "Sekcja: Co składa się na jednorazowe koszty",
+      "title": "Rozbicie jednorazowych kosztów (przykładowy procentowy udział)",
+      "description": "Donut chart ilustrujący przykładowy procentowy udział głównych kategorii: UX/UI, development, infrastruktura, treści, integracje, testy.",
+      "alt_text": "Wykres pierścieniowy pokazujący procentowy udział UX/UI developmentu infrastruktury treści integracji i testów w jednorazowych kosztach strony",
+      "prompt": "Minimal donut chart showing percentage breakdown of one-time website costs: UX/UI 20%, Development 35%, Infrastructure 10%, Content 15%, Integrations 15%, Testing 5%, professional infographic look, black white gray palette with small yellow slice highlights, clean labels, no people",
+      "placement": "after_paragraph_1_in_section_Wprowadzenie",
+      "keywords": [
+        "rozkład kosztów",
+        "jednorazowe koszty",
+        "budżet strony",
+        "proporcje kosztów"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "minimal infographic pie chart",
+        "pexels_query": "donut chart data visualization",
+        "keywords_for_search": [
+          "cost breakdown chart",
+          "donut infographic",
+          "budget distribution"
+        ],
+        "style_notes": "Clean labels, white background, subtle yellow highlights, no decorative elements"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Strategia budżetowania",
+      "title": "Infografika – Strategia budżetowania i etapowania płatności",
+      "description": "Pionowa infografika ilustrująca rekomendowany podział płatności (30/40/30), bufor 20–30% i flow change request z kamieniami milowymi.",
+      "alt_text": "Infografika ilustrująca etapowanie płatności 30/40/30, rekomendowany bufor 20–30% oraz procedurę change request i kamienie milowe projektu",
+      "prompt": "Vertical infographic showing payment staging: 30% deposit, 40% after design, 30% on delivery; recommended buffer 20-30%; visual change request flow with milestones icons, minimalist black white gray design with yellow highlights, clean typography, professional, no people",
+      "placement": "after_paragraph_1_in_section_Strategia_budzetowania",
+      "keywords": [
+        "strategia budżetowania",
+        "etapowanie płatności",
+        "buffer",
+        "change request"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "payment milestones infographic minimalist",
+        "pexels_query": "business payment workflow infographic",
+        "keywords_for_search": [
+          "payment staging infographic",
+          "milestone payments",
+          "project budget infographic"
+        ],
+        "style_notes": "Vertical layout, numbered steps, black/gray text, yellow accent for key percentages, clean icons"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "flowchart",
+      "section": "Sekcja: Koszty rozwoju technicznego",
+      "title": "Diagram przepływu procesu developmentu (od projektu do wdrożenia)",
+      "description": "Łatwy do przyswojenia flowchart ilustrujący etapy: audyt → UX → development → integracje → testy → wdrożenie → monitoring.",
+      "alt_text": "Flowchart procesu developmentu: audyt, UX, front-end, back-end, integracje, testy, wdrożenie i monitoring w logicznej sekwencji kroków",
+      "prompt": "Minimal flowchart diagram showing development stages: audit -> UX -> front-end -> back-end -> integrations -> testing -> deployment -> monitoring, simple arrows, icons for each step, black white gray with subtle yellow connectors, professional business style, no people",
+      "placement": "after_paragraph_1_in_section_Koszty_rozwoju_technicznego",
+      "keywords": [
+        "proces developmentu",
+        "flowchart",
+        "wdrożenie",
+        "integracje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "process flowchart diagram minimal",
+        "pexels_query": "workflow diagram clean design",
+        "keywords_for_search": [
+          "development flowchart",
+          "project stages diagram",
+          "workflow infographic"
+        ],
+        "style_notes": "Horizontal or vertical flow, clear arrows, simple icons, monochrome with yellow accents"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Infrastruktura techniczna",
+      "title": "Screenshot – Panel instalacji certyfikatu SSL (Let's Encrypt)",
+      "description": "Mockup screenshot panelu Let's Encrypt lub cPanel pokazujący kluczowe kroki instalacji i automatycznego odnowienia certyfikatu.",
+      "alt_text": "Mockup panelu instalacji certyfikatu SSL z widocznymi krokami weryfikacji domeny i ustawieniami automatycznego odnowienia certyfikatu",
+      "prompt": "Clean screenshot mockup of SSL certificate installation panel (Let's Encrypt style), showing domain verification steps, automatic renewal checkbox highlighted, clear buttons and labels, minimalist UI, gray white background with yellow accent highlights, high resolution, no people",
+      "placement": "after_paragraph_2_in_section_Infrastruktura_techniczna",
+      "keywords": [
+        "SSL",
+        "Let's Encrypt",
+        "certyfikat",
+        "instalacja"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website settings dashboard ssl",
+        "pexels_query": "admin panel screenshot mockup",
+        "keywords_for_search": [
+          "ssl panel screenshot",
+          "certificate installation mockup",
+          "hosting dashboard"
+        ],
+        "style_notes": "Use a clear admin UI mockup, highlight verification steps, white/gray background, yellow highlight"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Kryteria wyboru wykonawcy",
+      "title": "Infografika porównawcza: Freelancer vs Agencja vs Studio",
+      "description": "Porównanie zalet, wad i typowych stawek freelancer/agen cja/studio w formie poziomej tabeli/infografiki z ikonami i krótkimi wskazówkami.",
+      "alt_text": "Infografika porównawcza freelancer agencja studio: koszty, czas realizacji, zalety i wady oraz rekomendacje wyboru w zależności od projektu",
+      "prompt": "Horizontal comparison infographic: Freelancer vs Agency vs Studio with three columns, short bullets for costs, pros/cons, typical hourly rates, clean icons, minimalist black white gray palette with yellow highlights for recommendations, professional B2B style, no people",
+      "placement": "after_paragraph_2_in_section_Kryteria_wyboru_wykonawcy",
+      "keywords": [
+        "wybór wykonawcy",
+        "freelancer vs agencja",
+        "koszty wykonawcy",
+        "porównanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "comparison infographic business services",
+        "pexels_query": "service comparison infographic clean",
+        "keywords_for_search": [
+          "freelancer agency studio comparison",
+          "business services infographic",
+          "pricing comparison graphic"
+        ],
+        "style_notes": "Three-column layout, concise bullets, monochrome with yellow accent, readable icons"
+      }
+    }
+  ],
+  "total_count": 7
+}

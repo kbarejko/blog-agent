@@ -1,5 +1,5 @@
 # Workflow Configuration
-# Defines the 18-step article generation process
+# Defines the 20-step article generation process
 #
 # Per-Step AI Provider Configuration:
 # Each step can optionally specify its own AI provider or model:

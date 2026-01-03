@@ -1,164 +1,112 @@
 {
-  "hero_image": {
-    "type": "photo",
-    "title": "Hero image - Minimalistyczne biurko z dashboardem bloga",
-    "description": "Minimalistyczne, fotorealistyczne hero image: top-down workspace z laptopem pokazującym metryki bloga (ruch, indeksowane strony, linki). Bez ludzi, profesjonalny B2B look.",
-    "alt_text": "Minimalistyczny widok biurka z laptopem pokazującym dashboard analytics bloga, wykresy ruchu i żółty akcent",
-    "prompt": "Minimalist workspace flat lay with laptop showing analytics dashboard and blog metrics, white desk, notebook with yellow pen, coffee cup, natural soft light, high quality photorealistic, black white gray palette with subtle yellow accent, professional B2B aesthetic, no people",
-    "keywords": [
-      "blog",
-      "analytics",
-      "workspace",
-      "dashboard",
-      "B2B"
+    "hero_image": {
+        "type": "photo",
+        "title": "Hero image - Minimalistyczny workspace z dashboardem",
+        "description": "Czysty, fotorealistyczny hero image wprowadzający w temat content marketingu i danych analitycznych.",
+        "alt_text": "Minimalistyczne ujęcie workspace z laptopem pokazującym dashboard analityczny i notatnikiem, symbol nowoczesnego content marketingu",
+        "prompt": "Minimalist workspace flat lay with laptop showing analytics dashboard and graphs, white desk, notebook with subtle yellow accent, natural daylight, modern professional aesthetic, muted black white gray palette, clean composition, high quality, no people",
+        "keywords": ["content marketing", "analytics", "workspace", "dashboard", "laptop"],
+        "stock_suggestions": {
+            "unsplash_query": "minimalist workspace laptop analytics dashboard",
+            "pexels_query": "laptop dashboard workspace minimal",
+            "keywords_for_search": ["minimalist workspace", "analytics dashboard", "laptop flat lay"],
+            "style_notes": "Clean, modern, natural light, muted black/white/gray with a subtle yellow accent"
+        }
+    },
+    "section_media": [
+        {
+            "type": "chart",
+            "subtype": "bar_chart",
+            "section": "Treści interaktywne jako sposób na zwiększenie zaangażowania",
+            "title": "Wykres: Średni czas spędzony przy formatach treści",
+            "description": "Bar chart porównujący średni czas spędzany przez użytkowników przy treściach: artykuł statyczny, treści interaktywne, krótkie wideo.",
+            "alt_text": "Porównanie średniego czasu spędzanego przy treściach: artykuł statyczny 3 min, treści interaktywne 13 min, krótkie wideo 30 min",
+            "prompt": "Clean bar chart comparing average time spent per content format: static article 3 min, interactive content 13 min, short-form video 30 min. Minimalist infographic style, black white gray palette with subtle yellow highlights, high quality, no people",
+            "placement": "after_paragraph_2",
+            "keywords": ["engagement", "time spent", "interactive content", "video", "analytics"],
+            "stock_suggestions": {
+                "unsplash_query": "data visualization bar chart clean infographic",
+                "pexels_query": "statistics chart infographic minimal",
+                "keywords_for_search": ["engagement chart", "infographic bar chart", "time spent data visualization"],
+                "style_notes": "Minimal, readable labels, monochrome with yellow accent; suitable for embedding inline"
+            }
+        },
+        {
+            "type": "illustration",
+            "subtype": "infographic",
+            "section": "Personalizacja treści napędzana AI - nowa era komunikacji z klientem",
+            "title": "Infografika procesu personalizacji AI (5 kroków)",
+            "description": "Pionowy diagram pokazujący krok po kroku proces personalizacji z użyciem AI: zbieranie danych, segmentacja, generowanie, testy, optymalizacja.",
+            "alt_text": "Infografika procesu personalizacji AI: zbieranie danych, segmentacja, generowanie treści, testy A/B oraz optymalizacja wyników w praktyce",
+            "prompt": "Vertical infographic showing 5-step AI personalization process: data collection, segmentation, content generation, A/B testing, optimization. Clean icons, numbered steps, black white gray core with yellow highlights, modern professional infographic, no people",
+            "placement": "after_paragraph_1",
+            "keywords": ["AI personalization", "customer journey", "infographic", "segmentation", "A/B testing"],
+            "stock_suggestions": {
+                "unsplash_query": "infographic process steps clean design",
+                "pexels_query": "business process infographic minimalist",
+                "keywords_for_search": [
+                    "ai process infographic",
+                    "personalization flowchart",
+                    "step by step infographic"
+                ],
+                "style_notes": "Vertical layout, clear numbering, icons for each step, monochrome with subtle yellow accents"
+            }
+        },
+        {
+            "type": "screenshot",
+            "subtype": "interface",
+            "section": "Treści interaktywne jako sposób na zwiększenie zaangażowania",
+            "title": "Screenshot mockup: kalkulator ROI / quiz jako lead magnet",
+            "description": "Mockup panelu kalkulatora ROI pokazujący pola wejściowe, wynik i CTA — przykład prostego narzędzia lead magnet dla B2B.",
+            "alt_text": "Mockup kalkulatora ROI dla usługi B2B z polami wejściowymi, obliczonym wynikiem oszczędności oraz wyraźnym CTA jako przykład lead magnetu",
+            "prompt": "Mockup of an ROI calculator interface for B2B service, input fields on left, calculated savings on right, prominent CTA button, clean dashboard style, black white gray palette with yellow CTA highlight, high fidelity UI mockup, no people",
+            "placement": "after_paragraph_4",
+            "keywords": ["ROI calculator", "lead magnet", "UI mockup", "B2B", "conversion"],
+            "stock_suggestions": {
+                "unsplash_query": "calculator UI mockup dashboard",
+                "pexels_query": "app UI mockup interface clean",
+                "keywords_for_search": ["roi calculator mockup", "dashboard UI", "lead magnet interface"],
+                "style_notes": "High fidelity UI mockup style, clear CTA in yellow, no user avatars or faces"
+            }
+        },
+        {
+            "type": "chart",
+            "subtype": "bar_chart",
+            "section": "Video-first approach - dlaczego wideo dominuje w 2024 roku",
+            "title": "Wykres: Kluczowe statystyki dla wideo w 2024",
+            "description": "Bar chart prezentujący odsetki ważnych wskaźników dotyczących wideo: marketerzy uznający wideo za kluczowe, decyzjoniści B2B oglądający short-form, udział czasu mobile w pionowym formacie.",
+            "alt_text": "Statystyki wideo 2024: 92% marketerów uważa wideo za kluczowe, 73% decydentów B2B ogląda short form, 78% czasu mobilnego to vertical video",
+            "prompt": "Clean bar chart showing three video metrics: 92% marketers say video is key, 73% B2B decision makers watched short videos, 78% mobile time spent on vertical format. Minimalist infographic, black white gray with yellow accents, no people",
+            "placement": "after_paragraph_1",
+            "keywords": ["video statistics", "short-form video", "vertical video", "B2B", "marketing trends"],
+            "stock_suggestions": {
+                "unsplash_query": "video marketing statistics infographic",
+                "pexels_query": "social media statistics chart",
+                "keywords_for_search": [
+                    "video statistics infographic",
+                    "short form video data",
+                    "marketing metrics chart"
+                ],
+                "style_notes": "Readable percentage bars, contrast with yellow highlight, minimal text"
+            }
+        },
+        {
+            "type": "illustration",
+            "subtype": "diagram",
+            "section": "Sustainable content marketing - długoterminowa strategia zamiast quick wins",
+            "title": "Schemat content clusters (pillar + spokes)",
+            "description": "Ładny diagram ukazujący hub (pillar) i powiązane artykuły (spokes), pokazujący strukturę SEO i plan aktualizacji evergreen content.",
+            "alt_text": "Schemat content cluster: centralna strona pillar i otaczające artykuły jako spokes, pokazujący strukturę SEO i długoterminową strategię treści",
+            "prompt": "Clean diagram of a content cluster: central pillar page in the middle with multiple spoke articles connected, arrows indicating internal linking and update cycle. Minimalist design, black white gray with yellow accents, modern SEO-focused visual, no people",
+            "placement": "after_paragraph_2",
+            "keywords": ["content cluster", "pillar page", "SEO", "evergreen content", "internal linking"],
+            "stock_suggestions": {
+                "unsplash_query": "content strategy diagram infographic",
+                "pexels_query": "seo content cluster diagram",
+                "keywords_for_search": ["content cluster diagram", "pillar and cluster", "seo strategy visual"],
+                "style_notes": "Simple nodes and links, readable labels, monochrome with subtle yellow highlights"
+            }
+        }
     ],
-    "stock_suggestions": {
-      "unsplash_query": "ecommerce dashboard laptop workspace flat lay",
-      "pexels_query": "laptop analytics dashboard workspace",
-      "keywords_for_search": [
-        "analytics dashboard laptop",
-        "workspace flat lay",
-        "business laptop desk"
-      ],
-      "style_notes": "Photorealistic flat lay, natural daylight, muted black/white/gray palette, subtle yellow accent, no people"
-    }
-  },
-  "section_media": [
-    {
-      "type": "chart",
-      "subtype": "bar_chart",
-      "section": "Wprowadzenie - statystyki wpływu bloga",
-      "title": "Wykres: wpływ bloga na indeksowanie i linki",
-      "description": "Wykres słupkowy pokazujący wzrost indeksowanych stron i linków zewnętrznych dla stron z aktywnym blogiem (2020–2024). Przyjazny, minimalistyczny design.",
-      "alt_text": "Wykres słupkowy pokazujący wzrost ruchu i linków zewnętrznych dzięki blogowi w latach 2020–2024",
-      "prompt": "Clean bar chart infographic showing increase in indexed pages and backlinks for websites with blogs from 2020 to 2024, muted gray bars with subtle yellow highlight, clear numeric labels, minimalist professional style, white background, high resolution, no people",
-      "placement": "after_paragraph_2_in_Wprowadzenie",
-      "keywords": [
-        "blog",
-        "statystyki",
-        "indeksowanie",
-        "backlinks",
-        "SEO"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "data chart infographic business minimal",
-        "pexels_query": "statistics bar chart infographic",
-        "keywords_for_search": [
-          "data visualization chart",
-          "business infographic chart",
-          "bar chart analytics"
-        ],
-        "style_notes": "Minimalistyczny wykres, czytelne etykiety, białe tło, akcent żółty do podkreślenia kluczowych słupków"
-      }
-    },
-    {
-      "type": "illustration",
-      "subtype": "infographic",
-      "section": "Planowanie treści - kalendarz publikacji",
-      "title": "Infografika - 5 kroków kalendarza publikacji",
-      "description": "Pionowa infografika przedstawiająca 5-etapowy proces tworzenia i utrzymania kalendarza treści: zbieranie pytań, planowanie, harmonogram, promocja, aktualizacja.",
-      "alt_text": "Infografika 5-krokowego kalendarza publikacji: analiza potrzeb, plan, harmonogram, promocja, aktualizacja treści",
-      "prompt": "Vertical infographic of 5-step content calendar: identify audience, ideation, scheduling, promotion, update; numbered icons, clean lines, black/white/gray palette with yellow accents, professional minimalist design, portrait layout, high resolution, no people",
-      "placement": "after_paragraph_2_in_Planowanie_tresci",
-      "keywords": [
-        "kalendarz treści",
-        "content calendar",
-        "planowanie",
-        "infografika",
-        "publikacje"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "content calendar infographic clean design",
-        "pexels_query": "vertical infographic steps",
-        "keywords_for_search": [
-          "content calendar infographic",
-          "5 step infographic",
-          "editorial calendar visual"
-        ],
-        "style_notes": "Vertical, numerowane kroki, proste ikony, monotone z żółtym akcentem; dobrze nadaje się do druku i PDF do pobrania"
-      }
-    },
-    {
-      "type": "illustration",
-      "subtype": "diagram",
-      "section": "Techniczne aspekty - subdomena vs katalog",
-      "title": "Diagram porównawczy: subdomena vs katalog (folder)",
-      "description": "Prosty diagram wizualizujący wpływ subdomeny vs katalogu na SEO, koszty, kontrolę i pracochłonność działań SEO.",
-      "alt_text": "Diagram porównawczy: wpływ subdomeny vs katalogu na SEO, koszt wdrożenia i trudność zarządzania",
-      "prompt": "Comparative diagram flowchart showing subdomain versus folder SEO impact, arrows for pros and cons, metrics: SEO transfer, cost, scalability, simple icons, monochrome design with yellow highlights, flat vector style, high clarity, no people",
-      "placement": "after_paragraph_about_subdomain_vs_catalog",
-      "keywords": [
-        "subdomena",
-        "katalog",
-        "SEO",
-        "porownanie",
-        "diagram"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "comparison diagram vector clean",
-        "pexels_query": "flowchart comparison design",
-        "keywords_for_search": [
-          "subdomain vs folder diagram",
-          "seo comparison diagram",
-          "technical architecture infographic"
-        ],
-        "style_notes": "Flat vector, czytelne ikony, monochrome z subtelnym żółtym akcentem; idealne do artykułu technicznego"
-      }
-    },
-    {
-      "type": "screenshot",
-      "subtype": "interface",
-      "section": "Techniczne aspekty - integracja z CMS",
-      "title": "Screenshot mockup: porównanie CMS (WordPress vs Webflow)",
-      "description": "Mockup porównawczy paneli CMS: WordPress po lewej, Webflow po prawej, wyróżnione metryki: koszt, elastyczność, SEO. Pokazuje realny interfejs i ułatwia decyzję.",
-      "alt_text": "Mockup porównania CMS: panel WordPress obok Webflow z wyróżnieniem kosztów, elastyczności i SEO funkcjonalności",
-      "prompt": "Mockup screenshot of CMS comparison panel showing WordPress dashboard beside Webflow editor, highlighted rows for cost, flexibility, SEO impact, clean UI mockup style, grayscale with yellow accents, high resolution, annotated labels, no people",
-      "placement": "after_paragraph_about_WordPress_vs_other_CMS",
-      "keywords": [
-        "WordPress",
-        "Webflow",
-        "CMS",
-        "porownanie",
-        "mockup"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "wordpress dashboard mockup computer",
-        "pexels_query": "website editor mockup dashboard",
-        "keywords_for_search": [
-          "cms dashboard mockup",
-          "wordpress webflow comparison",
-          "editor interface mockup"
-        ],
-        "style_notes": "Clean UI mockup, high resolution, annotate key metrics, black/white/gray with yellow highlights; avoid real person screenshots"
-      }
-    },
-    {
-      "type": "illustration",
-      "subtype": "infographic",
-      "section": "Tworzenie angażujących treści - struktura wpisu",
-      "title": "Schemat skutecznego wpisu: tytuł, lead, CTA",
-      "description": "Schemat blokowy pokazujący elementy konwertującego wpisu: nagłówek, lead, sekcje, listy, grafiki, CTA, oferta do pobrania. Przydatne jako checklist do pobrania.",
-      "alt_text": "Ilustracja schematu skutecznego wpisu: tytuł, lead, struktura akapitów, CTA i elementy konwersyjne z przykładami",
-      "prompt": "Clean schematic illustration of effective blog post structure: headline, intro, headings, lists, CTA and downloadable asset, modular blocks, minimalist icons, black white gray with yellow accent, high quality vector, portrait or landscape layout, no people",
-      "placement": "after_paragraph_about_titles_and_intros",
-      "keywords": [
-        "struktura wpisu",
-        "CTA",
-        "lead",
-        "checklist",
-        "infographic"
-      ],
-      "stock_suggestions": {
-        "unsplash_query": "blog post checklist infographic",
-        "pexels_query": "content structure infographic",
-        "keywords_for_search": [
-          "blog structure diagram",
-          "content checklist infographic",
-          "post template visual"
-        ],
-        "style_notes": "Modular blocks, minimalist icons, use brand palette (black/white/gray + yellow accent), suitable as downloadable PDF"
-      }
-    }
-  ],
-  "total_count": 6
+    "total_count": 6
 }

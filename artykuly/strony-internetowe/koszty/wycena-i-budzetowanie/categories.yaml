@@ -1,0 +1,14 @@
+categories:
+- slug: koszt-stron-internetowych
+  title: Koszt stron internetowych
+  path: strony-internetowe/koszt-stron-internetowych
+- slug: koszty-i-budzetowanie-it
+  title: Koszty i budżetowanie IT
+  path: strategia-it/koszty-i-budzetowanie-it
+- slug: wybor-wykonawcy-i-modelu-wspolpracy
+  title: Wybór wykonawcy i modelu współpracy
+  path: strategia-it/wybor-wykonawcy-i-modelu-wspolpracy
+- slug: planowanie-aplikacji-webowych
+  title: Planowanie aplikacji webowych
+  path: rozwoj-oprogramowania/planowanie-aplikacji-webowych
+count: 4

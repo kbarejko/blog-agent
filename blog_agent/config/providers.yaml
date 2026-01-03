@@ -37,67 +37,97 @@ providers:
     max_tokens: 4000
     temperature: 0.7
 
-  # OpenAI - GPT-5 (latest flagship model, most capable)
-  # Released: August 7, 2025
+  # OpenAI - GPT-5.2 (latest flagship model, most capable)
+  # Released: December 2025
   #
   # GPT-5 Reasoning Model Notes:
   # - Only supports temperature=1.0 (custom temperature rejected by API)
   # - Uses internal reasoning tokens before output
   # - Token limits auto-adjusted in OpenAIProvider (e.g., 800 → 8000)
-  # - Actual API model name: gpt-5-2025-08-07
   # - Uses max_completion_tokens (not max_tokens)
   # - Supports up to 128K output tokens
   openai-gpt5:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-2025-08-07
+    model: gpt-5.2
     max_tokens: 32000
     temperature: 1.0
 
-  # OpenAI - GPT-5 Mini (faster and cheaper than GPT-5)
-  # Same reasoning model characteristics as GPT-5
+  # OpenAI - GPT-5.2 Mini (faster and cheaper than GPT-5.2)
+  # Same reasoning model characteristics as GPT-5.2
   openai-gpt5-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini-2025-08-07
+    model: gpt-5.2-mini
     max_tokens: 16000
     temperature: 1.0
 
-  # OpenAI - GPT-5 Nano (smallest and cheapest GPT-5 variant)
-  # Same reasoning model characteristics as GPT-5
+  # OpenAI - GPT-5.2 Nano (smallest and cheapest GPT-5.2 variant)
+  # Same reasoning model characteristics as GPT-5.2
   openai-gpt5-nano:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-nano-2025-08-07
+    model: gpt-5.2-nano
     max_tokens: 8000
     temperature: 1.0
 
-  # Aliases for convenience (all naming variants)
+  # Aliases for convenience - GPT-5.2 (current default)
   gpt5:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-2025-08-07
+    model: gpt-5.2
     max_tokens: 32000
     temperature: 1.0
 
   gpt-5:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-2025-08-07
+    model: gpt-5.2
     max_tokens: 32000
     temperature: 1.0
 
-  gpt-5.1:
+  gpt-5.2:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-2025-08-07
+    model: gpt-5.2
     max_tokens: 32000
     temperature: 1.0
 
   gpt5-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini-2025-08-07
+    model: gpt-5.2-mini
     max_tokens: 16000
     temperature: 1.0
 
   gpt-5-mini:
     api_key: ${OPENAI_API_KEY}
-    model: gpt-5-mini-2025-08-07
+    model: gpt-5.2-mini
     max_tokens: 16000
+    temperature: 1.0
+
+  gpt-5.2-mini:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5.2-mini
+    max_tokens: 16000
+    temperature: 1.0
+
+  gpt5-nano:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5.2-nano
+    max_tokens: 8000
+    temperature: 1.0
+
+  gpt-5-nano:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5.2-nano
+    max_tokens: 8000
+    temperature: 1.0
+
+  gpt-5.2-nano:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5.2-nano
+    max_tokens: 8000
+    temperature: 1.0
+
+  # Legacy GPT-5.1 aliases (for backwards compatibility)
+  gpt-5.1:
+    api_key: ${OPENAI_API_KEY}
+    model: gpt-5-2025-08-07
+    max_tokens: 32000
     temperature: 1.0
 
   gpt-5.1-mini:
@@ -106,13 +136,7 @@ providers:
     max_tokens: 16000
     temperature: 1.0
 
-  gpt5-nano:
-    api_key: ${OPENAI_API_KEY}
-    model: gpt-5-nano-2025-08-07
-    max_tokens: 8000
-    temperature: 1.0
-
-  gpt-5-nano:
+  gpt-5.1-nano:
     api_key: ${OPENAI_API_KEY}
     model: gpt-5-nano-2025-08-07
     max_tokens: 8000

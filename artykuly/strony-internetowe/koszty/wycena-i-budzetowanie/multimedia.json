@@ -1,0 +1,160 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne biurko z dashboardem budżetowym",
+    "description": "Hero image wprowadza czytelnika w tematykę wyceny i budżetowania: minimalistyczny workspace z laptopem pokazującym wykresy i arkusz budżetowy.",
+    "alt_text": "Minimalistyczne biurko z laptopem pokazującym dashboard budżetowy i wykresy, symbol planowania kosztów strony",
+    "prompt": "Minimalist workspace flat lay, laptop displaying budget dashboard with charts and ROI table, white desk, notebook with subtle yellow accent, natural daylight, clean professional business aesthetic, high quality, no people",
+    "keywords": [
+      "budżetowanie",
+      "dashboard",
+      "workspace",
+      "laptop",
+      "ROI"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimal workspace laptop dashboard",
+      "pexels_query": "minimal workspace laptop analytics",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop dashboard",
+        "budget analytics"
+      ],
+      "style_notes": "Minimalist, natural light, white or light-gray background, subtle yellow accent, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Sekcja: Wprowadzenie i statystyki budżetowe",
+      "title": "Wykres: Odsetek projektów przekraczających budżet",
+      "description": "Prosty wykres słupkowy pokazujący, że ~60% projektów przekracza pierwotny budżet oraz typowy poziom przekroczenia.",
+      "alt_text": "Wykres słupkowy: 60% projektów przekracza budżet, średnie przekroczenie 50–100%, wizualne ostrzeżenie przed niedoszacowaniem",
+      "prompt": "Clean bar chart showing percent of web projects over budget (60%) and average overrun (50-100%), minimalist infographic style, black white gray palette with subtle yellow highlight, high quality, no people",
+      "placement": "after_paragraph_2",
+      "keywords": [
+        "budżet",
+        "przekroczenie",
+        "statystyki",
+        "wykres"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data chart infographic clean design",
+        "pexels_query": "statistics bar chart infographic",
+        "keywords_for_search": [
+          "data visualization",
+          "infographic chart",
+          "statistics graph"
+        ],
+        "style_notes": "Use clean bars, readable labels, black/gray base with one yellow accent; professional infographic look"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Sekcja: Struktura kosztów w projekcie strony",
+      "title": "Wykres kołowy: Struktura kosztów (przykładowa)",
+      "description": "Pie chart ilustrujący przykładowy rozkład kosztów: projekt graficzny, programowanie, wdrożenie, dodatkowe usługi, rezerwa.",
+      "alt_text": "Wykres kołowy ilustrujący strukturę kosztów: projekt 25%, programowanie 45%, wdrożenie 15%, dodatkowe 10%, rezerwa 5%",
+      "prompt": "Minimal pie chart showing cost distribution for a website project: design 25%, development 45%, deployment 15%, extras 10%, reserve 5%, flat clean style, black white gray with yellow slices, high resolution, no people",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "koszty",
+        "struktura",
+        "wykres kołowy",
+        "budżet"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "clean pie chart infographic",
+        "pexels_query": "data pie chart minimal",
+        "keywords_for_search": [
+          "cost breakdown",
+          "budget pie chart",
+          "financial infographic"
+        ],
+        "style_notes": "Flat minimalist pie chart, clear labels, use brand colors sparingly (yellow accent)"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Czerwone flagi w ofertach",
+      "title": "Infografika: 7 czerwonych flag przy wyborze wykonawcy",
+      "description": "Pionowa infografika z ikonami przedstawiająca 7 sygnałów ostrzegawczych (czerwone flagi) przy wyborze dostawcy usług webdev.",
+      "alt_text": "Infografika 7 czerwonych flag przy wyborze wykonawcy: nierealne terminy, brak referencji, niejasny zakres, niska cena itp.",
+      "prompt": "Vertical infographic showing 7 red flags when choosing a web vendor: unrealistic deadlines, no references, unclear scope, low price, no warranty, hidden fees, poor communication; icons for each, minimalist black white gray with red/yellow accents, no people",
+      "placement": "after_paragraph_1_in_section",
+      "keywords": [
+        "czerwone flagi",
+        "wykonawca",
+        "infografika",
+        "oferta"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "checklist infographic minimalist",
+        "pexels_query": "warning icons infographic design",
+        "keywords_for_search": [
+          "red flags infographic",
+          "vendor checklist",
+          "service warning icons"
+        ],
+        "style_notes": "Vertical numbered list, simple icons, limit palette to black/gray/white with small yellow or red highlights"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Sekcja: Model MVP dla stron",
+      "title": "Infografika: Model MVP w fazach",
+      "description": "Graficzne przedstawienie podejścia etapowego: Faza 1 (MVP), Faza 2 (Rozszerzenia), Faza 3 (Skalowanie) — z korzyściami i przykładowymi funkcjami.",
+      "alt_text": "Infografika modelu MVP: Faza 1 landing i formularz, Faza 2 rejestracja i integracje, Faza 3 skalowanie i automatyzacja",
+      "prompt": "Horizontal infographic showing 3-phase MVP model: Phase 1 MVP (landing, contact form), Phase 2 features (registration, integrations), Phase 3 scaling (performance, automation). Clean icons, minimalist layout, black white gray with yellow accents, no people",
+      "placement": "after_paragraph_2_in_section",
+      "keywords": [
+        "MVP",
+        "fazy",
+        "infografika",
+        "planowanie"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "product roadmap infographic minimal",
+        "pexels_query": "project phases infographic",
+        "keywords_for_search": [
+          "MVP roadmap",
+          "phase infographic",
+          "product stages"
+        ],
+        "style_notes": "Clean timeline/roadmap look, simple icons per phase, use yellow for emphasis"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Sekcja: Szablon arkusza kalkulacyjnego",
+      "title": "Screenshot mockup: arkusz budżetowy (planned vs actual)",
+      "description": "Mockup screenshot pokazujący szablon arkusza budżetowego z kolumnami: Planowane, Rzeczywiste, Różnica, % odchylenia i polem kalkulacji ROI.",
+      "alt_text": "Mockup arkusza budżetowego z kolumnami planowane, rzeczywiste, różnica i kalkulacją ROI ułatwiającą porównanie ofert",
+      "prompt": "Mockup screenshot of a budget spreadsheet template showing columns Planned, Actual, Difference, Percentage deviation and ROI calculation, clean minimal UI, clear typography, highlight key cells with subtle yellow, high resolution, no people",
+      "placement": "after_paragraph_1_in_section",
+      "keywords": [
+        "arkusz",
+        "budżet",
+        "ROI",
+        "spreadsheet",
+        "planned vs actual"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "budget spreadsheet template clean layout",
+        "pexels_query": "financial spreadsheet desktop mockup",
+        "keywords_for_search": [
+          "budget template spreadsheet",
+          "planned vs actual sheet",
+          "ROI calculation spreadsheet"
+        ],
+        "style_notes": "Simple spreadsheet mockup, legible fonts, white/light-gray background, yellow highlights for key metrics"
+      }
+    }
+  ],
+  "total_count": 6
+}

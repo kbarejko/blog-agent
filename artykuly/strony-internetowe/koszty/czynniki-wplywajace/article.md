@@ -1,7 +1,7 @@
 ## Co znajdziesz w artykule?
 
 - **Różnice w cenie** - Zastanawiasz się, dlaczego ceny za podobne strony mogą się różnić nawet dziesięciokrotnie? Odkryj, jakie czynniki rzeczywiście wpływają na wycenę i co może sugerować, że warto zapłacić więcej.
-- **Ukryte koszty** - Czy wiesz, że po uruchomieniu strony możesz napotkać dodatkowe opłaty za hosting, wsparcie techniczne czy aktualizacje? Dowiedz się, na co być przygotowanym, aby uniknąć niespodzianek.
+- **Ukryte koszty** - Czy wiesz, że po uruchomieniu strony możesz napotkać dodatkowe [opłaty za hosting](/artykuly/strony-internetowe/koszty/domena-i-hosting), wsparcie techniczne czy aktualizacje? Dowiedz się, na co być przygotowanym, aby uniknąć niespodzianek.
 - **Freelancer vs agencja** - Kiedy lepiej postawić na freelancera, a kiedy na agencję? Przeanalizuj, która opcja może być bardziej opłacalna dla Twojego projektu, przy uwzględnieniu stosunku jakości do ceny.
 - **Etapowanie inwestycji** - Jak rozpocząć od podstawowej wersji MVP i zaplanować rozwój strony, aby nie przekroczyć budżetu? Praktyczne wskazówki pomogą Ci racjonalnie rozłożyć wydatki.
 - **Checklist porównania ofert** - Jakie pytania warto zadać wykonawcom i na jakie kryteria zwrócić uwagę? Przygotuj się do wyboru najlepszej propozycji dzięki konkretnym wskazówkom.
@@ -10,15 +10,15 @@
 
 # Czynniki Wpływające
 
-Kiedy wreszcie decydujesz się na stworzenie strony internetowej dla swojej firmy, możesz się zdziwić, jak różnorodne są oferty wykonawców. Jedna firma wycenia prostą stronę wizytówkę na 2000 zł, inna na 15 000 zł, a jeszcze inna proponuje "kompleksowe rozwiązanie" za 40 000 zł.
+Kiedy wreszcie decydujesz się na stworzenie strony internetowej dla swojej firmy, możesz się zdziwić, jak różnorodne są oferty wykonawców. Jedna firma [wycenia prostą stronę wizytówkę](/artykuly/strony-internetowe/koszty/wycena-i-budzetowanie) na 2000 zł, inna na 15 000 zł, a jeszcze inna proponuje "kompleksowe rozwiązanie" za 40 000 zł.
 
 ## Wprowadzenie - dlaczego koszt strony internetowej tak różni się między ofertami?
 
 Chaos cenowy w branży web developmentu to codzienność dla każdego przedsiębiorcy szukającego wykonawcy strony. Różnice sięgające nawet tysiąca procent między ofertami nie są rzadkością – zwłaszcza gdy porównujesz propozycje freelancerów z cenami renomowanych agencji.
 
-Problem polega na tym, że większość wycen przypomina czarną skrzynkę. Jeden wykonawca obiecuje "responsywną stronę z CMS-em", inny oferuje "dedykowane rozwiązanie z optymalizacją SEO", a jeszcze inny skupia się na "zaawansowanym UX/UI". Dla właściciela firmy, który po prostu chce mieć profesjonalną obecność w internecie, takie opisy mogą brzmieć jak żargon z innej planety.
+Problem polega na tym, że większość wycen przypomina czarną skrzynkę. Jeden wykonawca obiecuje "[responsywną stronę z CMS-em](/artykuly/strony-internetowe/koszty/porownanie-technik)", inny oferuje "dedykowane rozwiązanie z optymalizacją SEO", a jeszcze inny skupia się na "zaawansowanym UX/UI". Dla właściciela firmy, który po prostu chce mieć profesjonalną obecność w internecie, takie opisy mogą brzmieć jak żargon z innej planety.
 
-Frustracja narasta, gdy próbujesz porównać oferty metodą "jabłka do jabłek". Pozornie identyczne strony wizytówkowe mogą kosztować 3000 lub 18000 zł – ale czy naprawdę są identyczne? Często dopiero po podpisaniu umowy okazuje się, że "drobne różnice" w specyfikacji oznaczają przepaść w jakości, funkcjonalności czy [długoterminowych kosztach utrzymania](/artykuly/strony-internetowe/koszty/abonament-vs-jednorazowo).
+Frustracja narasta, gdy próbujesz porównać oferty metodą "jabłka do jabłek". Pozornie identyczne strony wizytówkowe mogą kosztować 3000 lub 18000 zł – ale czy naprawdę są identyczne? Często dopiero po podpisaniu umowy okazuje się, że "drobne różnice" w specyfikacji oznaczają przepaść w jakości, funkcjonalności czy [[długoterminowych kosztach utrzymania](/artykuly/strony-internetowe/koszty/abonament-vs-jednorazowo)](/artykuly/strony-internetowe/koszty/abonament-vs-jednorazowo).
 
 W tym artykule przyjrzymy się wszystkim czynnikom, które realnie wpływają na koszt tworzenia strony internetowej. Dowiesz się, za co konkretnie płacisz, kiedy warto zainwestować więcej, a gdzie można rozsądnie zaoszczędzić. Przede wszystkim jednak zyskasz umiejętność zadawania właściwych pytań wykonawcom – bo tylko świadomy klient może podjąć świadomą decyzję.
 

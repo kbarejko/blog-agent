@@ -1,17 +1,17 @@
 categories:
-- slug: blogowanie
-  title: Blogowanie
-  path: marketing-w-internecie/content-marketing/blogowanie
-- slug: content-marketing
-  title: Content Marketing
-  path: marketing-w-internecie/content-marketing
-- slug: seo-i-optymalizacja-stron
-  title: SEO i Optymalizacja Stron
-  path: marketing-w-internecie/seo-i-optymalizacja-stron
-- slug: wordpress
-  title: Wordpress
-  path: strony-internetowe/content-management-systems-cms/wordpress
-- slug: content-management-systems-cms
-  title: Content Management Systems (CMS)
-  path: strony-internetowe/content-management-systems-cms
+    - slug: marketing-w-internecie
+      title: Marketing w Internecie
+      path: marketing-w-internecie
+    - slug: content-marketing
+      title: Content Marketing
+      path: marketing-w-internecie/content-marketing
+    - slug: tworzenie-tresci-wideo
+      title: Tworzenie Treści Wideo
+      path: marketing-w-internecie/content-marketing/tworzenie-tresci-wideo
+    - slug: social-media
+      title: Social Media
+      path: marketing-w-internecie/social-media
+    - slug: seo-i-optymalizacja-stron
+      title: SEO i Optymalizacja Stron
+      path: marketing-w-internecie/seo-i-optymalizacja-stron
 count: 5

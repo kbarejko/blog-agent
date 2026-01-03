@@ -1,0 +1,14 @@
+categories:
+- slug: hosting-i-infrastruktura
+  title: Hosting i Infrastruktura
+  path: strony-internetowe/hosting-i-infrastruktura
+- slug: koszt-stron-internetowych
+  title: Koszt stron internetowych
+  path: strony-internetowe/koszt-stron-internetowych
+- slug: zarzadzanie-domenami
+  title: Zarządzanie Domenami
+  path: strony-internetowe/hosting-i-infrastruktura/zarzadzanie-domenami
+- slug: bezpieczenstwo
+  title: Bezpieczeństwo
+  path: bezpieczenstwo
+count: 4

@@ -1,0 +1,164 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem kosztów",
+    "description": "Fotorealistyczny, minimalistyczny flat-lay z laptopem pokazującym dashboard porównujący koszty projektów webowych; elegancki biznesowy mood, bez postaci.",
+    "alt_text": "Minimalistyczne zdjęcie workspace z laptopem pokazującym dashboard kosztów projektów webowych, czarno-białe z żółtym akcentem",
+    "prompt": "Minimalist workspace flat lay with laptop displaying a web projects cost comparison dashboard, clean white desk, notebook with subtle yellow accent, natural side lighting, high-quality photorealistic, modern B2B aesthetic, muted black white gray palette, minimalist composition, professional, no people",
+    "keywords": [
+      "koszty projektów",
+      "dashboard",
+      "workspace",
+      "laptop",
+      "B2B"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop analytics dashboard",
+      "pexels_query": "laptop analytics dashboard workspace",
+      "keywords_for_search": [
+        "workspace flat lay",
+        "laptop dashboard",
+        "minimalist office"
+      ],
+      "style_notes": "Photorealistic flat-lay, neutral white/gray background, subtle yellow accent, natural daylight, no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Przegląd głównych technologii (różnice kosztowe)",
+      "title": "Wykres porównania kosztów startowych według technologii",
+      "description": "Wykres słupkowy porównujący orientacyjne koszty startowe dla trzech typów projektów (prosta strona, e-commerce 1 000 SKU, system B2B) w trzech podejściach: WordPress, no-code, custom.",
+      "alt_text": "Wykres słupkowy porównujący koszty startowe: WordPress, no-code, custom development w PLN dla przykładowych projektów",
+      "prompt": "Clean bar chart comparing initial project costs for WordPress, No-code, and Custom development across three sample project types: simple site, e-commerce 1000 SKU, enterprise B2B. Minimalist infographic style, black white gray palette with subtle yellow highlights, clear PLN labels, high resolution, professional, no people",
+      "placement": "after_paragraph_3",
+      "keywords": [
+        "koszty startowe",
+        "porównanie technologii",
+        "wykres słupkowy",
+        "WordPress",
+        "custom development"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart clean infographic",
+        "pexels_query": "business chart infographic",
+        "keywords_for_search": [
+          "bar chart infographic",
+          "cost comparison chart",
+          "financial bar graph"
+        ],
+        "style_notes": "Minimal, high-contrast labels, neutral background, yellow highlight for highest values, exported PNG/SVG for retina"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "donut_chart",
+      "section": "Analiza kosztów według etapów projektu (Ukryte wydatki)",
+      "title": "Wykres kołowy - podział kosztów 3-letnich",
+      "description": "Donut chart pokazujący udział kategorii kosztowych w 3-letnim budżecie: wdrożenie, hosting/maintenance oraz integracje/wsparcie. Pomaga zrozumieć ukryte wydatki.",
+      "alt_text": "Wykres kołowy pokazujący podział kosztów 3-letnich: wdrożenie, hosting i utrzymanie oraz integracje i wsparcie, wartości procentowe",
+      "prompt": "Minimalist donut chart showing 3-year cost breakdown: implementation, hosting & maintenance, integrations & support. Percentage labels, neutral gray background, subtle yellow accent on key slice, clean infographic style, high quality, professional, no people",
+      "placement": "after_paragraph_18",
+      "keywords": [
+        "ukryte koszty",
+        "podział kosztów",
+        "maintenance",
+        "hosting",
+        "integracje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "donut chart infographic clean design",
+        "pexels_query": "data visualization pie chart",
+        "keywords_for_search": [
+          "donut chart",
+          "cost breakdown infographic",
+          "percentage chart"
+        ],
+        "style_notes": "Neutral gray background, readable percentage labels, one yellow accent slice for emphasis, export in PNG/SVG"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Jak wybrać optymalną technologię (Framework decyzyjny)",
+      "title": "Infografika - 5 pytań decyzyjnych",
+      "description": "Pionowa infografika przedstawiająca 5 kluczowych pytań decyzyjnych (budżet, tempo wzrostu, integracje, konkurencja, zasoby), z ikonami i krótkimi wskazówkami przy każdym pytaniu.",
+      "alt_text": "Infografika z 5 pytaniami: budżet, tempo rozwoju, integracje, konkurencja, zasoby wewnętrzne; ikony i krótkie wskazówki",
+      "prompt": "Vertical infographic with five decision questions: budget, growth pace, integrations, competition, internal resources. Numbered steps with simple icons, clean lines, black white gray palette, yellow accents for emphasis, modern professional portrait layout, high quality, no people",
+      "placement": "after_paragraph_36",
+      "keywords": [
+        "framework decyzyjny",
+        "infografika",
+        "5 pytań",
+        "wybór technologii",
+        "decision checklist"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "business checklist infographic minimal",
+        "pexels_query": "vertical infographic design clean",
+        "keywords_for_search": [
+          "decision infographic",
+          "five step infographic",
+          "business checklist"
+        ],
+        "style_notes": "Portrait layout, numbered icons, black/white/gray base with subtle yellow highlights, legible typography for web"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "diagram",
+      "section": "Koszty rozwoju i skalowania (Architektura rozwiązania)",
+      "title": "Diagram porównawczy architektury: WordPress vs No-code vs Custom",
+      "description": "Prosty diagram poziomy ilustrujący różnice w skalowalności, możliwościach integracji i modelu kosztów utrzymania między WordPress, platformami no-code i rozwiązaniem customowym.",
+      "alt_text": "Schemat architektury: porównanie WordPress, no-code i custom pod względem skalowalności, integracji i kosztów utrzymania",
+      "prompt": "Horizontal system architecture diagram comparing WordPress, No-code and Custom solutions: scalability tiers, integration points, maintenance cost layers. Simple boxes, arrows, concise labels, monochrome palette with yellow highlights, clean technical illustration style, high-resolution, no people",
+      "placement": "after_paragraph_26",
+      "keywords": [
+        "architektura",
+        "skalowalność",
+        "porównanie technologii",
+        "diagram",
+        "integracje"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "system architecture diagram clean illustration",
+        "pexels_query": "technical diagram infographic",
+        "keywords_for_search": [
+          "architecture comparison",
+          "scalability diagram",
+          "integration points"
+        ],
+        "style_notes": "Technical, schematic look; simple shapes, readable labels; use yellow to mark critical integration points"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Przegląd głównych technologii (WordPress praktyka)",
+      "title": "Mockup zrzutu panelu WordPress - wtyczki i bezpieczeństwo",
+      "description": "Realistyczny mockup panelu WordPress z widoczną listą wtyczek, ustawieniami backupu i bezpieczeństwa oraz zaznaczonymi kluczowymi elementami do monitoringu.",
+      "alt_text": "Zrzut ustawień panelu WordPress z listą wtyczek i ustawieniami bezpieczeństwa, wskazówki dotyczące aktualizacji i backupów",
+      "prompt": "Mockup screenshot of WordPress admin plugins and security settings panel, annotated highlights for backups and update controls, clean UI mockup style, neutral colors with subtle yellow callouts, high-res realistic interface rendering for documentation, no people",
+      "placement": "after_paragraph_9",
+      "keywords": [
+        "WordPress",
+        "panel admin",
+        "wtyczki",
+        "backup",
+        "bezpieczeństwo"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "admin dashboard mockup software interface",
+        "pexels_query": "web admin dashboard mockup",
+        "keywords_for_search": [
+          "dashboard mockup",
+          "admin panel screenshot",
+          "wordpress mockup"
+        ],
+        "style_notes": "Realistic UI mockup, annotate key controls, neutral palette, yellow callouts for emphasis, export PNG"
+      }
+    }
+  ],
+  "total_count": 6
+}

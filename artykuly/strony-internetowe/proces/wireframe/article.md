@@ -32,7 +32,7 @@ W branży IT często można natknąć się na specjalistyczny żargon, który po
 
 ### Wireframe a mockup i prototyp
 
-Wireframe jest jak szkic – pokazuje, gdzie będą znajdować się poszczególne elementy, ale bez szczegółów wizualnych, takich jak kolory czy czcionki. To trochę jak plan mieszkania: wiesz, gdzie jest kuchnia, ale nie znasz jeszcze koloru kafelków.
+Wireframe jest jak szkic – pokazuje, gdzie będą znajdować się poszczególne elementy, ale bez szczegółów wizualnych, takich jak [kolory czy czcionki](/artykuly/strony-internetowe/proces/projektowanie-ux-ui). To trochę jak plan mieszkania: wiesz, gdzie jest kuchnia, ale nie znasz jeszcze koloru kafelków.
 
 Mockup dodaje warstwę wizualną. To jak ten sam plan mieszkania, ale już z kolorami ścian i umeblowaniem. Możesz zobaczyć, jak strona będzie wyglądać, choć nie jest jeszcze interaktywna.
 
@@ -98,7 +98,7 @@ Zacznijmy od hierarchii informacji. Największe elementy wskazują na najważnie
 
 Struktura informacji powinna odpowiadać sposobowi myślenia Twoich klientów. Jeśli sprzedajesz oprogramowanie B2B, certyfikaty i referencje mogą okazać się kluczowe na wczesnym etapie. W przypadku e-commerce ważne będą kategorie produktów i funkcja wyszukiwania.
 
-Umiejscowienie kluczowych elementów biznesowych nie jest przypadkowe. Numer telefonu w prawym górnym rogu, formularz kontaktowy "above the fold", przyciski społecznościowe w stopce – każda z tych pozycji może wpływać na konwersje.
+[Umiejscowienie kluczowych elementów biznesowych](/artykuly/strony-internetowe/proces/brief) nie jest przypadkowe. Numer telefonu w prawym górnym rogu, formularz kontaktowy "above the fold", przyciski społecznościowe w stopce – każda z tych pozycji może wpływać na konwersje.
 
 Call-to-action to serce każdej strony biznesowej. Na wireframie powinny być wyraźnie zaznaczone główne przyciski ("Skontaktuj się", "Kup teraz") i drugorzędne ("Dowiedz się więcej"). Jeśli CTA gdzieś giną, problem może pojawić się już na etapie graficznym.
 

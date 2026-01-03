@@ -1,0 +1,186 @@
+{
+  "hero_image": {
+    "type": "photo",
+    "title": "Hero image - Minimalistyczne workspace z dashboardem kosztów",
+    "description": "Minimalistyczna fotografia flat‑lay z laptopem prezentującym dashboard z podziałem kosztów strony (hosting, domena, narzędzia).",
+    "alt_text": "Minimalistyczny workspace top‑down z laptopem pokazującym dashboard kosztów strony (hosting, domena, narzędzia)",
+    "prompt": "Minimalist workspace flat lay, laptop displaying a cost breakdown dashboard (hosting, domain, tools), white desk, notebook with subtle yellow accent, modern tech aesthetic, clean black/white/gray palette, high quality photo, natural light, no people",
+    "keywords": [
+      "hosting",
+      "koszty",
+      "dashboard",
+      "workspace",
+      "strona internetowa"
+    ],
+    "stock_suggestions": {
+      "unsplash_query": "minimalist workspace laptop dashboard",
+      "pexels_query": "workspace laptop analytics dashboard",
+      "keywords_for_search": [
+        "minimalist workspace",
+        "laptop dashboard",
+        "cost breakdown",
+        "business workspace"
+      ],
+      "style_notes": "Clean, professional, white/light gray background, black/white/gray palette, one subtle yellow accent; no people"
+    }
+  },
+  "section_media": [
+    {
+      "type": "chart",
+      "subtype": "bar_chart",
+      "section": "Hosting i domena - Koszty hostingu webowego",
+      "title": "Wykres słupkowy: typy hostingu i przykładowe koszty miesięczne",
+      "description": "Porównanie kosztów miesięcznych: hosting współdzielony, VPS, serwer dedykowany — jasna wizualizacja zakresów cenowych.",
+      "alt_text": "Porównanie kosztów hostingu miesięcznie: hosting współdzielony, VPS i serwer dedykowany z orientacyjnymi wartościami w PLN",
+      "prompt": "Clean bar chart comparing monthly hosting cost ranges: shared, VPS, dedicated; minimalist professional style, black/gray bars with subtle yellow highlight for recommended option, white background, readable labels and values in PLN, high quality infographic, no people",
+      "placement": "after_paragraph_2_in_hosting_section",
+      "keywords": [
+        "hosting",
+        "koszty hostingu",
+        "VPS",
+        "dedicated"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "data visualization bar chart business",
+        "pexels_query": "financial chart data visualization",
+        "keywords_for_search": [
+          "hosting costs chart",
+          "server cost comparison",
+          "bar chart hosting"
+        ],
+        "style_notes": "Minimal, clear labels, black/gray palette with single yellow accent; use vector chart for sharp display"
+      }
+    },
+    {
+      "type": "chart",
+      "subtype": "pie_chart",
+      "section": "Licencje i narzędzia - typowe miesięczne koszty",
+      "title": "Wykres kołowy: przykładowy podział miesięcznych kosztów narzędzi i licencji",
+      "description": "Pie chart pokazujący udział kategorii wydatków w miesięcznym koszcie utrzymania (hosting, narzędzia marketingowe, wsparcie techniczne, backupy).",
+      "alt_text": "Wykres kołowy prezentujący udział wydatków miesięcznych: hosting, narzędzia marketingowe, wsparcie techniczne, backupy",
+      "prompt": "Minimal pie chart showing monthly cost distribution: Hosting 40%, Tools & SaaS 30%, Maintenance & support 20%, Backups 10%; professional infographic style, monochrome with yellow slice accent, white background, no people",
+      "placement": "after_paragraph_1_in_tools_section",
+      "keywords": [
+        "narzędzia",
+        "koszty",
+        "SaaS",
+        "miesięczne"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "pie chart infographic minimal",
+        "pexels_query": "data pie chart business",
+        "keywords_for_search": [
+          "monthly cost distribution",
+          "budget pie chart",
+          "SaaS cost visualization"
+        ],
+        "style_notes": "Use clear labels, muted black/gray palette with one yellow highlight; vector output preferred"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Konkretne narzędzia oszczędzania",
+      "title": "Infografika - 5 sprawdzonych metod redukcji kosztów",
+      "description": "Pionowa infografika prezentująca 5 metod: optymalizacja obrazów, CDN, dobór planu hostingu, automatyzacja aktualizacji, negocjowanie umów.",
+      "alt_text": "Infografika z 5 metodami oszczędzania: optymalizacja obrazów, CDN, dopasowanie hostingu, automatyzacja, negocjacje umów",
+      "prompt": "Vertical infographic with 5 cost saving methods: image optimization, CDN, right-sized hosting plan, update automation, contract negotiation; numbered steps with simple icons, clean lines, black/white/gray palette, subtle yellow highlights, modern professional style, no people",
+      "placement": "after_paragraph_1_in_savings_section",
+      "keywords": [
+        "optymalizacja",
+        "CDN",
+        "oszczędności",
+        "infografika"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "infographic checklist minimal",
+        "pexels_query": "vertical infographic clean design",
+        "keywords_for_search": [
+          "cost saving infographic",
+          "optimization steps infographic",
+          "business checklist design"
+        ],
+        "style_notes": "Vertical layout, numbered items, icons for each point, brand colors: black/white/gray + subtle yellow accents"
+      }
+    },
+    {
+      "type": "illustration",
+      "subtype": "infographic",
+      "section": "Jak skutecznie planować i kontrolować opłaty cykliczne",
+      "title": "Grafika - Prosty kalendarz płatności i przypomnień",
+      "description": "Ilustracja kalendarza z zaznaczonymi datami odnowień (domena, hosting, SSL, subskrypcje) i przykładowym harmonogramem oszczędzania miesięcznego.",
+      "alt_text": "Kalendarz płatności z datami odnowień: domena, hosting, certyfikat SSL i subskrypcje oraz miesięczny plan oszczędności",
+      "prompt": "Clean payment calendar illustration marking renewal dates for domain, hosting, SSL and subscriptions; include small savings jar icon and monthly allocation boxes, minimalist business style, white background, black/gray with yellow accents, no people",
+      "placement": "after_paragraph_2_in_budgeting_section",
+      "keywords": [
+        "kalendarz",
+        "odnowienia",
+        "budżetowanie",
+        "przypomnienia"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "calendar reminders minimal design",
+        "pexels_query": "business calendar schedule clean",
+        "keywords_for_search": [
+          "payment calendar",
+          "renewal reminders",
+          "subscription calendar"
+        ],
+        "style_notes": "Simple calendar UI, highlight renewal dates, use brand palette, exportable for print/PDF"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "SSL i certyfikaty bezpieczeństwa",
+      "title": "Screenshot (mockup) - Panel instalacji Let's Encrypt",
+      "description": "Mockup screenshot kroków instalacji darmowego certyfikatu Let's Encrypt w panelu hostingowym, z podświetlonymi kluczowymi przyciskami i etapami.",
+      "alt_text": "Mockup panelu instalacji certyfikatu Let's Encrypt z zaznaczonymi krokami weryfikacji domeny i aktywacji certyfikatu SSL",
+      "prompt": "Mockup screenshot of Let's Encrypt certificate installation panel in a hosting control panel, showing domain verification step and 'Install' button highlighted, clean UI, minimalist colors, annotations optional, high resolution, no people",
+      "placement": "after_paragraph_2_in_ssl_section",
+      "keywords": [
+        "SSL",
+        "Let's Encrypt",
+        "instalacja",
+        "panel"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "server control panel screenshot mockup",
+        "pexels_query": "dashboard interface screenshot clean",
+        "keywords_for_search": [
+          "SSL panel mockup",
+          "control panel screenshot",
+          "letsencrypt mockup"
+        ],
+        "style_notes": "UI screenshot style, annotated steps, monochrome with yellow highlights; avoid real user data"
+      }
+    },
+    {
+      "type": "screenshot",
+      "subtype": "interface",
+      "section": "Utrzymanie techniczne i monitoring",
+      "title": "Screenshot (mockup) - Dashboard monitoringu wydajności (GTmetrix/Pingdom)",
+      "description": "Mockup dashboardu monitoringu z wynikami PageSpeed / uptime, alertami i trendami wydajności, pokazujący jak działa monitoring 24/7.",
+      "alt_text": "Dashboard monitoringu wydajności z wynikami PageSpeed, uptime i trendami czasu ładowania oraz alertami",
+      "prompt": "Mockup performance monitoring dashboard showing PageSpeed scores, uptime timeline and alerts, minimalist UI, readable charts and KPIs, black/white/gray palette with yellow alert accents, high quality screenshot style, no people",
+      "placement": "after_paragraph_1_in_monitoring_section",
+      "keywords": [
+        "monitoring",
+        "wydajność",
+        "PageSpeed",
+        "uptime"
+      ],
+      "stock_suggestions": {
+        "unsplash_query": "website performance dashboard screenshot",
+        "pexels_query": "analytics dashboard UI mockup",
+        "keywords_for_search": [
+          "performance monitoring dashboard",
+          "PageSpeed report",
+          "uptime dashboard"
+        ],
+        "style_notes": "Clean dashboard UI, emphasize readable KPIs, use brand color accents, export as PNG for article"
+      }
+    }
+  ],
+  "total_count": 7
+}
